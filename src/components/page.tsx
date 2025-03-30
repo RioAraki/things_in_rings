@@ -212,13 +212,13 @@ export default function SetDiagramPage() {
       <h1 className="text-2xl font-bold mb-4">Set Diagram Word Sorter</h1>
       <DragDropContext onDragEnd={onDragEnd}>
         <div className="flex flex-row h-[calc(100%-4rem)]">
-          <div className="w-1/2 pr-2" ref={diagramRef}>
+          <div style={{width: "70%"}} className="pr-2 border h-full overflow-hidden">  
             <SetDiagram 
               areaWords={areaWords} 
               setAreaWords={setAreaWords}
             />
           </div>
-          <div className="w-1/2 pl-2">
+          <div style={{width: "30%"}} className="pl-2 border">  
             <WordList words={words} />
           </div>
         </div>

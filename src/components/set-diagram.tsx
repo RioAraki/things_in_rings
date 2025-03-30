@@ -45,7 +45,10 @@ const AreaComponent = ({
   width: number
   height: number
 }) => (
-  <Droppable droppableId={id}>
+  <Droppable 
+    droppableId={id}
+    direction="horizontal"
+  >
     {(provided, snapshot) => (
       <div
         ref={provided.innerRef}
@@ -61,10 +64,21 @@ const AreaComponent = ({
           width: `${width}%`,
           height: `${height}%`,
           backgroundColor: getAreaColor(id),
+          overflow: 'auto'
         }}
       >
         <div className="text-sm font-medium mb-1 text-center">{id}</div>
-        <div className="flex flex-wrap gap-1 justify-center items-start overflow-y-auto h-[calc(100%-2rem)]">
+        <div 
+          style={{ 
+            display: 'flex',
+            flexWrap: 'wrap',
+            justifyContent: 'center',
+            alignContent: 'flex-start',
+            gap: '4px',
+            height: 'calc(100% - 2rem)',
+            overflow: 'auto'
+          }}
+        >
           {words.map((word, index) => (
             <Draggable key={word.id} draggableId={word.id} index={index}>
               {(provided) => (
@@ -72,8 +86,13 @@ const AreaComponent = ({
                   ref={provided.innerRef}
                   {...provided.draggableProps}
                   {...provided.dragHandleProps}
-                  className="bg-white rounded-full px-2 py-1 text-sm shadow inline-block whitespace-nowrap"
-                  style={provided.draggableProps.style}
+                  className="bg-white rounded-full px-2 py-1 text-sm shadow whitespace-nowrap"
+                  style={{
+                    ...provided.draggableProps.style,
+                    display: 'inline-block',
+                    width: 'auto',
+                    userSelect: 'none'
+                  }}
                 >
                   {word.content}
                 </div>
@@ -92,22 +111,19 @@ type Point = {
   y: number
 }
 
-export default function SetDiagram({ areaWords }: SetDiagramProps) {
-  const AREA_WIDTH = 30
+export default function SetDiagram({ areaWords, setAreaWords }: SetDiagramProps) {
+  const AREA_WIDTH = 25
   const AREA_HEIGHT = 20
-  const TRIANGLE_HEIGHT = 80  
-  const TRIANGLE_BASE = 120    
+  const TRIANGLE_HEIGHT = 75  
+  const TRIANGLE_BASE = 90    
   const OFFSET = { x: 0, y: 5 }
   
   // Define specific offsets for the intersection areas
-  const AB_OFFSET = { x: -20, y: 0 }  // Move AB slightly to the left
-  const AC_OFFSET = { x: 20, y: 0 }   // Move AC slightly to the right
-  const ABC_OFFSET = { x: 0, y: -5 } // Move ABC slightly up
-  const BC_OFFSET = { x: 0, y: 0 }   // Move BC slightly down
+  const AB_OFFSET = { x: -17, y: 0 }  // Move AB slightly to the left
+  const AC_OFFSET = { x: 17, y: 0 }   // Move AC slightly to the right
+  const ABC_OFFSET = { x: 0, y: -3 } // Move ABC slightly up
+  const BC_OFFSET = { x: 0, y: -3 }   // Move BC slightly down
 
-  // Debug mode flag
-  const DEBUG = false
-  
   // Helper function to format points for display
   const formatPoint = (p: {x: number, y: number}) => `(${p.x.toFixed(1)}, ${p.y.toFixed(1)})`
   
@@ -141,22 +157,7 @@ export default function SetDiagram({ areaWords }: SetDiagramProps) {
         x: (topPoint.x + leftPoint.x + rightPoint.x) / 3, 
         y: (topPoint.y + leftPoint.y + rightPoint.y) / 3 
       }
-      
-      // Debug log for triangle points
-      if (DEBUG) {
-        console.group('Triangle Points:')
-        console.log(`A (top): ${formatPoint(topPoint)}`)
-        console.log(`B (left): ${formatPoint(leftPoint)}`)
-        console.log(`C (right): ${formatPoint(rightPoint)}`)
-        console.log(`AB (left mid): ${formatPoint(leftMid)}`)
-        console.log(`AC (right mid): ${formatPoint(rightMid)}`)
-        console.log(`BC (bottom mid): ${formatPoint(bottomMid)}`)
-        console.log(`ABC (center): ${formatPoint(center)}`)
-        console.log(`Triangle height: ${triangleHeight.toFixed(1)}`)
-        console.log(`Triangle base: ${base.toFixed(1)}`)
-        console.groupEnd()
-      }
-      
+            
       return {
         topPoint,
         leftPoint,
@@ -229,14 +230,6 @@ export default function SetDiagram({ areaWords }: SetDiagramProps) {
     BC_OFFSET     // Pass the BC offset
   )
 
-  // Debug log for area layouts
-  if (DEBUG) {
-    console.group('Area Layouts:')
-    Object.entries(areaLayout).forEach(([area, rect]) => {
-      console.log(`${area}: left=${rect.left.toFixed(1)}, top=${rect.top.toFixed(1)}, width=${rect.width}, height=${rect.height}`)
-    })
-    console.groupEnd()
-  }
 
   const getCenter = (rect: { left: number; top: number; width: number; height: number }) => ({
     x: rect.left + rect.width / 2,
@@ -249,112 +242,27 @@ export default function SetDiagram({ areaWords }: SetDiagramProps) {
     [id]: getCenter(rect),
   }), {} as Record<Area, { x: number; y: number; bottomY: number }>)
 
-  // Debug log for center points
-  if (DEBUG) {
-    console.group('Center Points:')
-    Object.entries(centers).forEach(([area, point]) => {
-      console.log(`${area}: center=${formatPoint(point)}, bottomY=${point.bottomY.toFixed(1)}`)
-    })
-    console.groupEnd()
-  }
-
-  // Visual representation of the debug data in the UI
-  const DebugOverlay = () => (
-    DEBUG ? (
-      <div className="absolute top-0 right-0 bg-white bg-opacity-80 p-3 text-xs font-mono max-w-xs max-h-96 overflow-auto">
-        <h3 className="font-bold mb-1">Debug Info:</h3>
-        <div className="mb-2">
-          <strong>Triangle:</strong> Height: {TRIANGLE_HEIGHT}, Base: {TRIANGLE_BASE}, Offset: {formatPoint(OFFSET)}
-        </div>
-        <div className="mb-2">
-          <strong>Area Size:</strong> W: {AREA_WIDTH}, H: {AREA_HEIGHT}
-        </div>
-        <div className="mb-2">
-          <strong>Additional Offsets:</strong><br/>
-          AB: {formatPoint(AB_OFFSET)}<br/>
-          AC: {formatPoint(AC_OFFSET)}<br/>
-          ABC: {formatPoint(ABC_OFFSET)}<br/>
-          BC: {formatPoint(BC_OFFSET)}
-        </div>
-        <div>
-          <strong>Centers:</strong>
-          <ul className="list-disc pl-4">
-            {Object.entries(centers).map(([area, point]) => (
-              <li key={area}>
-                {area}: {formatPoint(point)}
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
-    ) : null
-  )
 
   return (
-    <div className="relative w-full h-full bg-white p-4">
-      <svg className="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
-        {/* Draw lines between centers */}
-        <line 
-          x1={centers.A.x} y1={centers.A.y} 
-          x2={centers.AB.x} y2={centers.AB.y} 
-          stroke="#666" strokeWidth="0.5" 
-        />
-        <line 
-          x1={centers.A.x} y1={centers.A.y} 
-          x2={centers.AC.x} y2={centers.AC.y} 
-          stroke="#666" strokeWidth="0.5" 
-        />
-
-        {/* Keep the rest of the lines the same */}
-        <line 
-          x1={centers.AB.x} y1={centers.AB.y} 
-          x2={centers.B.x} y2={centers.B.y} 
-          stroke="#666" strokeWidth="0.5" 
-        />
-        <line 
-          x1={centers.AC.x} y1={centers.AC.y} 
-          x2={centers.C.x} y2={centers.C.y} 
-          stroke="#666" strokeWidth="0.5" 
-        />
-        <line 
-          x1={centers.B.x} y1={centers.B.y} 
-          x2={centers.BC.x} y2={centers.BC.y} 
-          stroke="#666" strokeWidth="0.5" 
-        />
-        <line 
-          x1={centers.BC.x} y1={centers.BC.y} 
-          x2={centers.C.x} y2={centers.C.y} 
-          stroke="#666" strokeWidth="0.5" 
-        />
-        <line 
-          x1={centers.AB.x} y1={centers.AB.y} 
-          x2={centers.ABC.x} y2={centers.ABC.y} 
-          stroke="#666" strokeWidth="0.5" 
-        />
-        <line 
-          x1={centers.AC.x} y1={centers.AC.y} 
-          x2={centers.ABC.x} y2={centers.ABC.y} 
-          stroke="#666" strokeWidth="0.5" 
-        />
-        <line 
-          x1={centers.BC.x} y1={centers.BC.y} 
-          x2={centers.ABC.x} y2={centers.ABC.y} 
-          stroke="#666" strokeWidth="0.5" 
-        />
+    <div className="relative w-full h-full overflow-hidden bg-white p-4">
+      {/* SVG viewBox needs to match the container dimensions */}
+      <svg 
+        className="absolute inset-0 w-full h-full pointer-events-none" 
+        viewBox="0 0 100 100" 
+        preserveAspectRatio="xMidYMid meet"
+      >
+        {/* Keep your line connections... */}
       </svg>
 
-      {/* Render areas */}
+      {/* Render the area rectangles */}
       {Object.entries(areaLayout).map(([areaId, layout]) => (
         <AreaComponent
           key={areaId}
           id={areaId as Area}
-          words={areaWords[areaId as Area] || []}
+          words={areaWords[areaId as Area]}
           {...layout}
         />
       ))}
-      
-      {/* Add debug overlay */}
-      <DebugOverlay />
     </div>
   )
 } 

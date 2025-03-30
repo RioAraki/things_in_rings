@@ -4,7 +4,7 @@ import Page from './components/page';
 
 function App() {
   return (
-    <div className="App h-screen flex flex-col">
+    <div>
       <Page />
     </div>
   );
