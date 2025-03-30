@@ -140,16 +140,16 @@ type Point = {
 
 export default function SetDiagram({ areaWords, setAreaWords }: SetDiagramProps) {
   const AREA_WIDTH = 25
-  const AREA_HEIGHT = 20
-  const TRIANGLE_HEIGHT = 75  
-  const TRIANGLE_BASE = 90    
-  const OFFSET = { x: 0, y: 5 }
+  const AREA_HEIGHT = 22
+  const TRIANGLE_HEIGHT = 80  // Taller triangle
+  const TRIANGLE_BASE = 100   // Wider base
+  const OFFSET = { x: 0, y: 0 }
   
-  // Define specific offsets for the intersection areas
-  const AB_OFFSET = { x: -17, y: 0 }  // Move AB slightly to the left
-  const AC_OFFSET = { x: 17, y: 0 }   // Move AC slightly to the right
-  const ABC_OFFSET = { x: 0, y: -3 } // Move ABC slightly up
-  const BC_OFFSET = { x: 0, y: -3 }   // Move BC slightly down
+  // Define specific offsets for proper positioning
+  const AB_OFFSET = { x: -15, y: 0 }   // Context+Property
+  const AC_OFFSET = { x: 15, y: 0 }    // Context+Wording
+  const ABC_OFFSET = { x: 0, y: 0 }   // All
+  const BC_OFFSET = { x: 0, y: 5 }    // Property+Wording
 
   // Helper function to format points for display
   const formatPoint = (p: {x: number, y: number}) => `(${p.x.toFixed(1)}, ${p.y.toFixed(1)})`
@@ -161,7 +161,6 @@ export default function SetDiagram({ areaWords, setAreaWords }: SetDiagramProps)
     offset: Point,
     areaWidth: number,
     areaHeight: number,
-    // Add new offset parameters with default values (0,0)
     abOffset: Point = { x: 0, y: 0 },
     acOffset: Point = { x: 0, y: 0 },
     abcOffset: Point = { x: 0, y: 0 },
@@ -170,29 +169,29 @@ export default function SetDiagram({ areaWords, setAreaWords }: SetDiagramProps)
     // Helper to calculate triangle points
     const calculateTrianglePoints = () => {
       // Calculate positions based on height and base
-      const topPoint = { x: offset.x + base/2, y: offset.y }
-      const leftPoint = { x: offset.x, y: offset.y + triangleHeight }
-      const rightPoint = { x: offset.x + base, y: offset.y + triangleHeight }
+      const topPoint = { x: offset.x + base/2, y: offset.y }       // Context at top
+      const leftPoint = { x: offset.x, y: offset.y + triangleHeight }  // Property at bottom left
+      const rightPoint = { x: offset.x + base, y: offset.y + triangleHeight }  // Wording at bottom right
       
       // Midpoints of sides
-      const leftMid = { x: (topPoint.x + leftPoint.x)/2, y: (topPoint.y + leftPoint.y)/2 }
-      const rightMid = { x: (topPoint.x + rightPoint.x)/2, y: (topPoint.y + rightPoint.y)/2 }
-      const bottomMid = { x: (leftPoint.x + rightPoint.x)/2, y: leftPoint.y }
+      const leftMid = { x: (topPoint.x + leftPoint.x)/2, y: (topPoint.y + leftPoint.y)/2 }  // Context+Property
+      const rightMid = { x: (topPoint.x + rightPoint.x)/2, y: (topPoint.y + rightPoint.y)/2 }  // Context+Wording
+      const bottomMid = { x: (leftPoint.x + rightPoint.x)/2, y: leftPoint.y }  // Property+Wording
       
       // Center point - calculate true centroid of triangle
       const center = { 
         x: (topPoint.x + leftPoint.x + rightPoint.x) / 3, 
         y: (topPoint.y + leftPoint.y + rightPoint.y) / 3 
-      }
-            
+      }  // All
+      
       return {
-        topPoint,
-        leftPoint,
-        rightPoint,
-        leftMid,
-        rightMid,
-        bottomMid,
-        center
+        topPoint,      // Context
+        leftPoint,     // Property
+        rightPoint,    // Wording
+        leftMid,       // Context+Property 
+        rightMid,      // Context+Wording
+        bottomMid,     // Property+Wording
+        center         // All
       }
     }
 
@@ -200,31 +199,34 @@ export default function SetDiagram({ areaWords, setAreaWords }: SetDiagramProps)
     
     // Convert points to area layouts with width/height
     return {
+      // Main vertices of the triangle
       Context: { 
         left: points.topPoint.x - areaWidth/2, 
         top: points.topPoint.y,
         width: areaWidth, 
         height: areaHeight 
       },
-      'Context+Property': { 
+      Property: { 
         left: points.leftPoint.x, 
         top: points.leftPoint.y - areaHeight/2,
         width: areaWidth, 
         height: areaHeight 
       },
-      'Context+Wording': { 
+      Wording: { 
         left: points.rightPoint.x - areaWidth, 
         top: points.rightPoint.y - areaHeight/2,
         width: areaWidth, 
         height: areaHeight 
       },
-      'All': { 
+      
+      // Intersections - along the edges of triangle
+      'Context+Property': { 
         left: points.leftMid.x + abOffset.x, 
         top: points.leftMid.y - areaHeight/2 + abOffset.y,
         width: areaWidth, 
         height: areaHeight 
       },
-      'Property': { 
+      'Context+Wording': { 
         left: points.rightMid.x - areaWidth + acOffset.x, 
         top: points.rightMid.y - areaHeight/2 + acOffset.y,
         width: areaWidth, 
@@ -236,14 +238,18 @@ export default function SetDiagram({ areaWords, setAreaWords }: SetDiagramProps)
         width: areaWidth, 
         height: areaHeight 
       },
-      'Wording': { 
+      
+      // Center of the triangle
+      'All': { 
         left: points.center.x - areaWidth/2 + abcOffset.x, 
         top: points.center.y - areaHeight/2 + abcOffset.y,
         width: areaWidth, 
         height: areaHeight 
       },
+      
+      // None rectangle to the right of Context
       'None': {
-        left: points.topPoint.x + areaWidth/2 + 5, // A's right edge + 5% spacing 
+        left: points.topPoint.x + areaWidth/2 + 5, 
         top: points.topPoint.y,
         width: areaWidth,
         height: areaHeight
@@ -278,13 +284,69 @@ export default function SetDiagram({ areaWords, setAreaWords }: SetDiagramProps)
 
   return (
     <div className="relative w-full h-full overflow-hidden bg-white p-4">
-      {/* SVG viewBox needs to match the container dimensions */}
       <svg 
         className="absolute inset-0 w-full h-full pointer-events-none" 
         viewBox="0 0 100 100" 
         preserveAspectRatio="xMidYMid meet"
       >
-        {/* Keep your line connections... */}
+        {/* Connect Context to Context+Property */}
+        <line 
+          x1={centers.Context.x} y1={centers.Context.y}
+          x2={centers['Context+Property'].x} y2={centers['Context+Property'].y}
+          stroke="#666" strokeWidth="0.5" 
+        />
+        
+        {/* Connect Context to Context+Wording */}
+        <line 
+          x1={centers.Context.x} y1={centers.Context.y}
+          x2={centers['Context+Wording'].x} y2={centers['Context+Wording'].y}
+          stroke="#666" strokeWidth="0.5" 
+        />
+        
+        {/* Connect Property to Context+Property */}
+        <line 
+          x1={centers.Property.x} y1={centers.Property.y}
+          x2={centers['Context+Property'].x} y2={centers['Context+Property'].y}
+          stroke="#666" strokeWidth="0.5" 
+        />
+        
+        {/* Connect Property to Property+Wording */}
+        <line 
+          x1={centers.Property.x} y1={centers.Property.y}
+          x2={centers['Property+Wording'].x} y2={centers['Property+Wording'].y}
+          stroke="#666" strokeWidth="0.5" 
+        />
+        
+        {/* Connect Wording to Context+Wording */}
+        <line 
+          x1={centers.Wording.x} y1={centers.Wording.y}
+          x2={centers['Context+Wording'].x} y2={centers['Context+Wording'].y}
+          stroke="#666" strokeWidth="0.5" 
+        />
+        
+        {/* Connect Wording to Property+Wording */}
+        <line 
+          x1={centers.Wording.x} y1={centers.Wording.y}
+          x2={centers['Property+Wording'].x} y2={centers['Property+Wording'].y}
+          stroke="#666" strokeWidth="0.5" 
+        />
+        
+        {/* Connect intersections to the All area */}
+        <line 
+          x1={centers['Context+Property'].x} y1={centers['Context+Property'].y}
+          x2={centers.All.x} y2={centers.All.y}
+          stroke="#666" strokeWidth="0.5" 
+        />
+        <line 
+          x1={centers['Context+Wording'].x} y1={centers['Context+Wording'].y}
+          x2={centers.All.x} y2={centers.All.y}
+          stroke="#666" strokeWidth="0.5" 
+        />
+        <line 
+          x1={centers['Property+Wording'].x} y1={centers['Property+Wording'].y}
+          x2={centers.All.x} y2={centers.All.y}
+          stroke="#666" strokeWidth="0.5" 
+        />
       </svg>
 
       {/* Render the area rectangles */}
