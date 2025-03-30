@@ -1,0 +1,1 @@
+export type Area = "A" | "B" | "C" | "AB" | "BC" | "AC" | "ABC" | "None" 
