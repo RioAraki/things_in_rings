@@ -1,1 +1,1 @@
-export type Area = "A" | "B" | "C" | "AB" | "BC" | "AC" | "ABC" | "None" 
+export type Area = "Context" | "Context+Property" | "Wording" | "Property" | "Property+Wording" | "Context+Wording" | "All" | "None" 

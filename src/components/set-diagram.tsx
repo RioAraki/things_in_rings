@@ -11,22 +11,32 @@ type SetDiagramProps = {
 
 const getAreaColor = (area: Area): string => {
   switch (area) {
-    case 'A':
-      return '#f3f4f6' // gray-100
-    case 'B':
-      return '#f3f4f6'
-    case 'C':
-      return '#f3f4f6'
-    case 'AB':
-      return '#fef3c7' // amber-100
-    case 'BC':
-      return '#fef3c7'
-    case 'AC':
-      return '#fef3c7'
-    case 'ABC':
-      return '#e0f2fe' // sky-100
+    // Primary sets with more vivid colors
+    case 'Context':
+      return '#ffcccb'; // More saturated light red
+    case 'Property':
+      return '#c1f0c1'; // More saturated light green
+    case 'Wording':
+      return '#c7c7ff'; // More saturated light blue
+      
+    // Intersection sets with more vivid mixed colors
+    case 'Context+Property':
+      return '#ffec99'; // More saturated light yellow (red + green)
+    case 'Context+Wording':
+      return '#f5c6ff'; // More saturated light purple (red + blue)
+    case 'Property+Wording':
+      return '#a8e6e6'; // More saturated light cyan (green + blue)
+      
+    // Triple intersection - slightly more colorful
+    case 'All':
+      return '#e2e2f0'; // Light lavender gray (all mixed)
+    
+    // None rectangle - significantly darker
+    case 'None':
+      return '#595959'; // Dark gray
+      
     default:
-      return '#ffffff'
+      return '#ffffff'; // White as fallback
   }
 }
 
@@ -48,6 +58,7 @@ const AreaComponent = ({
   <Droppable 
     droppableId={id}
     direction="horizontal"
+    isDropDisabled={false}
   >
     {(provided, snapshot) => (
       <div
@@ -64,10 +75,13 @@ const AreaComponent = ({
           width: `${width}%`,
           height: `${height}%`,
           backgroundColor: getAreaColor(id),
-          overflow: 'auto'
+          overflow: 'auto',
+          pointerEvents: 'auto'
         }}
       >
-        <div className="text-sm font-medium mb-1 text-center">{id}</div>
+        <div className={`text-sm font-medium mb-1 text-center ${id === 'None' ? 'text-white' : 'text-black'}`}>
+          {id}
+        </div>
         <div 
           style={{ 
             display: 'flex',
@@ -76,22 +90,35 @@ const AreaComponent = ({
             alignContent: 'flex-start',
             gap: '4px',
             height: 'calc(100% - 2rem)',
-            overflow: 'auto'
+            overflow: 'auto',
+            pointerEvents: 'auto'
           }}
         >
           {words.map((word, index) => (
-            <Draggable key={word.id} draggableId={word.id} index={index}>
-              {(provided) => (
+            <Draggable 
+              key={word.id} 
+              draggableId={word.id} 
+              index={index}
+              isDragDisabled={word.isPlaced === true}
+            >
+              {(provided, snapshot) => (
                 <div
                   ref={provided.innerRef}
                   {...provided.draggableProps}
                   {...provided.dragHandleProps}
-                  className="bg-white rounded-full px-2 py-1 text-sm shadow whitespace-nowrap"
+                  className={`
+                    bg-white rounded-full px-2 py-1 text-sm shadow 
+                    whitespace-nowrap
+                    ${snapshot.isDragging ? 'opacity-50' : 'opacity-100'}
+                    ${word.isPlaced ? 'cursor-default opacity-80' : 'cursor-grab'}
+                  `}
                   style={{
                     ...provided.draggableProps.style,
                     display: 'inline-block',
                     width: 'auto',
-                    userSelect: 'none'
+                    userSelect: 'none',
+                    cursor: word.isPlaced ? 'default' : 'grab',
+                    zIndex: snapshot.isDragging ? 9999 : 'auto'
                   }}
                 >
                   {word.content}
@@ -173,47 +200,53 @@ export default function SetDiagram({ areaWords, setAreaWords }: SetDiagramProps)
     
     // Convert points to area layouts with width/height
     return {
-      A: { 
+      Context: { 
         left: points.topPoint.x - areaWidth/2, 
         top: points.topPoint.y,
         width: areaWidth, 
         height: areaHeight 
       },
-      B: { 
+      'Context+Property': { 
         left: points.leftPoint.x, 
         top: points.leftPoint.y - areaHeight/2,
         width: areaWidth, 
         height: areaHeight 
       },
-      C: { 
+      'Context+Wording': { 
         left: points.rightPoint.x - areaWidth, 
         top: points.rightPoint.y - areaHeight/2,
         width: areaWidth, 
         height: areaHeight 
       },
-      AB: { 
+      'All': { 
         left: points.leftMid.x + abOffset.x, 
         top: points.leftMid.y - areaHeight/2 + abOffset.y,
         width: areaWidth, 
         height: areaHeight 
       },
-      AC: { 
+      'Property': { 
         left: points.rightMid.x - areaWidth + acOffset.x, 
         top: points.rightMid.y - areaHeight/2 + acOffset.y,
         width: areaWidth, 
         height: areaHeight 
       },
-      BC: { 
+      'Property+Wording': { 
         left: points.bottomMid.x - areaWidth/2 + bcOffset.x, 
         top: points.bottomMid.y - areaHeight/2 + bcOffset.y,
         width: areaWidth, 
         height: areaHeight 
       },
-      ABC: { 
+      'Wording': { 
         left: points.center.x - areaWidth/2 + abcOffset.x, 
         top: points.center.y - areaHeight/2 + abcOffset.y,
         width: areaWidth, 
         height: areaHeight 
+      },
+      'None': {
+        left: points.topPoint.x + areaWidth/2 + 5, // A's right edge + 5% spacing 
+        top: points.topPoint.y,
+        width: areaWidth,
+        height: areaHeight
       }
     }
   }
@@ -259,7 +292,7 @@ export default function SetDiagram({ areaWords, setAreaWords }: SetDiagramProps)
         <AreaComponent
           key={areaId}
           id={areaId as Area}
-          words={areaWords[areaId as Area]}
+          words={areaWords[areaId as Area] || []}
           {...layout}
         />
       ))}
