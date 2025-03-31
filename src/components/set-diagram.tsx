@@ -31,9 +31,9 @@ const getAreaColor = (area: Area): string => {
     case 'All':
       return '#e2e2f0'; // Light lavender gray (all mixed)
     
-    // None rectangle - significantly darker
+    // None rectangle - medium gray instead of dark gray
     case 'None':
-      return '#595959'; // Dark gray
+      return '#999999'; // Medium gray instead of very dark gray
       
     default:
       return '#ffffff'; // White as fallback

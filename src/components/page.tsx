@@ -1,11 +1,38 @@
 "use client"
 
-import { useState, useRef } from "react"
+import { useState, useEffect } from "react"
 import { DragDropContext, type DropResult } from "@hello-pangea/dnd"
 import WordList from "./word-list"
 import SetDiagram from "./set-diagram"
 import { type Word } from "../types/word"
 import { type Area } from "../types/area"
+
+// Dynamic image loading setup
+const wordImages: Record<string, string> = {};
+
+// This function will try to load an image for a given word
+// If it fails, it will return a placeholder image
+const getWordImage = (word: string): string => {
+  const formattedWord = word.toLowerCase();
+  
+  try {
+    // Try to get the image from our cache
+    if (!wordImages[formattedWord]) {
+      // If not cached, try to dynamically require it
+      wordImages[formattedWord] = require(`../resources/${formattedWord}.png`);
+    }
+    return wordImages[formattedWord];
+  } catch (error) {
+    // If the image doesn't exist, return a placeholder
+    console.warn(`Image for "${word}" not found, using placeholder`);
+    try {
+      return require('../resources/placeholder.png');
+    } catch {
+      // If even the placeholder doesn't exist, return apple as fallback
+      return require('../resources/apple.png');
+    }
+  }
+};
 
 // Define circle centers and radius
 const circles = {
@@ -77,36 +104,9 @@ const isInsideCircle = (x: number, y: number, circle: typeof circles.Context) =>
   return Math.pow(x - circle.x, 2) + Math.pow(y - circle.y, 2) <= Math.pow(circle.r, 2);
 };
 
-// Helper function to check if a rectangle is fully contained within a circle or intersection
-const isRectangleSafe = (rect: { x: number, y: number, width: number, height: number }, area: Area) => {
-  // Check all four corners of the rectangle
-  const corners = [
-    { x: rect.x, y: rect.y },
-    { x: rect.x + rect.width, y: rect.y },
-    { x: rect.x, y: rect.y + rect.height },
-    { x: rect.x + rect.width, y: rect.y + rect.height }
-  ];
-
-  switch (area) {
-    case 'Context':
-      return corners.every(corner => isInsideCircle(corner.x, corner.y, circles.Context));
-    case 'Property':
-      return corners.every(corner => isInsideCircle(corner.x, corner.y, circles.Property));
-    case 'Wording':
-      return corners.every(corner => isInsideCircle(corner.x, corner.y, circles.Wording));
-    case 'Context+Property':
-      return corners.every(corner => 
-        isInsideCircle(corner.x, corner.y, circles.Context) && 
-        isInsideCircle(corner.x, corner.y, circles.Property)
-      );
-    // Add other cases for the remaining areas
-    default:
-      return true;
-  }
-};
-
 export default function SetDiagramPage() {
-  const [words, setWords] = useState<Word[]>([
+  // Store all available words that haven't been shown yet
+  const [allWords, setAllWords] = useState<Word[]>([
     { id: "word1", content: "Telescope" },
     { id: "word2", content: "Penguin" },
     { id: "word3", content: "Cinnamon" },
@@ -128,6 +128,17 @@ export default function SetDiagramPage() {
     { id: "word19", content: "Saddle" },
     { id: "word20", content: "Whistle" },
   ])
+  
+  // Store only the currently visible words in the word list (maximum 5)
+  const [visibleWords, setVisibleWords] = useState<Word[]>([])
+  
+  // Initialize the visible words when the component mounts
+  useEffect(() => {
+    // Take the first 5 words from allWords and make them visible
+    setVisibleWords(allWords.slice(0, 5));
+    // Remove those words from allWords
+    setAllWords(allWords.slice(5));
+  }, [allWords]);
 
   const [areaWords, setAreaWords] = useState<Record<Area, Word[]>>({
     Context: [],
@@ -143,26 +154,8 @@ export default function SetDiagramPage() {
   // Add logs state to track user actions
   const [logs, setLogs] = useState<string[]>([])
 
-  const diagramRef = useRef<HTMLDivElement>(null)
-
-  const calculateDistance = (x1: number, y1: number, x2: number, y2: number) => {
-    return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2))
-  }
-
-  const findClosestArea = (x: number, y: number): Area => {
-    let closestArea: Area = "None"
-    let minDistance = Number.MAX_VALUE
-
-    Object.entries(areaSafeZones).forEach(([area, zone]) => {
-      const distance = calculateDistance(x, y, zone.x, zone.y)
-      if (distance < minDistance) {
-        minDistance = distance
-        closestArea = area as Area
-      }
-    })
-
-    return closestArea
-  }
+  // Add a state to track the currently selected/moved word
+  const [selectedWord, setSelectedWord] = useState<Word | null>(null);
 
   const onDragEnd = (result: DropResult) => {
     const { source, destination } = result
@@ -183,9 +176,12 @@ export default function SetDiagramPage() {
     // Case 1: From wordList to an area
     if (source.droppableId === 'wordList' && destination.droppableId !== 'wordList') {
       // Safety check: ensure the word exists
-      if (!words || source.index >= words.length) return
+      if (!visibleWords || source.index >= visibleWords.length) return
       
-      const word = words[source.index]
+      const word = visibleWords[source.index]
+      
+      // Update the selected word when dragged
+      setSelectedWord(word);
       
       // Safety check: ensure the destination area exists
       if (!areaWords[destination.droppableId as Area]) {
@@ -199,12 +195,23 @@ export default function SetDiagramPage() {
         ...prev
       ])
 
-      // Remove from words list
-      setWords(prev => {
-        const newWords = [...prev]
-        newWords.splice(source.index, 1)
-        return newWords
-      })
+      // Remove from visible words list
+      setVisibleWords(prev => {
+        const newVisibleWords = [...prev];
+        newVisibleWords.splice(source.index, 1);
+        
+        // Add a new word from allWords if available
+        if (allWords.length > 0) {
+          // Get the next word and add it to visible words
+          const nextWord = allWords[0];
+          newVisibleWords.push(nextWord);
+          
+          // Remove that word from allWords
+          setAllWords(prev => prev.slice(1));
+        }
+        
+        return newVisibleWords;
+      });
 
       // Add to destination area - mark as placed
       setAreaWords(prev => ({
@@ -230,8 +237,16 @@ export default function SetDiagramPage() {
       
       const word = sourceArea[source.index]
       
-      // Add to words list
-      setWords(prev => [...prev, word])
+      // Update the selected word when dragged
+      setSelectedWord(word);
+      
+      // Add to visible words list (but only if there's room)
+      if (visibleWords.length < 5) {
+        setVisibleWords(prev => [...prev, word]);
+      } else {
+        // If we already have 5 visible words, add it back to allWords
+        setAllWords(prev => [...prev, word]);
+      }
       
       // Remove from source area
       setAreaWords(prev => {
@@ -262,6 +277,10 @@ export default function SetDiagramPage() {
         if (source.index >= areaItems.length) return prev;
         
         const [movedItem] = areaItems.splice(source.index, 1)
+        
+        // Update the selected word when reordered
+        setSelectedWord(movedItem);
+        
         areaItems.splice(destination.index, 0, movedItem)
         
         return {
@@ -287,6 +306,10 @@ export default function SetDiagramPage() {
       if (source.index >= sourceWords.length) return prev;
       
       const [removed] = sourceWords.splice(source.index, 1)
+      
+      // Update the selected word when moved between areas
+      setSelectedWord(removed);
+      
       destWords.splice(destination.index, 0, removed)
 
       return {
@@ -296,6 +319,11 @@ export default function SetDiagramPage() {
       }
     })
   }
+
+  // Handle selection of a word from the word list
+  const handleSelectWord = (word: Word) => {
+    setSelectedWord(word);
+  };
 
   return (
     <div className="container mx-auto p-4 h-screen">
@@ -310,28 +338,60 @@ export default function SetDiagramPage() {
             />
           </div>
           
-          {/* Right side - split into Word List and Log (30%) */}
+          {/* Right side - split into Word List, Picture, and Log (30%) */}
           <div style={{width: "30%"}} className="pl-2 flex flex-col h-full">
-            {/* Word List (top half) */}
-            <div className="h-1/2 mb-2 border overflow-hidden">
-              <WordList words={words} />
+            {/* Word List (top third) */}
+            <div style={{height: "30%"}} className="mb-4 overflow-hidden">
+              <WordList 
+                words={visibleWords} 
+                onSelectWord={handleSelectWord} 
+              />
             </div>
             
-            {/* Log (bottom half) */}
-            <div className="h-1/2 border overflow-auto bg-gray-50 p-4">
-              <h2 className="text-xl font-semibold mb-4">Log</h2>
-              <div className="space-y-2">
-                {logs.length > 0 ? (
-                  logs.map((log, index) => (
-                    <div key={index} className="text-sm border-b pb-1">
-                      {log}
+            {/* Picture (middle third) */}
+            <div style={{height: "30%"}} className="mb-4 bg-gray-100 p-4 rounded-lg flex flex-col">
+              <h2 className="text-xl font-semibold mb-3">
+                {selectedWord ? `Picture: ${selectedWord.content}` : 'Select a word'}
+              </h2>
+              <div className="flex-grow flex items-center justify-center">
+                <img 
+                  src={selectedWord 
+                    ? getWordImage(selectedWord.content)
+                    : require('../resources/placeholder.png')} 
+                  alt={selectedWord ? selectedWord.content : "Select a word"} 
+                  className="rounded-lg object-contain"
+                  style={{ 
+                    maxHeight: "80%", 
+                    maxWidth: "80%",
+                    display: "block",
+                    margin: "auto"
+                  }}
+                />
+              </div>
+            </div>
+            
+            {/* Log (bottom third) */}
+            <div style={{height: "30%"}} className="bg-gray-100 p-4 rounded-lg flex flex-col">
+              <h2 className="text-xl font-semibold mb-3">Log</h2>
+              
+              {/* Scrollable container for ALL logs */}
+              <div className="overflow-y-auto flex-grow">
+                <div className="space-y-2">
+                  {logs.length > 0 ? (
+                    logs.map((log, index) => (
+                      <div 
+                        key={index} 
+                        className="text-sm border-b pb-1 pt-1"
+                      >
+                        {log}
+                      </div>
+                    ))
+                  ) : (
+                    <div className="text-sm text-gray-500 italic">
+                      No actions logged yet. Drag words to categories to see logs.
                     </div>
-                  ))
-                ) : (
-                  <div className="text-sm text-gray-500 italic">
-                    No actions logged yet. Drag words to categories to see logs.
-                  </div>
-                )}
+                  )}
+                </div>
               </div>
             </div>
           </div>

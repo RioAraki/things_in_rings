@@ -7,9 +7,10 @@ type Word = {
 
 type WordListProps = {
   words: Word[]
+  onSelectWord?: (word: Word) => void
 }
 
-export default function WordList({ words }: WordListProps) {
+export default function WordList({ words, onSelectWord }: WordListProps) {
   return (
     <div className="bg-gray-100 p-4 rounded-lg h-full flex flex-col">
       <h2 className="text-xl font-semibold mb-4">Word List</h2>
@@ -28,8 +29,9 @@ export default function WordList({ words }: WordListProps) {
                       ref={provided.innerRef}
                       {...provided.draggableProps}
                       {...provided.dragHandleProps}
-                      className="bg-white rounded-full px-2 py-1 text-sm shadow inline-block whitespace-nowrap"
+                      className="bg-white rounded-full px-2 py-1 text-sm shadow inline-block whitespace-nowrap cursor-pointer hover:bg-blue-50"
                       style={provided.draggableProps.style}
+                      onClick={() => onSelectWord && onSelectWord(word)}
                     >
                       {word.content}
                     </div>
