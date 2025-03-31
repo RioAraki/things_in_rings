@@ -1,3 +1,4 @@
+import React from 'react'
 import { Droppable, Draggable } from "@hello-pangea/dnd"
 import { type Area } from "../types/area"
 import { type Word } from "../types/word"
@@ -55,11 +56,7 @@ const AreaComponent = ({
   width: number
   height: number
 }) => (
-  <Droppable 
-    droppableId={id}
-    direction="horizontal"
-    isDropDisabled={false}
-  >
+  <Droppable droppableId={id}>
     {(provided, snapshot) => (
       <div
         ref={provided.innerRef}
@@ -75,31 +72,16 @@ const AreaComponent = ({
           width: `${width}%`,
           height: `${height}%`,
           backgroundColor: getAreaColor(id),
-          overflow: 'auto',
-          pointerEvents: 'auto'
         }}
       >
-        <div className={`text-sm font-medium mb-1 text-center ${id === 'None' ? 'text-white' : 'text-black'}`}>
-          {id}
-        </div>
-        <div 
-          style={{ 
-            display: 'flex',
-            flexWrap: 'wrap',
-            justifyContent: 'center',
-            alignContent: 'flex-start',
-            gap: '4px',
-            height: 'calc(100% - 2rem)',
-            overflow: 'auto',
-            pointerEvents: 'auto'
-          }}
-        >
+        <div className="text-sm font-medium mb-1 text-center">{id}</div>
+        <div className="flex flex-wrap gap-1 justify-center items-start">
           {words.map((word, index) => (
             <Draggable 
               key={word.id} 
               draggableId={word.id} 
               index={index}
-              isDragDisabled={word.isPlaced === true}
+              isDragDisabled={word.isChecked}
             >
               {(provided, snapshot) => (
                 <div
@@ -107,21 +89,27 @@ const AreaComponent = ({
                   {...provided.draggableProps}
                   {...provided.dragHandleProps}
                   className={`
-                    bg-white rounded-full px-2 py-1 text-sm shadow 
-                    whitespace-nowrap
-                    ${snapshot.isDragging ? 'opacity-50' : 'opacity-100'}
-                    ${word.isPlaced ? 'cursor-default opacity-80' : 'cursor-grab'}
+                    rounded-full px-2 py-1 text-sm shadow inline-block whitespace-nowrap
+                    transition-all duration-700 ease-in-out
+                    ${word.isAutoMoved ? 'scale-75 opacity-0' : 'scale-100 opacity-100'}
+                    ${word.isChecked ? 'opacity-80' : ''}
                   `}
                   style={{
                     ...provided.draggableProps.style,
-                    display: 'inline-block',
-                    width: 'auto',
-                    userSelect: 'none',
-                    cursor: word.isPlaced ? 'default' : 'grab',
-                    zIndex: snapshot.isDragging ? 9999 : 'auto'
+                    backgroundColor: word.isChecked 
+                      ? (word.isCorrect 
+                          ? (word.wasAutoMoved ? '#fef08a' : '#86efac') // yellow for system-corrected, green for user-correct
+                          : '#fca5a5') // red for incorrect
+                      : 'white',
+                    cursor: word.isChecked ? 'not-allowed' : 'grab',
+                    transition: 'all 0.7s ease-in-out',
+                    transform: `${provided.draggableProps.style?.transform || ''} ${
+                      word.isAutoMoved ? 'scale(0.75)' : 'scale(1)'
+                    }`,
+                    opacity: word.isAutoMoved ? 0 : 1,
                   }}
                 >
-                  {word.content}
+                  {word.word}
                 </div>
               )}
             </Draggable>
@@ -138,7 +126,7 @@ type Point = {
   y: number
 }
 
-export default function SetDiagram({ areaWords, setAreaWords }: SetDiagramProps) {
+const SetDiagram: React.FC<SetDiagramProps> = ({ areaWords, setAreaWords }) => {
   const AREA_WIDTH = 25
   const AREA_HEIGHT = 22
   const TRIANGLE_HEIGHT = 80  // Taller triangle
@@ -360,4 +348,6 @@ export default function SetDiagram({ areaWords, setAreaWords }: SetDiagramProps)
       ))}
     </div>
   )
-} 
+}
+
+export default SetDiagram 

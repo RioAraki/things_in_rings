@@ -1,0 +1,403 @@
+{
+  "words": [
+    {
+      "id": "1",
+      "word": "Telescope",
+      "questions": [
+        { "ruleId": 1, "result": false },
+        { "ruleId": 2, "result": true },
+        { "ruleId": 3, "result": true },
+        { "ruleId": 4, "result": true },
+        { "ruleId": 5, "result": false },
+        { "ruleId": 6, "result": true },
+        { "ruleId": 7, "result": true },
+        { "ruleId": 8, "result": false },
+        { "ruleId": 9, "result": true },
+        { "ruleId": 10, "result": false },
+        { "ruleId": 11, "result": true },
+        { "ruleId": 12, "result": false },
+        { "ruleId": 13, "result": false },
+        { "ruleId": 14, "result": false },
+        { "ruleId": 15, "result": false }
+      ]
+    },
+    {
+      "id": "2",
+      "word": "Penguin",
+      "questions": [
+        { "ruleId": 1, "result": false },
+        { "ruleId": 2, "result": true },
+        { "ruleId": 3, "result": false },
+        { "ruleId": 4, "result": false },
+        { "ruleId": 5, "result": false },
+        { "ruleId": 6, "result": false },
+        { "ruleId": 7, "result": false },
+        { "ruleId": 8, "result": false },
+        { "ruleId": 9, "result": false },
+        { "ruleId": 10, "result": true },
+        { "ruleId": 11, "result": true },
+        { "ruleId": 12, "result": false },
+        { "ruleId": 13, "result": true },
+        { "ruleId": 14, "result": false },
+        { "ruleId": 15, "result": true }
+      ]
+    },
+    {
+      "id": "3",
+      "word": "Cinnamon",
+      "questions": [
+        { "ruleId": 1, "result": true },
+        { "ruleId": 2, "result": false },
+        { "ruleId": 3, "result": false },
+        { "ruleId": 4, "result": false },
+        { "ruleId": 5, "result": true },
+        { "ruleId": 6, "result": false },
+        { "ruleId": 7, "result": true },
+        { "ruleId": 8, "result": false },
+        { "ruleId": 9, "result": false },
+        { "ruleId": 10, "result": true },
+        { "ruleId": 11, "result": true },
+        { "ruleId": 12, "result": false },
+        { "ruleId": 13, "result": true },
+        { "ruleId": 14, "result": false },
+        { "ruleId": 15, "result": false }
+      ]
+    },
+    {
+      "id": "4",
+      "word": "Umbrella",
+      "questions": [
+        { "ruleId": 1, "result": true },
+        { "ruleId": 2, "result": true },
+        { "ruleId": 3, "result": false },
+        { "ruleId": 4, "result": false },
+        { "ruleId": 5, "result": false },
+        { "ruleId": 6, "result": false },
+        { "ruleId": 7, "result": true },
+        { "ruleId": 8, "result": false },
+        { "ruleId": 9, "result": false },
+        { "ruleId": 10, "result": false },
+        { "ruleId": 11, "result": true },
+        { "ruleId": 12, "result": true },
+        { "ruleId": 13, "result": true },
+        { "ruleId": 14, "result": false },
+        { "ruleId": 15, "result": false }
+      ]
+    },
+    {
+      "id": "5",
+      "word": "Volcano",
+      "questions": [
+        { "ruleId": 1, "result": false },
+        { "ruleId": 2, "result": true },
+        { "ruleId": 3, "result": false },
+        { "ruleId": 4, "result": true },
+        { "ruleId": 5, "result": false },
+        { "ruleId": 6, "result": false },
+        { "ruleId": 7, "result": false },
+        { "ruleId": 8, "result": false },
+        { "ruleId": 9, "result": false },
+        { "ruleId": 10, "result": true },
+        { "ruleId": 11, "result": true },
+        { "ruleId": 12, "result": false },
+        { "ruleId": 13, "result": false },
+        { "ruleId": 14, "result": false },
+        { "ruleId": 15, "result": false }
+      ]
+    },
+    {
+      "id": "6",
+      "word": "Compass",
+      "questions": [
+        { "ruleId": 1, "result": false },
+        { "ruleId": 2, "result": true },
+        { "ruleId": 3, "result": true },
+        { "ruleId": 4, "result": true },
+        { "ruleId": 5, "result": false },
+        { "ruleId": 6, "result": true },
+        { "ruleId": 7, "result": true },
+        { "ruleId": 8, "result": false },
+        { "ruleId": 9, "result": false },
+        { "ruleId": 10, "result": false },
+        { "ruleId": 11, "result": true },
+        { "ruleId": 12, "result": false },
+        { "ruleId": 13, "result": true },
+        { "ruleId": 14, "result": false },
+        { "ruleId": 15, "result": false }
+      ]
+    },
+    {
+      "id": "7",
+      "word": "Bamboo",
+      "questions": [
+        { "ruleId": 1, "result": false },
+        { "ruleId": 2, "result": true },
+        { "ruleId": 3, "result": false },
+        { "ruleId": 4, "result": false },
+        { "ruleId": 5, "result": false },
+        { "ruleId": 6, "result": false },
+        { "ruleId": 7, "result": true },
+        { "ruleId": 8, "result": false },
+        { "ruleId": 9, "result": false },
+        { "ruleId": 10, "result": true },
+        { "ruleId": 11, "result": true },
+        { "ruleId": 12, "result": false },
+        { "ruleId": 13, "result": false },
+        { "ruleId": 14, "result": false },
+        { "ruleId": 15, "result": false }
+      ]
+    },
+    {
+      "id": "8",
+      "word": "Lantern",
+      "questions": [
+        { "ruleId": 1, "result": true },
+        { "ruleId": 2, "result": true },
+        { "ruleId": 3, "result": false },
+        { "ruleId": 4, "result": false },
+        { "ruleId": 5, "result": false },
+        { "ruleId": 6, "result": true },
+        { "ruleId": 7, "result": true },
+        { "ruleId": 8, "result": false },
+        { "ruleId": 9, "result": false },
+        { "ruleId": 10, "result": false },
+        { "ruleId": 11, "result": true },
+        { "ruleId": 12, "result": false },
+        { "ruleId": 13, "result": true },
+        { "ruleId": 14, "result": false },
+        { "ruleId": 15, "result": false }
+      ]
+    },
+    {
+      "id": "9",
+      "word": "Dolphin",
+      "questions": [
+        { "ruleId": 1, "result": false },
+        { "ruleId": 2, "result": true },
+        { "ruleId": 3, "result": false },
+        { "ruleId": 4, "result": false },
+        { "ruleId": 5, "result": false },
+        { "ruleId": 6, "result": false },
+        { "ruleId": 7, "result": false },
+        { "ruleId": 8, "result": false },
+        { "ruleId": 9, "result": false },
+        { "ruleId": 10, "result": true },
+        { "ruleId": 11, "result": true },
+        { "ruleId": 12, "result": false },
+        { "ruleId": 13, "result": true },
+        { "ruleId": 14, "result": false },
+        { "ruleId": 15, "result": false }
+      ]
+    },
+    {
+      "id": "10",
+      "word": "Hammer",
+      "questions": [
+        { "ruleId": 1, "result": true },
+        { "ruleId": 2, "result": false },
+        { "ruleId": 3, "result": true },
+        { "ruleId": 4, "result": false },
+        { "ruleId": 5, "result": false },
+        { "ruleId": 6, "result": false },
+        { "ruleId": 7, "result": true },
+        { "ruleId": 8, "result": false },
+        { "ruleId": 9, "result": false },
+        { "ruleId": 10, "result": false },
+        { "ruleId": 11, "result": true },
+        { "ruleId": 12, "result": false },
+        { "ruleId": 13, "result": true },
+        { "ruleId": 14, "result": false },
+        { "ruleId": 15, "result": false }
+      ]
+    },
+    {
+      "id": "11",
+      "word": "Crystal",
+      "questions": [
+        { "ruleId": 1, "result": true },
+        { "ruleId": 2, "result": true },
+        { "ruleId": 3, "result": false },
+        { "ruleId": 4, "result": false },
+        { "ruleId": 5, "result": false },
+        { "ruleId": 6, "result": true },
+        { "ruleId": 7, "result": true },
+        { "ruleId": 8, "result": false },
+        { "ruleId": 9, "result": false },
+        { "ruleId": 10, "result": true },
+        { "ruleId": 11, "result": true },
+        { "ruleId": 12, "result": false },
+        { "ruleId": 13, "result": true },
+        { "ruleId": 14, "result": false },
+        { "ruleId": 15, "result": false }
+      ]
+    },
+    {
+      "id": "12",
+      "word": "Basket",
+      "questions": [
+        { "ruleId": 1, "result": true },
+        { "ruleId": 2, "result": false },
+        { "ruleId": 3, "result": false },
+        { "ruleId": 4, "result": false },
+        { "ruleId": 5, "result": true },
+        { "ruleId": 6, "result": false },
+        { "ruleId": 7, "result": true },
+        { "ruleId": 8, "result": false },
+        { "ruleId": 9, "result": false },
+        { "ruleId": 10, "result": false },
+        { "ruleId": 11, "result": true },
+        { "ruleId": 12, "result": false },
+        { "ruleId": 13, "result": true },
+        { "ruleId": 14, "result": false },
+        { "ruleId": 15, "result": false }
+      ]
+    },
+    {
+      "id": "13",
+      "word": "Cactus",
+      "questions": [
+        { "ruleId": 1, "result": true },
+        { "ruleId": 2, "result": true },
+        { "ruleId": 3, "result": false },
+        { "ruleId": 4, "result": false },
+        { "ruleId": 5, "result": false },
+        { "ruleId": 6, "result": true },
+        { "ruleId": 7, "result": true },
+        { "ruleId": 8, "result": false },
+        { "ruleId": 9, "result": false },
+        { "ruleId": 10, "result": true },
+        { "ruleId": 11, "result": true },
+        { "ruleId": 12, "result": false },
+        { "ruleId": 13, "result": true },
+        { "ruleId": 14, "result": false },
+        { "ruleId": 15, "result": false }
+      ]
+    },
+    {
+      "id": "14",
+      "word": "Feather",
+      "questions": [
+        { "ruleId": 1, "result": false },
+        { "ruleId": 2, "result": true },
+        { "ruleId": 3, "result": false },
+        { "ruleId": 4, "result": false },
+        { "ruleId": 5, "result": false },
+        { "ruleId": 6, "result": true },
+        { "ruleId": 7, "result": true },
+        { "ruleId": 8, "result": false },
+        { "ruleId": 9, "result": false },
+        { "ruleId": 10, "result": true },
+        { "ruleId": 11, "result": true },
+        { "ruleId": 12, "result": false },
+        { "ruleId": 13, "result": true },
+        { "ruleId": 14, "result": false },
+        { "ruleId": 15, "result": false }
+      ]
+    },
+    {
+      "id": "15",
+      "word": "Kettle",
+      "questions": [
+        { "ruleId": 1, "result": true },
+        { "ruleId": 2, "result": false },
+        { "ruleId": 3, "result": false },
+        { "ruleId": 4, "result": false },
+        { "ruleId": 5, "result": true },
+        { "ruleId": 6, "result": true },
+        { "ruleId": 7, "result": true },
+        { "ruleId": 8, "result": true },
+        { "ruleId": 9, "result": false },
+        { "ruleId": 10, "result": false },
+        { "ruleId": 11, "result": true },
+        { "ruleId": 12, "result": false },
+        { "ruleId": 13, "result": true },
+        { "ruleId": 14, "result": false },
+        { "ruleId": 15, "result": true }
+      ]
+    },
+    {
+      "id": "16",
+      "word": "Marble",
+      "questions": [
+        { "ruleId": 1, "result": true },
+        { "ruleId": 2, "result": false },
+        { "ruleId": 3, "result": false },
+        { "ruleId": 4, "result": true },
+        { "ruleId": 5, "result": false },
+        { "ruleId": 6, "result": true },
+        { "ruleId": 7, "result": true },
+        { "ruleId": 8, "result": false },
+        { "ruleId": 9, "result": false },
+        { "ruleId": 10, "result": true },
+        { "ruleId": 11, "result": true },
+        { "ruleId": 12, "result": false },
+        { "ruleId": 13, "result": true },
+        { "ruleId": 14, "result": false },
+        { "ruleId": 15, "result": true }
+      ]
+    },
+    {
+      "id": "17",
+      "word": "Pyramid",
+      "questions": [
+        { "ruleId": 1, "result": false },
+        { "ruleId": 2, "result": true },
+        { "ruleId": 3, "result": false },
+        { "ruleId": 4, "result": true },
+        { "ruleId": 5, "result": false },
+        { "ruleId": 6, "result": false },
+        { "ruleId": 7, "result": false },
+        { "ruleId": 8, "result": false },
+        { "ruleId": 9, "result": false },
+        { "ruleId": 10, "result": false },
+        { "ruleId": 11, "result": true },
+        { "ruleId": 12, "result": false },
+        { "ruleId": 13, "result": true },
+        { "ruleId": 14, "result": false },
+        { "ruleId": 15, "result": false }
+      ]
+    },
+    {
+      "id": "18",
+      "word": "Saddle",
+      "questions": [
+        { "ruleId": 1, "result": true },
+        { "ruleId": 2, "result": true },
+        { "ruleId": 3, "result": false },
+        { "ruleId": 4, "result": false },
+        { "ruleId": 5, "result": false },
+        { "ruleId": 6, "result": false },
+        { "ruleId": 7, "result": true },
+        { "ruleId": 8, "result": false },
+        { "ruleId": 9, "result": false },
+        { "ruleId": 10, "result": false },
+        { "ruleId": 11, "result": true },
+        { "ruleId": 12, "result": false },
+        { "ruleId": 13, "result": true },
+        { "ruleId": 14, "result": false },
+        { "ruleId": 15, "result": true }
+      ]
+    },
+    {
+      "id": "19",
+      "word": "Whistle",
+      "questions": [
+        { "ruleId": 1, "result": true },
+        { "ruleId": 2, "result": true },
+        { "ruleId": 3, "result": true },
+        { "ruleId": 4, "result": true },
+        { "ruleId": 5, "result": false },
+        { "ruleId": 6, "result": false },
+        { "ruleId": 7, "result": true },
+        { "ruleId": 8, "result": false },
+        { "ruleId": 9, "result": false },
+        { "ruleId": 10, "result": false },
+        { "ruleId": 11, "result": true },
+        { "ruleId": 12, "result": false },
+        { "ruleId": 13, "result": true },
+        { "ruleId": 14, "result": false },
+        { "ruleId": 15, "result": true }
+      ]
+    }
+  ]
+} 

@@ -1,1 +1,9 @@
-export type Area = "Context" | "Context+Property" | "Wording" | "Property" | "Property+Wording" | "Context+Wording" | "All" | "None" 
+export type Area = 
+  | "Context" 
+  | "Property" 
+  | "Wording" 
+  | "Context+Property" 
+  | "Context+Wording" 
+  | "Property+Wording" 
+  | "All" 
+  | "None"; 

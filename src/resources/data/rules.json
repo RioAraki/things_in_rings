@@ -1,0 +1,25 @@
+{
+  "rulesByType": {
+    "context": [
+      { "id": 1, "question": "Can this object typically be found in homes?" },
+      { "id": 2, "question": "Is this object commonly found or used outside?" },
+      { "id": 3, "question": "Is this object regularly used in professional settings?" },
+      { "id": 4, "question": "Is this object commonly used in educational settings?" },
+      { "id": 5, "question": "Is this object primarily used for cooking or dining?" }
+    ],
+    "property": [
+      { "id": 6, "question": "Is this object easily breakable?" },
+      { "id": 7, "question": "Can this object be easily carried around?" },
+      { "id": 8, "question": "Does this object require electricity to function?" },
+      { "id": 9, "question": "Does this object typically cost a lot of money?" },
+      { "id": 10, "question": "Can this object be found in nature without human modification?" }
+    ],
+    "wording": [
+      { "id": 11, "question": "Does this word have exactly two syllables?" },
+      { "id": 12, "question": "Does this word begin with a vowel (a,e,i,o,u)?" },
+      { "id": 13, "question": "Does this word end with a consonant?" },
+      { "id": 14, "question": "Does this word contain exactly five letters?" },
+      { "id": 15, "question": "Does this word contain a letter that isn't pronounced?" }
+    ]
+  }
+} 

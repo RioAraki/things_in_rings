@@ -1,9 +1,5 @@
 import { DragDropContext, Droppable, Draggable, type DroppableProvided, type DraggableProvided } from "@hello-pangea/dnd"
-
-type Word = {
-  id: string
-  content: string
-}
+import { type Word } from "../types/word"
 
 type WordListProps = {
   words: Word[]
@@ -33,7 +29,7 @@ export default function WordList({ words, onSelectWord }: WordListProps) {
                       style={provided.draggableProps.style}
                       onClick={() => onSelectWord && onSelectWord(word)}
                     >
-                      {word.content}
+                      {word.word}
                     </div>
                   )}
                 </Draggable>
