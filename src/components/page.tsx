@@ -9,6 +9,7 @@ import { type Area } from "../types/area"
 import { getWords } from '../utils/words'
 import { checkRule, findCorrectArea, getRules } from '../utils/rules'
 import { type Rule } from '../types/rule'
+import GameCompleteModal from './game-complete-modal'
 
 // Dynamic image loading setup
 const wordImages: Record<string, string> = {};
@@ -75,11 +76,16 @@ export default function SetDiagramPage() {
   // Add debug state
   const [showDebug, setShowDebug] = useState(false)
 
-  // Update the rules finding logic with proper type assertions
-  const rules = getRules()
-  const contextRule = rules.find(r => r.type === 'context' as const)
-  const propertyRule = rules.find(r => r.type === 'property' as const)
-  const wordingRule = rules.find(r => r.type === 'wording' as const)
+  // Add attempts state
+  const [attempts, setAttempts] = useState<number>(0);
+  const [isGameComplete, setIsGameComplete] = useState<boolean>(false);
+  const [showRuleDescriptions, setShowRuleDescriptions] = useState<boolean>(false);
+
+  // Get rules for display
+  const rules = getRules();
+  const contextRule = rules.find(r => r.type === 'context' as const);
+  const propertyRule = rules.find(r => r.type === 'property' as const);
+  const wordingRule = rules.find(r => r.type === 'wording' as const);
 
   // Add keyboard shortcut to toggle debug (Ctrl + D)
   useEffect(() => {
@@ -92,6 +98,23 @@ export default function SetDiagramPage() {
     window.addEventListener('keydown', handleKeyDown)
     return () => window.removeEventListener('keydown', handleKeyDown)
   }, [])
+
+  // Check for game completion whenever areaWords changes
+  useEffect(() => {
+    const correctWordsCount = Object.values(areaWords).reduce((count, words) => {
+      return count + words.filter(word => word.isChecked && word.isCorrect).length;
+    }, 0);
+
+    if (correctWordsCount >= 5 && !isGameComplete) {
+      setIsGameComplete(true);
+    }
+  }, [areaWords]);
+
+  // Handle checking the board
+  const handleCheckBoard = () => {
+    setShowRuleDescriptions(true);
+    setIsGameComplete(false);
+  };
 
   const onDragEnd = (result: DropResult) => {
     const { source, destination } = result
@@ -226,6 +249,7 @@ export default function SetDiagramPage() {
           ]
         }));
       }
+      setAttempts(prev => prev + 1);
       return
     }
 
@@ -333,7 +357,17 @@ export default function SetDiagramPage() {
 
   return (
     <div className="container mx-auto p-4 h-screen">
-      <h1 className="text-2xl font-bold mb-4">Set Diagram Word Sorter</h1>
+      <h1 className="text-2xl font-bold mb-4">
+        {showRuleDescriptions ? (
+          <div className="space-y-2">
+            <div>Context: {contextRule?.description}</div>
+            <div>Property: {propertyRule?.description}</div>
+            <div>Wording: {wordingRule?.description}</div>
+          </div>
+        ) : (
+          "Set Diagram Word Sorter"
+        )}
+      </h1>
 
       {/* Add debug panel - press Ctrl+D to toggle */}
       {showDebug && (
@@ -436,6 +470,12 @@ export default function SetDiagramPage() {
           </div>
         </div>
       </DragDropContext>
+
+      <GameCompleteModal 
+        attempts={attempts}
+        onCheckBoard={handleCheckBoard}
+        isOpen={isGameComplete}
+      />
     </div>
   )
 }

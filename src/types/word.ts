@@ -3,9 +3,9 @@ export type WordQuestion = {
   result: boolean
 }
 
-export type Word = {
-  id: string    // Using string for the numeric ID to match drag-drop requirements
-  word: string  // The actual word content
+export interface Word {
+  id: string;
+  word: string;
   questions: WordQuestion[]
   isPlaced?: boolean
   isChecked?: boolean
