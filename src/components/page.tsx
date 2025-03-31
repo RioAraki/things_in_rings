@@ -134,11 +134,14 @@ export default function SetDiagramPage() {
   
   // Initialize the visible words when the component mounts
   useEffect(() => {
-    // Take the first 5 words from allWords and make them visible
-    setVisibleWords(allWords.slice(0, 5));
-    // Remove those words from allWords
-    setAllWords(allWords.slice(5));
-  }, [allWords]);
+    // Only initialize once when the component mounts
+    if (visibleWords.length === 0) {
+      // Take the first 5 words from allWords and make them visible
+      setVisibleWords(allWords.slice(0, 5));
+      // Remove those words from allWords
+      setAllWords(prev => prev.slice(5));
+    }
+  }, []); // Empty dependency array - run only on mount
 
   const [areaWords, setAreaWords] = useState<Record<Area, Word[]>>({
     Context: [],
