@@ -8,33 +8,39 @@ type SetDiagramProps = {
   areaWords: Record<Area, Word[]>
   // Remove areaSafeZones since we're not using it anymore
   setAreaWords: React.Dispatch<React.SetStateAction<Record<Area, Word[]>>>
+  showRuleDescriptions?: boolean
+  rules?: {
+    context?: string
+    property?: string
+    wording?: string
+  }
 }
 
 const getAreaColor = (area: Area): string => {
   switch (area) {
     // Primary sets with more vivid colors
     case 'Context':
-      return '#ffcccb'; // More saturated light red
+      return '#ffdddb'; // More saturated light red
     case 'Property':
-      return '#c1f0c1'; // More saturated light green
+      return '#d1ffd1'; // More saturated light green
     case 'Wording':
-      return '#c7c7ff'; // More saturated light blue
+      return '#d7d7ff'; // More saturated light blue
       
     // Intersection sets with more vivid mixed colors
     case 'Context+Property':
-      return '#ffec99'; // More saturated light yellow (red + green)
+      return '#fff3aa'; // More saturated light yellow (red + green)
     case 'Context+Wording':
-      return '#f5c6ff'; // More saturated light purple (red + blue)
+      return '#f7d6ff'; // More saturated light purple (red + blue)
     case 'Property+Wording':
-      return '#a8e6e6'; // More saturated light cyan (green + blue)
+      return '#b8f6f6'; // More saturated light cyan (green + blue)
       
     // Triple intersection - slightly more colorful
     case 'All':
-      return '#e2e2f0'; // Light lavender gray (all mixed)
+      return '#e8e8fa'; // Light lavender gray (all mixed)
     
     // None rectangle - medium gray instead of dark gray
     case 'None':
-      return '#999999'; // Medium gray instead of very dark gray
+      return '#b3b3b3'; // Medium gray instead of very dark gray
       
     default:
       return '#ffffff'; // White as fallback
@@ -48,6 +54,8 @@ const AreaComponent = ({
   top,
   width,
   height,
+  showRuleDescriptions,
+  rules
 }: {
   id: Area
   words: Word[]
@@ -55,80 +63,204 @@ const AreaComponent = ({
   top: number
   width: number
   height: number
-}) => (
-  <Droppable droppableId={id}>
-    {(provided, snapshot) => (
-      <div
-        ref={provided.innerRef}
-        {...provided.droppableProps}
-        className={`
-          absolute border-2 rounded-lg p-2
-          ${snapshot.isDraggingOver ? "border-blue-500 bg-blue-50" : "border-gray-300"}
-          transition-colors duration-200
-        `}
-        style={{
-          left: `${left}%`,
-          top: `${top}%`,
-          width: `${width}%`,
-          height: `${height}%`,
-          backgroundColor: getAreaColor(id),
-        }}
-      >
-        <div className="text-sm font-medium mb-1 text-center">{id}</div>
-        <div className="flex flex-wrap gap-1 justify-center items-start">
-          {words.map((word, index) => (
-            <Draggable 
-              key={word.id} 
-              draggableId={word.id} 
-              index={index}
-              isDragDisabled={word.isChecked}
-            >
-              {(provided, snapshot) => (
-                <div
-                  ref={provided.innerRef}
-                  {...provided.draggableProps}
-                  {...provided.dragHandleProps}
-                  className={`
-                    rounded-full px-2 py-1 text-sm shadow inline-block whitespace-nowrap
-                    transition-all duration-700 ease-in-out
-                    ${word.isAutoMoved ? 'scale-75 opacity-0' : 'scale-100 opacity-100'}
-                    ${word.isChecked ? 'opacity-80' : ''}
-                  `}
-                  style={{
-                    ...provided.draggableProps.style,
-                    backgroundColor: word.isChecked 
-                      ? (word.isCorrect 
-                          ? (word.wasAutoMoved ? '#fef08a' : '#86efac') // yellow for system-corrected, green for user-correct
-                          : '#fca5a5') // red for incorrect
-                      : 'white',
-                    cursor: word.isChecked ? 'not-allowed' : 'grab',
-                    transition: 'all 0.7s ease-in-out',
-                    transform: `${provided.draggableProps.style?.transform || ''} ${
-                      word.isAutoMoved ? 'scale(0.75)' : 'scale(1)'
-                    }`,
-                    opacity: word.isAutoMoved ? 0 : 1,
-                  }}
-                >
-                  {word.word}
-                </div>
-              )}
-            </Draggable>
-          ))}
-          {provided.placeholder}
+  showRuleDescriptions?: boolean
+  rules?: {
+    context?: string
+    property?: string
+    wording?: string
+  }
+}) => {
+  // Function to get the title based on the area and whether to show rules
+  const getAreaTitle = (): React.ReactNode => {
+    if (!showRuleDescriptions) {
+      return id; // Just show the area name if not showing rules
+    }
+    
+    // For simple areas, show the associated rule with prefix
+    if (id === 'Context' && rules?.context) {
+      return (
+        <div>
+          <span className="font-bold block mb-1">Context:</span>
+          {rules.context}
         </div>
-      </div>
-    )}
-  </Droppable>
-)
+      );
+    }
+    if (id === 'Property' && rules?.property) {
+      return (
+        <div>
+          <span className="font-bold block mb-1">Property:</span>
+          {rules.property}
+        </div>
+      );
+    }
+    if (id === 'Wording' && rules?.wording) {
+      return (
+        <div>
+          <span className="font-bold block mb-1">Wording:</span>
+          {rules.wording}
+        </div>
+      );
+    }
+    
+    // For combination areas, add a title with styling
+    if (id.includes('+')) {
+      return (
+        <div className="text-sm font-bold">{id}</div>
+      );
+    }
+    
+    // For All or None
+    return <div className="text-sm font-bold">{id}</div>;
+  };
+
+  // Get the title text based on current state
+  const areaTitle = getAreaTitle();
+  
+  // For the tooltip, we need a string value
+  const tooltipTitle = (() => {
+    if (typeof areaTitle === 'string') return areaTitle;
+    if (id === 'Context' && rules?.context) return `Context: ${rules.context}`;
+    if (id === 'Property' && rules?.property) return `Property: ${rules.property}`;
+    if (id === 'Wording' && rules?.wording) return `Wording: ${rules.wording}`;
+    return id;
+  })();
+
+  return (
+    <Droppable droppableId={id}>
+      {(provided, snapshot) => (
+        <div
+          ref={provided.innerRef}
+          {...provided.droppableProps}
+          className={`
+            absolute border-2 rounded-lg p-2
+            ${snapshot.isDraggingOver ? "border-blue-500 bg-blue-50" : "border-gray-300"}
+            transition-colors duration-200
+          `}
+          style={{
+            left: `${left}%`,
+            top: `${top}%`,
+            width: `${width}%`,
+            height: `${height}%`,
+            backgroundColor: getAreaColor(id),
+          }}
+        >
+          <div 
+            className={`
+              mb-1 text-center 
+              ${showRuleDescriptions 
+                ? 'text-xs md:text-sm font-bold py-2 px-2 bg-white/90 rounded shadow-sm' 
+                : 'text-sm font-medium'
+              }
+            `} 
+            title={tooltipTitle}
+            style={{
+              overflow: 'hidden',
+              maxWidth: '100%',
+              lineHeight: '1.3',
+              ...(showRuleDescriptions 
+                ? { 
+                    minHeight: '3.5rem', 
+                    maxHeight: '5rem',
+                    overflowY: 'auto',
+                    display: 'flex', 
+                    alignItems: 'center', 
+                    justifyContent: 'center',
+                    whiteSpace: 'normal',  // Allow text to wrap
+                    overflowWrap: 'break-word', // Break long words if needed
+                    wordBreak: 'break-word',
+                    hyphens: 'auto',
+                  } 
+                : {
+                    whiteSpace: 'nowrap',
+                    textOverflow: 'ellipsis',
+                  }
+              )
+            }}
+          >
+            {areaTitle}
+          </div>
+          <div className="flex flex-wrap gap-1 justify-center items-start">
+            {words.map((word, index) => (
+              <Draggable 
+                key={word.id} 
+                draggableId={word.id} 
+                index={index}
+                isDragDisabled={word.isChecked}
+              >
+                {(provided, snapshot) => (
+                  <div
+                    ref={provided.innerRef}
+                    {...provided.draggableProps}
+                    {...provided.dragHandleProps}
+                    className={`
+                      rounded-full px-2 py-1 text-sm shadow inline-block whitespace-nowrap
+                      transition-all duration-700 ease-in-out
+                      ${word.isAutoMoved ? 'scale-75 opacity-0' : 'scale-100 opacity-100'}
+                      ${word.isChecked ? 'opacity-80' : ''}
+                    `}
+                    style={{
+                      ...provided.draggableProps.style,
+                      backgroundColor: word.isChecked 
+                        ? (word.isCorrect 
+                            ? (word.wasAutoMoved ? '#fef08a' : '#86efac') // yellow for system-corrected, green for user-correct
+                            : '#fca5a5') // red for incorrect
+                        : 'white',
+                      cursor: word.isChecked ? 'not-allowed' : 'grab',
+                      transition: 'all 0.7s ease-in-out',
+                      transform: `${provided.draggableProps.style?.transform || ''} ${
+                        word.isAutoMoved ? 'scale(0.75)' : 'scale(1)'
+                      }`,
+                      opacity: word.isAutoMoved ? 0 : 1,
+                      // Add border to make the distinction more clear
+                      border: word.isChecked && word.isCorrect 
+                        ? (word.wasAutoMoved 
+                            ? '2px dashed #eab308' // dashed border for system-corrected
+                            : '2px solid #22c55e') // solid border for user-correct
+                        : 'none',
+                      // Add subtle checkmark or info icon
+                      paddingRight: word.isChecked ? '22px' : '8px',
+                    }}
+                  >
+                    {word.word}
+                    {word.isChecked && (
+                      <span 
+                        className="absolute right-1 text-xs" 
+                        style={{ 
+                          top: '50%', 
+                          transform: 'translateY(-50%)'
+                        }}
+                      >
+                        {word.isCorrect 
+                          ? (word.wasAutoMoved ? '⟳' : '✓') 
+                          : '✗'}
+                      </span>
+                    )}
+                  </div>
+                )}
+              </Draggable>
+            ))}
+            {provided.placeholder}
+          </div>
+        </div>
+      )}
+    </Droppable>
+  );
+}
 
 type Point = {
   x: number
   y: number
 }
 
-const SetDiagram: React.FC<SetDiagramProps> = ({ areaWords, setAreaWords }) => {
+const SetDiagram: React.FC<SetDiagramProps> = ({ 
+  areaWords, 
+  setAreaWords, 
+  showRuleDescriptions = false,
+  rules = {}
+}) => {
+  // Base dimensions
   const AREA_WIDTH = 25
-  const AREA_HEIGHT = 22
+  const AREA_HEIGHT = showRuleDescriptions ? 26 : 22 // Increase height when showing rules
   const TRIANGLE_HEIGHT = 80  // Taller triangle
   const TRIANGLE_BASE = 100   // Wider base
   const OFFSET = { x: 0, y: 0 }
@@ -344,6 +476,8 @@ const SetDiagram: React.FC<SetDiagramProps> = ({ areaWords, setAreaWords }) => {
           id={areaId as Area}
           words={areaWords[areaId as Area] || []}
           {...layout}
+          showRuleDescriptions={showRuleDescriptions}
+          rules={rules}
         />
       ))}
     </div>

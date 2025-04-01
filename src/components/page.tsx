@@ -81,6 +81,9 @@ export default function SetDiagramPage() {
   const [isGameComplete, setIsGameComplete] = useState<boolean>(false);
   const [showRuleDescriptions, setShowRuleDescriptions] = useState<boolean>(false);
 
+  // Add state to track user-correct word count
+  const [correctWordCount, setCorrectWordCount] = useState<number>(0);
+
   // Get rules for display
   const rules = getRules();
   const contextRule = rules.find(r => r.type === 'context' as const);
@@ -101,11 +104,17 @@ export default function SetDiagramPage() {
 
   // Check for game completion whenever areaWords changes
   useEffect(() => {
-    const correctWordsCount = Object.values(areaWords).reduce((count, words) => {
-      return count + words.filter(word => word.isChecked && word.isCorrect).length;
+    const userCorrectWords = Object.values(areaWords).reduce((count, words) => {
+      return count + words.filter(word => 
+        word.isChecked && 
+        word.isCorrect && 
+        !word.wasAutoMoved // Only count words correctly placed by the user
+      ).length;
     }, 0);
+    
+    setCorrectWordCount(userCorrectWords);
 
-    if (correctWordsCount >= 5 && !isGameComplete) {
+    if (userCorrectWords >= 5 && !isGameComplete) {
       setIsGameComplete(true);
     }
   }, [areaWords]);
@@ -358,15 +367,7 @@ export default function SetDiagramPage() {
   return (
     <div className="container mx-auto p-4 h-screen">
       <h1 className="text-2xl font-bold mb-4">
-        {showRuleDescriptions ? (
-          <div className="space-y-2">
-            <div>Context: {contextRule?.description}</div>
-            <div>Property: {propertyRule?.description}</div>
-            <div>Wording: {wordingRule?.description}</div>
-          </div>
-        ) : (
-          "Set Diagram Word Sorter"
-        )}
+        Set Diagram Word Sorter {showRuleDescriptions ? '- Rules Revealed' : ''}
       </h1>
 
       {/* Add debug panel - press Ctrl+D to toggle */}
@@ -408,6 +409,12 @@ export default function SetDiagramPage() {
             <SetDiagram 
               areaWords={areaWords} 
               setAreaWords={setAreaWords}
+              showRuleDescriptions={showRuleDescriptions}
+              rules={{
+                context: contextRule?.description,
+                property: propertyRule?.description,
+                wording: wordingRule?.description
+              }}
             />
           </div>
           
@@ -475,6 +482,7 @@ export default function SetDiagramPage() {
         attempts={attempts}
         onCheckBoard={handleCheckBoard}
         isOpen={isGameComplete}
+        correctWords={correctWordCount}
       />
     </div>
   )

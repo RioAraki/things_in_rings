@@ -4,10 +4,18 @@ type GameCompleteModalProps = {
   attempts: number;
   onCheckBoard: () => void;
   isOpen: boolean;
+  correctWords: number;
 };
 
-const GameCompleteModal: React.FC<GameCompleteModalProps> = ({ attempts, onCheckBoard, isOpen }) => {
+const GameCompleteModal: React.FC<GameCompleteModalProps> = ({ 
+  attempts, 
+  onCheckBoard, 
+  isOpen,
+  correctWords = 5
+}) => {
   if (!isOpen) return null;
+
+  const score = Math.max(100 - (attempts - correctWords) * 5, 10);
 
   return (
     <div className="fixed inset-0 flex items-center justify-center z-modal">
@@ -24,9 +32,15 @@ const GameCompleteModal: React.FC<GameCompleteModalProps> = ({ attempts, onCheck
             Congratulations! 🎉
           </h3>
           
-          <div className="mb-8">
-            <p className="text-xl text-gray-600">
+          <div className="mb-6">
+            <p className="text-xl text-gray-600 mb-2">
               You have won the game with <span className="font-semibold text-blue-600">{attempts}</span> attempts!
+            </p>
+            <p className="text-md text-gray-500 mb-2">
+              You placed {correctWords} words correctly on your first try!
+            </p>
+            <p className="text-lg font-medium">
+              Your score: <span className="text-green-600 font-bold">{score}/100</span>
             </p>
           </div>
           
