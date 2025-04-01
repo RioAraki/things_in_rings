@@ -4,12 +4,22 @@ import { type Word } from "../types/word"
 type WordListProps = {
   words: Word[]
   onSelectWord?: (word: Word) => void
+  correctWordCount?: number
 }
 
-export default function WordList({ words, onSelectWord }: WordListProps) {
+export default function WordList({ words, onSelectWord, correctWordCount = 0 }: WordListProps) {
+  const remainingWords = 5 - correctWordCount;
+  
   return (
     <div className="bg-gray-100 p-4 rounded-lg h-full flex flex-col">
-      <h2 className="text-xl font-semibold mb-4">Word List</h2>
+      <h2 className="text-xl font-semibold mb-4 flex items-center justify-between">
+        <span>Word List</span>
+        <span className="bg-white px-3 py-1 rounded-full shadow-sm border border-gray-200 font-bold text-base">
+          <span className="text-blue-600">{remainingWords}</span>
+          <span className="text-gray-500"> / </span>
+          <span className="text-gray-700">5</span>
+        </span>
+      </h2>
       <Droppable droppableId="wordList">
         {(provided: DroppableProvided) => (
           <div

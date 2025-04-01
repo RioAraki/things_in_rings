@@ -10,12 +10,17 @@ const getRandomItem = <T>(array: T[]): T => {
   return array[randomIndex];
 };
 
-// Randomly select one rule from each type
-const SELECTED_RULES = {
-  Context: getRandomItem(rulesData.rulesByType.context).id,
-  Property: getRandomItem(rulesData.rulesByType.property).id,
-  Wording: getRandomItem(rulesData.rulesByType.wording).id
-} as const;
+// Function to get a new set of randomly selected rules
+function getRandomRules() {
+  return {
+    Context: getRandomItem(rulesData.rulesByType.context).id,
+    Property: getRandomItem(rulesData.rulesByType.property).id,
+    Wording: getRandomItem(rulesData.rulesByType.wording).id
+  };
+}
+
+// Keep the selected rules in a variable that can be updated
+let SELECTED_RULES = getRandomRules();
 
 // Helper function to get rule by ID from the new structure
 const findRuleById = (id: number) => {
@@ -27,38 +32,49 @@ const findRuleById = (id: number) => {
   return allRules.find(r => r.id === id);
 };
 
-// Get the actual rule descriptions from rulesData
-const rules: Rule[] = [
-  {
-    id: SELECTED_RULES.Context,
-    type: 'context',
-    description: findRuleById(SELECTED_RULES.Context)?.question || 'Unknown context rule',
-    check: (wordId: string) => {
-      const wordData = wordsData.words.find(w => w.id === wordId);
-      return wordData?.questions.find(q => q.ruleId === SELECTED_RULES.Context)?.result ?? false;
+// Function to create rules based on selected IDs
+function createRules(selectedRules: typeof SELECTED_RULES): Rule[] {
+  return [
+    {
+      id: selectedRules.Context,
+      type: 'context',
+      description: findRuleById(selectedRules.Context)?.question || 'Unknown context rule',
+      check: (wordId: string) => {
+        const wordData = wordsData.words.find(w => w.id === wordId);
+        return wordData?.questions.find(q => q.ruleId === selectedRules.Context)?.result ?? false;
+      }
+    },
+    {
+      id: selectedRules.Property,
+      type: 'property',
+      description: findRuleById(selectedRules.Property)?.question || 'Unknown property rule',
+      check: (wordId: string) => {
+        const wordData = wordsData.words.find(w => w.id === wordId);
+        return wordData?.questions.find(q => q.ruleId === selectedRules.Property)?.result ?? false;
+      }
+    },
+    {
+      id: selectedRules.Wording,
+      type: 'wording',
+      description: findRuleById(selectedRules.Wording)?.question || 'Unknown wording rule',
+      check: (wordId: string) => {
+        const wordData = wordsData.words.find(w => w.id === wordId);
+        return wordData?.questions.find(q => q.ruleId === selectedRules.Wording)?.result ?? false;
+      }
     }
-  },
-  {
-    id: SELECTED_RULES.Property,
-    type: 'property',
-    description: findRuleById(SELECTED_RULES.Property)?.question || 'Unknown property rule',
-    check: (wordId: string) => {
-      const wordData = wordsData.words.find(w => w.id === wordId);
-      return wordData?.questions.find(q => q.ruleId === SELECTED_RULES.Property)?.result ?? false;
-    }
-  },
-  {
-    id: SELECTED_RULES.Wording,
-    type: 'wording',
-    description: findRuleById(SELECTED_RULES.Wording)?.question || 'Unknown wording rule',
-    check: (wordId: string) => {
-      const wordData = wordsData.words.find(w => w.id === wordId);
-      return wordData?.questions.find(q => q.ruleId === SELECTED_RULES.Wording)?.result ?? false;
-    }
-  }
-];
+  ];
+}
 
-export const getRules = (): Rule[] => rules;
+// Keep the current rules in a variable that can be updated
+let currentRules = createRules(SELECTED_RULES);
+
+export const getRules = (): Rule[] => currentRules;
+
+// Add function to reset rules with new random selection
+export function resetRules(): void {
+  SELECTED_RULES = getRandomRules();
+  currentRules = createRules(SELECTED_RULES);
+}
 
 export function getRulesByType(type: RuleType): Rule[] {
   return getRules().filter(rule => rule.type === type)
@@ -116,16 +132,37 @@ export const checkRule = (wordId: string, area: string): boolean => {
 };
 
 export const findCorrectArea = (wordId: string): string | null => {
-  const areas: Area[] = [
-    'Context', 'Property', 'Wording',
-    'Context+Property', 'Context+Wording', 'Property+Wording',
-    'All', 'None'
-  ];
+  // Get the results for all three basic rules
+  const contextResult = checkSingleRule(wordId, 'Context');
+  const propertyResult = checkSingleRule(wordId, 'Property');
+  const wordingResult = checkSingleRule(wordId, 'Wording');
 
-  for (const area of areas) {
-    if (checkRule(wordId, area)) {
-      return area;
-    }
+  // Count how many rules are true
+  const trueCount = [contextResult, propertyResult, wordingResult].filter(Boolean).length;
+
+  // If all rules are false, it belongs in None
+  if (trueCount === 0) {
+    return 'None';
   }
+
+  // If all three rules are true, it belongs in All
+  if (trueCount === 3) {
+    return 'All';
+  }
+
+  // If exactly two rules are true, it belongs in one of the combination areas
+  if (trueCount === 2) {
+    if (contextResult && propertyResult) return 'Context+Property';
+    if (contextResult && wordingResult) return 'Context+Wording';
+    if (propertyResult && wordingResult) return 'Property+Wording';
+  }
+
+  // If exactly one rule is true, it belongs in that basic area
+  if (trueCount === 1) {
+    if (contextResult) return 'Context';
+    if (propertyResult) return 'Property';
+    if (wordingResult) return 'Wording';
+  }
+
   return null;
 }; 

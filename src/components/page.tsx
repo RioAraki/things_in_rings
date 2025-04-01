@@ -7,7 +7,7 @@ import SetDiagram from "./set-diagram"
 import { type Word } from "../types/word"
 import { type Area } from "../types/area"
 import { getWords } from '../utils/words'
-import { checkRule, findCorrectArea, getRules } from '../utils/rules'
+import { checkRule, findCorrectArea, getRules, resetRules } from '../utils/rules'
 import { type Rule } from '../types/rule'
 import GameCompleteModal from './game-complete-modal'
 
@@ -23,17 +23,17 @@ const getWordImage = (word: string): string => {
     // Try to get the image from our cache
     if (!wordImages[formattedWord]) {
       // If not cached, try to dynamically require it
-      wordImages[formattedWord] = require(`../resources/${formattedWord}.png`);
+      wordImages[formattedWord] = require(`../resources/pictures/${formattedWord}.png`);
     }
     return wordImages[formattedWord];
   } catch (error) {
     // If the image doesn't exist, return a placeholder
     console.warn(`Image for "${word}" not found, using placeholder`);
     try {
-      return require('../resources/placeholder.png');
+      return require('../resources/pictures/placeholder.png');
     } catch {
       // If even the placeholder doesn't exist, return apple as fallback
-      return require('../resources/apple.png');
+      return require('../resources/pictures/apple.png');
     }
   }
 };
@@ -45,16 +45,40 @@ export default function SetDiagramPage() {
   // Store only the currently visible words in the word list (maximum 5)
   const [visibleWords, setVisibleWords] = useState<Word[]>([])
   
+  // Keep track of used word IDs to prevent duplicates
+  const [usedWordIds, setUsedWordIds] = useState<Record<string, boolean>>({})
+  
   // Initialize the visible words when the component mounts
   useEffect(() => {
     // Only initialize once when the component mounts
     if (visibleWords.length === 0) {
       // Take the first 5 words from allWords and make them visible
-      setVisibleWords(allWords.slice(0, 5));
-      // Remove those words from allWords
+      const initialWords = allWords.slice(0, 5);
+      setVisibleWords(initialWords);
+      // Remove those words from allWords and mark them as used
       setAllWords(prev => prev.slice(5));
+      const initialUsedIds = initialWords.reduce((acc, word) => ({
+        ...acc,
+        [word.id]: true
+      }), {});
+      setUsedWordIds(initialUsedIds);
     }
   }, []); // Empty dependency array - run only on mount
+
+  // Function to add a new word to visible words if available
+  const addNewWordToVisible = () => {
+    if (allWords.length > 0) {
+      // Find the first unused word
+      const nextWord = allWords[0];
+      if (!usedWordIds[nextWord.id]) {
+        setVisibleWords(prev => [...prev, nextWord]);
+        setAllWords(prev => prev.slice(1));
+        setUsedWordIds(prev => ({ ...prev, [nextWord.id]: true }));
+        return true;
+      }
+    }
+    return false;
+  };
 
   const [areaWords, setAreaWords] = useState<Record<Area, Word[]>>({
     Context: [],
@@ -105,16 +129,20 @@ export default function SetDiagramPage() {
   // Check for game completion whenever areaWords changes
   useEffect(() => {
     const userCorrectWords = Object.values(areaWords).reduce((count, words) => {
-      return count + words.filter(word => 
+      const areaCorrectCount = words.filter(word => 
         word.isChecked && 
         word.isCorrect && 
         !word.wasAutoMoved // Only count words correctly placed by the user
       ).length;
+      console.log('Area words:', words.map(w => ({ word: w.word, isChecked: w.isChecked, isCorrect: w.isCorrect, wasAutoMoved: w.wasAutoMoved })));
+      console.log('Area correct count:', areaCorrectCount);
+      return count + areaCorrectCount;
     }, 0);
     
+    console.log('Total correct words:', userCorrectWords);
     setCorrectWordCount(userCorrectWords);
 
-    if (userCorrectWords >= 5 && !isGameComplete) {
+    if (userCorrectWords === 5 && !isGameComplete) {
       setIsGameComplete(true);
     }
   }, [areaWords]);
@@ -166,15 +194,13 @@ export default function SetDiagramPage() {
       setVisibleWords(prev => {
         const newVisibleWords = [...prev];
         newVisibleWords.splice(source.index, 1);
-        
-        if (allWords.length > 0) {
-          const nextWord = allWords[0];
-          newVisibleWords.push(nextWord);
-          setAllWords(prev => prev.slice(1));
-        }
-        
         return newVisibleWords;
       });
+      
+      // Only refill a new word if the placement was incorrect
+      if (!isCorrect) {
+        addNewWordToVisible();
+      }
 
       // Add to logs
       setLogs(prev => [
@@ -207,7 +233,7 @@ export default function SetDiagramPage() {
               w.id === word.id ? { ...w, isAutoMoved: true } : w  // Set to true to trigger fade out
             )
           }));
-        }, 1000);
+        }, 600); // Increased from 300ms to 600ms for smoother fade-out
 
         // After fade out, move to correct area
         setTimeout(() => {
@@ -221,8 +247,9 @@ export default function SetDiagramPage() {
               {
                 ...word,
                 isChecked: true,
-                isCorrect: true,
-                isAutoMoved: true  // Set to true when first appearing in correct area
+                isCorrect: false,  // Changed to false since it wasn't placed correctly by user
+                isAutoMoved: true,
+                wasAutoMoved: true  // Mark it as auto-moved immediately
               }
             ];
             return newAreaWords;
@@ -235,13 +262,12 @@ export default function SetDiagramPage() {
               [correctArea as Area]: prev[correctArea as Area].map(w =>
                 w.id === word.id ? { 
                   ...w, 
-                  isAutoMoved: false,  // Set to false to show in final position
-                  wasAutoMoved: true   // Keep track that this was auto-moved
+                  isAutoMoved: false  // Only change the animation flag
                 } : w
               )
             }));
           }, 50);
-        }, 1500); // Increased delay to ensure fade out completes
+        }, 800); // Increased from 400ms to 800ms to allow for fade-out
       } else {
         // If correct, just add to the area (not auto-moved)
         setAreaWords(prev => ({
@@ -364,11 +390,64 @@ export default function SetDiagramPage() {
     setSelectedWord(word);
   };
 
+  // Add reset game function
+  const handlePlayAgain = () => {
+    // Reset rules first
+    resetRules();
+    
+    // Get new shuffled words
+    const newWords = getWords();
+    
+    // Reset all state
+    setAreaWords({
+      Context: [],
+      Property: [],
+      Wording: [],
+      'Context+Property': [],
+      'Property+Wording': [],
+      'Context+Wording': [],
+      'All': [],
+      None: [],
+    });
+    
+    // Take first 5 words for visible list
+    const initialWords = newWords.slice(0, 5);
+    setVisibleWords(initialWords);
+    
+    // Store remaining words
+    setAllWords(newWords.slice(5));
+    
+    // Mark initial words as used
+    const initialUsedIds = initialWords.reduce((acc, word) => ({
+      ...acc,
+      [word.id]: true
+    }), {});
+    setUsedWordIds(initialUsedIds);
+    
+    // Reset other state
+    setLogs([]);
+    setSelectedWord(null);
+    setAttempts(0);
+    setIsGameComplete(false);
+    setShowRuleDescriptions(false);
+    setCorrectWordCount(0);
+  };
+
   return (
     <div className="container mx-auto p-4 h-screen">
-      <h1 className="text-2xl font-bold mb-4">
-        Set Diagram Word Sorter {showRuleDescriptions ? '- Rules Revealed' : ''}
-      </h1>
+      <div className="flex justify-between items-center mb-4">
+        <h1 className="text-2xl font-bold">
+          Set Diagram Word Sorter {showRuleDescriptions ? '- Rules Revealed' : ''}
+        </h1>
+        {showRuleDescriptions && (
+          <button
+            onClick={handlePlayAgain}
+            className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors font-semibold"
+          >
+            Play Another Round
+          </button>
+        )}
+      </div>
 
       {/* Add debug panel - press Ctrl+D to toggle */}
       {showDebug && (
@@ -425,26 +504,27 @@ export default function SetDiagramPage() {
               <WordList 
                 words={visibleWords} 
                 onSelectWord={handleSelectWord} 
+                correctWordCount={correctWordCount}
               />
             </div>
             
             {/* Picture (middle third) */}
-            <div style={{height: "30%"}} className="mb-4 bg-gray-100 p-4 rounded-lg flex flex-col">
+            <div style={{height: "30%"}} className="mb-4 bg-gray-100 p-4 rounded-lg flex flex-col overflow-hidden">
               <h2 className="text-xl font-semibold mb-3">
                 {selectedWord ? `Picture: ${selectedWord.word}` : 'Select a word'}
               </h2>
-              <div className="flex-grow flex items-center justify-center">
+              <div className="flex-grow flex items-center justify-center relative">
                 <img 
                   src={selectedWord 
                     ? getWordImage(selectedWord.word)
-                    : require('../resources/placeholder.png')} 
+                    : require('../resources/pictures/placeholder.png')} 
                   alt={selectedWord ? selectedWord.word : "Select a word"} 
-                  className="rounded-lg object-contain"
+                  className="absolute rounded-2xl"
                   style={{ 
-                    maxHeight: "80%", 
-                    maxWidth: "80%",
-                    display: "block",
-                    margin: "auto"
+                    maxHeight: "100%", 
+                    maxWidth: "100%",
+                    objectFit: "contain",
+                    borderRadius: "0.75rem",
                   }}
                 />
               </div>
@@ -481,6 +561,7 @@ export default function SetDiagramPage() {
       <GameCompleteModal 
         attempts={attempts}
         onCheckBoard={handleCheckBoard}
+        onPlayAgain={handlePlayAgain}
         isOpen={isGameComplete}
         correctWords={correctWordCount}
       />

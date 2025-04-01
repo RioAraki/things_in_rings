@@ -3,6 +3,7 @@ import React from 'react';
 type GameCompleteModalProps = {
   attempts: number;
   onCheckBoard: () => void;
+  onPlayAgain: () => void;
   isOpen: boolean;
   correctWords: number;
 };
@@ -10,6 +11,7 @@ type GameCompleteModalProps = {
 const GameCompleteModal: React.FC<GameCompleteModalProps> = ({ 
   attempts, 
   onCheckBoard, 
+  onPlayAgain,
   isOpen,
   correctWords = 5
 }) => {
@@ -44,13 +46,22 @@ const GameCompleteModal: React.FC<GameCompleteModalProps> = ({
             </p>
           </div>
           
-          <button
-            type="button"
-            className="w-full py-3 rounded-lg bg-blue-600 text-white text-lg font-semibold hover:bg-blue-700 transition-colors"
-            onClick={onCheckBoard}
-          >
-            Check the Board
-          </button>
+          <div className="space-y-3">
+            <button
+              type="button"
+              className="w-full py-3 rounded-lg bg-blue-600 text-white text-lg font-semibold hover:bg-blue-700 transition-colors"
+              onClick={onCheckBoard}
+            >
+              Check the Board
+            </button>
+            <button
+              type="button"
+              className="w-full py-3 rounded-lg bg-green-600 text-white text-lg font-semibold hover:bg-green-700 transition-colors"
+              onClick={onPlayAgain}
+            >
+              Play Another Round
+            </button>
+          </div>
         </div>
       </div>
     </div>

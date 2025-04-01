@@ -125,15 +125,26 @@ const AreaComponent = ({
     return id;
   })();
 
+  // Check if any word in this area was just auto-moved here
+  const hasNewAutoMovedWord = words.some(w => w.wasAutoMoved);
+
+  // Check if any word was just correctly placed here (either by user or auto-moved)
+  const hasNewCorrectWord = words.some(w => w.isCorrect && !w.isAutoMoved);
+
+  // Generate a unique key for the animation based on the words in this area
+  const animationKey = words.filter(w => w.isCorrect || w.wasAutoMoved).length;
+
   return (
     <Droppable droppableId={id}>
       {(provided, snapshot) => (
         <div
           ref={provided.innerRef}
           {...provided.droppableProps}
+          key={`${id}-${animationKey}`}
           className={`
             absolute border-2 rounded-lg p-2
             ${snapshot.isDraggingOver ? "border-blue-500 bg-blue-50" : "border-gray-300"}
+            ${(hasNewAutoMovedWord || hasNewCorrectWord) ? "animate-highlight" : ""}
             transition-colors duration-200
           `}
           style={{
@@ -259,11 +270,11 @@ const SetDiagram: React.FC<SetDiagramProps> = ({
   rules = {}
 }) => {
   // Base dimensions
-  const AREA_WIDTH = 25
-  const AREA_HEIGHT = showRuleDescriptions ? 26 : 22 // Increase height when showing rules
-  const TRIANGLE_HEIGHT = 80  // Taller triangle
-  const TRIANGLE_BASE = 100   // Wider base
-  const OFFSET = { x: 0, y: 0 }
+  const AREA_WIDTH = 24
+  const AREA_HEIGHT = 22 // Increase height when showing rules
+  const TRIANGLE_HEIGHT = 75  // Taller triangle
+  const TRIANGLE_BASE = 90   // Wider base
+  const OFFSET = { x: 3, y: 3 }
   
   // Define specific offsets for proper positioning
   const AB_OFFSET = { x: -15, y: 0 }   // Context+Property
@@ -408,6 +419,11 @@ const SetDiagram: React.FC<SetDiagramProps> = ({
         className="absolute inset-0 w-full h-full pointer-events-none" 
         viewBox="0 0 100 100" 
         preserveAspectRatio="xMidYMid meet"
+        style={{
+          maxWidth: '100%',
+          maxHeight: '100%',
+          overflow: 'hidden'
+        }}
       >
         {/* Connect Context to Context+Property */}
         <line 
