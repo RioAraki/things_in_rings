@@ -11,11 +11,35 @@ function shuffleArray<T>(array: T[]): T[] {
   return shuffled;
 }
 
+// Fix malformed data where questions might have duplicate 'result' properties
+function normalizeWordData(wordData: any): Word {
+  const normalizedQuestions = wordData.questions.map((q: any) => {
+    // If there are two 'result' properties, one might be accidentally named 'result' instead of 'reason'
+    if (typeof q.result === 'string') {
+      return {
+        ruleId: q.ruleId,
+        result: true, // Default to true if the result is a string (which is likely meant to be a reason)
+        reason: q.result // Move the string value to the reason field
+      };
+    }
+    
+    // Keep proper format
+    return {
+      ruleId: q.ruleId,
+      result: typeof q.result === 'boolean' ? q.result : Boolean(q.result),
+      reason: q.reason
+    };
+  });
+
+  return {
+    ...wordData,
+    questions: normalizedQuestions,
+    isPlaced: false
+  };
+}
+
 // Keep a cache of the original unshuffled words
-const originalWords = (wordsData.words || []).map(word => ({
-  ...word,
-  isPlaced: false
-}));
+const originalWords = (wordsData.words || []).map(word => normalizeWordData(word));
 
 export function getWords(): Word[] {
   // Get all words and shuffle them

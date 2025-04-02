@@ -1,6 +1,7 @@
 export type WordQuestion = {
   ruleId: number
   result: boolean
+  reason?: string
 }
 
 export interface Word {
