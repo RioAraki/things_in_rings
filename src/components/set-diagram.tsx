@@ -14,6 +14,8 @@ type SetDiagramProps = {
     property?: string
     wording?: string
   }
+  onSelectWord?: (word: Word) => void
+  transparency?: number // Add transparency parameter (0-100)
 }
 
 const getAreaColor = (area: Area): string => {
@@ -55,7 +57,9 @@ const AreaComponent = ({
   width,
   height,
   showRuleDescriptions,
-  rules
+  rules,
+  onSelectWord,
+  transparency = 20  // Default transparency value
 }: {
   id: Area
   words: Word[]
@@ -69,7 +73,13 @@ const AreaComponent = ({
     property?: string
     wording?: string
   }
+  onSelectWord?: (word: Word) => void
+  transparency?: number
 }) => {
+  // Convert transparency (0-100) to opacity (0-1) and hex (00-ff)
+  const opacity = (100 - transparency) / 100;
+  const opacityHex = Math.floor(opacity * 255).toString(16).padStart(2, '0');
+
   // Function to get the title based on the area and whether to show rules
   const getAreaTitle = (): React.ReactNode => {
     if (!showRuleDescriptions) {
@@ -143,30 +153,40 @@ const AreaComponent = ({
           key={`${id}-${animationKey}`}
           className={`
             absolute border-[1.5px] rounded-lg p-2
-            ${snapshot.isDraggingOver ? "border-blue-500 bg-blue-50" : "border-gray-400"}
+            ${snapshot.isDraggingOver ? "border-blue-500 bg-blue-50/50" : "border-white/40"}
             ${(hasNewAutoMovedWord || hasNewCorrectWord) ? "animate-highlight" : ""}
-            transition-all duration-200 backdrop-blur-[2px]
-            shadow-[0_8px_16px_rgba(0,0,0,0.2)]
+            transition-all duration-200
+            backdrop-blur-[8px]
+            ${snapshot.isDraggingOver ? "scale-105" : ""}
           `}
           style={{
             left: `${left}%`,
             top: `${top}%`,
             width: `${width}%`,
             height: `${height}%`,
-            backgroundColor: getAreaColor(id),
-            boxShadow: '0 8px 16px rgba(0,0,0,0.2), 0 2px 4px rgba(0,0,0,0.1), 0 0 1px rgba(0,0,0,0.1)',
-            backdropFilter: 'blur(2px)',
-            zIndex: id === 'All' ? 2 : 1,
-            transform: 'translateY(-1px)', // Subtle lift effect
+            backgroundColor: `${getAreaColor(id)}${opacityHex}`,
+            boxShadow: snapshot.isDraggingOver 
+              ? '0 12px 20px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.15), inset 0 0 20px rgba(255,255,255,0.4)'
+              : '0 8px 16px rgba(0,0,0,0.1), 0 2px 4px rgba(0,0,0,0.1), inset 0 0 15px rgba(255,255,255,0.3)',
+            backdropFilter: 'blur(8px)',
+            WebkitBackdropFilter: 'blur(8px)',
+            background: `linear-gradient(135deg, ${getAreaColor(id)}${Math.floor(opacity * 0.5 * 255).toString(16).padStart(2, '0')} 0%, ${getAreaColor(id)}${opacityHex} 100%)`,
+            border: snapshot.isDraggingOver 
+              ? '1.5px solid rgba(255,255,255,0.5)'
+              : '1.5px solid rgba(255,255,255,0.3)',
+            zIndex: id === 'All' ? 2 : (snapshot.isDraggingOver ? 3 : 1),
+            transform: `translateY(-1px) ${snapshot.isDraggingOver ? 'scale(1.05)' : ''}`,
+            transition: 'all 0.2s ease-out',
           }}
         >
           <div 
             className={`
               mb-1 text-center 
               ${showRuleDescriptions 
-                ? 'text-xs md:text-sm font-bold py-2 px-2 bg-white/90 rounded shadow-sm' 
+                ? 'text-xs md:text-sm font-bold py-2 px-2 bg-white/90 rounded shadow-sm backdrop-blur-sm' 
                 : 'text-sm font-semibold'}
-              text-gray-700 relative z-10
+              text-gray-800 relative z-10
+              ${snapshot.isDraggingOver ? 'scale-105 font-bold' : ''}
             `} 
             title={tooltipTitle}
             style={{
@@ -174,6 +194,7 @@ const AreaComponent = ({
               maxWidth: '100%',
               lineHeight: '1.3',
               textShadow: '0 1px 3px rgba(255,255,255,0.8)',
+              transition: 'all 0.2s ease-out',
               ...(showRuleDescriptions 
                 ? { 
                     minHeight: '3.5rem', 
@@ -186,6 +207,10 @@ const AreaComponent = ({
                     overflowWrap: 'break-word',
                     wordBreak: 'break-word',
                     hyphens: 'auto',
+                    backgroundColor: 'rgba(255,255,255,0.9)',
+                    backdropFilter: 'blur(4px)',
+                    WebkitBackdropFilter: 'blur(4px)',
+                    boxShadow: '0 2px 6px rgba(0,0,0,0.05), inset 0 0 10px rgba(255,255,255,0.5)'
                   } 
                 : {
                     whiteSpace: 'nowrap',
@@ -210,11 +235,11 @@ const AreaComponent = ({
                     {...provided.draggableProps}
                     {...provided.dragHandleProps}
                     className={`
-                      rounded-full px-2 py-1 text-sm shadow-sm inline-block whitespace-nowrap
-                      transition-all duration-700 ease-in-out
+                      relative rounded-full px-2 py-1 text-sm shadow-sm inline-block whitespace-nowrap
+                      transition-all duration-200 ease-out
                       ${word.isAutoMoved ? 'scale-75 opacity-0' : 'scale-100 opacity-100'}
                       ${word.isChecked ? 'opacity-80' : ''}
-                      ${snapshot.isDragging ? 'shadow-md' : 'shadow-sm'}
+                      ${snapshot.isDragging ? 'shadow-lg scale-110 z-50' : 'shadow-md'}
                     `}
                     style={{
                       ...provided.draggableProps.style,
@@ -223,21 +248,33 @@ const AreaComponent = ({
                             ? (word.wasAutoMoved ? '#fef08a' : '#86efac') // yellow for system-corrected, green for user-correct
                             : '#fca5a5') // red for incorrect
                         : 'white',
-                      cursor: word.isChecked ? 'not-allowed' : 'grab',
-                      transition: 'all 0.7s ease-in-out',
+                      cursor: word.isChecked ? 'pointer' : 'grab',
+                      transition: 'all 0.2s ease-out',
                       transform: `${provided.draggableProps.style?.transform || ''} ${
-                        word.isAutoMoved ? 'scale(0.75)' : 'scale(1)'
+                        word.isAutoMoved ? 'scale(0.75)' : (snapshot.isDragging ? 'scale(1.1)' : 'scale(1)')
                       }`,
                       opacity: word.isAutoMoved ? 0 : 1,
                       border: word.isChecked && word.isCorrect 
                         ? (word.wasAutoMoved 
                             ? '2px dashed #eab308' // dashed border for system-corrected
                             : '2px solid #22c55e') // solid border for user-correct
-                        : 'none',
+                        : '1px solid rgba(0,0,0,0.1)', // Add a subtle border for all words
                       paddingRight: word.isChecked ? '22px' : '8px',
                       boxShadow: snapshot.isDragging 
-                        ? '0 4px 6px rgba(0,0,0,0.1)' 
-                        : '0 1px 2px rgba(0,0,0,0.1)',
+                        ? '0 8px 16px rgba(0,0,0,0.15), 0 2px 4px rgba(0,0,0,0.1)' 
+                        : '0 4px 8px rgba(0,0,0,0.15), 0 1px 2px rgba(0,0,0,0.1), 0 0 0 1px rgba(255,255,255,0.5)',
+                      zIndex: snapshot.isDragging ? 50 : 'auto',
+                    }}
+                    onClick={(e) => {
+                      // Only handle click if the word is checked (locked in place)
+                      if (word.isChecked) {
+                        // Prevent the click from triggering drag
+                        e.stopPropagation();
+                        // Call the onSelectWord handler if it exists
+                        if (onSelectWord) {
+                          onSelectWord(word);
+                        }
+                      }
                     }}
                   >
                     {word.word}
@@ -246,7 +283,9 @@ const AreaComponent = ({
                         className="absolute right-1 text-xs" 
                         style={{ 
                           top: '50%', 
-                          transform: 'translateY(-50%)'
+                          transform: 'translateY(-50%)',
+                          color: word.wasAutoMoved ? '#b45309' : (word.isCorrect ? '#166534' : '#991b1b'), // Darker colors for better contrast
+                          fontWeight: word.wasAutoMoved ? 'bold' : 'normal' // Make auto-placed indicator bold
                         }}
                       >
                         {word.isCorrect 
@@ -275,7 +314,9 @@ const SetDiagram: React.FC<SetDiagramProps> = ({
   areaWords, 
   setAreaWords, 
   showRuleDescriptions = false,
-  rules = {}
+  rules = {},
+  onSelectWord,
+  transparency = 20  // Default transparency value of 20%
 }) => {
   // Base dimensions for cube layout
   const AREA_WIDTH = 20
@@ -438,96 +479,111 @@ const SetDiagram: React.FC<SetDiagramProps> = ({
           overflow: 'hidden'
         }}
       >
-        {/* Colored cube faces */}
-        {/* Top face (darker red) */}
-        <polygon 
-          points={`
-            ${centers.Context.x},${centers.Context.y}
-            ${centers['Context+Property'].x},${centers['Context+Property'].y}
-            ${centers.All.x},${centers.All.y}
-            ${centers['Context+Wording'].x},${centers['Context+Wording'].y}
+        <style>
+          {`
+            @keyframes cube-rotate {
+              0%, 100% { transform: rotateY(0deg); }
+              50% { transform: rotateY(-10deg); }
+            }
+            .cube-container {
+              transform-origin: center center;
+              animation: cube-rotate 8s ease-in-out infinite;
+              transform-style: preserve-3d;
+            }
           `}
-          fill="#cc3333"
-          opacity="0.7"
-        />
-        
-        {/* Left face (darker blue) */}
-        <polygon 
-          points={`
-            ${centers['Context+Property'].x},${centers['Context+Property'].y}
-            ${centers.Property.x},${centers.Property.y}
-            ${centers['Property+Wording'].x},${centers['Property+Wording'].y}
-            ${centers.All.x},${centers.All.y}
-          `}
-          fill="#0099cc"
-          opacity="0.7"
-        />
-        
-        {/* Right face (darker green) */}
-        <polygon 
-          points={`
-            ${centers['Context+Wording'].x},${centers['Context+Wording'].y}
-            ${centers.All.x},${centers.All.y}
-            ${centers['Property+Wording'].x},${centers['Property+Wording'].y}
-            ${centers.Wording.x},${centers.Wording.y}
-          `}
-          fill="#008833"
-          opacity="0.7"
-        />
+        </style>
+        <g className="cube-container">
+          {/* Colored cube faces */}
+          {/* Top face (red) */}
+          <polygon 
+            points={`
+              ${centers.Context.x},${centers.Context.y}
+              ${centers['Context+Property'].x},${centers['Context+Property'].y}
+              ${centers.All.x},${centers.All.y}
+              ${centers['Context+Wording'].x},${centers['Context+Wording'].y}
+            `}
+            fill="#cc3333"
+            opacity="0.7"
+          />
+          
+          {/* Left face (blue) */}
+          <polygon 
+            points={`
+              ${centers['Context+Property'].x},${centers['Context+Property'].y}
+              ${centers.Property.x},${centers.Property.y}
+              ${centers['Property+Wording'].x},${centers['Property+Wording'].y}
+              ${centers.All.x},${centers.All.y}
+            `}
+            fill="#0099cc"
+            opacity="0.7"
+          />
+          
+          {/* Right face (green) */}
+          <polygon 
+            points={`
+              ${centers['Context+Wording'].x},${centers['Context+Wording'].y}
+              ${centers.All.x},${centers.All.y}
+              ${centers['Property+Wording'].x},${centers['Property+Wording'].y}
+              ${centers.Wording.x},${centers.Wording.y}
+            `}
+            fill="#008833"
+            opacity="0.7"
+          />
 
-        {/* Cube edges */}
-        {/* Left face connections */}
-        <line 
-          x1={centers.Context.x} y1={centers.Context.y}
-          x2={centers['Context+Property'].x} y2={centers['Context+Property'].y}
-          stroke="#666" strokeWidth="0.3"
-        />
-        <line 
-          x1={centers['Context+Property'].x} y1={centers['Context+Property'].y}
-          x2={centers.Property.x} y2={centers.Property.y}
-          stroke="#666" strokeWidth="0.3"
-        />
+          {/* Cube edges */}
+          {/* Left face connections */}
+          <line 
+            x1={centers.Context.x} y1={centers.Context.y}
+            x2={centers['Context+Property'].x} y2={centers['Context+Property'].y}
+            stroke="#666" strokeWidth="0.3"
+          />
+          <line 
+            x1={centers['Context+Property'].x} y1={centers['Context+Property'].y}
+            x2={centers.Property.x} y2={centers.Property.y}
+            stroke="#666" strokeWidth="0.3"
+          />
 
-        {/* Right face connections */}
-        <line 
-          x1={centers.Context.x} y1={centers.Context.y}
-          x2={centers['Context+Wording'].x} y2={centers['Context+Wording'].y}
-          stroke="#666" strokeWidth="0.3"
-        />
-        <line 
-          x1={centers['Context+Wording'].x} y1={centers['Context+Wording'].y}
-          x2={centers.Wording.x} y2={centers.Wording.y}
-          stroke="#666" strokeWidth="0.3"
-        />
+          {/* Right face connections */}
+          <line 
+            x1={centers.Context.x} y1={centers.Context.y}
+            x2={centers['Context+Wording'].x} y2={centers['Context+Wording'].y}
+            stroke="#666" strokeWidth="0.3"
+          />
+          <line 
+            x1={centers['Context+Wording'].x} y1={centers['Context+Wording'].y}
+            x2={centers.Wording.x} y2={centers.Wording.y}
+            stroke="#666" strokeWidth="0.3"
+          />
 
-        {/* Bottom connections */}
-        <line 
-          x1={centers.Property.x} y1={centers.Property.y}
-          x2={centers['Property+Wording'].x} y2={centers['Property+Wording'].y}
-          stroke="#666" strokeWidth="0.3"
-        />
-        <line 
-          x1={centers['Property+Wording'].x} y1={centers['Property+Wording'].y}
-          x2={centers.Wording.x} y2={centers.Wording.y}
-          stroke="#666" strokeWidth="0.3"
-        />
+          {/* Bottom connections */}
+          <line 
+            x1={centers.Property.x} y1={centers.Property.y}
+            x2={centers['Property+Wording'].x} y2={centers['Property+Wording'].y}
+            stroke="#666" strokeWidth="0.3"
+          />
+          <line 
+            x1={centers['Property+Wording'].x} y1={centers['Property+Wording'].y}
+            x2={centers.Wording.x} y2={centers.Wording.y}
+            stroke="#666" strokeWidth="0.3"
+          />
 
-        {/* Center connections */}
-        <line 
-          x1={centers['Context+Property'].x} y1={centers['Context+Property'].y}
-          x2={centers.All.x} y2={centers.All.y}
-          stroke="#666" strokeWidth="0.3"
-        />
-        <line 
-          x1={centers['Context+Wording'].x} y1={centers['Context+Wording'].y}
-          x2={centers.All.x} y2={centers.All.y}
-          stroke="#666" strokeWidth="0.3"
-        />
-        <line 
-          x1={centers['Property+Wording'].x} y1={centers['Property+Wording'].y}
-          x2={centers.All.x} y2={centers.All.y}
-          stroke="#666" strokeWidth="0.3"
-        />
+          {/* Center connections */}
+          <line 
+            x1={centers['Context+Property'].x} y1={centers['Context+Property'].y}
+            x2={centers.All.x} y2={centers.All.y}
+            stroke="#666" strokeWidth="0.3"
+          />
+          <line 
+            x1={centers['Context+Wording'].x} y1={centers['Context+Wording'].y}
+            x2={centers.All.x} y2={centers.All.y}
+            stroke="#666" strokeWidth="0.3"
+          />
+          <line 
+            x1={centers['Property+Wording'].x} y1={centers['Property+Wording'].y}
+            x2={centers.All.x} y2={centers.All.y}
+            stroke="#666" strokeWidth="0.3"
+          />
+        </g>
       </svg>
 
       {/* Render the area rectangles */}
@@ -536,9 +592,14 @@ const SetDiagram: React.FC<SetDiagramProps> = ({
           key={areaId}
           id={areaId as Area}
           words={areaWords[areaId as Area] || []}
-          {...layout}
+          left={layout.left}
+          top={layout.top}
+          width={layout.width}
+          height={layout.height}
           showRuleDescriptions={showRuleDescriptions}
           rules={rules}
+          onSelectWord={onSelectWord}
+          transparency={transparency}
         />
       ))}
     </div>

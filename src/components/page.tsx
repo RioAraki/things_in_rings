@@ -10,9 +10,14 @@ import { getWords } from '../utils/words'
 import { checkRule, findCorrectArea, getRules, resetRules } from '../utils/rules'
 import { type Rule } from '../types/rule'
 import GameCompleteModal from './game-complete-modal'
+import GameOverModal from './game-over-modal'
 
 // Dynamic image loading setup
 const wordImages: Record<string, string> = {};
+
+// Sound setup
+const correctSound = new Audio(require('../resources/sound/correct.wav'));
+const wrongSound = new Audio(require('../resources/sound/wrong.wav'));
 
 // This function will try to load an image for a given word
 // If it fails, it will return a placeholder image
@@ -77,6 +82,12 @@ export default function SetDiagramPage() {
         return true;
       }
     }
+    
+    // If we couldn't add a new word, check if we're out of words
+    if (visibleWords.length === 0) {
+      setIsGameOver(true);
+    }
+    
     return false;
   };
 
@@ -107,6 +118,9 @@ export default function SetDiagramPage() {
 
   // Add state to track user-correct word count
   const [correctWordCount, setCorrectWordCount] = useState<number>(0);
+
+  // Add state for game over modal
+  const [isGameOver, setIsGameOver] = useState<boolean>(false);
 
   // Get rules for display
   const rules = getRules();
@@ -211,6 +225,10 @@ export default function SetDiagramPage() {
 
       // If incorrect, animate the movement to correct area
       if (!isCorrect && correctArea) {
+        // Play wrong sound when word is placed incorrectly
+        wrongSound.currentTime = 0; // Reset sound to beginning
+        wrongSound.play().catch(err => console.log("Sound playback failed:", err));
+        
         // First, add to the wrong area without isAutoMoved flag
         setAreaWords(prev => ({
           ...prev,
@@ -247,7 +265,7 @@ export default function SetDiagramPage() {
               {
                 ...word,
                 isChecked: true,
-                isCorrect: false,  // Changed to false since it wasn't placed correctly by user
+                isCorrect: true,  // Changed to true since it's now in the correct area
                 isAutoMoved: true,
                 wasAutoMoved: true  // Mark it as auto-moved immediately
               }
@@ -283,6 +301,10 @@ export default function SetDiagramPage() {
             }
           ]
         }));
+        
+        // Play correct sound when word is placed correctly
+        correctSound.currentTime = 0; // Reset sound to beginning
+        correctSound.play().catch(err => console.log("Sound playback failed:", err));
       }
       setAttempts(prev => prev + 1);
       return
@@ -385,6 +407,21 @@ export default function SetDiagramPage() {
     })
   }
 
+  const onDragStart = (start: any) => {
+    // Find the word being dragged
+    let draggedWord: Word | undefined;
+    
+    if (start.source.droppableId === 'wordList') {
+      draggedWord = visibleWords[start.source.index];
+    } else {
+      draggedWord = areaWords[start.source.droppableId as Area]?.[start.source.index];
+    }
+    
+    if (draggedWord) {
+      setSelectedWord(draggedWord);
+    }
+  };
+
   // Handle selection of a word from the word list
   const handleSelectWord = (word: Word) => {
     setSelectedWord(word);
@@ -431,6 +468,7 @@ export default function SetDiagramPage() {
     setIsGameComplete(false);
     setShowRuleDescriptions(false);
     setCorrectWordCount(0);
+    setIsGameOver(false); // Reset game over state
   };
 
   return (
@@ -481,7 +519,7 @@ export default function SetDiagramPage() {
         </div>
       )}
 
-      <DragDropContext onDragEnd={onDragEnd}>
+      <DragDropContext onDragEnd={onDragEnd} onDragStart={onDragStart}>
         <div className="flex h-[calc(100%-4rem)]">
           {/* Left side - Set Diagram (70%) */}
           <div style={{width: "70%"}} className="pr-2 border h-full overflow-hidden">  
@@ -494,6 +532,7 @@ export default function SetDiagramPage() {
                 property: propertyRule?.description,
                 wording: wordingRule?.description
               }}
+              onSelectWord={handleSelectWord}
             />
           </div>
           
@@ -564,6 +603,12 @@ export default function SetDiagramPage() {
         onPlayAgain={handlePlayAgain}
         isOpen={isGameComplete}
         correctWords={correctWordCount}
+      />
+      
+      <GameOverModal
+        attempts={attempts}
+        onPlayAgain={handlePlayAgain}
+        isOpen={isGameOver}
       />
     </div>
   )
