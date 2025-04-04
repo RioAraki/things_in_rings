@@ -18,32 +18,32 @@ type SetDiagramProps = {
 
 const getAreaColor = (area: Area): string => {
   switch (area) {
-    // Primary sets with more vivid colors
+    // Primary faces with vivid colors
     case 'Context':
-      return '#ffdddb'; // More saturated light red
+      return '#ff9999'; // Bright red for top face
     case 'Property':
-      return '#d1ffd1'; // More saturated light green
+      return '#42daf5'; // RGB(66, 218, 245) - bright cyan-blue
     case 'Wording':
-      return '#d7d7ff'; // More saturated light blue
-      
-    // Intersection sets with more vivid mixed colors
-    case 'Context+Property':
-      return '#fff3aa'; // More saturated light yellow (red + green)
-    case 'Context+Wording':
-      return '#f7d6ff'; // More saturated light purple (red + blue)
-    case 'Property+Wording':
-      return '#b8f6f6'; // More saturated light cyan (green + blue)
-      
-    // Triple intersection - slightly more colorful
-    case 'All':
-      return '#e8e8fa'; // Light lavender gray (all mixed)
+      return '#99ff99'; // Bright green for right face
     
-    // None rectangle - medium gray instead of dark gray
+    // Intersection areas with mixed colors
+    case 'Context+Property':
+      return '#b3bff5'; // Purple-blue (red + cyan-blue mix)
+    case 'Context+Wording':
+      return '#ffcc99'; // Orange (red + green mix)
+    case 'Property+Wording':
+      return '#6decc7'; // Turquoise (cyan-blue + green mix)
+    
+    // Center intersection
+    case 'All':
+      return '#e8e8ff'; // Brighter light blue-gray
+    
+    // None area
     case 'None':
-      return '#b3b3b3'; // Medium gray instead of very dark gray
-      
+      return '#f0f0f0'; // Light gray
+    
     default:
-      return '#ffffff'; // White as fallback
+      return '#ffffff';
   }
 }
 
@@ -142,10 +142,11 @@ const AreaComponent = ({
           {...provided.droppableProps}
           key={`${id}-${animationKey}`}
           className={`
-            absolute border-2 rounded-lg p-2
-            ${snapshot.isDraggingOver ? "border-blue-500 bg-blue-50" : "border-gray-300"}
+            absolute border-[1.5px] rounded-lg p-2
+            ${snapshot.isDraggingOver ? "border-blue-500 bg-blue-50" : "border-gray-400"}
             ${(hasNewAutoMovedWord || hasNewCorrectWord) ? "animate-highlight" : ""}
-            transition-colors duration-200
+            transition-all duration-200 backdrop-blur-[2px]
+            shadow-[0_8px_16px_rgba(0,0,0,0.2)]
           `}
           style={{
             left: `${left}%`,
@@ -153,6 +154,10 @@ const AreaComponent = ({
             width: `${width}%`,
             height: `${height}%`,
             backgroundColor: getAreaColor(id),
+            boxShadow: '0 8px 16px rgba(0,0,0,0.2), 0 2px 4px rgba(0,0,0,0.1), 0 0 1px rgba(0,0,0,0.1)',
+            backdropFilter: 'blur(2px)',
+            zIndex: id === 'All' ? 2 : 1,
+            transform: 'translateY(-1px)', // Subtle lift effect
           }}
         >
           <div 
@@ -160,14 +165,15 @@ const AreaComponent = ({
               mb-1 text-center 
               ${showRuleDescriptions 
                 ? 'text-xs md:text-sm font-bold py-2 px-2 bg-white/90 rounded shadow-sm' 
-                : 'text-sm font-medium'
-              }
+                : 'text-sm font-semibold'}
+              text-gray-700 relative z-10
             `} 
             title={tooltipTitle}
             style={{
               overflow: 'hidden',
               maxWidth: '100%',
               lineHeight: '1.3',
+              textShadow: '0 1px 3px rgba(255,255,255,0.8)',
               ...(showRuleDescriptions 
                 ? { 
                     minHeight: '3.5rem', 
@@ -176,8 +182,8 @@ const AreaComponent = ({
                     display: 'flex', 
                     alignItems: 'center', 
                     justifyContent: 'center',
-                    whiteSpace: 'normal',  // Allow text to wrap
-                    overflowWrap: 'break-word', // Break long words if needed
+                    whiteSpace: 'normal',
+                    overflowWrap: 'break-word',
                     wordBreak: 'break-word',
                     hyphens: 'auto',
                   } 
@@ -204,10 +210,11 @@ const AreaComponent = ({
                     {...provided.draggableProps}
                     {...provided.dragHandleProps}
                     className={`
-                      rounded-full px-2 py-1 text-sm shadow inline-block whitespace-nowrap
+                      rounded-full px-2 py-1 text-sm shadow-sm inline-block whitespace-nowrap
                       transition-all duration-700 ease-in-out
                       ${word.isAutoMoved ? 'scale-75 opacity-0' : 'scale-100 opacity-100'}
                       ${word.isChecked ? 'opacity-80' : ''}
+                      ${snapshot.isDragging ? 'shadow-md' : 'shadow-sm'}
                     `}
                     style={{
                       ...provided.draggableProps.style,
@@ -222,14 +229,15 @@ const AreaComponent = ({
                         word.isAutoMoved ? 'scale(0.75)' : 'scale(1)'
                       }`,
                       opacity: word.isAutoMoved ? 0 : 1,
-                      // Add border to make the distinction more clear
                       border: word.isChecked && word.isCorrect 
                         ? (word.wasAutoMoved 
                             ? '2px dashed #eab308' // dashed border for system-corrected
                             : '2px solid #22c55e') // solid border for user-correct
                         : 'none',
-                      // Add subtle checkmark or info icon
                       paddingRight: word.isChecked ? '22px' : '8px',
+                      boxShadow: snapshot.isDragging 
+                        ? '0 4px 6px rgba(0,0,0,0.1)' 
+                        : '0 1px 2px rgba(0,0,0,0.1)',
                     }}
                   >
                     {word.word}
@@ -269,137 +277,142 @@ const SetDiagram: React.FC<SetDiagramProps> = ({
   showRuleDescriptions = false,
   rules = {}
 }) => {
-  // Base dimensions
-  const AREA_WIDTH = 24
-  const AREA_HEIGHT = 22 // Increase height when showing rules
-  const TRIANGLE_HEIGHT = 75  // Taller triangle
-  const TRIANGLE_BASE = 90   // Wider base
-  const OFFSET = { x: 3, y: 3 }
+  // Base dimensions for cube layout
+  const AREA_WIDTH = 20
+  const AREA_HEIGHT = 18
+  const CUBE_SIZE = 100
+  // Base size of the cube
+  const OFFSET = { x: 0, y: 0 }  // Starting position offset
+  const PERSPECTIVE = 0.6  // Perspective factor (0-1)
   
-  // Define specific offsets for proper positioning
-  const AB_OFFSET = { x: -15, y: 0 }   // Context+Property
-  const AC_OFFSET = { x: 15, y: 0 }    // Context+Wording
-  const ABC_OFFSET = { x: 0, y: 0 }   // All
-  const BC_OFFSET = { x: 0, y: 5 }    // Property+Wording
-
-  // Helper function to format points for display
-  const formatPoint = (p: {x: number, y: number}) => `(${p.x.toFixed(1)}, ${p.y.toFixed(1)})`
-  
-  // Move the calculateSetLayout function inside the component
-  function calculateSetLayout(
-    triangleHeight: number,
-    base: number,
+  // Function to calculate cube layout positions with perspective
+  function calculateCubeLayout(
+    cubeSize: number,
     offset: Point,
     areaWidth: number,
     areaHeight: number,
-    abOffset: Point = { x: 0, y: 0 },
-    acOffset: Point = { x: 0, y: 0 },
-    abcOffset: Point = { x: 0, y: 0 },
-    bcOffset: Point = { x: 0, y: 0 }
+    perspective: number
   ) {
-    // Helper to calculate triangle points
-    const calculateTrianglePoints = () => {
-      // Calculate positions based on height and base
-      const topPoint = { x: offset.x + base/2, y: offset.y }       // Context at top
-      const leftPoint = { x: offset.x, y: offset.y + triangleHeight }  // Property at bottom left
-      const rightPoint = { x: offset.x + base, y: offset.y + triangleHeight }  // Wording at bottom right
-      
-      // Midpoints of sides
-      const leftMid = { x: (topPoint.x + leftPoint.x)/2, y: (topPoint.y + leftPoint.y)/2 }  // Context+Property
-      const rightMid = { x: (topPoint.x + rightPoint.x)/2, y: (topPoint.y + rightPoint.y)/2 }  // Context+Wording
-      const bottomMid = { x: (leftPoint.x + rightPoint.x)/2, y: leftPoint.y }  // Property+Wording
-      
-      // Center point - calculate true centroid of triangle
-      const center = { 
-        x: (topPoint.x + leftPoint.x + rightPoint.x) / 3, 
-        y: (topPoint.y + leftPoint.y + rightPoint.y) / 3 
-      }  // All
-      
-      return {
-        topPoint,      // Context
-        leftPoint,     // Property
-        rightPoint,    // Wording
-        leftMid,       // Context+Property 
-        rightMid,      // Context+Wording
-        bottomMid,     // Property+Wording
-        center         // All
-      }
+    // Calculate key points for cube faces with perspective
+    const centerX = offset.x + cubeSize/2
+    const centerY = offset.y + cubeSize/2
+
+    // Calculate face positions
+    const leftFaceX = centerX - cubeSize * 0.35  // X position for left face
+    const rightFaceX = centerX + cubeSize * 0.35 // X position for right face
+    
+    // Top face (Context) - centered at top
+    const topFaceCenter = { 
+      x: centerX,
+      y: offset.y + cubeSize * 0.15
     }
 
-    const points = calculateTrianglePoints()
+    // Position for None rectangle (left of Context)
+    const noneCenter = {
+      x: topFaceCenter.x - cubeSize * 0.3, // Reduced from 0.5 to 0.35 to move it closer
+      y: topFaceCenter.y  // Same height as Context
+    }
+
+    // Left face connection points (Property and Context+Property)
+    const contextPropertyCenter = {
+      x: leftFaceX,
+      y: centerY - cubeSize * 0.15
+    }
     
-    // Convert points to area layouts with width/height
+    const propertyCenter = {
+      x: leftFaceX,
+      y: centerY + cubeSize * 0.2
+    }
+
+    // Right face connection points (Wording and Context+Wording)
+    const contextWordingCenter = {
+      x: rightFaceX,
+      y: centerY - cubeSize * 0.15
+    }
+    
+    const wordingCenter = {
+      x: rightFaceX,
+      y: centerY + cubeSize * 0.2
+    }
+
+    // Bottom connection (Property+Wording)
+    const propertyWordingCenter = {
+      x: centerX,
+      y: centerY + cubeSize * 0.35
+    }
+
+    // Center point (All)
+    const allCenter = {
+      x: centerX,
+      y: centerY
+    }
+
     return {
-      // Main vertices of the triangle
-      Context: { 
-        left: points.topPoint.x - areaWidth/2, 
-        top: points.topPoint.y,
-        width: areaWidth, 
-        height: areaHeight 
+      // Main vertices
+      Context: {
+        left: topFaceCenter.x - areaWidth/2,
+        top: topFaceCenter.y - areaHeight/2,
+        width: areaWidth,
+        height: areaHeight
       },
-      Property: { 
-        left: points.leftPoint.x, 
-        top: points.leftPoint.y - areaHeight/2,
-        width: areaWidth, 
-        height: areaHeight 
+      Property: {
+        left: propertyCenter.x - areaWidth/2,
+        top: propertyCenter.y - areaHeight/2,
+        width: areaWidth,
+        height: areaHeight
       },
-      Wording: { 
-        left: points.rightPoint.x - areaWidth, 
-        top: points.rightPoint.y - areaHeight/2,
-        width: areaWidth, 
-        height: areaHeight 
+      Wording: {
+        left: wordingCenter.x - areaWidth/2,
+        top: wordingCenter.y - areaHeight/2,
+        width: areaWidth,
+        height: areaHeight
       },
-      
-      // Intersections - along the edges of triangle
-      'Context+Property': { 
-        left: points.leftMid.x + abOffset.x, 
-        top: points.leftMid.y - areaHeight/2 + abOffset.y,
-        width: areaWidth, 
-        height: areaHeight 
+
+      // Edge intersections
+      'Context+Property': {
+        left: contextPropertyCenter.x - areaWidth/2,
+        top: contextPropertyCenter.y - areaHeight/2,
+        width: areaWidth,
+        height: areaHeight
       },
-      'Context+Wording': { 
-        left: points.rightMid.x - areaWidth + acOffset.x, 
-        top: points.rightMid.y - areaHeight/2 + acOffset.y,
-        width: areaWidth, 
-        height: areaHeight 
+      'Context+Wording': {
+        left: contextWordingCenter.x - areaWidth/2,
+        top: contextWordingCenter.y - areaHeight/2,
+        width: areaWidth,
+        height: areaHeight
       },
-      'Property+Wording': { 
-        left: points.bottomMid.x - areaWidth/2 + bcOffset.x, 
-        top: points.bottomMid.y - areaHeight/2 + bcOffset.y,
-        width: areaWidth, 
-        height: areaHeight 
+      'Property+Wording': {
+        left: propertyWordingCenter.x - areaWidth/2,
+        top: propertyWordingCenter.y - areaHeight/2,
+        width: areaWidth,
+        height: areaHeight
       },
-      
-      // Center of the triangle
-      'All': { 
-        left: points.center.x - areaWidth/2 + abcOffset.x, 
-        top: points.center.y - areaHeight/2 + abcOffset.y,
-        width: areaWidth, 
-        height: areaHeight 
+
+      // Center intersection
+      'All': {
+        left: allCenter.x - areaWidth/2,
+        top: allCenter.y - areaHeight/2,
+        width: areaWidth,
+        height: areaHeight
       },
-      
-      // None rectangle to the right of Context
+
+      // None area - placed to the left of Context
       'None': {
-        left: points.topPoint.x + areaWidth/2 + 5, 
-        top: points.topPoint.y,
+        left: noneCenter.x - areaWidth/2,
+        top: noneCenter.y - areaHeight/2,
         width: areaWidth,
         height: areaHeight
       }
     }
   }
 
-  const areaLayout = calculateSetLayout(
-    TRIANGLE_HEIGHT,
-    TRIANGLE_BASE,
+  const areaLayout = calculateCubeLayout(
+    CUBE_SIZE,
     OFFSET,
     AREA_WIDTH,
     AREA_HEIGHT,
-    AB_OFFSET,    // Pass the AB offset
-    AC_OFFSET,    // Pass the AC offset
-    ABC_OFFSET,   // Pass the ABC offset
-    BC_OFFSET     // Pass the BC offset
+    PERSPECTIVE
   )
-
 
   const getCenter = (rect: { left: number; top: number; width: number; height: number }) => ({
     x: rect.left + rect.width / 2,
@@ -425,63 +438,95 @@ const SetDiagram: React.FC<SetDiagramProps> = ({
           overflow: 'hidden'
         }}
       >
-        {/* Connect Context to Context+Property */}
+        {/* Colored cube faces */}
+        {/* Top face (darker red) */}
+        <polygon 
+          points={`
+            ${centers.Context.x},${centers.Context.y}
+            ${centers['Context+Property'].x},${centers['Context+Property'].y}
+            ${centers.All.x},${centers.All.y}
+            ${centers['Context+Wording'].x},${centers['Context+Wording'].y}
+          `}
+          fill="#cc3333"
+          opacity="0.7"
+        />
+        
+        {/* Left face (darker blue) */}
+        <polygon 
+          points={`
+            ${centers['Context+Property'].x},${centers['Context+Property'].y}
+            ${centers.Property.x},${centers.Property.y}
+            ${centers['Property+Wording'].x},${centers['Property+Wording'].y}
+            ${centers.All.x},${centers.All.y}
+          `}
+          fill="#0099cc"
+          opacity="0.7"
+        />
+        
+        {/* Right face (darker green) */}
+        <polygon 
+          points={`
+            ${centers['Context+Wording'].x},${centers['Context+Wording'].y}
+            ${centers.All.x},${centers.All.y}
+            ${centers['Property+Wording'].x},${centers['Property+Wording'].y}
+            ${centers.Wording.x},${centers.Wording.y}
+          `}
+          fill="#008833"
+          opacity="0.7"
+        />
+
+        {/* Cube edges */}
+        {/* Left face connections */}
         <line 
           x1={centers.Context.x} y1={centers.Context.y}
           x2={centers['Context+Property'].x} y2={centers['Context+Property'].y}
-          stroke="#666" strokeWidth="0.5" 
+          stroke="#666" strokeWidth="0.3"
         />
-        
-        {/* Connect Context to Context+Wording */}
+        <line 
+          x1={centers['Context+Property'].x} y1={centers['Context+Property'].y}
+          x2={centers.Property.x} y2={centers.Property.y}
+          stroke="#666" strokeWidth="0.3"
+        />
+
+        {/* Right face connections */}
         <line 
           x1={centers.Context.x} y1={centers.Context.y}
           x2={centers['Context+Wording'].x} y2={centers['Context+Wording'].y}
-          stroke="#666" strokeWidth="0.5" 
+          stroke="#666" strokeWidth="0.3"
         />
-        
-        {/* Connect Property to Context+Property */}
         <line 
-          x1={centers.Property.x} y1={centers.Property.y}
-          x2={centers['Context+Property'].x} y2={centers['Context+Property'].y}
-          stroke="#666" strokeWidth="0.5" 
+          x1={centers['Context+Wording'].x} y1={centers['Context+Wording'].y}
+          x2={centers.Wording.x} y2={centers.Wording.y}
+          stroke="#666" strokeWidth="0.3"
         />
-        
-        {/* Connect Property to Property+Wording */}
+
+        {/* Bottom connections */}
         <line 
           x1={centers.Property.x} y1={centers.Property.y}
           x2={centers['Property+Wording'].x} y2={centers['Property+Wording'].y}
-          stroke="#666" strokeWidth="0.5" 
+          stroke="#666" strokeWidth="0.3"
         />
-        
-        {/* Connect Wording to Context+Wording */}
         <line 
-          x1={centers.Wording.x} y1={centers.Wording.y}
-          x2={centers['Context+Wording'].x} y2={centers['Context+Wording'].y}
-          stroke="#666" strokeWidth="0.5" 
+          x1={centers['Property+Wording'].x} y1={centers['Property+Wording'].y}
+          x2={centers.Wording.x} y2={centers.Wording.y}
+          stroke="#666" strokeWidth="0.3"
         />
-        
-        {/* Connect Wording to Property+Wording */}
-        <line 
-          x1={centers.Wording.x} y1={centers.Wording.y}
-          x2={centers['Property+Wording'].x} y2={centers['Property+Wording'].y}
-          stroke="#666" strokeWidth="0.5" 
-        />
-        
-        {/* Connect intersections to the All area */}
+
+        {/* Center connections */}
         <line 
           x1={centers['Context+Property'].x} y1={centers['Context+Property'].y}
           x2={centers.All.x} y2={centers.All.y}
-          stroke="#666" strokeWidth="0.5" 
+          stroke="#666" strokeWidth="0.3"
         />
         <line 
           x1={centers['Context+Wording'].x} y1={centers['Context+Wording'].y}
           x2={centers.All.x} y2={centers.All.y}
-          stroke="#666" strokeWidth="0.5" 
+          stroke="#666" strokeWidth="0.3"
         />
         <line 
           x1={centers['Property+Wording'].x} y1={centers['Property+Wording'].y}
           x2={centers.All.x} y2={centers.All.y}
-          stroke="#666" strokeWidth="0.5" 
+          stroke="#666" strokeWidth="0.3"
         />
       </svg>
 
