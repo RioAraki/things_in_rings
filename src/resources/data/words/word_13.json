@@ -1,0 +1,756 @@
+{
+  "id": "13",
+  "word": "Cactus",
+  "questions": [
+    {
+      "ruleId": 1,
+      "result": true,
+      "reason": "Lanterns have existed for over 1000 years in various cultures"
+    },
+    {
+      "ruleId": 2,
+      "result": true,
+      "reason": "Modern electric lanterns were invented after 1950"
+    },
+    {
+      "ruleId": 3,
+      "result": false,
+      "reason": "Not found in most homes as regular items"
+    },
+    {
+      "ruleId": 4,
+      "result": true,
+      "reason": "Relatively uncommon in modern homes"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "Not specifically designed for children"
+    },
+    {
+      "ruleId": 6,
+      "result": true,
+      "reason": "Primarily used by adults"
+    },
+    {
+      "ruleId": 7,
+      "result": false,
+      "reason": "Traditional lanterns are not luxury items"
+    },
+    {
+      "ruleId": 8,
+      "result": false,
+      "reason": "Not a basic necessity for most people"
+    },
+    {
+      "ruleId": 9,
+      "result": true,
+      "reason": "Practical purpose of providing light"
+    },
+    {
+      "ruleId": 10,
+      "result": true,
+      "reason": "Often used decoratively, especially festival lanterns"
+    },
+    {
+      "ruleId": 11,
+      "result": false,
+      "reason": "Not found in nature"
+    },
+    {
+      "ruleId": 12,
+      "result": true,
+      "reason": "Manufactured in factories"
+    },
+    {
+      "ruleId": 13,
+      "result": true,
+      "reason": "Used in festivals and special occasions in many cultures"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "Not used in everyday routines for most people"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "Usually personally owned"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "Not typically shared among many people"
+    },
+    {
+      "ruleId": 17,
+      "result": false,
+      "reason": "Traditional lanterns are not high-tech"
+    },
+    {
+      "ruleId": 18,
+      "result": true,
+      "reason": "Based on simple mechanical principles"
+    },
+    {
+      "ruleId": 19,
+      "result": false,
+      "reason": "Found across many cultures"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "Used worldwide in various forms"
+    },
+    {
+      "ruleId": 21,
+      "result": false,
+      "reason": "Not disposable, designed to be reused"
+    },
+    {
+      "ruleId": 22,
+      "result": true,
+      "reason": "Made to last for years"
+    },
+    {
+      "ruleId": 23,
+      "result": true,
+      "reason": "Can be used indoors"
+    },
+    {
+      "ruleId": 24,
+      "result": true,
+      "reason": "Also commonly used outdoors"
+    },
+    {
+      "ruleId": 25,
+      "result": true,
+      "reason": "Often appears in movies and TV shows"
+    },
+    {
+      "ruleId": 26,
+      "result": true,
+      "reason": "Used by various professions (campers, emergency workers)"
+    },
+    {
+      "ruleId": 27,
+      "result": true,
+      "reason": "Has religious significance in some cultures"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "Often has symbolic meaning in rituals"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "Mass-produced"
+    },
+    {
+      "ruleId": 30,
+      "result": true,
+      "reason": "Ornate versions can be handcrafted"
+    },
+    {
+      "ruleId": 31,
+      "result": true,
+      "reason": "Associated with warmth and comfort"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "Not scary or dangerous when used properly"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "Used in recreational activities like camping"
+    },
+    {
+      "ruleId": 34,
+      "result": true,
+      "reason": "Also has practical uses in emergencies"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "Used year-round, not seasonal"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "Can be used throughout the year"
+    },
+    {
+      "ruleId": 37,
+      "result": false,
+      "reason": "No special knowledge required to use"
+    },
+    {
+      "ruleId": 38,
+      "result": true,
+      "reason": "Easy for anyone to use"
+    },
+    {
+      "ruleId": 39,
+      "result": false,
+      "reason": "Not typically used in formal settings"
+    },
+    {
+      "ruleId": 40,
+      "result": true,
+      "reason": "More common in casual settings"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "Some people collect antique or decorative lanterns"
+    },
+    {
+      "ruleId": 42,
+      "result": true,
+      "reason": "Featured in cultural traditions and festivals"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "Has historical importance"
+    },
+    {
+      "ruleId": 44,
+      "result": true,
+      "reason": "Still relevant and used today"
+    },
+    {
+      "ruleId": 45,
+      "result": true,
+      "reason": "Sometimes given as gifts"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "Not uncommon as a gift"
+    },
+    {
+      "ruleId": 47,
+      "result": false,
+      "reason": "Not associated with wealth"
+    },
+    {
+      "ruleId": 48,
+      "result": true,
+      "reason": "Used by people of all economic levels"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "Featured in art, literature, and media"
+    },
+    {
+      "ruleId": 50,
+      "result": true,
+      "reason": "Often symbolizes guidance or hope"
+    },
+    {
+      "ruleId": 51,
+      "result": true,
+      "reason": "Glass parts can break easily"
+    },
+    {
+      "ruleId": 52,
+      "result": true,
+      "reason": "Designed to be portable"
+    },
+    {
+      "ruleId": 53,
+      "result": false,
+      "reason": "Traditional lanterns don't need electricity"
+    },
+    {
+      "ruleId": 54,
+      "result": false,
+      "reason": "Basic models are generally affordable"
+    },
+    {
+      "ruleId": 55,
+      "result": false,
+      "reason": "Not found in nature"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "Not typically waterproof"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "Doesn't float"
+    },
+    {
+      "ruleId": 58,
+      "result": true,
+      "reason": "Usually contains metal parts"
+    },
+    {
+      "ruleId": 59,
+      "result": false,
+      "reason": "Generally quiet when used"
+    },
+    {
+      "ruleId": 60,
+      "result": true,
+      "reason": "Available in various colors"
+    },
+    {
+      "ruleId": 61,
+      "result": true,
+      "reason": "Many parts can be recycled"
+    },
+    {
+      "ruleId": 62,
+      "result": true,
+      "reason": "Often has transparent glass or plastic parts"
+    },
+    {
+      "ruleId": 63,
+      "result": true,
+      "reason": "Has moving parts (doors, handles)"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "Mostly hard materials, not soft"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "Cannot be folded (except some collapsible models)"
+    },
+    {
+      "ruleId": 66,
+      "result": true,
+      "reason": "Requires maintenance (cleaning, fuel)"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "No sharp edges typically"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "Cannot be eaten"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "No distinctive smell"
+    },
+    {
+      "ruleId": 70,
+      "result": false,
+      "reason": "Most lanterns are light to medium weight"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "Not worn on the body"
+    },
+    {
+      "ruleId": 72,
+      "result": true,
+      "reason": "Traditional lanterns generate heat when lit"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "Not flammable itself, though contains fuel"
+    },
+    {
+      "ruleId": 74,
+      "result": true,
+      "reason": "Available with different features and designs"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "Usually comes fully assembled"
+    },
+    {
+      "ruleId": 76,
+      "result": false,
+      "reason": "Not biodegradable"
+    },
+    {
+      "ruleId": 77,
+      "result": true,
+      "reason": "Can be stacked for storage"
+    },
+    {
+      "ruleId": 78,
+      "result": true,
+      "reason": "Often has reflective surfaces inside"
+    },
+    {
+      "ruleId": 79,
+      "result": false,
+      "reason": "Not magnetic"
+    },
+    {
+      "ruleId": 80,
+      "result": true,
+      "reason": "Can be painted or decorated"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "Doesn't absorb water"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "Not flexible"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "Doesn't change color when wet"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "Metal parts may rust over time"
+    },
+    {
+      "ruleId": 85,
+      "result": true,
+      "reason": "Usually symmetrical in design"
+    },
+    {
+      "ruleId": 86,
+      "result": true,
+      "reason": "Can be repaired if broken"
+    },
+    {
+      "ruleId": 87,
+      "result": true,
+      "reason": "Traditional lanterns require fuel (oil, kerosene)"
+    },
+    {
+      "ruleId": 88,
+      "result": true,
+      "reason": "Needs to be kept clean to function properly"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "Doesn't work underwater"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "Doesn't have wheels"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "Not intended for single use"
+    },
+    {
+      "ruleId": 92,
+      "result": true,
+      "reason": "Designed to contain heat from flame"
+    },
+    {
+      "ruleId": 93,
+      "result": true,
+      "reason": "Requires proper storage when not in use"
+    },
+    {
+      "ruleId": 94,
+      "result": true,
+      "reason": "Decorative versions can be handmade"
+    },
+    {
+      "ruleId": 95,
+      "result": true,
+      "reason": "Surface can be wiped clean"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "Doesn't come in pairs"
+    },
+    {
+      "ruleId": 97,
+      "result": false,
+      "reason": "Used year-round, not seasonal"
+    },
+    {
+      "ruleId": 98,
+      "result": true,
+      "reason": "Used as a lighting tool"
+    },
+    {
+      "ruleId": 99,
+      "result": false,
+      "reason": "No license needed to use"
+    },
+    {
+      "ruleId": 100,
+      "result": true,
+      "reason": "Can be used many times"
+    },
+    {
+      "ruleId": 101,
+      "result": true,
+      "reason": "Has two syllables (lan-tern)"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "Doesn't start with a vowel"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "Doesn't end with a vowel"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "Has 7 letters, not 5"
+    },
+    {
+      "ruleId": 105,
+      "result": true,
+      "reason": "Contains both 'a' and 'e'"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "First letter 'l' comes after last letter 'n' in alphabet"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "Not formed from two distinct words"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "No double letters"
+    },
+    {
+      "ruleId": 109,
+      "result": true,
+      "reason": "Starts with 'l' which is from A to M"
+    },
+    {
+      "ruleId": 110,
+      "result": true,
+      "reason": "Has more than 6 letters (7)"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "Used as a noun, not a verb"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "Doesn't contain letter 'k'"
+    },
+    {
+      "ruleId": 113,
+      "result": false,
+      "reason": "Has more than 4 unique letters (l,a,n,t,e,r)"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "Doesn't have a recognized prefix"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "Contains 'a' but not 'b'"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "First two letters 'l' and 'a' are not in alphabetical order"
+    },
+    {
+      "ruleId": 117,
+      "result": true,
+      "reason": "Contains the letter 'r'"
+    },
+    {
+      "ruleId": 118,
+      "result": true,
+      "reason": "Has three consonants in a row 'nt'"
+    },
+    {
+      "ruleId": 119,
+      "result": true,
+      "reason": "Has 7 letters (within 6-8 range)"
+    },
+    {
+      "ruleId": 120,
+      "result": true,
+      "reason": "Has suffix '-ern' (like pattern, eastern)"
+    },
+    {
+      "ruleId": 121,
+      "result": true,
+      "reason": "Contains 't' from the set 't', 'v', 's'"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "Doesn't contain letter 'z'"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "No repeated letters"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "Has two syllables, not three"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "Doesn't contain a color name"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "No silent consonants"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "Not used as a verb"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "Doesn't end with 'er'"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "Letters not in alphabetical order"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "No two vowels next to each other"
+    },
+    {
+      "ruleId": 131,
+      "result": true,
+      "reason": "No repeated letters"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "Doesn't contain letter 'q'"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "Contains only 2 vowels (a,e)"
+    },
+    {
+      "ruleId": 134,
+      "result": false,
+      "reason": "Has 2 vowels and 5 consonants (not more vowels)"
+    },
+    {
+      "ruleId": 135,
+      "result": false,
+      "reason": "Has 7 letters (odd number)"
+    },
+    {
+      "ruleId": 136,
+      "result": true,
+      "reason": "Has exactly 2 vowels"
+    },
+    {
+      "ruleId": 137,
+      "result": false,
+      "reason": "Last letter 'n' doesn't come before middle letter 't' in alphabet"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "Doesn't end with a vowel"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "Doesn't start and end with the same letter"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "Has two syllables, not one"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "Not an acronym"
+    },
+    {
+      "ruleId": 142,
+      "result": true,
+      "reason": "Contains 'tern' which includes 'th'"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "No letter appears multiple times"
+    },
+    {
+      "ruleId": 144,
+      "result": false,
+      "reason": "Doesn't have letter 'y'"
+    },
+    {
+      "ruleId": 145,
+      "result": true,
+      "reason": "Starts with consonant 'l' and ends with consonant 'n'"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "Doesn't contain 'sh' or 'ch'"
+    },
+    {
+      "ruleId": 147,
+      "result": false,
+      "reason": "Contains letters from both halves of alphabet"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "Doesn't end with 'ly'"
+    },
+    {
+      "ruleId": 149,
+      "result": false,
+      "reason": "Doesn't contain a number when spelled"
+    },
+    {
+      "ruleId": 150,
+      "result": true,
+      "reason": "More consonants (5) than vowels (2)"
+    }
+  ]
+}

@@ -1,0 +1,755 @@
+{
+  "id": "23",
+  "word": "Game Console",
+  "questions": [
+    {
+      "ruleId": 1,
+      "result": false,
+      "reason": "Game consoles haven't existed for over 1000 years, first developed in the 1970s"
+    },
+    {
+      "ruleId": 2,
+      "result": true,
+      "reason": "Modern game consoles were invented after 1950"
+    },
+    {
+      "ruleId": 3,
+      "result": true,
+      "reason": "Found in many homes as a common entertainment device"
+    },
+    {
+      "ruleId": 4,
+      "result": true,
+      "reason": "Often marketed to and used by children"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "Not exclusively for children, used by all ages"
+    },
+    {
+      "ruleId": 6,
+      "result": true,
+      "reason": "Used by adults as well as children"
+    },
+    {
+      "ruleId": 7,
+      "result": true,
+      "reason": "High-end gaming systems can be luxury items"
+    },
+    {
+      "ruleId": 8,
+      "result": false,
+      "reason": "Not a necessity item"
+    },
+    {
+      "ruleId": 9,
+      "result": false,
+      "reason": "Primarily for entertainment rather than practical purposes"
+    },
+    {
+      "ruleId": 10,
+      "result": false,
+      "reason": "Functional rather than decorative"
+    },
+    {
+      "ruleId": 11,
+      "result": false,
+      "reason": "Not found in nature"
+    },
+    {
+      "ruleId": 12,
+      "result": true,
+      "reason": "Manufactured by humans"
+    },
+    {
+      "ruleId": 13,
+      "result": false,
+      "reason": "Used regularly rather than for special occasions"
+    },
+    {
+      "ruleId": 14,
+      "result": true,
+      "reason": "Often used as part of daily routine for many people"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "Personally owned"
+    },
+    {
+      "ruleId": 16,
+      "result": true,
+      "reason": "Often shared among family members or friends"
+    },
+    {
+      "ruleId": 17,
+      "result": true,
+      "reason": "Involves advanced technology"
+    },
+    {
+      "ruleId": 18,
+      "result": true,
+      "reason": "Contains mechanical and electronic components"
+    },
+    {
+      "ruleId": 19,
+      "result": false,
+      "reason": "No specific cultural significance"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "Used across many different cultures globally"
+    },
+    {
+      "ruleId": 21,
+      "result": false,
+      "reason": "Not disposable, designed to last years"
+    },
+    {
+      "ruleId": 22,
+      "result": true,
+      "reason": "Designed to be durable"
+    },
+    {
+      "ruleId": 23,
+      "result": true,
+      "reason": "Used indoors"
+    },
+    {
+      "ruleId": 24,
+      "result": false,
+      "reason": "Rarely used outdoors"
+    },
+    {
+      "ruleId": 25,
+      "result": true,
+      "reason": "Frequently appears in films and media"
+    },
+    {
+      "ruleId": 26,
+      "result": true,
+      "reason": "Associated with game developers and eSports professionals"
+    },
+    {
+      "ruleId": 27,
+      "result": false,
+      "reason": "No significant religious meaning"
+    },
+    {
+      "ruleId": 28,
+      "result": true,
+      "reason": "Primarily secular in usage"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "Mass-produced"
+    },
+    {
+      "ruleId": 30,
+      "result": false,
+      "reason": "Not handcrafted"
+    },
+    {
+      "ruleId": 31,
+      "result": true,
+      "reason": "Associated with fun and entertainment"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "Not typically scary"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "Primarily used for entertainment"
+    },
+    {
+      "ruleId": 34,
+      "result": false,
+      "reason": "Not primarily practical in purpose"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "Used year-round, not seasonal"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "Used throughout the year"
+    },
+    {
+      "ruleId": 37,
+      "result": false,
+      "reason": "Basic usage is accessible to most people"
+    },
+    {
+      "ruleId": 38,
+      "result": true,
+      "reason": "Generally easy for most people to use"
+    },
+    {
+      "ruleId": 39,
+      "result": false,
+      "reason": "Not typically used in formal settings"
+    },
+    {
+      "ruleId": 40,
+      "result": true,
+      "reason": "Used in casual settings"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "People collect vintage or limited edition consoles"
+    },
+    {
+      "ruleId": 42,
+      "result": false,
+      "reason": "Not part of specific traditional celebrations"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "Has cultural and technological historical importance"
+    },
+    {
+      "ruleId": 44,
+      "result": true,
+      "reason": "Very relevant in contemporary entertainment"
+    },
+    {
+      "ruleId": 45,
+      "result": true,
+      "reason": "Often given as gifts"
+    },
+    {
+      "ruleId": 46,
+      "result": true,
+      "reason": "Popular holiday and birthday gift"
+    },
+    {
+      "ruleId": 47,
+      "result": false,
+      "reason": "Not strongly associated with wealth status"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "Available at various price points for different economic levels"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "Featured in art, literature, and media"
+    },
+    {
+      "ruleId": 50,
+      "result": true,
+      "reason": "Symbolizes digital entertainment and gaming culture"
+    },
+    {
+      "ruleId": 51,
+      "result": true,
+      "reason": "Can break if dropped"
+    },
+    {
+      "ruleId": 52,
+      "result": true,
+      "reason": "Designed to be portable between locations"
+    },
+    {
+      "ruleId": 53,
+      "result": true,
+      "reason": "Requires electricity to function"
+    },
+    {
+      "ruleId": 54,
+      "result": true,
+      "reason": "Can be expensive, especially new models"
+    },
+    {
+      "ruleId": 55,
+      "result": false,
+      "reason": "Not found in nature"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "Not waterproof"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "Too dense to float"
+    },
+    {
+      "ruleId": 58,
+      "result": true,
+      "reason": "Contains metal components"
+    },
+    {
+      "ruleId": 59,
+      "result": true,
+      "reason": "Makes noises when operating"
+    },
+    {
+      "ruleId": 60,
+      "result": true,
+      "reason": "Available in different colors and designs"
+    },
+    {
+      "ruleId": 61,
+      "result": true,
+      "reason": "Components can be recycled"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "Not transparent"
+    },
+    {
+      "ruleId": 63,
+      "result": true,
+      "reason": "Has moving parts (buttons, disc drives)"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "Hard to the touch"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "Cannot be folded"
+    },
+    {
+      "ruleId": 66,
+      "result": true,
+      "reason": "Requires occasional cleaning and maintenance"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "No sharp edges typically"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "Not edible"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "No distinctive smell when new"
+    },
+    {
+      "ruleId": 70,
+      "result": true,
+      "reason": "Moderately heavy"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "Not worn on the body"
+    },
+    {
+      "ruleId": 72,
+      "result": true,
+      "reason": "Generates heat when operating"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "Not flammable under normal conditions"
+    },
+    {
+      "ruleId": 74,
+      "result": true,
+      "reason": "Available in many different models and brands"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "Comes ready to use (after initial setup)"
+    },
+    {
+      "ruleId": 76,
+      "result": false,
+      "reason": "Not biodegradable"
+    },
+    {
+      "ruleId": 77,
+      "result": true,
+      "reason": "Can be stacked with other electronics"
+    },
+    {
+      "ruleId": 78,
+      "result": true,
+      "reason": "Some models have glossy, reflective surfaces"
+    },
+    {
+      "ruleId": 79,
+      "result": true,
+      "reason": "Contains magnetic components"
+    },
+    {
+      "ruleId": 80,
+      "result": true,
+      "reason": "Exterior is typically colored/painted"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "Doesn't absorb water"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "Rigid, not flexible"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "Doesn't change color when wet"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "May yellow or discolor with age"
+    },
+    {
+      "ruleId": 85,
+      "result": true,
+      "reason": "Usually symmetrical in design"
+    },
+    {
+      "ruleId": 86,
+      "result": true,
+      "reason": "Can be repaired if damaged"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "Doesn't need fuel (but needs electricity)"
+    },
+    {
+      "ruleId": 88,
+      "result": true,
+      "reason": "Should be kept clean"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "Cannot function underwater"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "Doesn't have wheels"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "Not disposable"
+    },
+    {
+      "ruleId": 92,
+      "result": false,
+      "reason": "Not designed to withstand high heat"
+    },
+    {
+      "ruleId": 93,
+      "result": true,
+      "reason": "Should be stored properly to avoid damage"
+    },
+    {
+      "ruleId": 94,
+      "result": false,
+      "reason": "Mass-produced, not handmade"
+    },
+    {
+      "ruleId": 95,
+      "result": true,
+      "reason": "Surface can be cleaned"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "Doesn't come in pairs"
+    },
+    {
+      "ruleId": 97,
+      "result": false,
+      "reason": "Used year-round, not seasonal"
+    },
+    {
+      "ruleId": 98,
+      "result": true,
+      "reason": "Used as an entertainment tool"
+    },
+    {
+      "ruleId": 99,
+      "result": false,
+      "reason": "No license needed to own"
+    },
+    {
+      "ruleId": 100,
+      "result": true,
+      "reason": "Designed to last for multiple years"
+    },
+    {
+      "ruleId": 101,
+      "result": true,
+      "reason": "Has four syllables (game-con-so-le)"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "Doesn't start with a vowel"
+    },
+    {
+      "ruleId": 103,
+      "result": true,
+      "reason": "Ends with vowel 'e'"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "Has 11 letters (including space), not 5"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "Doesn't contain repeated vowels"
+    },
+    {
+      "ruleId": 106,
+      "result": true,
+      "reason": "First letter 'g' comes before last letter 'e' in alphabet"
+    },
+    {
+      "ruleId": 107,
+      "result": true,
+      "reason": "Formed from two words: game + console"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "No double letters"
+    },
+    {
+      "ruleId": 109,
+      "result": true,
+      "reason": "Starts with 'g' which is from A to M"
+    },
+    {
+      "ruleId": 110,
+      "result": true,
+      "reason": "Has 11 letters (more than 6)"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "Used as a noun, not as a verb"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "Doesn't contain letter 'k'"
+    },
+    {
+      "ruleId": 113,
+      "result": true,
+      "reason": "Has 8 unique letters (g,a,m,e,c,o,n,s,l)"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "Doesn't have a recognized prefix"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "Contains 'a' but not 'b'"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "First two letters 'g' and 'a' are not in alphabetical order"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "Doesn't contain the letter 'r'"
+    },
+    {
+      "ruleId": 118,
+      "result": true,
+      "reason": "Has three consonants in a row 'nsl'"
+    },
+    {
+      "ruleId": 119,
+      "result": true,
+      "reason": "Has 11 letters (considering compound words count)"
+    },
+    {
+      "ruleId": 120,
+      "result": true,
+      "reason": "Second word ends with '-le'"
+    },
+    {
+      "ruleId": 121,
+      "result": true,
+      "reason": "Contains 's' from the set 't', 'v', 's'"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "Doesn't contain letter 'z'"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "No repeated letters"
+    },
+    {
+      "ruleId": 124,
+      "result": true,
+      "reason": "Has four syllables (more than three)"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "Doesn't contain a color name"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "No silent consonants"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "Not used as a verb"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "Doesn't end with 'er'"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "Letters not in alphabetical order"
+    },
+    {
+      "ruleId": 130,
+      "result": true,
+      "reason": "Has two vowels 'o' and 'e' next to each other in 'console'"
+    },
+    {
+      "ruleId": 131,
+      "result": false,
+      "reason": "No repeated letters"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "Doesn't contain letter 'q'"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "Contains 5 vowels (a,e,o,o,e)"
+    },
+    {
+      "ruleId": 134,
+      "result": false,
+      "reason": "Has 5 vowels and 6 consonants (not more vowels)"
+    },
+    {
+      "ruleId": 135,
+      "result": false,
+      "reason": "Has 11 letters (odd number)"
+    },
+    {
+      "ruleId": 136,
+      "result": false,
+      "reason": "Has 5 vowels, not exactly 2"
+    },
+    {
+      "ruleId": 137,
+      "result": false,
+      "reason": "Last letter 'e' doesn't come before middle letters in alphabet"
+    },
+    {
+      "ruleId": 138,
+      "result": true,
+      "reason": "Ends with vowel 'e'"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "Doesn't start and end with the same letter"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "Has four syllables, not one"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "Not an acronym"
+    },
+    {
+      "ruleId": 142,
+      "result": false,
+      "reason": "Doesn't contain 'th'"
+    },
+    {
+      "ruleId": 143,
+      "result": "Letter 'o' appears twice"
+    },
+    {
+      "ruleId": 144,
+      "result": false,
+      "reason": "Doesn't have letter 'y'"
+    },
+    {
+      "ruleId": 145,
+      "result": true,
+      "reason": "Starts with consonant 'g' and ends with vowel 'e'"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "Doesn't contain 'sh' or 'ch'"
+    },
+    {
+      "ruleId": 147,
+      "result": true,
+      "reason": "Contains letters from both halves of alphabet"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "Doesn't end with 'ly'"
+    },
+    {
+      "ruleId": 149,
+      "result": false,
+      "reason": "Doesn't contain a number when spelled"
+    },
+    {
+      "ruleId": 150,
+      "result": true,
+      "reason": "More consonants (6) than vowels (5)"
+    }
+  ]
+}

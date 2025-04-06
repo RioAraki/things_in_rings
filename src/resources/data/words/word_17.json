@@ -1,0 +1,756 @@
+{
+  "id": "17",
+  "word": "Pyramid",
+  "questions": [
+    {
+      "ruleId": 1,
+      "result": true,
+      "reason": "Pyramids have existed for thousands of years (ancient Egypt, Mesoamerica)"
+    },
+    {
+      "ruleId": 2,
+      "result": false,
+      "reason": "Pyramids existed well before 1950"
+    },
+    {
+      "ruleId": 3,
+      "result": false,
+      "reason": "Not commonly found in most homes"
+    },
+    {
+      "ruleId": 4,
+      "result": false,
+      "reason": "Not typically made for children"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "Not designed specifically for children"
+    },
+    {
+      "ruleId": 6,
+      "result": true,
+      "reason": "Built and studied primarily by adults"
+    },
+    {
+      "ruleId": 7,
+      "result": true,
+      "reason": "Ancient pyramids represent luxury and wealth of rulers"
+    },
+    {
+      "ruleId": 8,
+      "result": false,
+      "reason": "Not a necessity item"
+    },
+    {
+      "ruleId": 9,
+      "result": false,
+      "reason": "Original purpose was religious/ceremonial rather than practical"
+    },
+    {
+      "ruleId": 10,
+      "result": true,
+      "reason": "Decorative and ceremonial in original context"
+    },
+    {
+      "ruleId": 11,
+      "result": false,
+      "reason": "Not found naturally, human-made structures"
+    },
+    {
+      "ruleId": 12,
+      "result": true,
+      "reason": "Constructed by humans"
+    },
+    {
+      "ruleId": 13,
+      "result": true,
+      "reason": "Associated with special occasions (religious ceremonies, tourism)"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "Not part of daily routine for most people"
+    },
+    {
+      "ruleId": 15,
+      "result": false,
+      "reason": "Not personally owned (except small models)"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "Major pyramids are public monuments, not shared personally"
+    },
+    {
+      "ruleId": 17,
+      "result": false,
+      "reason": "Ancient pyramids didn't involve modern technology"
+    },
+    {
+      "ruleId": 18,
+      "result": false,
+      "reason": "No mechanical parts"
+    },
+    {
+      "ruleId": 19,
+      "result": true,
+      "reason": "Culturally significant in Egyptian, Mayan, and other civilizations"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "Found in multiple cultures across different continents"
+    },
+    {
+      "ruleId": 21,
+      "result": false,
+      "reason": "Designed to be permanent, not disposable"
+    },
+    {
+      "ruleId": 22,
+      "result": true,
+      "reason": "Extremely durable, many have lasted thousands of years"
+    },
+    {
+      "ruleId": 23,
+      "result": false,
+      "reason": "Built outdoors, not for indoor use"
+    },
+    {
+      "ruleId": 24,
+      "result": true,
+      "reason": "Always built outdoors"
+    },
+    {
+      "ruleId": 25,
+      "result": true,
+      "reason": "Featured in many films, documentaries, and TV shows"
+    },
+    {
+      "ruleId": 26,
+      "result": true,
+      "reason": "Associated with architects, archaeologists, and historians"
+    },
+    {
+      "ruleId": 27,
+      "result": true,
+      "reason": "Strong religious significance in ancient civilizations"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "Originally had religious purpose for many civilizations"
+    },
+    {
+      "ruleId": 29,
+      "result": false,
+      "reason": "Each pyramid was uniquely constructed, not mass-produced"
+    },
+    {
+      "ruleId": 30,
+      "result": true,
+      "reason": "Crafted by hand in ancient times"
+    },
+    {
+      "ruleId": 31,
+      "result": false,
+      "reason": "Often associated with death and afterlife, not happiness"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "Not typically scary despite tomb associations"
+    },
+    {
+      "ruleId": 33,
+      "result": false,
+      "reason": "Not primarily used for entertainment"
+    },
+    {
+      "ruleId": 34,
+      "result": true,
+      "reason": "Originally practical in religious/ceremonial context"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "Not seasonal, permanent structures"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "Present throughout the year"
+    },
+    {
+      "ruleId": 37,
+      "result": true,
+      "reason": "Building pyramids required extensive specialized knowledge"
+    },
+    {
+      "ruleId": 38,
+      "result": false,
+      "reason": "Not easy to use or build"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "Associated with formal, ceremonial settings"
+    },
+    {
+      "ruleId": 40,
+      "result": false,
+      "reason": "Not associated with casual settings"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "People collect pyramid models and replicas"
+    },
+    {
+      "ruleId": 42,
+      "result": true,
+      "reason": "Part of ancient religious traditions and ceremonies"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "Major historical importance in multiple civilizations"
+    },
+    {
+      "ruleId": 44,
+      "result": true,
+      "reason": "Still studied and visited in contemporary times"
+    },
+    {
+      "ruleId": 45,
+      "result": false,
+      "reason": "Small models might be given as gifts, but not common"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "Not typically given as gifts"
+    },
+    {
+      "ruleId": 47,
+      "result": true,
+      "reason": "Associated with wealth and power of ancient rulers"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "Building pyramids required vast resources not available to common people"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "Featured prominently in art, literature, and film"
+    },
+    {
+      "ruleId": 50,
+      "result": true,
+      "reason": "Symbolizes eternity, power, and ancient wisdom"
+    },
+    {
+      "ruleId": 51,
+      "result": false,
+      "reason": "Stone pyramids are extremely durable"
+    },
+    {
+      "ruleId": 52,
+      "result": false,
+      "reason": "Immovable, permanent structures"
+    },
+    {
+      "ruleId": 53,
+      "result": false,
+      "reason": "Doesn't require power to function"
+    },
+    {
+      "ruleId": 54,
+      "result": true,
+      "reason": "Extremely expensive to build"
+    },
+    {
+      "ruleId": 55,
+      "result": false,
+      "reason": "Human-made, not natural formations"
+    },
+    {
+      "ruleId": 56,
+      "result": true,
+      "reason": "Stone construction is naturally water resistant"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "Too dense to float"
+    },
+    {
+      "ruleId": 58,
+      "result": false,
+      "reason": "Made primarily of stone, not metal"
+    },
+    {
+      "ruleId": 59,
+      "result": false,
+      "reason": "Doesn't make noise on its own"
+    },
+    {
+      "ruleId": 60,
+      "result": false,
+      "reason": "Usually monotone in color (stone)"
+    },
+    {
+      "ruleId": 61,
+      "result": false,
+      "reason": "Stone cannot be easily recycled"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "Not transparent"
+    },
+    {
+      "ruleId": 63,
+      "result": false,
+      "reason": "Has no moving parts"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "Hard to the touch"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "Cannot be folded"
+    },
+    {
+      "ruleId": 66,
+      "result": true,
+      "reason": "Requires maintenance and preservation"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "Not typically sharp unless broken"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "Not edible"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "No distinctive smell"
+    },
+    {
+      "ruleId": 70,
+      "result": true,
+      "reason": "Extremely heavy"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "Not worn on the body"
+    },
+    {
+      "ruleId": 72,
+      "result": false,
+      "reason": "Doesn't generate heat"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "Stone is not flammable"
+    },
+    {
+      "ruleId": 74,
+      "result": true,
+      "reason": "Varies in size, design, and construction techniques"
+    },
+    {
+      "ruleId": 75,
+      "result": true,
+      "reason": "Requires assembly of many components"
+    },
+    {
+      "ruleId": 76,
+      "result": false,
+      "reason": "Stone is not biodegradable"
+    },
+    {
+      "ruleId": 77,
+      "result": false,
+      "reason": "Cannot be stacked (it is the stacked structure itself)"
+    },
+    {
+      "ruleId": 78,
+      "result": false,
+      "reason": "Stone surface is not typically reflective"
+    },
+    {
+      "ruleId": 79,
+      "result": false,
+      "reason": "Not magnetic"
+    },
+    {
+      "ruleId": 80,
+      "result": false,
+      "reason": "Not typically painted"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "Stone doesn't absorb much water"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "Rigid, not flexible"
+    },
+    {
+      "ruleId": 83,
+      "result": true,
+      "reason": "Stone often appears darker when wet"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "Erodes and weathers over time"
+    },
+    {
+      "ruleId": 85,
+      "result": true,
+      "reason": "Perfectly symmetrical in design"
+    },
+    {
+      "ruleId": 86,
+      "result": true,
+      "reason": "Can be restored and repaired"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "Doesn't require fuel"
+    },
+    {
+      "ruleId": 88,
+      "result": true,
+      "reason": "Requires maintenance to preserve"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "Has no function underwater"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "Doesn't have wheels"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "Designed to be permanent"
+    },
+    {
+      "ruleId": 92,
+      "result": true,
+      "reason": "Can withstand extreme heat"
+    },
+    {
+      "ruleId": 93,
+      "result": false,
+      "reason": "Doesn't require storage (permanent outdoor structure)"
+    },
+    {
+      "ruleId": 94,
+      "result": true,
+      "reason": "Built by hand in ancient times"
+    },
+    {
+      "ruleId": 95,
+      "result": true,
+      "reason": "Surfaces can be cleaned"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "Usually built as single structures"
+    },
+    {
+      "ruleId": 97,
+      "result": false,
+      "reason": "Permanent, not seasonal"
+    },
+    {
+      "ruleId": 98,
+      "result": false,
+      "reason": "A structure rather than a tool"
+    },
+    {
+      "ruleId": 99,
+      "result": false,
+      "reason": "No license needed to view or study pyramids"
+    },
+    {
+      "ruleId": 100,
+      "result": true,
+      "reason": "Has lasted for thousands of years"
+    },
+    {
+      "ruleId": 101,
+      "result": true,
+      "reason": "Has three syllables (pyr-a-mid)"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "Doesn't start with a vowel"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "Doesn't end with a vowel"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "Has 7 letters, not 5"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "Doesn't contain repeated vowels"
+    },
+    {
+      "ruleId": 106,
+      "result": true,
+      "reason": "First letter 'p' comes before last letter 'd' in alphabet"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "Not formed from two words"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "No double letters"
+    },
+    {
+      "ruleId": 109,
+      "result": true,
+      "reason": "Starts with 'p' which is from A to M"
+    },
+    {
+      "ruleId": 110,
+      "result": true,
+      "reason": "Has 7 letters (more than 6)"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "Used as a noun, not typically a verb"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "Doesn't contain letter 'k'"
+    },
+    {
+      "ruleId": 113,
+      "result": true,
+      "reason": "Has 6 unique letters (p,y,r,a,m,i,d)"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "Doesn't have a recognized prefix"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "Contains 'a' but not 'b'"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "First two letters 'p' and 'y' are not in alphabetical order"
+    },
+    {
+      "ruleId": 117,
+      "result": true,
+      "reason": "Contains the letter 'r'"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "Doesn't have three consonants in a row"
+    },
+    {
+      "ruleId": 119,
+      "result": true,
+      "reason": "Has 7 letters (within 6-8 range)"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "Doesn't end with '-le'"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "Doesn't contain 't', 'v', or 's'"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "Doesn't contain letter 'z'"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "No repeated letters"
+    },
+    {
+      "ruleId": 124,
+      "result": true,
+      "reason": "Has three syllables"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "Doesn't contain a color name"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "No silent consonants"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "Not commonly used as a verb"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "Doesn't end with 'er'"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "Letters not in alphabetical order"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "No two vowels next to each other"
+    },
+    {
+      "ruleId": 131,
+      "result": false,
+      "reason": "No repeated letters"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "Doesn't contain letter 'q'"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "Contains 3 vowels (y,a,i)"
+    },
+    {
+      "ruleId": 134,
+      "result": false,
+      "reason": "Has 3 vowels and 4 consonants (not more vowels)"
+    },
+    {
+      "ruleId": 135,
+      "result": false,
+      "reason": "Has 7 letters (odd number)"
+    },
+    {
+      "ruleId": 136,
+      "result": false,
+      "reason": "Has 3 vowels, not exactly 2"
+    },
+    {
+      "ruleId": 137,
+      "result": false,
+      "reason": "Last letter 'd' doesn't come before middle letter 'a' in alphabet"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "Doesn't end with a vowel"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "Doesn't start and end with the same letter"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "Has three syllables, not one"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "Not an acronym"
+    },
+    {
+      "ruleId": 142,
+      "result": false,
+      "reason": "Doesn't contain 'th'"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "No letter appears twice"
+    },
+    {
+      "ruleId": 144,
+      "result": true,
+      "reason": "Contains letter 'y'"
+    },
+    {
+      "ruleId": 145,
+      "result": false,
+      "reason": "Starts with consonant 'p' but doesn't end with a vowel"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "Doesn't contain 'sh' or 'ch'"
+    },
+    {
+      "ruleId": 147,
+      "result": true,
+      "reason": "Contains letters from both halves of alphabet"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "Doesn't end with 'ly'"
+    },
+    {
+      "ruleId": 149,
+      "result": false,
+      "reason": "Doesn't contain a number when spelled"
+    },
+    {
+      "ruleId": 150,
+      "result": true,
+      "reason": "More consonants (4) than vowels (3)"
+    }
+  ]
+}

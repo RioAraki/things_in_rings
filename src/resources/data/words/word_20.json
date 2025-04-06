@@ -1,0 +1,756 @@
+{
+  "id": "20",
+  "word": "Guitar",
+  "questions": [
+    {
+      "ruleId": 1,
+      "result": true,
+      "reason": "Guitars have existed for over 1000 years in various forms"
+    },
+    {
+      "ruleId": 2,
+      "result": true,
+      "reason": "Modern electric guitars were invented after 1950"
+    },
+    {
+      "ruleId": 3,
+      "result": true,
+      "reason": "Found in many homes as a common instrument"
+    },
+    {
+      "ruleId": 4,
+      "result": false,
+      "reason": "Not specifically made for children"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "Primarily used by adults and older children/teens"
+    },
+    {
+      "ruleId": 6,
+      "result": true,
+      "reason": "Most commonly played by adults"
+    },
+    {
+      "ruleId": 7,
+      "result": true,
+      "reason": "Quality guitars can be luxury items"
+    },
+    {
+      "ruleId": 8,
+      "result": false,
+      "reason": "Not a necessity for most people"
+    },
+    {
+      "ruleId": 9,
+      "result": true,
+      "reason": "Practical purpose for making music"
+    },
+    {
+      "ruleId": 10,
+      "result": true,
+      "reason": "Often decorative with beautiful designs"
+    },
+    {
+      "ruleId": 11,
+      "result": false,
+      "reason": "Not found in nature"
+    },
+    {
+      "ruleId": 12,
+      "result": true,
+      "reason": "Manufactured by humans"
+    },
+    {
+      "ruleId": 13,
+      "result": true,
+      "reason": "Often used for special occasions like performances"
+    },
+    {
+      "ruleId": 14,
+      "result": true,
+      "reason": "Many musicians use them in daily practice routines"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "Typically personally owned"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "Usually not shared among multiple owners"
+    },
+    {
+      "ruleId": 17,
+      "result": true,
+      "reason": "Electric guitars involve technology"
+    },
+    {
+      "ruleId": 18,
+      "result": true,
+      "reason": "Has mechanical parts (tuning pegs, bridge)"
+    },
+    {
+      "ruleId": 19,
+      "result": true,
+      "reason": "Culturally significant in many societies"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "Used across many different cultures globally"
+    },
+    {
+      "ruleId": 21,
+      "result": false,
+      "reason": "Not disposable, made to last"
+    },
+    {
+      "ruleId": 22,
+      "result": true,
+      "reason": "Designed to be durable and long-lasting"
+    },
+    {
+      "ruleId": 23,
+      "result": true,
+      "reason": "Frequently played indoors"
+    },
+    {
+      "ruleId": 24,
+      "result": true,
+      "reason": "Can be played outdoors"
+    },
+    {
+      "ruleId": 25,
+      "result": true,
+      "reason": "Frequently appears in films and media"
+    },
+    {
+      "ruleId": 26,
+      "result": true,
+      "reason": "Associated with musicians as a profession"
+    },
+    {
+      "ruleId": 27,
+      "result": false,
+      "reason": "No significant religious meaning"
+    },
+    {
+      "ruleId": 28,
+      "result": true,
+      "reason": "Primarily secular in usage"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "Mass-produced"
+    },
+    {
+      "ruleId": 30,
+      "result": true,
+      "reason": "Fine guitars are often handcrafted"
+    },
+    {
+      "ruleId": 31,
+      "result": true,
+      "reason": "Associated with joy and entertainment"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "Not typically scary"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "Used primarily for entertainment"
+    },
+    {
+      "ruleId": 34,
+      "result": true,
+      "reason": "Has practical application in music creation"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "Used year-round, not seasonal"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "Used throughout the year"
+    },
+    {
+      "ruleId": 37,
+      "result": true,
+      "reason": "Requires skill and knowledge to play well"
+    },
+    {
+      "ruleId": 38,
+      "result": false,
+      "reason": "Not easy for everyone to use properly"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "Used in formal settings like concerts"
+    },
+    {
+      "ruleId": 40,
+      "result": true,
+      "reason": "Used in casual settings like homes"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "People collect vintage and rare guitars"
+    },
+    {
+      "ruleId": 42,
+      "result": true,
+      "reason": "Part of cultural traditions in music"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "Has historical importance in music development"
+    },
+    {
+      "ruleId": 44,
+      "result": true,
+      "reason": "Widely used in contemporary music"
+    },
+    {
+      "ruleId": 45,
+      "result": true,
+      "reason": "Common gift for music enthusiasts"
+    },
+    {
+      "ruleId": 46,
+      "result": true,
+      "reason": "Often given as a gift"
+    },
+    {
+      "ruleId": 47,
+      "result": true,
+      "reason": "High-end guitars can signify wealth and status"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "Not equally accessible to all economic levels"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "Featured prominently in art, literature, and media"
+    },
+    {
+      "ruleId": 50,
+      "result": true,
+      "reason": "Symbolizes music, creativity, and artistic expression"
+    },
+    {
+      "ruleId": 51,
+      "result": true,
+      "reason": "Can be damaged if dropped or mishandled"
+    },
+    {
+      "ruleId": 52,
+      "result": true,
+      "reason": "Designed to be portable with cases"
+    },
+    {
+      "ruleId": 53,
+      "result": true,
+      "reason": "Electric guitars require amplifiers and power"
+    },
+    {
+      "ruleId": 54,
+      "result": true,
+      "reason": "Good quality guitars are expensive"
+    },
+    {
+      "ruleId": 55,
+      "result": false,
+      "reason": "Not found in nature"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "Not waterproof, can be damaged by water"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "Too dense to float"
+    },
+    {
+      "ruleId": 58,
+      "result": true,
+      "reason": "Contains metal parts (strings, tuning pegs)"
+    },
+    {
+      "ruleId": 59,
+      "result": true,
+      "reason": "Designed to make musical sounds"
+    },
+    {
+      "ruleId": 60,
+      "result": true,
+      "reason": "Available in many colors and finishes"
+    },
+    {
+      "ruleId": 61,
+      "result": true,
+      "reason": "Many parts can be recycled"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "Not transparent"
+    },
+    {
+      "ruleId": 63,
+      "result": true,
+      "reason": "Has moving parts (tuning pegs, bridge)"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "Hard to the touch"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "Cannot be folded"
+    },
+    {
+      "ruleId": 66,
+      "result": true,
+      "reason": "Requires maintenance and cleaning"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "No sharp edges typically"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "Not edible"
+    },
+    {
+      "ruleId": 69,
+      "result": true,
+      "reason": "Wood and finish can have distinctive smells"
+    },
+    {
+      "ruleId": 70,
+      "result": true,
+      "reason": "Moderate weight (varies by type)"
+    },
+    {
+      "ruleId": 71,
+      "result": true,
+      "reason": "Worn on the body when playing"
+    },
+    {
+      "ruleId": 72,
+      "result": false,
+      "reason": "Doesn't generate heat"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "Not highly flammable (though can burn)"
+    },
+    {
+      "ruleId": 74,
+      "result": true,
+      "reason": "Available in many different models and styles"
+    },
+    {
+      "ruleId": 75,
+      "result": true,
+      "reason": "Requires assembly of components"
+    },
+    {
+      "ruleId": 76,
+      "result": false,
+      "reason": "Not biodegradable"
+    },
+    {
+      "ruleId": 77,
+      "result": false,
+      "reason": "Cannot be stacked easily"
+    },
+    {
+      "ruleId": 78,
+      "result": true,
+      "reason": "Can have glossy, reflective finishes"
+    },
+    {
+      "ruleId": 79,
+      "result": true,
+      "reason": "Electric guitars have magnetic pickups"
+    },
+    {
+      "ruleId": 80,
+      "result": true,
+      "reason": "Often painted or finished decoratively"
+    },
+    {
+      "ruleId": 81,
+      "result": true,
+      "reason": "Wooden parts can absorb moisture"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "Generally rigid, not flexible"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "Doesn't change color when wet"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "Appearance changes with age and wear"
+    },
+    {
+      "ruleId": 85,
+      "result": true,
+      "reason": "Usually symmetrical in design"
+    },
+    {
+      "ruleId": 86,
+      "result": true,
+      "reason": "Can be repaired if damaged"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "Doesn't need fuel (though electric ones need power)"
+    },
+    {
+      "ruleId": 88,
+      "result": true,
+      "reason": "Needs to be kept clean and maintained"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "Doesn't function underwater"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "Doesn't have wheels"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "Not disposable"
+    },
+    {
+      "ruleId": 92,
+      "result": false,
+      "reason": "Not designed to withstand high heat"
+    },
+    {
+      "ruleId": 93,
+      "result": true,
+      "reason": "Should be stored in cases or stands"
+    },
+    {
+      "ruleId": 94,
+      "result": true,
+      "reason": "Fine guitars are often handmade"
+    },
+    {
+      "ruleId": 95,
+      "result": true,
+      "reason": "Surface can be cleaned and polished"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "Doesn't come in pairs"
+    },
+    {
+      "ruleId": 97,
+      "result": false,
+      "reason": "Used year-round, not seasonal"
+    },
+    {
+      "ruleId": 98,
+      "result": true,
+      "reason": "Used as a musical instrument"
+    },
+    {
+      "ruleId": 99,
+      "result": false,
+      "reason": "No license needed to play or own"
+    },
+    {
+      "ruleId": 100,
+      "result": true,
+      "reason": "Can be used for decades with proper care"
+    },
+    {
+      "ruleId": 101,
+      "result": true,
+      "reason": "Has two syllables (gui-tar)"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "Doesn't start with a vowel"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "Doesn't end with a vowel"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "Has 6 letters, not 5"
+    },
+    {
+      "ruleId": 105,
+      "result": true,
+      "reason": "Contains vowels 'u' and 'i' together"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "First letter 'g' comes after last letter 'r' in alphabet"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "Not formed from two words"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "No double letters"
+    },
+    {
+      "ruleId": 109,
+      "result": true,
+      "reason": "Starts with 'g' which is from A to M"
+    },
+    {
+      "ruleId": 110,
+      "result": false,
+      "reason": "Has 6 letters, not more than 6"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "Used as a noun, not commonly as a verb"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "Doesn't contain letter 'k'"
+    },
+    {
+      "ruleId": 113,
+      "result": true,
+      "reason": "Has 5 unique letters (g,u,i,t,a,r)"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "Doesn't have a recognized prefix"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "Doesn't contain both 'a' and 'b'"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "First two letters 'g' and 'u' are not in alphabetical order"
+    },
+    {
+      "ruleId": 117,
+      "result": true,
+      "reason": "Contains the letter 'r'"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "Doesn't have three consonants in a row"
+    },
+    {
+      "ruleId": 119,
+      "result": true,
+      "reason": "Has 6 letters (within 6-8 range)"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "Doesn't end with '-le'"
+    },
+    {
+      "ruleId": 121,
+      "result": true,
+      "reason": "Contains 't' from the set 't', 'v', 's'"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "Doesn't contain letter 'z'"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "No repeated letters"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "Has two syllables, not three"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "Doesn't contain a color name"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "No silent consonants"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "Not commonly used as a verb"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "Doesn't end with 'er'"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "Letters not in alphabetical order"
+    },
+    {
+      "ruleId": 130,
+      "result": true,
+      "reason": "Has two vowels 'u' and 'i' next to each other"
+    },
+    {
+      "ruleId": 131,
+      "result": false,
+      "reason": "No repeated letters"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "Doesn't contain letter 'q'"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "Contains 3 vowels (u,i,a)"
+    },
+    {
+      "ruleId": 134,
+      "result": true,
+      "reason": "Has 3 vowels and 3 consonants (equal number)"
+    },
+    {
+      "ruleId": 135,
+      "result": true,
+      "reason": "Has 6 letters (even number)"
+    },
+    {
+      "ruleId": 136,
+      "result": false,
+      "reason": "Has 3 vowels, not exactly 2"
+    },
+    {
+      "ruleId": 137,
+      "result": false,
+      "reason": "Last letter 'r' doesn't come before middle letter 'i' in alphabet"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "Doesn't end with a vowel"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "Doesn't start and end with the same letter"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "Has two syllables, not one"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "Not an acronym"
+    },
+    {
+      "ruleId": 142,
+      "result": false,
+      "reason": "Doesn't contain 'th'"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "No letter appears twice"
+    },
+    {
+      "ruleId": 144,
+      "result": false,
+      "reason": "Doesn't have letter 'y'"
+    },
+    {
+      "ruleId": 145,
+      "result": false,
+      "reason": "Starts with consonant 'g' but doesn't end with a vowel"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "Doesn't contain 'sh' or 'ch'"
+    },
+    {
+      "ruleId": 147,
+      "result": true,
+      "reason": "Contains letters from both halves of alphabet"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "Doesn't end with 'ly'"
+    },
+    {
+      "ruleId": 149,
+      "result": false,
+      "reason": "Doesn't contain a number when spelled"
+    },
+    {
+      "ruleId": 150,
+      "result": false,
+      "reason": "Equal number of consonants (3) and vowels (3)"
+    }
+  ]
+}

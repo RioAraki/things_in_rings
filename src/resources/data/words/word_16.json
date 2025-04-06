@@ -1,0 +1,756 @@
+{
+  "id": "16",
+  "word": "Marble",
+  "questions": [
+    {
+      "ruleId": 1,
+      "result": true,
+      "reason": "Marble has existed for thousands of years as a natural stone and building material"
+    },
+    {
+      "ruleId": 2,
+      "result": false,
+      "reason": "Marble existed well before 1950"
+    },
+    {
+      "ruleId": 3,
+      "result": false,
+      "reason": "Not commonly found in most homes (except as decorative elements)"
+    },
+    {
+      "ruleId": 4,
+      "result": true,
+      "reason": "Marbles as toys are often made for or given to children"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "Natural marble isn't designed specifically for children"
+    },
+    {
+      "ruleId": 6,
+      "result": true,
+      "reason": "Used by adults in construction and decoration"
+    },
+    {
+      "ruleId": 7,
+      "result": true,
+      "reason": "Marble is considered a luxury building material"
+    },
+    {
+      "ruleId": 8,
+      "result": false,
+      "reason": "Not a necessity item"
+    },
+    {
+      "ruleId": 9,
+      "result": false,
+      "reason": "Used more for aesthetic than practical purposes"
+    },
+    {
+      "ruleId": 10,
+      "result": true,
+      "reason": "Primarily decorative in modern usage"
+    },
+    {
+      "ruleId": 11,
+      "result": true,
+      "reason": "Marble is found in nature as metamorphic rock"
+    },
+    {
+      "ruleId": 12,
+      "result": false,
+      "reason": "Natural marble is not manufactured (though processed)"
+    },
+    {
+      "ruleId": 13,
+      "result": true,
+      "reason": "Often used in special occasions like museums and monuments"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "Not part of daily routine for most people"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "Can be personally owned as decorative items or toys"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "Marble structures are usually public, not shared personally"
+    },
+    {
+      "ruleId": 17,
+      "result": false,
+      "reason": "Doesn't involve technology (natural material)"
+    },
+    {
+      "ruleId": 18,
+      "result": false,
+      "reason": "Has no mechanical parts"
+    },
+    {
+      "ruleId": 19,
+      "result": true,
+      "reason": "Has cultural significance in many societies (Greek, Roman, etc.)"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "Used across many different cultures throughout history"
+    },
+    {
+      "ruleId": 21,
+      "result": false,
+      "reason": "Not disposable, very durable"
+    },
+    {
+      "ruleId": 22,
+      "result": true,
+      "reason": "Extremely long-lasting, used in monuments for millennia"
+    },
+    {
+      "ruleId": 23,
+      "result": true,
+      "reason": "Used indoors for flooring, countertops, sculptures"
+    },
+    {
+      "ruleId": 24,
+      "result": true,
+      "reason": "Used outdoors for buildings, monuments, landscaping"
+    },
+    {
+      "ruleId": 25,
+      "result": true,
+      "reason": "Often appears in films and TV shows in luxury settings"
+    },
+    {
+      "ruleId": 26,
+      "result": true,
+      "reason": "Associated with sculptors, architects, and stonemasons"
+    },
+    {
+      "ruleId": 27,
+      "result": true,
+      "reason": "Has religious significance in places of worship"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "Often used in religious buildings and sculptures"
+    },
+    {
+      "ruleId": 29,
+      "result": false,
+      "reason": "Marble is not mass-produced but quarried and processed"
+    },
+    {
+      "ruleId": 30,
+      "result": true,
+      "reason": "Marble artwork and decoration is often handcrafted"
+    },
+    {
+      "ruleId": 31,
+      "result": false,
+      "reason": "Not specifically associated with happiness"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "Not typically scary or dangerous"
+    },
+    {
+      "ruleId": 33,
+      "result": false,
+      "reason": "Not primarily used for entertainment (except marble toys)"
+    },
+    {
+      "ruleId": 34,
+      "result": true,
+      "reason": "Used for practical construction purposes"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "Not seasonal, available year-round"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "Used throughout the year"
+    },
+    {
+      "ruleId": 37,
+      "result": true,
+      "reason": "Working with marble requires special knowledge and skills"
+    },
+    {
+      "ruleId": 38,
+      "result": false,
+      "reason": "Not easy for everyone to use professionally"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "Associated with formal and elegant settings"
+    },
+    {
+      "ruleId": 40,
+      "result": false,
+      "reason": "Less commonly found in casual settings"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "People collect marble decorative items and antiques"
+    },
+    {
+      "ruleId": 42,
+      "result": false,
+      "reason": "Not typically associated with specific traditions"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "Has major historical importance in architecture and art"
+    },
+    {
+      "ruleId": 44,
+      "result": true,
+      "reason": "Still used and valued in contemporary settings"
+    },
+    {
+      "ruleId": 45,
+      "result": true,
+      "reason": "Marble items are given as gifts"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "Not commonly given as everyday gifts"
+    },
+    {
+      "ruleId": 47,
+      "result": true,
+      "reason": "Associated with wealth and luxury"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "Not equally used across all economic levels"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "Featured prominently in art and literature throughout history"
+    },
+    {
+      "ruleId": 50,
+      "result": true,
+      "reason": "Often symbolizes permanence, luxury, and classical beauty"
+    },
+    {
+      "ruleId": 51,
+      "result": true,
+      "reason": "Natural marble can chip or crack"
+    },
+    {
+      "ruleId": 52,
+      "result": false,
+      "reason": "Marble slabs and structures are generally not portable"
+    },
+    {
+      "ruleId": 53,
+      "result": false,
+      "reason": "Doesn't require power to function"
+    },
+    {
+      "ruleId": 54,
+      "result": true,
+      "reason": "High-quality marble is expensive"
+    },
+    {
+      "ruleId": 55,
+      "result": true,
+      "reason": "Found naturally in mountains and quarries"
+    },
+    {
+      "ruleId": 56,
+      "result": true,
+      "reason": "Naturally water-resistant"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "Too dense to float"
+    },
+    {
+      "ruleId": 58,
+      "result": false,
+      "reason": "Not made of metal"
+    },
+    {
+      "ruleId": 59,
+      "result": false,
+      "reason": "Doesn't make noise on its own"
+    },
+    {
+      "ruleId": 60,
+      "result": true,
+      "reason": "Comes in many colors and patterns"
+    },
+    {
+      "ruleId": 61,
+      "result": true,
+      "reason": "Can be recycled and repurposed"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "Not transparent"
+    },
+    {
+      "ruleId": 63,
+      "result": false,
+      "reason": "Has no moving parts"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "Hard to the touch"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "Cannot be folded"
+    },
+    {
+      "ruleId": 66,
+      "result": true,
+      "reason": "Requires maintenance (polishing, sealing)"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "Not typically sharp unless broken"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "Not edible"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "No distinctive smell"
+    },
+    {
+      "ruleId": 70,
+      "result": true,
+      "reason": "Very heavy material"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "Not worn on the body"
+    },
+    {
+      "ruleId": 72,
+      "result": false,
+      "reason": "Doesn't generate heat"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "Not flammable"
+    },
+    {
+      "ruleId": 74,
+      "result": true,
+      "reason": "Available in different varieties and qualities"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "Requires processing before use in construction"
+    },
+    {
+      "ruleId": 76,
+      "result": false,
+      "reason": "Not biodegradable"
+    },
+    {
+      "ruleId": 77,
+      "result": false,
+      "reason": "Marble slabs don't stack well"
+    },
+    {
+      "ruleId": 78,
+      "result": true,
+      "reason": "Can be polished to a reflective finish"
+    },
+    {
+      "ruleId": 79,
+      "result": false,
+      "reason": "Not magnetic"
+    },
+    {
+      "ruleId": 80,
+      "result": false,
+      "reason": "Natural patterns, not painted"
+    },
+    {
+      "ruleId": 81,
+      "result": true,
+      "reason": "Porous and can absorb liquids if not sealed"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "Rigid, not flexible"
+    },
+    {
+      "ruleId": 83,
+      "result": true,
+      "reason": "Often appears darker when wet"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "Can stain and discolor over time"
+    },
+    {
+      "ruleId": 85,
+      "result": false,
+      "reason": "Natural marble has irregular patterns"
+    },
+    {
+      "ruleId": 86,
+      "result": true,
+      "reason": "Can be repaired if cracked"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "Doesn't need fuel"
+    },
+    {
+      "ruleId": 88,
+      "result": true,
+      "reason": "Requires cleaning to maintain appearance"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "Doesn't function underwater"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "Doesn't have wheels"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "Not disposable"
+    },
+    {
+      "ruleId": 92,
+      "result": true,
+      "reason": "Can withstand heat"
+    },
+    {
+      "ruleId": 93,
+      "result": false,
+      "reason": "Doesn't require special storage"
+    },
+    {
+      "ruleId": 94,
+      "result": true,
+      "reason": "Can be hand-carved by artisans"
+    },
+    {
+      "ruleId": 95,
+      "result": true,
+      "reason": "Surface can be cleaned/polished"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "Not typically sold in pairs"
+    },
+    {
+      "ruleId": 97,
+      "result": false,
+      "reason": "Used year-round, not seasonal"
+    },
+    {
+      "ruleId": 98,
+      "result": false,
+      "reason": "Material rather than a tool"
+    },
+    {
+      "ruleId": 99,
+      "result": false,
+      "reason": "No license needed to own marble"
+    },
+    {
+      "ruleId": 100,
+      "result": true,
+      "reason": "Extremely durable, lasts centuries"
+    },
+    {
+      "ruleId": 101,
+      "result": true,
+      "reason": "Has two syllables (mar-ble)"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "Doesn't start with a vowel"
+    },
+    {
+      "ruleId": 103,
+      "result": true,
+      "reason": "Ends with vowel 'e'"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "Has 6 letters, not 5"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "Doesn't contain repeated vowels"
+    },
+    {
+      "ruleId": 106,
+      "result": true,
+      "reason": "First letter 'm' comes before last letter 'e' in alphabet"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "Not formed from two words"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "No double letters"
+    },
+    {
+      "ruleId": 109,
+      "result": true,
+      "reason": "Starts with 'm' which is from A to M"
+    },
+    {
+      "ruleId": 110,
+      "result": false,
+      "reason": "Has 6 letters, not more than 6"
+    },
+    {
+      "ruleId": 111,
+      "result": true,
+      "reason": "Can be noun or verb (to marble - create marbled pattern)"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "Doesn't contain letter 'k'"
+    },
+    {
+      "ruleId": 113,
+      "result": true,
+      "reason": "Has 5 unique letters (m,a,r,b,l,e)"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "Doesn't have a recognized prefix"
+    },
+    {
+      "ruleId": 115,
+      "result": true,
+      "reason": "Contains both 'a' and 'b'"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "First two letters 'm' and 'a' are not in alphabetical order"
+    },
+    {
+      "ruleId": 117,
+      "result": true,
+      "reason": "Contains the letter 'r'"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "Doesn't have three consonants in a row"
+    },
+    {
+      "ruleId": 119,
+      "result": true,
+      "reason": "Has 6 letters (within 6-8 range)"
+    },
+    {
+      "ruleId": 120,
+      "result": true,
+      "reason": "Has suffix '-le' (like handle, bottle)"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "Doesn't contain 't', 'v', or 's'"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "Doesn't contain letter 'z'"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "No repeated letters"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "Has two syllables, not three"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "Doesn't contain a color name"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "No silent consonants"
+    },
+    {
+      "ruleId": 127,
+      "result": true,
+      "reason": "Can be used as a verb (to marble something)"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "Doesn't end with 'er'"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "Letters not in alphabetical order"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "No two vowels next to each other"
+    },
+    {
+      "ruleId": 131,
+      "result": false,
+      "reason": "No repeated letters"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "Doesn't contain letter 'q'"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "Contains only 2 vowels (a,e)"
+    },
+    {
+      "ruleId": 134,
+      "result": false,
+      "reason": "Has 2 vowels and 4 consonants (not more vowels)"
+    },
+    {
+      "ruleId": 135,
+      "result": true,
+      "reason": "Has 6 letters (even number)"
+    },
+    {
+      "ruleId": 136,
+      "result": true,
+      "reason": "Has exactly 2 vowels"
+    },
+    {
+      "ruleId": 137,
+      "result": false,
+      "reason": "Last letter 'e' doesn't come before middle letter 'r' in alphabet"
+    },
+    {
+      "ruleId": 138,
+      "result": true,
+      "reason": "Ends with vowel 'e'"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "Doesn't start and end with the same letter"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "Has two syllables, not one"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "Not an acronym"
+    },
+    {
+      "ruleId": 142,
+      "result": false,
+      "reason": "Doesn't contain 'th'"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "No letter appears twice"
+    },
+    {
+      "ruleId": 144,
+      "result": false,
+      "reason": "Doesn't have letter 'y'"
+    },
+    {
+      "ruleId": 145,
+      "result": true,
+      "reason": "Starts with consonant 'm' and ends with vowel 'e'"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "Doesn't contain 'sh' or 'ch'"
+    },
+    {
+      "ruleId": 147,
+      "result": true,
+      "reason": "Contains letters from both halves of alphabet"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "Doesn't end with 'ly'"
+    },
+    {
+      "ruleId": 149,
+      "result": false,
+      "reason": "Doesn't contain a number when spelled"
+    },
+    {
+      "ruleId": 150,
+      "result": true,
+      "reason": "More consonants (4) than vowels (2)"
+    }
+  ]
+}

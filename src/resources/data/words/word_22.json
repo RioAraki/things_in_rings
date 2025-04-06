@@ -1,0 +1,756 @@
+{
+  "id": "22",
+  "word": "Horse",
+  "questions": [
+    {
+      "ruleId": 1,
+      "result": true,
+      "reason": "Horses have existed for thousands of years, domesticated 6000+ years ago"
+    },
+    {
+      "ruleId": 2,
+      "result": false,
+      "reason": "Horses existed well before 1950"
+    },
+    {
+      "ruleId": 3,
+      "result": false,
+      "reason": "Not commonly found in most homes"
+    },
+    {
+      "ruleId": 4,
+      "result": false,
+      "reason": "Not specifically made for children"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "Not primarily used by children"
+    },
+    {
+      "ruleId": 6,
+      "result": true,
+      "reason": "Primarily used and handled by adults"
+    },
+    {
+      "ruleId": 7,
+      "result": true,
+      "reason": "Can be expensive luxury items"
+    },
+    {
+      "ruleId": 8,
+      "result": false,
+      "reason": "Not a necessity for most modern people"
+    },
+    {
+      "ruleId": 9,
+      "result": true,
+      "reason": "Has practical purposes (transportation, work)"
+    },
+    {
+      "ruleId": 10,
+      "result": false,
+      "reason": "Primarily functional rather than decorative"
+    },
+    {
+      "ruleId": 11,
+      "result": true,
+      "reason": "Natural living animal"
+    },
+    {
+      "ruleId": 12,
+      "result": false,
+      "reason": "Not manufactured by humans"
+    },
+    {
+      "ruleId": 13,
+      "result": false,
+      "reason": "Used regularly rather than for special occasions"
+    },
+    {
+      "ruleId": 14,
+      "result": true,
+      "reason": "Requires daily care when owned"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "Can be personally owned"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "Usually owned by one person or family, not shared"
+    },
+    {
+      "ruleId": 17,
+      "result": false,
+      "reason": "Natural animal, doesn't involve technology"
+    },
+    {
+      "ruleId": 18,
+      "result": false,
+      "reason": "Has no mechanical parts"
+    },
+    {
+      "ruleId": 19,
+      "result": true,
+      "reason": "Has cultural significance in many societies"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "Important across many different cultures"
+    },
+    {
+      "ruleId": 21,
+      "result": false,
+      "reason": "Not disposable"
+    },
+    {
+      "ruleId": 22,
+      "result": true,
+      "reason": "Naturally long-living animal"
+    },
+    {
+      "ruleId": 23,
+      "result": false,
+      "reason": "Primarily kept outdoors"
+    },
+    {
+      "ruleId": 24,
+      "result": true,
+      "reason": "Lives and works outdoors"
+    },
+    {
+      "ruleId": 25,
+      "result": true,
+      "reason": "Featured in many films and media"
+    },
+    {
+      "ruleId": 26,
+      "result": true,
+      "reason": "Associated with specific professions (jockeys, cowboys, etc.)"
+    },
+    {
+      "ruleId": 27,
+      "result": false,
+      "reason": "No significant religious meaning in major religions"
+    },
+    {
+      "ruleId": 28,
+      "result": true,
+      "reason": "Primarily secular in modern usage"
+    },
+    {
+      "ruleId": 29,
+      "result": false,
+      "reason": "Not mass-produced, naturally born"
+    },
+    {
+      "ruleId": 30,
+      "result": false,
+      "reason": "Not handcrafted"
+    },
+    {
+      "ruleId": 31,
+      "result": false,
+      "reason": "Not specifically associated with happiness"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "Not typically scary"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "Used in entertainment (racing, shows)"
+    },
+    {
+      "ruleId": 34,
+      "result": true,
+      "reason": "Has practical purposes (transportation, work)"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "Used year-round, not seasonal"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "Present throughout the year"
+    },
+    {
+      "ruleId": 37,
+      "result": true,
+      "reason": "Requires special knowledge to properly care for"
+    },
+    {
+      "ruleId": 38,
+      "result": false,
+      "reason": "Not easy for everyone to handle safely"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "Used in formal settings like races and shows"
+    },
+    {
+      "ruleId": 40,
+      "result": true,
+      "reason": "Used in casual settings like trail riding"
+    },
+    {
+      "ruleId": 41,
+      "result": false,
+      "reason": "Live animals are not collected"
+    },
+    {
+      "ruleId": 42,
+      "result": true,
+      "reason": "Part of many traditions (rodeos, cavalry)"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "Has major historical importance in transportation and warfare"
+    },
+    {
+      "ruleId": 44,
+      "result": true,
+      "reason": "Still used in sports and recreation today"
+    },
+    {
+      "ruleId": 45,
+      "result": false,
+      "reason": "Not commonly given as a gift"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "Too expensive and involved to be a common gift"
+    },
+    {
+      "ruleId": 47,
+      "result": true,
+      "reason": "Ownership often associated with wealth and status"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "Not equally accessible to all economic levels"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "Featured prominently in art, literature, and media"
+    },
+    {
+      "ruleId": 50,
+      "result": true,
+      "reason": "Symbolizes freedom, power, and nobility"
+    },
+    {
+      "ruleId": 51,
+      "result": true,
+      "reason": "Can be injured or harmed"
+    },
+    {
+      "ruleId": 52,
+      "result": true,
+      "reason": "Can move from place to place independently"
+    },
+    {
+      "ruleId": 53,
+      "result": false,
+      "reason": "Doesn't require power to function"
+    },
+    {
+      "ruleId": 54,
+      "result": true,
+      "reason": "Expensive to purchase and maintain"
+    },
+    {
+      "ruleId": 55,
+      "result": true,
+      "reason": "Natural living creature"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "Not waterproof, though can swim"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "Can swim but doesn't naturally float"
+    },
+    {
+      "ruleId": 58,
+      "result": false,
+      "reason": "Not made of metal"
+    },
+    {
+      "ruleId": 59,
+      "result": true,
+      "reason": "Makes noises (neighing, snorting)"
+    },
+    {
+      "ruleId": 60,
+      "result": false,
+      "reason": "Natural coat colors (limited range)"
+    },
+    {
+      "ruleId": 61,
+      "result": false,
+      "reason": "Cannot be recycled"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "Not transparent"
+    },
+    {
+      "ruleId": 63,
+      "result": true,
+      "reason": "Has many moving body parts"
+    },
+    {
+      "ruleId": 64,
+      "result": true,
+      "reason": "Soft to touch (coat)"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "Cannot be folded"
+    },
+    {
+      "ruleId": 66,
+      "result": true,
+      "reason": "Requires regular care and grooming"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "No sharp edges typically"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "Not edible in most cultures"
+    },
+    {
+      "ruleId": 69,
+      "result": true,
+      "reason": "Has a distinctive smell"
+    },
+    {
+      "ruleId": 70,
+      "result": true,
+      "reason": "Very heavy"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "Not worn on the human body"
+    },
+    {
+      "ruleId": 72,
+      "result": true,
+      "reason": "Generates body heat"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "Not flammable"
+    },
+    {
+      "ruleId": 74,
+      "result": true,
+      "reason": "Many different breeds and types"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "Requires training before use"
+    },
+    {
+      "ruleId": 76,
+      "result": true,
+      "reason": "Eventually biodegrades after death"
+    },
+    {
+      "ruleId": 77,
+      "result": false,
+      "reason": "Cannot be stacked"
+    },
+    {
+      "ruleId": 78,
+      "result": false,
+      "reason": "Surface is not reflective"
+    },
+    {
+      "ruleId": 79,
+      "result": false,
+      "reason": "Not magnetic"
+    },
+    {
+      "ruleId": 80,
+      "result": false,
+      "reason": "Natural coloration, not painted"
+    },
+    {
+      "ruleId": 81,
+      "result": true,
+      "reason": "Absorbs water when wet"
+    },
+    {
+      "ruleId": 82,
+      "result": true,
+      "reason": "Body is flexible and can bend"
+    },
+    {
+      "ruleId": 83,
+      "result": true,
+      "reason": "Coat appears darker when wet"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "Appearance changes with age"
+    },
+    {
+      "ruleId": 85,
+      "result": true,
+      "reason": "Generally symmetrical in form"
+    },
+    {
+      "ruleId": 86,
+      "result": true,
+      "reason": "Can heal from injuries"
+    },
+    {
+      "ruleId": 87,
+      "result": true,
+      "reason": "Needs food (fuel) to function"
+    },
+    {
+      "ruleId": 88,
+      "result": true,
+      "reason": "Requires grooming to stay healthy"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "Cannot stay underwater long"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "Doesn't have wheels"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "Not disposable"
+    },
+    {
+      "ruleId": 92,
+      "result": false,
+      "reason": "Cannot withstand extreme heat"
+    },
+    {
+      "ruleId": 93,
+      "result": true,
+      "reason": "Requires appropriate shelter"
+    },
+    {
+      "ruleId": 94,
+      "result": false,
+      "reason": "Not handmade"
+    },
+    {
+      "ruleId": 95,
+      "result": true,
+      "reason": "Can be washed/groomed"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "Doesn't come in pairs"
+    },
+    {
+      "ruleId": 97,
+      "result": false,
+      "reason": "Present year-round, not seasonal"
+    },
+    {
+      "ruleId": 98,
+      "result": true,
+      "reason": "Used as transportation tool"
+    },
+    {
+      "ruleId": 99,
+      "result": true,
+      "reason": "May require license to own in some areas"
+    },
+    {
+      "ruleId": 100,
+      "result": true,
+      "reason": "Lives for many years"
+    },
+    {
+      "ruleId": 101,
+      "result": true,
+      "reason": "Has one syllable"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "Doesn't start with a vowel"
+    },
+    {
+      "ruleId": 103,
+      "result": true,
+      "reason": "Ends with vowel 'e'"
+    },
+    {
+      "ruleId": 104,
+      "result": true,
+      "reason": "Has 5 letters"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "Doesn't contain repeated vowels"
+    },
+    {
+      "ruleId": 106,
+      "result": true,
+      "reason": "First letter 'h' comes before last letter 'e' in alphabet"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "Not formed from two words"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "No double letters"
+    },
+    {
+      "ruleId": 109,
+      "result": true,
+      "reason": "Starts with 'h' which is from A to M"
+    },
+    {
+      "ruleId": 110,
+      "result": false,
+      "reason": "Has 5 letters, not more than 6"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "Primarily used as a noun, not commonly as a verb"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "Doesn't contain letter 'k'"
+    },
+    {
+      "ruleId": 113,
+      "result": true,
+      "reason": "Has 5 unique letters (h,o,r,s,e)"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "Doesn't have a recognized prefix"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "Doesn't contain both 'a' and 'b'"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "First two letters 'h' and 'o' are not in alphabetical order"
+    },
+    {
+      "ruleId": 117,
+      "result": true,
+      "reason": "Contains the letter 'r'"
+    },
+    {
+      "ruleId": 118,
+      "result": true,
+      "reason": "Has three consonants in a row 'hrs'"
+    },
+    {
+      "ruleId": 119,
+      "result": false,
+      "reason": "Has 5 letters (not within 6-8 range)"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "Doesn't end with '-le'"
+    },
+    {
+      "ruleId": 121,
+      "result": true,
+      "reason": "Contains 's' from the set 't', 'v', 's'"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "Doesn't contain letter 'z'"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "No repeated letters"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "Has one syllable, not three"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "Doesn't contain a color name"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "No silent consonants"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "Not commonly used as a verb"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "Doesn't end with 'er'"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "Letters not in alphabetical order"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "No two vowels next to each other"
+    },
+    {
+      "ruleId": 131,
+      "result": false,
+      "reason": "No repeated letters"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "Doesn't contain letter 'q'"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "Contains only 2 vowels (o,e)"
+    },
+    {
+      "ruleId": 134,
+      "result": false,
+      "reason": "Has 2 vowels and 3 consonants (not more vowels)"
+    },
+    {
+      "ruleId": 135,
+      "result": false,
+      "reason": "Has 5 letters (odd number)"
+    },
+    {
+      "ruleId": 136,
+      "result": true,
+      "reason": "Has exactly 2 vowels"
+    },
+    {
+      "ruleId": 137,
+      "result": false,
+      "reason": "Last letter 'e' doesn't come before middle letter 'r' in alphabet"
+    },
+    {
+      "ruleId": 138,
+      "result": true,
+      "reason": "Ends with vowel 'e'"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "Doesn't start and end with the same letter"
+    },
+    {
+      "ruleId": 140,
+      "result": true,
+      "reason": "Has just one syllable"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "Not an acronym"
+    },
+    {
+      "ruleId": 142,
+      "result": false,
+      "reason": "Doesn't contain 'th'"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "No letter appears twice"
+    },
+    {
+      "ruleId": 144,
+      "result": false,
+      "reason": "Doesn't have letter 'y'"
+    },
+    {
+      "ruleId": 145,
+      "result": true,
+      "reason": "Starts with consonant 'h' and ends with vowel 'e'"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "Doesn't contain 'sh' or 'ch'"
+    },
+    {
+      "ruleId": 147,
+      "result": true,
+      "reason": "Contains letters from both halves of alphabet"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "Doesn't end with 'ly'"
+    },
+    {
+      "ruleId": 149,
+      "result": false,
+      "reason": "Doesn't contain a number when spelled"
+    },
+    {
+      "ruleId": 150,
+      "result": true,
+      "reason": "More consonants (3) than vowels (2)"
+    }
+  ]
+}

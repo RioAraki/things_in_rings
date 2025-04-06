@@ -1,0 +1,756 @@
+{
+  "id": "2",
+  "word": "Penguin",
+  "questions": [
+    {
+      "ruleId": 1,
+      "result": true,
+      "reason": "Very old (penguins evolved millions of years ago)"
+    },
+    {
+      "ruleId": 2,
+      "result": false,
+      "reason": "Its an old species"
+    },
+    {
+      "ruleId": 3,
+      "result": false,
+      "reason": "Not found in most homes (except as toys or decorations)"
+    },
+    {
+      "ruleId": 4,
+      "result": true,
+      "reason": "very rare as pet"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "Not mainly for kids, though kids do like them"
+    },
+    {
+      "ruleId": 6,
+      "result": false,
+      "reason": "Not specifically made for grown-ups"
+    },
+    {
+      "ruleId": 7,
+      "result": false,
+      "reason": "Not considered fancy or expensive"
+    },
+    {
+      "ruleId": 8,
+      "result": false,
+      "reason": "Not something everyone needs"
+    },
+    {
+      "ruleId": 9,
+      "result": false,
+      "reason": "Not useful for accomplishing tasks"
+    },
+    {
+      "ruleId": 10,
+      "result": true,
+      "reason": "Often used decoratively in various media"
+    },
+    {
+      "ruleId": 11,
+      "result": true,
+      "reason": "Found in nature - they are animals"
+    },
+    {
+      "ruleId": 12,
+      "result": false,
+      "reason": "Not made in factories (they are natural animals)"
+    },
+    {
+      "ruleId": 13,
+      "result": false,
+      "reason": "Not featured in special events"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "Not used in everyday routines"
+    },
+    {
+      "ruleId": 15,
+      "result": false,
+      "reason": "Mostly just in zoos, do not belong to anyone"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "Do not belong to or shared by anyone"
+    },
+    {
+      "ruleId": 17,
+      "result": false,
+      "reason": "Not high-tech, they are natural animals"
+    },
+    {
+      "ruleId": 18,
+      "result": false,
+      "reason": "Not a tool or machine"
+    },
+    {
+      "ruleId": 19,
+      "result": false,
+      "reason": "Not specific to one culture, found in many countries"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "Known across the world in various cultures"
+    },
+    {
+      "ruleId": 21,
+      "result": false,
+      "reason": "Not disposable"
+    },
+    {
+      "ruleId": 22,
+      "result": true,
+      "reason": "Live for many years (natural lifespan)"
+    },
+    {
+      "ruleId": 23,
+      "result": false,
+      "reason": "Not typically inside buildings except in zoos or aquariums"
+    },
+    {
+      "ruleId": 24,
+      "result": true,
+      "reason": "Live outdoors in their natural habitat"
+    },
+    {
+      "ruleId": 25,
+      "result": true,
+      "reason": "Frequently appear in movies and TV shows"
+    },
+    {
+      "ruleId": 26,
+      "result": true,
+      "reason": "Studied by various professionals (zoologists, conservationists, etc.)"
+    },
+    {
+      "ruleId": 27,
+      "result": false,
+      "reason": "No significant religious meaning"
+    },
+    {
+      "ruleId": 28,
+      "result": true,
+      "reason": "Primarily secular in nature"
+    },
+    {
+      "ruleId": 29,
+      "result": false,
+      "reason": "Not mass-produced as they're natural animals"
+    },
+    {
+      "ruleId": 30,
+      "result": false,
+      "reason": "Not handmade"
+    },
+    {
+      "ruleId": 31,
+      "result": true,
+      "reason": "Often bring joy to people who watch them"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "Not scary or dangerous to humans"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "Often viewed for entertainment at zoos"
+    },
+    {
+      "ruleId": 34,
+      "result": true,
+      "reason": "Also studied for scientific research"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "Exist year-round, not seasonal"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "Present throughout the year"
+    },
+    {
+      "ruleId": 37,
+      "result": false,
+      "reason": "No special knowledge needed to recognize or appreciate them"
+    },
+    {
+      "ruleId": 38,
+      "result": true,
+      "reason": "Easy for anyone to identify and understand"
+    },
+    {
+      "ruleId": 39,
+      "result": false,
+      "reason": "Not typically associated with formal settings"
+    },
+    {
+      "ruleId": 40,
+      "result": true,
+      "reason": "More commonly associated with casual, fun environments"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "People collect penguin-themed items and memorabilia"
+    },
+    {
+      "ruleId": 42,
+      "result": false,
+      "reason": "Not part of widespread cultural traditions"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "Important in understanding evolution and biodiversity"
+    },
+    {
+      "ruleId": 44,
+      "result": true,
+      "reason": "Remain relevant in contemporary times"
+    },
+    {
+      "ruleId": 45,
+      "result": false,
+      "reason": "Not typically given as gifts (except as toys or themed items)"
+    },
+    {
+      "ruleId": 46,
+      "result": true,
+      "reason": "Rarely given as actual gifts (the animals themselves)"
+    },
+    {
+      "ruleId": 47,
+      "result": false,
+      "reason": "Not associated with wealth"
+    },
+    {
+      "ruleId": 48,
+      "result": true,
+      "reason": "Appreciated by people of all socioeconomic levels"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "Frequently appear in books, movies, and art"
+    },
+    {
+      "ruleId": 50,
+      "result": false,
+      "reason": "Not mundane in cultural works, often featured prominently"
+    },
+    {
+      "ruleId": 51,
+      "result": false,
+      "reason": "Don't break easily as they are living creatures"
+    },
+    {
+      "ruleId": 52,
+      "result": false,
+      "reason": "Not easily carried around (except toy versions)"
+    },
+    {
+      "ruleId": 53,
+      "result": false,
+      "reason": "Don't need electricity"
+    },
+    {
+      "ruleId": 54,
+      "result": false,
+      "reason": "While valuable ecologically, not monetarily expensive"
+    },
+    {
+      "ruleId": 55,
+      "result": true,
+      "reason": "Found in nature"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "Don't stay completely dry in water, though have waterproof feathers"
+    },
+    {
+      "ruleId": 57,
+      "result": true,
+      "reason": "Can float in water"
+    },
+    {
+      "ruleId": 58,
+      "result": false,
+      "reason": "Not made of metal"
+    },
+    {
+      "ruleId": 59,
+      "result": true,
+      "reason": "Make distinctive calls and sounds"
+    },
+    {
+      "ruleId": 60,
+      "result": true,
+      "reason": "Have distinct black and white coloration"
+    },
+    {
+      "ruleId": 61,
+      "result": false,
+      "reason": "Not recyclable"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "Not see-through"
+    },
+    {
+      "ruleId": 63,
+      "result": true,
+      "reason": "Have moving parts (wings, flippers, head, etc.)"
+    },
+    {
+      "ruleId": 64,
+      "result": true,
+      "reason": "Feathers are soft to touch"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "Cannot be folded"
+    },
+    {
+      "ruleId": 66,
+      "result": true,
+      "reason": "Need care and maintenance (in captivity)"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "No particularly sharp edges"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "Not meant to be eaten by humans"
+    },
+    {
+      "ruleId": 69,
+      "result": true,
+      "reason": "Have a distinctive smell"
+    },
+    {
+      "ruleId": 70,
+      "result": true,
+      "reason": "Medium-sized, can be heavy to lift"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "Cannot be worn"
+    },
+    {
+      "ruleId": 72,
+      "result": false,
+      "reason": "Doesn't generate heat"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "Not flammable"
+    },
+    {
+      "ruleId": 74,
+      "result": false,
+      "reason": "Cannot be changed or decorated"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "Don't need assembly"
+    },
+    {
+      "ruleId": 76,
+      "result": true,
+      "reason": "Decompose naturally after death"
+    },
+    {
+      "ruleId": 77,
+      "result": false,
+      "reason": "Cannot be stacked"
+    },
+    {
+      "ruleId": 78,
+      "result": false,
+      "reason": "Not particularly shiny or reflective"
+    },
+    {
+      "ruleId": 79,
+      "result": false,
+      "reason": "Not magnetic"
+    },
+    {
+      "ruleId": 80,
+      "result": false,
+      "reason": "Cannot be painted"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "Don't soak up water (have waterproof feathers)"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "Don't bend easily"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "Don't change color when wet"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "Change over time as they grow and age"
+    },
+    {
+      "ruleId": 85,
+      "result": true,
+      "reason": "Generally symmetrical on both sides"
+    },
+    {
+      "ruleId": 86,
+      "result": false,
+      "reason": "If severely injured, cannot always be fixed"
+    },
+    {
+      "ruleId": 87,
+      "result": true,
+      "reason": "Need food as fuel for energy"
+    },
+    {
+      "ruleId": 88,
+      "result": true,
+      "reason": "Stay clean through preening"
+    },
+    {
+      "ruleId": 89,
+      "result": true,
+      "reason": "Can swim underwater effectively"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "Don't have wheels"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "Not disposable"
+    },
+    {
+      "ruleId": 92,
+      "result": false,
+      "reason": "Cannot be safely heated"
+    },
+    {
+      "ruleId": 93,
+      "result": true,
+      "reason": "Need special habitats and conditions"
+    },
+    {
+      "ruleId": 94,
+      "result": false,
+      "reason": "Not made by hand"
+    },
+    {
+      "ruleId": 95,
+      "result": false,
+      "reason": "Not easy to clean"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "Don't come in pairs"
+    },
+    {
+      "ruleId": 97,
+      "result": false,
+      "reason": "Not used in specific seasons only"
+    },
+    {
+      "ruleId": 98,
+      "result": false,
+      "reason": "Cannot be used as a tool"
+    },
+    {
+      "ruleId": 99,
+      "result": true,
+      "reason": "Need permits to keep in captivity"
+    },
+    {
+      "ruleId": 100,
+      "result": false,
+      "reason": "Not used repeatedly for a purpose"
+    },
+    {
+      "ruleId": 101,
+      "result": true,
+      "reason": "Has exactly two syllables (pen-guin)"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "Doesn't start with a vowel"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "Ends with consonant 'n'"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "Has 7 letters, not exactly 5"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "Contains 'e' but not 'a'"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "First letter 'p' doesn't come before last letter 'n' in alphabet"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "Not made of two words put together"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "No double letters"
+    },
+    {
+      "ruleId": 109,
+      "result": true,
+      "reason": "Starts with 'p' which is from A to M"
+    },
+    {
+      "ruleId": 110,
+      "result": true,
+      "reason": "Has 7 letters (more than six)"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "Mainly used as a noun, not a verb"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "Doesn't contain the letter 'k'"
+    },
+    {
+      "ruleId": 113,
+      "result": false,
+      "reason": "Has more than 4 unique letters (p,e,n,g,u,i)"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "Doesn't have a prefix"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "Doesn't have both 'a' and 'b'"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "First two letters 'p' and 'e' are not in alphabetical order"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "Doesn't contain the letter 'r'"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "Doesn't have three consonants in a row"
+    },
+    {
+      "ruleId": 119,
+      "result": true,
+      "reason": "Has exactly 7 letters (within 6-8 range)"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "Doesn't have a suffix"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "Doesn't have any of 't', 'v', or 's'"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "Doesn't contain letter 'z'"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "Doesn't have any repeated letters"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "Has two syllables, not three"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "Doesn't contain a color name"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "No silent consonants"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "Primarily a noun, not a verb"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "Doesn't end with 'er'"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "Letters are not in alphabetical order"
+    },
+    {
+      "ruleId": 130,
+      "result": true,
+      "reason": "Has two vowel sounds together ('ui')"
+    },
+    {
+      "ruleId": 131,
+      "result": true,
+      "reason": "All letters appear exactly once"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "Doesn't contain letter 'q'"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "Contains only 2 vowels (e, u, i), not 3+"
+    },
+    {
+      "ruleId": 134,
+      "result": false,
+      "reason": "Has 3 vowels and 4 consonants (not more vowels)"
+    },
+    {
+      "ruleId": 135,
+      "result": false,
+      "reason": "Has 7 letters (odd number)"
+    },
+    {
+      "ruleId": 136,
+      "result": false,
+      "reason": "Has 3 vowels (e, u, i), not exactly 2"
+    },
+    {
+      "ruleId": 137,
+      "result": true,
+      "reason": "Last letter 'n' comes before middle letter 'g' in alphabet"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "Ends with consonant 'n'"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "Doesn't start and end with the same letter"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "Has two syllables, not one"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "Not an acronym"
+    },
+    {
+      "ruleId": 142,
+      "result": false,
+      "reason": "Doesn't contain 'th'"
+    },
+    {
+      "ruleId": 143,
+      "result": true,
+      "reason": "Letter 'n' appears twice"
+    },
+    {
+      "ruleId": 144,
+      "result": false,
+      "reason": "Doesn't have letter 'y'"
+    },
+    {
+      "ruleId": 145,
+      "result": true,
+      "reason": "First letter 'p' and last letter 'n' are both consonants"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "Doesn't contain 'sh' or 'ch'"
+    },
+    {
+      "ruleId": 147,
+      "result": false,
+      "reason": "Contains letters from both halves of alphabet (n-z)"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "Doesn't end with 'ly'"
+    },
+    {
+      "ruleId": 149,
+      "result": false,
+      "reason": "Doesn't contain a number when spelled"
+    },
+    {
+      "ruleId": 150,
+      "result": true,
+      "reason": "Has more consonants (4: p,n,g,n) than vowels (3: e,u,i)"
+    }
+  ]
+}

@@ -38,7 +38,7 @@ function normalizeWordData(wordData: any): Word {
   };
 }
 
-// Keep a cache of the original unshuffled words
+// Load and normalize all words
 const originalWords = (wordsData.words || []).map(word => normalizeWordData(word));
 
 export function getWords(): Word[] {
@@ -47,7 +47,7 @@ export function getWords(): Word[] {
 }
 
 export function getWordById(id: string): Word | undefined {
-  // Use the original unshuffled array to find words by ID
+  // Find word in the loaded words
   return originalWords.find(word => word.id === id);
 }
 

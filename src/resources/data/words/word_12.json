@@ -1,0 +1,66 @@
+{
+  "id": "12",
+  "word": "Basket",
+  "questions": [
+    {
+      "ruleId": 1,
+      "result": true
+    },
+    {
+      "ruleId": 2,
+      "result": false
+    },
+    {
+      "ruleId": 3,
+      "result": false
+    },
+    {
+      "ruleId": 4,
+      "result": false
+    },
+    {
+      "ruleId": 5,
+      "result": true
+    },
+    {
+      "ruleId": 6,
+      "result": false
+    },
+    {
+      "ruleId": 7,
+      "result": true
+    },
+    {
+      "ruleId": 8,
+      "result": false
+    },
+    {
+      "ruleId": 9,
+      "result": false
+    },
+    {
+      "ruleId": 10,
+      "result": false
+    },
+    {
+      "ruleId": 11,
+      "result": true
+    },
+    {
+      "ruleId": 12,
+      "result": false
+    },
+    {
+      "ruleId": 13,
+      "result": true
+    },
+    {
+      "ruleId": 14,
+      "result": false
+    },
+    {
+      "ruleId": 15,
+      "result": false
+    }
+  ]
+}

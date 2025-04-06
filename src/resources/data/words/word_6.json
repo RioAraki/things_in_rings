@@ -1,0 +1,756 @@
+{
+  "id": "6",
+  "word": "Compass",
+  "questions": [
+    {
+      "ruleId": 1,
+      "result": true,
+      "reason": "Compass in basic form has existed for over 1000 years (ancient China)"
+    },
+    {
+      "ruleId": 2,
+      "result": true,
+      "reason": "Modern electronic compasses were made after 1950"
+    },
+    {
+      "ruleId": 3,
+      "result": true,
+      "reason": "Found in many homes as basic navigation tool"
+    },
+    {
+      "ruleId": 4,
+      "result": false,
+      "reason": "Common in many homes (especially in outdoor equipment)"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "Not specifically made for children"
+    },
+    {
+      "ruleId": 6,
+      "result": true,
+      "reason": "More commonly used by adults"
+    },
+    {
+      "ruleId": 7,
+      "result": false,
+      "reason": "Basic compasses are inexpensive, not fancy"
+    },
+    {
+      "ruleId": 8,
+      "result": false,
+      "reason": "Not a basic necessity for most people"
+    },
+    {
+      "ruleId": 9,
+      "result": true,
+      "reason": "Has practical purpose for navigation"
+    },
+    {
+      "ruleId": 10,
+      "result": false,
+      "reason": "Primarily functional, not decorative"
+    },
+    {
+      "ruleId": 11,
+      "result": false,
+      "reason": "Not found in nature"
+    },
+    {
+      "ruleId": 12,
+      "result": true,
+      "reason": "Manufactured in factories"
+    },
+    {
+      "ruleId": 13,
+      "result": false,
+      "reason": "Not used for special occasions"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "Not used in everyday routines for most people"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "Usually a personal possession"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "Not typically shared among many people"
+    },
+    {
+      "ruleId": 17,
+      "result": false,
+      "reason": "Basic compasses are not high-tech"
+    },
+    {
+      "ruleId": 18,
+      "result": true,
+      "reason": "Operates on simple mechanical principles"
+    },
+    {
+      "ruleId": 19,
+      "result": false,
+      "reason": "Used across many cultures"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "Global tool used in many cultures"
+    },
+    {
+      "ruleId": 21,
+      "result": false,
+      "reason": "Not disposable"
+    },
+    {
+      "ruleId": 22,
+      "result": true,
+      "reason": "Designed to last many years"
+    },
+    {
+      "ruleId": 23,
+      "result": true,
+      "reason": "Can be used indoors"
+    },
+    {
+      "ruleId": 24,
+      "result": true,
+      "reason": "Also used outdoors"
+    },
+    {
+      "ruleId": 25,
+      "result": true,
+      "reason": "Often appears in movies and TV shows"
+    },
+    {
+      "ruleId": 26,
+      "result": true,
+      "reason": "Used by various professions (sailors, hikers, surveyors)"
+    },
+    {
+      "ruleId": 27,
+      "result": false,
+      "reason": "No significant religious meaning"
+    },
+    {
+      "ruleId": 28,
+      "result": true,
+      "reason": "Primarily secular tool"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "Mass-produced"
+    },
+    {
+      "ruleId": 30,
+      "result": false,
+      "reason": "Not typically handcrafted"
+    },
+    {
+      "ruleId": 31,
+      "result": false,
+      "reason": "Not associated with happiness"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "Not scary or dangerous"
+    },
+    {
+      "ruleId": 33,
+      "result": false,
+      "reason": "Not primarily for entertainment"
+    },
+    {
+      "ruleId": 34,
+      "result": true,
+      "reason": "Used for serious navigation purposes"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "Used year-round, not seasonal"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "Used throughout the year"
+    },
+    {
+      "ruleId": 37,
+      "result": true,
+      "reason": "Requires some knowledge to use effectively"
+    },
+    {
+      "ruleId": 38,
+      "result": false,
+      "reason": "Not immediately intuitive without instruction"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "Can be used in formal settings (navigation, surveying)"
+    },
+    {
+      "ruleId": 40,
+      "result": true,
+      "reason": "Also used in casual settings (hiking, camping)"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "Some people collect antique compasses"
+    },
+    {
+      "ruleId": 42,
+      "result": false,
+      "reason": "Not part of specific traditions"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "Has significant historical importance"
+    },
+    {
+      "ruleId": 44,
+      "result": true,
+      "reason": "Still relevant in contemporary times"
+    },
+    {
+      "ruleId": 45,
+      "result": true,
+      "reason": "Sometimes given as gifts"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "Not uncommonly given as a gift"
+    },
+    {
+      "ruleId": 47,
+      "result": false,
+      "reason": "Not associated with wealth"
+    },
+    {
+      "ruleId": 48,
+      "result": true,
+      "reason": "Used by people of all economic levels"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "Featured in art, literature, and media"
+    },
+    {
+      "ruleId": 50,
+      "result": true,
+      "reason": "Often symbolic of direction or guidance"
+    },
+    {
+      "ruleId": 51,
+      "result": true,
+      "reason": "Can break if dropped"
+    },
+    {
+      "ruleId": 52,
+      "result": true,
+      "reason": "Designed to be portable"
+    },
+    {
+      "ruleId": 53,
+      "result": false,
+      "reason": "Basic compasses don't need electricity"
+    },
+    {
+      "ruleId": 54,
+      "result": false,
+      "reason": "Basic models are inexpensive"
+    },
+    {
+      "ruleId": 55,
+      "result": false,
+      "reason": "Not found in nature"
+    },
+    {
+      "ruleId": 56,
+      "result": true,
+      "reason": "Many are designed to be waterproof"
+    },
+    {
+      "ruleId": 57,
+      "result": true,
+      "reason": "Some models can float"
+    },
+    {
+      "ruleId": 58,
+      "result": true,
+      "reason": "Contains metal parts"
+    },
+    {
+      "ruleId": 59,
+      "result": false,
+      "reason": "Doesn't make noise when used"
+    },
+    {
+      "ruleId": 60,
+      "result": false,
+      "reason": "Usually not colorful (typically black/white)"
+    },
+    {
+      "ruleId": 61,
+      "result": true,
+      "reason": "Parts can be recycled"
+    },
+    {
+      "ruleId": 62,
+      "result": true,
+      "reason": "Has transparent parts (cover)"
+    },
+    {
+      "ruleId": 63,
+      "result": true,
+      "reason": "Has moving parts (needle)"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "Not soft to touch"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "Cannot be folded"
+    },
+    {
+      "ruleId": 66,
+      "result": true,
+      "reason": "Requires occasional maintenance"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "No sharp edges"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "Cannot be eaten"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "No distinctive smell"
+    },
+    {
+      "ruleId": 70,
+      "result": false,
+      "reason": "Not heavy"
+    },
+    {
+      "ruleId": 71,
+      "result": true,
+      "reason": "Can be worn (wrist compasses)"
+    },
+    {
+      "ruleId": 72,
+      "result": false,
+      "reason": "Doesn't generate heat"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "Not flammable"
+    },
+    {
+      "ruleId": 74,
+      "result": true,
+      "reason": "Available with different features"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "Comes fully assembled"
+    },
+    {
+      "ruleId": 76,
+      "result": false,
+      "reason": "Not biodegradable"
+    },
+    {
+      "ruleId": 77,
+      "result": true,
+      "reason": "Multiple compasses can be stacked"
+    },
+    {
+      "ruleId": 78,
+      "result": true,
+      "reason": "Often has reflective markings"
+    },
+    {
+      "ruleId": 79,
+      "result": true,
+      "reason": "Contains magnetic components"
+    },
+    {
+      "ruleId": 80,
+      "result": false,
+      "reason": "Not typically painted"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "Doesn't absorb water"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "Not flexible"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "Doesn't change color when wet"
+    },
+    {
+      "ruleId": 84,
+      "result": false,
+      "reason": "Doesn't naturally change over time"
+    },
+    {
+      "ruleId": 85,
+      "result": true,
+      "reason": "Usually circular and symmetrical"
+    },
+    {
+      "ruleId": 86,
+      "result": true,
+      "reason": "Can be repaired if broken"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "Doesn't require fuel"
+    },
+    {
+      "ruleId": 88,
+      "result": true,
+      "reason": "Needs to be kept clean for accuracy"
+    },
+    {
+      "ruleId": 89,
+      "result": true,
+      "reason": "Some models work underwater"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "Doesn't have wheels"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "Not intended for single use"
+    },
+    {
+      "ruleId": 92,
+      "result": false,
+      "reason": "Not designed to withstand extreme heat"
+    },
+    {
+      "ruleId": 93,
+      "result": true,
+      "reason": "Should be stored away from magnets"
+    },
+    {
+      "ruleId": 94,
+      "result": false,
+      "reason": "Typically factory-made"
+    },
+    {
+      "ruleId": 95,
+      "result": true,
+      "reason": "Surface can be wiped clean"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "Doesn't come in pairs"
+    },
+    {
+      "ruleId": 97,
+      "result": false,
+      "reason": "Used year-round, not seasonal"
+    },
+    {
+      "ruleId": 98,
+      "result": true,
+      "reason": "Used as a navigation tool"
+    },
+    {
+      "ruleId": 99,
+      "result": false,
+      "reason": "No license needed to use"
+    },
+    {
+      "ruleId": 100,
+      "result": true,
+      "reason": "Can be used many times"
+    },
+    {
+      "ruleId": 101,
+      "result": true,
+      "reason": "Has two syllables (com-pass)"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "Doesn't start with a vowel"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "Doesn't end with a vowel"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "Has 7 letters, not 5"
+    },
+    {
+      "ruleId": 105,
+      "result": true,
+      "reason": "Contains both 'a' and 'o'"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "First letter 'c' comes after last letter 's' in alphabet"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "Not formed from two words"
+    },
+    {
+      "ruleId": 108,
+      "result": true,
+      "reason": "Has double letter 's'"
+    },
+    {
+      "ruleId": 109,
+      "result": true,
+      "reason": "Starts with 'c' which is from A to M"
+    },
+    {
+      "ruleId": 110,
+      "result": true,
+      "reason": "Has more than 6 letters (7)"
+    },
+    {
+      "ruleId": 111,
+      "result": true,
+      "reason": "Can be noun or verb (to compass something)"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "Doesn't contain letter 'k'"
+    },
+    {
+      "ruleId": 113,
+      "result": false,
+      "reason": "Has more than 4 unique letters (c,o,m,p,a,s)"
+    },
+    {
+      "ruleId": 114,
+      "result": true,
+      "reason": "Has prefix 'com-' (meaning together)"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "Contains 'a' but not 'b'"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "First two letters 'c' and 'o' are not in alphabetical order"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "Doesn't contain the letter 'r'"
+    },
+    {
+      "ruleId": 118,
+      "result": true,
+      "reason": "Has three consonants in a row 'mps'"
+    },
+    {
+      "ruleId": 119,
+      "result": true,
+      "reason": "Has 7 letters (within 6-8 range)"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "Doesn't have a recognized suffix"
+    },
+    {
+      "ruleId": 121,
+      "result": true,
+      "reason": "Contains 's' from the set 't', 'v', 's'"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "Doesn't contain letter 'z'"
+    },
+    {
+      "ruleId": 123,
+      "result": true,
+      "reason": "Has repeated letter 's'"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "Has two syllables, not three"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "Doesn't contain a color name"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "No silent consonants"
+    },
+    {
+      "ruleId": 127,
+      "result": true,
+      "reason": "Can be used as a verb"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "Doesn't end with 'er'"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "Letters not in alphabetical order"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "No two vowels next to each other"
+    },
+    {
+      "ruleId": 131,
+      "result": false,
+      "reason": "Has repeated letter 's'"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "Doesn't contain letter 'q'"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "Contains only 2 vowels (o,a)"
+    },
+    {
+      "ruleId": 134,
+      "result": false,
+      "reason": "Has 2 vowels and 5 consonants (not more vowels)"
+    },
+    {
+      "ruleId": 135,
+      "result": false,
+      "reason": "Has 7 letters (odd number)"
+    },
+    {
+      "ruleId": 136,
+      "result": true,
+      "reason": "Has exactly 2 vowels"
+    },
+    {
+      "ruleId": 137,
+      "result": false,
+      "reason": "Last letter 's' comes after middle letter 'p' in alphabet"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "Doesn't end with a vowel"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "Doesn't start and end with the same letter"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "Has two syllables, not one"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "Not an acronym"
+    },
+    {
+      "ruleId": 142,
+      "result": false,
+      "reason": "Doesn't contain 'th'"
+    },
+    {
+      "ruleId": 143,
+      "result": true,
+      "reason": "Letter 's' appears twice"
+    },
+    {
+      "ruleId": 144,
+      "result": false,
+      "reason": "Doesn't have letter 'y'"
+    },
+    {
+      "ruleId": 145,
+      "result": true,
+      "reason": "Starts with consonant 'c' and ends with consonant 's'"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "Doesn't contain 'sh' or 'ch'"
+    },
+    {
+      "ruleId": 147,
+      "result": false,
+      "reason": "Contains letters from both halves of alphabet"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "Doesn't end with 'ly'"
+    },
+    {
+      "ruleId": 149,
+      "result": false,
+      "reason": "Doesn't contain a number when spelled"
+    },
+    {
+      "ruleId": 150,
+      "result": true,
+      "reason": "More consonants (5) than vowels (2)"
+    }
+  ]
+}
