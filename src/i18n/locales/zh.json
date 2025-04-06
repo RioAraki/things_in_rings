@@ -1,6 +1,14 @@
 {
   "ui": {
     "context": "使用场景",
+    "wording": "拼写",
+    "property": "特性",
+    "all": "全部满足",
+    "none": "全不满足",
+    "picture": "图示",
+    "selectWordForPicture": "选择一个词查看图示",
+    "log": "历史",
+    "noLogsYet": "暂无历史记录",
     "wordList": "词汇表",
     "rules": "规则",
     "settings": "设置",

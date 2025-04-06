@@ -44,6 +44,30 @@ const getWordImage = (word: string): string => {
   }
 };
 
+// Add this function near the top of the file, after the imports
+function getEnglishAreaName(translatedArea: string): string {
+  // Handle basic areas
+  if (translatedArea === '使用场景') return 'Context';
+  if (translatedArea === '特性') return 'Property';
+  if (translatedArea === '拼写') return 'Wording';
+  if (translatedArea === '全部满足') return 'All';
+  if (translatedArea === '全不满足') return 'None';
+
+  // Handle combination areas
+  if (translatedArea.startsWith('使用场景+')) {
+    return 'Context' + translatedArea.substring('使用场景'.length);
+  }
+  if (translatedArea.includes('+拼写')) {
+    return translatedArea.replace('拼写', 'Wording');
+  }
+  if (translatedArea.includes('特性')) {
+    return translatedArea.replace('特性', 'Property');
+  }
+
+  // Default case: return as is
+  return translatedArea;
+}
+
 export default function SetDiagramPage() {
   const { t } = useTranslation();
   
@@ -95,27 +119,27 @@ export default function SetDiagramPage() {
   };
 
   // Define the base areas that don't change with language
-  const baseAreas: BaseArea[] = ["Property", "Wording", "Property+Wording", "All", "None"];
+  const baseAreas: BaseArea[] = ["Context", "Property", "Wording", "Context+Property", "Context+Wording", "Property+Wording", "All", "None"];
   
   // Create the area words state with both translated and base areas
   const [areaWords, setAreaWords] = useState<Record<Area, Word[]>>(() => {
     const initialAreas: Record<Area, Word[]> = {};
     
-    // Add translated areas
-    initialAreas[(t as any)('ui.context')] = [];
-    initialAreas[`${(t as any)('ui.context')}+Property`] = [];
-    initialAreas[`${(t as any)('ui.context')}+Wording`] = [];
-    
-    // Add base areas
+    // Add all areas with their English names first
     baseAreas.forEach(area => {
       initialAreas[area] = [];
     });
     
+    // Add translated areas
+    initialAreas[(t as any)('ui.context')] = [];
+    initialAreas[`${(t as any)('ui.context')}+${(t as any)('ui.property')}`] = [];
+    initialAreas[`${(t as any)('ui.context')}+${(t as any)('ui.wording')}`] = [];
+    initialAreas[`${(t as any)('ui.property')}+${(t as any)('ui.wording')}`] = [];
+    initialAreas[(t as any)('ui.all')] = [];
+    initialAreas[(t as any)('ui.none')] = [];
+    
     return initialAreas;
   });
-
-  // Add logs state to track user actions
-  const [logs, setLogs] = useState<string[]>([])
 
   // Add a state to track the currently selected/moved word
   const [selectedWord, setSelectedWord] = useState<Word | null>(null);
@@ -204,7 +228,7 @@ export default function SetDiagramPage() {
       const destArea = destination.droppableId as Area
       
       // Check if the word matches the rule for this area
-      const isCorrect = checkRule(word.id, destArea)
+      const isCorrect = checkRule(word.id, getEnglishAreaName(destArea))
       const correctArea = findCorrectArea(word.id)
       
       // Update the selected word when dragged
@@ -227,13 +251,6 @@ export default function SetDiagramPage() {
       if (!isCorrect) {
         addNewWordToVisible();
       }
-
-      // Add to logs
-      setLogs(prev => [
-        `Dropped "${word.word}" in ${destArea} - ${isCorrect ? 'Correct! ✓' : 'Wrong! ✗'}`,
-        ...(correctArea && !isCorrect ? [`"${word.word}" actually belongs to ${correctArea}`] : []),
-        ...prev.slice(0, 8)
-      ]);
 
       // If incorrect, animate the movement to correct area
       if (!isCorrect && correctArea) {
@@ -450,15 +467,18 @@ export default function SetDiagramPage() {
     // Reset all state
     const resetAreas: Record<Area, Word[]> = {};
     
-    // Add translated areas
-    resetAreas[(t as any)('ui.context')] = [];
-    resetAreas[`${(t as any)('ui.context')}+Property`] = [];
-    resetAreas[`${(t as any)('ui.context')}+Wording`] = [];
-    
-    // Add base areas
+    // Add all areas with their English names first
     baseAreas.forEach(area => {
       resetAreas[area] = [];
     });
+    
+    // Add translated areas
+    resetAreas[(t as any)('ui.context')] = [];
+    resetAreas[`${(t as any)('ui.context')}+${(t as any)('ui.property')}`] = [];
+    resetAreas[`${(t as any)('ui.context')}+${(t as any)('ui.wording')}`] = [];
+    resetAreas[`${(t as any)('ui.property')}+${(t as any)('ui.wording')}`] = [];
+    resetAreas[(t as any)('ui.all')] = [];
+    resetAreas[(t as any)('ui.none')] = [];
     
     setAreaWords(resetAreas);
     
@@ -477,7 +497,6 @@ export default function SetDiagramPage() {
     setUsedWordIds(initialUsedIds);
     
     // Reset other state
-    setLogs([]);
     setSelectedWord(null);
     setAttempts(0);
     setIsGameComplete(false);
@@ -509,7 +528,7 @@ export default function SetDiagramPage() {
             {/* Word list, picture, and log on the right half */}
             <div className="w-full md:w-1/2 p-4 overflow-y-auto flex flex-col gap-4">
               {/* Word list */}
-              <div className="h-[calc(33vh-4rem)]">
+              <div className="h-[calc(50vh-4rem)]">
                 <div className="h-[calc(100%-0.5rem)] overflow-y-auto">
                   <WordList 
                     words={visibleWords} 
@@ -520,9 +539,9 @@ export default function SetDiagramPage() {
               </div>
               
               {/* Picture section */}
-              <div className="h-[calc(33vh-4rem)]">
+              <div className="h-[calc(50vh-4rem)]">
                 <div className="h-full bg-gray-100 p-4 rounded-lg">
-                  <h2 className="text-xl font-bold mb-2">Picture</h2>
+                  <h2 className="text-xl font-bold mb-2">{(t as any)('ui.picture')}</h2>
                   <div className="h-[calc(100%-2.5rem)] flex items-center justify-center">
                     {selectedWord ? (
                       <img 
@@ -532,28 +551,8 @@ export default function SetDiagramPage() {
                         style={{ maxWidth: '100%' }}
                       />
                     ) : (
-                      <div className="text-gray-400">
-                        Select a word to see its picture
-                      </div>
-                    )}
-                  </div>
-                </div>
-              </div>
-              
-              {/* Log section */}
-              <div className="h-[calc(33vh-4rem)]">
-                <div className="h-full bg-gray-100 p-4 rounded-lg">
-                  <h2 className="text-xl font-bold mb-2">Log</h2>
-                  <div className="h-[calc(100%-2.5rem)] overflow-y-auto">
-                    {logs.length > 0 ? (
-                      logs.map((log, index) => (
-                        <div key={index} className="mb-2 p-2 rounded">
-                          {log}
-                        </div>
-                      ))
-                    ) : (
-                      <div className="flex items-center justify-center h-full text-gray-400">
-                        No logs yet
+                      <div className="text-gray-400 text-center">
+                        {(t as any)('ui.selectWordForPicture')}
                       </div>
                     )}
                   </div>
@@ -569,15 +568,15 @@ export default function SetDiagramPage() {
             <h3 className="font-bold mb-2">Active Rules:</h3>
             <div className="space-y-2">
               <div className="border-b border-gray-600 pb-2">
-                <div className="text-blue-300">Context Rule (1):</div>
+                <div className="text-blue-300">{(t as any)('ui.context')} Rule (1):</div>
                 <div className="pl-2 text-xs">{contextRule?.description || 'Not found'}</div>
               </div>
               <div className="border-b border-gray-600 pb-2">
-                <div className="text-green-300">Property Rule (2):</div>
+                <div className="text-green-300">{(t as any)('ui.property')} Rule (2):</div>
                 <div className="pl-2 text-xs">{propertyRule?.description || 'Not found'}</div>
               </div>
               <div className="border-b border-gray-600 pb-2">
-                <div className="text-yellow-300">Wording Rule (3):</div>
+                <div className="text-yellow-300">{(t as any)('ui.wording')} Rule (3):</div>
                 <div className="pl-2 text-xs">{wordingRule?.description || 'Not found'}</div>
               </div>
             </div>
@@ -585,9 +584,9 @@ export default function SetDiagramPage() {
               <div className="mt-3 pt-2 border-t border-gray-600">
                 <div className="text-purple-300">Selected Word: {selectedWord.word}</div>
                 <div className="pl-2 text-xs">
-                  Context: {checkRule(selectedWord.id, 'Context') ? '✓' : '✗'}<br/>
-                  Property: {checkRule(selectedWord.id, 'Property') ? '✓' : '✗'}<br/>
-                  Wording: {checkRule(selectedWord.id, 'Wording') ? '✓' : '✗'}
+                  {(t as any)('ui.context')}: {checkRule(selectedWord.id, 'Context') ? '✓' : '✗'}<br/>
+                  {(t as any)('ui.property')}: {checkRule(selectedWord.id, 'Property') ? '✓' : '✗'}<br/>
+                  {(t as any)('ui.wording')}: {checkRule(selectedWord.id, 'Wording') ? '✓' : '✗'}
                 </div>
               </div>
             )}

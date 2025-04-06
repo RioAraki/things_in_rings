@@ -89,7 +89,40 @@ const AreaComponent = ({
   // Function to get the title based on the area and whether to show rules
   const getAreaTitle = (): React.ReactNode => {
     if (!showRuleDescriptions) {
-      return id; // Just show the area name if not showing rules
+      // Translate Context, Property, Wording, All, and None to their respective translations
+      if (id === 'Context') {
+        return (t as any)('ui.context');
+      }
+      if (id === 'Property') {
+        return (t as any)('ui.property');
+      }
+      if (id === 'Wording') {
+        return (t as any)('ui.wording');
+      }
+      if (id === 'All') {
+        return (t as any)('ui.all');
+      }
+      if (id === 'None') {
+        return (t as any)('ui.none');
+      }
+      // Handle intersection areas
+      let translatedId = id;
+      if (translatedId.includes('Context')) {
+        translatedId = translatedId.replace('Context', (t as any)('ui.context'));
+      }
+      if (translatedId.includes('Property')) {
+        translatedId = translatedId.replace('Property', (t as any)('ui.property'));
+      }
+      if (translatedId.includes('Wording')) {
+        translatedId = translatedId.replace('Wording', (t as any)('ui.wording'));
+      }
+      if (translatedId.includes('All')) {
+        translatedId = translatedId.replace('All', (t as any)('ui.all'));
+      }
+      if (translatedId.includes('None')) {
+        translatedId = translatedId.replace('None', (t as any)('ui.none'));
+      }
+      return translatedId;
     }
     
     // Get the base area name for rule mapping
@@ -107,7 +140,7 @@ const AreaComponent = ({
     if (baseArea === 'Property' && rules?.property) {
       return (
         <div>
-          <span className="font-bold block mb-1">Property:</span>
+          <span className="font-bold block mb-1">{(t as any)('ui.property')}:</span>
           {rules.property}
         </div>
       );
@@ -115,7 +148,7 @@ const AreaComponent = ({
     if (baseArea === 'Wording' && rules?.wording) {
       return (
         <div>
-          <span className="font-bold block mb-1">Wording:</span>
+          <span className="font-bold block mb-1">{(t as any)('ui.wording')}:</span>
           {rules.wording}
         </div>
       );
@@ -136,9 +169,9 @@ const AreaComponent = ({
   // For the tooltip, we need a string value
   const tooltipTitle = (() => {
     if (typeof areaTitle === 'string') return areaTitle;
-    if (id === 'Context' && rules?.context) return `Context: ${rules.context}`;
-    if (id === 'Property' && rules?.property) return `Property: ${rules.property}`;
-    if (id === 'Wording' && rules?.wording) return `Wording: ${rules.wording}`;
+    if (id === 'Context' && rules?.context) return `${(t as any)('ui.context')}: ${rules.context}`;
+    if (id === 'Property' && rules?.property) return `${(t as any)('ui.property')}: ${rules.property}`;
+    if (id === 'Wording' && rules?.wording) return `${(t as any)('ui.wording')}: ${rules.wording}`;
     return id;
   })();
 
@@ -326,7 +359,7 @@ const SetDiagram: React.FC<SetDiagramProps> = ({
   transparency = 20  // Default transparency value of 20%
 }) => {
   // Base dimensions for cube layout
-  const AREA_WIDTH = 20
+  const AREA_WIDTH = 25
   const AREA_HEIGHT = 18
   const CUBE_SIZE = 100
   // Base size of the cube
