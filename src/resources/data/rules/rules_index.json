@@ -1,0 +1,16 @@
+{
+  "ruleTypes": {
+    "context": {
+      "file": "context_rules.json",
+      "idRange": [1, 50]
+    },
+    "property": {
+      "file": "property_rules.json",
+      "idRange": [51, 100]
+    },
+    "wording": {
+      "file": "wording_rules.json",
+      "idRange": [101, 150]
+    }
+  }
+} 

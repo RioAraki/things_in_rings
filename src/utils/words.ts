@@ -1,5 +1,17 @@
 import { type Word } from '../types/word'
-import wordsData from '../resources/data/words.json'
+
+// Dynamically import all word files from the words directory
+const wordModules = (() => {
+  // This is a webpack feature that allows us to require all files matching a pattern
+  // @ts-ignore - require.context is a webpack feature not recognized by TypeScript
+  const context = require.context('../resources/data/words', false, /\.json$/);
+  
+  // Get all file paths
+  const filePaths = context.keys();
+  
+  // Import each file and return the array of modules
+  return filePaths.map((path: string) => context(path));
+})();
 
 // Fisher-Yates shuffle algorithm
 function shuffleArray<T>(array: T[]): T[] {
@@ -38,8 +50,8 @@ function normalizeWordData(wordData: any): Word {
   };
 }
 
-// Load and normalize all words
-const originalWords = (wordsData.words || []).map(word => normalizeWordData(word));
+// Load all words from the imported modules
+const originalWords = wordModules.map((module: any) => normalizeWordData(module));
 
 export function getWords(): Word[] {
   // Get all words and shuffle them
@@ -48,7 +60,7 @@ export function getWords(): Word[] {
 
 export function getWordById(id: string): Word | undefined {
   // Find word in the loaded words
-  return originalWords.find(word => word.id === id);
+  return originalWords.find((word: Word) => word.id === id);
 }
 
 export function getWordAnswerForRule(word: Word, ruleId: number): boolean | undefined {

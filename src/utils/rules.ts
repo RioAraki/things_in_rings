@@ -1,7 +1,9 @@
 import { type Rule, type RuleType } from '../types/rule'
-import rulesData from '../resources/data/rules.json'
-import { type Word, type WordQuestion } from '../types/word'
-import wordsData from '../resources/data/words.json'
+import contextRules from '../resources/data/rules/context_rules.json'
+import propertyRules from '../resources/data/rules/property_rules.json'
+import wordingRules from '../resources/data/rules/wording_rules.json'
+import { type WordQuestion } from '../types/word'
+import { getWordById } from './words'
 import { type Area } from '../types/area'
 
 // Helper function to get a random item from an array
@@ -13,9 +15,9 @@ const getRandomItem = <T>(array: T[]): T => {
 // Function to get a new set of randomly selected rules
 function getRandomRules() {
   return {
-    Context: getRandomItem(rulesData.rulesByType.context).id,
-    Property: getRandomItem(rulesData.rulesByType.property).id,
-    Wording: getRandomItem(rulesData.rulesByType.wording).id
+    Context: getRandomItem(contextRules.rules).id,
+    Property: getRandomItem(propertyRules.rules).id,
+    Wording: getRandomItem(wordingRules.rules).id
   };
 }
 
@@ -25,16 +27,26 @@ let SELECTED_RULES = getRandomRules();
 // Helper function to get rule by ID from the new structure
 const findRuleById = (id: number) => {
   const allRules = [
-    ...rulesData.rulesByType.context,
-    ...rulesData.rulesByType.property,
-    ...rulesData.rulesByType.wording
+    ...contextRules.rules,
+    ...propertyRules.rules,
+    ...wordingRules.rules
   ];
   return allRules.find(r => r.id === id);
 };
 
-// Helper function to find a question by rule ID with proper type safety
+// Helper function to normalize question data
+function normalizeQuestion(question: any): WordQuestion {
+  return {
+    ruleId: question.ruleId,
+    result: typeof question.result === 'string' ? question.result.toLowerCase() === 'true' : Boolean(question.result),
+    reason: question.reason
+  };
+}
+
+// Helper function to find a question by rule ID
 const findQuestionByRuleId = (questions: any[], ruleId: number): WordQuestion | undefined => {
-  return questions.find((q: any) => q.ruleId === ruleId) as WordQuestion | undefined;
+  const question = questions.find(q => q.ruleId === ruleId);
+  return question ? normalizeQuestion(question) : undefined;
 };
 
 // Function to create rules based on selected IDs
@@ -45,11 +57,11 @@ function createRules(selectedRules: typeof SELECTED_RULES): Rule[] {
       type: 'context',
       description: findRuleById(selectedRules.Context)?.question || 'Unknown context rule',
       check: (wordId: string) => {
-        const wordData = wordsData.words.find(w => w.id === wordId);
+        const wordData = getWordById(wordId);
         const question = wordData?.questions 
           ? findQuestionByRuleId(wordData.questions, selectedRules.Context)
           : undefined;
-        return question ? Boolean(question.result) : false;
+        return question ? question.result : false;
       }
     },
     {
@@ -57,11 +69,11 @@ function createRules(selectedRules: typeof SELECTED_RULES): Rule[] {
       type: 'property',
       description: findRuleById(selectedRules.Property)?.question || 'Unknown property rule',
       check: (wordId: string) => {
-        const wordData = wordsData.words.find(w => w.id === wordId);
+        const wordData = getWordById(wordId);
         const question = wordData?.questions 
           ? findQuestionByRuleId(wordData.questions, selectedRules.Property)
           : undefined;
-        return question ? Boolean(question.result) : false;
+        return question ? question.result : false;
       }
     },
     {
@@ -69,11 +81,11 @@ function createRules(selectedRules: typeof SELECTED_RULES): Rule[] {
       type: 'wording',
       description: findRuleById(selectedRules.Wording)?.question || 'Unknown wording rule',
       check: (wordId: string) => {
-        const wordData = wordsData.words.find(w => w.id === wordId);
+        const wordData = getWordById(wordId);
         const question = wordData?.questions 
           ? findQuestionByRuleId(wordData.questions, selectedRules.Wording)
           : undefined;
-        return question ? Boolean(question.result) : false;
+        return question ? question.result : false;
       }
     }
   ];
@@ -98,17 +110,11 @@ export function getRuleById(id: number): Rule | undefined {
   return getRules().find(rule => rule.id === id)
 }
 
-// Update the checkSingleRule function to use our selected rules
-const checkSingleRule = (wordId: string, area: 'Context' | 'Property' | 'Wording'): boolean => {
-  const wordData = wordsData.words.find(w => w.id === wordId);
-  if (!wordData) return false;
-
-  const ruleId = SELECTED_RULES[area];
-  const question = wordData.questions 
-    ? findQuestionByRuleId(wordData.questions, ruleId)
-    : undefined;
-  return question ? Boolean(question.result) : false;
-};
+// Helper function to check a single rule
+function checkSingleRule(wordId: string, type: 'Context' | 'Property' | 'Wording'): boolean {
+  const rules = getRulesByType(type.toLowerCase() as RuleType);
+  return rules.some(rule => rule.check(wordId));
+}
 
 export const checkRule = (wordId: string, area: string): boolean => {
   // First handle the basic areas
