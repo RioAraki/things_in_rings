@@ -2,10 +2,11 @@
 
 import { useState, useEffect } from "react"
 import { DragDropContext, type DropResult } from "@hello-pangea/dnd"
+import { useTranslation } from 'react-i18next'
 import WordList from "./word-list"
 import SetDiagram from "./set-diagram"
 import { type Word } from "../types/word"
-import { type Area } from "../types/area"
+import { type Area, type BaseArea } from "../types/area"
 import { getWords } from '../utils/words'
 import { checkRule, findCorrectArea, getRules, resetRules } from '../utils/rules'
 import { type Rule } from '../types/rule'
@@ -44,6 +45,8 @@ const getWordImage = (word: string): string => {
 };
 
 export default function SetDiagramPage() {
+  const { t } = useTranslation();
+  
   // Store all available words that haven't been shown yet
   const [allWords, setAllWords] = useState<Word[]>(getWords())
   
@@ -91,16 +94,25 @@ export default function SetDiagramPage() {
     return false;
   };
 
-  const [areaWords, setAreaWords] = useState<Record<Area, Word[]>>({
-    Context: [],
-    Property: [],
-    Wording: [],
-    'Context+Property': [],
-    'Property+Wording': [],
-    'Context+Wording': [],
-    'All': [],
-    None: [],
-  })
+  // Define the base areas that don't change with language
+  const baseAreas: BaseArea[] = ["Property", "Wording", "Property+Wording", "All", "None"];
+  
+  // Create the area words state with both translated and base areas
+  const [areaWords, setAreaWords] = useState<Record<Area, Word[]>>(() => {
+    const initialAreas: Record<Area, Word[]> = {};
+    
+    // Add translated areas
+    initialAreas[(t as any)('ui.context')] = [];
+    initialAreas[`${(t as any)('ui.context')}+Property`] = [];
+    initialAreas[`${(t as any)('ui.context')}+Wording`] = [];
+    
+    // Add base areas
+    baseAreas.forEach(area => {
+      initialAreas[area] = [];
+    });
+    
+    return initialAreas;
+  });
 
   // Add logs state to track user actions
   const [logs, setLogs] = useState<string[]>([])
@@ -436,16 +448,19 @@ export default function SetDiagramPage() {
     const newWords = getWords();
     
     // Reset all state
-    setAreaWords({
-      Context: [],
-      Property: [],
-      Wording: [],
-      'Context+Property': [],
-      'Property+Wording': [],
-      'Context+Wording': [],
-      'All': [],
-      None: [],
+    const resetAreas: Record<Area, Word[]> = {};
+    
+    // Add translated areas
+    resetAreas[(t as any)('ui.context')] = [];
+    resetAreas[`${(t as any)('ui.context')}+Property`] = [];
+    resetAreas[`${(t as any)('ui.context')}+Wording`] = [];
+    
+    // Add base areas
+    baseAreas.forEach(area => {
+      resetAreas[area] = [];
     });
+    
+    setAreaWords(resetAreas);
     
     // Take first 5 words for visible list
     const initialWords = newWords.slice(0, 5);
@@ -472,145 +487,129 @@ export default function SetDiagramPage() {
   };
 
   return (
-    <div className="container mx-auto p-4 h-screen">
-      <div className="flex justify-between items-center mb-4">
-        <h1 className="text-2xl font-bold">
-          Set Diagram Word Sorter {showRuleDescriptions ? '- Rules Revealed' : ''}
-        </h1>
-        {showRuleDescriptions && (
-          <button
-            onClick={handlePlayAgain}
-            className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors font-semibold"
-          >
-            Play Another Round
-          </button>
-        )}
-      </div>
-
-      {/* Add debug panel - press Ctrl+D to toggle */}
-      {showDebug && (
-        <div className="fixed top-0 right-0 bg-black/80 text-white p-4 rounded-bl-lg text-sm font-mono z-50 max-w-md">
-          <h3 className="font-bold mb-2">Active Rules:</h3>
-          <div className="space-y-2">
-            <div className="border-b border-gray-600 pb-2">
-              <div className="text-blue-300">Context Rule (1):</div>
-              <div className="pl-2 text-xs">{contextRule?.description || 'Not found'}</div>
-            </div>
-            <div className="border-b border-gray-600 pb-2">
-              <div className="text-green-300">Property Rule (2):</div>
-              <div className="pl-2 text-xs">{propertyRule?.description || 'Not found'}</div>
-            </div>
-            <div className="border-b border-gray-600 pb-2">
-              <div className="text-yellow-300">Wording Rule (3):</div>
-              <div className="pl-2 text-xs">{wordingRule?.description || 'Not found'}</div>
-            </div>
-          </div>
-          {selectedWord && (
-            <div className="mt-3 pt-2 border-t border-gray-600">
-              <div className="text-purple-300">Selected Word: {selectedWord.word}</div>
-              <div className="pl-2 text-xs">
-                Context: {checkRule(selectedWord.id, 'Context') ? '✓' : '✗'}<br/>
-                Property: {checkRule(selectedWord.id, 'Property') ? '✓' : '✗'}<br/>
-                Wording: {checkRule(selectedWord.id, 'Wording') ? '✓' : '✗'}
-              </div>
-            </div>
-          )}
-          <div className="text-xs mt-2 text-gray-400">Press Ctrl+D to hide</div>
-        </div>
-      )}
-
-      <DragDropContext onDragEnd={onDragEnd} onDragStart={onDragStart}>
-        <div className="flex h-[calc(100%-4rem)]">
-          {/* Left side - Set Diagram (70%) */}
-          <div style={{width: "70%"}} className="pr-2 border h-full overflow-hidden">  
-            <SetDiagram 
-              areaWords={areaWords} 
-              setAreaWords={setAreaWords}
-              showRuleDescriptions={showRuleDescriptions}
-              rules={{
-                context: contextRule?.description,
-                property: propertyRule?.description,
-                wording: wordingRule?.description
-              }}
-              onSelectWord={handleSelectWord}
-            />
-          </div>
-          
-          {/* Right side - split into Word List, Picture, and Log (30%) */}
-          <div style={{width: "30%"}} className="pl-2 flex flex-col h-full">
-            {/* Word List (top third) */}
-            <div style={{height: "30%"}} className="mb-4 overflow-hidden">
-              <WordList 
-                words={visibleWords} 
-                onSelectWord={handleSelectWord} 
-                correctWordCount={correctWordCount}
+    <div className="min-h-screen bg-white py-8">
+      <div className="max-w-[90%] mx-auto px-4">
+        <DragDropContext onDragEnd={onDragEnd} onDragStart={onDragStart}>
+          <div className="flex flex-col md:flex-row overflow-hidden">
+            {/* SetDiagram on the left half */}
+            <div className="w-full md:w-1/2 p-4 overflow-y-auto">
+              <SetDiagram 
+                areaWords={areaWords}
+                setAreaWords={setAreaWords}
+                showRuleDescriptions={showRuleDescriptions}
+                rules={{
+                  context: contextRule?.description,
+                  property: propertyRule?.description,
+                  wording: wordingRule?.description
+                }}
+                onSelectWord={handleSelectWord}
               />
             </div>
             
-            {/* Picture (middle third) */}
-            <div style={{height: "30%"}} className="mb-4 bg-gray-100 p-4 rounded-lg flex flex-col overflow-hidden">
-              <h2 className="text-xl font-semibold mb-3">
-                {selectedWord ? `Picture: ${selectedWord.word}` : 'Select a word'}
-              </h2>
-              <div className="flex-grow flex items-center justify-center relative">
-                <img 
-                  src={selectedWord 
-                    ? getWordImage(selectedWord.word)
-                    : require('../resources/pictures/placeholder.png')} 
-                  alt={selectedWord ? selectedWord.word : "Select a word"} 
-                  className="absolute rounded-2xl"
-                  style={{ 
-                    maxHeight: "100%", 
-                    maxWidth: "100%",
-                    objectFit: "contain",
-                    borderRadius: "0.75rem",
-                  }}
-                />
+            {/* Word list, picture, and log on the right half */}
+            <div className="w-full md:w-1/2 p-4 overflow-y-auto flex flex-col gap-4">
+              {/* Word list */}
+              <div className="h-[calc(33vh-4rem)]">
+                <div className="h-[calc(100%-0.5rem)] overflow-y-auto">
+                  <WordList 
+                    words={visibleWords} 
+                    onSelectWord={handleSelectWord}
+                    correctWordCount={correctWordCount}
+                  />
+                </div>
               </div>
-            </div>
-            
-            {/* Log (bottom third) */}
-            <div style={{height: "30%"}} className="bg-gray-100 p-4 rounded-lg flex flex-col">
-              <h2 className="text-xl font-semibold mb-3">Log</h2>
               
-              {/* Scrollable container for ALL logs */}
-              <div className="overflow-y-auto flex-grow">
-                <div className="space-y-2">
-                  {logs.length > 0 ? (
-                    logs.map((log, index) => (
-                      <div 
-                        key={index} 
-                        className="text-sm border-b pb-1 pt-1"
-                      >
-                        {log}
+              {/* Picture section */}
+              <div className="h-[calc(33vh-4rem)]">
+                <div className="h-full bg-gray-100 p-4 rounded-lg">
+                  <h2 className="text-xl font-bold mb-2">Picture</h2>
+                  <div className="h-[calc(100%-2.5rem)] flex items-center justify-center">
+                    {selectedWord ? (
+                      <img 
+                        src={getWordImage(selectedWord.word)} 
+                        alt={selectedWord.word} 
+                        className="rounded-lg max-h-full object-contain"
+                        style={{ maxWidth: '100%' }}
+                      />
+                    ) : (
+                      <div className="text-gray-400">
+                        Select a word to see its picture
                       </div>
-                    ))
-                  ) : (
-                    <div className="text-sm text-gray-500 italic">
-                      No actions logged yet. Drag words to categories to see logs.
-                    </div>
-                  )}
+                    )}
+                  </div>
+                </div>
+              </div>
+              
+              {/* Log section */}
+              <div className="h-[calc(33vh-4rem)]">
+                <div className="h-full bg-gray-100 p-4 rounded-lg">
+                  <h2 className="text-xl font-bold mb-2">Log</h2>
+                  <div className="h-[calc(100%-2.5rem)] overflow-y-auto">
+                    {logs.length > 0 ? (
+                      logs.map((log, index) => (
+                        <div key={index} className="mb-2 p-2 rounded">
+                          {log}
+                        </div>
+                      ))
+                    ) : (
+                      <div className="flex items-center justify-center h-full text-gray-400">
+                        No logs yet
+                      </div>
+                    )}
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </DragDropContext>
+        </DragDropContext>
 
-      <GameCompleteModal 
-        attempts={attempts}
-        onCheckBoard={handleCheckBoard}
-        onPlayAgain={handlePlayAgain}
-        isOpen={isGameComplete}
-        correctWords={correctWordCount}
-      />
-      
-      <GameOverModal
-        attempts={attempts}
-        onPlayAgain={handlePlayAgain}
-        isOpen={isGameOver}
-      />
+        {/* Add debug panel - press Ctrl+D to toggle */}
+        {showDebug && (
+          <div className="fixed top-0 right-0 bg-black/80 text-white p-4 rounded-bl-lg text-sm font-mono z-50 max-w-md">
+            <h3 className="font-bold mb-2">Active Rules:</h3>
+            <div className="space-y-2">
+              <div className="border-b border-gray-600 pb-2">
+                <div className="text-blue-300">Context Rule (1):</div>
+                <div className="pl-2 text-xs">{contextRule?.description || 'Not found'}</div>
+              </div>
+              <div className="border-b border-gray-600 pb-2">
+                <div className="text-green-300">Property Rule (2):</div>
+                <div className="pl-2 text-xs">{propertyRule?.description || 'Not found'}</div>
+              </div>
+              <div className="border-b border-gray-600 pb-2">
+                <div className="text-yellow-300">Wording Rule (3):</div>
+                <div className="pl-2 text-xs">{wordingRule?.description || 'Not found'}</div>
+              </div>
+            </div>
+            {selectedWord && (
+              <div className="mt-3 pt-2 border-t border-gray-600">
+                <div className="text-purple-300">Selected Word: {selectedWord.word}</div>
+                <div className="pl-2 text-xs">
+                  Context: {checkRule(selectedWord.id, 'Context') ? '✓' : '✗'}<br/>
+                  Property: {checkRule(selectedWord.id, 'Property') ? '✓' : '✗'}<br/>
+                  Wording: {checkRule(selectedWord.id, 'Wording') ? '✓' : '✗'}
+                </div>
+              </div>
+            )}
+            <div className="text-xs mt-2 text-gray-400">Press Ctrl+D to hide</div>
+          </div>
+        )}
+
+        <GameCompleteModal 
+          attempts={attempts}
+          onCheckBoard={handleCheckBoard}
+          onPlayAgain={handlePlayAgain}
+          isOpen={isGameComplete}
+          correctWords={correctWordCount}
+        />
+        
+        <GameOverModal
+          attempts={attempts}
+          onPlayAgain={handlePlayAgain}
+          isOpen={isGameOver}
+        />
+      </div>
     </div>
-  )
+  );
 }
 

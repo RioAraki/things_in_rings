@@ -1,4 +1,5 @@
 import { DragDropContext, Droppable, Draggable, type DroppableProvided, type DraggableProvided } from "@hello-pangea/dnd"
+import { useTranslation } from 'react-i18next'
 import { type Word } from "../types/word"
 
 type WordListProps = {
@@ -8,12 +9,13 @@ type WordListProps = {
 }
 
 export default function WordList({ words, onSelectWord, correctWordCount = 0 }: WordListProps) {
+  const { t } = useTranslation();
   const remainingWords = 5 - correctWordCount;
   
   return (
     <div className="bg-gray-100 p-4 rounded-lg h-full flex flex-col">
       <h2 className="text-xl font-semibold mb-4 flex items-center justify-between">
-        <span>Word List</span>
+        <span>{(t as any)('ui.wordList')}</span>
         <span className="bg-white px-3 py-1 rounded-full shadow-sm border border-gray-200 font-bold text-base">
           <span className="text-blue-600">{remainingWords}</span>
           <span className="text-gray-500"> / </span>

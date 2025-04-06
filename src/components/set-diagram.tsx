@@ -1,6 +1,7 @@
 import React from 'react'
 import { Droppable, Draggable } from "@hello-pangea/dnd"
-import { type Area } from "../types/area"
+import { useTranslation } from 'react-i18next'
+import { type Area, getBaseAreaName } from "../types/area"
 import { type Word } from "../types/word"
 
 // Rename VennDiagramProps to SetDiagramProps
@@ -19,7 +20,10 @@ type SetDiagramProps = {
 }
 
 const getAreaColor = (area: Area): string => {
-  switch (area) {
+  // Get the base area name for color mapping
+  const baseArea = getBaseAreaName(area);
+  
+  switch (baseArea) {
     // Primary faces with vivid colors
     case 'Context':
       return '#ff9999'; // Bright red for top face
@@ -30,11 +34,11 @@ const getAreaColor = (area: Area): string => {
     
     // Intersection areas with mixed colors
     case 'Context+Property':
-      return '#b3bff5'; // Purple-blue (red + cyan-blue mix)
+      return '#c48aff'; // Purple mix of red and blue
     case 'Context+Wording':
-      return '#ffcc99'; // Orange (red + green mix)
+      return '#ffc799'; // Mix of red and green
     case 'Property+Wording':
-      return '#6decc7'; // Turquoise (cyan-blue + green mix)
+      return '#6decc7'; // Mix of cyan-blue and green
     
     // Center intersection
     case 'All':
@@ -76,6 +80,8 @@ const AreaComponent = ({
   onSelectWord?: (word: Word) => void
   transparency?: number
 }) => {
+  const { t } = useTranslation();
+  
   // Convert transparency (0-100) to opacity (0-1) and hex (00-ff)
   const opacity = (100 - transparency) / 100;
   const opacityHex = Math.floor(opacity * 255).toString(16).padStart(2, '0');
@@ -86,16 +92,19 @@ const AreaComponent = ({
       return id; // Just show the area name if not showing rules
     }
     
+    // Get the base area name for rule mapping
+    const baseArea = getBaseAreaName(id);
+    
     // For simple areas, show the associated rule with prefix
-    if (id === 'Context' && rules?.context) {
+    if (baseArea === 'Context' && rules?.context) {
       return (
         <div>
-          <span className="font-bold block mb-1">Context:</span>
+          <span className="font-bold block mb-1">{(t as any)('ui.context')}:</span>
           {rules.context}
         </div>
       );
     }
-    if (id === 'Property' && rules?.property) {
+    if (baseArea === 'Property' && rules?.property) {
       return (
         <div>
           <span className="font-bold block mb-1">Property:</span>
@@ -103,7 +112,7 @@ const AreaComponent = ({
         </div>
       );
     }
-    if (id === 'Wording' && rules?.wording) {
+    if (baseArea === 'Wording' && rules?.wording) {
       return (
         <div>
           <span className="font-bold block mb-1">Wording:</span>
@@ -112,15 +121,13 @@ const AreaComponent = ({
       );
     }
     
-    // For combination areas, add a title with styling
+    // For intersection areas, show a simplified title
     if (id.includes('+')) {
-      return (
-        <div className="text-sm font-bold">{id}</div>
-      );
+      return id;
     }
     
-    // For All or None
-    return <div className="text-sm font-bold">{id}</div>;
+    // Default case
+    return id;
   };
 
   // Get the title text based on current state
