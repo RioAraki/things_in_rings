@@ -11,7 +11,7 @@ declare module '*.json' {
     rules?: {
       id: number
       question: string
-      type: 'Context' | 'Property' | 'Wording'
+      type: 'context' | 'property' | 'wording'
     }[]
   }
   export default value

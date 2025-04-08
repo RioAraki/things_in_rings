@@ -1,0 +1,751 @@
+{
+  "id": "21",
+  "word": "手机",
+  "questions": [
+    {
+      "ruleId": 1,
+      "result": false,
+      "reason": "手机在20世纪才首次开发，历史不到1000年"
+    },
+    {
+      "ruleId": 2,
+      "result": true,
+      "reason": "现代手机是在1950年之后发明的"
+    },
+    {
+      "ruleId": 3,
+      "result": true,
+      "reason": "在大多数家庭中作为常见的个人设备"
+    },
+    {
+      "ruleId": 4,
+      "result": false,
+      "reason": "不是专门为儿童设计的"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "各年龄段的人都在使用，不仅限于儿童"
+    },
+    {
+      "ruleId": 6,
+      "result": true,
+      "reason": "主要由成年人使用"
+    },
+    {
+      "ruleId": 7,
+      "result": true,
+      "reason": "高端机型是奢侈品"
+    },
+    {
+      "ruleId": 8,
+      "result": true,
+      "reason": "在现代社会中被视为必需品"
+    },
+    {
+      "ruleId": 9,
+      "result": true,
+      "reason": "具有实用的通讯功能"
+    },
+    {
+      "ruleId": 10,
+      "result": false,
+      "reason": "主要是功能性而非装饰性"
+    },
+    {
+      "ruleId": 11,
+      "result": false,
+      "reason": "不是自然存在的"
+    },
+    {
+      "ruleId": 12,
+      "result": true,
+      "reason": "由人类制造"
+    },
+    {
+      "ruleId": 13,
+      "result": false,
+      "reason": "用于日常使用而非特殊场合"
+    },
+    {
+      "ruleId": 14,
+      "result": true,
+      "reason": "是大多数人日常生活的一部分"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "个人拥有"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "通常不会在多人之间共享"
+    },
+    {
+      "ruleId": 17,
+      "result": true,
+      "reason": "涉及先进技术"
+    },
+    {
+      "ruleId": 18,
+      "result": true,
+      "reason": "包含电子和机械组件"
+    },
+    {
+      "ruleId": 19,
+      "result": false,
+      "reason": "是通用工具，没有特定的文化意义"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "在全球许多不同文化中使用"
+    },
+    {
+      "ruleId": 21,
+      "result": false,
+      "reason": "不是一次性用品，设计使用多年"
+    },
+    {
+      "ruleId": 22,
+      "result": true,
+      "reason": "设计为耐用"
+    },
+    {
+      "ruleId": 23,
+      "result": true,
+      "reason": "在室内使用"
+    },
+    {
+      "ruleId": 24,
+      "result": true,
+      "reason": "在室外使用"
+    },
+    {
+      "ruleId": 25,
+      "result": true,
+      "reason": "经常出现在电影和媒体中"
+    },
+    {
+      "ruleId": 26,
+      "result": false,
+      "reason": "不特定与某个职业相关"
+    },
+    {
+      "ruleId": 27,
+      "result": false,
+      "reason": "没有显著的宗教意义"
+    },
+    {
+      "ruleId": 28,
+      "result": true,
+      "reason": "主要是世俗用途"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "批量生产"
+    },
+    {
+      "ruleId": 30,
+      "result": false,
+      "reason": "通常不是手工制作"
+    },
+    {
+      "ruleId": 31,
+      "result": false,
+      "reason": "不特别与快乐相关"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "通常不会让人感到害怕"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "用于娱乐（游戏、视频）"
+    },
+    {
+      "ruleId": 34,
+      "result": true,
+      "reason": "具有实用的通讯功能"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "全年使用，不是季节性的"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "全年使用"
+    },
+    {
+      "ruleId": 37,
+      "result": false,
+      "reason": "基本功能对大多数人来说都很容易获得"
+    },
+    {
+      "ruleId": 38,
+      "result": true,
+      "reason": "对大多数人来说容易使用"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "在正式场合使用"
+    },
+    {
+      "ruleId": 40,
+      "result": true,
+      "reason": "在休闲场合使用"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "人们收藏复古或独特型号"
+    },
+    {
+      "ruleId": 42,
+      "result": false,
+      "reason": "不是特定文化传统的一部分"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "对通讯方式有重大历史影响"
+    },
+    {
+      "ruleId": 44,
+      "result": true,
+      "reason": "在当代社会中非常重要"
+    },
+    {
+      "ruleId": 45,
+      "result": true,
+      "reason": "经常作为礼物赠送"
+    },
+    {
+      "ruleId": 46,
+      "result": true,
+      "reason": "是受欢迎的礼品"
+    },
+    {
+      "ruleId": 47,
+      "result": true,
+      "reason": "高端机型与财富相关"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "不是所有经济水平的人都能同等获得"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "在艺术、文学和媒体中出现"
+    },
+    {
+      "ruleId": 50,
+      "result": true,
+      "reason": "象征现代连接性和技术"
+    },
+    {
+      "ruleId": 51,
+      "result": true,
+      "reason": "掉落可能会损坏"
+    },
+    {
+      "ruleId": 52,
+      "result": true,
+      "reason": "设计为便携式"
+    },
+    {
+      "ruleId": 53,
+      "result": true,
+      "reason": "需要电力才能运作"
+    },
+    {
+      "ruleId": 54,
+      "result": true,
+      "reason": "高端机型价格昂贵"
+    },
+    {
+      "ruleId": 55,
+      "result": false,
+      "reason": "不是自然存在的"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "大多数不是完全防水的"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "密度太大不能漂浮"
+    },
+    {
+      "ruleId": 58,
+      "result": true,
+      "reason": "包含金属组件"
+    },
+    {
+      "ruleId": 59,
+      "result": true,
+      "reason": "发出声音（铃声、提示音）"
+    },
+    {
+      "ruleId": 60,
+      "result": true,
+      "reason": "有多种颜色可选"
+    },
+    {
+      "ruleId": 61,
+      "result": true,
+      "reason": "零件可以回收"
+    },
+    {
+      "ruleId": 62,
+      "result": true,
+      "reason": "屏幕是透明的"
+    },
+    {
+      "ruleId": 63,
+      "result": true,
+      "reason": "有活动部件（按钮）"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "触摸时大多是硬的"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "不能折叠（除了折叠屏型号）"
+    },
+    {
+      "ruleId": 66,
+      "result": true,
+      "reason": "需要维护和清洁"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "通常没有尖锐边缘"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "不能食用"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "没有特殊气味"
+    },
+    {
+      "ruleId": 70,
+      "result": false,
+      "reason": "重量轻"
+    },
+    {
+      "ruleId": 71,
+      "result": true,
+      "reason": "随身携带（口袋、手中等）"
+    },
+    {
+      "ruleId": 72,
+      "result": true,
+      "reason": "运行时会产生热量"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "在正常情况下不易燃"
+    },
+    {
+      "ruleId": 74,
+      "result": true,
+      "reason": "有多种不同型号"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "初始设置后即可使用"
+    },
+    {
+      "ruleId": 76,
+      "result": false,
+      "reason": "不可生物降解"
+    },
+    {
+      "ruleId": 77,
+      "result": true,
+      "reason": "可以与其他手机叠放"
+    },
+    {
+      "ruleId": 78,
+      "result": true,
+      "reason": "屏幕和外壳可能反光"
+    },
+    {
+      "ruleId": 79,
+      "result": true,
+      "reason": "包含磁性组件"
+    },
+    {
+      "ruleId": 80,
+      "result": true,
+      "reason": "外观通常有颜色或喷漆"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "大多数型号不吸水"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "刚性，不灵活"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "潮湿时不会变色"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "外观可能随使用而改变"
+    },
+    {
+      "ruleId": 85,
+      "result": true,
+      "reason": "设计通常对称"
+    },
+    {
+      "ruleId": 86,
+      "result": true,
+      "reason": "损坏后可以维修"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "不需要燃料（但需要充电）"
+    },
+    {
+      "ruleId": 88,
+      "result": true,
+      "reason": "应该保持清洁"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "大多数不能在水下使用"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "没有轮子"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "不是一次性的"
+    },
+    {
+      "ruleId": 92,
+      "result": false,
+      "reason": "不设计用于承受高温"
+    },
+    {
+      "ruleId": 93,
+      "result": true,
+      "reason": "应妥善存放以保护屏幕"
+    },
+    {
+      "ruleId": 94,
+      "result": false,
+      "reason": "批量生产，不是手工制作"
+    },
+    {
+      "ruleId": 95,
+      "result": true,
+      "reason": "表面可以清洁"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "不是成对出现"
+    },
+    {
+      "ruleId": 97,
+      "result": false,
+      "reason": "全年使用，不是季节性的"
+    },
+    {
+      "ruleId": 98,
+      "result": true,
+      "reason": "用作通讯工具"
+    },
+    {
+      "ruleId": 99,
+      "result": false,
+      "reason": "拥有不需要许可证（服务需要合约）"
+    },
+    {
+      "ruleId": 100,
+      "result": true,
+      "reason": "设计使用多年"
+    },
+    {
+      "ruleId": 101,
+      "result": true,
+      "reason": "有两个音节（手-机）"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "不以元音开头"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "不以元音结尾"
+    },
+    {
+      "ruleId": 104,
+      "result": true,
+      "reason": "有两个汉字"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "没有重复的汉字"
+    },
+    {
+      "ruleId": 106,
+      "result": true,
+      "reason": "第一个字'手'在笔画数上少于最后一个字'机'"
+    },
+    {
+      "ruleId": 107,
+      "result": true,
+      "reason": "由两个汉字组成：手 + 机"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "没有重复的汉字"
+    },
+    {
+      "ruleId": 109,
+      "result": true,
+      "reason": "以'手'开头，是常用字"
+    },
+    {
+      "ruleId": 110,
+      "result": false,
+      "reason": "只有两个汉字（少于6个）"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "用作名词，通常不用作动词"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "不包含'口'字旁"
+    },
+    {
+      "ruleId": 113,
+      "result": true,
+      "reason": "有两个不同的汉字（手,机）"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "没有公认的前缀"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "包含'手'但不包含'心'"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "第一个字'手'和第二个字'机'的笔画数不是按顺序排列的"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "不包含'木'字旁"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "没有三个连续的相同部首"
+    },
+    {
+      "ruleId": 119,
+      "result": false,
+      "reason": "只有两个汉字（不在6-8+范围内）"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "不以'子'结尾"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "不包含'金'、'水'或'火'字旁"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "不包含'竹'字旁"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "没有重复的汉字"
+    },
+    {
+      "ruleId": 124,
+      "result": true,
+      "reason": "有两个音节"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "不包含颜色名称"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "没有静音字母"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "不常用作动词"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "不以'器'结尾"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "汉字不是按笔画数顺序排列"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "没有相邻的相同部首"
+    },
+    {
+      "ruleId": 131,
+      "result": false,
+      "reason": "没有重复的汉字"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "不包含'气'字旁"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "包含2个汉字"
+    },
+    {
+      "ruleId": 134,
+      "result": false,
+      "reason": "有2个汉字，不是更多"
+    },
+    {
+      "ruleId": 135,
+      "result": true,
+      "reason": "有2个汉字（偶数）"
+    },
+    {
+      "ruleId": 136,
+      "result": false,
+      "reason": "有2个汉字，不是恰好1个"
+    },
+    {
+      "ruleId": 137,
+      "result": false,
+      "reason": "最后一个字'机'的笔画数不比中间字多"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "不以元音结尾"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "不以相同的汉字开头和结尾"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "有两个音节，不是一个"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "不是缩写"
+    },
+    {
+      "ruleId": 142,
+      "result": false,
+      "reason": "不包含'电'字"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "没有重复的汉字"
+    },
+    {
+      "ruleId": 144,
+      "result": false,
+      "reason": "没有'言'字旁"
+    },
+    {
+      "ruleId": 145,
+      "result": true,
+      "reason": "以'手'字旁开头，以'机'字结尾"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "不包含特殊发音组合"
+    },
+    {
+      "ruleId": 147,
+      "result": true,
+      "reason": "包含不同部首的汉字"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "不以'子'结尾"
+    },
+    {
+      "ruleId": 149,
+      "result": false,
+      "reason": "拼写时不包含数字"
+    }
+  ]
+} 

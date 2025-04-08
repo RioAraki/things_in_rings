@@ -47,21 +47,21 @@ const getWordImage = (word: string): string => {
 // Add this function near the top of the file, after the imports
 function getEnglishAreaName(translatedArea: string): string {
   // Handle basic areas
-  if (translatedArea === '使用场景') return 'Context';
-  if (translatedArea === '特性') return 'Property';
-  if (translatedArea === '拼写') return 'Wording';
-  if (translatedArea === '全部满足') return 'All';
-  if (translatedArea === '全不满足') return 'None';
+  if (translatedArea === '使用场景') return 'context';
+  if (translatedArea === '特性') return 'property';
+  if (translatedArea === '拼写') return 'wording';
+  if (translatedArea === '全部满足') return 'all';
+  if (translatedArea === '全不满足') return 'none';
 
   // Handle combination areas
   if (translatedArea.startsWith('使用场景+')) {
-    return 'Context' + translatedArea.substring('使用场景'.length);
+    return 'context' + translatedArea.substring('使用场景'.length);
   }
   if (translatedArea.includes('+拼写')) {
-    return translatedArea.replace('拼写', 'Wording');
+    return translatedArea.replace('拼写', 'wording');
   }
   if (translatedArea.includes('特性')) {
-    return translatedArea.replace('特性', 'Property');
+    return translatedArea.replace('特性', 'property');
   }
 
   // Default case: return as is
@@ -512,19 +512,19 @@ export default function SetDiagramPage() {
           <div className="flex flex-col md:flex-row overflow-hidden">
             {/* SetDiagram on the left half */}
             <div className="w-full md:w-1/2 p-4 overflow-y-auto">
-              <SetDiagram 
+              <SetDiagram
                 areaWords={areaWords}
                 setAreaWords={setAreaWords}
                 showRuleDescriptions={showRuleDescriptions}
                 rules={{
-                  context: contextRule?.description,
-                  property: propertyRule?.description,
-                  wording: wordingRule?.description
+                  context: contextRule?.question,
+                  property: propertyRule?.question,
+                  wording: wordingRule?.question
                 }}
                 onSelectWord={handleSelectWord}
               />
             </div>
-            
+             
             {/* Word list, picture, and log on the right half */}
             <div className="w-full md:w-1/2 p-4 overflow-y-auto flex flex-col gap-4">
               {/* Word list */}
@@ -537,7 +537,7 @@ export default function SetDiagramPage() {
                   />
                 </div>
               </div>
-              
+               
               {/* Picture section */}
               <div className="h-[calc(50vh-4rem)]">
                 <div className="h-full bg-gray-100 p-4 rounded-lg">
@@ -569,24 +569,24 @@ export default function SetDiagramPage() {
             <div className="space-y-2">
               <div className="border-b border-gray-600 pb-2">
                 <div className="text-blue-300">{(t as any)('ui.context')} Rule (1):</div>
-                <div className="pl-2 text-xs">{contextRule?.description || 'Not found'}</div>
+                <div className="pl-2 text-xs">{contextRule?.question || 'Not found'}</div>
               </div>
               <div className="border-b border-gray-600 pb-2">
                 <div className="text-green-300">{(t as any)('ui.property')} Rule (2):</div>
-                <div className="pl-2 text-xs">{propertyRule?.description || 'Not found'}</div>
+                <div className="pl-2 text-xs">{propertyRule?.question || 'Not found'}</div>
               </div>
               <div className="border-b border-gray-600 pb-2">
                 <div className="text-yellow-300">{(t as any)('ui.wording')} Rule (3):</div>
-                <div className="pl-2 text-xs">{wordingRule?.description || 'Not found'}</div>
+                <div className="pl-2 text-xs">{wordingRule?.question || 'Not found'}</div>
               </div>
             </div>
             {selectedWord && (
               <div className="mt-3 pt-2 border-t border-gray-600">
                 <div className="text-purple-300">Selected Word: {selectedWord.word}</div>
                 <div className="pl-2 text-xs">
-                  {(t as any)('ui.context')}: {checkRule(selectedWord.id, 'Context') ? '✓' : '✗'}<br/>
-                  {(t as any)('ui.property')}: {checkRule(selectedWord.id, 'Property') ? '✓' : '✗'}<br/>
-                  {(t as any)('ui.wording')}: {checkRule(selectedWord.id, 'Wording') ? '✓' : '✗'}
+                  {(t as any)('ui.context')}: {contextRule?.question || ''}<br/>
+                  {(t as any)('ui.property')}: {propertyRule?.question || ''}<br/>
+                  {(t as any)('ui.wording')}: {wordingRule?.question || ''}
                 </div>
               </div>
             )}
@@ -594,14 +594,14 @@ export default function SetDiagramPage() {
           </div>
         )}
 
-        <GameCompleteModal 
+        <GameCompleteModal
           attempts={attempts}
           onCheckBoard={handleCheckBoard}
           onPlayAgain={handlePlayAgain}
           isOpen={isGameComplete}
           correctWords={correctWordCount}
         />
-        
+         
         <GameOverModal
           attempts={attempts}
           onPlayAgain={handlePlayAgain}

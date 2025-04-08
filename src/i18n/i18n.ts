@@ -7,6 +7,16 @@ import { LANGUAGE_CONFIG } from '../config/app-config';
 import enTranslation from './locales/en.json';
 import zhTranslation from './locales/zh.json';
 
+// Define resources
+export const resources = {
+  en: {
+    translation: enTranslation,
+  },
+  zh: {
+    translation: zhTranslation,
+  },
+};
+
 // Configure i18n
 const i18nInstance = i18n
   // Pass the i18n instance to react-i18next
@@ -19,14 +29,7 @@ if (LANGUAGE_CONFIG.detectBrowserLanguage) {
 
 // Initialize i18n
 i18nInstance.init({
-  resources: {
-    en: {
-      translation: enTranslation,
-    },
-    zh: {
-      translation: zhTranslation,
-    },
-  },
+  resources,
   lng: LANGUAGE_CONFIG.defaultLanguage, // Set default language from config
   fallbackLng: LANGUAGE_CONFIG.fallbackLanguage, // Set fallback language from config
   debug: process.env.NODE_ENV === 'development',

@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Droppable, Draggable } from "@hello-pangea/dnd"
 import { useTranslation } from 'react-i18next'
 import { type Area, getBaseAreaName } from "../types/area"
 import { type Word } from "../types/word"
+import type { TFunction } from 'i18next'
 
 // Rename VennDiagramProps to SetDiagramProps
 type SetDiagramProps = {
@@ -25,28 +26,28 @@ const getAreaColor = (area: Area): string => {
   
   switch (baseArea) {
     // Primary faces with vivid colors
-    case 'Context':
-      return '#ff9999'; // Bright red for top face
-    case 'Property':
-      return '#42daf5'; // RGB(66, 218, 245) - bright cyan-blue
-    case 'Wording':
-      return '#99ff99'; // Bright green for right face
+    case 'context':
+      return '#ff0000';
+    case 'property':
+      return '#00ff00';
+    case 'wording':
+      return '#0000ff';
     
     // Intersection areas with mixed colors
-    case 'Context+Property':
-      return '#c48aff'; // Purple mix of red and blue
-    case 'Context+Wording':
-      return '#ffc799'; // Mix of red and green
-    case 'Property+Wording':
-      return '#6decc7'; // Mix of cyan-blue and green
+    case 'context+property':
+      return '#ffff00';
+    case 'context+wording':
+      return '#ff00ff';
+    case 'property+wording':
+      return '#00ffff';
     
     // Center intersection
-    case 'All':
-      return '#e8e8ff'; // Brighter light blue-gray
+    case 'all':
+      return '#ffffff';
     
     // None area
-    case 'None':
-      return '#f0f0f0'; // Light gray
+    case 'none':
+      return '#000000';
     
     default:
       return '#ffffff';
@@ -63,7 +64,7 @@ const AreaComponent = ({
   showRuleDescriptions,
   rules,
   onSelectWord,
-  transparency = 20  // Default transparency value
+  transparency = 20
 }: {
   id: Area
   words: Word[]
@@ -81,111 +82,43 @@ const AreaComponent = ({
   transparency?: number
 }) => {
   const { t } = useTranslation();
-  
-  // Convert transparency (0-100) to opacity (0-1) and hex (00-ff)
+  const baseAreaName = getBaseAreaName(id);
+  const [animationKey, setAnimationKey] = useState(0);
   const opacity = (100 - transparency) / 100;
-  const opacityHex = Math.floor(opacity * 255).toString(16).padStart(2, '0');
+  const opacityHex = Math.floor((100 - transparency) * 2.55).toString(16).padStart(2, '0');
 
   // Function to get the title based on the area and whether to show rules
-  const getAreaTitle = (): React.ReactNode => {
-    if (!showRuleDescriptions) {
-      // Translate Context, Property, Wording, All, and None to their respective translations
-      if (id === 'Context') {
-        return (t as any)('ui.context');
-      }
-      if (id === 'Property') {
-        return (t as any)('ui.property');
-      }
-      if (id === 'Wording') {
-        return (t as any)('ui.wording');
-      }
-      if (id === 'All') {
-        return (t as any)('ui.all');
-      }
-      if (id === 'None') {
-        return (t as any)('ui.none');
-      }
-      // Handle intersection areas
-      let translatedId = id;
-      if (translatedId.includes('Context')) {
-        translatedId = translatedId.replace('Context', (t as any)('ui.context'));
-      }
-      if (translatedId.includes('Property')) {
-        translatedId = translatedId.replace('Property', (t as any)('ui.property'));
-      }
-      if (translatedId.includes('Wording')) {
-        translatedId = translatedId.replace('Wording', (t as any)('ui.wording'));
-      }
-      if (translatedId.includes('All')) {
-        translatedId = translatedId.replace('All', (t as any)('ui.all'));
-      }
-      if (translatedId.includes('None')) {
-        translatedId = translatedId.replace('None', (t as any)('ui.none'));
-      }
-      return translatedId;
+  const getTitle = () => {
+    if (showRuleDescriptions && rules) {
+      const ruleType = baseAreaName as keyof typeof rules;
+      return rules[ruleType] || '';
     }
-    
-    // Get the base area name for rule mapping
-    const baseArea = getBaseAreaName(id);
-    
-    // For simple areas, show the associated rule with prefix
-    if (baseArea === 'Context' && rules?.context) {
-      return (
-        <div>
-          <span className="font-bold block mb-1">{(t as any)('ui.context')}:</span>
-          {rules.context}
-        </div>
-      );
+
+    // Handle combination areas
+    if (baseAreaName.includes('+')) {
+      const [first, second] = baseAreaName.toLowerCase().split('+');
+      return `${(t as (key: string) => string)(`ui.${first}`)}+${(t as (key: string) => string)(`ui.${second}`)}`;
     }
-    if (baseArea === 'Property' && rules?.property) {
-      return (
-        <div>
-          <span className="font-bold block mb-1">{(t as any)('ui.property')}:</span>
-          {rules.property}
-        </div>
-      );
-    }
-    if (baseArea === 'Wording' && rules?.wording) {
-      return (
-        <div>
-          <span className="font-bold block mb-1">{(t as any)('ui.wording')}:</span>
-          {rules.wording}
-        </div>
-      );
-    }
-    
-    // For intersection areas, show a simplified title
-    if (id.includes('+')) {
-      return id;
-    }
-    
-    // Default case
-    return id;
+
+    // Handle single areas
+    return (t as (key: string) => string)(`ui.${baseAreaName.toLowerCase()}`);
   };
 
-  // Get the title text based on current state
-  const areaTitle = getAreaTitle();
-  
-  // For the tooltip, we need a string value
-  const tooltipTitle = (() => {
-    if (typeof areaTitle === 'string') return areaTitle;
-    if (id === 'Context' && rules?.context) return `${(t as any)('ui.context')}: ${rules.context}`;
-    if (id === 'Property' && rules?.property) return `${(t as any)('ui.property')}: ${rules.property}`;
-    if (id === 'Wording' && rules?.wording) return `${(t as any)('ui.wording')}: ${rules.wording}`;
-    return id;
-  })();
+  const areaTitle = getTitle();
+  const tooltipTitle = areaTitle;
 
   // Check if any word in this area was just auto-moved here
-  const hasNewAutoMovedWord = words.some(w => w.wasAutoMoved);
-
-  // Check if any word was just correctly placed here (either by user or auto-moved)
-  const hasNewCorrectWord = words.some(w => w.isCorrect && !w.isAutoMoved);
-
-  // Generate a unique key for the animation based on the words in this area
-  const animationKey = words.filter(w => w.isCorrect || w.wasAutoMoved).length;
+  const hasAutoMovedWord = words.some(word => word.wasAutoMoved);
+  
+  // Update animation key when words change
+  useEffect(() => {
+    if (hasAutoMovedWord) {
+      setAnimationKey(prev => prev + 1);
+    }
+  }, [hasAutoMovedWord]);
 
   return (
-    <Droppable droppableId={id}>
+    <Droppable droppableId={baseAreaName}>
       {(provided, snapshot) => (
         <div
           ref={provided.innerRef}
@@ -194,7 +127,7 @@ const AreaComponent = ({
           className={`
             absolute border-[1.5px] rounded-lg p-2
             ${snapshot.isDraggingOver ? "border-blue-500 bg-blue-50/50" : "border-white/40"}
-            ${(hasNewAutoMovedWord || hasNewCorrectWord) ? "animate-highlight" : ""}
+            ${hasAutoMovedWord ? "animate-highlight" : ""}
             transition-all duration-200
             backdrop-blur-[8px]
             ${snapshot.isDraggingOver ? "scale-105" : ""}
@@ -214,7 +147,7 @@ const AreaComponent = ({
             border: snapshot.isDraggingOver 
               ? '1.5px solid rgba(255,255,255,0.5)'
               : '1.5px solid rgba(255,255,255,0.3)',
-            zIndex: id === 'All' ? 2 : (snapshot.isDraggingOver ? 3 : 1),
+            zIndex: id === 'all' ? 2 : (snapshot.isDraggingOver ? 3 : 1),
             transform: `translateY(-1px) ${snapshot.isDraggingOver ? 'scale(1.05)' : ''}`,
             transition: 'all 0.2s ease-out',
           }}
@@ -277,7 +210,7 @@ const AreaComponent = ({
                     className={`
                       relative rounded-full px-2 py-1 text-sm shadow-sm inline-block whitespace-nowrap
                       transition-all duration-200 ease-out
-                      ${word.isAutoMoved ? 'scale-75 opacity-0' : 'scale-100 opacity-100'}
+                      ${word.wasAutoMoved ? 'scale-75 opacity-0' : 'scale-100 opacity-100'}
                       ${word.isChecked ? 'opacity-80' : ''}
                       ${snapshot.isDragging ? 'shadow-lg scale-110 z-50' : 'shadow-md'}
                     `}
@@ -291,9 +224,9 @@ const AreaComponent = ({
                       cursor: word.isChecked ? 'pointer' : 'grab',
                       transition: 'all 0.2s ease-out',
                       transform: `${provided.draggableProps.style?.transform || ''} ${
-                        word.isAutoMoved ? 'scale(0.75)' : (snapshot.isDragging ? 'scale(1.1)' : 'scale(1)')
+                        word.wasAutoMoved ? 'scale(0.75)' : (snapshot.isDragging ? 'scale(1.1)' : 'scale(1)')
                       }`,
-                      opacity: word.isAutoMoved ? 0 : 1,
+                      opacity: word.wasAutoMoved ? 0 : 1,
                       border: word.isChecked && word.isCorrect 
                         ? (word.wasAutoMoved 
                             ? '2px dashed #eab308' // dashed border for system-corrected
@@ -430,19 +363,19 @@ const SetDiagram: React.FC<SetDiagramProps> = ({
 
     return {
       // Main vertices
-      Context: {
+      context: {
         left: topFaceCenter.x - areaWidth/2,
         top: topFaceCenter.y - areaHeight/2,
         width: areaWidth,
         height: areaHeight
       },
-      Property: {
+      property: {
         left: propertyCenter.x - areaWidth/2,
         top: propertyCenter.y - areaHeight/2,
         width: areaWidth,
         height: areaHeight
       },
-      Wording: {
+      wording: {
         left: wordingCenter.x - areaWidth/2,
         top: wordingCenter.y - areaHeight/2,
         width: areaWidth,
@@ -450,19 +383,19 @@ const SetDiagram: React.FC<SetDiagramProps> = ({
       },
 
       // Edge intersections
-      'Context+Property': {
+      'context+property': {
         left: contextPropertyCenter.x - areaWidth/2,
         top: contextPropertyCenter.y - areaHeight/2,
         width: areaWidth,
         height: areaHeight
       },
-      'Context+Wording': {
+      'context+wording': {
         left: contextWordingCenter.x - areaWidth/2,
         top: contextWordingCenter.y - areaHeight/2,
         width: areaWidth,
         height: areaHeight
       },
-      'Property+Wording': {
+      'property+wording': {
         left: propertyWordingCenter.x - areaWidth/2,
         top: propertyWordingCenter.y - areaHeight/2,
         width: areaWidth,
@@ -470,7 +403,7 @@ const SetDiagram: React.FC<SetDiagramProps> = ({
       },
 
       // Center intersection
-      'All': {
+      'all': {
         left: allCenter.x - areaWidth/2,
         top: allCenter.y - areaHeight/2,
         width: areaWidth,
@@ -478,7 +411,7 @@ const SetDiagram: React.FC<SetDiagramProps> = ({
       },
 
       // None area - placed to the left of Context
-      'None': {
+      'none': {
         left: noneCenter.x - areaWidth/2,
         top: noneCenter.y - areaHeight/2,
         width: areaWidth,
@@ -537,10 +470,10 @@ const SetDiagram: React.FC<SetDiagramProps> = ({
           {/* Top face (red) */}
           <polygon 
             points={`
-              ${centers.Context.x},${centers.Context.y}
-              ${centers['Context+Property'].x},${centers['Context+Property'].y}
-              ${centers.All.x},${centers.All.y}
-              ${centers['Context+Wording'].x},${centers['Context+Wording'].y}
+              ${centers.context.x},${centers.context.y}
+              ${centers['context+property'].x},${centers['context+property'].y}
+              ${centers.all.x},${centers.all.y}
+              ${centers['context+wording'].x},${centers['context+wording'].y}
             `}
             fill="#cc3333"
             opacity="0.7"
@@ -549,10 +482,10 @@ const SetDiagram: React.FC<SetDiagramProps> = ({
           {/* Left face (blue) */}
           <polygon 
             points={`
-              ${centers['Context+Property'].x},${centers['Context+Property'].y}
-              ${centers.Property.x},${centers.Property.y}
-              ${centers['Property+Wording'].x},${centers['Property+Wording'].y}
-              ${centers.All.x},${centers.All.y}
+              ${centers['context+property'].x},${centers['context+property'].y}
+              ${centers.property.x},${centers.property.y}
+              ${centers['property+wording'].x},${centers['property+wording'].y}
+              ${centers.all.x},${centers.all.y}
             `}
             fill="#0099cc"
             opacity="0.7"
@@ -561,10 +494,10 @@ const SetDiagram: React.FC<SetDiagramProps> = ({
           {/* Right face (green) */}
           <polygon 
             points={`
-              ${centers['Context+Wording'].x},${centers['Context+Wording'].y}
-              ${centers.All.x},${centers.All.y}
-              ${centers['Property+Wording'].x},${centers['Property+Wording'].y}
-              ${centers.Wording.x},${centers.Wording.y}
+              ${centers['context+wording'].x},${centers['context+wording'].y}
+              ${centers.all.x},${centers.all.y}
+              ${centers['property+wording'].x},${centers['property+wording'].y}
+              ${centers.wording.x},${centers.wording.y}
             `}
             fill="#008833"
             opacity="0.7"
@@ -573,54 +506,54 @@ const SetDiagram: React.FC<SetDiagramProps> = ({
           {/* Cube edges */}
           {/* Left face connections */}
           <line 
-            x1={centers.Context.x} y1={centers.Context.y}
-            x2={centers['Context+Property'].x} y2={centers['Context+Property'].y}
+            x1={centers.context.x} y1={centers.context.y}
+            x2={centers['context+property'].x} y2={centers['context+property'].y}
             stroke="#666" strokeWidth="0.3"
           />
           <line 
-            x1={centers['Context+Property'].x} y1={centers['Context+Property'].y}
-            x2={centers.Property.x} y2={centers.Property.y}
+            x1={centers['context+property'].x} y1={centers['context+property'].y}
+            x2={centers.property.x} y2={centers.property.y}
             stroke="#666" strokeWidth="0.3"
           />
 
           {/* Right face connections */}
           <line 
-            x1={centers.Context.x} y1={centers.Context.y}
-            x2={centers['Context+Wording'].x} y2={centers['Context+Wording'].y}
+            x1={centers.context.x} y1={centers.context.y}
+            x2={centers['context+wording'].x} y2={centers['context+wording'].y}
             stroke="#666" strokeWidth="0.3"
           />
           <line 
-            x1={centers['Context+Wording'].x} y1={centers['Context+Wording'].y}
-            x2={centers.Wording.x} y2={centers.Wording.y}
+            x1={centers['context+wording'].x} y1={centers['context+wording'].y}
+            x2={centers.wording.x} y2={centers.wording.y}
             stroke="#666" strokeWidth="0.3"
           />
 
           {/* Bottom connections */}
           <line 
-            x1={centers.Property.x} y1={centers.Property.y}
-            x2={centers['Property+Wording'].x} y2={centers['Property+Wording'].y}
+            x1={centers.property.x} y1={centers.property.y}
+            x2={centers['property+wording'].x} y2={centers['property+wording'].y}
             stroke="#666" strokeWidth="0.3"
           />
           <line 
-            x1={centers['Property+Wording'].x} y1={centers['Property+Wording'].y}
-            x2={centers.Wording.x} y2={centers.Wording.y}
+            x1={centers['property+wording'].x} y1={centers['property+wording'].y}
+            x2={centers.wording.x} y2={centers.wording.y}
             stroke="#666" strokeWidth="0.3"
           />
 
           {/* Center connections */}
           <line 
-            x1={centers['Context+Property'].x} y1={centers['Context+Property'].y}
-            x2={centers.All.x} y2={centers.All.y}
+            x1={centers['context+property'].x} y1={centers['context+property'].y}
+            x2={centers.all.x} y2={centers.all.y}
             stroke="#666" strokeWidth="0.3"
           />
           <line 
-            x1={centers['Context+Wording'].x} y1={centers['Context+Wording'].y}
-            x2={centers.All.x} y2={centers.All.y}
+            x1={centers['context+wording'].x} y1={centers['context+wording'].y}
+            x2={centers.all.x} y2={centers.all.y}
             stroke="#666" strokeWidth="0.3"
           />
           <line 
-            x1={centers['Property+Wording'].x} y1={centers['Property+Wording'].y}
-            x2={centers.All.x} y2={centers.All.y}
+            x1={centers['property+wording'].x} y1={centers['property+wording'].y}
+            x2={centers.all.x} y2={centers.all.y}
             stroke="#666" strokeWidth="0.3"
           />
         </g>

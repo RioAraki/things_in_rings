@@ -1,0 +1,751 @@
+{
+  "id": "22",
+  "word": "马",
+  "questions": [
+    {
+      "ruleId": 1,
+      "result": true,
+      "reason": "马已有数千年历史，6000多年前就被驯化"
+    },
+    {
+      "ruleId": 2,
+      "result": false,
+      "reason": "马在1950年之前就已经存在"
+    },
+    {
+      "ruleId": 3,
+      "result": false,
+      "reason": "不常见于大多数家庭"
+    },
+    {
+      "ruleId": 4,
+      "result": false,
+      "reason": "不是专门为儿童设计的"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "不是主要由儿童使用"
+    },
+    {
+      "ruleId": 6,
+      "result": true,
+      "reason": "主要由成年人使用和照料"
+    },
+    {
+      "ruleId": 7,
+      "result": true,
+      "reason": "可以是昂贵的奢侈品"
+    },
+    {
+      "ruleId": 8,
+      "result": false,
+      "reason": "对大多数现代人来说不是必需品"
+    },
+    {
+      "ruleId": 9,
+      "result": true,
+      "reason": "具有实用目的（运输、工作）"
+    },
+    {
+      "ruleId": 10,
+      "result": false,
+      "reason": "主要是功能性而非装饰性"
+    },
+    {
+      "ruleId": 11,
+      "result": true,
+      "reason": "是自然生物"
+    },
+    {
+      "ruleId": 12,
+      "result": false,
+      "reason": "不是由人类制造的"
+    },
+    {
+      "ruleId": 13,
+      "result": false,
+      "reason": "用于日常使用而非特殊场合"
+    },
+    {
+      "ruleId": 14,
+      "result": true,
+      "reason": "饲养时需要每日照料"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "可以个人拥有"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "通常由一个人或家庭拥有，不共享"
+    },
+    {
+      "ruleId": 17,
+      "result": false,
+      "reason": "是自然动物，不涉及技术"
+    },
+    {
+      "ruleId": 18,
+      "result": false,
+      "reason": "没有机械部件"
+    },
+    {
+      "ruleId": 19,
+      "result": true,
+      "reason": "在许多社会中具有文化意义"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "在许多不同文化中都很重要"
+    },
+    {
+      "ruleId": 21,
+      "result": false,
+      "reason": "不是一次性的"
+    },
+    {
+      "ruleId": 22,
+      "result": true,
+      "reason": "是自然长寿的动物"
+    },
+    {
+      "ruleId": 23,
+      "result": false,
+      "reason": "主要在户外饲养"
+    },
+    {
+      "ruleId": 24,
+      "result": true,
+      "reason": "在户外生活和劳作"
+    },
+    {
+      "ruleId": 25,
+      "result": true,
+      "reason": "在许多电影和媒体中出现"
+    },
+    {
+      "ruleId": 26,
+      "result": true,
+      "reason": "与特定职业相关（骑师、牛仔等）"
+    },
+    {
+      "ruleId": 27,
+      "result": false,
+      "reason": "在主要宗教中没有显著的宗教意义"
+    },
+    {
+      "ruleId": 28,
+      "result": true,
+      "reason": "在现代使用中主要是世俗的"
+    },
+    {
+      "ruleId": 29,
+      "result": false,
+      "reason": "不是批量生产，是自然出生的"
+    },
+    {
+      "ruleId": 30,
+      "result": false,
+      "reason": "不是手工制作的"
+    },
+    {
+      "ruleId": 31,
+      "result": false,
+      "reason": "不特别与快乐相关"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "通常不会让人感到害怕"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "用于娱乐（赛马、表演）"
+    },
+    {
+      "ruleId": 34,
+      "result": true,
+      "reason": "具有实用目的（运输、工作）"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "全年使用，不是季节性的"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "全年都存在"
+    },
+    {
+      "ruleId": 37,
+      "result": true,
+      "reason": "需要专业知识才能正确照料"
+    },
+    {
+      "ruleId": 38,
+      "result": false,
+      "reason": "不是每个人都能安全驾驭"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "在正式场合如赛马和表演中使用"
+    },
+    {
+      "ruleId": 40,
+      "result": true,
+      "reason": "在休闲场合如骑马时使用"
+    },
+    {
+      "ruleId": 41,
+      "result": false,
+      "reason": "活着的动物不会被收藏"
+    },
+    {
+      "ruleId": 42,
+      "result": true,
+      "reason": "是许多传统的一部分（牛仔竞技、骑兵）"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "在交通和战争中具有重大历史意义"
+    },
+    {
+      "ruleId": 44,
+      "result": true,
+      "reason": "至今仍用于运动和娱乐"
+    },
+    {
+      "ruleId": 45,
+      "result": false,
+      "reason": "不常作为礼物赠送"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "太昂贵和复杂，不能作为普通礼物"
+    },
+    {
+      "ruleId": 47,
+      "result": true,
+      "reason": "拥有权常与财富和地位相关"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "不是所有经济水平的人都能同等获得"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "在艺术、文学和媒体中频繁出现"
+    },
+    {
+      "ruleId": 50,
+      "result": true,
+      "reason": "象征自由、力量和贵族气质"
+    },
+    {
+      "ruleId": 51,
+      "result": true,
+      "reason": "可能受伤或受到伤害"
+    },
+    {
+      "ruleId": 52,
+      "result": true,
+      "reason": "可以独立移动"
+    },
+    {
+      "ruleId": 53,
+      "result": false,
+      "reason": "不需要电力才能运作"
+    },
+    {
+      "ruleId": 54,
+      "result": true,
+      "reason": "购买和维护都很昂贵"
+    },
+    {
+      "ruleId": 55,
+      "result": true,
+      "reason": "是自然生物"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "不防水，但会游泳"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "会游泳但不能自然漂浮"
+    },
+    {
+      "ruleId": 58,
+      "result": false,
+      "reason": "不是金属制成的"
+    },
+    {
+      "ruleId": 59,
+      "result": true,
+      "reason": "发出声音（嘶鸣、喷鼻）"
+    },
+    {
+      "ruleId": 60,
+      "result": false,
+      "reason": "自然毛色（有限范围）"
+    },
+    {
+      "ruleId": 61,
+      "result": false,
+      "reason": "不能回收"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "不透明"
+    },
+    {
+      "ruleId": 63,
+      "result": true,
+      "reason": "有许多活动的身体部位"
+    },
+    {
+      "ruleId": 64,
+      "result": true,
+      "reason": "触摸时柔软（毛发）"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "不能折叠"
+    },
+    {
+      "ruleId": 66,
+      "result": true,
+      "reason": "需要定期护理和梳理"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "通常没有尖锐边缘"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "在大多数文化中不可食用"
+    },
+    {
+      "ruleId": 69,
+      "result": true,
+      "reason": "有特殊气味"
+    },
+    {
+      "ruleId": 70,
+      "result": true,
+      "reason": "很重"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "不穿在人身上"
+    },
+    {
+      "ruleId": 72,
+      "result": true,
+      "reason": "产生体温"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "不易燃"
+    },
+    {
+      "ruleId": 74,
+      "result": true,
+      "reason": "有许多不同品种和类型"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "使用前需要训练"
+    },
+    {
+      "ruleId": 76,
+      "result": true,
+      "reason": "死亡后最终会生物降解"
+    },
+    {
+      "ruleId": 77,
+      "result": false,
+      "reason": "不能叠放"
+    },
+    {
+      "ruleId": 78,
+      "result": false,
+      "reason": "表面不反光"
+    },
+    {
+      "ruleId": 79,
+      "result": false,
+      "reason": "不具有磁性"
+    },
+    {
+      "ruleId": 80,
+      "result": false,
+      "reason": "自然毛色，不是染色的"
+    },
+    {
+      "ruleId": 81,
+      "result": true,
+      "reason": "潮湿时会吸水"
+    },
+    {
+      "ruleId": 82,
+      "result": true,
+      "reason": "身体灵活可以弯曲"
+    },
+    {
+      "ruleId": 83,
+      "result": true,
+      "reason": "毛发潮湿时看起来更深"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "外观随年龄变化"
+    },
+    {
+      "ruleId": 85,
+      "result": true,
+      "reason": "体型一般对称"
+    },
+    {
+      "ruleId": 86,
+      "result": true,
+      "reason": "可以治愈伤势"
+    },
+    {
+      "ruleId": 87,
+      "result": true,
+      "reason": "需要食物（燃料）才能运作"
+    },
+    {
+      "ruleId": 88,
+      "result": true,
+      "reason": "需要梳理以保持健康"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "不能长时间待在水下"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "没有轮子"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "不是一次性的"
+    },
+    {
+      "ruleId": 92,
+      "result": false,
+      "reason": "不能承受极端高温"
+    },
+    {
+      "ruleId": 93,
+      "result": true,
+      "reason": "需要适当的庇护所"
+    },
+    {
+      "ruleId": 94,
+      "result": false,
+      "reason": "不是手工制作的"
+    },
+    {
+      "ruleId": 95,
+      "result": true,
+      "reason": "可以清洗/梳理"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "不是成对出现的"
+    },
+    {
+      "ruleId": 97,
+      "result": false,
+      "reason": "全年存在，不是季节性的"
+    },
+    {
+      "ruleId": 98,
+      "result": true,
+      "reason": "用作运输工具"
+    },
+    {
+      "ruleId": 99,
+      "result": true,
+      "reason": "在某些地区拥有可能需要许可证"
+    },
+    {
+      "ruleId": 100,
+      "result": true,
+      "reason": "寿命很长"
+    },
+    {
+      "ruleId": 101,
+      "result": true,
+      "reason": "只有一个音节"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "不以元音开头"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "不以元音结尾"
+    },
+    {
+      "ruleId": 104,
+      "result": true,
+      "reason": "只有一个汉字"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "没有重复的汉字"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "只有一个汉字，不能比较首尾字母"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "不是由两个词组成"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "没有重复的汉字"
+    },
+    {
+      "ruleId": 109,
+      "result": true,
+      "reason": "以'马'开头，是常用字"
+    },
+    {
+      "ruleId": 110,
+      "result": false,
+      "reason": "只有一个汉字，不是超过6个"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "主要用作名词，不常用作动词"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "不包含'口'字旁"
+    },
+    {
+      "ruleId": 113,
+      "result": true,
+      "reason": "只有一个独特的汉字（马）"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "没有公认的前缀"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "不包含'心'和'手'"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "只有一个汉字，不能比较首尾"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "不包含'木'字旁"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "没有三个连续的相同部首"
+    },
+    {
+      "ruleId": 119,
+      "result": false,
+      "reason": "只有一个汉字（不在6-8范围内）"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "不以'子'结尾"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "不包含'金'、'水'或'火'字旁"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "不包含'竹'字旁"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "没有重复的汉字"
+    },
+    {
+      "ruleId": 124,
+      "result": true,
+      "reason": "只有一个音节"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "不包含颜色名称"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "没有静音字母"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "不常用作动词"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "不以'器'结尾"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "只有一个汉字，不能按字母顺序排列"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "没有相邻的相同部首"
+    },
+    {
+      "ruleId": 131,
+      "result": false,
+      "reason": "没有重复的汉字"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "不包含'气'字旁"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "只有一个汉字"
+    },
+    {
+      "ruleId": 134,
+      "result": false,
+      "reason": "只有一个汉字，不是更多"
+    },
+    {
+      "ruleId": 135,
+      "result": false,
+      "reason": "只有一个汉字（奇数）"
+    },
+    {
+      "ruleId": 136,
+      "result": false,
+      "reason": "只有一个汉字，不是恰好两个"
+    },
+    {
+      "ruleId": 137,
+      "result": false,
+      "reason": "只有一个汉字，不能比较中间字母"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "不以元音结尾"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "不以相同的汉字开头和结尾"
+    },
+    {
+      "ruleId": 140,
+      "result": true,
+      "reason": "只有一个音节"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "不是缩写"
+    },
+    {
+      "ruleId": 142,
+      "result": false,
+      "reason": "不包含'电'字"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "没有重复的汉字"
+    },
+    {
+      "ruleId": 144,
+      "result": false,
+      "reason": "没有'言'字旁"
+    },
+    {
+      "ruleId": 145,
+      "result": true,
+      "reason": "以'马'字旁开头"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "不包含特殊发音组合"
+    },
+    {
+      "ruleId": 147,
+      "result": true,
+      "reason": "包含一个汉字"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "不以'子'结尾"
+    },
+    {
+      "ruleId": 149,
+      "result": false,
+      "reason": "拼写时不包含数字"
+    }
+  ]
+} 

@@ -1,10 +1,24 @@
 import { type Word } from '../types/word'
+import { LANGUAGE_CONFIG } from '../config/app-config'
+import i18n from '../i18n/i18n'
 
 // Dynamically import all word files from the words directory
 const wordModules = (() => {
   // This is a webpack feature that allows us to require all files matching a pattern
   // @ts-ignore - require.context is a webpack feature not recognized by TypeScript
   const context = require.context('../resources/data/words', false, /\.json$/);
+  
+  // Get all file paths
+  const filePaths = context.keys();
+  
+  // Import each file and return the array of modules
+  return filePaths.map((path: string) => context(path));
+})();
+
+// Dynamically import all Chinese word files
+const wordModulesZh = (() => {
+  // @ts-ignore - require.context is a webpack feature not recognized by TypeScript
+  const context = require.context('../resources/data/words_zh', false, /\.json$/);
   
   // Get all file paths
   const filePaths = context.keys();
@@ -23,44 +37,39 @@ function shuffleArray<T>(array: T[]): T[] {
   return shuffled;
 }
 
-// Fix malformed data where questions might have duplicate 'result' properties
-function normalizeWordData(wordData: any): Word {
-  const normalizedQuestions = wordData.questions.map((q: any) => {
-    // If there are two 'result' properties, one might be accidentally named 'result' instead of 'reason'
-    if (typeof q.result === 'string') {
-      return {
-        ruleId: q.ruleId,
-        result: true, // Default to true if the result is a string (which is likely meant to be a reason)
-        reason: q.result // Move the string value to the reason field
-      };
-    }
-    
-    // Keep proper format
-    return {
-      ruleId: q.ruleId,
-      result: typeof q.result === 'boolean' ? q.result : Boolean(q.result),
-      reason: q.reason
-    };
-  });
-
+// Helper function to normalize word data
+function normalizeWordData(data: any): Word {
   return {
-    ...wordData,
-    questions: normalizedQuestions,
-    isPlaced: false
+    id: data.id,
+    word: data.word,
+    questions: data.questions.map((q: any) => ({
+      ruleId: q.ruleId,
+      result: typeof q.result === 'string' ? q.result.toLowerCase() === 'true' : q.result,
+      reason: q.reason
+    }))
   };
 }
 
 // Load all words from the imported modules
 const originalWords = wordModules.map((module: any) => normalizeWordData(module));
+const originalWordsZh = wordModulesZh.map((module: any) => normalizeWordData(module));
 
 export function getWords(): Word[] {
-  // Get all words and shuffle them
-  return shuffleArray([...originalWords]);
+  // Get the current language from i18n
+  const isChinese = i18n.language === 'zh';
+  
+  // Get all words and shuffle them based on language
+  const words = isChinese ? originalWordsZh : originalWords;
+  return shuffleArray([...words]);
 }
 
 export function getWordById(id: string): Word | undefined {
-  // Find word in the loaded words
-  return originalWords.find((word: Word) => word.id === id);
+  // Get the current language from i18n
+  const isChinese = i18n.language === 'zh';
+  
+  // Find word in the loaded words based on language
+  const words = isChinese ? originalWordsZh : originalWords;
+  return words.find((word: Word) => word.id === id);
 }
 
 export function getWordAnswerForRule(word: Word, ruleId: number): boolean | undefined {
