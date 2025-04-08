@@ -4,7 +4,7 @@ import { type Word } from '../types/word'
 const wordModules = (() => {
   // This is a webpack feature that allows us to require all files matching a pattern
   // @ts-ignore - require.context is a webpack feature not recognized by TypeScript
-  const context = require.context('../resources/data/words', false, /\.json$/);
+  const context = require.context('../resources/data/words_zh', false, /\.json$/);
   
   // Get all file paths
   const filePaths = context.keys();

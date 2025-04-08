@@ -1,0 +1,256 @@
+{
+  "id": "5",
+  "word": "雨伞",
+  "questions": [
+    {
+      "ruleId": 1,
+      "result": true,
+      "reason": "非常古老（雨伞已有数千年历史）"
+    },
+    {
+      "ruleId": 2,
+      "result": true,
+      "reason": "现代折叠伞在1950年后开始流行"
+    },
+    {
+      "ruleId": 3,
+      "result": true,
+      "reason": "大多数家庭都有雨伞"
+    },
+    {
+      "ruleId": 4,
+      "result": false,
+      "reason": "不是稀有物品"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "不是专门为儿童设计的"
+    },
+    {
+      "ruleId": 6,
+      "result": true,
+      "reason": "主要由成年人使用"
+    },
+    {
+      "ruleId": 7,
+      "result": false,
+      "reason": "普通雨伞不奢侈或昂贵"
+    },
+    {
+      "ruleId": 8,
+      "result": true,
+      "reason": "每个人都需要雨伞"
+    },
+    {
+      "ruleId": 9,
+      "result": true,
+      "reason": "用于防雨和防晒"
+    },
+    {
+      "ruleId": 10,
+      "result": true,
+      "reason": "有漂亮的图案和设计"
+    },
+    {
+      "ruleId": 11,
+      "result": false,
+      "reason": "不是在自然界中存在的"
+    },
+    {
+      "ruleId": 12,
+      "result": true,
+      "reason": "在工厂批量生产"
+    },
+    {
+      "ruleId": 13,
+      "result": false,
+      "reason": "不是用于特殊场合的"
+    },
+    {
+      "ruleId": 14,
+      "result": true,
+      "reason": "在雨天经常使用"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "通常是个人物品"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "通常不会在多人之间共享"
+    },
+    {
+      "ruleId": 17,
+      "result": false,
+      "reason": "不是高科技产品"
+    },
+    {
+      "ruleId": 18,
+      "result": true,
+      "reason": "基于简单的机械原理"
+    },
+    {
+      "ruleId": 19,
+      "result": false,
+      "reason": "不是来自特定国家或文化"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "在许多国家都能找到"
+    },
+    {
+      "ruleId": 21,
+      "result": false,
+      "reason": "不是使用后丢弃的"
+    },
+    {
+      "ruleId": 22,
+      "result": true,
+      "reason": "可以使用很多年"
+    },
+    {
+      "ruleId": 23,
+      "result": false,
+      "reason": "主要在室外使用"
+    },
+    {
+      "ruleId": 24,
+      "result": true,
+      "reason": "在雨天或晴天户外使用"
+    },
+    {
+      "ruleId": 25,
+      "result": true,
+      "reason": "经常在电影和电视节目中出现"
+    },
+    {
+      "ruleId": 26,
+      "result": true,
+      "reason": "被各种职业的人使用"
+    },
+    {
+      "ruleId": 27,
+      "result": false,
+      "reason": "没有重要的宗教意义"
+    },
+    {
+      "ruleId": 28,
+      "result": true,
+      "reason": "主要是世俗性质"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "在工厂批量生产"
+    },
+    {
+      "ruleId": 30,
+      "result": false,
+      "reason": "通常不是手工制作的"
+    },
+    {
+      "ruleId": 31,
+      "result": true,
+      "reason": "通过保持人们干燥带来快乐"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "不吓人或危险"
+    },
+    {
+      "ruleId": 33,
+      "result": false,
+      "reason": "不用于娱乐"
+    },
+    {
+      "ruleId": 34,
+      "result": true,
+      "reason": "具有保护的重要用途"
+    },
+    {
+      "ruleId": 35,
+      "result": true,
+      "reason": "在雨季使用更频繁"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "可以全年使用"
+    },
+    {
+      "ruleId": 37,
+      "result": false,
+      "reason": "使用不需要特殊知识"
+    },
+    {
+      "ruleId": 38,
+      "result": true,
+      "reason": "任何人都容易使用"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "在正式场合使用"
+    },
+    {
+      "ruleId": 40,
+      "result": true,
+      "reason": "也在休闲场合使用"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "有些人收藏装饰性雨伞"
+    },
+    {
+      "ruleId": 42,
+      "result": false,
+      "reason": "不是特定文化传统的一部分"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "具有历史重要性"
+    },
+    {
+      "ruleId": 44,
+      "result": true,
+      "reason": "在当代仍然相关"
+    },
+    {
+      "ruleId": 45,
+      "result": true,
+      "reason": "经常作为实用礼物赠送"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "不是罕见的礼物"
+    },
+    {
+      "ruleId": 47,
+      "result": false,
+      "reason": "不是只有富人才能拥有"
+    },
+    {
+      "ruleId": 48,
+      "result": true,
+      "reason": "各收入阶层的人都使用"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "在艺术、文学和媒体中出现"
+    },
+    {
+      "ruleId": 50,
+      "result": false,
+      "reason": "在故事中很常见"
+    }
+  ]
+} 

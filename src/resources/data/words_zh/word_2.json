@@ -1,0 +1,256 @@
+{
+  "id": "2",
+  "word": "企鹅",
+  "questions": [
+    {
+      "ruleId": 1,
+      "result": true,
+      "reason": "非常古老（企鹅已经进化了数百万年）"
+    },
+    {
+      "ruleId": 2,
+      "result": false,
+      "reason": "不是1950年后制造的（企鹅是自然生物）"
+    },
+    {
+      "ruleId": 3,
+      "result": false,
+      "reason": "不是大多数家庭都有的（企鹅主要生活在南极）"
+    },
+    {
+      "ruleId": 4,
+      "result": true,
+      "reason": "是大多数人没有的稀有动物"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "不是主要面向儿童的（虽然儿童喜欢企鹅）"
+    },
+    {
+      "ruleId": 6,
+      "result": false,
+      "reason": "不是专门为成年人制造的"
+    },
+    {
+      "ruleId": 7,
+      "result": false,
+      "reason": "不是奢侈或昂贵的物品"
+    },
+    {
+      "ruleId": 8,
+      "result": false,
+      "reason": "不是每个人都需要的东西"
+    },
+    {
+      "ruleId": 9,
+      "result": false,
+      "reason": "不是用来完成工作的工具"
+    },
+    {
+      "ruleId": 10,
+      "result": true,
+      "reason": "外观可爱漂亮"
+    },
+    {
+      "ruleId": 11,
+      "result": true,
+      "reason": "是自然界中存在的动物"
+    },
+    {
+      "ruleId": 12,
+      "result": false,
+      "reason": "不是工厂生产的"
+    },
+    {
+      "ruleId": 13,
+      "result": false,
+      "reason": "不是用于特殊场合的"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "不是每天都能见到的"
+    },
+    {
+      "ruleId": 15,
+      "result": false,
+      "reason": "不是个人拥有的宠物"
+    },
+    {
+      "ruleId": 16,
+      "result": true,
+      "reason": "是多人共享观赏的动物"
+    },
+    {
+      "ruleId": 17,
+      "result": false,
+      "reason": "不是高科技产品"
+    },
+    {
+      "ruleId": 18,
+      "result": false,
+      "reason": "不是简单的机器或工具"
+    },
+    {
+      "ruleId": 19,
+      "result": false,
+      "reason": "不是来自特定国家或文化"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "在许多国家都能在动物园看到"
+    },
+    {
+      "ruleId": 21,
+      "result": false,
+      "reason": "不是使用后丢弃的物品"
+    },
+    {
+      "ruleId": 22,
+      "result": true,
+      "reason": "可以存活很多年"
+    },
+    {
+      "ruleId": 23,
+      "result": true,
+      "reason": "在室内（动物园）可以看到"
+    },
+    {
+      "ruleId": 24,
+      "result": true,
+      "reason": "在室外（野外）也能看到"
+    },
+    {
+      "ruleId": 25,
+      "result": true,
+      "reason": "经常在电影和电视节目中出现"
+    },
+    {
+      "ruleId": 26,
+      "result": true,
+      "reason": "不同职业的人都会关注和研究"
+    },
+    {
+      "ruleId": 27,
+      "result": false,
+      "reason": "不具有宗教意义"
+    },
+    {
+      "ruleId": 28,
+      "result": true,
+      "reason": "与宗教无关"
+    },
+    {
+      "ruleId": 29,
+      "result": false,
+      "reason": "不是机器大量生产的"
+    },
+    {
+      "ruleId": 30,
+      "result": false,
+      "reason": "不是手工制作的"
+    },
+    {
+      "ruleId": 31,
+      "result": true,
+      "reason": "让人感到快乐和可爱"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "不会令人害怕或危险"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "用于娱乐和观赏"
+    },
+    {
+      "ruleId": 34,
+      "result": false,
+      "reason": "不是用于工作或重要任务"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "不是只在特定季节使用"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "全年都可以看到"
+    },
+    {
+      "ruleId": 37,
+      "result": false,
+      "reason": "不需要特别学习如何使用"
+    },
+    {
+      "ruleId": 38,
+      "result": true,
+      "reason": "任何人都容易观赏"
+    },
+    {
+      "ruleId": 39,
+      "result": false,
+      "reason": "不是在正式场合使用的"
+    },
+    {
+      "ruleId": 40,
+      "result": true,
+      "reason": "在轻松、休闲的环境中可以观赏"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "人们喜欢收藏企鹅相关的物品"
+    },
+    {
+      "ruleId": 42,
+      "result": false,
+      "reason": "不是特殊传统的一部分"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "在生物进化历史上很重要"
+    },
+    {
+      "ruleId": 44,
+      "result": false,
+      "reason": "不是主要在现代使用"
+    },
+    {
+      "ruleId": 45,
+      "result": true,
+      "reason": "经常作为礼物（玩具、装饰品）赠送"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "不是罕见的礼物"
+    },
+    {
+      "ruleId": 47,
+      "result": false,
+      "reason": "不是只有富人才能看到"
+    },
+    {
+      "ruleId": 48,
+      "result": true,
+      "reason": "各收入阶层的人都可以在动物园看到"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "在书籍、电影和艺术中经常出现"
+    },
+    {
+      "ruleId": 50,
+      "result": false,
+      "reason": "在故事或图片中很常见"
+    }
+  ]
+} 
