@@ -1,1 +1,755 @@
+<<<<<<< HEAD
 {"id":"23","word":"耳机","questions":[{"ruleId":1,"result":false,"reason":"不是非常古老的物品"},{"ruleId":2,"result":true,"reason":"现代耳机是1950年后制造的"},{"ruleId":3,"result":true,"reason":"大多数家庭都有耳机"},{"ruleId":4,"result":false,"reason":"不是稀有物品"},{"ruleId":5,"result":true,"reason":"儿童也使用耳机"},{"ruleId":6,"result":true,"reason":"成年人经常使用耳机"},{"ruleId":7,"result":false,"reason":"通常不是奢侈或昂贵的"},{"ruleId":8,"result":true,"reason":"许多人需要耳机"},{"ruleId":9,"result":true,"reason":"用于听音乐和通话"},{"ruleId":10,"result":true,"reason":"是时尚配饰"},{"ruleId":11,"result":false,"reason":"不是在自然界中存在的"},{"ruleId":12,"result":true,"reason":"在工厂批量生产"},{"ruleId":13,"result":false,"reason":"不是用于特殊场合的"},{"ruleId":14,"result":true,"reason":"每天都会使用"},{"ruleId":15,"result":true,"reason":"通常是个人物品"},{"ruleId":16,"result":false,"reason":"通常不共享"},{"ruleId":17,"result":true,"reason":"是高科技产品"},{"ruleId":18,"result":true,"reason":"基于电子设计"},{"ruleId":19,"result":false,"reason":"不是来自特定国家或文化"},{"ruleId":20,"result":true,"reason":"在世界各地都能找到"},{"ruleId":21,"result":false,"reason":"不是使用后丢弃的"},{"ruleId":22,"result":true,"reason":"可以使用很多年"},{"ruleId":23,"result":true,"reason":"主要在室内使用"},{"ruleId":24,"result":false,"reason":"主要在室内使用"},{"ruleId":25,"result":true,"reason":"经常在电影和电视节目中出现"},{"ruleId":26,"result":true,"reason":"被各种职业的人使用"},{"ruleId":27,"result":false,"reason":"没有重要的宗教意义"},{"ruleId":28,"result":true,"reason":"主要是世俗性质"},{"ruleId":29,"result":true,"reason":"在工厂批量生产"},{"ruleId":30,"result":false,"reason":"通常不是手工制作的"},{"ruleId":31,"result":true,"reason":"通过听音乐带来便利"},{"ruleId":32,"result":false,"reason":"不吓人或危险"},{"ruleId":33,"result":true,"reason":"用于娱乐"},{"ruleId":34,"result":true,"reason":"用于工作和生活"},{"ruleId":35,"result":false,"reason":"不是只在特定季节使用"},{"ruleId":36,"result":true,"reason":"全年都可以使用"},{"ruleId":37,"result":true,"reason":"需要适应使用"},{"ruleId":38,"result":true,"reason":"任何人都可以使用"},{"ruleId":39,"result":false,"reason":"不是主要在正式场合使用"},{"ruleId":40,"result":true,"reason":"在休闲场合使用"},{"ruleId":41,"result":false,"reason":"人们不经常收藏耳机"},{"ruleId":42,"result":false,"reason":"不是特定文化传统的一部分"},{"ruleId":43,"result":true,"reason":"在历史上很重要"},{"ruleId":44,"result":true,"reason":"在当代仍然重要"},{"ruleId":45,"result":false,"reason":"不经常作为礼物赠送"},{"ruleId":46,"result":false,"reason":"不是罕见的礼物"},{"ruleId":47,"result":false,"reason":"不是只有富人才能拥有"},{"ruleId":48,"result":true,"reason":"各收入阶层的人都使用"},{"ruleId":49,"result":true,"reason":"在艺术、文学和媒体中出现"},{"ruleId":50,"result":true,"reason":"在故事中很常见"}]} 
+=======
+{
+  "id": "23",
+  "word": "游戏机",
+  "questions": [
+    {
+      "ruleId": 1,
+      "result": false,
+      "reason": "游戏机没有超过1000年的历史，最早在20世纪70年代开发"
+    },
+    {
+      "ruleId": 2,
+      "result": true,
+      "reason": "现代游戏机是在1950年之后发明的"
+    },
+    {
+      "ruleId": 3,
+      "result": true,
+      "reason": "在许多家庭中作为常见娱乐设备"
+    },
+    {
+      "ruleId": 4,
+      "result": true,
+      "reason": "经常针对儿童营销和使用"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "不仅限于儿童，各年龄段都在使用"
+    },
+    {
+      "ruleId": 6,
+      "result": true,
+      "reason": "成年人和儿童都在使用"
+    },
+    {
+      "ruleId": 7,
+      "result": true,
+      "reason": "高端游戏系统可以是奢侈品"
+    },
+    {
+      "ruleId": 8,
+      "result": false,
+      "reason": "不是必需品"
+    },
+    {
+      "ruleId": 9,
+      "result": false,
+      "reason": "主要用于娱乐而非实用目的"
+    },
+    {
+      "ruleId": 10,
+      "result": false,
+      "reason": "功能性而非装饰性"
+    },
+    {
+      "ruleId": 11,
+      "result": false,
+      "reason": "不是自然存在的"
+    },
+    {
+      "ruleId": 12,
+      "result": true,
+      "reason": "由人类制造"
+    },
+    {
+      "ruleId": 13,
+      "result": false,
+      "reason": "经常使用而非特殊场合使用"
+    },
+    {
+      "ruleId": 14,
+      "result": true,
+      "reason": "是许多人日常生活的一部分"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "个人拥有"
+    },
+    {
+      "ruleId": 16,
+      "result": true,
+      "reason": "经常在家庭成员或朋友间共享"
+    },
+    {
+      "ruleId": 17,
+      "result": true,
+      "reason": "涉及先进技术"
+    },
+    {
+      "ruleId": 18,
+      "result": true,
+      "reason": "包含机械和电子部件"
+    },
+    {
+      "ruleId": 19,
+      "result": false,
+      "reason": "没有特定的文化意义"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "在全球许多不同文化中使用"
+    },
+    {
+      "ruleId": 21,
+      "result": false,
+      "reason": "不是一次性的，设计使用多年"
+    },
+    {
+      "ruleId": 22,
+      "result": true,
+      "reason": "设计为耐用"
+    },
+    {
+      "ruleId": 23,
+      "result": true,
+      "reason": "在室内使用"
+    },
+    {
+      "ruleId": 24,
+      "result": false,
+      "reason": "很少在户外使用"
+    },
+    {
+      "ruleId": 25,
+      "result": true,
+      "reason": "经常出现在电影和媒体中"
+    },
+    {
+      "ruleId": 26,
+      "result": true,
+      "reason": "与游戏开发者和电子竞技专业人士相关"
+    },
+    {
+      "ruleId": 27,
+      "result": false,
+      "reason": "没有显著的宗教意义"
+    },
+    {
+      "ruleId": 28,
+      "result": true,
+      "reason": "使用主要是世俗的"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "批量生产"
+    },
+    {
+      "ruleId": 30,
+      "result": false,
+      "reason": "不是手工制作"
+    },
+    {
+      "ruleId": 31,
+      "result": true,
+      "reason": "与娱乐和乐趣相关"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "通常不会让人感到害怕"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "主要用于娱乐"
+    },
+    {
+      "ruleId": 34,
+      "result": false,
+      "reason": "不是主要实用目的"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "全年使用，不是季节性的"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "全年使用"
+    },
+    {
+      "ruleId": 37,
+      "result": false,
+      "reason": "基本使用对大多数人来说都很容易"
+    },
+    {
+      "ruleId": 38,
+      "result": true,
+      "reason": "对大多数人来说使用都很容易"
+    },
+    {
+      "ruleId": 39,
+      "result": false,
+      "reason": "不常用于正式场合"
+    },
+    {
+      "ruleId": 40,
+      "result": true,
+      "reason": "在休闲场合使用"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "人们收藏复古或限量版游戏机"
+    },
+    {
+      "ruleId": 42,
+      "result": false,
+      "reason": "不是特定传统庆祝活动的一部分"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "具有文化和科技历史重要性"
+    },
+    {
+      "ruleId": 44,
+      "result": true,
+      "reason": "在当代娱乐中非常重要"
+    },
+    {
+      "ruleId": 45,
+      "result": true,
+      "reason": "经常作为礼物赠送"
+    },
+    {
+      "ruleId": 46,
+      "result": true,
+      "reason": "是流行的节日和生日礼物"
+    },
+    {
+      "ruleId": 47,
+      "result": false,
+      "reason": "不 strongly 与财富地位相关"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "有不同价格档次，适合不同经济水平"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "在艺术、文学和媒体中出现"
+    },
+    {
+      "ruleId": 50,
+      "result": true,
+      "reason": "象征数字娱乐和游戏文化"
+    },
+    {
+      "ruleId": 51,
+      "result": true,
+      "reason": "掉落可能会损坏"
+    },
+    {
+      "ruleId": 52,
+      "result": true,
+      "reason": "设计为可在不同位置间移动"
+    },
+    {
+      "ruleId": 53,
+      "result": true,
+      "reason": "需要电力才能运作"
+    },
+    {
+      "ruleId": 54,
+      "result": true,
+      "reason": "可能很贵，特别是新机型"
+    },
+    {
+      "ruleId": 55,
+      "result": false,
+      "reason": "不是自然存在的"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "不防水"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "太密实不能漂浮"
+    },
+    {
+      "ruleId": 58,
+      "result": true,
+      "reason": "包含金属部件"
+    },
+    {
+      "ruleId": 59,
+      "result": true,
+      "reason": "运作时发出声音"
+    },
+    {
+      "ruleId": 60,
+      "result": true,
+      "reason": "有不同的颜色和设计"
+    },
+    {
+      "ruleId": 61,
+      "result": true,
+      "reason": "部件可以回收"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "不透明"
+    },
+    {
+      "ruleId": 63,
+      "result": true,
+      "reason": "有活动部件（按钮、光驱）"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "触摸时很硬"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "不能折叠"
+    },
+    {
+      "ruleId": 66,
+      "result": true,
+      "reason": "需要偶尔清洁和维护"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "通常没有尖锐边缘"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "不能食用"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "新的时候没有特殊气味"
+    },
+    {
+      "ruleId": 70,
+      "result": true,
+      "reason": "中等重量"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "不穿在身上"
+    },
+    {
+      "ruleId": 72,
+      "result": true,
+      "reason": "运作时产生热量"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "在正常条件下不易燃"
+    },
+    {
+      "ruleId": 74,
+      "result": true,
+      "reason": "有许多不同型号和品牌"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "初始设置后即可使用"
+    },
+    {
+      "ruleId": 76,
+      "result": false,
+      "reason": "不能生物降解"
+    },
+    {
+      "ruleId": 77,
+      "result": true,
+      "reason": "可以与其他电子产品堆叠"
+    },
+    {
+      "ruleId": 78,
+      "result": true,
+      "reason": "某些型号有光泽、反光表面"
+    },
+    {
+      "ruleId": 79,
+      "result": true,
+      "reason": "包含磁性部件"
+    },
+    {
+      "ruleId": 80,
+      "result": true,
+      "reason": "外观通常有颜色/喷漆"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "不吸水"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "刚性，不灵活"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "潮湿时不会变色"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "可能随年龄变黄或变色"
+    },
+    {
+      "ruleId": 85,
+      "result": true,
+      "reason": "设计通常对称"
+    },
+    {
+      "ruleId": 86,
+      "result": true,
+      "reason": "损坏可以修理"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "不需要燃料（但需要电力）"
+    },
+    {
+      "ruleId": 88,
+      "result": true,
+      "reason": "应该保持清洁"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "不能在水下运作"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "没有轮子"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "不是一次性的"
+    },
+    {
+      "ruleId": 92,
+      "result": false,
+      "reason": "不设计用于承受高温"
+    },
+    {
+      "ruleId": 93,
+      "result": true,
+      "reason": "应该妥善存放以避免损坏"
+    },
+    {
+      "ruleId": 94,
+      "result": false,
+      "reason": "批量生产，不是手工制作"
+    },
+    {
+      "ruleId": 95,
+      "result": true,
+      "reason": "表面可以清洁"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "不是成对出现"
+    },
+    {
+      "ruleId": 97,
+      "result": false,
+      "reason": "全年使用，不是季节性的"
+    },
+    {
+      "ruleId": 98,
+      "result": true,
+      "reason": "用作娱乐工具"
+    },
+    {
+      "ruleId": 99,
+      "result": false,
+      "reason": "拥有不需要许可证"
+    },
+    {
+      "ruleId": 100,
+      "result": true,
+      "reason": "设计使用多年"
+    },
+    {
+      "ruleId": 101,
+      "result": true,
+      "reason": "有三个音节（游-戏-机）"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "不以元音开头"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "不以元音结尾"
+    },
+    {
+      "ruleId": 104,
+      "result": true,
+      "reason": "有三个汉字"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "没有重复的汉字"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "首尾汉字不能按字母顺序比较"
+    },
+    {
+      "ruleId": 107,
+      "result": true,
+      "reason": "由两个词组成：游戏 + 机"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "没有重复的汉字"
+    },
+    {
+      "ruleId": 109,
+      "result": true,
+      "reason": "以'游'开头，是常用字"
+    },
+    {
+      "ruleId": 110,
+      "result": false,
+      "reason": "有三个汉字，不是超过6个"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "主要用作名词，不常用作动词"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "不包含'口'字旁"
+    },
+    {
+      "ruleId": 113,
+      "result": true,
+      "reason": "有三个独特的汉字（游、戏、机）"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "没有公认的前缀"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "不包含'心'和'手'"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "首尾汉字不在字母顺序中"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "不包含'木'字旁"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "没有三个连续的相同部首"
+    },
+    {
+      "ruleId": 119,
+      "result": true,
+      "reason": "有三个汉字（考虑复合词）"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "不以'子'结尾"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "不包含's'、't'或'v'"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "不包含'z'"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "没有重复的汉字"
+    },
+    {
+      "ruleId": 124,
+      "result": true,
+      "reason": "有三个音节（超过两个）"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "不包含颜色名称"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "没有静音字母"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "不常用作动词"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "不以'器'结尾"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "汉字不在字母顺序中"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "没有相邻的元音"
+    },
+    {
+      "ruleId": 131,
+      "result": false,
+      "reason": "没有重复的汉字"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "不包含'q'"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "不包含元音字母"
+    },
+    {
+      "ruleId": 134,
+      "result": false,
+      "reason": "没有元音字母"
+    },
+    {
+      "ruleId": 135,
+      "result": false,
+      "reason": "有三个汉字（奇数）"
+    },
+    {
+      "ruleId": 136,
+      "result": false,
+      "reason": "没有元音字母"
+    },
+    {
+      "ruleId": 137,
+      "result": false,
+      "reason": "最后一个汉字不在中间字母之前"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "不以元音结尾"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "不以相同的汉字开头和结尾"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "有三个音节，不是一个"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "不是缩写"
+    },
+    {
+      "ruleId": 142,
+      "result": false,
+      "reason": "不包含'th'"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "没有重复的汉字"
+    },
+    {
+      "ruleId": 144,
+      "result": false,
+      "reason": "不包含'y'"
+    },
+    {
+      "ruleId": 145,
+      "result": true,
+      "reason": "以'游'开头，以'机'结尾"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "不包含'sh'或'ch'"
+    },
+    {
+      "ruleId": 147,
+      "result": true,
+      "reason": "包含三个不同的汉字"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "不以'ly'结尾"
+    },
+    {
+      "ruleId": 149,
+      "result": false,
+      "reason": "拼写时不包含数字"
+    }
+  ]
+} 
+>>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958

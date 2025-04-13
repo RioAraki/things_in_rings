@@ -1,1 +1,755 @@
+<<<<<<< HEAD
 {"id":"17","word":"门锁","questions":[{"ruleId":1,"result":true,"reason":"非常古老（门锁已有数千年历史）"},{"ruleId":2,"result":true,"reason":"现代门锁是1950年后制造的"},{"ruleId":3,"result":true,"reason":"每个家庭都有门锁"},{"ruleId":4,"result":false,"reason":"不是稀有物品"},{"ruleId":5,"result":false,"reason":"儿童不使用门锁"},{"ruleId":6,"result":true,"reason":"成年人使用门锁"},{"ruleId":7,"result":true,"reason":"可以是奢侈或昂贵的"},{"ruleId":8,"result":true,"reason":"每个人都需要的"},{"ruleId":9,"result":true,"reason":"用于保护安全"},{"ruleId":10,"result":false,"reason":"不是时尚配饰"},{"ruleId":11,"result":false,"reason":"不是在自然界中存在的"},{"ruleId":12,"result":true,"reason":"在工厂批量生产"},{"ruleId":13,"result":false,"reason":"不是用于特殊场合的"},{"ruleId":14,"result":true,"reason":"每天都会使用"},{"ruleId":15,"result":false,"reason":"不是个人物品"},{"ruleId":16,"result":true,"reason":"在多人之间共享"},{"ruleId":17,"result":true,"reason":"是高科技产品"},{"ruleId":18,"result":true,"reason":"基于机械设计"},{"ruleId":19,"result":false,"reason":"不是来自特定国家或文化"},{"ruleId":20,"result":true,"reason":"在世界各地都能找到"},{"ruleId":21,"result":false,"reason":"不是使用后丢弃的"},{"ruleId":22,"result":true,"reason":"可以使用很多年"},{"ruleId":23,"result":true,"reason":"主要在室内使用"},{"ruleId":24,"result":false,"reason":"主要在室内使用"},{"ruleId":25,"result":true,"reason":"经常在电影和电视节目中出现"},{"ruleId":26,"result":true,"reason":"被各种职业的人使用"},{"ruleId":27,"result":false,"reason":"没有重要的宗教意义"},{"ruleId":28,"result":true,"reason":"主要是世俗性质"},{"ruleId":29,"result":true,"reason":"在工厂批量生产"},{"ruleId":30,"result":false,"reason":"通常不是手工制作的"},{"ruleId":31,"result":true,"reason":"通过保护安全带来安全感"},{"ruleId":32,"result":false,"reason":"不吓人或危险"},{"ruleId":33,"result":false,"reason":"不是用于娱乐"},{"ruleId":34,"result":true,"reason":"用于工作和生活"},{"ruleId":35,"result":false,"reason":"不是只在特定季节使用"},{"ruleId":36,"result":true,"reason":"全年都可以使用"},{"ruleId":37,"result":true,"reason":"需要适应使用"},{"ruleId":38,"result":true,"reason":"任何人都可以使用"},{"ruleId":39,"result":false,"reason":"不在正式场合使用"},{"ruleId":40,"result":true,"reason":"在休闲场合使用"},{"ruleId":41,"result":false,"reason":"人们不经常收藏门锁"},{"ruleId":42,"result":false,"reason":"不是特定文化传统的一部分"},{"ruleId":43,"result":true,"reason":"在历史上很重要"},{"ruleId":44,"result":true,"reason":"在当代仍然重要"},{"ruleId":45,"result":false,"reason":"不经常作为礼物赠送"},{"ruleId":46,"result":false,"reason":"不是罕见的礼物"},{"ruleId":47,"result":false,"reason":"不是只有富人才能拥有"},{"ruleId":48,"result":true,"reason":"各收入阶层的人都使用"},{"ruleId":49,"result":true,"reason":"在艺术、文学和媒体中出现"},{"ruleId":50,"result":true,"reason":"在故事中很常见"}]} 
+=======
+{
+  "id": "17",
+  "word": "金字塔",
+  "questions": [
+    {
+      "ruleId": 1,
+      "result": true,
+      "reason": "金字塔已有数千年历史（古埃及、中美洲）"
+    },
+    {
+      "ruleId": 2,
+      "result": false,
+      "reason": "金字塔在1950年之前就已存在"
+    },
+    {
+      "ruleId": 3,
+      "result": false,
+      "reason": "不常见于大多数家庭"
+    },
+    {
+      "ruleId": 4,
+      "result": false,
+      "reason": "不是专门为儿童设计的"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "不是专门为儿童设计的"
+    },
+    {
+      "ruleId": 6,
+      "result": true,
+      "reason": "主要由成年人建造和研究"
+    },
+    {
+      "ruleId": 7,
+      "result": true,
+      "reason": "古代金字塔代表统治者的奢华和财富"
+    },
+    {
+      "ruleId": 8,
+      "result": false,
+      "reason": "不是必需品"
+    },
+    {
+      "ruleId": 9,
+      "result": false,
+      "reason": "原始目的是宗教/仪式性的，而非实用性的"
+    },
+    {
+      "ruleId": 10,
+      "result": true,
+      "reason": "在原始语境中是装饰性和仪式性的"
+    },
+    {
+      "ruleId": 11,
+      "result": false,
+      "reason": "不是自然形成的，是人工建筑"
+    },
+    {
+      "ruleId": 12,
+      "result": true,
+      "reason": "由人类建造"
+    },
+    {
+      "ruleId": 13,
+      "result": true,
+      "reason": "与特殊场合相关（宗教仪式、旅游）"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "不是大多数人日常生活的一部分"
+    },
+    {
+      "ruleId": 15,
+      "result": false,
+      "reason": "不是个人拥有的（除小型模型外）"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "主要金字塔是公共纪念碑，不是个人共享的"
+    },
+    {
+      "ruleId": 17,
+      "result": false,
+      "reason": "古代金字塔不涉及现代技术"
+    },
+    {
+      "ruleId": 18,
+      "result": false,
+      "reason": "没有机械部件"
+    },
+    {
+      "ruleId": 19,
+      "result": true,
+      "reason": "在埃及、玛雅等文明中具有文化意义"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "在不同大陆的多个文化中都存在"
+    },
+    {
+      "ruleId": 21,
+      "result": false,
+      "reason": "设计为永久性的，不是一次性的"
+    },
+    {
+      "ruleId": 22,
+      "result": true,
+      "reason": "极其耐用，许多已存在数千年"
+    },
+    {
+      "ruleId": 23,
+      "result": false,
+      "reason": "建于室外，不用于室内"
+    },
+    {
+      "ruleId": 24,
+      "result": true,
+      "reason": "总是建于室外"
+    },
+    {
+      "ruleId": 25,
+      "result": true,
+      "reason": "在许多电影、纪录片和电视节目中都有出现"
+    },
+    {
+      "ruleId": 26,
+      "result": true,
+      "reason": "与建筑师、考古学家和历史学家相关"
+    },
+    {
+      "ruleId": 27,
+      "result": true,
+      "reason": "在古文明中具有强烈的宗教意义"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "对许多文明来说原本具有宗教目的"
+    },
+    {
+      "ruleId": 29,
+      "result": false,
+      "reason": "每个金字塔都是独特建造的，不是批量生产的"
+    },
+    {
+      "ruleId": 30,
+      "result": true,
+      "reason": "在古代是手工建造的"
+    },
+    {
+      "ruleId": 31,
+      "result": false,
+      "reason": "常与死亡和来世相关，而不是快乐"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "尽管与坟墓相关，但通常不可怕"
+    },
+    {
+      "ruleId": 33,
+      "result": false,
+      "reason": "不主要用于娱乐"
+    },
+    {
+      "ruleId": 34,
+      "result": true,
+      "reason": "在宗教/仪式语境中原本具有实用性"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "不是季节性的，是永久性建筑"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "全年都存在"
+    },
+    {
+      "ruleId": 37,
+      "result": true,
+      "reason": "建造金字塔需要广泛的专业知识"
+    },
+    {
+      "ruleId": 38,
+      "result": false,
+      "reason": "不容易使用或建造"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "与正式、仪式场合相关"
+    },
+    {
+      "ruleId": 40,
+      "result": false,
+      "reason": "与休闲场合无关"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "人们收藏金字塔模型和复制品"
+    },
+    {
+      "ruleId": 42,
+      "result": true,
+      "reason": "是古代宗教传统和仪式的一部分"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "在多个文明中具有重要的历史意义"
+    },
+    {
+      "ruleId": 44,
+      "result": true,
+      "reason": "在当代仍被研究和参观"
+    },
+    {
+      "ruleId": 45,
+      "result": false,
+      "reason": "小型模型可能作为礼物赠送，但不常见"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "不常作为礼物赠送"
+    },
+    {
+      "ruleId": 47,
+      "result": true,
+      "reason": "与古代统治者的财富和权力相关"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "建造金字塔需要普通人无法获得的巨大资源"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "在艺术、文学和电影中突出展现"
+    },
+    {
+      "ruleId": 50,
+      "result": true,
+      "reason": "象征永恒、权力和古代智慧"
+    },
+    {
+      "ruleId": 51,
+      "result": false,
+      "reason": "石制金字塔极其耐用"
+    },
+    {
+      "ruleId": 52,
+      "result": false,
+      "reason": "不可移动的永久性建筑"
+    },
+    {
+      "ruleId": 53,
+      "result": false,
+      "reason": "不需要电力来运作"
+    },
+    {
+      "ruleId": 54,
+      "result": true,
+      "reason": "建造极其昂贵"
+    },
+    {
+      "ruleId": 55,
+      "result": false,
+      "reason": "人工建造，不是自然形成"
+    },
+    {
+      "ruleId": 56,
+      "result": true,
+      "reason": "石材结构天然防水"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "太密实不能漂浮"
+    },
+    {
+      "ruleId": 58,
+      "result": false,
+      "reason": "主要由石头制成，不是金属"
+    },
+    {
+      "ruleId": 59,
+      "result": false,
+      "reason": "本身不发出声音"
+    },
+    {
+      "ruleId": 60,
+      "result": false,
+      "reason": "通常颜色单一（石头）"
+    },
+    {
+      "ruleId": 61,
+      "result": false,
+      "reason": "石头不易回收"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "不透明"
+    },
+    {
+      "ruleId": 63,
+      "result": false,
+      "reason": "没有活动部件"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "触摸很硬"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "不能折叠"
+    },
+    {
+      "ruleId": 66,
+      "result": true,
+      "reason": "需要维护和保护"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "除非破碎否则通常不锋利"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "不能食用"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "没有特殊气味"
+    },
+    {
+      "ruleId": 70,
+      "result": true,
+      "reason": "极其重"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "不穿戴在身上"
+    },
+    {
+      "ruleId": 72,
+      "result": false,
+      "reason": "不产生热量"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "石头不易燃"
+    },
+    {
+      "ruleId": 74,
+      "result": true,
+      "reason": "在大小、设计和建造技术上有所不同"
+    },
+    {
+      "ruleId": 75,
+      "result": true,
+      "reason": "需要组装许多部件"
+    },
+    {
+      "ruleId": 76,
+      "result": false,
+      "reason": "石头不可生物降解"
+    },
+    {
+      "ruleId": 77,
+      "result": false,
+      "reason": "不能堆叠（它本身就是堆叠结构）"
+    },
+    {
+      "ruleId": 78,
+      "result": false,
+      "reason": "石头表面通常不反光"
+    },
+    {
+      "ruleId": 79,
+      "result": false,
+      "reason": "不具有磁性"
+    },
+    {
+      "ruleId": 80,
+      "result": false,
+      "reason": "通常不涂漆"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "石头不吸收太多水"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "刚性，不灵活"
+    },
+    {
+      "ruleId": 83,
+      "result": true,
+      "reason": "石头潮湿时通常显得更深"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "随时间侵蚀和风化"
+    },
+    {
+      "ruleId": 85,
+      "result": true,
+      "reason": "设计完美对称"
+    },
+    {
+      "ruleId": 86,
+      "result": true,
+      "reason": "可以修复和修缮"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "不需要燃料"
+    },
+    {
+      "ruleId": 88,
+      "result": true,
+      "reason": "需要维护以保护"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "在水下没有功能"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "没有轮子"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "设计为永久性的"
+    },
+    {
+      "ruleId": 92,
+      "result": true,
+      "reason": "可以承受极端高温"
+    },
+    {
+      "ruleId": 93,
+      "result": false,
+      "reason": "不需要储存（永久性室外建筑）"
+    },
+    {
+      "ruleId": 94,
+      "result": true,
+      "reason": "在古代是手工建造的"
+    },
+    {
+      "ruleId": 95,
+      "result": true,
+      "reason": "表面可以清洁"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "通常作为单一结构建造"
+    },
+    {
+      "ruleId": 97,
+      "result": false,
+      "reason": "永久性的，不是季节性的"
+    },
+    {
+      "ruleId": 98,
+      "result": false,
+      "reason": "是建筑而不是工具"
+    },
+    {
+      "ruleId": 99,
+      "result": false,
+      "reason": "观看或研究金字塔不需要许可证"
+    },
+    {
+      "ruleId": 100,
+      "result": true,
+      "reason": "已存在数千年"
+    },
+    {
+      "ruleId": 101,
+      "result": true,
+      "reason": "有三个音节（jīn-zì-tǎ）"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "不以元音开头"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "不以元音结尾"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "有三个字，不是五个"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "不包含重复的元音"
+    },
+    {
+      "ruleId": 106,
+      "result": true,
+      "reason": "第一个字'金'在字母表中在最后一个字'塔'之前"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "不是由两个词组成"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "没有重复的字"
+    },
+    {
+      "ruleId": 109,
+      "result": true,
+      "reason": "以'j'开头，在字母表前半部分"
+    },
+    {
+      "ruleId": 110,
+      "result": true,
+      "reason": "有三个字（超过6个字母）"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "用作名词，通常不用作动词"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "不包含'k'音"
+    },
+    {
+      "ruleId": 113,
+      "result": true,
+      "reason": "有6个不同的字（金、字、塔）"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "没有公认的前缀"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "包含'a'但不包含'b'"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "前两个字'金'和'字'不是按字母顺序排列"
+    },
+    {
+      "ruleId": 117,
+      "result": true,
+      "reason": "包含'r'音"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "没有三个辅音连在一起"
+    },
+    {
+      "ruleId": 119,
+      "result": true,
+      "reason": "有三个字（在6-8个字母范围内）"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "不以'-le'结尾"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "不包含't'、'v'或's'"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "不包含'z'音"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "没有重复的字"
+    },
+    {
+      "ruleId": 124,
+      "result": true,
+      "reason": "有三个音节"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "不包含颜色名称"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "没有无声辅音"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "不常用作动词"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "不以'er'结尾"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "字不是按字母顺序排列"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "没有相邻的元音"
+    },
+    {
+      "ruleId": 131,
+      "result": false,
+      "reason": "没有重复的字"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "不包含'q'音"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "包含3个元音（i,i,a）"
+    },
+    {
+      "ruleId": 134,
+      "result": false,
+      "reason": "有3个元音和4个辅音（不是更多元音）"
+    },
+    {
+      "ruleId": 135,
+      "result": false,
+      "reason": "有7个字母（奇数）"
+    },
+    {
+      "ruleId": 136,
+      "result": false,
+      "reason": "有3个元音，不是恰好2个"
+    },
+    {
+      "ruleId": 137,
+      "result": false,
+      "reason": "最后一个字母'tǎ'不在中间字母'zì'之前"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "不以元音结尾"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "不以相同的字母开头和结尾"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "有三个音节，不是一个"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "不是缩写"
+    },
+    {
+      "ruleId": 142,
+      "result": false,
+      "reason": "不包含'th'"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "没有字母出现两次"
+    },
+    {
+      "ruleId": 144,
+      "result": true,
+      "reason": "包含'y'音"
+    },
+    {
+      "ruleId": 145,
+      "result": false,
+      "reason": "以辅音'j'开头但不以元音结尾"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "不包含'sh'或'ch'"
+    },
+    {
+      "ruleId": 147,
+      "result": true,
+      "reason": "包含字母表两半的字"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "不以'ly'结尾"
+    },
+    {
+      "ruleId": 149,
+      "result": false,
+      "reason": "拼写时不包含数字"
+    }
+  ]
+} 
+>>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958

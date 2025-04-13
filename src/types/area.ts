@@ -26,21 +26,21 @@ export type Area = BaseArea | TranslatableArea | string;
 // Helper function to get the base area name (for internal use)
 export const getBaseAreaName = (area: Area): string => {
   // For translated areas, we need to extract the base name
-  if (area === '使用场景') return 'Context';
-  if (area === '特性') return 'Property';
-  if (area === '拼写') return 'Wording';
-  if (area === '全部满足') return 'All';
-  if (area === '全不满足') return 'None';
+  if (area === '使用场景') return 'context';
+  if (area === '特性') return 'property';
+  if (area === '拼写') return 'wording';
+  if (area === '全部满足') return 'all';
+  if (area === '全不满足') return 'none';
   
   // Handle intersection areas
   if (area.startsWith('使用场景+')) {
-    return 'Context' + area.substring('使用场景'.length);
+    return 'context' + area.substring('使用场景'.length);
   }
   if (area.includes('+拼写')) {
-    return area.replace('拼写', 'Wording');
+    return area.replace('拼写', 'wording');
   }
   if (area.includes('特性')) {
-    return area.replace('特性', 'Property');
+    return area.replace('特性', 'property');
   }
   
   return area;

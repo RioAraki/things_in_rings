@@ -1,1 +1,755 @@
+<<<<<<< HEAD
 {"id":"16","word":"摄像机","questions":[{"ruleId":1,"result":false,"reason":"不是非常古老的物品"},{"ruleId":2,"result":true,"reason":"现代摄像机是1950年后制造的"},{"ruleId":3,"result":false,"reason":"不是每个家庭都有摄像机"},{"ruleId":4,"result":true,"reason":"是稀有物品"},{"ruleId":5,"result":false,"reason":"儿童很少使用摄像机"},{"ruleId":6,"result":true,"reason":"主要是专业人士使用"},{"ruleId":7,"result":true,"reason":"通常是奢侈或昂贵的"},{"ruleId":8,"result":false,"reason":"不是每个人都需要的"},{"ruleId":9,"result":true,"reason":"用于拍摄视频"},{"ruleId":10,"result":false,"reason":"不是时尚配饰"},{"ruleId":11,"result":false,"reason":"不是在自然界中存在的"},{"ruleId":12,"result":true,"reason":"在工厂批量生产"},{"ruleId":13,"result":true,"reason":"用于特殊场合"},{"ruleId":14,"result":false,"reason":"不是每天都会使用"},{"ruleId":15,"result":true,"reason":"通常是个人物品"},{"ruleId":16,"result":false,"reason":"通常不会在多人之间共享"},{"ruleId":17,"result":true,"reason":"是高科技产品"},{"ruleId":18,"result":true,"reason":"基于复杂设计"},{"ruleId":19,"result":false,"reason":"不是来自特定国家或文化"},{"ruleId":20,"result":true,"reason":"在世界各地都能找到"},{"ruleId":21,"result":false,"reason":"不是使用后丢弃的"},{"ruleId":22,"result":true,"reason":"可以使用很多年"},{"ruleId":23,"result":true,"reason":"主要在室内使用"},{"ruleId":24,"result":true,"reason":"在室内和室外都可以使用"},{"ruleId":25,"result":true,"reason":"经常在电影和电视节目中出现"},{"ruleId":26,"result":true,"reason":"被专业人士使用"},{"ruleId":27,"result":false,"reason":"没有重要的宗教意义"},{"ruleId":28,"result":true,"reason":"主要是世俗性质"},{"ruleId":29,"result":true,"reason":"在工厂批量生产"},{"ruleId":30,"result":false,"reason":"通常不是手工制作的"},{"ruleId":31,"result":true,"reason":"通过记录影像带来安全感"},{"ruleId":32,"result":false,"reason":"不吓人或危险"},{"ruleId":33,"result":true,"reason":"用于娱乐"},{"ruleId":34,"result":true,"reason":"用于工作和生活"},{"ruleId":35,"result":false,"reason":"不是只在特定季节使用"},{"ruleId":36,"result":true,"reason":"全年都可以使用"},{"ruleId":37,"result":true,"reason":"需要专业培训"},{"ruleId":38,"result":false,"reason":"不是任何人都能使用"},{"ruleId":39,"result":true,"reason":"在正式场合使用"},{"ruleId":40,"result":true,"reason":"也在休闲场合使用"},{"ruleId":41,"result":true,"reason":"人们经常收藏摄像机"},{"ruleId":42,"result":false,"reason":"不是特定文化传统的一部分"},{"ruleId":43,"result":true,"reason":"在历史上很重要"},{"ruleId":44,"result":true,"reason":"在当代仍然重要"},{"ruleId":45,"result":true,"reason":"经常作为礼物赠送"},{"ruleId":46,"result":true,"reason":"是罕见的礼物"},{"ruleId":47,"result":true,"reason":"主要是富人才能拥有"},{"ruleId":48,"result":false,"reason":"不是各收入阶层的人都使用"},{"ruleId":49,"result":true,"reason":"在艺术、文学和媒体中出现"},{"ruleId":50,"result":true,"reason":"在故事中很常见"}]} 
+=======
+{
+  "id": "16",
+  "word": "大理石",
+  "questions": [
+    {
+      "ruleId": 1,
+      "result": true,
+      "reason": "大理石作为天然石材和建筑材料已有数千年历史"
+    },
+    {
+      "ruleId": 2,
+      "result": false,
+      "reason": "大理石在1950年之前就已存在"
+    },
+    {
+      "ruleId": 3,
+      "result": false,
+      "reason": "不常见于大多数家庭（除装饰元素外）"
+    },
+    {
+      "ruleId": 4,
+      "result": true,
+      "reason": "弹珠作为玩具常为儿童制作或赠送"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "天然大理石不是专门为儿童设计的"
+    },
+    {
+      "ruleId": 6,
+      "result": true,
+      "reason": "成年人用于建筑和装饰"
+    },
+    {
+      "ruleId": 7,
+      "result": true,
+      "reason": "大理石被视为豪华建筑材料"
+    },
+    {
+      "ruleId": 8,
+      "result": false,
+      "reason": "不是必需品"
+    },
+    {
+      "ruleId": 9,
+      "result": false,
+      "reason": "更多用于美观而非实用目的"
+    },
+    {
+      "ruleId": 10,
+      "result": true,
+      "reason": "在现代使用中主要是装饰性的"
+    },
+    {
+      "ruleId": 11,
+      "result": true,
+      "reason": "大理石在自然界中以变质岩形式存在"
+    },
+    {
+      "ruleId": 12,
+      "result": false,
+      "reason": "天然大理石不是制造的（虽然经过加工）"
+    },
+    {
+      "ruleId": 13,
+      "result": true,
+      "reason": "常用于博物馆和纪念碑等特殊场合"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "不是大多数人日常生活的一部分"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "可以作为装饰品或玩具个人拥有"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "大理石建筑通常是公共的，不是个人共享的"
+    },
+    {
+      "ruleId": 17,
+      "result": false,
+      "reason": "不涉及技术（天然材料）"
+    },
+    {
+      "ruleId": 18,
+      "result": false,
+      "reason": "没有机械部件"
+    },
+    {
+      "ruleId": 19,
+      "result": true,
+      "reason": "在许多社会（希腊、罗马等）具有文化意义"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "在历史上被许多不同文化使用"
+    },
+    {
+      "ruleId": 21,
+      "result": false,
+      "reason": "不是一次性的，非常耐用"
+    },
+    {
+      "ruleId": 22,
+      "result": true,
+      "reason": "极其持久，用于纪念碑已有数千年"
+    },
+    {
+      "ruleId": 23,
+      "result": true,
+      "reason": "用于室内地板、台面、雕塑"
+    },
+    {
+      "ruleId": 24,
+      "result": true,
+      "reason": "用于室外建筑、纪念碑、景观"
+    },
+    {
+      "ruleId": 25,
+      "result": true,
+      "reason": "经常出现在豪华场景的电影和电视节目中"
+    },
+    {
+      "ruleId": 26,
+      "result": true,
+      "reason": "与雕塑家、建筑师和石匠相关"
+    },
+    {
+      "ruleId": 27,
+      "result": true,
+      "reason": "在礼拜场所具有宗教意义"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "常用于宗教建筑和雕塑"
+    },
+    {
+      "ruleId": 29,
+      "result": false,
+      "reason": "大理石不是批量生产而是开采和加工的"
+    },
+    {
+      "ruleId": 30,
+      "result": true,
+      "reason": "大理石艺术品和装饰常是手工制作的"
+    },
+    {
+      "ruleId": 31,
+      "result": false,
+      "reason": "不特别与快乐相关"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "通常不可怕或危险"
+    },
+    {
+      "ruleId": 33,
+      "result": false,
+      "reason": "不主要用于娱乐（除弹珠玩具外）"
+    },
+    {
+      "ruleId": 34,
+      "result": true,
+      "reason": "用于实用建筑目的"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "不是季节性的，全年可用"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "全年使用"
+    },
+    {
+      "ruleId": 37,
+      "result": true,
+      "reason": "使用大理石需要特殊知识和技能"
+    },
+    {
+      "ruleId": 38,
+      "result": false,
+      "reason": "不是每个人都能专业使用"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "与正式和优雅场合相关"
+    },
+    {
+      "ruleId": 40,
+      "result": false,
+      "reason": "较少见于休闲场合"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "人们收藏大理石装饰品和古董"
+    },
+    {
+      "ruleId": 42,
+      "result": false,
+      "reason": "不通常与特定传统相关"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "在建筑和艺术中具有重要历史意义"
+    },
+    {
+      "ruleId": 44,
+      "result": true,
+      "reason": "在当代环境中仍被使用和重视"
+    },
+    {
+      "ruleId": 45,
+      "result": true,
+      "reason": "大理石物品作为礼物赠送"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "不常作为日常礼物赠送"
+    },
+    {
+      "ruleId": 47,
+      "result": true,
+      "reason": "与财富和奢华相关"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "不是所有经济水平都同样使用"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "在历史上的艺术和文学中突出展现"
+    },
+    {
+      "ruleId": 50,
+      "result": true,
+      "reason": "常象征永恒、奢华和古典美"
+    },
+    {
+      "ruleId": 51,
+      "result": true,
+      "reason": "天然大理石可能碎裂或开裂"
+    },
+    {
+      "ruleId": 52,
+      "result": false,
+      "reason": "大理石板和建筑通常不可携带"
+    },
+    {
+      "ruleId": 53,
+      "result": false,
+      "reason": "不需要电力来运作"
+    },
+    {
+      "ruleId": 54,
+      "result": true,
+      "reason": "高质量大理石很昂贵"
+    },
+    {
+      "ruleId": 55,
+      "result": true,
+      "reason": "在山区和采石场自然存在"
+    },
+    {
+      "ruleId": 56,
+      "result": true,
+      "reason": "天然防水"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "太密实不能漂浮"
+    },
+    {
+      "ruleId": 58,
+      "result": false,
+      "reason": "不是金属制成"
+    },
+    {
+      "ruleId": 59,
+      "result": false,
+      "reason": "本身不发出声音"
+    },
+    {
+      "ruleId": 60,
+      "result": true,
+      "reason": "有多种颜色和花纹"
+    },
+    {
+      "ruleId": 61,
+      "result": true,
+      "reason": "可以回收和再利用"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "不透明"
+    },
+    {
+      "ruleId": 63,
+      "result": false,
+      "reason": "没有活动部件"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "触摸很硬"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "不能折叠"
+    },
+    {
+      "ruleId": 66,
+      "result": true,
+      "reason": "需要维护（抛光、密封）"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "除非破碎否则通常不锋利"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "不能食用"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "没有特殊气味"
+    },
+    {
+      "ruleId": 70,
+      "result": true,
+      "reason": "非常重的材料"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "不穿戴在身上"
+    },
+    {
+      "ruleId": 72,
+      "result": false,
+      "reason": "不产生热量"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "不易燃"
+    },
+    {
+      "ruleId": 74,
+      "result": true,
+      "reason": "有不同的品种和质量"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "在建筑使用前需要加工"
+    },
+    {
+      "ruleId": 76,
+      "result": false,
+      "reason": "不可生物降解"
+    },
+    {
+      "ruleId": 77,
+      "result": false,
+      "reason": "大理石板不能很好地堆叠"
+    },
+    {
+      "ruleId": 78,
+      "result": true,
+      "reason": "可以抛光至反光效果"
+    },
+    {
+      "ruleId": 79,
+      "result": false,
+      "reason": "不具有磁性"
+    },
+    {
+      "ruleId": 80,
+      "result": false,
+      "reason": "天然花纹，不是涂漆"
+    },
+    {
+      "ruleId": 81,
+      "result": true,
+      "reason": "多孔，如果未密封可以吸收液体"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "刚性，不灵活"
+    },
+    {
+      "ruleId": 83,
+      "result": true,
+      "reason": "潮湿时通常显得更深"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "随时间可能染色和变色"
+    },
+    {
+      "ruleId": 85,
+      "result": false,
+      "reason": "天然大理石有不规则花纹"
+    },
+    {
+      "ruleId": 86,
+      "result": true,
+      "reason": "如果开裂可以修复"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "不需要燃料"
+    },
+    {
+      "ruleId": 88,
+      "result": true,
+      "reason": "需要清洁以保持外观"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "不能在水下工作"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "没有轮子"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "不是一次性的"
+    },
+    {
+      "ruleId": 92,
+      "result": true,
+      "reason": "可以承受高温"
+    },
+    {
+      "ruleId": 93,
+      "result": false,
+      "reason": "不需要特殊储存"
+    },
+    {
+      "ruleId": 94,
+      "result": true,
+      "reason": "可以由工匠手工雕刻"
+    },
+    {
+      "ruleId": 95,
+      "result": true,
+      "reason": "表面可以清洁/抛光"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "通常不成对出售"
+    },
+    {
+      "ruleId": 97,
+      "result": false,
+      "reason": "全年使用，不是季节性的"
+    },
+    {
+      "ruleId": 98,
+      "result": false,
+      "reason": "是材料而不是工具"
+    },
+    {
+      "ruleId": 99,
+      "result": false,
+      "reason": "拥有大理石不需要许可证"
+    },
+    {
+      "ruleId": 100,
+      "result": true,
+      "reason": "极其耐用，可以使用数百年"
+    },
+    {
+      "ruleId": 101,
+      "result": true,
+      "reason": "有三个音节（dà-lǐ-shí）"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "不以元音开头"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "不以元音结尾"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "有三个字，不是五个"
+    },
+    {
+      "ruleId": 105,
+      "result": true,
+      "reason": "包含'i'和'i'音"
+    },
+    {
+      "ruleId": 106,
+      "result": true,
+      "reason": "第一个字'大'在字母表中在最后一个字'石'之前"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "不是由两个词组成"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "没有重复的字"
+    },
+    {
+      "ruleId": 109,
+      "result": true,
+      "reason": "以'd'开头，在字母表前半部分"
+    },
+    {
+      "ruleId": 110,
+      "result": true,
+      "reason": "有三个字（超过6个字母）"
+    },
+    {
+      "ruleId": 111,
+      "result": true,
+      "reason": "可以用作名词或动词（使某物呈现大理石纹）"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "不包含'k'音"
+    },
+    {
+      "ruleId": 113,
+      "result": true,
+      "reason": "有5个不同的字（大、理、石）"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "没有公认的前缀"
+    },
+    {
+      "ruleId": 115,
+      "result": true,
+      "reason": "包含'l'和's'"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "前两个字'大'和'理'不是按字母顺序排列"
+    },
+    {
+      "ruleId": 117,
+      "result": true,
+      "reason": "包含'l'音"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "没有三个辅音连在一起"
+    },
+    {
+      "ruleId": 119,
+      "result": true,
+      "reason": "有三个字（在6-8个字母范围内）"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "没有后缀'-le'"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "不包含't'、'v'或's'"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "不包含'z'音"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "没有重复的字"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "有三个音节，不是两个"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "不包含颜色名称"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "没有无声辅音"
+    },
+    {
+      "ruleId": 127,
+      "result": true,
+      "reason": "可以用作动词（使某物呈现大理石纹）"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "不以'er'结尾"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "字不是按字母顺序排列"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "没有相邻的元音"
+    },
+    {
+      "ruleId": 131,
+      "result": false,
+      "reason": "没有重复的字"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "不包含'q'音"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "只包含2个元音（i,i）"
+    },
+    {
+      "ruleId": 134,
+      "result": false,
+      "reason": "有2个元音和4个辅音（不是更多元音）"
+    },
+    {
+      "ruleId": 135,
+      "result": true,
+      "reason": "有6个字母（偶数）"
+    },
+    {
+      "ruleId": 136,
+      "result": true,
+      "reason": "恰好有2个元音"
+    },
+    {
+      "ruleId": 137,
+      "result": false,
+      "reason": "最后一个字母'shí'不在中间字母'lǐ'之前"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "不以元音结尾"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "不以相同的字母开头和结尾"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "有三个音节，不是一个"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "不是缩写"
+    },
+    {
+      "ruleId": 142,
+      "result": false,
+      "reason": "不包含'th'"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "没有字母出现两次"
+    },
+    {
+      "ruleId": 144,
+      "result": false,
+      "reason": "没有'y'音"
+    },
+    {
+      "ruleId": 145,
+      "result": true,
+      "reason": "以辅音'd'开头，以辅音'sh'结尾"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "不包含'sh'或'ch'"
+    },
+    {
+      "ruleId": 147,
+      "result": true,
+      "reason": "包含字母表两半的字"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "不以'ly'结尾"
+    },
+    {
+      "ruleId": 149,
+      "result": false,
+      "reason": "拼写时不包含数字"
+    }
+  ]
+} 
+>>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958

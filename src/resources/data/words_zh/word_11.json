@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "id": "11",
   "word": "相机",
   "questions": [
@@ -252,5 +253,25 @@
       "result": false,
       "reason": "在故事中很常见"
     }
+=======
+  "id": 11,
+  "word": "水晶",
+  "questions": [
+    { "ruleId": 1, "result": true, "reason": "水晶已存在数千年" },
+    { "ruleId": 2, "result": true, "reason": "现代合成水晶是在1950年后制造的" },
+    { "ruleId": 3, "result": false, "reason": "不在大多数家庭中发现" },
+    { "ruleId": 4, "result": false, "reason": "不常见于大多数住宅区" },
+    { "ruleId": 5, "result": false, "reason": "不是专门为儿童设计的" },
+    { "ruleId": 6, "result": true, "reason": "更常用于成年人" },
+    { "ruleId": 7, "result": true, "reason": "有些水晶很豪华" },
+    { "ruleId": 8, "result": false, "reason": "不是大多数人的基本必需品" },
+    { "ruleId": 9, "result": false, "reason": "不是功能性物品" },
+    { "ruleId": 10, "result": true, "reason": "很漂亮" },
+    { "ruleId": 11, "result": true, "reason": "在自然界中存在" },
+    { "ruleId": 12, "result": false, "reason": "不在工厂制造" },
+    { "ruleId": 13, "result": true, "reason": "与特殊场合相关" },
+    { "ruleId": 14, "result": false, "reason": "不是大多数人日常生活的一部分" },
+    { "ruleId": 15, "result": false, "reason": "不是典型的个人所有物" }
+>>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
   ]
 } 

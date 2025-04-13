@@ -1,1 +1,755 @@
+<<<<<<< HEAD
 {"id":"20","word":"智能手环","questions":[{"ruleId":1,"result":false,"reason":"不是非常古老的物品"},{"ruleId":2,"result":true,"reason":"现代智能手环是1950年后制造的"},{"ruleId":3,"result":true,"reason":"许多家庭都有智能手环"},{"ruleId":4,"result":false,"reason":"不是稀有物品"},{"ruleId":5,"result":true,"reason":"儿童也使用智能手环"},{"ruleId":6,"result":true,"reason":"成年人经常使用智能手环"},{"ruleId":7,"result":true,"reason":"可以是奢侈或昂贵的"},{"ruleId":8,"result":true,"reason":"许多人需要智能手环"},{"ruleId":9,"result":true,"reason":"用于监测健康和运动"},{"ruleId":10,"result":true,"reason":"是时尚配饰"},{"ruleId":11,"result":false,"reason":"不是在自然界中存在的"},{"ruleId":12,"result":true,"reason":"在工厂批量生产"},{"ruleId":13,"result":false,"reason":"不是用于特殊场合的"},{"ruleId":14,"result":true,"reason":"每天都会使用"},{"ruleId":15,"result":true,"reason":"通常是个人物品"},{"ruleId":16,"result":false,"reason":"通常不会在多人之间共享"},{"ruleId":17,"result":true,"reason":"是高科技产品"},{"ruleId":18,"result":true,"reason":"基于复杂设计"},{"ruleId":19,"result":false,"reason":"不是来自特定国家或文化"},{"ruleId":20,"result":true,"reason":"在世界各地都能找到"},{"ruleId":21,"result":false,"reason":"不是使用后丢弃的"},{"ruleId":22,"result":true,"reason":"可以使用很多年"},{"ruleId":23,"result":true,"reason":"主要在室内使用"},{"ruleId":24,"result":false,"reason":"在室内和室外都可以使用"},{"ruleId":25,"result":true,"reason":"经常在电影和电视节目中出现"},{"ruleId":26,"result":true,"reason":"被各种职业的人使用"},{"ruleId":27,"result":false,"reason":"没有重要的宗教意义"},{"ruleId":28,"result":true,"reason":"主要是世俗性质"},{"ruleId":29,"result":true,"reason":"在工厂批量生产"},{"ruleId":30,"result":false,"reason":"通常不是手工制作的"},{"ruleId":31,"result":true,"reason":"通过监测健康带来安全感"},{"ruleId":32,"result":false,"reason":"不吓人或危险"},{"ruleId":33,"result":true,"reason":"用于娱乐"},{"ruleId":34,"result":true,"reason":"用于工作和生活"},{"ruleId":35,"result":false,"reason":"不是只在特定季节使用"},{"ruleId":36,"result":true,"reason":"全年都可以使用"},{"ruleId":37,"result":true,"reason":"需要适应使用"},{"ruleId":38,"result":true,"reason":"任何人都可以使用"},{"ruleId":39,"result":true,"reason":"在正式场合使用"},{"ruleId":40,"result":true,"reason":"在休闲场合使用"},{"ruleId":41,"result":true,"reason":"人们经常收藏智能手环"},{"ruleId":42,"result":false,"reason":"不是特定文化传统的一部分"},{"ruleId":43,"result":true,"reason":"在历史上很重要"},{"ruleId":44,"result":true,"reason":"在当代仍然重要"},{"ruleId":45,"result":true,"reason":"经常作为礼物赠送"},{"ruleId":46,"result":true,"reason":"可以是罕见的礼物"},{"ruleId":47,"result":false,"reason":"不是只有富人才能拥有"},{"ruleId":48,"result":true,"reason":"各收入阶层的人都使用"},{"ruleId":49,"result":true,"reason":"在艺术、文学和媒体中出现"},{"ruleId":50,"result":true,"reason":"在故事中很常见"}]} 
+=======
+{
+  "id": "20",
+  "word": "吉他",
+  "questions": [
+    {
+      "ruleId": 1,
+      "result": true,
+      "reason": "吉他已有1000多年的历史，形式多样"
+    },
+    {
+      "ruleId": 2,
+      "result": true,
+      "reason": "现代电吉他在1950年后发明"
+    },
+    {
+      "ruleId": 3,
+      "result": true,
+      "reason": "在许多家庭中作为常见乐器"
+    },
+    {
+      "ruleId": 4,
+      "result": false,
+      "reason": "不是专门为儿童设计的"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "主要由成年人和较大儿童/青少年使用"
+    },
+    {
+      "ruleId": 6,
+      "result": true,
+      "reason": "最常见由成年人演奏"
+    },
+    {
+      "ruleId": 7,
+      "result": true,
+      "reason": "优质吉他可以是奢侈品"
+    },
+    {
+      "ruleId": 8,
+      "result": false,
+      "reason": "对大多数人来说不是必需品"
+    },
+    {
+      "ruleId": 9,
+      "result": true,
+      "reason": "有制作音乐的实用目的"
+    },
+    {
+      "ruleId": 10,
+      "result": true,
+      "reason": "常有美丽的装饰设计"
+    },
+    {
+      "ruleId": 11,
+      "result": false,
+      "reason": "不是自然形成的"
+    },
+    {
+      "ruleId": 12,
+      "result": true,
+      "reason": "由人类制造"
+    },
+    {
+      "ruleId": 13,
+      "result": true,
+      "reason": "常用于表演等特殊场合"
+    },
+    {
+      "ruleId": 14,
+      "result": true,
+      "reason": "许多音乐家在日常练习中使用"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "通常为个人所有"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "通常不在多个所有者之间共享"
+    },
+    {
+      "ruleId": 17,
+      "result": true,
+      "reason": "电吉他涉及技术"
+    },
+    {
+      "ruleId": 18,
+      "result": true,
+      "reason": "有机械部件（调音钮、琴桥）"
+    },
+    {
+      "ruleId": 19,
+      "result": true,
+      "reason": "在许多社会中具有文化意义"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "在全球许多不同文化中使用"
+    },
+    {
+      "ruleId": 21,
+      "result": false,
+      "reason": "不是一次性的，设计为持久使用"
+    },
+    {
+      "ruleId": 22,
+      "result": true,
+      "reason": "设计为耐用和持久"
+    },
+    {
+      "ruleId": 23,
+      "result": true,
+      "reason": "经常在室内演奏"
+    },
+    {
+      "ruleId": 24,
+      "result": true,
+      "reason": "可以在户外演奏"
+    },
+    {
+      "ruleId": 25,
+      "result": true,
+      "reason": "经常出现在电影和媒体中"
+    },
+    {
+      "ruleId": 26,
+      "result": true,
+      "reason": "与音乐家职业相关"
+    },
+    {
+      "ruleId": 27,
+      "result": false,
+      "reason": "没有重要的宗教意义"
+    },
+    {
+      "ruleId": 28,
+      "result": true,
+      "reason": "主要是世俗用途"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "批量生产"
+    },
+    {
+      "ruleId": 30,
+      "result": true,
+      "reason": "优质吉他通常是手工制作的"
+    },
+    {
+      "ruleId": 31,
+      "result": true,
+      "reason": "与快乐和娱乐相关"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "通常不吓人"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "主要用于娱乐"
+    },
+    {
+      "ruleId": 34,
+      "result": true,
+      "reason": "在音乐创作中有实际应用"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "全年使用，不是季节性的"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "全年使用"
+    },
+    {
+      "ruleId": 37,
+      "result": true,
+      "reason": "需要技能和知识才能演奏好"
+    },
+    {
+      "ruleId": 38,
+      "result": false,
+      "reason": "不是每个人都能正确使用"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "用于音乐会等正式场合"
+    },
+    {
+      "ruleId": 40,
+      "result": true,
+      "reason": "用于家庭等休闲场合"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "人们收藏古董和稀有吉他"
+    },
+    {
+      "ruleId": 42,
+      "result": true,
+      "reason": "是音乐文化传统的一部分"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "在音乐发展史上具有重要地位"
+    },
+    {
+      "ruleId": 44,
+      "result": true,
+      "reason": "在当代音乐中广泛使用"
+    },
+    {
+      "ruleId": 45,
+      "result": true,
+      "reason": "是音乐爱好者的常见礼物"
+    },
+    {
+      "ruleId": 46,
+      "result": true,
+      "reason": "经常作为礼物赠送"
+    },
+    {
+      "ruleId": 47,
+      "result": true,
+      "reason": "高端吉他可以象征财富和地位"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "不是所有经济水平的人都能获得"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "在艺术、文学和媒体中突出展示"
+    },
+    {
+      "ruleId": 50,
+      "result": true,
+      "reason": "象征音乐、创造力和艺术表达"
+    },
+    {
+      "ruleId": 51,
+      "result": true,
+      "reason": "如果掉落或处理不当可能会损坏"
+    },
+    {
+      "ruleId": 52,
+      "result": true,
+      "reason": "设计为可携带，配有琴盒"
+    },
+    {
+      "ruleId": 53,
+      "result": true,
+      "reason": "电吉他需要放大器和电源"
+    },
+    {
+      "ruleId": 54,
+      "result": true,
+      "reason": "优质吉他价格昂贵"
+    },
+    {
+      "ruleId": 55,
+      "result": false,
+      "reason": "不是自然形成的"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "不防水，可能被水损坏"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "密度太大不能漂浮"
+    },
+    {
+      "ruleId": 58,
+      "result": true,
+      "reason": "包含金属部件（琴弦、调音钮）"
+    },
+    {
+      "ruleId": 59,
+      "result": true,
+      "reason": "设计用来发出音乐声音"
+    },
+    {
+      "ruleId": 60,
+      "result": true,
+      "reason": "有多种颜色和饰面"
+    },
+    {
+      "ruleId": 61,
+      "result": true,
+      "reason": "许多部件可以回收"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "不透明"
+    },
+    {
+      "ruleId": 63,
+      "result": true,
+      "reason": "有活动部件（调音钮、琴桥）"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "摸起来很硬"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "不能折叠"
+    },
+    {
+      "ruleId": 66,
+      "result": true,
+      "reason": "需要维护和清洁"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "通常没有锋利边缘"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "不能食用"
+    },
+    {
+      "ruleId": 69,
+      "result": true,
+      "reason": "木材和饰面可能有独特气味"
+    },
+    {
+      "ruleId": 70,
+      "result": true,
+      "reason": "重量适中（因类型而异）"
+    },
+    {
+      "ruleId": 71,
+      "result": true,
+      "reason": "演奏时佩戴在身上"
+    },
+    {
+      "ruleId": 72,
+      "result": false,
+      "reason": "不产生热量"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "不易燃（但可以燃烧）"
+    },
+    {
+      "ruleId": 74,
+      "result": true,
+      "reason": "有多种不同型号和风格"
+    },
+    {
+      "ruleId": 75,
+      "result": true,
+      "reason": "需要组装部件"
+    },
+    {
+      "ruleId": 76,
+      "result": false,
+      "reason": "不易生物降解"
+    },
+    {
+      "ruleId": 77,
+      "result": false,
+      "reason": "不能轻易堆叠"
+    },
+    {
+      "ruleId": 78,
+      "result": true,
+      "reason": "可以有光泽、反光的饰面"
+    },
+    {
+      "ruleId": 79,
+      "result": true,
+      "reason": "电吉他有磁性拾音器"
+    },
+    {
+      "ruleId": 80,
+      "result": true,
+      "reason": "经常涂漆或装饰性饰面"
+    },
+    {
+      "ruleId": 81,
+      "result": true,
+      "reason": "木质部件可以吸收水分"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "一般刚性，不灵活"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "潮湿时不变色"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "外观随年龄和使用而变化"
+    },
+    {
+      "ruleId": 85,
+      "result": true,
+      "reason": "设计通常对称"
+    },
+    {
+      "ruleId": 86,
+      "result": true,
+      "reason": "如果损坏可以修理"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "不需要燃料（但电吉他需要电源）"
+    },
+    {
+      "ruleId": 88,
+      "result": true,
+      "reason": "需要保持清洁和维护"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "不能在水下使用"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "没有轮子"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "不是一次性的"
+    },
+    {
+      "ruleId": 92,
+      "result": false,
+      "reason": "不设计用于承受高温"
+    },
+    {
+      "ruleId": 93,
+      "result": true,
+      "reason": "应该存放在琴盒或支架中"
+    },
+    {
+      "ruleId": 94,
+      "result": true,
+      "reason": "优质吉他通常是手工制作的"
+    },
+    {
+      "ruleId": 95,
+      "result": true,
+      "reason": "表面可以清洁和抛光"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "不是成对的"
+    },
+    {
+      "ruleId": 97,
+      "result": false,
+      "reason": "全年使用，不是季节性的"
+    },
+    {
+      "ruleId": 98,
+      "result": true,
+      "reason": "用作乐器"
+    },
+    {
+      "ruleId": 99,
+      "result": false,
+      "reason": "演奏或拥有不需要许可证"
+    },
+    {
+      "ruleId": 100,
+      "result": true,
+      "reason": "可以使用多年"
+    },
+    {
+      "ruleId": 101,
+      "result": true,
+      "reason": "有两个音节（jí-tā）"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "不以元音开头"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "不以元音结尾"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "有两个字，不是五个"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "不包含重复的元音"
+    },
+    {
+      "ruleId": 106,
+      "result": true,
+      "reason": "第一个字'吉'在字母表中在最后一个字'他'之前"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "不是由两个词组成"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "没有重复的字"
+    },
+    {
+      "ruleId": 109,
+      "result": true,
+      "reason": "以'j'开头，在字母表前半部分"
+    },
+    {
+      "ruleId": 110,
+      "result": true,
+      "reason": "有两个字（超过6个字母）"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "用作名词，通常不用作动词"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "不包含'k'音"
+    },
+    {
+      "ruleId": 113,
+      "result": true,
+      "reason": "有4个不同的字（吉、他）"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "没有公认的前缀"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "包含'a'但不包含'b'"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "前两个字'吉'和'他'不是按字母顺序排列"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "不包含'r'音"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "没有三个辅音连在一起"
+    },
+    {
+      "ruleId": 119,
+      "result": true,
+      "reason": "有两个字（在6-8个字母范围内）"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "不以'-le'结尾"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "不包含't'、'v'或's'"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "不包含'z'音"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "没有重复的字"
+    },
+    {
+      "ruleId": 124,
+      "result": true,
+      "reason": "有两个音节"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "不包含颜色名称"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "没有无声辅音"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "不常用作动词"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "不以'er'结尾"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "字不是按字母顺序排列"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "没有相邻的元音"
+    },
+    {
+      "ruleId": 131,
+      "result": false,
+      "reason": "没有重复的字"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "不包含'q'音"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "包含2个元音（a,a）"
+    },
+    {
+      "ruleId": 134,
+      "result": false,
+      "reason": "有2个元音和2个辅音（不是更多元音）"
+    },
+    {
+      "ruleId": 135,
+      "result": true,
+      "reason": "有4个字母（偶数）"
+    },
+    {
+      "ruleId": 136,
+      "result": true,
+      "reason": "恰好有2个元音"
+    },
+    {
+      "ruleId": 137,
+      "result": false,
+      "reason": "最后一个字母'他'不在中间字母'吉'之前"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "不以元音结尾"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "不以相同的字母开头和结尾"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "有两个音节，不是一个"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "不是缩写"
+    },
+    {
+      "ruleId": 142,
+      "result": false,
+      "reason": "不包含'th'"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "没有字母出现两次"
+    },
+    {
+      "ruleId": 144,
+      "result": false,
+      "reason": "没有'y'音"
+    },
+    {
+      "ruleId": 145,
+      "result": false,
+      "reason": "以辅音'j'开头但不以元音结尾"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "不包含'sh'或'ch'"
+    },
+    {
+      "ruleId": 147,
+      "result": true,
+      "reason": "包含字母表两半的字"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "不以'ly'结尾"
+    },
+    {
+      "ruleId": 149,
+      "result": false,
+      "reason": "拼写时不包含数字"
+    }
+  ]
+} 
+>>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
