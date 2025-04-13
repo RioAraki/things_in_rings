@@ -2,255 +2,55 @@
   "id": "3",
   "word": "石头",
   "questions": [
-    {
-      "ruleId": 1,
-      "result": true,
-      "reason": "非常古老（石头已经存在了数百万年）"
-    },
-    {
-      "ruleId": 2,
-      "result": false,
-      "reason": "不是1950年后制造的（石头是自然形成的）"
-    },
-    {
-      "ruleId": 3,
-      "result": true,
-      "reason": "在大多数家庭中都能找到（装饰石、花园石）"
-    },
-    {
-      "ruleId": 4,
-      "result": false,
-      "reason": "不稀有，石头在自然界中很常见"
-    },
-    {
-      "ruleId": 5,
-      "result": false,
-      "reason": "不是主要面向儿童的"
-    },
-    {
-      "ruleId": 6,
-      "result": true,
-      "reason": "成年人用于建筑、装饰和珠宝"
-    },
-    {
-      "ruleId": 7,
-      "result": false,
-      "reason": "一般不昂贵，虽然有些宝石很贵"
-    },
-    {
-      "ruleId": 8,
-      "result": false,
-      "reason": "不是每个人都需要的东西"
-    },
-    {
-      "ruleId": 9,
-      "result": true,
-      "reason": "用于建筑、工具和装饰"
-    },
-    {
-      "ruleId": 10,
-      "result": true,
-      "reason": "经常用于装饰目的"
-    },
-    {
-      "ruleId": 11,
-      "result": true,
-      "reason": "在自然界中存在"
-    },
-    {
-      "ruleId": 12,
-      "result": false,
-      "reason": "不是在工厂制造的"
-    },
-    {
-      "ruleId": 13,
-      "result": true,
-      "reason": "用于特殊场合（珠宝、纪念碑）"
-    },
-    {
-      "ruleId": 14,
-      "result": false,
-      "reason": "不是大多数人每天使用的"
-    },
-    {
-      "ruleId": 15,
-      "result": true,
-      "reason": "经常是个人拥有的（珠宝、装饰品）"
-    },
-    {
-      "ruleId": 16,
-      "result": true,
-      "reason": "可以共享（建筑材料、公共纪念碑）"
-    },
-    {
-      "ruleId": 17,
-      "result": false,
-      "reason": "不是高科技"
-    },
-    {
-      "ruleId": 18,
-      "result": true,
-      "reason": "简单且机械"
-    },
-    {
-      "ruleId": 19,
-      "result": false,
-      "reason": "不是来自特定国家或文化"
-    },
-    {
-      "ruleId": 20,
-      "result": true,
-      "reason": "在许多国家都能找到"
-    },
-    {
-      "ruleId": 21,
-      "result": false,
-      "reason": "不是一次性的"
-    },
-    {
-      "ruleId": 22,
-      "result": true,
-      "reason": "可以使用很多年"
-    },
-    {
-      "ruleId": 23,
-      "result": true,
-      "reason": "在室内使用（装饰石、台面）"
-    },
-    {
-      "ruleId": 24,
-      "result": true,
-      "reason": "在室外使用（花园、道路、建筑）"
-    },
-    {
-      "ruleId": 25,
-      "result": true,
-      "reason": "经常在电影和电视节目中出现"
-    },
-    {
-      "ruleId": 26,
-      "result": true,
-      "reason": "被不同职业的人使用（建筑、园艺、珠宝）"
-    },
-    {
-      "ruleId": 27,
-      "result": true,
-      "reason": "在许多文化中具有宗教意义"
-    },
-    {
-      "ruleId": 28,
-      "result": false,
-      "reason": "经常与宗教有关"
-    },
-    {
-      "ruleId": 29,
-      "result": false,
-      "reason": "不是大量生产的"
-    },
-    {
-      "ruleId": 30,
-      "result": true,
-      "reason": "可以手工加工"
-    },
-    {
-      "ruleId": 31,
-      "result": true,
-      "reason": "通过美丽和实用性带来快乐"
-    },
-    {
-      "ruleId": 32,
-      "result": false,
-      "reason": "不吓人或危险"
-    },
-    {
-      "ruleId": 33,
-      "result": false,
-      "reason": "不是主要用于娱乐或游戏"
-    },
-    {
-      "ruleId": 34,
-      "result": true,
-      "reason": "用于工作或重要任务"
-    },
-    {
-      "ruleId": 35,
-      "result": false,
-      "reason": "不是只在特定季节使用"
-    },
-    {
-      "ruleId": 36,
-      "result": true,
-      "reason": "全年都可以使用"
-    },
-    {
-      "ruleId": 37,
-      "result": false,
-      "reason": "不需要特别学习如何使用"
-    },
-    {
-      "ruleId": 38,
-      "result": true,
-      "reason": "任何人都容易使用"
-    },
-    {
-      "ruleId": 39,
-      "result": true,
-      "reason": "在正式场合使用（建筑、纪念碑）"
-    },
-    {
-      "ruleId": 40,
-      "result": true,
-      "reason": "在轻松、休闲的环境中使用"
-    },
-    {
-      "ruleId": 41,
-      "result": true,
-      "reason": "人们喜欢收藏石头"
-    },
-    {
-      "ruleId": 42,
-      "result": true,
-      "reason": "是特殊传统的一部分"
-    },
-    {
-      "ruleId": 43,
-      "result": true,
-      "reason": "在历史上很重要"
-    },
-    {
-      "ruleId": 44,
-      "result": false,
-      "reason": "不是主要在现代使用"
-    },
-    {
-      "ruleId": 45,
-      "result": true,
-      "reason": "经常作为礼物赠送"
-    },
-    {
-      "ruleId": 46,
-      "result": false,
-      "reason": "不是罕见的礼物"
-    },
-    {
-      "ruleId": 47,
-      "result": false,
-      "reason": "不是只有富人拥有"
-    },
-    {
-      "ruleId": 48,
-      "result": true,
-      "reason": "各收入阶层的人都使用"
-    },
-    {
-      "ruleId": 49,
-      "result": true,
-      "reason": "在书籍、电影或艺术中出现"
-    },
-    {
-      "ruleId": 50,
-      "result": false,
-      "reason": "在故事或图片中很常见"
-    }
+    {"ruleId": 1, "result": true, "reason": "石头非常古老（存在数百万年）"},
+    {"ruleId": 2, "result": true, "reason": "石头是自然形成的"},
+    {"ruleId": 3, "result": true, "reason": "石头在大多数家庭中都能找到（装饰石、花园石）"},
+    {"ruleId": 4, "result": false, "reason": "石头不是稀有物品"},
+    {"ruleId": 5, "result": true, "reason": "石头在自然界中广泛存在"},
+    {"ruleId": 6, "result": false, "reason": "石头不是消耗品"},
+    {"ruleId": 7, "result": true, "reason": "石头可以保存很久"},
+    {"ruleId": 8, "result": false, "reason": "石头不是一次性用品"},
+    {"ruleId": 9, "result": true, "reason": "石头用于建筑、工具和装饰"},
+    {"ruleId": 10, "result": true, "reason": "石头有多种形状和颜色"},
+    {"ruleId": 11, "result": true, "reason": "石头在自然界中存在"},
+    {"ruleId": 12, "result": true, "reason": "石头也用于建筑和装饰"},
+    {"ruleId": 13, "result": true, "reason": "石头用于特殊场合（珠宝、纪念碑）"},
+    {"ruleId": 14, "result": true, "reason": "石头每天都可以看到"},
+    {"ruleId": 15, "result": true, "reason": "石头在特定场合使用"},
+    {"ruleId": 16, "result": false, "reason": "石头不是运动器材"},
+    {"ruleId": 17, "result": false, "reason": "石头不是医疗设备"},
+    {"ruleId": 18, "result": true, "reason": "石头需要特殊的加工技术"},
+    {"ruleId": 19, "result": true, "reason": "石头用于研究和考古"},
+    {"ruleId": 20, "result": true, "reason": "石头在许多国家都能找到"},
+    {"ruleId": 21, "result": true, "reason": "石头在建筑史上很重要"},
+    {"ruleId": 22, "result": true, "reason": "石头对地质学研究很重要"},
+    {"ruleId": 23, "result": true, "reason": "石头在历史上很早就被使用"},
+    {"ruleId": 24, "result": true, "reason": "石头帮助人类了解地球历史"},
+    {"ruleId": 25, "result": true, "reason": "石头在电影和电视中经常出现"},
+    {"ruleId": 26, "result": true, "reason": "石头在不同职业中都有使用"},
+    {"ruleId": 27, "result": true, "reason": "石头在许多文化中具有宗教意义"},
+    {"ruleId": 28, "result": true, "reason": "石头与许多宗教仪式有关"},
+    {"ruleId": 29, "result": true, "reason": "石头用于建筑和雕塑"},
+    {"ruleId": 30, "result": false, "reason": "石头不是政治符号"},
+    {"ruleId": 31, "result": true, "reason": "石头在建筑中很常见"},
+    {"ruleId": 32, "result": true, "reason": "石头在博物馆中展示"},
+    {"ruleId": 33, "result": true, "reason": "石头常见于普通家庭"},
+    {"ruleId": 34, "result": true, "reason": "石头用于建筑和教育"},
+    {"ruleId": 35, "result": true, "reason": "石头是公共场所的常见设施"},
+    {"ruleId": 36, "result": true, "reason": "石头全年都可以使用"},
+    {"ruleId": 37, "result": false, "reason": "石头不是交通工具"},
+    {"ruleId": 38, "result": true, "reason": "石头是很多人喜欢的收藏品"},
+    {"ruleId": 39, "result": true, "reason": "石头在正式场合使用"},
+    {"ruleId": 40, "result": true, "reason": "石头在非正式场合也可使用"},
+    {"ruleId": 41, "result": true, "reason": "有人收藏石头"},
+    {"ruleId": 42, "result": true, "reason": "石头是许多传统的一部分"},
+    {"ruleId": 43, "result": true, "reason": "石头在人类历史上很重要"},
+    {"ruleId": 44, "result": true, "reason": "石头在当代仍然重要"},
+    {"ruleId": 45, "result": true, "reason": "石头经常作为礼物赠送"},
+    {"ruleId": 46, "result": false, "reason": "石头不是罕见的礼物"},
+    {"ruleId": 47, "result": false, "reason": "石头不仅与财富有关"},
+    {"ruleId": 48, "result": true, "reason": "各个社会经济层次都有使用石头"},
+    {"ruleId": 49, "result": true, "reason": "石头在艺术、文学和媒体中出现"},
+    {"ruleId": 50, "result": true, "reason": "石头在教育中发挥重要作用"}
   ]
 } 

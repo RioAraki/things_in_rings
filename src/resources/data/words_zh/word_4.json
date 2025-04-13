@@ -2,255 +2,55 @@
   "id": "4",
   "word": "书",
   "questions": [
-    {
-      "ruleId": 1,
-      "result": true,
-      "reason": "非常古老（书籍已有数千年历史）"
-    },
-    {
-      "ruleId": 2,
-      "result": true,
-      "reason": "现代书籍是1950年后制造的"
-    },
-    {
-      "ruleId": 3,
-      "result": true,
-      "reason": "大多数家庭都有书"
-    },
-    {
-      "ruleId": 4,
-      "result": false,
-      "reason": "不是稀有物品"
-    },
-    {
-      "ruleId": 5,
-      "result": true,
-      "reason": "有专门面向儿童的书籍"
-    },
-    {
-      "ruleId": 6,
-      "result": true,
-      "reason": "也有专门为成年人写的书"
-    },
-    {
-      "ruleId": 7,
-      "result": false,
-      "reason": "普通书籍不奢侈或昂贵"
-    },
-    {
-      "ruleId": 8,
-      "result": true,
-      "reason": "每个人都需要阅读和学习"
-    },
-    {
-      "ruleId": 9,
-      "result": true,
-      "reason": "有助于完成学习和工作"
-    },
-    {
-      "ruleId": 10,
-      "result": true,
-      "reason": "外观漂亮，有精美的封面"
-    },
-    {
-      "ruleId": 11,
-      "result": false,
-      "reason": "不是在自然界中存在的"
-    },
-    {
-      "ruleId": 12,
-      "result": true,
-      "reason": "在工厂印刷生产"
-    },
-    {
-      "ruleId": 13,
-      "result": true,
-      "reason": "用于特殊场合（礼物、收藏）"
-    },
-    {
-      "ruleId": 14,
-      "result": true,
-      "reason": "每天都可以阅读"
-    },
-    {
-      "ruleId": 15,
-      "result": true,
-      "reason": "属于个人所有"
-    },
-    {
-      "ruleId": 16,
-      "result": true,
-      "reason": "可以在图书馆共享"
-    },
-    {
-      "ruleId": 17,
-      "result": false,
-      "reason": "不是高科技产品"
-    },
-    {
-      "ruleId": 18,
-      "result": true,
-      "reason": "是简单的工具"
-    },
-    {
-      "ruleId": 19,
-      "result": false,
-      "reason": "不是来自特定国家或文化"
-    },
-    {
-      "ruleId": 20,
-      "result": true,
-      "reason": "在许多国家都能找到"
-    },
-    {
-      "ruleId": 21,
-      "result": false,
-      "reason": "不是使用后丢弃的"
-    },
-    {
-      "ruleId": 22,
-      "result": true,
-      "reason": "可以保存很多年"
-    },
-    {
-      "ruleId": 23,
-      "result": true,
-      "reason": "在室内阅读"
-    },
-    {
-      "ruleId": 24,
-      "result": true,
-      "reason": "也可以在室外阅读"
-    },
-    {
-      "ruleId": 25,
-      "result": true,
-      "reason": "经常在电影和电视节目中出现"
-    },
-    {
-      "ruleId": 26,
-      "result": true,
-      "reason": "不同职业的人都会阅读"
-    },
-    {
-      "ruleId": 27,
-      "result": true,
-      "reason": "有些书籍具有宗教意义"
-    },
-    {
-      "ruleId": 28,
-      "result": true,
-      "reason": "也有很多与宗教无关的书"
-    },
-    {
-      "ruleId": 29,
-      "result": true,
-      "reason": "大量生产印刷"
-    },
-    {
-      "ruleId": 30,
-      "result": false,
-      "reason": "不是手工制作的"
-    },
-    {
-      "ruleId": 31,
-      "result": true,
-      "reason": "阅读带来快乐"
-    },
-    {
-      "ruleId": 32,
-      "result": false,
-      "reason": "不会令人害怕或危险"
-    },
-    {
-      "ruleId": 33,
-      "result": true,
-      "reason": "用于娱乐和游戏"
-    },
-    {
-      "ruleId": 34,
-      "result": true,
-      "reason": "用于工作和学习"
-    },
-    {
-      "ruleId": 35,
-      "result": false,
-      "reason": "不是只在特定季节使用"
-    },
-    {
-      "ruleId": 36,
-      "result": true,
-      "reason": "全年都可以阅读"
-    },
-    {
-      "ruleId": 37,
-      "result": true,
-      "reason": "需要学习如何阅读"
-    },
-    {
-      "ruleId": 38,
-      "result": true,
-      "reason": "任何人都可以学习阅读"
-    },
-    {
-      "ruleId": 39,
-      "result": true,
-      "reason": "在正式场合使用（学习、工作）"
-    },
-    {
-      "ruleId": 40,
-      "result": true,
-      "reason": "在轻松、休闲的环境中也阅读"
-    },
-    {
-      "ruleId": 41,
-      "result": true,
-      "reason": "人们喜欢收藏书籍"
-    },
-    {
-      "ruleId": 42,
-      "result": true,
-      "reason": "是文化传统的一部分"
-    },
-    {
-      "ruleId": 43,
-      "result": true,
-      "reason": "在历史上很重要"
-    },
-    {
-      "ruleId": 44,
-      "result": true,
-      "reason": "在现代仍然重要"
-    },
-    {
-      "ruleId": 45,
-      "result": true,
-      "reason": "经常作为礼物赠送"
-    },
-    {
-      "ruleId": 46,
-      "result": false,
-      "reason": "不是罕见的礼物"
-    },
-    {
-      "ruleId": 47,
-      "result": false,
-      "reason": "不是只有富人才能拥有"
-    },
-    {
-      "ruleId": 48,
-      "result": true,
-      "reason": "各收入阶层的人都阅读"
-    },
-    {
-      "ruleId": 49,
-      "result": true,
-      "reason": "在艺术和文学中出现"
-    },
-    {
-      "ruleId": 50,
-      "result": false,
-      "reason": "在故事中很常见"
-    }
+    {"ruleId": 1, "result": true, "reason": "书非常古老（已有数千年历史）"},
+    {"ruleId": 2, "result": true, "reason": "书是独特的物品"},
+    {"ruleId": 3, "result": true, "reason": "书在大多数家庭中都能找到"},
+    {"ruleId": 4, "result": false, "reason": "书不是稀有物品"},
+    {"ruleId": 5, "result": true, "reason": "书在图书馆和书店中广泛存在"},
+    {"ruleId": 6, "result": false, "reason": "书不是消耗品"},
+    {"ruleId": 7, "result": true, "reason": "书可以保存很久"},
+    {"ruleId": 8, "result": false, "reason": "书不是一次性用品"},
+    {"ruleId": 9, "result": true, "reason": "书用于学习和娱乐"},
+    {"ruleId": 10, "result": true, "reason": "书有多种类型和风格"},
+    {"ruleId": 11, "result": true, "reason": "书在自然界中不存在"},
+    {"ruleId": 12, "result": true, "reason": "书是人工制造的"},
+    {"ruleId": 13, "result": true, "reason": "书用于特殊场合（学习、研究）"},
+    {"ruleId": 14, "result": true, "reason": "书每天都可以使用"},
+    {"ruleId": 15, "result": true, "reason": "书在特定场合使用"},
+    {"ruleId": 16, "result": false, "reason": "书不是运动器材"},
+    {"ruleId": 17, "result": false, "reason": "书不是医疗设备"},
+    {"ruleId": 18, "result": true, "reason": "书需要特殊的阅读技能"},
+    {"ruleId": 19, "result": true, "reason": "书用于研究和学习"},
+    {"ruleId": 20, "result": true, "reason": "书在许多国家都能找到"},
+    {"ruleId": 21, "result": true, "reason": "书在文化史上很重要"},
+    {"ruleId": 22, "result": true, "reason": "书对教育很重要"},
+    {"ruleId": 23, "result": true, "reason": "书在历史上很早就存在"},
+    {"ruleId": 24, "result": true, "reason": "书帮助人类传播知识"},
+    {"ruleId": 25, "result": true, "reason": "书在电影和电视中经常出现"},
+    {"ruleId": 26, "result": true, "reason": "书被不同职业的人使用"},
+    {"ruleId": 27, "result": true, "reason": "书在许多文化中具有宗教意义"},
+    {"ruleId": 28, "result": true, "reason": "书与许多宗教仪式有关"},
+    {"ruleId": 29, "result": true, "reason": "书用于教育和传播"},
+    {"ruleId": 30, "result": false, "reason": "书不是政治符号"},
+    {"ruleId": 31, "result": true, "reason": "书在图书馆中很常见"},
+    {"ruleId": 32, "result": true, "reason": "书在博物馆中展示"},
+    {"ruleId": 33, "result": true, "reason": "书常见于普通家庭"},
+    {"ruleId": 34, "result": true, "reason": "书用于教育和学习"},
+    {"ruleId": 35, "result": true, "reason": "书是公共场所的常见设施"},
+    {"ruleId": 36, "result": true, "reason": "书全年都可以使用"},
+    {"ruleId": 37, "result": false, "reason": "书不是交通工具"},
+    {"ruleId": 38, "result": true, "reason": "书是很多人喜欢的收藏品"},
+    {"ruleId": 39, "result": true, "reason": "书在正式场合使用"},
+    {"ruleId": 40, "result": true, "reason": "书在非正式场合也可使用"},
+    {"ruleId": 41, "result": true, "reason": "有人收藏书"},
+    {"ruleId": 42, "result": true, "reason": "书是许多传统的一部分"},
+    {"ruleId": 43, "result": true, "reason": "书在人类历史上很重要"},
+    {"ruleId": 44, "result": true, "reason": "书在当代仍然重要"},
+    {"ruleId": 45, "result": true, "reason": "书经常作为礼物赠送"},
+    {"ruleId": 46, "result": false, "reason": "书不是罕见的礼物"},
+    {"ruleId": 47, "result": false, "reason": "书不仅与财富有关"},
+    {"ruleId": 48, "result": true, "reason": "各个社会经济层次都有使用书"},
+    {"ruleId": 49, "result": true, "reason": "书在艺术、文学和媒体中出现"},
+    {"ruleId": 50, "result": true, "reason": "书在教育中发挥重要作用"}
   ]
 } 

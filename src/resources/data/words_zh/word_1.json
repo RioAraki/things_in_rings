@@ -2,500 +2,55 @@
   "id": 1,
   "word": "望远镜",
   "questions": [
-    {
-      "ruleId": 1,
-      "result": true,
-      "reason": "用于观察远处的物体"
-    },
-    {
-      "ruleId": 2,
-      "result": true,
-      "reason": "主要用于天文观测"
-    },
-    {
-      "ruleId": 3,
-      "result": false,
-      "reason": "不是日常必需品"
-    },
-    {
-      "ruleId": 4,
-      "result": true,
-      "reason": "可以在户外使用"
-    },
-    {
-      "ruleId": 5,
-      "result": true,
-      "reason": "在室内也可以使用"
-    },
-    {
-      "ruleId": 6,
-      "result": false,
-      "reason": "不是消耗品"
-    },
-    {
-      "ruleId": 7,
-      "result": true,
-      "reason": "可以长期保存"
-    },
-    {
-      "ruleId": 8,
-      "result": false,
-      "reason": "不是一次性用品"
-    },
-    {
-      "ruleId": 9,
-      "result": true,
-      "reason": "需要特殊的存储条件"
-    },
-    {
-      "ruleId": 10,
-      "result": true,
-      "reason": "有多种型号和尺寸"
-    },
-    {
-      "ruleId": 11,
-      "result": true,
-      "reason": "可以用于专业用途"
-    },
-    {
-      "ruleId": 12,
-      "result": true,
-      "reason": "也适合业余爱好者使用"
-    },
-    {
-      "ruleId": 13,
-      "result": false,
-      "reason": "不是日常办公用品"
-    },
-    {
-      "ruleId": 14,
-      "result": true,
-      "reason": "可以用于教育目的"
-    },
-    {
-      "ruleId": 15,
-      "result": true,
-      "reason": "有特定的使用场合"
-    },
-    {
-      "ruleId": 16,
-      "result": false,
-      "reason": "不是运动器材"
-    },
-    {
-      "ruleId": 17,
-      "result": false,
-      "reason": "不是医疗设备"
-    },
-    {
-      "ruleId": 18,
-      "result": true,
-      "reason": "需要一定的技能才能正确使用"
-    },
-    {
-      "ruleId": 19,
-      "result": true,
-      "reason": "可以用于研究目的"
-    },
-    {
-      "ruleId": 20,
-      "result": false,
-      "reason": "不是安全设备"
-    },
-    {
-      "ruleId": 21,
-      "result": true,
-      "reason": "在科学发展中发挥重要作用"
-    },
-    {
-      "ruleId": 22,
-      "result": true,
-      "reason": "对天文学发展有重大影响"
-    },
-    {
-      "ruleId": 23,
-      "result": true,
-      "reason": "在历史上有重要地位"
-    },
-    {
-      "ruleId": 24,
-      "result": true,
-      "reason": "推动了人类对宇宙的认知"
-    },
-    {
-      "ruleId": 25,
-      "result": true,
-      "reason": "在科学教育中经常使用"
-    },
-    {
-      "ruleId": 26,
-      "result": false,
-      "reason": "不是宗教物品"
-    },
-    {
-      "ruleId": 27,
-      "result": true,
-      "reason": "在科幻作品中经常出现"
-    },
-    {
-      "ruleId": 28,
-      "result": true,
-      "reason": "与探索精神相关"
-    },
-    {
-      "ruleId": 29,
-      "result": true,
-      "reason": "代表了科技进步"
-    },
-    {
-      "ruleId": 30,
-      "result": false,
-      "reason": "不是政治符号"
-    },
-    {
-      "ruleId": 31,
-      "result": true,
-      "reason": "在天文台中常见"
-    },
-    {
-      "ruleId": 32,
-      "result": true,
-      "reason": "在科学博物馆中展示"
-    },
-    {
-      "ruleId": 33,
-      "result": false,
-      "reason": "不常见于普通家庭"
-    },
-    {
-      "ruleId": 34,
-      "result": true,
-      "reason": "在学校实验室中可以找到"
-    },
-    {
-      "ruleId": 35,
-      "result": false,
-      "reason": "不是公共场所的常见设施"
-    },
-    {
-      "ruleId": 36,
-      "result": true,
-      "reason": "在特定场合使用"
-    },
-    {
-      "ruleId": 37,
-      "result": false,
-      "reason": "不是日常交通工具"
-    },
-    {
-      "ruleId": 38,
-      "result": true,
-      "reason": "可以作为兴趣爱好"
-    },
-    {
-      "ruleId": 39,
-      "result": true,
-      "reason": "在科学研究中使用"
-    },
-    {
-      "ruleId": 40,
-      "result": true,
-      "reason": "在非正式场合也可使用"
-    },
-    {
-      "ruleId": 41,
-      "result": true,
-      "reason": "有人收藏望远镜"
-    },
-    {
-      "ruleId": 42,
-      "result": false,
-      "reason": "不是特定传统的一部分"
-    },
-    {
-      "ruleId": 43,
-      "result": true,
-      "reason": "具有历史重要性"
-    },
-    {
-      "ruleId": 44,
-      "result": true,
-      "reason": "在当代仍然重要"
-    },
-    {
-      "ruleId": 45,
-      "result": true,
-      "reason": "经常作为礼物赠送"
-    },
-    {
-      "ruleId": 46,
-      "result": false,
-      "reason": "不是罕见的礼物"
-    },
-    {
-      "ruleId": 47,
-      "result": false,
-      "reason": "不仅与财富有关"
-    },
-    {
-      "ruleId": 48,
-      "result": true,
-      "reason": "各个社会经济层次都有使用"
-    },
-    {
-      "ruleId": 49,
-      "result": true,
-      "reason": "在艺术、文学和媒体中出现"
-    },
-    {
-      "ruleId": 50,
-      "result": false,
-      "reason": "在文化作品中不是平凡物品"
-    },
-    {
-      "ruleId": 51,
-      "result": true,
-      "reason": "容易损坏（尤其是镜片）"
-    },
-    {
-      "ruleId": 52,
-      "result": true,
-      "reason": "便携式望远镜可以随身携带"
-    },
-    {
-      "ruleId": 53,
-      "result": false,
-      "reason": "基础型号不需要电力"
-    },
-    {
-      "ruleId": 54,
-      "result": true,
-      "reason": "高质量望远镜价格昂贵"
-    },
-    {
-      "ruleId": 55,
-      "result": false,
-      "reason": "不是自然存在的"
-    },
-    {
-      "ruleId": 56,
-      "result": false,
-      "reason": "不防水"
-    },
-    {
-      "ruleId": 57,
-      "result": false,
-      "reason": "不能漂浮在水上"
-    },
-    {
-      "ruleId": 58,
-      "result": true,
-      "reason": "通常含有金属部件"
-    },
-    {
-      "ruleId": 59,
-      "result": false,
-      "reason": "使用时不会发出声音"
-    },
-    {
-      "ruleId": 60,
-      "result": false,
-      "reason": "通常不是彩色的"
-    },
-    {
-      "ruleId": 61,
-      "result": true,
-      "reason": "部件可以回收"
-    },
-    {
-      "ruleId": 62,
-      "result": true,
-      "reason": "有透明部分（镜片）"
-    },
-    {
-      "ruleId": 63,
-      "result": true,
-      "reason": "有活动部件（调焦机构）"
-    },
-    {
-      "ruleId": 64,
-      "result": false,
-      "reason": "触感不柔软"
-    },
-    {
-      "ruleId": 65,
-      "result": false,
-      "reason": "不能折叠（除了某些可折叠型号）"
-    },
-    {
-      "ruleId": 66,
-      "result": true,
-      "reason": "需要维护"
-    },
-    {
-      "ruleId": 67,
-      "result": false,
-      "reason": "没有锋利的边缘"
-    },
-    {
-      "ruleId": 68,
-      "result": false,
-      "reason": "不能食用"
-    },
-    {
-      "ruleId": 69,
-      "result": false,
-      "reason": "没有强烈的气味"
-    },
-    {
-      "ruleId": 70,
-      "result": true,
-      "reason": "大型望远镜很重"
-    },
-    {
-      "ruleId": 71,
-      "result": false,
-      "reason": "不能穿戴"
-    },
-    {
-      "ruleId": 72,
-      "result": false,
-      "reason": "不会产生热量"
-    },
-    {
-      "ruleId": 73,
-      "result": false,
-      "reason": "不易燃"
-    },
-    {
-      "ruleId": 74,
-      "result": true,
-      "reason": "可以用配件定制"
-    },
-    {
-      "ruleId": 75,
-      "result": true,
-      "reason": "通常需要组装"
-    },
-    {
-      "ruleId": 76,
-      "result": false,
-      "reason": "不可生物降解"
-    },
-    {
-      "ruleId": 77,
-      "result": false,
-      "reason": "不能堆叠"
-    },
-    {
-      "ruleId": 78,
-      "result": true,
-      "reason": "有反射面"
-    },
-    {
-      "ruleId": 79,
-      "result": false,
-      "reason": "通常不具有磁性"
-    },
-    {
-      "ruleId": 80,
-      "result": true,
-      "reason": "可以上漆"
-    },
-    {
-      "ruleId": 81,
-      "result": false,
-      "reason": "不吸水"
-    },
-    {
-      "ruleId": 82,
-      "result": false,
-      "reason": "不柔韧"
-    },
-    {
-      "ruleId": 83,
-      "result": false,
-      "reason": "潮湿时不会变色"
-    },
-    {
-      "ruleId": 84,
-      "result": false,
-      "reason": "不会随时间改变（除了磨损）"
-    },
-    {
-      "ruleId": 85,
-      "result": true,
-      "reason": "通常是对称的"
-    },
-    {
-      "ruleId": 86,
-      "result": true,
-      "reason": "损坏后可以修理"
-    },
-    {
-      "ruleId": 87,
-      "result": false,
-      "reason": "不需要燃料"
-    },
-    {
-      "ruleId": 88,
-      "result": true,
-      "reason": "需要保持清洁"
-    },
-    {
-      "ruleId": 89,
-      "result": false,
-      "reason": "不能在水下工作"
-    },
-    {
-      "ruleId": 90,
-      "result": false,
-      "reason": "没有轮子"
-    },
-    {
-      "ruleId": 91,
-      "result": false,
-      "reason": "不是一次性的"
-    },
-    {
-      "ruleId": 92,
-      "result": true,
-      "reason": "可以承受一定的热度"
-    },
-    {
-      "ruleId": 93,
-      "result": true,
-      "reason": "需要特殊存储"
-    },
-    {
-      "ruleId": 94,
-      "result": false,
-      "reason": "通常不是手工制作"
-    },
-    {
-      "ruleId": 95,
-      "result": true,
-      "reason": "镜片可以清洁"
-    },
-    {
-      "ruleId": 96,
-      "result": false,
-      "reason": "不是成对出现"
-    },
-    {
-      "ruleId": 97,
-      "result": false,
-      "reason": "不是季节性的"
-    },
-    {
-      "ruleId": 98,
-      "result": false,
-      "reason": "不用于其他任务的工具"
-    },
-    {
-      "ruleId": 99,
-      "result": false,
-      "reason": "不需要许可证"
-    }
+    {"ruleId": 1, "result": true, "reason": "用于观察远处的物体"},
+    {"ruleId": 2, "result": true, "reason": "主要用于天文观测"},
+    {"ruleId": 3, "result": false, "reason": "不是日常必需品"},
+    {"ruleId": 4, "result": true, "reason": "可以在户外使用"},
+    {"ruleId": 5, "result": true, "reason": "在室内也可以使用"},
+    {"ruleId": 6, "result": false, "reason": "不是消耗品"},
+    {"ruleId": 7, "result": true, "reason": "可以长期保存"},
+    {"ruleId": 8, "result": false, "reason": "不是一次性用品"},
+    {"ruleId": 9, "result": true, "reason": "需要特殊的存储条件"},
+    {"ruleId": 10, "result": true, "reason": "有多种型号和尺寸"},
+    {"ruleId": 11, "result": true, "reason": "可以用于专业用途"},
+    {"ruleId": 12, "result": true, "reason": "也适合业余爱好者使用"},
+    {"ruleId": 13, "result": false, "reason": "不是日常办公用品"},
+    {"ruleId": 14, "result": true, "reason": "可以用于教育目的"},
+    {"ruleId": 15, "result": true, "reason": "有特定的使用场合"},
+    {"ruleId": 16, "result": false, "reason": "不是运动器材"},
+    {"ruleId": 17, "result": false, "reason": "不是医疗设备"},
+    {"ruleId": 18, "result": true, "reason": "需要一定的技能才能正确使用"},
+    {"ruleId": 19, "result": true, "reason": "可以用于研究目的"},
+    {"ruleId": 20, "result": false, "reason": "不是安全设备"},
+    {"ruleId": 21, "result": true, "reason": "在科学发展中发挥重要作用"},
+    {"ruleId": 22, "result": true, "reason": "对天文学发展有重大影响"},
+    {"ruleId": 23, "result": true, "reason": "在历史上有重要地位"},
+    {"ruleId": 24, "result": true, "reason": "推动了人类对宇宙的认知"},
+    {"ruleId": 25, "result": true, "reason": "在科学教育中经常使用"},
+    {"ruleId": 26, "result": false, "reason": "不是宗教物品"},
+    {"ruleId": 27, "result": true, "reason": "在科幻作品中经常出现"},
+    {"ruleId": 28, "result": true, "reason": "与探索精神相关"},
+    {"ruleId": 29, "result": true, "reason": "代表了科技进步"},
+    {"ruleId": 30, "result": false, "reason": "不是政治符号"},
+    {"ruleId": 31, "result": true, "reason": "在天文台中常见"},
+    {"ruleId": 32, "result": true, "reason": "在科学博物馆中展示"},
+    {"ruleId": 33, "result": false, "reason": "不常见于普通家庭"},
+    {"ruleId": 34, "result": true, "reason": "在学校实验室中可以找到"},
+    {"ruleId": 35, "result": false, "reason": "不是公共场所的常见设施"},
+    {"ruleId": 36, "result": true, "reason": "在特定场合使用"},
+    {"ruleId": 37, "result": false, "reason": "不是日常交通工具"},
+    {"ruleId": 38, "result": true, "reason": "可以作为兴趣爱好"},
+    {"ruleId": 39, "result": true, "reason": "在科学研究中使用"},
+    {"ruleId": 40, "result": true, "reason": "在非正式场合也可使用"},
+    {"ruleId": 41, "result": true, "reason": "有人收藏望远镜"},
+    {"ruleId": 42, "result": false, "reason": "不是特定传统的一部分"},
+    {"ruleId": 43, "result": true, "reason": "具有历史重要性"},
+    {"ruleId": 44, "result": true, "reason": "在当代仍然重要"},
+    {"ruleId": 45, "result": true, "reason": "经常作为礼物赠送"},
+    {"ruleId": 46, "result": false, "reason": "不是罕见的礼物"},
+    {"ruleId": 47, "result": false, "reason": "不仅与财富有关"},
+    {"ruleId": 48, "result": true, "reason": "各个社会经济层次都有使用"},
+    {"ruleId": 49, "result": true, "reason": "在艺术、文学和媒体中出现"},
+    {"ruleId": 50, "result": true, "reason": "在科学普及中发挥重要作用"}
   ]
 } 
