@@ -9,7 +9,7 @@
     { "id": 7, "question": "每个人都需要的东西？", "difficulty": 2 },
     { "id": 8, "question": "有助于完成工作？", "difficulty": 2 },
     { "id": 9, "question": "用于特殊场合？", "difficulty": 2 },
-    { "id": 10, "question": "每天使用？", "difficulty": 1 },
+    { "id": 10, "question": "在日常生活中被使用？", "difficulty": 1 },
     { "id": 11, "question": "属于个人？", "difficulty": 2 },
     { "id": 12, "question": "多人共享？", "difficulty": 2 },
     { "id": 13, "question": "需要电力才能工作？", "difficulty": 1 },

@@ -33,7 +33,6 @@
     { "id": 81, "question": "会吸水？", "difficulty": 2 },
     { "id": 82, "question": "容易弯曲？", "difficulty": 1 },
     { "id": 83, "question": "遇水会变色？", "difficulty": 2 },
-<<<<<<< HEAD
     { "id": 84, "question": "会随时间变化？", "difficulty": 3 },
     { "id": 85, "question": "两边形状相同？", "difficulty": 2 },
     { "id": 86, "question": "损坏后可以修复？", "difficulty": 2 },
@@ -44,18 +43,6 @@
     { "id": 91, "question": "设计为一次性使用？", "difficulty": 1 },
     { "id": 92, "question": "可以安全加热？", "difficulty": 3 },
     { "id": 93, "question": "需要特殊储存？", "difficulty": 2 },
-=======
-    { "id": 84, "question": "会随时间改变？", "difficulty": 3 },
-    { "id": 85, "question": "两侧形状相同？", "difficulty": 2 },
-    { "id": 86, "question": "损坏后可以修理？", "difficulty": 2 },
-    { "id": 87, "question": "需要燃料才能工作？", "difficulty": 2 },
-    { "id": 88, "question": "干净无菌？", "difficulty": 2 },
-    { "id": 89, "question": "可以在水下工作？", "difficulty": 2 },
-    { "id": 90, "question": "有很多部件组成？", "difficulty": 3 },
-    { "id": 91, "question": "是液体？", "difficulty": 1 },
-    { "id": 92, "question": "由固体液体气体等多种形态组成？", "difficulty": 3 },
-    { "id": 93, "question": "需要特殊储存条件？", "difficulty": 2 },
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
     { "id": 94, "question": "手工制作？", "difficulty": 2 },
     { "id": 95, "question": "容易清洁？", "difficulty": 1 },
     { "id": 96, "question": "成对出现？", "difficulty": 1 },
