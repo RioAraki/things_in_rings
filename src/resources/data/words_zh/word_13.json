@@ -1,972 +1,156 @@
 {
   "id": "13",
-<<<<<<< HEAD
-  "word": "钱包",
-=======
-  "word": "仙人掌",
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
+  "word": "电动汽车",
   "questions": [
-    {
-      "ruleId": 1,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "非常古老（钱包已有数千年历史）"
-    },
-    {
-      "ruleId": 2,
-      "result": true,
-      "reason": "现代钱包是1950年后制造的"
-    },
-    {
-      "ruleId": 3,
-      "result": true,
-      "reason": "几乎每个家庭都有钱包"
-    },
-    {
-      "ruleId": 4,
-      "result": false,
-      "reason": "不是稀有物品"
-    },
-    {
-      "ruleId": 5,
-      "result": true,
-      "reason": "有专门为儿童设计的钱包"
-=======
-      "reason": "仙人掌在地球上已存在数百万年"
-    },
-    {
-      "ruleId": 2,
-      "result": false,
-      "reason": "仙人掌是自然生长的植物，不是人工发明的"
-    },
-    {
-      "ruleId": 3,
-      "result": false,
-      "reason": "仙人掌主要生长在沙漠地区，不是常见家居植物"
-    },
-    {
-      "ruleId": 4,
-      "result": true,
-      "reason": "在大多数家庭中相对少见"
-    },
-    {
-      "ruleId": 5,
-      "result": false,
-      "reason": "仙人掌有刺，不适合儿童接触"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 6,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "也有专门为成年人设计的钱包"
-    },
-    {
-      "ruleId": 7,
-      "result": true,
-      "reason": "某些钱包很奢侈或昂贵"
-    },
-    {
-      "ruleId": 8,
-      "result": true,
-      "reason": "几乎每个人都需要钱包"
-=======
-      "reason": "主要由成年人种植和照料"
-    },
-    {
-      "ruleId": 7,
-      "result": false,
-      "reason": "普通仙人掌不是奢侈品"
-    },
-    {
-      "ruleId": 8,
-      "result": false,
-      "reason": "不是生活必需品"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 9,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "用于存放钱和卡片"
-=======
-      "reason": "具有观赏价值"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 10,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "外观设计精美"
-    },
-    {
-      "ruleId": 11,
-      "result": false,
-      "reason": "不是在自然界中存在的"
-=======
-      "reason": "常用于装饰"
-    },
-    {
-      "ruleId": 11,
-      "result": true,
-      "reason": "在自然界中生长"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 12,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "在工厂批量生产"
-    },
-    {
-      "ruleId": 13,
-      "result": false,
-      "reason": "不是用于特殊场合的"
-    },
-    {
-      "ruleId": 14,
-      "result": true,
-      "reason": "每天都会使用"
-=======
-      "reason": "也可以在温室中培育"
-    },
-    {
-      "ruleId": 13,
-      "result": true,
-      "reason": "在许多文化中都有特殊意义"
-    },
-    {
-      "ruleId": 14,
-      "result": false,
-      "reason": "不需要日常维护"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 15,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "通常是个人物品"
-=======
-      "reason": "通常为个人所有"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 16,
-      "result": false,
-<<<<<<< HEAD
-      "reason": "通常不会在多人之间共享"
-    },
-    {
-      "ruleId": 17,
-      "result": true,
-      "reason": "是高科技产品"
-=======
-      "reason": "不是共享物品"
-    },
-    {
-      "ruleId": 17,
-      "result": false,
-      "reason": "不需要高科技设备"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 18,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "基于电子和机械原理"
-    },
-    {
-      "ruleId": 19,
-      "result": false,
-      "reason": "不是来自特定国家或文化"
-=======
-      "reason": "基于简单的生长原理"
-    },
-    {
-      "ruleId": 19,
-      "result": true,
-      "reason": "分布在世界各地"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 20,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "在许多国家都能找到"
-=======
-      "reason": "全球都有分布"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 21,
-      "result": false,
-<<<<<<< HEAD
-      "reason": "不是使用后丢弃的"
-=======
-      "reason": "不是一次性物品"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 22,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "可以使用很多年"
-=======
-      "reason": "可以存活很多年"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 23,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "主要在室内使用"
-=======
-      "reason": "可以在室内种植"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 24,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "在室内和室外都可以使用"
-=======
-      "reason": "也可以在室外生长"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 25,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "经常在电影和电视节目中出现"
-=======
-      "reason": "经常出现在电影和电视节目中"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 26,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "被各种职业的人使用"
-    },
-    {
-      "ruleId": 27,
-      "result": false,
-      "reason": "没有重要的宗教意义"
-=======
-      "reason": "被园艺工作者和植物学家研究"
-    },
-    {
-      "ruleId": 27,
-      "result": true,
-      "reason": "在某些文化中具有精神意义"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 28,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "主要是世俗性质"
-=======
-      "reason": "在沙漠文化中具有象征意义"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 29,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "在工厂批量生产"
-    },
-    {
-      "ruleId": 30,
-      "result": false,
-      "reason": "通常不是手工制作的"
-=======
-      "reason": "可以大规模种植"
-    },
-    {
-      "ruleId": 30,
-      "result": true,
-      "reason": "也可以手工培育"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 31,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "通过保护钱财带来安全感"
-=======
-      "reason": "给人带来独特的视觉享受"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 32,
-      "result": false,
-<<<<<<< HEAD
-      "reason": "不吓人或危险"
-=======
-      "reason": "虽然有刺但不危险"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 33,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "用于娱乐"
-=======
-      "reason": "用于园艺观赏"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 34,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "用于工作和学习"
-    },
-    {
-      "ruleId": 35,
-      "result": false,
-      "reason": "不是只在特定季节使用"
-=======
-      "reason": "也有药用价值"
-    },
-    {
-      "ruleId": 35,
-      "result": true,
-      "reason": "全年都可以生长"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 36,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "全年都可以使用"
-    },
-    {
-      "ruleId": 37,
-      "result": true,
-      "reason": "需要适应使用"
-=======
-      "reason": "四季常青"
-    },
-    {
-      "ruleId": 37,
-      "result": false,
-      "reason": "需要基本的养护知识"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 38,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "任何人都可以使用"
-=======
-      "reason": "养护相对简单"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 39,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "在正式场合使用"
-=======
-      "reason": "适合正式场合装饰"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 40,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "也在休闲场合使用"
-=======
-      "reason": "也适合 casual 场合"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 41,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "人们喜欢收藏不同款式的钱包"
-    },
-    {
-      "ruleId": 42,
-      "result": false,
-      "reason": "不是特定文化传统的一部分"
-=======
-      "reason": "有人专门收集仙人掌"
-    },
-    {
-      "ruleId": 42,
-      "result": true,
-      "reason": "是传统文化的一部分"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 43,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "在历史上很重要"
-=======
-      "reason": "具有重要的生态价值"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 44,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "在当代仍然重要"
-=======
-      "reason": "至今仍被广泛种植"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 45,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "经常作为礼物赠送"
-=======
-      "reason": "可以作为礼物赠送"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 46,
-      "result": false,
-<<<<<<< HEAD
-      "reason": "不是罕见的礼物"
-=======
-      "reason": "是常见的礼物选择"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 47,
-      "result": false,
-<<<<<<< HEAD
-      "reason": "不是只有富人才能拥有"
-=======
-      "reason": "不象征财富"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 48,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "各收入阶层的人都使用"
-=======
-      "reason": "各个经济层次的人都可以拥有"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    },
-    {
-      "ruleId": 49,
-      "result": true,
-<<<<<<< HEAD
-      "reason": "在艺术、文学和媒体中出现"
-    },
-    {
-      "ruleId": 50,
-      "result": false,
-      "reason": "在故事中很常见"
-=======
-      "reason": "在艺术和文学中经常出现"
-    },
-    {
-      "ruleId": 50,
-      "result": true,
-      "reason": "象征坚韧和适应力"
-    },
-    {
-      "ruleId": 51,
-      "result": true,
-      "reason": "刺容易折断"
-    },
-    {
-      "ruleId": 52,
-      "result": true,
-      "reason": "便于移动和摆放"
-    },
-    {
-      "ruleId": 53,
-      "result": true,
-      "reason": "不需要电力"
-    },
-    {
-      "ruleId": 54,
-      "result": true,
-      "reason": "价格一般比较实惠"
-    },
-    {
-      "ruleId": 55,
-      "result": true,
-      "reason": "在自然界中生长"
-    },
-    {
-      "ruleId": 56,
-      "result": true,
-      "reason": "适应干旱环境"
-    },
-    {
-      "ruleId": 57,
-      "result": false,
-      "reason": "不能漂浮"
-    },
-    {
-      "ruleId": 58,
-      "result": false,
-      "reason": "主要由植物组织构成"
-    },
-    {
-      "ruleId": 59,
-      "result": true,
-      "reason": "生长过程安静"
-    },
-    {
-      "ruleId": 60,
-      "result": true,
-      "reason": "有多种颜色品种"
-    },
-    {
-      "ruleId": 61,
-      "result": true,
-      "reason": "可以自然分解"
-    },
-    {
-      "ruleId": 62,
-      "result": false,
-      "reason": "不透明"
-    },
-    {
-      "ruleId": 63,
-      "result": false,
-      "reason": "没有活动部件"
-    },
-    {
-      "ruleId": 64,
-      "result": true,
-      "reason": "质地坚硬"
-    },
-    {
-      "ruleId": 65,
-      "result": false,
-      "reason": "不能折叠"
-    },
-    {
-      "ruleId": 66,
-      "result": true,
-      "reason": "需要定期养护"
-    },
-    {
-      "ruleId": 67,
-      "result": true,
-      "reason": "有尖锐的刺"
-    },
-    {
-      "ruleId": 68,
-      "result": false,
-      "reason": "不能食用"
-    },
-    {
-      "ruleId": 69,
-      "result": false,
-      "reason": "没有特殊气味"
-    },
-    {
-      "ruleId": 70,
-      "result": true,
-      "reason": "重量较轻"
-    },
-    {
-      "ruleId": 71,
-      "result": false,
-      "reason": "不能穿戴"
-    },
-    {
-      "ruleId": 72,
-      "result": false,
-      "reason": "不产生热量"
-    },
-    {
-      "ruleId": 73,
-      "result": false,
-      "reason": "不易燃"
-    },
-    {
-      "ruleId": 74,
-      "result": true,
-      "reason": "有多种品种和形态"
-    },
-    {
-      "ruleId": 75,
-      "result": true,
-      "reason": "通常完整出售"
-    },
-    {
-      "ruleId": 76,
-      "result": true,
-      "reason": "可以生物降解"
-    },
-    {
-      "ruleId": 77,
-      "result": true,
-      "reason": "可以堆叠存放"
-    },
-    {
-      "ruleId": 78,
-      "result": false,
-      "reason": "没有反光表面"
-    },
-    {
-      "ruleId": 79,
-      "result": false,
-      "reason": "不具有磁性"
-    },
-    {
-      "ruleId": 80,
-      "result": false,
-      "reason": "不能随意涂画"
-    },
-    {
-      "ruleId": 81,
-      "result": true,
-      "reason": "能储存水分"
-    },
-    {
-      "ruleId": 82,
-      "result": false,
-      "reason": "不具弹性"
-    },
-    {
-      "ruleId": 83,
-      "result": false,
-      "reason": "遇水不会变色"
-    },
-    {
-      "ruleId": 84,
-      "result": false,
-      "reason": "不会生锈"
-    },
-    {
-      "ruleId": 85,
-      "result": true,
-      "reason": "通常对称生长"
-    },
-    {
-      "ruleId": 86,
-      "result": true,
-      "reason": "受损后可以修复"
-    },
-    {
-      "ruleId": 87,
-      "result": false,
-      "reason": "不需要燃料"
-    },
-    {
-      "ruleId": 88,
-      "result": true,
-      "reason": "需要保持清洁以健康生长"
-    },
-    {
-      "ruleId": 89,
-      "result": false,
-      "reason": "不能在水中生长"
-    },
-    {
-      "ruleId": 90,
-      "result": false,
-      "reason": "没有轮子"
-    },
-    {
-      "ruleId": 91,
-      "result": false,
-      "reason": "不是一次性使用"
-    },
-    {
-      "ruleId": 92,
-      "result": false,
-      "reason": "不产生热量"
-    },
-    {
-      "ruleId": 93,
-      "result": true,
-      "reason": "需要适当的储存条件"
-    },
-    {
-      "ruleId": 94,
-      "result": true,
-      "reason": "可以手工培育"
-    },
-    {
-      "ruleId": 95,
-      "result": true,
-      "reason": "表面可以清洁"
-    },
-    {
-      "ruleId": 96,
-      "result": false,
-      "reason": "通常单株种植"
-    },
-    {
-      "ruleId": 97,
-      "result": true,
-      "reason": "全年都可以生长"
-    },
-    {
-      "ruleId": 98,
-      "result": true,
-      "reason": "用于观赏"
-    },
-    {
-      "ruleId": 99,
-      "result": true,
-      "reason": "不需要许可证就能种植"
-    },
-    {
-      "ruleId": 100,
-      "result": true,
-      "reason": "可以存活很多年"
-    },
-    {
-      "ruleId": 101,
-      "result": true,
-      "reason": "有三个音节（xiān-rén-zhǎng）"
-    },
-    {
-      "ruleId": 102,
-      "result": false,
-      "reason": "不以元音开头"
-    },
-    {
-      "ruleId": 103,
-      "result": false,
-      "reason": "不以元音结尾"
-    },
-    {
-      "ruleId": 104,
-      "result": false,
-      "reason": "有三个字，不是五个"
-    },
-    {
-      "ruleId": 105,
-      "result": true,
-      "reason": "包含'a'和'e'音"
-    },
-    {
-      "ruleId": 106,
-      "result": false,
-      "reason": "第一个字'仙'不在最后一个字'掌'之后"
-    },
-    {
-      "ruleId": 107,
-      "result": true,
-      "reason": "由两个词组成（仙人+掌）"
-    },
-    {
-      "ruleId": 108,
-      "result": false,
-      "reason": "没有重复的字"
-    },
-    {
-      "ruleId": 109,
-      "result": true,
-      "reason": "以'仙'开头，在字母表前半部分"
-    },
-    {
-      "ruleId": 110,
-      "result": true,
-      "reason": "有三个字（超过6个字母）"
-    },
-    {
-      "ruleId": 111,
-      "result": false,
-      "reason": "用作名词，不是动词"
-    },
-    {
-      "ruleId": 112,
-      "result": false,
-      "reason": "不包含'k'音"
-    },
-    {
-      "ruleId": 113,
-      "result": true,
-      "reason": "有超过4个不同的字（仙、人、掌）"
-    },
-    {
-      "ruleId": 114,
-      "result": false,
-      "reason": "没有公认的前缀"
-    },
-    {
-      "ruleId": 115,
-      "result": false,
-      "reason": "包含'a'但不包含'b'音"
-    },
-    {
-      "ruleId": 116,
-      "result": false,
-      "reason": "前两个字'仙'和'人'不是按字母顺序排列"
-    },
-    {
-      "ruleId": 117,
-      "result": true,
-      "reason": "包含'掌'字"
-    },
-    {
-      "ruleId": 118,
-      "result": false,
-      "reason": "没有三个辅音连在一起"
-    },
-    {
-      "ruleId": 119,
-      "result": true,
-      "reason": "有三个字（在6-8个字母范围内）"
-    },
-    {
-      "ruleId": 120,
-      "result": false,
-      "reason": "没有后缀'-ern'"
-    },
-    {
-      "ruleId": 121,
-      "result": true,
-      "reason": "包含't'音（掌）"
-    },
-    {
-      "ruleId": 122,
-      "result": false,
-      "reason": "不包含'z'音"
-    },
-    {
-      "ruleId": 123,
-      "result": false,
-      "reason": "没有重复的字"
-    },
-    {
-      "ruleId": 124,
-      "result": true,
-      "reason": "有三个音节"
-    },
-    {
-      "ruleId": 125,
-      "result": false,
-      "reason": "不包含颜色名称"
-    },
-    {
-      "ruleId": 126,
-      "result": false,
-      "reason": "没有无声辅音"
-    },
-    {
-      "ruleId": 127,
-      "result": false,
-      "reason": "不用作动词"
-    },
-    {
-      "ruleId": 128,
-      "result": false,
-      "reason": "不以'er'结尾"
-    },
-    {
-      "ruleId": 129,
-      "result": false,
-      "reason": "字不是按字母顺序排列"
-    },
-    {
-      "ruleId": 130,
-      "result": false,
-      "reason": "没有两个元音相邻"
-    },
-    {
-      "ruleId": 131,
-      "result": true,
-      "reason": "没有重复的字"
-    },
-    {
-      "ruleId": 132,
-      "result": false,
-      "reason": "不包含'q'音"
-    },
-    {
-      "ruleId": 133,
-      "result": true,
-      "reason": "包含3个元音（iān,én,ǎng）"
-    },
-    {
-      "ruleId": 134,
-      "result": true,
-      "reason": "元音比辅音多"
-    },
-    {
-      "ruleId": 135,
-      "result": true,
-      "reason": "有三个字（奇数）"
-    },
-    {
-      "ruleId": 136,
-      "result": false,
-      "reason": "不是恰好2个元音"
-    },
-    {
-      "ruleId": 137,
-      "result": false,
-      "reason": "最后一个字'掌'不在中间字'人'之后"
-    },
-    {
-      "ruleId": 138,
-      "result": false,
-      "reason": "不以元音结尾"
-    },
-    {
-      "ruleId": 139,
-      "result": false,
-      "reason": "不以相同的字开头和结尾"
-    },
-    {
-      "ruleId": 140,
-      "result": false,
-      "reason": "有三个音节，不是一个"
-    },
-    {
-      "ruleId": 141,
-      "result": false,
-      "reason": "不是缩写"
-    },
-    {
-      "ruleId": 142,
-      "result": false,
-      "reason": "不包含'tern'"
-    },
-    {
-      "ruleId": 143,
-      "result": false,
-      "reason": "没有字出现多次"
-    },
-    {
-      "ruleId": 144,
-      "result": false,
-      "reason": "没有'y'音"
-    },
-    {
-      "ruleId": 145,
-      "result": true,
-      "reason": "以辅音'x'开头，以辅音'zh'结尾"
-    },
-    {
-      "ruleId": 146,
-      "result": false,
-      "reason": "不包含'sh'或'ch'"
-    },
-    {
-      "ruleId": 147,
-      "result": true,
-      "reason": "包含字母表两半的字"
-    },
-    {
-      "ruleId": 148,
-      "result": false,
-      "reason": "不以'ly'结尾"
-    },
-    {
-      "ruleId": 149,
-      "result": false,
-      "reason": "拼写时不包含数字"
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-    }
+    {"ruleId": 1, "result": false, "reason": "电动汽车历史不超过200年，是现代发明。"},
+    {"ruleId": 2, "result": true, "reason": "现代电动汽车在1950年后才开始大规模发展。"},
+    {"ruleId": 3, "result": true, "reason": "越来越多的家庭拥有电动汽车。"},
+    {"ruleId": 4, "result": false, "reason": "电动汽车在现代社会越来越普遍，不算稀有。"},
+    {"ruleId": 5, "result": false, "reason": "不是专为儿童设计。"},
+    {"ruleId": 6, "result": true, "reason": "主要由成年人驾驶和使用。"},
+    {"ruleId": 7, "result": false, "reason": "不是每个人都需要拥有电动汽车。"},
+    {"ruleId": 8, "result": true, "reason": "可帮助人们完成通勤、购物等日常任务。"},
+    {"ruleId": 9, "result": false, "reason": "不局限于特殊场合，可日常使用。"},
+    {"ruleId": 10, "result": true, "reason": "在日常生活中频繁使用。"},
+    {"ruleId": 11, "result": true, "reason": "通常是个人或家庭所有。"},
+    {"ruleId": 12, "result": true, "reason": "家庭成员可共享使用同一辆车。"},
+    {"ruleId": 13, "result": true, "reason": "需要电力驱动。"},
+    {"ruleId": 14, "result": false, "reason": "全球各国都有电动汽车，不专属于特定文化。"},
+    {"ruleId": 15, "result": true, "reason": "在世界各国都能找到。"},
+    {"ruleId": 16, "result": false, "reason": "设计为长期使用，不是一次性物品。"},
+    {"ruleId": 17, "result": true, "reason": "可以使用多年。"},
+    {"ruleId": 18, "result": false, "reason": "不是室内物品，主要在室外使用。"},
+    {"ruleId": 19, "result": true, "reason": "主要在户外道路上使用。"},
+    {"ruleId": 20, "result": true, "reason": "在电影电视中经常出现。"},
+    {"ruleId": 21, "result": true, "reason": "各行各业的人都可能使用电动汽车。"},
+    {"ruleId": 22, "result": false, "reason": "不具有宗教意义。"},
+    {"ruleId": 23, "result": true, "reason": "与宗教无关。"},
+    {"ruleId": 24, "result": true, "reason": "驾驶电动汽车可以带来快乐和满足感。"},
+    {"ruleId": 25, "result": false, "reason": "正常情况下不会引起恐惧。"},
+    {"ruleId": 26, "result": false, "reason": "主要用于交通，不是娱乐游戏物品。"},
+    {"ruleId": 27, "result": true, "reason": "用于上下班、出行等重要日常活动。"},
+    {"ruleId": 28, "result": false, "reason": "全年可以使用，不限于特定时间。"},
+    {"ruleId": 29, "result": true, "reason": "不分季节都可使用。"},
+    {"ruleId": 30, "result": true, "reason": "需要学习驾驶技能，有一定使用门槛。"},
+    {"ruleId": 31, "result": false, "reason": "驾驶需要培训和练习，不是每个人都容易上手。"},
+    {"ruleId": 32, "result": true, "reason": "可用于正式场合如商务出行。"},
+    {"ruleId": 33, "result": true, "reason": "也适用于休闲旅行等非正式场合。"},
+    {"ruleId": 34, "result": true, "reason": "有人收藏不同型号的电动汽车。"},
+    {"ruleId": 35, "result": false, "reason": "不是特殊传统的一部分。"},
+    {"ruleId": 36, "result": true, "reason": "代表环保交通方式的重要发展。"},
+    {"ruleId": 37, "result": true, "reason": "在现代才广泛使用。"},
+    {"ruleId": 38, "result": false, "reason": "价格较高，不常作为礼物赠送。"},
+    {"ruleId": 39, "result": true, "reason": "作为礼物赠送非常罕见。"},
+    {"ruleId": 40, "result": true, "reason": "高端电动汽车主要为富人所拥有。"},
+    {"ruleId": 41, "result": true, "reason": "不同收入阶层都有适合的电动汽车型号。"},
+    {"ruleId": 42, "result": true, "reason": "有大量关于电动汽车的文章、书籍和报道。"},
+    {"ruleId": 43, "result": false, "reason": "在媒体中经常出现，不难见到。"},
+    {"ruleId": 44, "result": false, "reason": "不使用燃料，使用电力。"},
+    {"ruleId": 45, "result": false, "reason": "设计为长期使用，不是一次性产品。"},
+    {"ruleId": 46, "result": false, "reason": "全年都可使用，不是季节性产品。"},
+    {"ruleId": 47, "result": true, "reason": "可以多次使用。"},
+    {"ruleId": 48, "result": true, "reason": "驾驶需要驾照，属于许可管控物品。"},
+    {"ruleId": 49, "result": true, "reason": "世界上有很多电动汽车。"},
+    {"ruleId": 50, "result": false, "reason": "存在众多品牌和型号的电动汽车。"},
+    {"ruleId": 51, "result": true, "reason": "易受碰撞损坏，需要小心维护。"},
+    {"ruleId": 52, "result": false, "reason": "体积大，不便携带。"},
+    {"ruleId": 53, "result": true, "reason": "需要电力驱动。"},
+    {"ruleId": 54, "result": true, "reason": "价格相对昂贵。"},
+    {"ruleId": 55, "result": false, "reason": "是人造物，不存在于自然界。"},
+    {"ruleId": 56, "result": false, "reason": "不能在水中使用（两栖车除外）。"},
+    {"ruleId": 57, "result": false, "reason": "不能在水上漂浮。"},
+    {"ruleId": 58, "result": true, "reason": "主要由金属材料制成。"},
+    {"ruleId": 59, "result": true, "reason": "行驶时发出声音，但比燃油车安静。"},
+    {"ruleId": 60, "result": true, "reason": "有多种鲜艳的颜色可选。"},
+    {"ruleId": 61, "result": true, "reason": "大部分零件可回收利用。"},
+    {"ruleId": 62, "result": false, "reason": "车身不透明。"},
+    {"ruleId": 63, "result": true, "reason": "有轮子、门等活动部件。"},
+    {"ruleId": 64, "result": false, "reason": "车身坚硬，不柔软。"},
+    {"ruleId": 65, "result": false, "reason": "不能折叠或压扁。"},
+    {"ruleId": 66, "result": true, "reason": "需要定期维护和保养。"},
+    {"ruleId": 67, "result": false, "reason": "设计为圆润安全，避免锋利边缘。"},
+    {"ruleId": 68, "result": false, "reason": "不可食用。"},
+    {"ruleId": 69, "result": true, "reason": "新车有特殊的气味。"},
+    {"ruleId": 70, "result": true, "reason": "重量很重。"},
+    {"ruleId": 71, "result": false, "reason": "不可穿戴。"},
+    {"ruleId": 72, "result": true, "reason": "电机工作时会产生热量。"},
+    {"ruleId": 73, "result": false, "reason": "正常使用不会着火。"},
+    {"ruleId": 74, "result": true, "reason": "可以贴装饰或改变外观。"},
+    {"ruleId": 75, "result": false, "reason": "出厂时已完成组装。"},
+    {"ruleId": 76, "result": false, "reason": "在自然环境中不会快速分解。"},
+    {"ruleId": 77, "result": false, "reason": "不能堆叠存放。"},
+    {"ruleId": 78, "result": true, "reason": "车漆有光泽。"},
+    {"ruleId": 79, "result": true, "reason": "金属部件可被磁铁吸引。"},
+    {"ruleId": 80, "result": true, "reason": "车身可以喷漆或贴膜。"},
+    {"ruleId": 81, "result": false, "reason": "车身材料不吸水。"},
+    {"ruleId": 82, "result": false, "reason": "车身刚性结构，不易弯曲。"},
+    {"ruleId": 83, "result": false, "reason": "遇水不会变色。"},
+    {"ruleId": 84, "result": true, "reason": "会随时间老化和磨损。"},
+    {"ruleId": 85, "result": true, "reason": "设计通常左右对称。"},
+    {"ruleId": 86, "result": true, "reason": "损坏的部件可以修理或更换。"},
+    {"ruleId": 87, "result": false, "reason": "不使用燃料，使用电力。"},
+    {"ruleId": 88, "result": false, "reason": "使用后会有灰尘和污渍。"},
+    {"ruleId": 89, "result": false, "reason": "不能在水下使用。"},
+    {"ruleId": 90, "result": true, "reason": "由电池、电机、车身等多部件组成。"},
+    {"ruleId": 91, "result": false, "reason": "设计为长期使用。"},
+    {"ruleId": 92, "result": false, "reason": "不需要加热使用。"},
+    {"ruleId": 93, "result": true, "reason": "电池需要在特定温度范围内存储。"},
+    {"ruleId": 94, "result": false, "reason": "工厂生产，不是手工制品。"},
+    {"ruleId": 95, "result": true, "reason": "外表可以清洗和维护。"},
+    {"ruleId": 96, "result": false, "reason": "通常是单个使用，不成对出现。"},
+    {"ruleId": 97, "result": false, "reason": "全年都可使用，不受季节限制。"},
+    {"ruleId": 98, "result": true, "reason": "是交通工具。"},
+    {"ruleId": 99, "result": true, "reason": "驾驶需要驾照许可。"},
+    {"ruleId": 100, "result": true, "reason": "可以多次使用。"},
+    {"ruleId": 101, "result": false, "reason": "不是一个字。"},
+    {"ruleId": 102, "result": false, "reason": "不是两个汉字。"},
+    {"ruleId": 103, "result": false, "reason": "不是三个汉字。"},
+    {"ruleId": 104, "result": true, "reason": "'电动汽车'是四个汉字。"},
+    {"ruleId": 105, "result": false, "reason": "不包含'心'字或偏旁。"},
+    {"ruleId": 106, "result": false, "reason": "不包含'草'字或偏旁。"},
+    {"ruleId": 107, "result": false, "reason": "不包含'水'字或偏旁。"},
+    {"ruleId": 108, "result": true, "reason": "'电'字包含'金'字旁。"},
+    {"ruleId": 109, "result": false, "reason": "不包含'木'字或偏旁。"},
+    {"ruleId": 110, "result": false, "reason": "不包含'火'字或偏旁。"},
+    {"ruleId": 111, "result": false, "reason": "不包含'土'字或偏旁。"},
+    {"ruleId": 112, "result": false, "reason": "不包含'日'字或偏旁。"},
+    {"ruleId": 113, "result": false, "reason": "不包含'月'字或偏旁。"},
+    {"ruleId": 114, "result": false, "reason": "不包含'山'字或偏旁。"},
+    {"ruleId": 115, "result": false, "reason": "不包含'川'字或偏旁。"},
+    {"ruleId": 116, "result": false, "reason": "不包含'雨'字或偏旁。"},
+    {"ruleId": 117, "result": false, "reason": "不包含'人'字或偏旁。"},
+    {"ruleId": 118, "result": false, "reason": "不包含'手'字或偏旁。"},
+    {"ruleId": 119, "result": false, "reason": "不包含'王'字或偏旁。"},
+    {"ruleId": 120, "result": false, "reason": "不包含'口'字或偏旁。"},
+    {"ruleId": 121, "result": false, "reason": "不包含'目'字或偏旁。"},
+    {"ruleId": 122, "result": false, "reason": "不包含'耳'字或偏旁。"},
+    {"ruleId": 123, "result": false, "reason": "不包含'足'字或偏旁。"},
+    {"ruleId": 124, "result": false, "reason": "不包含'言'字或偏旁。"},
+    {"ruleId": 125, "result": false, "reason": "不包含'食'字或偏旁。"},
+    {"ruleId": 126, "result": false, "reason": "不包含'衣'字或偏旁。"},
+    {"ruleId": 127, "result": false, "reason": "不包含'马'字或偏旁。"},
+    {"ruleId": 128, "result": false, "reason": "不包含'鱼'字或偏旁。"},
+    {"ruleId": 129, "result": false, "reason": "不包含'鸟'字或偏旁。"},
+    {"ruleId": 130, "result": true, "reason": "'车'字是'汽车'的一部分。"},
+    {"ruleId": 131, "result": true, "reason": "'电'字结构是左右结构。"},
+    {"ruleId": 132, "result": true, "reason": "'动'字结构是上下结构。"},
+    {"ruleId": 133, "result": true, "reason": "四个字的偏旁各不相同。"},
+    {"ruleId": 134, "result": true, "reason": "四个字的结构和偏旁都不同。"},
+    {"ruleId": 135, "result": false, "reason": "'动'字7画，不少于7画。"},
+    {"ruleId": 136, "result": true, "reason": "'电'字5画，'动'字7画，'汽'字8画，'车'字4画，有字少于10画。"},
+    {"ruleId": 137, "result": true, "reason": "最多笔画的'汽'字只有8画，少于15画。"},
+    {"ruleId": 138, "result": false, "reason": "所有字都不超过12画。"},
+    {"ruleId": 139, "result": false, "reason": "笔画顺序是5→7→8→4，不构成递增序列。"},
+    {"ruleId": 140, "result": false, "reason": "笔画顺序也不构成递减序列。"},
+    {"ruleId": 141, "result": false, "reason": "四个字的声调各不相同。"},
+    {"ruleId": 142, "result": true, "reason": "'电(diàn)'四声，'动(dòng)'四声，'汽(qì)'四声，'车(chē)'一声，包含不同声调。"},
+    {"ruleId": 143, "result": false, "reason": "包含第一声（'车'）。"},
+    {"ruleId": 144, "result": true, "reason": "不包含第二声。"},
+    {"ruleId": 145, "result": true, "reason": "不包含第三声。"},
+    {"ruleId": 146, "result": false, "reason": "包含第四声（'电'、'动'、'汽'）。"},
+    {"ruleId": 147, "result": true, "reason": "包含第一声（'车'）。"},
+    {"ruleId": 148, "result": false, "reason": "不包含第二声。"},
+    {"ruleId": 149, "result": false, "reason": "不包含第三声。"},
+    {"ruleId": 150, "result": true, "reason": "包含第四声（'电'、'动'、'汽'）。"}
   ]
-} 
+}

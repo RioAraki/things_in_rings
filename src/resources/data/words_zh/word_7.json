@@ -1,412 +1,756 @@
 {
-<<<<<<< HEAD
   "id": "7",
-  "word": "电脑",
+  "word": "笔记本电脑",
   "questions": [
     {
       "ruleId": 1,
       "result": false,
-      "reason": "不是非常古老（电脑是20世纪发明的）"
+      "reason": "笔记本电脑起源于20世纪，历史不足1000年。"
     },
     {
       "ruleId": 2,
       "result": true,
-      "reason": "现代电脑是1950年后制造的"
+      "reason": "第一台真正意义上的笔记本电脑于1981年推出，属于1950年之后的新事物。"
     },
     {
       "ruleId": 3,
       "result": true,
-      "reason": "大多数家庭都有电脑"
+      "reason": "现代家庭普遍拥有至少一台笔记本电脑。"
     },
     {
       "ruleId": 4,
       "result": false,
-      "reason": "不是稀有物品"
+      "reason": "笔记本电脑非常普及，不是稀有物品。"
     },
     {
       "ruleId": 5,
       "result": false,
-      "reason": "不是专门为儿童设计的"
+      "reason": "笔记本电脑并非专为儿童设计，而是面向成年人。"
     },
     {
       "ruleId": 6,
       "result": true,
-      "reason": "主要由成年人使用"
+      "reason": "笔记本电脑的设计和功能主要针对成年人使用场景。"
     },
     {
       "ruleId": 7,
       "result": true,
-      "reason": "某些型号很奢侈或昂贵"
+      "reason": "在现代生活中，笔记本电脑已被多数人视为必需品。"
     },
     {
       "ruleId": 8,
       "result": true,
-      "reason": "每个人都需要电脑"
+      "reason": "笔记本电脑可运行办公软件，帮助完成各类工作任务。"
     },
     {
       "ruleId": 9,
-      "result": true,
-      "reason": "用于工作和学习"
+      "result": false,
+      "reason": "笔记本电脑并不限于特殊场合，而是日常通用工具。"
     },
     {
       "ruleId": 10,
       "result": true,
-      "reason": "外观设计精美"
+      "reason": "笔记本电脑在日常生活中随时可用于学习、娱乐、办公。"
     },
     {
       "ruleId": 11,
-      "result": false,
-      "reason": "不是在自然界中存在的"
+      "result": true,
+      "reason": "笔记本电脑通常由个人购买并专属使用，属于个人物品。"
     },
     {
       "ruleId": 12,
-      "result": true,
-      "reason": "在工厂批量生产"
+      "result": false,
+      "reason": "笔记本电脑一般不由多人共享，而是个人专用。"
     },
     {
       "ruleId": 13,
-      "result": false,
-      "reason": "不是用于特殊场合的"
+      "result": true,
+      "reason": "笔记本电脑依赖电池或外接电源才能工作。"
     },
     {
       "ruleId": 14,
-      "result": true,
-      "reason": "每天都会使用"
+      "result": false,
+      "reason": "笔记本电脑为全球通用产品，不特定于某一国家或文化。"
     },
     {
       "ruleId": 15,
       "result": true,
-      "reason": "通常是个人物品"
+      "reason": "笔记本电脑可在全球大多数国家购买和使用。"
     },
     {
       "ruleId": 16,
       "result": false,
-      "reason": "通常不会在多人之间共享"
+      "reason": "笔记本电脑为长期使用设备，不是一次性丢弃品。"
     },
     {
       "ruleId": 17,
       "result": true,
-      "reason": "是高科技产品"
+      "reason": "笔记本电脑通常可使用数年后再升级或更换。"
     },
     {
       "ruleId": 18,
-      "result": false,
-      "reason": "不是简单的工具"
+      "result": true,
+      "reason": "笔记本电脑适合在室内办公环境使用。"
     },
     {
       "ruleId": 19,
-      "result": false,
-      "reason": "不是来自特定国家或文化"
+      "result": true,
+      "reason": "笔记本电脑由于便携性，也可在室外使用。"
     },
     {
       "ruleId": 20,
       "result": true,
-      "reason": "在许多国家都能找到"
+      "reason": "电影和电视节目中经常出现笔记本电脑使用场景。"
     },
     {
       "ruleId": 21,
-      "result": false,
-      "reason": "不是使用后丢弃的"
+      "result": true,
+      "reason": "不同职业的人，如学生、工程师、设计师等都使用笔记本电脑。"
     },
     {
       "ruleId": 22,
-      "result": true,
-      "reason": "可以使用很多年"
+      "result": false,
+      "reason": "笔记本电脑本身不具有宗教意义。"
     },
     {
       "ruleId": 23,
       "result": true,
-      "reason": "在室内使用"
+      "reason": "笔记本电脑作为电子设备，与宗教活动无关。"
     },
     {
       "ruleId": 24,
-      "result": false,
-      "reason": "不在室外使用"
+      "result": true,
+      "reason": "笔记本电脑可用于游戏、影音娱乐，带来快乐体验。"
     },
     {
       "ruleId": 25,
       "result": true,
-      "reason": "经常在电影和电视节目中出现"
+      "reason": "驾驶或行走时使用笔记本电脑可能带来安全风险。"
     },
     {
       "ruleId": 26,
       "result": true,
-      "reason": "被各种职业的人使用"
+      "reason": "笔记本电脑上有丰富的游戏和娱乐应用。"
     },
     {
       "ruleId": 27,
-      "result": false,
-      "reason": "没有重要的宗教意义"
+      "result": true,
+      "reason": "笔记本电脑常用于办公、编程、设计等重要工作任务。"
     },
     {
       "ruleId": 28,
-      "result": true,
-      "reason": "主要是世俗性质"
+      "result": false,
+      "reason": "笔记本电脑无季节限制，可全年使用。"
     },
     {
       "ruleId": 29,
       "result": true,
-      "reason": "在工厂批量生产"
+      "reason": "笔记本电脑设计用于全年任何时间使用。"
     },
     {
       "ruleId": 30,
       "result": false,
-      "reason": "通常不是手工制作的"
+      "reason": "笔记本电脑界面直观，上手门槛不高。"
     },
     {
       "ruleId": 31,
       "result": true,
-      "reason": "通过工作和娱乐带来快乐"
+      "reason": "大多数人能轻松学会使用笔记本电脑。"
     },
     {
       "ruleId": 32,
-      "result": false,
-      "reason": "不吓人或危险"
+      "result": true,
+      "reason": "在正式商务场合中，笔记本电脑被广泛使用。"
     },
     {
       "ruleId": 33,
       "result": true,
-      "reason": "用于娱乐和游戏"
+      "reason": "在休闲环境中，人们也常用笔记本电脑娱乐和浏览。"
     },
     {
       "ruleId": 34,
-      "result": true,
-      "reason": "用于工作和学习"
+      "result": false,
+      "reason": "笔记本电脑更新换代快，一般不作为收藏品。"
     },
     {
       "ruleId": 35,
       "result": false,
-      "reason": "不是只在特定季节使用"
+      "reason": "笔记本电脑不属于任何传统仪式或习俗的一部分。"
     },
     {
       "ruleId": 36,
       "result": true,
-      "reason": "全年都可以使用"
+      "reason": "笔记本电脑的发明改变了人类工作和学习方式，具有历史重要性。"
     },
     {
       "ruleId": 37,
       "result": true,
-      "reason": "需要学习如何使用"
+      "reason": "笔记本电脑主要在过去几十年才广泛流行，现代使用远多于过去。"
     },
     {
       "ruleId": 38,
       "result": true,
-      "reason": "任何人都可以学习使用"
+      "reason": "笔记本电脑常在毕业、节日等场合作为礼物赠送。"
     },
     {
       "ruleId": 39,
-      "result": true,
-      "reason": "在正式场合使用"
+      "result": false,
+      "reason": "笔记本电脑作为礼物很普遍，不属于很少赠送的物品。"
     },
     {
       "ruleId": 40,
       "result": true,
-      "reason": "也在休闲场合使用"
+      "reason": "富人通常会购买高端笔记本电脑。"
     },
     {
       "ruleId": 41,
       "result": true,
-      "reason": "人们喜欢收藏不同型号的电脑"
+      "reason": "各收入阶层的人都使用笔记本电脑，普及率高。"
     },
     {
       "ruleId": 42,
-      "result": false,
-      "reason": "不是特定文化传统的一部分"
+      "result": true,
+      "reason": "市面上有大量关于笔记本电脑的书籍、影视和艺术作品。"
     },
     {
       "ruleId": 43,
-      "result": true,
-      "reason": "在历史上很重要"
+      "result": false,
+      "reason": "笔记本电脑在现代媒体中经常出现，不稀少。"
     },
     {
       "ruleId": 44,
-      "result": true,
-      "reason": "在当代仍然重要"
+      "result": false,
+      "reason": "笔记本电脑使用电池或电源，不依赖燃料。"
     },
     {
       "ruleId": 45,
-      "result": true,
-      "reason": "经常作为礼物赠送"
+      "result": false,
+      "reason": "笔记本电脑为可重复充电使用设计，非一次性用品。"
     },
     {
       "ruleId": 46,
       "result": false,
-      "reason": "不是罕见的礼物"
+      "reason": "笔记本电脑无季节性使用限制。"
     },
     {
       "ruleId": 47,
-      "result": false,
-      "reason": "不是只有富人才能拥有"
+      "result": true,
+      "reason": "笔记本电脑可反复使用，多次充电循环。"
     },
     {
       "ruleId": 48,
-      "result": true,
-      "reason": "各收入阶层的人都使用"
+      "result": false,
+      "reason": "使用笔记本电脑无需申请特别许可。"
     },
     {
       "ruleId": 49,
       "result": true,
-      "reason": "在艺术、文学和媒体中出现"
+      "reason": "全球数十亿部笔记本电脑在使用。"
     },
     {
       "ruleId": 50,
       "result": false,
-      "reason": "在故事中很常见"
+      "reason": "笔记本电脑种类和数量众多，不止一台。"
+    },
+    {
+      "ruleId": 51,
+      "result": true,
+      "reason": "笔记本电脑屏幕或机身跌落时容易损坏。"
+    },
+    {
+      "ruleId": 52,
+      "result": true,
+      "reason": "笔记本电脑设计便携，可随身携带。"
+    },
+    {
+      "ruleId": 53,
+      "result": true,
+      "reason": "笔记本电脑必须依靠电池或电源才能运行。"
+    },
+    {
+      "ruleId": 54,
+      "result": true,
+      "reason": "高端笔记本电脑价格常在万元以上，较为昂贵。"
+    },
+    {
+      "ruleId": 55,
+      "result": false,
+      "reason": "笔记本电脑为人造电子设备，在自然界不存在。"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "笔记本电脑虽具防水设计，但无法在水中保持干燥。"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "笔记本电脑结构密集，不具备漂浮能力。"
+    },
+    {
+      "ruleId": 58,
+      "result": true,
+      "reason": "笔记本电脑机身包含金属材质。"
+    },
+    {
+      "ruleId": 59,
+      "result": true,
+      "reason": "笔记本电脑运行时风扇和键盘敲击会发出声音。"
+    },
+    {
+      "ruleId": 60,
+      "result": false,
+      "reason": "笔记本电脑常见配色为黑、银、灰等，非鲜艳。"
+    },
+    {
+      "ruleId": 61,
+      "result": true,
+      "reason": "笔记本电脑内含贵金属和可回收材料，可进行回收。"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "笔记本电脑机身和屏幕均不透明。"
+    },
+    {
+      "ruleId": 63,
+      "result": true,
+      "reason": "笔记本电脑含铰链、风扇等活动部件。"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "笔记本电脑机身硬质，不会显得柔软。"
+    },
+    {
+      "ruleId": 65,
+      "result": true,
+      "reason": "笔记本电脑可折叠屏幕，通过铰链合拢。"
+    },
+    {
+      "ruleId": 66,
+      "result": false,
+      "reason": "笔记本电脑无需专业保养，仅需简单清洁。"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "笔记本电脑边缘一般圆润，不形成锋利棱角。"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "笔记本电脑是电子设备，不可食用。"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "笔记本电脑无明显气味。"
+    },
+    {
+      "ruleId": 70,
+      "result": true,
+      "reason": "笔记本电脑重量通常在1–2千克之间，较重。"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "笔记本电脑为手持设备，不能穿戴。"
+    },
+    {
+      "ruleId": 72,
+      "result": true,
+      "reason": "笔记本电脑在高负荷运行时会产生热量。"
+    },
+    {
+      "ruleId": 73,
+      "result": true,
+      "reason": "笔记本电脑电池过热时可能存在起火风险。"
+    },
+    {
+      "ruleId": 74,
+      "result": true,
+      "reason": "用户可通过贴膜、外壳等方式装饰笔记本电脑。"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "笔记本电脑出厂已完成组装，无需用户自行组装。"
+    },
+    {
+      "ruleId": 76,
+      "result": false,
+      "reason": "笔记本电脑所用材料难以自然分解。"
+    },
+    {
+      "ruleId": 77,
+      "result": true,
+      "reason": "笔记本电脑可整齐堆叠存放。"
+    },
+    {
+      "ruleId": 78,
+      "result": true,
+      "reason": "笔记本电脑屏幕和金属边框具有光泽。"
+    },
+    {
+      "ruleId": 79,
+      "result": false,
+      "reason": "笔记本电脑机身材质不会被普通磁铁吸引。"
+    },
+    {
+      "ruleId": 80,
+      "result": false,
+      "reason": "通常不对笔记本电脑进行喷漆，故不可上漆。"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "笔记本电脑机身不吸水，但需防潮设计。"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "笔记本电脑结构坚固，不易弯曲。"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "笔记本电脑遇水不会变色，但可能损坏。"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "笔记本电脑性能和电池寿命随时间逐渐变化。"
+    },
+    {
+      "ruleId": 85,
+      "result": false,
+      "reason": "笔记本电脑并非完全左右对称设计。"
+    },
+    {
+      "ruleId": 86,
+      "result": true,
+      "reason": "笔记本电脑可更换或维修屏幕、电池等部件。"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "笔记本电脑不依赖燃料，只需电力。"
+    },
+    {
+      "ruleId": 88,
+      "result": false,
+      "reason": "笔记本电脑表面常接触灰尘和细菌，不干净无菌。"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "大多数笔记本电脑不支持真正的水下使用。"
+    },
+    {
+      "ruleId": 90,
+      "result": true,
+      "reason": "笔记本电脑内部由数十种电子元件组成，非常复杂。"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "笔记本电脑为长期使用设备，非一次性设计。"
+    },
+    {
+      "ruleId": 92,
+      "result": false,
+      "reason": "笔记本电脑不适合放入烤箱等环境加热。"
+    },
+    {
+      "ruleId": 93,
+      "result": false,
+      "reason": "笔记本电脑可在普通环境中存放，无需特殊储存。"
+    },
+    {
+      "ruleId": 94,
+      "result": false,
+      "reason": "笔记本电脑为流水线生产，不是手工制作。"
+    },
+    {
+      "ruleId": 95,
+      "result": true,
+      "reason": "笔记本电脑屏幕和机身表面可用布料或酒精擦拭清洁。"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "笔记本电脑通常单独一台，不成对出现。"
+    },
+    {
+      "ruleId": 97,
+      "result": false,
+      "reason": "笔记本电脑无需季节性使用，可全年使用。"
+    },
+    {
+      "ruleId": 98,
+      "result": true,
+      "reason": "笔记本电脑除通讯外，还可作为绘图、测量等多功能工具。"
+    },
+    {
+      "ruleId": 99,
+      "result": false,
+      "reason": "使用笔记本电脑无需任何特别许可。"
+    },
+    {
+      "ruleId": 100,
+      "result": true,
+      "reason": "笔记本电脑可反复启停和充电，非一次性。"
+    },
+    {
+      "ruleId": 101,
+      "result": false,
+      "reason": "“笔记本电脑”为五个汉字，不是两个汉字。"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "“笔记本电脑”为五个汉字，不是三个汉字。"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "“笔记本电脑”为五个汉字，不是四个汉字。"
+    },
+    {
+      "ruleId": 104,
+      "result": true,
+      "reason": "“笔记本电脑”由五个汉字组成。"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "“笔记本电脑”中不包含“心”字或偏旁。"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "“笔记本电脑”中不包含“草”字或偏旁。"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "“笔记本电脑”中不包含“水”字或偏旁。"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "“笔记本电脑”中不包含“金”字或偏旁。"
+    },
+    {
+      "ruleId": 109,
+      "result": false,
+      "reason": "“笔记本电脑”中不包含木字旁（虽然“本”字有木字根，但偏旁非显性木）。"
+    },
+    {
+      "ruleId": 110,
+      "result": false,
+      "reason": "“笔记本电脑”中不包含“火”字或偏旁。"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "“笔记本电脑”中不包含“土”字或偏旁。"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "“笔记本电脑”中不包含“日”字或偏旁。"
+    },
+    {
+      "ruleId": 113,
+      "result": false,
+      "reason": "“笔记本电脑”中不包含“月”字或偏旁。"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "“笔记本电脑”中不包含“山”字或偏旁。"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "“笔记本电脑”中不包含“川”字或偏旁。"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "“笔记本电脑”中不包含“雨”字或偏旁。"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "“笔记本电脑”中不包含“人”字或偏旁。"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "“笔记本电脑”中不包含“手”字偏旁。"
+    },
+    {
+      "ruleId": 119,
+      "result": false,
+      "reason": "“笔记本电脑”中不包含“王”字或偏旁。"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "“笔记本电脑”中不包含“口”字或偏旁。"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "“笔记本电脑”中不包含“目”字或偏旁。"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "“笔记本电脑”中不包含“耳”字或偏旁。"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "“笔记本电脑”中不包含“足”字或偏旁。"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "“笔记本电脑”中不包含“言”字或偏旁。"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "“笔记本电脑”中不包含“食”字或偏旁。"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "“笔记本电脑”中不包含“衣”字或偏旁。"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "“笔记本电脑”中不包含“马”字或偏旁。"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "“笔记本电脑”中不包含“鱼”字或偏旁。"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "“笔记本电脑”中不包含“鸟”字或偏旁。"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "“笔记本电脑”中不包含“车”字或偏旁。"
+    },
+    {
+      "ruleId": 131,
+      "result": false,
+      "reason": "“笔记本电脑”结构为上下和左右混合，不是纯左右结构。"
+    },
+    {
+      "ruleId": 132,
+      "result": true,
+      "reason": "“笔记本电脑”整体呈上下结构：笔记本在上，电脑在下。"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "各字偏旁分别为⺮、讠、木、电、月，不全相同。"
+    },
+    {
+      "ruleId": 134,
+      "result": true,
+      "reason": "⺮、讠、木、电、月五个偏旁彼此均不同。"
+    },
+    {
+      "ruleId": 135,
+      "result": false,
+      "reason": "最少笔画的“记”字有5画，不少于7画要求。"
+    },
+    {
+      "ruleId": 136,
+      "result": false,
+      "reason": "“笔”(10画)超过少于10画的要求。"
+    },
+    {
+      "ruleId": 137,
+      "result": true,
+      "reason": "笔画最多的“笔”字10画，少于15画。"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "“笔”仅10画，不满足都多于12画的要求。"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "笔画数顺序 10、5、5、5、10，不是严格递增。"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "笔画数顺序也不符合严格递减。"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "声调为 3、4、3、4、3，不全相同。"
+    },
+    {
+      "ruleId": 142,
+      "result": false,
+      "reason": "声调有重复，不属于都不同。"
+    },
+    {
+      "ruleId": 143,
+      "result": true,
+      "reason": "无第一声字，符合不包含第一声的要求。"
+    },
+    {
+      "ruleId": 144,
+      "result": true,
+      "reason": "无第二声字，符合不包含第二声的要求。"
+    },
+    {
+      "ruleId": 145,
+      "result": false,
+      "reason": "包含第三声字（笔、本、脑）。"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "包含第四声字（记、电）。"
+    },
+    {
+      "ruleId": 147,
+      "result": false,
+      "reason": "无第一声字，不符合包含第一声的要求。"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "无第二声字，不符合包含第二声的要求。"
+    },
+    {
+      "ruleId": 149,
+      "result": true,
+      "reason": "包含第三声字，符合包含第三声的要求。"
+    },
+    {
+      "ruleId": 150,
+      "result": true,
+      "reason": "包含第四声字，符合包含第四声的要求。"
     }
-=======
-  "id": 7,
-  "word": "竹子",
-  "questions": [
-    { "ruleId": 1, "result": true, "reason": "竹子已存在数千年" },
-    { "ruleId": 2, "result": false, "reason": "不是1950年后发明的，是自然植物" },
-    { "ruleId": 3, "result": false, "reason": "不在大多数家庭中发现（虽然竹制品常见）" },
-    { "ruleId": 4, "result": true, "reason": "不常见于大多数住宅区生长" },
-    { "ruleId": 5, "result": false, "reason": "不是专门为儿童设计的" },
-    { "ruleId": 6, "result": false, "reason": "也不是专门为成年人设计的，是自然植物" },
-    { "ruleId": 7, "result": false, "reason": "不认为是豪华或昂贵的" },
-    { "ruleId": 8, "result": false, "reason": "不是大多数人的基本必需品" },
-    { "ruleId": 9, "result": true, "reason": "有许多实用用途（建筑、工具、食物）" },
-    { "ruleId": 10, "result": true, "reason": "常用于装饰目的" },
-    { "ruleId": 11, "result": true, "reason": "在自然界中发现" },
-    { "ruleId": 12, "result": false, "reason": "不在工厂制造（虽然竹制品是）" },
-    { "ruleId": 13, "result": false, "reason": "不与特殊场合相关" },
-    { "ruleId": 14, "result": false, "reason": "不是大多数人日常生活的一部分" },
-    { "ruleId": 15, "result": false, "reason": "不是典型的个人所有物（野生竹子）" },
-    { "ruleId": 16, "result": true, "reason": "在生长地区常是公共资源" },
-    { "ruleId": 17, "result": false, "reason": "不是高科技" },
-    { "ruleId": 18, "result": false, "reason": "不是机械的" },
-    { "ruleId": 19, "result": true, "reason": "在东亚文化中具有特殊意义" },
-    { "ruleId": 20, "result": true, "reason": "在许多不同文化中都有认知" },
-    { "ruleId": 21, "result": false, "reason": "不是一次性的" },
-    { "ruleId": 22, "result": true, "reason": "竹子可以生长很多年" },
-    { "ruleId": 23, "result": false, "reason": "不常在室内种植（虽然有时会）" },
-    { "ruleId": 24, "result": true, "reason": "在户外生长" },
-    { "ruleId": 25, "result": true, "reason": "经常出现在电影和电视节目中" },
-    { "ruleId": 26, "result": true, "reason": "被各种职业使用（建筑工人、手工艺人）" },
-    { "ruleId": 27, "result": true, "reason": "在一些文化中具有精神意义" },
-    { "ruleId": 28, "result": false, "reason": "在一些文化中具有宗教意义" },
-    { "ruleId": 29, "result": false, "reason": "不是批量生产的（虽然竹制品是）" },
-    { "ruleId": 30, "result": false, "reason": "不是手工制作的（虽然竹制品是）" },
-    { "ruleId": 31, "result": true, "reason": "常与和平与宁静联系在一起" },
-    { "ruleId": 32, "result": false, "reason": "不令人恐惧或危险" },
-    { "ruleId": 33, "result": false, "reason": "不主要用于娱乐" },
-    { "ruleId": 34, "result": true, "reason": "在建筑和工业中有严肃用途" },
-    { "ruleId": 35, "result": false, "reason": "不是季节性的，全年生长" },
-    { "ruleId": 36, "result": true, "reason": "全年存在" },
-    { "ruleId": 37, "result": true, "reason": "需要知识才能正确种植" },
-    { "ruleId": 38, "result": false, "reason": "种植竹子需要特定知识" },
-    { "ruleId": 39, "result": false, "reason": "不与正式场合相关" },
-    { "ruleId": 40, "result": true, "reason": "更与休闲/自然场合相关" },
-    { "ruleId": 41, "result": true, "reason": "有些人收藏竹子品种" },
-    { "ruleId": 42, "result": true, "reason": "是亚洲文化传统的一部分" },
-    { "ruleId": 43, "result": true, "reason": "具有历史重要性" },
-    { "ruleId": 44, "result": true, "reason": "在当代仍然相关" },
-    { "ruleId": 45, "result": false, "reason": "竹子植物很少作为礼物赠送" },
-    { "ruleId": 46, "result": true, "reason": "竹制品常作为礼物赠送" },
-    { "ruleId": 47, "result": false, "reason": "不与财富相关" },
-    { "ruleId": 48, "result": true, "reason": "被各个经济水平的人使用" },
-    { "ruleId": 49, "result": true, "reason": "在艺术、文学和媒体中出现" },
-    { "ruleId": 50, "result": true, "reason": "常象征坚韧和灵活" },
-    { "ruleId": 51, "result": true, "reason": "竹笋容易折断" },
-    { "ruleId": 52, "result": false, "reason": "生长的竹子不可携带" },
-    { "ruleId": 53, "result": false, "reason": "不需要电力" },
-    { "ruleId": 54, "result": false, "reason": "种子/竹笋价格不贵" },
-    { "ruleId": 55, "result": true, "reason": "在自然界中发现" },
-    { "ruleId": 56, "result": false, "reason": "不防水（虽然用于防水）" },
-    { "ruleId": 57, "result": false, "reason": "不漂浮（虽然竹筏会）" },
-    { "ruleId": 58, "result": false, "reason": "不含金属" },
-    { "ruleId": 59, "result": true, "reason": "风吹过竹林时会发出声音" },
-    { "ruleId": 60, "result": true, "reason": "年轻时自然呈现绿色和多彩" },
-    { "ruleId": 61, "result": true, "reason": "可生物降解/可回收" },
-    { "ruleId": 62, "result": false, "reason": "不透明" },
-    { "ruleId": 63, "result": false, "reason": "没有活动部件" },
-    { "ruleId": 64, "result": false, "reason": "触摸不柔软" },
-    { "ruleId": 65, "result": false, "reason": "不能折叠" },
-    { "ruleId": 66, "result": true, "reason": "种植时需要维护" },
-    { "ruleId": 67, "result": true, "reason": "劈开时边缘可能锋利" },
-    { "ruleId": 68, "result": true, "reason": "竹笋可食用" },
-    { "ruleId": 69, "result": false, "reason": "没有特殊气味" },
-    { "ruleId": 70, "result": true, "reason": "成熟时竹竿很重" },
-    { "ruleId": 71, "result": false, "reason": "不能佩戴" },
-    { "ruleId": 72, "result": false, "reason": "不产生热量" },
-    { "ruleId": 73, "result": true, "reason": "干燥的竹子易燃" },
-    { "ruleId": 74, "result": false, "reason": "不可定制（自然生长）" },
-    { "ruleId": 75, "result": false, "reason": "不需要组装" },
-    { "ruleId": 76, "result": true, "reason": "可生物降解" },
-    { "ruleId": 77, "result": true, "reason": "竹竿可以堆叠" },
-    { "ruleId": 78, "result": false, "reason": "不反光" },
-    { "ruleId": 79, "result": false, "reason": "不具有磁性" },
-    { "ruleId": 80, "result": false, "reason": "通常不涂漆" },
-    { "ruleId": 81, "result": true, "reason": "吸收水分" },
-    { "ruleId": 82, "result": true, "reason": "年轻的竹子有弹性" },
-    { "ruleId": 83, "result": true, "reason": "潮湿时变暗" },
-    { "ruleId": 84, "result": true, "reason": "随着生长和年龄变化" },
-    { "ruleId": 85, "result": true, "reason": "生长成对称的节段" },
-    { "ruleId": 86, "result": false, "reason": "损坏后不能修复" },
-    { "ruleId": 87, "result": false, "reason": "不需要燃料" },
-    { "ruleId": 88, "result": false, "reason": "不需要清洁" },
-    { "ruleId": 89, "result": false, "reason": "不能在水下工作" },
-    { "ruleId": 90, "result": false, "reason": "没有轮子" },
-    { "ruleId": 91, "result": false, "reason": "不是一次性的" },
-    { "ruleId": 92, "result": false, "reason": "不耐热" },
-    { "ruleId": 93, "result": false, "reason": "不需要特殊储存" },
-    { "ruleId": 94, "result": false, "reason": "不是手工制作的" },
-    { "ruleId": 95, "result": true, "reason": "表面可以清洁" },
-    { "ruleId": 96, "result": false, "reason": "不成对出现" },
-    { "ruleId": 97, "result": false, "reason": "不是季节性的" },
-    { "ruleId": 98, "result": true, "reason": "用作工具材料" },
-    { "ruleId": 99, "result": false, "reason": "种植不需要许可证" },
-    { "ruleId": 100, "result": true, "reason": "可以反复收获" },
-    { "ruleId": 101, "result": true, "reason": "\"竹\"字笔画数为6，少于10" },
-    { "ruleId": 102, "result": false, "reason": "只有两个字，不是四字以上" },
-    { "ruleId": 103, "result": false, "reason": "两个字的偏旁不一致" },
-    { "ruleId": 104, "result": true, "reason": "两个字的偏旁不一致" },
-    { "ruleId": 105, "result": false, "reason": "不是所有字都是上下结构" },
-    { "ruleId": 106, "result": false, "reason": "不是所有字都是左右结构" },
-    { "ruleId": 107, "result": false, "reason": "不包含多音字" },
-    { "ruleId": 108, "result": false, "reason": "所有字都有部首" },
-    { "ruleId": 109, "result": false, "reason": "两个字的声调不一致" },
-    { "ruleId": 110, "result": true, "reason": "两个字的声调不一致" },
-    { "ruleId": 111, "result": false, "reason": "不包含Z声母" },
-    { "ruleId": 112, "result": false, "reason": "不包含ZH声母" },
-    { "ruleId": 113, "result": false, "reason": "不包含ANG韵母" },
-    { "ruleId": 114, "result": false, "reason": "不包含ING韵母" },
-    { "ruleId": 115, "result": false, "reason": "不包含第一声" },
-    { "ruleId": 116, "result": false, "reason": "不包含第二声" },
-    { "ruleId": 117, "result": true, "reason": "包含第三声（\"竹\"字）" },
-    { "ruleId": 118, "result": true, "reason": "包含轻声（\"子\"字）" },
-    { "ruleId": 119, "result": false, "reason": "不包含轻声" },
-    { "ruleId": 120, "result": false, "reason": "不包含多音字" },
-    { "ruleId": 121, "result": false, "reason": "不是叠韵词" },
-    { "ruleId": 122, "result": false, "reason": "不包含提手旁" },
-    { "ruleId": 123, "result": false, "reason": "不包含木字旁" },
-    { "ruleId": 124, "result": false, "reason": "不包含三点水" },
-    { "ruleId": 125, "result": false, "reason": "不包含口字旁" },
-    { "ruleId": 126, "result": false, "reason": "不包含心字底" },
-    { "ruleId": 127, "result": false, "reason": "不包含走之底" },
-    { "ruleId": 128, "result": false, "reason": "不包含草字头" },
-    { "ruleId": 129, "result": false, "reason": "不包含AI韵母" },
-    { "ruleId": 130, "result": false, "reason": "不包含金字旁" },
-    { "ruleId": 131, "result": false, "reason": "不包含火字旁" },
-    { "ruleId": 132, "result": false, "reason": "不包含土字旁" },
-    { "ruleId": 133, "result": false, "reason": "不包含女字旁" },
-    { "ruleId": 134, "result": false, "reason": "不包含OU韵母" },
-    { "ruleId": 135, "result": false, "reason": "不包含月字旁" },
-    { "ruleId": 136, "result": false, "reason": "不包含日字旁" },
-    { "ruleId": 137, "result": false, "reason": "不包含EI韵母" },
-    { "ruleId": 138, "result": false, "reason": "不包含马字旁" },
-    { "ruleId": 139, "result": false, "reason": "不包含UI韵母" },
-    { "ruleId": 140, "result": false, "reason": "不包含重复元素" },
-    { "ruleId": 141, "result": false, "reason": "不包含贝字旁" },
-    { "ruleId": 142, "result": false, "reason": "不包含车字旁" },
-    { "ruleId": 143, "result": false, "reason": "不包含IE韵母" },
-    { "ruleId": 144, "result": false, "reason": "不包含AO韵母" },
-    { "ruleId": 145, "result": false, "reason": "没有字的笔画数超过15" },
-    { "ruleId": 146, "result": false, "reason": "没有字的笔画数在10-15之间" },
-    { "ruleId": 147, "result": true, "reason": "\"竹\"字笔画数为6，在5-9之间" },
-    { "ruleId": 148, "result": false, "reason": "没有字的笔画数少于5" },
-    { "ruleId": 149, "result": false, "reason": "\"竹\"字笔画数为6，不是奇数" },
-    { "ruleId": 150, "result": false, "reason": "不包含宝盖头" }
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
   ]
-} 
+}

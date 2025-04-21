@@ -1,755 +1,156 @@
-<<<<<<< HEAD
-{"id":"14","word":"太阳镜","questions":[{"ruleId":1,"result":false,"reason":"不是非常古老的物品"},{"ruleId":2,"result":true,"reason":"现代太阳镜是1950年后制造的"},{"ruleId":3,"result":true,"reason":"许多家庭都有太阳镜"},{"ruleId":4,"result":false,"reason":"不是稀有物品"},{"ruleId":5,"result":true,"reason":"儿童也使用太阳镜"},{"ruleId":6,"result":true,"reason":"成年人经常使用太阳镜"},{"ruleId":7,"result":true,"reason":"可以是奢侈或昂贵的"},{"ruleId":8,"result":true,"reason":"许多人需要太阳镜"},{"ruleId":9,"result":true,"reason":"用于保护眼睛"},{"ruleId":10,"result":true,"reason":"是时尚配饰"},{"ruleId":11,"result":false,"reason":"不是在自然界中存在的"},{"ruleId":12,"result":true,"reason":"在工厂批量生产"},{"ruleId":13,"result":false,"reason":"不是用于特殊场合的"},{"ruleId":14,"result":true,"reason":"每天都会使用"},{"ruleId":15,"result":true,"reason":"通常是个人物品"},{"ruleId":16,"result":false,"reason":"通常不会在多人之间共享"},{"ruleId":17,"result":true,"reason":"可以是高科技产品"},{"ruleId":18,"result":true,"reason":"基于简单设计"},{"ruleId":19,"result":false,"reason":"不是来自特定国家或文化"},{"ruleId":20,"result":true,"reason":"在世界各地都能找到"},{"ruleId":21,"result":false,"reason":"不是使用后丢弃的"},{"ruleId":22,"result":true,"reason":"可以使用很多年"},{"ruleId":23,"result":false,"reason":"主要在室外使用"},{"ruleId":24,"result":true,"reason":"在室内和室外都可以使用"},{"ruleId":25,"result":true,"reason":"经常在电影和电视节目中出现"},{"ruleId":26,"result":true,"reason":"被各种职业的人使用"},{"ruleId":27,"result":false,"reason":"没有重要的宗教意义"},{"ruleId":28,"result":true,"reason":"主要是世俗性质"},{"ruleId":29,"result":true,"reason":"在工厂批量生产"},{"ruleId":30,"result":false,"reason":"通常不是手工制作的"},{"ruleId":31,"result":true,"reason":"通过保护眼睛带来安全感"},{"ruleId":32,"result":false,"reason":"不吓人或危险"},{"ruleId":33,"result":true,"reason":"用于娱乐"},{"ruleId":34,"result":true,"reason":"用于工作和生活"},{"ruleId":35,"result":true,"reason":"主要在夏季使用"},{"ruleId":36,"result":true,"reason":"全年都可以使用"},{"ruleId":37,"result":true,"reason":"需要适应使用"},{"ruleId":38,"result":true,"reason":"任何人都可以使用"},{"ruleId":39,"result":true,"reason":"在正式场合使用"},{"ruleId":40,"result":true,"reason":"也在休闲场合使用"},{"ruleId":41,"result":true,"reason":"人们经常收藏太阳镜"},{"ruleId":42,"result":false,"reason":"不是特定文化传统的一部分"},{"ruleId":43,"result":true,"reason":"在历史上很重要"},{"ruleId":44,"result":true,"reason":"在当代仍然重要"},{"ruleId":45,"result":true,"reason":"经常作为礼物赠送"},{"ruleId":46,"result":true,"reason":"可以是罕见的礼物"},{"ruleId":47,"result":false,"reason":"不是只有富人才能拥有"},{"ruleId":48,"result":true,"reason":"各收入阶层的人都使用"},{"ruleId":49,"result":true,"reason":"在艺术、文学和媒体中出现"},{"ruleId":50,"result":true,"reason":"在故事中很常见"}]} 
-=======
 {
   "id": "14",
-  "word": "羽毛",
+  "word": "鸽子",
   "questions": [
-    {
-      "ruleId": 1,
-      "result": false,
-      "reason": "羽毛不是人工制品，不是1000年前发明的"
-    },
-    {
-      "ruleId": 2,
-      "result": true,
-      "reason": "现代商业用羽毛加工在1950年后发展"
-    },
-    {
-      "ruleId": 3,
-      "result": false,
-      "reason": "不在大多数家庭中发现"
-    },
-    {
-      "ruleId": 4,
-      "result": true,
-      "reason": "不常见于大多数家庭"
-    },
-    {
-      "ruleId": 5,
-      "result": false,
-      "reason": "不是专门为儿童设计的"
-    },
-    {
-      "ruleId": 6,
-      "result": true,
-      "reason": "更常用于成年人的工艺品和装饰"
-    },
-    {
-      "ruleId": 7,
-      "result": false,
-      "reason": "不认为是豪华或昂贵的"
-    },
-    {
-      "ruleId": 8,
-      "result": false,
-      "reason": "不是基本必需品"
-    },
-    {
-      "ruleId": 9,
-      "result": true,
-      "reason": "有实用用途（历史上用作毛笔，保暖）"
-    },
-    {
-      "ruleId": 10,
-      "result": true,
-      "reason": "常用于装饰"
-    },
-    {
-      "ruleId": 11,
-      "result": true,
-      "reason": "在鸟类身上自然存在"
-    },
-    {
-      "ruleId": 12,
-      "result": false,
-      "reason": "不在工厂制造，由鸟类自然产生"
-    },
-    {
-      "ruleId": 13,
-      "result": true,
-      "reason": "用于特殊场合的服装和装饰"
-    },
-    {
-      "ruleId": 14,
-      "result": false,
-      "reason": "不是大多数人日常生活的一部分"
-    },
-    {
-      "ruleId": 15,
-      "result": false,
-      "reason": "不是典型的个人所有物（除了收藏）"
-    },
-    {
-      "ruleId": 16,
-      "result": false,
-      "reason": "不是多人共享的物品"
-    },
-    {
-      "ruleId": 17,
-      "result": false,
-      "reason": "不是高科技"
-    },
-    {
-      "ruleId": 18,
-      "result": false,
-      "reason": "不是机械的"
-    },
-    {
-      "ruleId": 19,
-      "result": true,
-      "reason": "在中国传统文化中具有特殊意义"
-    },
-    {
-      "ruleId": 20,
-      "result": true,
-      "reason": "在许多不同文化中都有认知"
-    },
-    {
-      "ruleId": 21,
-      "result": true,
-      "reason": "找到时通常被视为一次性物品"
-    },
-    {
-      "ruleId": 22,
-      "result": false,
-      "reason": "单个羽毛不经过保存不能持续多年"
-    },
-    {
-      "ruleId": 23,
-      "result": true,
-      "reason": "用于室内装饰和工艺品"
-    },
-    {
-      "ruleId": 24,
-      "result": false,
-      "reason": "不主要用于户外"
-    },
-    {
-      "ruleId": 25,
-      "result": true,
-      "reason": "经常出现在电影和电视节目中"
-    },
-    {
-      "ruleId": 26,
-      "result": true,
-      "reason": "被各种职业使用（服装设计师，手工艺人）"
-    },
-    {
-      "ruleId": 27,
-      "result": true,
-      "reason": "在许多文化中具有精神意义"
-    },
-    {
-      "ruleId": 28,
-      "result": false,
-      "reason": "在一些文化中具有宗教意义"
-    },
-    {
-      "ruleId": 29,
-      "result": false,
-      "reason": "不是批量生产的，自然产生的"
-    },
-    {
-      "ruleId": 30,
-      "result": false,
-      "reason": "不是手工制作的，但用于手工艺品"
-    },
-    {
-      "ruleId": 31,
-      "result": true,
-      "reason": "常与愉悦的感觉相关（柔软，痒痒的）"
-    },
-    {
-      "ruleId": 32,
-      "result": false,
-      "reason": "不令人恐惧或危险"
-    },
-    {
-      "ruleId": 33,
-      "result": true,
-      "reason": "用于游戏和娱乐（挠痒，工艺品）"
-    },
-    {
-      "ruleId": 34,
-      "result": true,
-      "reason": "也有严肃用途（保暖，历史上用作毛笔）"
-    },
-    {
-      "ruleId": 35,
-      "result": false,
-      "reason": "全年都有，不是季节性的"
-    },
-    {
-      "ruleId": 36,
-      "result": true,
-      "reason": "鸟类全年都有羽毛"
-    },
-    {
-      "ruleId": 37,
-      "result": false,
-      "reason": "不需要特殊知识就能识别或使用"
-    },
-    {
-      "ruleId": 38,
-      "result": true,
-      "reason": "任何人都容易识别和使用"
-    },
-    {
-      "ruleId": 39,
-      "result": false,
-      "reason": "不与正式场合相关"
-    },
-    {
-      "ruleId": 40,
-      "result": true,
-      "reason": "更常见于休闲或艺术场合"
-    },
-    {
-      "ruleId": 41,
-      "result": true,
-      "reason": "有人收藏羽毛"
-    },
-    {
-      "ruleId": 42,
-      "result": true,
-      "reason": "是许多社会文化传统的一部分"
-    },
-    {
-      "ruleId": 43,
-      "result": true,
-      "reason": "具有历史重要性（毛笔，装饰）"
-    },
-    {
-      "ruleId": 44,
-      "result": true,
-      "reason": "至今仍被使用"
-    },
-    {
-      "ruleId": 45,
-      "result": false,
-      "reason": "不常作为礼物赠送"
-    },
-    {
-      "ruleId": 46,
-      "result": true,
-      "reason": "很少单独作为礼物赠送"
-    },
-    {
-      "ruleId": 47,
-      "result": false,
-      "reason": "不与财富相关"
-    },
-    {
-      "ruleId": 48,
-      "result": true,
-      "reason": "各个经济水平的人都可以获得"
-    },
-    {
-      "ruleId": 49,
-      "result": true,
-      "reason": "在艺术、文学和媒体中出现"
-    },
-    {
-      "ruleId": 50,
-      "result": true,
-      "reason": "常象征轻盈、自由或飞翔"
-    },
-    {
-      "ruleId": 51,
-      "result": true,
-      "reason": "容易折断或弯曲"
-    },
-    {
-      "ruleId": 52,
-      "result": true,
-      "reason": "非常轻便易携带"
-    },
-    {
-      "ruleId": 53,
-      "result": false,
-      "reason": "不需要电力"
-    },
-    {
-      "ruleId": 54,
-      "result": false,
-      "reason": "获取成本很低或免费"
-    },
-    {
-      "ruleId": 55,
-      "result": true,
-      "reason": "在鸟类身上自然存在"
-    },
-    {
-      "ruleId": 56,
-      "result": false,
-      "reason": "不防水，虽然水可以在某些羽毛上形成水珠"
-    },
-    {
-      "ruleId": 57,
-      "result": true,
-      "reason": "能漂浮在水上"
-    },
-    {
-      "ruleId": 58,
-      "result": false,
-      "reason": "不含金属"
-    },
-    {
-      "ruleId": 59,
-      "result": false,
-      "reason": "使用时几乎不发出声音"
-    },
-    {
-      "ruleId": 60,
-      "result": true,
-      "reason": "通常色彩鲜艳，尤其是热带鸟类"
-    },
-    {
-      "ruleId": 61,
-      "result": true,
-      "reason": "可生物降解"
-    },
-    {
-      "ruleId": 62,
-      "result": false,
-      "reason": "不透明"
-    },
-    {
-      "ruleId": 63,
-      "result": false,
-      "reason": "没有活动部件"
-    },
-    {
-      "ruleId": 64,
-      "result": true,
-      "reason": "触摸非常柔软"
-    },
-    {
-      "ruleId": 65,
-      "result": false,
-      "reason": "不能折叠而不损坏"
-    },
-    {
-      "ruleId": 66,
-      "result": false,
-      "reason": "不需要维护"
-    },
-    {
-      "ruleId": 67,
-      "result": false,
-      "reason": "不锋利（除了羽毛笔尖）"
-    },
-    {
-      "ruleId": 68,
-      "result": false,
-      "reason": "不能食用"
-    },
-    {
-      "ruleId": 69,
-      "result": false,
-      "reason": "没有特殊气味"
-    },
-    {
-      "ruleId": 70,
-      "result": false,
-      "reason": "极其轻量"
-    },
-    {
-      "ruleId": 71,
-      "result": true,
-      "reason": "可以穿戴（在帽子、服装上）"
-    },
-    {
-      "ruleId": 72,
-      "result": false,
-      "reason": "不产生热量"
-    },
-    {
-      "ruleId": 73,
-      "result": true,
-      "reason": "干燥时易燃"
-    },
-    {
-      "ruleId": 74,
-      "result": false,
-      "reason": "不能定制（自然形成）"
-    },
-    {
-      "ruleId": 75,
-      "result": false,
-      "reason": "不需要组装"
-    },
-    {
-      "ruleId": 76,
-      "result": true,
-      "reason": "自然可生物降解"
-    },
-    {
-      "ruleId": 77,
-      "result": true,
-      "reason": "多根羽毛可以堆叠"
-    },
-    {
-      "ruleId": 78,
-      "result": false,
-      "reason": "不反光"
-    },
-    {
-      "ruleId": 79,
-      "result": false,
-      "reason": "不具有磁性"
-    },
-    {
-      "ruleId": 80,
-      "result": true,
-      "reason": "可以染成不同颜色"
-    },
-    {
-      "ruleId": 81,
-      "result": true,
-      "reason": "吸收水分"
-    },
-    {
-      "ruleId": 82,
-      "result": true,
-      "reason": "有弹性，可以弯曲而不折断"
-    },
-    {
-      "ruleId": 83,
-      "result": true,
-      "reason": "潮湿时变暗并结块"
-    },
-    {
-      "ruleId": 84,
-      "result": true,
-      "reason": "随时间 deterioration"
-    },
-    {
-      "ruleId": 85,
-      "result": true,
-      "reason": "通常形状对称"
-    },
-    {
-      "ruleId": 86,
-      "result": false,
-      "reason": "损坏后不能修复"
-    },
-    {
-      "ruleId": 87,
-      "result": false,
-      "reason": "不需要燃料"
-    },
-    {
-      "ruleId": 88,
-      "result": false,
-      "reason": "自然功能不需要清洁"
-    },
-    {
-      "ruleId": 89,
-      "result": false,
-      "reason": "不能在水下工作"
-    },
-    {
-      "ruleId": 90,
-      "result": false,
-      "reason": "没有轮子"
-    },
-    {
-      "ruleId": 91,
-      "result": true,
-      "reason": "找到后或使用一次后常被丢弃"
-    },
-    {
-      "ruleId": 92,
-      "result": false,
-      "reason": "容易燃烧，不耐热"
-    },
-    {
-      "ruleId": 93,
-      "result": false,
-      "reason": "不需要特殊储存"
-    },
-    {
-      "ruleId": 94,
-      "result": false,
-      "reason": "不是手工制作的，自然产生的"
-    },
-    {
-      "ruleId": 95,
-      "result": true,
-      "reason": "如果有灰尘可以清洁"
-    },
-    {
-      "ruleId": 96,
-      "result": false,
-      "reason": "不成对出现"
-    },
-    {
-      "ruleId": 97,
-      "result": true,
-      "reason": "某些鸟类季节性换羽"
-    },
-    {
-      "ruleId": 98,
-      "result": true,
-      "reason": "历史上用作书写工具（毛笔）"
-    },
-    {
-      "ruleId": 99,
-      "result": false,
-      "reason": "收集不需要许可证（除了保护物种）"
-    },
-    {
-      "ruleId": 100,
-      "result": false,
-      "reason": "每根羽毛在使用磨损前用途有限"
-    },
-    {
-      "ruleId": 101,
-      "result": true,
-      "reason": "有两个音节（yǔ-máo）"
-    },
-    {
-      "ruleId": 102,
-      "result": false,
-      "reason": "不以元音开头"
-    },
-    {
-      "ruleId": 103,
-      "result": false,
-      "reason": "不以元音结尾"
-    },
-    {
-      "ruleId": 104,
-      "result": false,
-      "reason": "有两个字，不是五个"
-    },
-    {
-      "ruleId": 105,
-      "result": true,
-      "reason": "包含'a'和'o'音"
-    },
-    {
-      "ruleId": 106,
-      "result": true,
-      "reason": "第一个字'羽'在字母表中在最后一个字'毛'之前"
-    },
-    {
-      "ruleId": 107,
-      "result": false,
-      "reason": "不是复合词"
-    },
-    {
-      "ruleId": 108,
-      "result": false,
-      "reason": "没有重复的字"
-    },
-    {
-      "ruleId": 109,
-      "result": true,
-      "reason": "以'y'开头，在字母表前半部分"
-    },
-    {
-      "ruleId": 110,
-      "result": true,
-      "reason": "有两个字（超过6个字母）"
-    },
-    {
-      "ruleId": 111,
-      "result": true,
-      "reason": "可以用作名词或动词（给某物加羽毛）"
-    },
-    {
-      "ruleId": 112,
-      "result": false,
-      "reason": "不包含'k'音"
-    },
-    {
-      "ruleId": 113,
-      "result": false,
-      "reason": "有超过4个不同的字（羽、毛）"
-    },
-    {
-      "ruleId": 114,
-      "result": false,
-      "reason": "没有公认的前缀"
-    },
-    {
-      "ruleId": 115,
-      "result": false,
-      "reason": "包含'a'但不包含'b'音"
-    },
-    {
-      "ruleId": 116,
-      "result": false,
-      "reason": "前两个字'羽'和'毛'不是按字母顺序排列"
-    },
-    {
-      "ruleId": 117,
-      "result": true,
-      "reason": "包含'r'音"
-    },
-    {
-      "ruleId": 118,
-      "result": true,
-      "reason": "有三个辅音连在一起'thr'"
-    },
-    {
-      "ruleId": 119,
-      "result": true,
-      "reason": "有两个字（在6-8个字母范围内）"
-    },
-    {
-      "ruleId": 120,
-      "result": true,
-      "reason": "有后缀'-er'（像writer, player）"
-    },
-    {
-      "ruleId": 121,
-      "result": true,
-      "reason": "包含't'音"
-    },
-    {
-      "ruleId": 122,
-      "result": false,
-      "reason": "不包含'z'音"
-    },
-    {
-      "ruleId": 123,
-      "result": false,
-      "reason": "没有重复的字"
-    },
-    {
-      "ruleId": 124,
-      "result": false,
-      "reason": "有两个音节，不是三个"
-    },
-    {
-      "ruleId": 125,
-      "result": false,
-      "reason": "不包含颜色名称"
-    },
-    {
-      "ruleId": 126,
-      "result": false,
-      "reason": "没有无声辅音"
-    },
-    {
-      "ruleId": 127,
-      "result": true,
-      "reason": "可以用作动词"
-    },
-    {
-      "ruleId": 128,
-      "result": true,
-      "reason": "以'er'结尾"
-    },
-    {
-      "ruleId": 129,
-      "result": false,
-      "reason": "字不是按字母顺序排列"
-    },
-    {
-      "ruleId": 130,
-      "result": true,
-      "reason": "有两个元音相邻'ea'"
-    },
-    {
-      "ruleId": 131,
-      "result": true,
-      "reason": "没有重复的字"
-    },
-    {
-      "ruleId": 132,
-      "result": false,
-      "reason": "不包含'q'音"
-    },
-    {
-      "ruleId": 133,
-      "result": false,
-      "reason": "只包含2个元音（e,a）"
-    },
-    {
-      "ruleId": 134,
-      "result": false,
-      "reason": "有2个元音和5个辅音（不是更多元音）"
-    },
-    {
-      "ruleId": 135,
-      "result": false,
-      "reason": "有7个字母（奇数）"
-    },
-    {
-      "ruleId": 136,
-      "result": true,
-      "reason": "恰好有2个元音"
-    },
-    {
-      "ruleId": 137,
-      "result": false,
-      "reason": "最后一个字母'r'不在中间字母'a'之前"
-    },
-    {
-      "ruleId": 138,
-      "result": false,
-      "reason": "不以元音结尾"
-    },
-    {
-      "ruleId": 139,
-      "result": false,
-      "reason": "不以相同的字母开头和结尾"
-    },
-    {
-      "ruleId": 140,
-      "result": false,
-      "reason": "有两个音节，不是一个"
-    },
-    {
-      "ruleId": 141,
-      "result": false,
-      "reason": "不是缩写"
-    },
-    {
-      "ruleId": 142,
-      "result": true,
-      "reason": "包含'th'"
-    },
-    {
-      "ruleId": 143,
-      "result": false,
-      "reason": "没有字母出现多次"
-    },
-    {
-      "ruleId": 144,
-      "result": false,
-      "reason": "没有'y'音"
-    },
-    {
-      "ruleId": 145,
-      "result": true,
-      "reason": "以辅音'f'开头，以辅音'r'结尾"
-    },
-    {
-      "ruleId": 146,
-      "result": false,
-      "reason": "包含'th'但不包含'sh'或'ch'"
-    },
-    {
-      "ruleId": 147,
-      "result": false,
-      "reason": "包含字母表两半的字"
-    },
-    {
-      "ruleId": 148,
-      "result": false,
-      "reason": "不以'ly'结尾"
-    },
-    {
-      "ruleId": 149,
-      "result": false,
-      "reason": "拼写时不包含数字"
-    }
+    {"ruleId": 1, "result": true, "reason": "鸽子作为鸟类已存在数千年。"},
+    {"ruleId": 2, "result": false, "reason": "鸽子在1950年前就已广泛存在。"},
+    {"ruleId": 3, "result": true, "reason": "许多家庭饲养鸽子作为宠物。"},
+    {"ruleId": 4, "result": false, "reason": "鸽子在全球分布广泛，不属于稀有物种。"},
+    {"ruleId": 5, "result": false, "reason": "不是专为儿童设计的物品。"},
+    {"ruleId": 6, "result": false, "reason": "不是专为成人设计的物品。"},
+    {"ruleId": 7, "result": false, "reason": "不是每个人必需品。"},
+    {"ruleId": 8, "result": false, "reason": "不直接帮助人类完成任务。"},
+    {"ruleId": 9, "result": false, "reason": "不专用于特殊场合。"},
+    {"ruleId": 10, "result": false, "reason": "不是日常生活必需品。"},
+    {"ruleId": 11, "result": true, "reason": "可以作为宠物被个人拥有。"},
+    {"ruleId": 12, "result": false, "reason": "通常不是家庭共享物品。"},
+    {"ruleId": 13, "result": false, "reason": "不需要电力运行。"},
+    {"ruleId": 14, "result": true, "reason": "在多个文化中有特殊意义，如和平象征。"},
+    {"ruleId": 15, "result": true, "reason": "全球各地都有鸽子。"},
+    {"ruleId": 16, "result": false, "reason": "不是一次性物品。"},
+    {"ruleId": 17, "result": true, "reason": "鸽子可以活多年。"},
+    {"ruleId": 18, "result": false, "reason": "不是专门的室内物品。"},
+    {"ruleId": 19, "result": true, "reason": "主要在户外活动。"},
+    {"ruleId": 20, "result": true, "reason": "在电影和电视中经常出现。"},
+    {"ruleId": 21, "result": false, "reason": "不是职业相关物品。"},
+    {"ruleId": 22, "result": true, "reason": "在某些宗教仪式中有象征意义。"},
+    {"ruleId": 23, "result": false, "reason": "在某些宗教中有特殊意义，如基督教。"},
+    {"ruleId": 24, "result": true, "reason": "观赏鸽子可以带来愉悦感。"},
+    {"ruleId": 25, "result": false, "reason": "通常不会引起恐惧。"},
+    {"ruleId": 26, "result": false, "reason": "不是游戏或娱乐物品。"},
+    {"ruleId": 27, "result": false, "reason": "不用于严肃工作场合。"},
+    {"ruleId": 28, "result": false, "reason": "全年都可以看到，不是季节性物品。"},
+    {"ruleId": 29, "result": true, "reason": "在任何季节都存在。"},
+    {"ruleId": 30, "result": false, "reason": "不需要特殊技能使用。"},
+    {"ruleId": 31, "result": true, "reason": "容易辨认和理解。"},
+    {"ruleId": 32, "result": false, "reason": "不常用于正式场合。"},
+    {"ruleId": 33, "result": true, "reason": "常见于非正式场合如公园。"},
+    {"ruleId": 34, "result": true, "reason": "有人收集不同品种的鸽子。"},
+    {"ruleId": 35, "result": true, "reason": "在某些传统节日和活动中有特殊意义。"},
+    {"ruleId": 36, "result": false, "reason": "在历史上不是特别重要的发明。"},
+    {"ruleId": 37, "result": false, "reason": "古代就已存在。"},
+    {"ruleId": 38, "result": false, "reason": "不常作为礼物赠送。"},
+    {"ruleId": 39, "result": true, "reason": "很少被当作礼物赠送。"},
+    {"ruleId": 40, "result": false, "reason": "不是富人专属物品。"},
+    {"ruleId": 41, "result": true, "reason": "各收入阶层的人都可能接触到鸽子。"},
+    {"ruleId": 42, "result": true, "reason": "有关于鸽子的书籍和文章。"},
+    {"ruleId": 43, "result": false, "reason": "在媒体和日常生活中常见。"},
+    {"ruleId": 44, "result": false, "reason": "不需要燃料运行。"},
+    {"ruleId": 45, "result": false, "reason": "不是一次性产品。"},
+    {"ruleId": 46, "result": false, "reason": "不是季节性商品。"},
+    {"ruleId": 47, "result": true, "reason": "可以长期观察或饲养。"},
+    {"ruleId": 48, "result": false, "reason": "不需要许可证即可观察野生鸽子。"},
+    {"ruleId": 49, "result": true, "reason": "世界上有数亿只鸽子。"},
+    {"ruleId": 50, "result": false, "reason": "作为生物种类，没有多种不同的鸽子。"},
+    {"ruleId": 51, "result": true, "reason": "鸽子脆弱，容易受伤。"},
+    {"ruleId": 52, "result": false, "reason": "活体鸽子不便携带。"},
+    {"ruleId": 53, "result": false, "reason": "不需要电力。"},
+    {"ruleId": 54, "result": false, "reason": "观察野生鸽子不需要花钱。"},
+    {"ruleId": 55, "result": true, "reason": "是自然生物。"},
+    {"ruleId": 56, "result": false, "reason": "不能在水下使用。"},
+    {"ruleId": 57, "result": false, "reason": "不能在水上漂浮。"},
+    {"ruleId": 58, "result": false, "reason": "不是由金属制成。"},
+    {"ruleId": 59, "result": true, "reason": "鸽子会发出咕咕声。"},
+    {"ruleId": 60, "result": true, "reason": "鸽子有多种颜色变种。"},
+    {"ruleId": 61, "result": false, "reason": "作为生物体，不可回收。"},
+    {"ruleId": 62, "result": false, "reason": "鸽子身体不透明。"},
+    {"ruleId": 63, "result": true, "reason": "鸽子有翅膀、喙等活动部件。"},
+    {"ruleId": 64, "result": true, "reason": "鸽子的身体柔软。"},
+    {"ruleId": 65, "result": false, "reason": "不能折叠。"},
+    {"ruleId": 66, "result": true, "reason": "饲养鸽子需要定期清洁和维护。"},
+    {"ruleId": 67, "result": false, "reason": "鸽子没有锋利的边缘。"},
+    {"ruleId": 68, "result": true, "reason": "鸽子肉可食用。"},
+    {"ruleId": 69, "result": true, "reason": "鸽子有特殊的气味。"},
+    {"ruleId": 70, "result": false, "reason": "鸽子体重轻。"},
+    {"ruleId": 71, "result": false, "reason": "不能穿戴。"},
+    {"ruleId": 72, "result": true, "reason": "鸽子体温温暖。"},
+    {"ruleId": 73, "result": false, "reason": "不会燃烧。"},
+    {"ruleId": 74, "result": false, "reason": "不能像物品一样装饰。"},
+    {"ruleId": 75, "result": false, "reason": "不需要组装。"},
+    {"ruleId": 76, "result": true, "reason": "死后会自然分解。"},
+    {"ruleId": 77, "result": false, "reason": "不能堆叠。"},
+    {"ruleId": 78, "result": false, "reason": "羽毛不特别有光泽。"},
+    {"ruleId": 79, "result": false, "reason": "不会被磁铁吸引。"},
+    {"ruleId": 80, "result": false, "reason": "不能像物品一样上漆。"},
+    {"ruleId": 81, "result": false, "reason": "羽毛有一定防水性。"},
+    {"ruleId": 82, "result": false, "reason": "不能弯曲成任意形状。"},
+    {"ruleId": 83, "result": false, "reason": "遇水不会变色。"},
+    {"ruleId": 84, "result": true, "reason": "会随时间老化和死亡。"},
+    {"ruleId": 85, "result": true, "reason": "身体大致左右对称。"},
+    {"ruleId": 86, "result": false, "reason": "受伤后可以痊愈，但不像物品可以修复。"},
+    {"ruleId": 87, "result": false, "reason": "不需要燃料运行。"},
+    {"ruleId": 88, "result": false, "reason": "不产生灰尘或污垢。"},
+    {"ruleId": 89, "result": false, "reason": "不能在水下使用。"},
+    {"ruleId": 90, "result": true, "reason": "由多个身体系统组成。"},
+    {"ruleId": 91, "result": false, "reason": "寿命有限，不是永久物品。"},
+    {"ruleId": 92, "result": false, "reason": "不需要加热使用。"},
+    {"ruleId": 93, "result": true, "reason": "需要合适的温度环境生存。"},
+    {"ruleId": 94, "result": false, "reason": "不是人工制品。"},
+    {"ruleId": 95, "result": true, "reason": "可以清洁羽毛。"},
+    {"ruleId": 96, "result": false, "reason": "通常不成对出现。"},
+    {"ruleId": 97, "result": false, "reason": "全年都存在，不是季节性物品。"},
+    {"ruleId": 98, "result": false, "reason": "不是工具。"},
+    {"ruleId": 99, "result": false, "reason": "观察野生鸽子不需要许可证。"},
+    {"ruleId": 100, "result": true, "reason": "可以多次观察同一只鸽子。"},
+    {"ruleId": 101, "result": false, "reason": "不是一个字。"},
+    {"ruleId": 102, "result": true, "reason": "'鸽子'是两个汉字。"},
+    {"ruleId": 103, "result": false, "reason": "不是三个汉字。"},
+    {"ruleId": 104, "result": false, "reason": "不是四个汉字。"},
+    {"ruleId": 105, "result": false, "reason": "不包含'心'字或偏旁。"},
+    {"ruleId": 106, "result": false, "reason": "不包含'草'字或偏旁。"},
+    {"ruleId": 107, "result": false, "reason": "不包含'水'字或偏旁。"},
+    {"ruleId": 108, "result": false, "reason": "不包含'金'字或偏旁。"},
+    {"ruleId": 109, "result": false, "reason": "不包含'木'字或偏旁。"},
+    {"ruleId": 110, "result": false, "reason": "不包含'火'字或偏旁。"},
+    {"ruleId": 111, "result": false, "reason": "不包含'土'字或偏旁。"},
+    {"ruleId": 112, "result": false, "reason": "不包含'日'字或偏旁。"},
+    {"ruleId": 113, "result": false, "reason": "不包含'月'字或偏旁。"},
+    {"ruleId": 114, "result": false, "reason": "不包含'山'字或偏旁。"},
+    {"ruleId": 115, "result": false, "reason": "不包含'川'字或偏旁。"},
+    {"ruleId": 116, "result": false, "reason": "不包含'雨'字或偏旁。"},
+    {"ruleId": 117, "result": false, "reason": "不包含'人'字或偏旁。"},
+    {"ruleId": 118, "result": false, "reason": "不包含'手'字或偏旁。"},
+    {"ruleId": 119, "result": false, "reason": "不包含'王'字或偏旁。"},
+    {"ruleId": 120, "result": false, "reason": "不包含'口'字或偏旁。"},
+    {"ruleId": 121, "result": false, "reason": "不包含'目'字或偏旁。"},
+    {"ruleId": 122, "result": false, "reason": "不包含'耳'字或偏旁。"},
+    {"ruleId": 123, "result": false, "reason": "不包含'足'字或偏旁。"},
+    {"ruleId": 124, "result": false, "reason": "不包含'言'字或偏旁。"},
+    {"ruleId": 125, "result": false, "reason": "不包含'食'字或偏旁。"},
+    {"ruleId": 126, "result": false, "reason": "不包含'衣'字或偏旁。"},
+    {"ruleId": 127, "result": false, "reason": "不包含'马'字或偏旁。"},
+    {"ruleId": 128, "result": false, "reason": "不包含'鱼'字或偏旁。"},
+    {"ruleId": 129, "result": true, "reason": "'鸽'字包含'鸟'字旁。"},
+    {"ruleId": 130, "result": false, "reason": "不包含'车'字或偏旁。"},
+    {"ruleId": 131, "result": true, "reason": "'鸽'字结构是左右结构。"},
+    {"ruleId": 132, "result": true, "reason": "'子'字结构是单一结构。"},
+    {"ruleId": 133, "result": true, "reason": "两个字的偏旁不同。"},
+    {"ruleId": 134, "result": true, "reason": "两个字的结构不同。"},
+    {"ruleId": 135, "result": false, "reason": "两个字的笔画都少于7画。"},
+    {"ruleId": 136, "result": true, "reason": "'鸽'字11画，'子'字3画，均少于20画。"},
+    {"ruleId": 137, "result": true, "reason": "最多笔画的'鸽'字11画，少于15画。"},
+    {"ruleId": 138, "result": false, "reason": "'鸽'字11画，不少于10画。"},
+    {"ruleId": 139, "result": false, "reason": "笔画顺序是11→3，不构成递增序列。"},
+    {"ruleId": 140, "result": true, "reason": "笔画顺序是11→3，是递减序列。"},
+    {"ruleId": 141, "result": false, "reason": "两个字的声调不完全不同。"},
+    {"ruleId": 142, "result": true, "reason": "'鸽(gē)'一声，'子(zi)'三声，声调不同。"},
+    {"ruleId": 143, "result": false, "reason": "包含第一声('鸽')。"},
+    {"ruleId": 144, "result": true, "reason": "不包含第二声。"},
+    {"ruleId": 145, "result": false, "reason": "包含第三声('子')。"},
+    {"ruleId": 146, "result": true, "reason": "不包含第四声。"},
+    {"ruleId": 147, "result": true, "reason": "包含第一声('鸽')。"},
+    {"ruleId": 148, "result": false, "reason": "不包含第二声。"},
+    {"ruleId": 149, "result": true, "reason": "包含第三声('子')。"},
+    {"ruleId": 150, "result": false, "reason": "不包含第四声。"}
   ]
-} 
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
+}

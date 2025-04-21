@@ -1,277 +1,66 @@
 {
-<<<<<<< HEAD
-  "id": "11",
-  "word": "相机",
+  "id": "10",
+  "word": "医院",
   "questions": [
-    {
-      "ruleId": 1,
-      "result": true,
-      "reason": "非常古老（相机已有数百年历史）"
-    },
-    {
-      "ruleId": 2,
-      "result": true,
-      "reason": "现代相机是1950年后制造的"
-    },
-    {
-      "ruleId": 3,
-      "result": true,
-      "reason": "许多家庭都有相机"
-    },
-    {
-      "ruleId": 4,
-      "result": false,
-      "reason": "不是稀有物品"
-    },
-    {
-      "ruleId": 5,
-      "result": true,
-      "reason": "有专门为儿童设计的相机"
-    },
-    {
-      "ruleId": 6,
-      "result": true,
-      "reason": "也有专门为成年人设计的相机"
-    },
-    {
-      "ruleId": 7,
-      "result": true,
-      "reason": "某些型号很奢侈或昂贵"
-    },
-    {
-      "ruleId": 8,
-      "result": true,
-      "reason": "许多人需要相机"
-    },
-    {
-      "ruleId": 9,
-      "result": true,
-      "reason": "用于拍照和记录"
-    },
-    {
-      "ruleId": 10,
-      "result": true,
-      "reason": "外观设计精美"
-    },
-    {
-      "ruleId": 11,
-      "result": false,
-      "reason": "不是在自然界中存在的"
-    },
-    {
-      "ruleId": 12,
-      "result": true,
-      "reason": "在工厂批量生产"
-    },
-    {
-      "ruleId": 13,
-      "result": false,
-      "reason": "不是用于特殊场合的"
-    },
-    {
-      "ruleId": 14,
-      "result": true,
-      "reason": "每天都会使用"
-    },
-    {
-      "ruleId": 15,
-      "result": true,
-      "reason": "通常是个人物品"
-    },
-    {
-      "ruleId": 16,
-      "result": false,
-      "reason": "通常不会在多人之间共享"
-    },
-    {
-      "ruleId": 17,
-      "result": true,
-      "reason": "是高科技产品"
-    },
-    {
-      "ruleId": 18,
-      "result": true,
-      "reason": "基于光学和电子原理"
-    },
-    {
-      "ruleId": 19,
-      "result": false,
-      "reason": "不是来自特定国家或文化"
-    },
-    {
-      "ruleId": 20,
-      "result": true,
-      "reason": "在许多国家都能找到"
-    },
-    {
-      "ruleId": 21,
-      "result": false,
-      "reason": "不是使用后丢弃的"
-    },
-    {
-      "ruleId": 22,
-      "result": true,
-      "reason": "可以使用很多年"
-    },
-    {
-      "ruleId": 23,
-      "result": false,
-      "reason": "主要在室内使用"
-    },
-    {
-      "ruleId": 24,
-      "result": true,
-      "reason": "在室内和室外都可以使用"
-    },
-    {
-      "ruleId": 25,
-      "result": true,
-      "reason": "经常在电影和电视节目中出现"
-    },
-    {
-      "ruleId": 26,
-      "result": true,
-      "reason": "被各种职业的人使用"
-    },
-    {
-      "ruleId": 27,
-      "result": false,
-      "reason": "没有重要的宗教意义"
-    },
-    {
-      "ruleId": 28,
-      "result": true,
-      "reason": "主要是世俗性质"
-    },
-    {
-      "ruleId": 29,
-      "result": true,
-      "reason": "在工厂批量生产"
-    },
-    {
-      "ruleId": 30,
-      "result": false,
-      "reason": "通常不是手工制作的"
-    },
-    {
-      "ruleId": 31,
-      "result": true,
-      "reason": "通过拍照带来快乐"
-    },
-    {
-      "ruleId": 32,
-      "result": false,
-      "reason": "不吓人或危险"
-    },
-    {
-      "ruleId": 33,
-      "result": true,
-      "reason": "用于娱乐"
-    },
-    {
-      "ruleId": 34,
-      "result": true,
-      "reason": "用于工作和学习"
-    },
-    {
-      "ruleId": 35,
-      "result": false,
-      "reason": "不是只在特定季节使用"
-    },
-    {
-      "ruleId": 36,
-      "result": true,
-      "reason": "全年都可以使用"
-    },
-    {
-      "ruleId": 37,
-      "result": true,
-      "reason": "需要适应使用"
-    },
-    {
-      "ruleId": 38,
-      "result": true,
-      "reason": "任何人都可以使用"
-    },
-    {
-      "ruleId": 39,
-      "result": true,
-      "reason": "在正式场合使用"
-    },
-    {
-      "ruleId": 40,
-      "result": true,
-      "reason": "也在休闲场合使用"
-    },
-    {
-      "ruleId": 41,
-      "result": true,
-      "reason": "人们喜欢收藏不同款式的相机"
-    },
-    {
-      "ruleId": 42,
-      "result": false,
-      "reason": "不是特定文化传统的一部分"
-    },
-    {
-      "ruleId": 43,
-      "result": true,
-      "reason": "在历史上很重要"
-    },
-    {
-      "ruleId": 44,
-      "result": true,
-      "reason": "在当代仍然重要"
-    },
-    {
-      "ruleId": 45,
-      "result": true,
-      "reason": "经常作为礼物赠送"
-    },
-    {
-      "ruleId": 46,
-      "result": false,
-      "reason": "不是罕见的礼物"
-    },
-    {
-      "ruleId": 47,
-      "result": false,
-      "reason": "不是只有富人才能拥有"
-    },
-    {
-      "ruleId": 48,
-      "result": true,
-      "reason": "各收入阶层的人都使用"
-    },
-    {
-      "ruleId": 49,
-      "result": true,
-      "reason": "在艺术、文学和媒体中出现"
-    },
-    {
-      "ruleId": 50,
-      "result": false,
-      "reason": "在故事中很常见"
-    }
-=======
-  "id": 11,
-  "word": "水晶",
-  "questions": [
-    { "ruleId": 1, "result": true, "reason": "水晶已存在数千年" },
-    { "ruleId": 2, "result": true, "reason": "现代合成水晶是在1950年后制造的" },
-    { "ruleId": 3, "result": false, "reason": "不在大多数家庭中发现" },
-    { "ruleId": 4, "result": false, "reason": "不常见于大多数住宅区" },
-    { "ruleId": 5, "result": false, "reason": "不是专门为儿童设计的" },
-    { "ruleId": 6, "result": true, "reason": "更常用于成年人" },
-    { "ruleId": 7, "result": true, "reason": "有些水晶很豪华" },
-    { "ruleId": 8, "result": false, "reason": "不是大多数人的基本必需品" },
-    { "ruleId": 9, "result": false, "reason": "不是功能性物品" },
-    { "ruleId": 10, "result": true, "reason": "很漂亮" },
-    { "ruleId": 11, "result": true, "reason": "在自然界中存在" },
-    { "ruleId": 12, "result": false, "reason": "不在工厂制造" },
-    { "ruleId": 13, "result": true, "reason": "与特殊场合相关" },
-    { "ruleId": 14, "result": false, "reason": "不是大多数人日常生活的一部分" },
-    { "ruleId": 15, "result": false, "reason": "不是典型的个人所有物" }
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
-  ]
-} 
+    { "ruleId": 1, "result": true,  "reason": "医院的雏形可追溯到古希腊和罗马时期的医疗机构，已有超过2000年历史。" },
+    { "ruleId": 2, "result": false, "reason": "医院并非1950年后出现的新事物，而是古老的公共医疗机构。" },
+    { "ruleId": 3, "result": false, "reason": "普通家庭通常不拥有医院。" },
+    { "ruleId": 4, "result": true,  "reason": "大多数人没有自己的医院，它是一种稀有的大型机构。" },
+    { "ruleId": 5, "result": false, "reason": "医院并非主要面向儿童设计，而是面向整个社会。" },
+    { "ruleId": 6, "result": true,  "reason": "医院的设施和服务主要满足成年人的医疗需求。" },
+    { "ruleId": 7, "result": false, "reason": "并非每个人都需要拥有或经常使用医院。" },
+    { "ruleId": 8, "result": true,  "reason": "医务人员在医院完成诊疗等重要工作任务。" },
+    { "ruleId": 9, "result": true,  "reason": "人们通常仅在生病或受伤等特殊场合前往医院。" },
+    { "ruleId": 10,"result": false, "reason": "普通人不会在日常生活中频繁进入医院。" },
+    { "ruleId": 11,"result": false, "reason": "医院通常由机构或政府所有，不属于个人物品。" },
+    { "ruleId": 12,"result": true,  "reason": "医院的床位和资源是多人共享使用的。" },
+    { "ruleId": 13,"result": true,  "reason": "现代医院需要电力来驱动照明、设备和空调系统。" },
+    { "ruleId": 14,"result": false, "reason": "医院在全球各地都有建造，不局限于特定国家或文化。" },
+    { "ruleId": 15,"result": true,  "reason": "世界上几乎所有国家都可以找到医院。" },
+    { "ruleId": 16,"result": false, "reason": "医院为固定建筑，不是一次性使用的物品。" },
+    { "ruleId": 17,"result": true,  "reason": "医院建筑和设施可使用数十年甚至更久。" },
+    { "ruleId": 18,"result": true,  "reason": "医院主要在室内空间中提供医疗服务。" },
+    { "ruleId": 19,"result": false, "reason": "虽然有室外急救点，但医院的主要活动在室内进行。" },
+    { "ruleId": 20,"result": true,  "reason": "电影和电视中常出现角色在医院的场景。" },
+    { "ruleId": 21,"result": true,  "reason": "医生、护士、患者等不同职业和角色都会使用医院。" },
+    { "ruleId": 22,"result": false, "reason": "医院本身通常不具有宗教意义。" },
+    { "ruleId": 23,"result": true,  "reason": "医院作为医疗机构，与宗教活动无关。" },
+    { "ruleId": 24,"result": false, "reason": "医院一般让人感到紧张或焦虑，不以带来快乐为主。" },
+    { "ruleId": 25,"result": true,  "reason": "医院中存在交叉感染等潜在危险。" },
+    { "ruleId": 26,"result": false, "reason": "医院不是用于娱乐或游戏的场所。" },
+    { "ruleId": 27,"result": true,  "reason": "医院为医疗工作和急救等重要任务提供场地和设备。" },
+    { "ruleId": 28,"result": false, "reason": "医院全年都开放，不限于特定时间使用。" },
+    { "ruleId": 29,"result": true,  "reason": "医院设计为全年持续提供医疗服务。" },
+    { "ruleId": 30,"result": true,  "reason": "医院的运营和管理对专业人员要求较高，学习门槛高。" },
+    { "ruleId": 31,"result": false, "reason": "普通人进入医院不需要复杂学习，使用门槛较低。" },
+    { "ruleId": 32,"result": false, "reason": "医院一般不用于正式社交场合。" },
+    { "ruleId": 33,"result": false, "reason": "医院氛围严肃，不属于轻松休闲环境。" },
+    { "ruleId": 34,"result": false, "reason": "医院规模庞大，不会被人们作为收藏品。" },
+    { "ruleId": 35,"result": false, "reason": "医院不属于任何传统仪式或习俗的一部分。" },
+    { "ruleId": 36,"result": true,  "reason": "医院在历史上对公共卫生和医学发展具有重要意义。" },
+    { "ruleId": 37,"result": true,  "reason": "现代医院比过去更加普及，使用量显著增加。" },
+    { "ruleId": 38,"result": false, "reason": "医院通常不适合作为礼物赠送。" },
+    { "ruleId": 39,"result": true,  "reason": "将医院作为礼物极为罕见，属于罕见礼物。" },
+    { "ruleId": 40,"result": false, "reason": "医院并非富人专属，各种收入阶层均可使用。" },
+    { "ruleId": 41,"result": true,  "reason": "不同收入阶层的人都可能去医院就诊或探视。" },
+    { "ruleId": 42,"result": true,  "reason": "有大量关于医院题材的书籍、电影和艺术作品。" },
+    { "ruleId": 43,"result": false, "reason": "医院在文艺作品中频繁出现，并不稀少。" },
+    { "ruleId": 44,"result": false, "reason": "医院依赖电力，不需燃料燃烧。" },
+    { "ruleId": 45,"result": false, "reason": "医院为固定建筑，非一次性设计。" },
+    { "ruleId": 46,"result": false, "reason": "医院全年开放，无季节性限制。" },
+    { "ruleId": 47,"result": true,  "reason": "医院可重复使用和多次入住，不是一次性。" },
+    { "ruleId": 48,"result": false, "reason": "普通人就医无需特别许可或执照。" },
+    { "ruleId": 49,"result": true,  "reason": "全球存在成千上万家医院。" },
+    { "ruleId": 50,"result": false, "reason": "世界上不只一所医院。" },
+    { "ruleId": 51,"result": false, "reason": "医院建筑坚固，不易损坏。" },
+    { "ruleId": 52,"result": false, "reason": "医院为大型建筑，不便携带。" },
+    { "ruleId": 53,"result": true,  "reason": "医院必须依靠电力运行各种医疗设备。" },
+    { "ruleId": 54,"result": true,  "reason": "建设和维护医院的成本非常昂贵。" },
+    { "ruleId": 55,"result": false, "reason": "医院为人造机构，不存在于自然界中。" },
+    { "ruleId": 56,"result": false, "reason": "医院建筑无法在水中保持干燥。" },
+    { "ruleId": 57,"result": false, "reason": "医院不具备漂浮能力。" },
+    { "ruleId": 58,"result": false, "reason": "医院由多种建筑材料组成，不全为金属。" },
+    { "ruleId": 59,"result": true,  "reason": "医院内设备运行会发出各种声音，如心电监护器报警。" },
+    { "ruleId": 60,"result": false, "reason": "医院的主色调通常为白色或浅色，不一定鲜艳。" },
+    { "ruleId": 61,"result": false, "reason": "医院整体建筑难以整体回收利用。" },
+    { "ruleId": 62,"result": false, "reason": "医院墙体和窗户大多不透明。" },

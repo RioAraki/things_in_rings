@@ -1,755 +1,156 @@
-<<<<<<< HEAD
-{"id":"22","word":"遥控器","questions":[{"ruleId":1,"result":false,"reason":"不是非常古老的物品"},{"ruleId":2,"result":true,"reason":"现代遥控器是1950年后制造的"},{"ruleId":3,"result":true,"reason":"大多数家庭都有遥控器"},{"ruleId":4,"result":false,"reason":"不是稀有物品"},{"ruleId":5,"result":true,"reason":"儿童也使用遥控器"},{"ruleId":6,"result":true,"reason":"成年人经常使用遥控器"},{"ruleId":7,"result":false,"reason":"通常不是奢侈或昂贵的"},{"ruleId":8,"result":true,"reason":"许多人需要遥控器"},{"ruleId":9,"result":true,"reason":"用于控制电子设备"},{"ruleId":10,"result":false,"reason":"不是时尚配饰"},{"ruleId":11,"result":false,"reason":"不是在自然界中存在的"},{"ruleId":12,"result":true,"reason":"在工厂批量生产"},{"ruleId":13,"result":false,"reason":"不是用于特殊场合的"},{"ruleId":14,"result":true,"reason":"每天都会使用"},{"ruleId":15,"result":true,"reason":"通常是个人物品"},{"ruleId":16,"result":true,"reason":"可以在多人之间共享"},{"ruleId":17,"result":true,"reason":"是高科技产品"},{"ruleId":18,"result":true,"reason":"基于电子设计"},{"ruleId":19,"result":false,"reason":"不是来自特定国家或文化"},{"ruleId":20,"result":true,"reason":"在世界各地都能找到"},{"ruleId":21,"result":false,"reason":"不是使用后丢弃的"},{"ruleId":22,"result":true,"reason":"可以使用很多年"},{"ruleId":23,"result":true,"reason":"主要在室内使用"},{"ruleId":24,"result":false,"reason":"主要在室内使用"},{"ruleId":25,"result":true,"reason":"经常在电影和电视节目中出现"},{"ruleId":26,"result":true,"reason":"被各种职业的人使用"},{"ruleId":27,"result":false,"reason":"没有重要的宗教意义"},{"ruleId":28,"result":true,"reason":"主要是世俗性质"},{"ruleId":29,"result":true,"reason":"在工厂批量生产"},{"ruleId":30,"result":false,"reason":"通常不是手工制作的"},{"ruleId":31,"result":true,"reason":"通过控制带来便利"},{"ruleId":32,"result":false,"reason":"不吓人或危险"},{"ruleId":33,"result":true,"reason":"用于娱乐"},{"ruleId":34,"result":true,"reason":"用于工作和生活"},{"ruleId":35,"result":false,"reason":"不是只在特定季节使用"},{"ruleId":36,"result":true,"reason":"全年都可以使用"},{"ruleId":37,"result":true,"reason":"需要适应使用"},{"ruleId":38,"result":true,"reason":"任何人都可以使用"},{"ruleId":39,"result":false,"reason":"不是主要在正式场合使用"},{"ruleId":40,"result":true,"reason":"在休闲场合使用"},{"ruleId":41,"result":false,"reason":"人们不经常收藏遥控器"},{"ruleId":42,"result":false,"reason":"不是特定文化传统的一部分"},{"ruleId":43,"result":true,"reason":"在历史上很重要"},{"ruleId":44,"result":true,"reason":"在当代仍然重要"},{"ruleId":45,"result":false,"reason":"不经常作为礼物赠送"},{"ruleId":46,"result":false,"reason":"不是罕见的礼物"},{"ruleId":47,"result":false,"reason":"不是只有富人才能拥有"},{"ruleId":48,"result":true,"reason":"各收入阶层的人都使用"},{"ruleId":49,"result":true,"reason":"在艺术、文学和媒体中出现"},{"ruleId":50,"result":true,"reason":"在故事中很常见"}]} 
-=======
 {
   "id": "22",
-  "word": "马",
+  "word": "书包",
   "questions": [
-    {
-      "ruleId": 1,
-      "result": true,
-      "reason": "马已有数千年历史，6000多年前就被驯化"
-    },
-    {
-      "ruleId": 2,
-      "result": false,
-      "reason": "马在1950年之前就已经存在"
-    },
-    {
-      "ruleId": 3,
-      "result": false,
-      "reason": "不常见于大多数家庭"
-    },
-    {
-      "ruleId": 4,
-      "result": false,
-      "reason": "不是专门为儿童设计的"
-    },
-    {
-      "ruleId": 5,
-      "result": false,
-      "reason": "不是主要由儿童使用"
-    },
-    {
-      "ruleId": 6,
-      "result": true,
-      "reason": "主要由成年人使用和照料"
-    },
-    {
-      "ruleId": 7,
-      "result": true,
-      "reason": "可以是昂贵的奢侈品"
-    },
-    {
-      "ruleId": 8,
-      "result": false,
-      "reason": "对大多数现代人来说不是必需品"
-    },
-    {
-      "ruleId": 9,
-      "result": true,
-      "reason": "具有实用目的（运输、工作）"
-    },
-    {
-      "ruleId": 10,
-      "result": false,
-      "reason": "主要是功能性而非装饰性"
-    },
-    {
-      "ruleId": 11,
-      "result": true,
-      "reason": "是自然生物"
-    },
-    {
-      "ruleId": 12,
-      "result": false,
-      "reason": "不是由人类制造的"
-    },
-    {
-      "ruleId": 13,
-      "result": false,
-      "reason": "用于日常使用而非特殊场合"
-    },
-    {
-      "ruleId": 14,
-      "result": true,
-      "reason": "饲养时需要每日照料"
-    },
-    {
-      "ruleId": 15,
-      "result": true,
-      "reason": "可以个人拥有"
-    },
-    {
-      "ruleId": 16,
-      "result": false,
-      "reason": "通常由一个人或家庭拥有，不共享"
-    },
-    {
-      "ruleId": 17,
-      "result": false,
-      "reason": "是自然动物，不涉及技术"
-    },
-    {
-      "ruleId": 18,
-      "result": false,
-      "reason": "没有机械部件"
-    },
-    {
-      "ruleId": 19,
-      "result": true,
-      "reason": "在许多社会中具有文化意义"
-    },
-    {
-      "ruleId": 20,
-      "result": true,
-      "reason": "在许多不同文化中都很重要"
-    },
-    {
-      "ruleId": 21,
-      "result": false,
-      "reason": "不是一次性的"
-    },
-    {
-      "ruleId": 22,
-      "result": true,
-      "reason": "是自然长寿的动物"
-    },
-    {
-      "ruleId": 23,
-      "result": false,
-      "reason": "主要在户外饲养"
-    },
-    {
-      "ruleId": 24,
-      "result": true,
-      "reason": "在户外生活和劳作"
-    },
-    {
-      "ruleId": 25,
-      "result": true,
-      "reason": "在许多电影和媒体中出现"
-    },
-    {
-      "ruleId": 26,
-      "result": true,
-      "reason": "与特定职业相关（骑师、牛仔等）"
-    },
-    {
-      "ruleId": 27,
-      "result": false,
-      "reason": "在主要宗教中没有显著的宗教意义"
-    },
-    {
-      "ruleId": 28,
-      "result": true,
-      "reason": "在现代使用中主要是世俗的"
-    },
-    {
-      "ruleId": 29,
-      "result": false,
-      "reason": "不是批量生产，是自然出生的"
-    },
-    {
-      "ruleId": 30,
-      "result": false,
-      "reason": "不是手工制作的"
-    },
-    {
-      "ruleId": 31,
-      "result": false,
-      "reason": "不特别与快乐相关"
-    },
-    {
-      "ruleId": 32,
-      "result": false,
-      "reason": "通常不会让人感到害怕"
-    },
-    {
-      "ruleId": 33,
-      "result": true,
-      "reason": "用于娱乐（赛马、表演）"
-    },
-    {
-      "ruleId": 34,
-      "result": true,
-      "reason": "具有实用目的（运输、工作）"
-    },
-    {
-      "ruleId": 35,
-      "result": false,
-      "reason": "全年使用，不是季节性的"
-    },
-    {
-      "ruleId": 36,
-      "result": true,
-      "reason": "全年都存在"
-    },
-    {
-      "ruleId": 37,
-      "result": true,
-      "reason": "需要专业知识才能正确照料"
-    },
-    {
-      "ruleId": 38,
-      "result": false,
-      "reason": "不是每个人都能安全驾驭"
-    },
-    {
-      "ruleId": 39,
-      "result": true,
-      "reason": "在正式场合如赛马和表演中使用"
-    },
-    {
-      "ruleId": 40,
-      "result": true,
-      "reason": "在休闲场合如骑马时使用"
-    },
-    {
-      "ruleId": 41,
-      "result": false,
-      "reason": "活着的动物不会被收藏"
-    },
-    {
-      "ruleId": 42,
-      "result": true,
-      "reason": "是许多传统的一部分（牛仔竞技、骑兵）"
-    },
-    {
-      "ruleId": 43,
-      "result": true,
-      "reason": "在交通和战争中具有重大历史意义"
-    },
-    {
-      "ruleId": 44,
-      "result": true,
-      "reason": "至今仍用于运动和娱乐"
-    },
-    {
-      "ruleId": 45,
-      "result": false,
-      "reason": "不常作为礼物赠送"
-    },
-    {
-      "ruleId": 46,
-      "result": false,
-      "reason": "太昂贵和复杂，不能作为普通礼物"
-    },
-    {
-      "ruleId": 47,
-      "result": true,
-      "reason": "拥有权常与财富和地位相关"
-    },
-    {
-      "ruleId": 48,
-      "result": false,
-      "reason": "不是所有经济水平的人都能同等获得"
-    },
-    {
-      "ruleId": 49,
-      "result": true,
-      "reason": "在艺术、文学和媒体中频繁出现"
-    },
-    {
-      "ruleId": 50,
-      "result": true,
-      "reason": "象征自由、力量和贵族气质"
-    },
-    {
-      "ruleId": 51,
-      "result": true,
-      "reason": "可能受伤或受到伤害"
-    },
-    {
-      "ruleId": 52,
-      "result": true,
-      "reason": "可以独立移动"
-    },
-    {
-      "ruleId": 53,
-      "result": false,
-      "reason": "不需要电力才能运作"
-    },
-    {
-      "ruleId": 54,
-      "result": true,
-      "reason": "购买和维护都很昂贵"
-    },
-    {
-      "ruleId": 55,
-      "result": true,
-      "reason": "是自然生物"
-    },
-    {
-      "ruleId": 56,
-      "result": false,
-      "reason": "不防水，但会游泳"
-    },
-    {
-      "ruleId": 57,
-      "result": false,
-      "reason": "会游泳但不能自然漂浮"
-    },
-    {
-      "ruleId": 58,
-      "result": false,
-      "reason": "不是金属制成的"
-    },
-    {
-      "ruleId": 59,
-      "result": true,
-      "reason": "发出声音（嘶鸣、喷鼻）"
-    },
-    {
-      "ruleId": 60,
-      "result": false,
-      "reason": "自然毛色（有限范围）"
-    },
-    {
-      "ruleId": 61,
-      "result": false,
-      "reason": "不能回收"
-    },
-    {
-      "ruleId": 62,
-      "result": false,
-      "reason": "不透明"
-    },
-    {
-      "ruleId": 63,
-      "result": true,
-      "reason": "有许多活动的身体部位"
-    },
-    {
-      "ruleId": 64,
-      "result": true,
-      "reason": "触摸时柔软（毛发）"
-    },
-    {
-      "ruleId": 65,
-      "result": false,
-      "reason": "不能折叠"
-    },
-    {
-      "ruleId": 66,
-      "result": true,
-      "reason": "需要定期护理和梳理"
-    },
-    {
-      "ruleId": 67,
-      "result": false,
-      "reason": "通常没有尖锐边缘"
-    },
-    {
-      "ruleId": 68,
-      "result": false,
-      "reason": "在大多数文化中不可食用"
-    },
-    {
-      "ruleId": 69,
-      "result": true,
-      "reason": "有特殊气味"
-    },
-    {
-      "ruleId": 70,
-      "result": true,
-      "reason": "很重"
-    },
-    {
-      "ruleId": 71,
-      "result": false,
-      "reason": "不穿在人身上"
-    },
-    {
-      "ruleId": 72,
-      "result": true,
-      "reason": "产生体温"
-    },
-    {
-      "ruleId": 73,
-      "result": false,
-      "reason": "不易燃"
-    },
-    {
-      "ruleId": 74,
-      "result": true,
-      "reason": "有许多不同品种和类型"
-    },
-    {
-      "ruleId": 75,
-      "result": false,
-      "reason": "使用前需要训练"
-    },
-    {
-      "ruleId": 76,
-      "result": true,
-      "reason": "死亡后最终会生物降解"
-    },
-    {
-      "ruleId": 77,
-      "result": false,
-      "reason": "不能叠放"
-    },
-    {
-      "ruleId": 78,
-      "result": false,
-      "reason": "表面不反光"
-    },
-    {
-      "ruleId": 79,
-      "result": false,
-      "reason": "不具有磁性"
-    },
-    {
-      "ruleId": 80,
-      "result": false,
-      "reason": "自然毛色，不是染色的"
-    },
-    {
-      "ruleId": 81,
-      "result": true,
-      "reason": "潮湿时会吸水"
-    },
-    {
-      "ruleId": 82,
-      "result": true,
-      "reason": "身体灵活可以弯曲"
-    },
-    {
-      "ruleId": 83,
-      "result": true,
-      "reason": "毛发潮湿时看起来更深"
-    },
-    {
-      "ruleId": 84,
-      "result": true,
-      "reason": "外观随年龄变化"
-    },
-    {
-      "ruleId": 85,
-      "result": true,
-      "reason": "体型一般对称"
-    },
-    {
-      "ruleId": 86,
-      "result": true,
-      "reason": "可以治愈伤势"
-    },
-    {
-      "ruleId": 87,
-      "result": true,
-      "reason": "需要食物（燃料）才能运作"
-    },
-    {
-      "ruleId": 88,
-      "result": true,
-      "reason": "需要梳理以保持健康"
-    },
-    {
-      "ruleId": 89,
-      "result": false,
-      "reason": "不能长时间待在水下"
-    },
-    {
-      "ruleId": 90,
-      "result": false,
-      "reason": "没有轮子"
-    },
-    {
-      "ruleId": 91,
-      "result": false,
-      "reason": "不是一次性的"
-    },
-    {
-      "ruleId": 92,
-      "result": false,
-      "reason": "不能承受极端高温"
-    },
-    {
-      "ruleId": 93,
-      "result": true,
-      "reason": "需要适当的庇护所"
-    },
-    {
-      "ruleId": 94,
-      "result": false,
-      "reason": "不是手工制作的"
-    },
-    {
-      "ruleId": 95,
-      "result": true,
-      "reason": "可以清洗/梳理"
-    },
-    {
-      "ruleId": 96,
-      "result": false,
-      "reason": "不是成对出现的"
-    },
-    {
-      "ruleId": 97,
-      "result": false,
-      "reason": "全年存在，不是季节性的"
-    },
-    {
-      "ruleId": 98,
-      "result": true,
-      "reason": "用作运输工具"
-    },
-    {
-      "ruleId": 99,
-      "result": true,
-      "reason": "在某些地区拥有可能需要许可证"
-    },
-    {
-      "ruleId": 100,
-      "result": true,
-      "reason": "寿命很长"
-    },
-    {
-      "ruleId": 101,
-      "result": true,
-      "reason": "只有一个音节"
-    },
-    {
-      "ruleId": 102,
-      "result": false,
-      "reason": "不以元音开头"
-    },
-    {
-      "ruleId": 103,
-      "result": false,
-      "reason": "不以元音结尾"
-    },
-    {
-      "ruleId": 104,
-      "result": true,
-      "reason": "只有一个汉字"
-    },
-    {
-      "ruleId": 105,
-      "result": false,
-      "reason": "没有重复的汉字"
-    },
-    {
-      "ruleId": 106,
-      "result": false,
-      "reason": "只有一个汉字，不能比较首尾字母"
-    },
-    {
-      "ruleId": 107,
-      "result": false,
-      "reason": "不是由两个词组成"
-    },
-    {
-      "ruleId": 108,
-      "result": false,
-      "reason": "没有重复的汉字"
-    },
-    {
-      "ruleId": 109,
-      "result": true,
-      "reason": "以'马'开头，是常用字"
-    },
-    {
-      "ruleId": 110,
-      "result": false,
-      "reason": "只有一个汉字，不是超过6个"
-    },
-    {
-      "ruleId": 111,
-      "result": false,
-      "reason": "主要用作名词，不常用作动词"
-    },
-    {
-      "ruleId": 112,
-      "result": false,
-      "reason": "不包含'口'字旁"
-    },
-    {
-      "ruleId": 113,
-      "result": true,
-      "reason": "只有一个独特的汉字（马）"
-    },
-    {
-      "ruleId": 114,
-      "result": false,
-      "reason": "没有公认的前缀"
-    },
-    {
-      "ruleId": 115,
-      "result": false,
-      "reason": "不包含'心'和'手'"
-    },
-    {
-      "ruleId": 116,
-      "result": false,
-      "reason": "只有一个汉字，不能比较首尾"
-    },
-    {
-      "ruleId": 117,
-      "result": false,
-      "reason": "不包含'木'字旁"
-    },
-    {
-      "ruleId": 118,
-      "result": false,
-      "reason": "没有三个连续的相同部首"
-    },
-    {
-      "ruleId": 119,
-      "result": false,
-      "reason": "只有一个汉字（不在6-8范围内）"
-    },
-    {
-      "ruleId": 120,
-      "result": false,
-      "reason": "不以'子'结尾"
-    },
-    {
-      "ruleId": 121,
-      "result": false,
-      "reason": "不包含'金'、'水'或'火'字旁"
-    },
-    {
-      "ruleId": 122,
-      "result": false,
-      "reason": "不包含'竹'字旁"
-    },
-    {
-      "ruleId": 123,
-      "result": false,
-      "reason": "没有重复的汉字"
-    },
-    {
-      "ruleId": 124,
-      "result": true,
-      "reason": "只有一个音节"
-    },
-    {
-      "ruleId": 125,
-      "result": false,
-      "reason": "不包含颜色名称"
-    },
-    {
-      "ruleId": 126,
-      "result": false,
-      "reason": "没有静音字母"
-    },
-    {
-      "ruleId": 127,
-      "result": false,
-      "reason": "不常用作动词"
-    },
-    {
-      "ruleId": 128,
-      "result": false,
-      "reason": "不以'器'结尾"
-    },
-    {
-      "ruleId": 129,
-      "result": false,
-      "reason": "只有一个汉字，不能按字母顺序排列"
-    },
-    {
-      "ruleId": 130,
-      "result": false,
-      "reason": "没有相邻的相同部首"
-    },
-    {
-      "ruleId": 131,
-      "result": false,
-      "reason": "没有重复的汉字"
-    },
-    {
-      "ruleId": 132,
-      "result": false,
-      "reason": "不包含'气'字旁"
-    },
-    {
-      "ruleId": 133,
-      "result": false,
-      "reason": "只有一个汉字"
-    },
-    {
-      "ruleId": 134,
-      "result": false,
-      "reason": "只有一个汉字，不是更多"
-    },
-    {
-      "ruleId": 135,
-      "result": false,
-      "reason": "只有一个汉字（奇数）"
-    },
-    {
-      "ruleId": 136,
-      "result": false,
-      "reason": "只有一个汉字，不是恰好两个"
-    },
-    {
-      "ruleId": 137,
-      "result": false,
-      "reason": "只有一个汉字，不能比较中间字母"
-    },
-    {
-      "ruleId": 138,
-      "result": false,
-      "reason": "不以元音结尾"
-    },
-    {
-      "ruleId": 139,
-      "result": false,
-      "reason": "不以相同的汉字开头和结尾"
-    },
-    {
-      "ruleId": 140,
-      "result": true,
-      "reason": "只有一个音节"
-    },
-    {
-      "ruleId": 141,
-      "result": false,
-      "reason": "不是缩写"
-    },
-    {
-      "ruleId": 142,
-      "result": false,
-      "reason": "不包含'电'字"
-    },
-    {
-      "ruleId": 143,
-      "result": false,
-      "reason": "没有重复的汉字"
-    },
-    {
-      "ruleId": 144,
-      "result": false,
-      "reason": "没有'言'字旁"
-    },
-    {
-      "ruleId": 145,
-      "result": true,
-      "reason": "以'马'字旁开头"
-    },
-    {
-      "ruleId": 146,
-      "result": false,
-      "reason": "不包含特殊发音组合"
-    },
-    {
-      "ruleId": 147,
-      "result": true,
-      "reason": "包含一个汉字"
-    },
-    {
-      "ruleId": 148,
-      "result": false,
-      "reason": "不以'子'结尾"
-    },
-    {
-      "ruleId": 149,
-      "result": false,
-      "reason": "拼写时不包含数字"
-    }
+    {"ruleId": 1, "result": false, "reason": "书包的历史不足1000年，现代书包约在19世纪末开始普及。"},
+    {"ruleId": 2, "result": false, "reason": "书包在1950年前就已存在。"},
+    {"ruleId": 3, "result": true, "reason": "大多数有学生的家庭都有书包。"},
+    {"ruleId": 4, "result": false, "reason": "书包很常见，不属于稀有物品。"},
+    {"ruleId": 5, "result": true, "reason": "主要为学龄儿童设计使用。"},
+    {"ruleId": 6, "result": false, "reason": "不是专门为成人设计，但成人也可使用。"},
+    {"ruleId": 7, "result": true, "reason": "对学生来说是必需品。"},
+    {"ruleId": 8, "result": true, "reason": "帮助携带和保护书本和学习用品。"},
+    {"ruleId": 9, "result": false, "reason": "不仅限于特殊场合使用，是日常物品。"},
+    {"ruleId": 10, "result": true, "reason": "在日常学习生活中使用。"},
+    {"ruleId": 11, "result": true, "reason": "通常由个人拥有。"},
+    {"ruleId": 12, "result": false, "reason": "不是家庭共享物品，一般每人一个。"},
+    {"ruleId": 13, "result": false, "reason": "不需要电力运行。"},
+    {"ruleId": 14, "result": false, "reason": "不具有特定文化意义。"},
+    {"ruleId": 15, "result": true, "reason": "在世界各地都有使用。"},
+    {"ruleId": 16, "result": false, "reason": "不是一次性物品。"},
+    {"ruleId": 17, "result": true, "reason": "可以使用多年。"},
+    {"ruleId": 18, "result": true, "reason": "可以在室内使用。"},
+    {"ruleId": 19, "result": true, "reason": "也可以在户外使用。"},
+    {"ruleId": 20, "result": true, "reason": "在电影和电视中经常出现。"},
+    {"ruleId": 21, "result": true, "reason": "与学生和教师职业相关。"},
+    {"ruleId": 22, "result": false, "reason": "不具有宗教意义。"},
+    {"ruleId": 23, "result": true, "reason": "与宗教无关。"},
+    {"ruleId": 24, "result": false, "reason": "使用本身不带来愉悦感。"},
+    {"ruleId": 25, "result": false, "reason": "不会引起恐惧。"},
+    {"ruleId": 26, "result": false, "reason": "不是娱乐游戏物品。"},
+    {"ruleId": 27, "result": true, "reason": "主要用于学习工作场合。"},
+    {"ruleId": 28, "result": true, "reason": "在开学季节特别受关注。"},
+    {"ruleId": 29, "result": false, "reason": "主要在学期期间使用。"},
+    {"ruleId": 30, "result": false, "reason": "使用不需要特殊技能。"},
+    {"ruleId": 31, "result": true, "reason": "基本操作容易掌握。"},
+    {"ruleId": 32, "result": true, "reason": "在正式教育场合使用。"},
+    {"ruleId": 33, "result": true, "reason": "也用于非正式场合如旅行。"},
+    {"ruleId": 34, "result": false, "reason": "一般不会成为收藏品。"},
+    {"ruleId": 35, "result": false, "reason": "不是特殊传统的一部分。"},
+    {"ruleId": 36, "result": false, "reason": "不是历史上的重要发明。"},
+    {"ruleId": 37, "result": false, "reason": "不是现代才出现的产品。"},
+    {"ruleId": 38, "result": true, "reason": "常作为礼物赠送，尤其是开学季。"},
+    {"ruleId": 39, "result": false, "reason": "作为礼物赠送并不罕见。"},
+    {"ruleId": 40, "result": false, "reason": "不是富人专属物品。"},
+    {"ruleId": 41, "result": true, "reason": "各收入阶层的人都使用。"},
+    {"ruleId": 42, "result": false, "reason": "关于书包的书籍和文章较少。"},
+    {"ruleId": 43, "result": false, "reason": "在媒体和日常生活中较常见。"},
+    {"ruleId": 44, "result": false, "reason": "不需要燃料运行。"},
+    {"ruleId": 45, "result": false, "reason": "不是一次性产品。"},
+    {"ruleId": 46, "result": false, "reason": "全年都可购买，但开学季特别受关注。"},
+    {"ruleId": 47, "result": true, "reason": "可以多次使用。"},
+    {"ruleId": 48, "result": false, "reason": "购买和使用不需要许可证。"},
+    {"ruleId": 49, "result": true, "reason": "世界上有大量书包。"},
+    {"ruleId": 50, "result": true, "reason": "有多种不同材质、形状和大小的书包。"},
+    {"ruleId": 51, "result": false, "reason": "一般比较耐用，不太脆弱。"},
+    {"ruleId": 52, "result": true, "reason": "设计用于便携携带。"},
+    {"ruleId": 53, "result": false, "reason": "不需要电力。"},
+    {"ruleId": 54, "result": false, "reason": "价格范围广泛，不一定昂贵。"},
+    {"ruleId": 55, "result": false, "reason": "是人工制品，不是自然物体。"},
+    {"ruleId": 56, "result": false, "reason": "不能在水下使用。"},
+    {"ruleId": 57, "result": false, "reason": "不能在水上漂浮，除非特殊防水设计。"},
+    {"ruleId": 58, "result": false, "reason": "通常由布料和塑料制成，不是金属。"},
+    {"ruleId": 59, "result": false, "reason": "正常使用不会发出声音。"},
+    {"ruleId": 60, "result": true, "reason": "有多种颜色和花纹可选。"},
+    {"ruleId": 61, "result": true, "reason": "某些材质可以回收再利用。"},
+    {"ruleId": 62, "result": false, "reason": "不透明。"},
+    {"ruleId": 63, "result": true, "reason": "有拉链、搭扣等活动部件。"},
+    {"ruleId": 64, "result": false, "reason": "大部分结构坚固，不柔软。"},
+    {"ruleId": 65, "result": false, "reason": "一般不能折叠。"},
+    {"ruleId": 66, "result": true, "reason": "需要定期清洁。"},
+    {"ruleId": 67, "result": false, "reason": "通常没有锋利边缘。"},
+    {"ruleId": 68, "result": false, "reason": "不可食用。"},
+    {"ruleId": 69, "result": false, "reason": "新的可能有塑料或布料气味，但不明显。"},
+    {"ruleId": 70, "result": false, "reason": "空时重量较轻，装满后会变重。"},
+    {"ruleId": 71, "result": true, "reason": "设计为背在背上或肩上。"},
+    {"ruleId": 72, "result": false, "reason": "不产生热量。"},
+    {"ruleId": 73, "result": false, "reason": "一般材质不易燃烧。"},
+    {"ruleId": 74, "result": true, "reason": "可以贴贴纸或别针装饰。"},
+    {"ruleId": 75, "result": false, "reason": "通常已经组装好出售。"},
+    {"ruleId": 76, "result": false, "reason": "不会自然分解，但会随时间磨损。"},
+    {"ruleId": 77, "result": true, "reason": "可以堆叠存放。"},
+    {"ruleId": 78, "result": false, "reason": "大多数布料表面不光滑。"},
+    {"ruleId": 79, "result": false, "reason": "主体材质不会被磁铁吸引。"},
+    {"ruleId": 80, "result": true, "reason": "表面可以喷漆或印刷图案。"},
+    {"ruleId": 81, "result": true, "reason": "布料材质会吸水。"},
+    {"ruleId": 82, "result": true, "reason": "空的书包可以弯曲。"},
+    {"ruleId": 83, "result": true, "reason": "某些颜色的布料遇水可能褪色。"},
+    {"ruleId": 84, "result": true, "reason": "会随使用时间磨损。"},
+    {"ruleId": 85, "result": true, "reason": "通常设计为左右对称。"},
+    {"ruleId": 86, "result": true, "reason": "破损的部位可以修补。"},
+    {"ruleId": 87, "result": false, "reason": "不需要燃料运行。"},
+    {"ruleId": 88, "result": false, "reason": "本身不产生灰尘，但会积聚灰尘。"},
+    {"ruleId": 89, "result": false, "reason": "不能在水下使用。"},
+    {"ruleId": 90, "result": true, "reason": "由多个部件组成，如主袋、侧袋、拉链等。"},
+    {"ruleId": 91, "result": true, "reason": "品质好的可以使用多年。"},
+    {"ruleId": 92, "result": false, "reason": "不需要加热使用。"},
+    {"ruleId": 93, "result": false, "reason": "不需要特定温度存储。"},
+    {"ruleId": 94, "result": true, "reason": "是人工制品。"},
+    {"ruleId": 95, "result": true, "reason": "表面可以清洁。"},
+    {"ruleId": 96, "result": false, "reason": "通常不成对出现。"},
+    {"ruleId": 97, "result": false, "reason": "全年都可使用，但开学季特别相关。"},
+    {"ruleId": 98, "result": true, "reason": "是携带学习用品的工具。"},
+    {"ruleId": 99, "result": false, "reason": "使用不需要许可证。"},
+    {"ruleId": 100, "result": true, "reason": "可以多次使用。"},
+    {"ruleId": 101, "result": false, "reason": "不是一个字。"},
+    {"ruleId": 102, "result": true, "reason": "'书包'是两个汉字。"},
+    {"ruleId": 103, "result": false, "reason": "不是三个汉字。"},
+    {"ruleId": 104, "result": false, "reason": "不是四个汉字。"},
+    {"ruleId": 105, "result": false, "reason": "不包含'心'字或偏旁。"},
+    {"ruleId": 106, "result": false, "reason": "不包含'草'字或偏旁。"},
+    {"ruleId": 107, "result": false, "reason": "不包含'水'字或偏旁。"},
+    {"ruleId": 108, "result": false, "reason": "不包含'金'字或偏旁。"},
+    {"ruleId": 109, "result": true, "reason": "'书'字包含'木'字旁。"},
+    {"ruleId": 110, "result": false, "reason": "不包含'火'字或偏旁。"},
+    {"ruleId": 111, "result": false, "reason": "不包含'土'字或偏旁。"},
+    {"ruleId": 112, "result": false, "reason": "不包含'日'字或偏旁。"},
+    {"ruleId": 113, "result": false, "reason": "不包含'月'字或偏旁。"},
+    {"ruleId": 114, "result": false, "reason": "不包含'山'字或偏旁。"},
+    {"ruleId": 115, "result": false, "reason": "不包含'川'字或偏旁。"},
+    {"ruleId": 116, "result": false, "reason": "不包含'雨'字或偏旁。"},
+    {"ruleId": 117, "result": false, "reason": "不包含'人'字或偏旁。"},
+    {"ruleId": 118, "result": false, "reason": "不包含'手'字或偏旁。"},
+    {"ruleId": 119, "result": false, "reason": "不包含'王'字或偏旁。"},
+    {"ruleId": 120, "result": true, "reason": "'包'字包含'口'字。"},
+    {"ruleId": 121, "result": false, "reason": "不包含'目'字或偏旁。"},
+    {"ruleId": 122, "result": false, "reason": "不包含'耳'字或偏旁。"},
+    {"ruleId": 123, "result": false, "reason": "不包含'足'字或偏旁。"},
+    {"ruleId": 124, "result": false, "reason": "不包含'言'字或偏旁。"},
+    {"ruleId": 125, "result": false, "reason": "不包含'食'字或偏旁。"},
+    {"ruleId": 126, "result": false, "reason": "不包含'衣'字或偏旁。"},
+    {"ruleId": 127, "result": false, "reason": "不包含'马'字或偏旁。"},
+    {"ruleId": 128, "result": false, "reason": "不包含'鱼'字或偏旁。"},
+    {"ruleId": 129, "result": false, "reason": "不包含'鸟'字或偏旁。"},
+    {"ruleId": 130, "result": false, "reason": "不包含'车'字或偏旁。"},
+    {"ruleId": 131, "result": false, "reason": "'书'字不是左右结构。"},
+    {"ruleId": 132, "result": true, "reason": "'包'字是上下结构。"},
+    {"ruleId": 133, "result": true, "reason": "两个字的偏旁不同。"},
+    {"ruleId": 134, "result": true, "reason": "结构不同，'书'字是单一结构，'包'字是上下结构。"},
+    {"ruleId": 135, "result": false, "reason": "'书'字4画，'包'字5画，都不超过7画。"},
+    {"ruleId": 136, "result": false, "reason": "'书'字4画，'包'字5画，都不超过10画。"},
+    {"ruleId": 137, "result": true, "reason": "最多笔画的'包'字只有5画，少于15画。"},
+    {"ruleId": 138, "result": true, "reason": "两个字都少于10画。"},
+    {"ruleId": 139, "result": true, "reason": "笔画顺序是4→5，构成递增序列。"},
+    {"ruleId": 140, "result": false, "reason": "笔画顺序是4→5，不构成递减序列。"},
+    {"ruleId": 141, "result": false, "reason": "两个字的声调完全相同。"},
+    {"ruleId": 142, "result": false, "reason": "'书(shū)'一声，'包(bāo)'一声，声调相同。"},
+    {"ruleId": 143, "result": false, "reason": "包含第一声('书'和'包')。"},
+    {"ruleId": 144, "result": true, "reason": "不包含第二声。"},
+    {"ruleId": 145, "result": true, "reason": "不包含第三声。"},
+    {"ruleId": 146, "result": true, "reason": "不包含第四声。"},
+    {"ruleId": 147, "result": true, "reason": "包含第一声('书'和'包')。"},
+    {"ruleId": 148, "result": false, "reason": "不包含第二声。"},
+    {"ruleId": 149, "result": false, "reason": "不包含第三声。"},
+    {"ruleId": 150, "result": false, "reason": "不包含第四声。"}
   ]
 } 
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958

@@ -1,755 +1,156 @@
-<<<<<<< HEAD
-{"id":"18","word":"银行卡","questions":[{"ruleId":1,"result":false,"reason":"不是非常古老的物品"},{"ruleId":2,"result":true,"reason":"现代银行卡是1950年后制造的"},{"ruleId":3,"result":true,"reason":"许多家庭都有银行卡"},{"ruleId":4,"result":false,"reason":"不是稀有物品"},{"ruleId":5,"result":false,"reason":"儿童不使用银行卡"},{"ruleId":6,"result":true,"reason":"成年人使用银行卡"},{"ruleId":7,"result":false,"reason":"通常不奢侈或昂贵"},{"ruleId":8,"result":true,"reason":"许多人需要银行卡"},{"ruleId":9,"result":true,"reason":"用于支付"},{"ruleId":10,"result":false,"reason":"不是时尚配饰"},{"ruleId":11,"result":false,"reason":"不是在自然界中存在的"},{"ruleId":12,"result":true,"reason":"在工厂批量生产"},{"ruleId":13,"result":false,"reason":"不是用于特殊场合的"},{"ruleId":14,"result":true,"reason":"每天都会使用"},{"ruleId":15,"result":true,"reason":"通常是个人物品"},{"ruleId":16,"result":false,"reason":"通常不会在多人之间共享"},{"ruleId":17,"result":true,"reason":"是高科技产品"},{"ruleId":18,"result":true,"reason":"基于电子设计"},{"ruleId":19,"result":false,"reason":"不是来自特定国家或文化"},{"ruleId":20,"result":true,"reason":"在世界各地都能找到"},{"ruleId":21,"result":false,"reason":"不是使用后丢弃的"},{"ruleId":22,"result":true,"reason":"可以使用很多年"},{"ruleId":23,"result":true,"reason":"主要在室内使用"},{"ruleId":24,"result":true,"reason":"在室内和室外都可以使用"},{"ruleId":25,"result":true,"reason":"经常在电影和电视节目中出现"},{"ruleId":26,"result":true,"reason":"被各种职业的人使用"},{"ruleId":27,"result":false,"reason":"没有重要的宗教意义"},{"ruleId":28,"result":true,"reason":"主要是世俗性质"},{"ruleId":29,"result":true,"reason":"在工厂批量生产"},{"ruleId":30,"result":false,"reason":"通常不是手工制作的"},{"ruleId":31,"result":true,"reason":"通过支付带来安全感"},{"ruleId":32,"result":false,"reason":"不吓人或危险"},{"ruleId":33,"result":false,"reason":"不是用于娱乐"},{"ruleId":34,"result":true,"reason":"用于工作和生活"},{"ruleId":35,"result":false,"reason":"不是只在特定季节使用"},{"ruleId":36,"result":true,"reason":"全年都可以使用"},{"ruleId":37,"result":true,"reason":"需要适应使用"},{"ruleId":38,"result":true,"reason":"任何人都可以使用"},{"ruleId":39,"result":true,"reason":"在正式场合使用"},{"ruleId":40,"result":true,"reason":"也在休闲场合使用"},{"ruleId":41,"result":false,"reason":"人们不经常收藏银行卡"},{"ruleId":42,"result":false,"reason":"不是特定文化传统的一部分"},{"ruleId":43,"result":true,"reason":"在历史上很重要"},{"ruleId":44,"result":true,"reason":"在当代仍然重要"},{"ruleId":45,"result":false,"reason":"不经常作为礼物赠送"},{"ruleId":46,"result":false,"reason":"不是罕见的礼物"},{"ruleId":47,"result":false,"reason":"不是只有富人才能拥有"},{"ruleId":48,"result":true,"reason":"各收入阶层的人都使用"},{"ruleId":49,"result":true,"reason":"在艺术、文学和媒体中出现"},{"ruleId":50,"result":true,"reason":"在故事中很常见"}]} 
-=======
 {
   "id": "18",
-  "word": "马鞍",
+  "word": "长城",
   "questions": [
-    {
-      "ruleId": 1,
-      "result": true,
-      "reason": "马鞍已有1000多年的历史，自古文明时期就开始使用"
-    },
-    {
-      "ruleId": 2,
-      "result": false,
-      "reason": "基本马鞍设计在1950年之前就已存在"
-    },
-    {
-      "ruleId": 3,
-      "result": false,
-      "reason": "不常见于大多数城市家庭"
-    },
-    {
-      "ruleId": 4,
-      "result": false,
-      "reason": "通常不是专门为儿童设计的（虽然有儿童用马鞍）"
-    },
-    {
-      "ruleId": 5,
-      "result": false,
-      "reason": "主要不是由儿童使用"
-    },
-    {
-      "ruleId": 6,
-      "result": true,
-      "reason": "主要由成年人使用"
-    },
-    {
-      "ruleId": 7,
-      "result": true,
-      "reason": "优质马鞍可能是昂贵的奢侈品"
-    },
-    {
-      "ruleId": 8,
-      "result": false,
-      "reason": "对大多数人来说不是必需品"
-    },
-    {
-      "ruleId": 9,
-      "result": true,
-      "reason": "骑马有实用目的"
-    },
-    {
-      "ruleId": 10,
-      "result": false,
-      "reason": "主要是功能性的，而不是装饰性的"
-    },
-    {
-      "ruleId": 11,
-      "result": false,
-      "reason": "不是自然形成的"
-    },
-    {
-      "ruleId": 12,
-      "result": true,
-      "reason": "由人类制造"
-    },
-    {
-      "ruleId": 13,
-      "result": false,
-      "reason": "经常使用，而不是用于特殊场合"
-    },
-    {
-      "ruleId": 14,
-      "result": true,
-      "reason": "作为马主日常活动的一部分使用"
-    },
-    {
-      "ruleId": 15,
-      "result": true,
-      "reason": "由骑手个人拥有"
-    },
-    {
-      "ruleId": 16,
-      "result": false,
-      "reason": "通常由一个人拥有，不共享"
-    },
-    {
-      "ruleId": 17,
-      "result": false,
-      "reason": "传统马鞍不涉及技术"
-    },
-    {
-      "ruleId": 18,
-      "result": false,
-      "reason": "传统马鞍没有机械部件"
-    },
-    {
-      "ruleId": 19,
-      "result": true,
-      "reason": "在许多社会中具有文化意义（西方、蒙古等）"
-    },
-    {
-      "ruleId": 20,
-      "result": true,
-      "reason": "在不同文化中使用，有多种设计"
-    },
-    {
-      "ruleId": 21,
-      "result": false,
-      "reason": "设计为耐用，不是一次性的"
-    },
-    {
-      "ruleId": 22,
-      "result": true,
-      "reason": "设计为在适当保养下使用多年"
-    },
-    {
-      "ruleId": 23,
-      "result": false,
-      "reason": "通常在户外使用"
-    },
-    {
-      "ruleId": 24,
-      "result": true,
-      "reason": "在户外用于骑马"
-    },
-    {
-      "ruleId": 25,
-      "result": true,
-      "reason": "在许多电影中出现，尤其是西部片"
-    },
-    {
-      "ruleId": 26,
-      "result": true,
-      "reason": "与特定职业相关（牛仔、骑师等）"
-    },
-    {
-      "ruleId": 27,
-      "result": false,
-      "reason": "没有重要的宗教意义"
-    },
-    {
-      "ruleId": 28,
-      "result": true,
-      "reason": "主要是世俗用途"
-    },
-    {
-      "ruleId": 29,
-      "result": true,
-      "reason": "大多数现代马鞍是批量生产的"
-    },
-    {
-      "ruleId": 30,
-      "result": true,
-      "reason": "优质马鞍通常是手工制作的"
-    },
-    {
-      "ruleId": 31,
-      "result": false,
-      "reason": "不特别与快乐相关"
-    },
-    {
-      "ruleId": 32,
-      "result": false,
-      "reason": "通常不吓人或危险"
-    },
-    {
-      "ruleId": 33,
-      "result": true,
-      "reason": "用于娱乐（骑马、牛仔竞技）"
-    },
-    {
-      "ruleId": 34,
-      "result": true,
-      "reason": "有交通实用目的"
-    },
-    {
-      "ruleId": 35,
-      "result": false,
-      "reason": "全年使用，不是季节性的"
-    },
-    {
-      "ruleId": 36,
-      "result": true,
-      "reason": "全年使用"
-    },
-    {
-      "ruleId": 37,
-      "result": true,
-      "reason": "正确安装马鞍需要专业知识"
-    },
-    {
-      "ruleId": 38,
-      "result": false,
-      "reason": "不是每个人都能正确使用"
-    },
-    {
-      "ruleId": 39,
-      "result": false,
-      "reason": "与正式场合无关"
-    },
-    {
-      "ruleId": 40,
-      "result": true,
-      "reason": "用于休闲场合"
-    },
-    {
-      "ruleId": 41,
-      "result": true,
-      "reason": "有些人收藏古董或装饰性马鞍"
-    },
-    {
-      "ruleId": 42,
-      "result": true,
-      "reason": "是马术和牛仔竞技传统的一部分"
-    },
-    {
-      "ruleId": 43,
-      "result": true,
-      "reason": "在交通和战争中具有历史重要性"
-    },
-    {
-      "ruleId": 44,
-      "result": true,
-      "reason": "在现代马术运动中仍然相关"
-    },
-    {
-      "ruleId": 45,
-      "result": false,
-      "reason": "不常作为礼物赠送"
-    },
-    {
-      "ruleId": 46,
-      "result": false,
-      "reason": "太贵且专业，不是常见礼物"
-    },
-    {
-      "ruleId": 47,
-      "result": true,
-      "reason": "优质马鞍可能与财富和地位相关"
-    },
-    {
-      "ruleId": 48,
-      "result": false,
-      "reason": "不是所有经济水平都能平等获得"
-    },
-    {
-      "ruleId": 49,
-      "result": true,
-      "reason": "在艺术、文学和媒体中出现"
-    },
-    {
-      "ruleId": 50,
-      "result": true,
-      "reason": "象征旅行、冒险和美国西部"
-    },
-    {
-      "ruleId": 51,
-      "result": true,
-      "reason": "如果保养不当可能会损坏"
-    },
-    {
-      "ruleId": 52,
-      "result": true,
-      "reason": "设计为可携带和移动"
-    },
-    {
-      "ruleId": 53,
-      "result": false,
-      "reason": "不需要电力来运作"
-    },
-    {
-      "ruleId": 54,
-      "result": true,
-      "reason": "优质马鞍很贵"
-    },
-    {
-      "ruleId": 55,
-      "result": false,
-      "reason": "不是自然形成的"
-    },
-    {
-      "ruleId": 56,
-      "result": true,
-      "reason": "通常经过处理使其防水"
-    },
-    {
-      "ruleId": 57,
-      "result": false,
-      "reason": "太密实不能漂浮"
-    },
-    {
-      "ruleId": 58,
-      "result": false,
-      "reason": "主要由皮革制成，不是金属"
-    },
-    {
-      "ruleId": 59,
-      "result": true,
-      "reason": "皮革在使用时会发出吱吱声"
-    },
-    {
-      "ruleId": 60,
-      "result": false,
-      "reason": "通常是棕色或黑色，不是彩色的"
-    },
-    {
-      "ruleId": 61,
-      "result": true,
-      "reason": "部件可以回收或重新利用"
-    },
-    {
-      "ruleId": 62,
-      "result": false,
-      "reason": "不透明"
-    },
-    {
-      "ruleId": 63,
-      "result": true,
-      "reason": "有可调节部件（马镫、肚带）"
-    },
-    {
-      "ruleId": 64,
-      "result": true,
-      "reason": "座位有垫子，相对柔软"
-    },
-    {
-      "ruleId": 65,
-      "result": false,
-      "reason": "不能折叠"
-    },
-    {
-      "ruleId": 66,
-      "result": true,
-      "reason": "需要定期清洁和维护"
-    },
-    {
-      "ruleId": 67,
-      "result": false,
-      "reason": "通常没有锋利边缘"
-    },
-    {
-      "ruleId": 68,
-      "result": false,
-      "reason": "不能食用"
-    },
-    {
-      "ruleId": 69,
-      "result": true,
-      "reason": "皮革有独特气味"
-    },
-    {
-      "ruleId": 70,
-      "result": true,
-      "reason": "中等重量"
-    },
-    {
-      "ruleId": 71,
-      "result": false,
-      "reason": "不穿戴在人体上"
-    },
-    {
-      "ruleId": 72,
-      "result": false,
-      "reason": "不产生热量"
-    },
-    {
-      "ruleId": 73,
-      "result": false,
-      "reason": "不易燃"
-    },
-    {
-      "ruleId": 74,
-      "result": true,
-      "reason": "有不同的样式和设计"
-    },
-    {
-      "ruleId": 75,
-      "result": false,
-      "reason": "使用前需要调整"
-    },
-    {
-      "ruleId": 76,
-      "result": false,
-      "reason": "皮革不易生物降解"
-    },
-    {
-      "ruleId": 77,
-      "result": false,
-      "reason": "不易堆叠"
-    },
-    {
-      "ruleId": 78,
-      "result": false,
-      "reason": "表面不反光"
-    },
-    {
-      "ruleId": 79,
-      "result": false,
-      "reason": "不具有磁性"
-    },
-    {
-      "ruleId": 80,
-      "result": false,
-      "reason": "通常是天然皮革颜色，不涂漆"
-    },
-    {
-      "ruleId": 81,
-      "result": true,
-      "reason": "皮革吸收一些水分"
-    },
-    {
-      "ruleId": 82,
-      "result": false,
-      "reason": "整体刚性，不灵活"
-    },
-    {
-      "ruleId": 83,
-      "result": true,
-      "reason": "皮革潮湿时变深"
-    },
-    {
-      "ruleId": 84,
-      "result": true,
-      "reason": "皮革随时间使用而改变外观"
-    },
-    {
-      "ruleId": 85,
-      "result": true,
-      "reason": "设计一般对称"
-    },
-    {
-      "ruleId": 86,
-      "result": true,
-      "reason": "如果损坏可以修复"
-    },
-    {
-      "ruleId": 87,
-      "result": false,
-      "reason": "不需要燃料"
-    },
-    {
-      "ruleId": 88,
-      "result": true,
-      "reason": "需要保持清洁"
-    },
-    {
-      "ruleId": 89,
-      "result": false,
-      "reason": "在水下不能使用"
-    },
-    {
-      "ruleId": 90,
-      "result": false,
-      "reason": "没有轮子"
-    },
-    {
-      "ruleId": 91,
-      "result": false,
-      "reason": "不是一次性的"
-    },
-    {
-      "ruleId": 92,
-      "result": false,
-      "reason": "不是设计来承受高温的"
-    },
-    {
-      "ruleId": 93,
-      "result": true,
-      "reason": "应该妥善储存以保持形状"
-    },
-    {
-      "ruleId": 94,
-      "result": true,
-      "reason": "优质马鞍是手工制作的"
-    },
-    {
-      "ruleId": 95,
-      "result": true,
-      "reason": "表面可以清洁"
-    },
-    {
-      "ruleId": 96,
-      "result": false,
-      "reason": "不是成对的"
-    },
-    {
-      "ruleId": 97,
-      "result": false,
-      "reason": "全年使用，不是季节性的"
-    },
-    {
-      "ruleId": 98,
-      "result": true,
-      "reason": "用作骑马的工具"
-    },
-    {
-      "ruleId": 99,
-      "result": false,
-      "reason": "使用不需要许可证"
-    },
-    {
-      "ruleId": 100,
-      "result": true,
-      "reason": "可以使用多年"
-    },
-    {
-      "ruleId": 101,
-      "result": true,
-      "reason": "有两个音节（mǎ-ān）"
-    },
-    {
-      "ruleId": 102,
-      "result": false,
-      "reason": "不以元音开头"
-    },
-    {
-      "ruleId": 103,
-      "result": false,
-      "reason": "不以元音结尾"
-    },
-    {
-      "ruleId": 104,
-      "result": false,
-      "reason": "有两个字，不是五个"
-    },
-    {
-      "ruleId": 105,
-      "result": false,
-      "reason": "不包含重复的元音"
-    },
-    {
-      "ruleId": 106,
-      "result": true,
-      "reason": "第一个字'马'在字母表中在最后一个字'鞍'之前"
-    },
-    {
-      "ruleId": 107,
-      "result": false,
-      "reason": "不是由两个词组成"
-    },
-    {
-      "ruleId": 108,
-      "result": false,
-      "reason": "没有重复的字"
-    },
-    {
-      "ruleId": 109,
-      "result": true,
-      "reason": "以'm'开头，在字母表前半部分"
-    },
-    {
-      "ruleId": 110,
-      "result": true,
-      "reason": "有两个字（超过6个字母）"
-    },
-    {
-      "ruleId": 111,
-      "result": false,
-      "reason": "用作名词，通常不用作动词"
-    },
-    {
-      "ruleId": 112,
-      "result": false,
-      "reason": "不包含'k'音"
-    },
-    {
-      "ruleId": 113,
-      "result": true,
-      "reason": "有4个不同的字（马、鞍）"
-    },
-    {
-      "ruleId": 114,
-      "result": false,
-      "reason": "没有公认的前缀"
-    },
-    {
-      "ruleId": 115,
-      "result": false,
-      "reason": "包含'a'但不包含'b'"
-    },
-    {
-      "ruleId": 116,
-      "result": false,
-      "reason": "前两个字'马'和'鞍'不是按字母顺序排列"
-    },
-    {
-      "ruleId": 117,
-      "result": false,
-      "reason": "不包含'r'音"
-    },
-    {
-      "ruleId": 118,
-      "result": false,
-      "reason": "没有三个辅音连在一起"
-    },
-    {
-      "ruleId": 119,
-      "result": true,
-      "reason": "有两个字（在6-8个字母范围内）"
-    },
-    {
-      "ruleId": 120,
-      "result": false,
-      "reason": "不以'-le'结尾"
-    },
-    {
-      "ruleId": 121,
-      "result": false,
-      "reason": "不包含't'、'v'或's'"
-    },
-    {
-      "ruleId": 122,
-      "result": false,
-      "reason": "不包含'z'音"
-    },
-    {
-      "ruleId": 123,
-      "result": false,
-      "reason": "没有重复的字"
-    },
-    {
-      "ruleId": 124,
-      "result": true,
-      "reason": "有两个音节"
-    },
-    {
-      "ruleId": 125,
-      "result": false,
-      "reason": "不包含颜色名称"
-    },
-    {
-      "ruleId": 126,
-      "result": false,
-      "reason": "没有无声辅音"
-    },
-    {
-      "ruleId": 127,
-      "result": false,
-      "reason": "不常用作动词"
-    },
-    {
-      "ruleId": 128,
-      "result": false,
-      "reason": "不以'er'结尾"
-    },
-    {
-      "ruleId": 129,
-      "result": false,
-      "reason": "字不是按字母顺序排列"
-    },
-    {
-      "ruleId": 130,
-      "result": false,
-      "reason": "没有相邻的元音"
-    },
-    {
-      "ruleId": 131,
-      "result": false,
-      "reason": "没有重复的字"
-    },
-    {
-      "ruleId": 132,
-      "result": false,
-      "reason": "不包含'q'音"
-    },
-    {
-      "ruleId": 133,
-      "result": false,
-      "reason": "包含2个元音（a,a）"
-    },
-    {
-      "ruleId": 134,
-      "result": false,
-      "reason": "有2个元音和2个辅音（不是更多元音）"
-    },
-    {
-      "ruleId": 135,
-      "result": true,
-      "reason": "有4个字母（偶数）"
-    },
-    {
-      "ruleId": 136,
-      "result": true,
-      "reason": "恰好有2个元音"
-    },
-    {
-      "ruleId": 137,
-      "result": false,
-      "reason": "最后一个字母'ān'不在中间字母'ǎ'之前"
-    },
-    {
-      "ruleId": 138,
-      "result": false,
-      "reason": "不以元音结尾"
-    },
-    {
-      "ruleId": 139,
-      "result": false,
-      "reason": "不以相同的字母开头和结尾"
-    },
-    {
-      "ruleId": 140,
-      "result": false,
-      "reason": "有两个音节，不是一个"
-    },
-    {
-      "ruleId": 141,
-      "result": false,
-      "reason": "不是缩写"
-    },
-    {
-      "ruleId": 142,
-      "result": false,
-      "reason": "不包含'th'"
-    },
-    {
-      "ruleId": 143,
-      "result": false,
-      "reason": "没有字母出现两次"
-    },
-    {
-      "ruleId": 144,
-      "result": false,
-      "reason": "没有'y'音"
-    },
-    {
-      "ruleId": 145,
-      "result": false,
-      "reason": "以辅音'm'开头但不以元音结尾"
-    },
-    {
-      "ruleId": 146,
-      "result": false,
-      "reason": "不包含'sh'或'ch'"
-    },
-    {
-      "ruleId": 147,
-      "result": true,
-      "reason": "包含字母表两半的字"
-    },
-    {
-      "ruleId": 148,
-      "result": false,
-      "reason": "不以'ly'结尾"
-    },
-    {
-      "ruleId": 149,
-      "result": false,
-      "reason": "拼写时不包含数字"
-    }
+    {"ruleId": 1, "result": true, "reason": "长城始建于公元前7世纪，已存在超过2000年。"},
+    {"ruleId": 2, "result": false, "reason": "长城在1950年前就已存在。"},
+    {"ruleId": 3, "result": false, "reason": "普通家庭不会拥有长城。"},
+    {"ruleId": 4, "result": true, "reason": "作为世界文化遗产，是稀有的历史建筑。"},
+    {"ruleId": 5, "result": false, "reason": "不是为儿童设计的物品。"},
+    {"ruleId": 6, "result": false, "reason": "不是专为成人设计的物品。"},
+    {"ruleId": 7, "result": false, "reason": "不是每个人必需品。"},
+    {"ruleId": 8, "result": false, "reason": "建造目的是军事防御，不是帮助人们完成日常任务。"},
+    {"ruleId": 9, "result": false, "reason": "建造目的是军事防御，不是为特殊场合设计。"},
+    {"ruleId": 10, "result": false, "reason": "不在日常生活中使用。"},
+    {"ruleId": 11, "result": false, "reason": "不是个人物品。"},
+    {"ruleId": 12, "result": false, "reason": "不是家庭共享物品。"},
+    {"ruleId": 13, "result": false, "reason": "不需要电力运行。"},
+    {"ruleId": 14, "result": true, "reason": "是中国文化的重要象征。"},
+    {"ruleId": 15, "result": false, "reason": "只在中国存在，不是世界各地都有。"},
+    {"ruleId": 16, "result": false, "reason": "不是一次性物品。"},
+    {"ruleId": 17, "result": true, "reason": "已经存在数千年。"},
+    {"ruleId": 18, "result": false, "reason": "不是室内物品。"},
+    {"ruleId": 19, "result": true, "reason": "是户外建筑。"},
+    {"ruleId": 20, "result": true, "reason": "在电影和电视中经常出现。"},
+    {"ruleId": 21, "result": true, "reason": "与考古学家、历史学家和旅游业相关。"},
+    {"ruleId": 22, "result": false, "reason": "主要用于军事防御，不具宗教意义。"},
+    {"ruleId": 23, "result": true, "reason": "与宗教无关。"},
+    {"ruleId": 24, "result": true, "reason": "作为宏伟建筑和文化遗产给人带来敬畏和愉悦感。"},
+    {"ruleId": 25, "result": false, "reason": "通常不会引起恐惧。"},
+    {"ruleId": 26, "result": false, "reason": "不是游戏或娱乐物品。"},
+    {"ruleId": 27, "result": true, "reason": "是重要的历史文物和国家象征。"},
+    {"ruleId": 28, "result": false, "reason": "不是季节性物品。"},
+    {"ruleId": 29, "result": true, "reason": "全年都可以参观。"},
+    {"ruleId": 30, "result": true, "reason": "建造需要高超的工程技术和大量人力。"},
+    {"ruleId": 31, "result": true, "reason": "参观简单易行。"},
+    {"ruleId": 32, "result": true, "reason": "作为国家象征用于正式场合。"},
+    {"ruleId": 33, "result": true, "reason": "也是旅游胜地，适合非正式场合。"},
+    {"ruleId": 34, "result": true, "reason": "有人收集长城的模型和图片。"},
+    {"ruleId": 35, "result": true, "reason": "在中国文化中具有重要的传统意义。"},
+    {"ruleId": 36, "result": true, "reason": "代表了古代建筑技术的重要成就。"},
+    {"ruleId": 37, "result": false, "reason": "不是现代发明。"},
+    {"ruleId": 38, "result": false, "reason": "不作为礼物赠送。"},
+    {"ruleId": 39, "result": true, "reason": "小型长城模型偶尔作为纪念品赠送。"},
+    {"ruleId": 40, "result": false, "reason": "参观长城不限于富人。"},
+    {"ruleId": 41, "result": true, "reason": "各收入阶层的人都可以参观长城。"},
+    {"ruleId": 42, "result": true, "reason": "有大量关于长城的书籍和文章。"},
+    {"ruleId": 43, "result": false, "reason": "在媒体和日常生活中较常见。"},
+    {"ruleId": 44, "result": false, "reason": "不需要燃料运行。"},
+    {"ruleId": 45, "result": false, "reason": "不是一次性产品。"},
+    {"ruleId": 46, "result": false, "reason": "不是季节性商品。"},
+    {"ruleId": 47, "result": true, "reason": "可以多次参观。"},
+    {"ruleId": 48, "result": false, "reason": "参观不需要特殊许可证。"},
+    {"ruleId": 49, "result": false, "reason": "世界上只有一条长城。"},
+    {"ruleId": 50, "result": false, "reason": "尽管有不同部分，但只有一种长城。"},
+    {"ruleId": 51, "result": true, "reason": "长城经过数千年的风化需要保护和修复。"},
+    {"ruleId": 52, "result": false, "reason": "体积巨大不便携带。"},
+    {"ruleId": 53, "result": false, "reason": "不需要电力。"},
+    {"ruleId": 54, "result": true, "reason": "建造成本极高。"},
+    {"ruleId": 55, "result": false, "reason": "是人工建筑，不是自然物体。"},
+    {"ruleId": 56, "result": false, "reason": "不能在水下使用。"},
+    {"ruleId": 57, "result": false, "reason": "不能在水上漂浮。"},
+    {"ruleId": 58, "result": false, "reason": "主要由石材和砖块建造，不是金属制品。"},
+    {"ruleId": 59, "result": false, "reason": "不发出声音。"},
+    {"ruleId": 60, "result": false, "reason": "通常颜色单一，多为石材本色。"},
+    {"ruleId": 61, "result": false, "reason": "不可回收再利用。"},
+    {"ruleId": 62, "result": false, "reason": "不透明。"},
+    {"ruleId": 63, "result": false, "reason": "没有活动部件。"},
+    {"ruleId": 64, "result": false, "reason": "坚硬，不柔软。"},
+    {"ruleId": 65, "result": false, "reason": "不能折叠。"},
+    {"ruleId": 66, "result": true, "reason": "需要定期维护和修复。"},
+    {"ruleId": 67, "result": false, "reason": "通常没有锋利边缘。"},
+    {"ruleId": 68, "result": false, "reason": "不可食用。"},
+    {"ruleId": 69, "result": false, "reason": "没有特殊气味。"},
+    {"ruleId": 70, "result": true, "reason": "重量极重。"},
+    {"ruleId": 71, "result": false, "reason": "不能穿戴。"},
+    {"ruleId": 72, "result": false, "reason": "不产生热量。"},
+    {"ruleId": 73, "result": false, "reason": "不会燃烧。"},
+    {"ruleId": 74, "result": false, "reason": "建成后通常不再装饰。"},
+    {"ruleId": 75, "result": true, "reason": "由大量石块和砖块组装而成。"},
+    {"ruleId": 76, "result": false, "reason": "非常持久，不易分解。"},
+    {"ruleId": 77, "result": false, "reason": "不能堆叠。"},
+    {"ruleId": 78, "result": false, "reason": "表面通常不光滑有光泽。"},
+    {"ruleId": 79, "result": false, "reason": "不会被磁铁吸引。"},
+    {"ruleId": 80, "result": false, "reason": "不能上漆。"},
+    {"ruleId": 81, "result": false, "reason": "石材有一定吸水性但不显著。"},
+    {"ruleId": 82, "result": false, "reason": "坚硬，不易弯曲。"},
+    {"ruleId": 83, "result": false, "reason": "遇水不会变色。"},
+    {"ruleId": 84, "result": true, "reason": "会随时间风化老化。"},
+    {"ruleId": 85, "result": false, "reason": "形状不对称，沿地形蜿蜒。"},
+    {"ruleId": 86, "result": true, "reason": "损坏部分可以修复。"},
+    {"ruleId": 87, "result": false, "reason": "不需要燃料运行。"},
+    {"ruleId": 88, "result": false, "reason": "不产生灰尘或污垢。"},
+    {"ruleId": 89, "result": false, "reason": "不能在水下使用。"},
+    {"ruleId": 90, "result": true, "reason": "由多块石材和砖块组成。"},
+    {"ruleId": 91, "result": true, "reason": "已经存在数千年。"},
+    {"ruleId": 92, "result": false, "reason": "不需要加热使用。"},
+    {"ruleId": 93, "result": false, "reason": "不需要特定温度存储。"},
+    {"ruleId": 94, "result": true, "reason": "是人工建造物。"},
+    {"ruleId": 95, "result": true, "reason": "表面可以清洁和修复。"},
+    {"ruleId": 96, "result": false, "reason": "不成对出现。"},
+    {"ruleId": 97, "result": false, "reason": "全年都存在，不是季节性物品。"},
+    {"ruleId": 98, "result": false, "reason": "不是工具。"},
+    {"ruleId": 99, "result": false, "reason": "参观不需要许可证。"},
+    {"ruleId": 100, "result": true, "reason": "可以多次参观。"},
+    {"ruleId": 101, "result": false, "reason": "不是一个字。"},
+    {"ruleId": 102, "result": true, "reason": "'长城'是两个汉字。"},
+    {"ruleId": 103, "result": false, "reason": "不是三个汉字。"},
+    {"ruleId": 104, "result": false, "reason": "不是四个汉字。"},
+    {"ruleId": 105, "result": false, "reason": "不包含'心'字或偏旁。"},
+    {"ruleId": 106, "result": false, "reason": "不包含'草'字或偏旁。"},
+    {"ruleId": 107, "result": false, "reason": "不包含'水'字或偏旁。"},
+    {"ruleId": 108, "result": false, "reason": "不包含'金'字或偏旁。"},
+    {"ruleId": 109, "result": false, "reason": "不包含'木'字或偏旁。"},
+    {"ruleId": 110, "result": false, "reason": "不包含'火'字或偏旁。"},
+    {"ruleId": 111, "result": true, "reason": "'城'字包含'土'字旁。"},
+    {"ruleId": 112, "result": false, "reason": "不包含'日'字或偏旁。"},
+    {"ruleId": 113, "result": false, "reason": "不包含'月'字或偏旁。"},
+    {"ruleId": 114, "result": false, "reason": "不包含'山'字或偏旁。"},
+    {"ruleId": 115, "result": false, "reason": "不包含'川'字或偏旁。"},
+    {"ruleId": 116, "result": false, "reason": "不包含'雨'字或偏旁。"},
+    {"ruleId": 117, "result": false, "reason": "不包含'人'字或偏旁。"},
+    {"ruleId": 118, "result": false, "reason": "不包含'手'字或偏旁。"},
+    {"ruleId": 119, "result": false, "reason": "不包含'王'字或偏旁。"},
+    {"ruleId": 120, "result": false, "reason": "不包含'口'字或偏旁。"},
+    {"ruleId": 121, "result": false, "reason": "不包含'目'字或偏旁。"},
+    {"ruleId": 122, "result": false, "reason": "不包含'耳'字或偏旁。"},
+    {"ruleId": 123, "result": false, "reason": "不包含'足'字或偏旁。"},
+    {"ruleId": 124, "result": false, "reason": "不包含'言'字或偏旁。"},
+    {"ruleId": 125, "result": false, "reason": "不包含'食'字或偏旁。"},
+    {"ruleId": 126, "result": false, "reason": "不包含'衣'字或偏旁。"},
+    {"ruleId": 127, "result": false, "reason": "不包含'马'字或偏旁。"},
+    {"ruleId": 128, "result": false, "reason": "不包含'鱼'字或偏旁。"},
+    {"ruleId": 129, "result": false, "reason": "不包含'鸟'字或偏旁。"},
+    {"ruleId": 130, "result": false, "reason": "不包含'车'字或偏旁。"},
+    {"ruleId": 131, "result": false, "reason": "'长'字不是左右结构。"},
+    {"ruleId": 132, "result": false, "reason": "'长'字是单一结构，'城'字是左右结构。"},
+    {"ruleId": 133, "result": true, "reason": "两个字的偏旁不同。"},
+    {"ruleId": 134, "result": true, "reason": "两个字的结构不同。"},
+    {"ruleId": 135, "result": false, "reason": "'长'字4画，'城'字9画，有字超过7画。"},
+    {"ruleId": 136, "result": true, "reason": "'长'字4画，'城'字9画，均少于10画。"},
+    {"ruleId": 137, "result": true, "reason": "最多笔画的'城'字9画，少于15画。"},
+    {"ruleId": 138, "result": true, "reason": "'城'字9画，少于10画。"},
+    {"ruleId": 139, "result": true, "reason": "笔画顺序是4→9，构成递增序列。"},
+    {"ruleId": 140, "result": false, "reason": "笔画顺序是4→9，不构成递减序列。"},
+    {"ruleId": 141, "result": false, "reason": "两个字的声调不完全不同。"},
+    {"ruleId": 142, "result": true, "reason": "'长(cháng)'二声，'城(chéng)'二声，声调相同。"},
+    {"ruleId": 143, "result": true, "reason": "不包含第一声。"},
+    {"ruleId": 144, "result": false, "reason": "包含第二声('长'和'城')。"},
+    {"ruleId": 145, "result": true, "reason": "不包含第三声。"},
+    {"ruleId": 146, "result": true, "reason": "不包含第四声。"},
+    {"ruleId": 147, "result": false, "reason": "不包含第一声。"},
+    {"ruleId": 148, "result": true, "reason": "包含第二声('长'和'城')。"},
+    {"ruleId": 149, "result": false, "reason": "不包含第三声。"},
+    {"ruleId": 150, "result": false, "reason": "不包含第四声。"}
   ]
-} 
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
+}
