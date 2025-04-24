@@ -1,756 +1,156 @@
 {
   "id": "8",
-  "word": "自行车",
+  "word": "电视",
   "questions": [
-    {
-      "ruleId": 1,
-      "result": false,
-      "reason": "自行车起源于19世纪，历史不足1000年。"
-    },
-    {
-      "ruleId": 2,
-      "result": false,
-      "reason": "自行车最早出现在1817年，早于1950年，不属于1950年后出现的新事物。"
-    },
-    {
-      "ruleId": 3,
-      "result": true,
-      "reason": "现代许多家庭拥有至少一辆自行车。"
-    },
-    {
-      "ruleId": 4,
-      "result": false,
-      "reason": "自行车非常普及，不属于大多数人没有的稀有物品。"
-    },
-    {
-      "ruleId": 5,
-      "result": false,
-      "reason": "自行车并非主要面向儿童设计，而是通用交通工具。"
-    },
-    {
-      "ruleId": 6,
-      "result": true,
-      "reason": "自行车的设计和功能主要针对成年人使用。"
-    },
-    {
-      "ruleId": 7,
-      "result": true,
-      "reason": "在许多地区，自行车被视为日常出行的必需品。"
-    },
-    {
-      "ruleId": 8,
-      "result": true,
-      "reason": "自行车可用于通勤和运送货物，帮助完成工作任务。"
-    },
-    {
-      "ruleId": 9,
-      "result": false,
-      "reason": "自行车并不是仅在特殊场合使用的物品。"
-    },
-    {
-      "ruleId": 10,
-      "result": true,
-      "reason": "自行车在日常生活中随时可用于出行。"
-    },
-    {
-      "ruleId": 11,
-      "result": true,
-      "reason": "自行车通常归个人所有，是典型的个人物品。"
-    },
-    {
-      "ruleId": 12,
-      "result": false,
-      "reason": "自行车一般不由多人共享，而是个人专用。"
-    },
-    {
-      "ruleId": 13,
-      "result": false,
-      "reason": "普通自行车不依赖电力驱动。"
-    },
-    {
-      "ruleId": 14,
-      "result": false,
-      "reason": "自行车为全球通用交通工具，不特定于某一国家或文化。"
-    },
-    {
-      "ruleId": 15,
-      "result": true,
-      "reason": "自行车在世界多数国家都能买到并使用。"
-    },
-    {
-      "ruleId": 16,
-      "result": false,
-      "reason": "自行车为长期使用的交通工具，不是一次性丢弃品。"
-    },
-    {
-      "ruleId": 17,
-      "result": true,
-      "reason": "一辆自行车通常可以使用多年才需要更换。"
-    },
-    {
-      "ruleId": 18,
-      "result": false,
-      "reason": "自行车主要设计用于户外，不适合室内使用。"
-    },
-    {
-      "ruleId": 19,
-      "result": true,
-      "reason": "自行车专为户外骑行设计，可在室外使用。"
-    },
-    {
-      "ruleId": 20,
-      "result": true,
-      "reason": "在电影和电视中，经常出现角色骑行自行车的场景。"
-    },
-    {
-      "ruleId": 21,
-      "result": true,
-      "reason": "不同职业的人，如外卖员、通勤者、运动者等都使用自行车。"
-    },
-    {
-      "ruleId": 22,
-      "result": false,
-      "reason": "自行车本身不具有宗教意义。"
-    },
-    {
-      "ruleId": 23,
-      "result": true,
-      "reason": "自行车作为交通工具，与宗教无关。"
-    },
-    {
-      "ruleId": 24,
-      "result": true,
-      "reason": "许多人骑自行车时会感到快乐和放松。"
-    },
-    {
-      "ruleId": 25,
-      "result": true,
-      "reason": "骑行时若不注意可能存在摔倒或交通事故的危险。"
-    },
-    {
-      "ruleId": 26,
-      "result": true,
-      "reason": "自行车常用于娱乐和竞技比赛，如休闲骑行、山地车赛事。"
-    },
-    {
-      "ruleId": 27,
-      "result": true,
-      "reason": "自行车可用于快递、送货等重要工作任务。"
-    },
-    {
-      "ruleId": 28,
-      "result": false,
-      "reason": "自行车全年均可使用，无特定时间限制。"
-    },
-    {
-      "ruleId": 29,
-      "result": true,
-      "reason": "自行车设计用于全年任何时间骑行。"
-    },
-    {
-      "ruleId": 30,
-      "result": false,
-      "reason": "骑自行车的学习门槛相对较低，大多数人都能学会。"
-    },
-    {
-      "ruleId": 31,
-      "result": true,
-      "reason": "自行车操作直观，多数人易于使用。"
-    },
-    {
-      "ruleId": 32,
-      "result": false,
-      "reason": "在正式场合中，人们通常不会骑自行车。"
-    },
-    {
-      "ruleId": 33,
-      "result": true,
-      "reason": "在休闲、郊游环境中，人们常用自行车放松娱乐。"
-    },
-    {
-      "ruleId": 34,
-      "result": false,
-      "reason": "自行车更新换代缓慢，一般不作为收藏品。"
-    },
-    {
-      "ruleId": 35,
-      "result": false,
-      "reason": "自行车不属于任何特殊传统的一部分。"
-    },
-    {
-      "ruleId": 36,
-      "result": true,
-      "reason": "自行车的发明极大改变了人类出行方式，具有历史重要性。"
-    },
-    {
-      "ruleId": 37,
-      "result": false,
-      "reason": "自行车在19世纪就开始使用，过去和现代使用都很广泛。"
-    },
-    {
-      "ruleId": 38,
-      "result": true,
-      "reason": "自行车常在节日或生日等场合作为礼物赠送。"
-    },
-    {
-      "ruleId": 39,
-      "result": false,
-      "reason": "自行车作为礼物非常普遍，不是很少赠送的物品。"
-    },
-    {
-      "ruleId": 40,
-      "result": false,
-      "reason": "自行车并非富人专属，各收入阶层者均可拥有。"
-    },
-    {
-      "ruleId": 41,
-      "result": true,
-      "reason": "各收入阶层的人都使用自行车，普及率较高。"
-    },
-    {
-      "ruleId": 42,
-      "result": true,
-      "reason": "有许多关于自行车的书籍、电影和艺术作品。"
-    },
-    {
-      "ruleId": 43,
-      "result": false,
-      "reason": "自行车在文学和影视中频繁出现，不稀缺。"
-    },
-    {
-      "ruleId": 44,
-      "result": false,
-      "reason": "自行车依靠人力，不需要燃料。"
-    },
-    {
-      "ruleId": 45,
-      "result": false,
-      "reason": "自行车为可反复使用的交通工具，不是一次性设计。"
-    },
-    {
-      "ruleId": 46,
-      "result": false,
-      "reason": "自行车无季节性限制，可全年使用。"
-    },
-    {
-      "ruleId": 47,
-      "result": true,
-      "reason": "自行车可反复骑行使用。"
-    },
-    {
-      "ruleId": 48,
-      "result": false,
-      "reason": "骑自行车无需任何许可。"
-    },
-    {
-      "ruleId": 49,
-      "result": true,
-      "reason": "全球数十亿辆自行车在使用。"
-    },
-    {
-      "ruleId": 50,
-      "result": false,
-      "reason": "自行车种类和数量众多，不止一辆。"
-    },
-    {
-      "ruleId": 51,
-      "result": true,
-      "reason": "自行车零件容易因碰撞或跌落而损坏。"
-    },
-    {
-      "ruleId": 52,
-      "result": true,
-      "reason": "自行车结构轻便，便于携带和搬运。"
-    },
-    {
-      "ruleId": 53,
-      "result": false,
-      "reason": "自行车不依赖电力即可正常骑行。"
-    },
-    {
-      "ruleId": 54,
-      "result": false,
-      "reason": "普通自行车价格亲民，不算昂贵。"
-    },
-    {
-      "ruleId": 55,
-      "result": false,
-      "reason": "自行车为人造交通工具，不存在于自然界。"
-    },
-    {
-      "ruleId": 56,
-      "result": false,
-      "reason": "自行车虽可防雨，但无法在水中保持干燥。"
-    },
-    {
-      "ruleId": 57,
-      "result": false,
-      "reason": "自行车结构密实，不具备漂浮功能。"
-    },
-    {
-      "ruleId": 58,
-      "result": true,
-      "reason": "自行车车架和链条等部件由金属制成。"
-    },
-    {
-      "ruleId": 59,
-      "result": false,
-      "reason": "自行车本身不发声，仅骑行时轮胎滚动声音。"
-    },
-    {
-      "ruleId": 60,
-      "result": false,
-      "reason": "自行车常见颜色多为黑、银、红等，不一定鲜艳。"
-    },
-    {
-      "ruleId": 61,
-      "result": true,
-      "reason": "自行车含钢铁等可回收材料，可进行回收利用。"
-    },
-    {
-      "ruleId": 62,
-      "result": false,
-      "reason": "自行车各部件均不透明。"
-    },
-    {
-      "ruleId": 63,
-      "result": true,
-      "reason": "自行车含车轮、踏板、链条等活动部件。"
-    },
-    {
-      "ruleId": 64,
-      "result": false,
-      "reason": "自行车材质坚硬，不会显得柔软。"
-    },
-    {
-      "ruleId": 65,
-      "result": false,
-      "reason": "普通自行车无法折叠或压扁（折叠款除外）。"
-    },
-    {
-      "ruleId": 66,
-      "result": true,
-      "reason": "自行车需要定期维护，如上链条、充气、调整刹车。"
-    },
-    {
-      "ruleId": 67,
-      "result": false,
-      "reason": "自行车边缘和框架一般圆滑，不具锋利棱角。"
-    },
-    {
-      "ruleId": 68,
-      "result": false,
-      "reason": "自行车为交通工具，不可食用。"
-    },
-    {
-      "ruleId": 69,
-      "result": false,
-      "reason": "自行车无明显气味。"
-    },
-    {
-      "ruleId": 70,
-      "result": true,
-      "reason": "自行车整车重量通常在10–20公斤，比较沉重。"
-    },
-    {
-      "ruleId": 71,
-      "result": false,
-      "reason": "自行车为交通工具，不可穿戴。"
-    },
-    {
-      "ruleId": 72,
-      "result": false,
-      "reason": "自行车骑行本身不会产生热量。"
-    },
-    {
-      "ruleId": 73,
-      "result": false,
-      "reason": "自行车本身不易着火。"
-    },
-    {
-      "ruleId": 74,
-      "result": true,
-      "reason": "用户可通过贴花、车铃等方式装饰自行车。"
-    },
-    {
-      "ruleId": 75,
-      "result": true,
-      "reason": "新车通常需要自行车商店或用户自己组装部分配件。"
-    },
-    {
-      "ruleId": 76,
-      "result": false,
-      "reason": "自行车所用金属和塑料等材料不易自然分解。"
-    },
-    {
-      "ruleId": 77,
-      "result": true,
-      "reason": "自行车可整齐堆叠存放，节省空间。"
-    },
-    {
-      "ruleId": 78,
-      "result": true,
-      "reason": "车架和车把表面具有金属光泽，能反光。"
-    },
-    {
-      "ruleId": 79,
-      "result": true,
-      "reason": "自行车钢制部件会被普通磁铁吸引。"
-    },
-    {
-      "ruleId": 80,
-      "result": true,
-      "reason": "自行车车架可喷漆或贴膜进行个性化设计。"
-    },
-    {
-      "ruleId": 81,
-      "result": false,
-      "reason": "自行车主体不吸水，但需防锈处理。"
-    },
-    {
-      "ruleId": 82,
-      "result": false,
-      "reason": "自行车结构坚固，不易弯曲。"
-    },
-    {
-      "ruleId": 83,
-      "result": false,
-      "reason": "自行车遇水不会变色，但可能腐蚀。"
-    },
-    {
-      "ruleId": 84,
-      "result": true,
-      "reason": "自行车外观和性能会随着使用时间逐渐变化。"
-    },
-    {
-      "ruleId": 85,
-      "result": true,
-      "reason": "自行车左右两侧框架、车轮形状相同。"
-    },
-    {
-      "ruleId": 86,
-      "result": true,
-      "reason": "自行车可更换和维修车胎、车把等部件。"
-    },
-    {
-      "ruleId": 87,
-      "result": false,
-      "reason": "自行车使用人力，不依赖燃料。"
-    },
-    {
-      "ruleId": 88,
-      "result": false,
-      "reason": "自行车表面容易积尘，不是干净无菌。"
-    },
-    {
-      "ruleId": 89,
-      "result": false,
-      "reason": "普通自行车不适合水下使用。"
-    },
-    {
-      "ruleId": 90,
-      "result": true,
-      "reason": "自行车由车架、车轮、链条、刹车等多个部件组成。"
-    },
-    {
-      "ruleId": 91,
-      "result": false,
-      "reason": "自行车为可重复使用设计，非一次性产品。"
-    },
-    {
-      "ruleId": 92,
-      "result": false,
-      "reason": "自行车不适合高温加热，易损坏部件。"
-    },
-    {
-      "ruleId": 93,
-      "result": false,
-      "reason": "自行车可在普通环境中存放，无需特殊储存条件。"
-    },
-    {
-      "ruleId": 94,
-      "result": false,
-      "reason": "自行车为流水线生产，不是手工制作。"
-    },
-    {
-      "ruleId": 95,
-      "result": true,
-      "reason": "自行车表面可用布或清洁剂擦洗，较易清洁。"
-    },
-    {
-      "ruleId": 96,
-      "result": false,
-      "reason": "自行车通常单辆使用，不成对出现。"
-    },
-    {
-      "ruleId": 97,
-      "result": false,
-      "reason": "自行车全年可用，无季节性使用要求。"
-    },
-    {
-      "ruleId": 98,
-      "result": true,
-      "reason": "自行车可用于导航、健身等多种功能，属于工具。"
-    },
-    {
-      "ruleId": 99,
-      "result": false,
-      "reason": "骑自行车无需申请任何许可。"
-    },
-    {
-      "ruleId": 100,
-      "result": true,
-      "reason": "自行车可反复骑行和使用，非一次性。"
-    },
-    {
-      "ruleId": 101,
-      "result": false,
-      "reason": "“自行车”由三个汉字组成，不是两个字。"
-    },
-    {
-      "ruleId": 102,
-      "result": true,
-      "reason": "“自行车”为三个汉字。"
-    },
-    {
-      "ruleId": 103,
-      "result": false,
-      "reason": "“自行车”不是四个汉字。"
-    },
-    {
-      "ruleId": 104,
-      "result": false,
-      "reason": "“自行车”不是五个汉字。"
-    },
-    {
-      "ruleId": 105,
-      "result": false,
-      "reason": "“自行车”中不包含“心”字或偏旁。"
-    },
-    {
-      "ruleId": 106,
-      "result": false,
-      "reason": "“自行车”中不包含“草”字或偏旁。"
-    },
-    {
-      "ruleId": 107,
-      "result": false,
-      "reason": "“自行车”中不包含“水”字或偏旁。"
-    },
-    {
-      "ruleId": 108,
-      "result": false,
-      "reason": "“自行车”中不包含“金”字或偏旁。"
-    },
-    {
-      "ruleId": 109,
-      "result": false,
-      "reason": "“自行车”中不包含木字旁。"
-    },
-    {
-      "ruleId": 110,
-      "result": false,
-      "reason": "“自行车”中不包含“火”字或偏旁。"
-    },
-    {
-      "ruleId": 111,
-      "result": false,
-      "reason": "“自行车”中不包含“土”字或偏旁。"
-    },
-    {
-      "ruleId": 112,
-      "result": false,
-      "reason": "“自行车”中不包含“日”字或偏旁。"
-    },
-    {
-      "ruleId": 113,
-      "result": false,
-      "reason": "“自行车”中不包含“月”字或偏旁。"
-    },
-    {
-      "ruleId": 114,
-      "result": false,
-      "reason": "“自行车”中不包含“山”字或偏旁。"
-    },
-    {
-      "ruleId": 115,
-      "result": false,
-      "reason": "“自行车”中不包含“川”字或偏旁。"
-    },
-    {
-      "ruleId": 116,
-      "result": false,
-      "reason": "“自行车”中不包含“雨”字或偏旁。"
-    },
-    {
-      "ruleId": 117,
-      "result": false,
-      "reason": "“自行车”中不包含“人”字或偏旁。"
-    },
-    {
-      "ruleId": 118,
-      "result": false,
-      "reason": "“自行车”中不包含“手”字偏旁。"
-    },
-    {
-      "ruleId": 119,
-      "result": false,
-      "reason": "“自行车”中不包含“王”字或偏旁。"
-    },
-    {
-      "ruleId": 120,
-      "result": false,
-      "reason": "“自行车”中不包含“口”字或偏旁。"
-    },
-    {
-      "ruleId": 121,
-      "result": false,
-      "reason": "“自行车”中不包含“目”字或偏旁。"
-    },
-    {
-      "ruleId": 122,
-      "result": false,
-      "reason": "“自行车”中不包含“耳”字或偏旁。"
-    },
-    {
-      "ruleId": 123,
-      "result": false,
-      "reason": "“自行车”中不包含“足”字或偏旁。"
-    },
-    {
-      "ruleId": 124,
-      "result": false,
-      "reason": "“自行车”中不包含“言”字或偏旁。"
-    },
-    {
-      "ruleId": 125,
-      "result": false,
-      "reason": "“自行车”中不包含“食”字或偏旁。"
-    },
-    {
-      "ruleId": 126,
-      "result": false,
-      "reason": "“自行车”中不包含“衣”字或偏旁。"
-    },
-    {
-      "ruleId": 127,
-      "result": false,
-      "reason": "“自行车”中不包含“马”字或偏旁。"
-    },
-    {
-      "ruleId": 128,
-      "result": false,
-      "reason": "“自行车”中不包含“鱼”字或偏旁。"
-    },
-    {
-      "ruleId": 129,
-      "result": false,
-      "reason": "“自行车”中不包含“鸟”字或偏旁。"
-    },
-    {
-      "ruleId": 130,
-      "result": true,
-      "reason": "“车”字为偏旁，出现在“自行车”中。"
-    },
-    {
-      "ruleId": 131,
-      "result": true,
-      "reason": "“行”字为左右结构，偏旁分布于左右。"
-    },
-    {
-      "ruleId": 132,
-      "result": false,
-      "reason": "“自行车”中无纯上下结构的字。"
-    },
-    {
-      "ruleId": 133,
-      "result": false,
-      "reason": "各字偏旁分别为“自”、“行”、“车”，不全相同。"
-    },
-    {
-      "ruleId": 134,
-      "result": true,
-      "reason": "“自”、“行”、“车”三字偏旁彼此均不同。"
-    },
-    {
-      "ruleId": 135,
-      "result": true,
-      "reason": "最少笔画的“车”字有4画，小于7画。"
-    },
-    {
-      "ruleId": 136,
-      "result": true,
-      "reason": "“自”(6画)、“行”(6画)、“车”(4画)均少于10画。"
-    },
-    {
-      "ruleId": 137,
-      "result": true,
-      "reason": "笔画最多的“自”字6画，小于15画。"
-    },
-    {
-      "ruleId": 138,
-      "result": false,
-      "reason": "“自”(6画)不满足都多于12画的要求。"
-    },
-    {
-      "ruleId": 139,
-      "result": false,
-      "reason": "笔画顺序6、6、4不构成递增。"
-    },
-    {
-      "ruleId": 140,
-      "result": false,
-      "reason": "笔画顺序也不符合严格递减。"
-    },
-    {
-      "ruleId": 141,
-      "result": false,
-      "reason": "声调为第四声、第二声、第一声，不相同。"
-    },
-    {
-      "ruleId": 142,
-      "result": true,
-      "reason": "三字声调彼此不同：第四、第二、第一声。"
-    },
-    {
-      "ruleId": 143,
-      "result": false,
-      "reason": "包含第一声字（“车”为第一声）。"
-    },
-    {
-      "ruleId": 144,
-      "result": false,
-      "reason": "包含第二声字（“行”为第二声）。"
-    },
-    {
-      "ruleId": 145,
-      "result": true,
-      "reason": "不包含第三声字，符合不含第三声要求。"
-    },
-    {
-      "ruleId": 146,
-      "result": false,
-      "reason": "包含第四声字（“自”为第四声）。"
-    },
-    {
-      "ruleId": 147,
-      "result": true,
-      "reason": "包含第一声字（“车”为第一声）。"
-    },
-    {
-      "ruleId": 148,
-      "result": true,
-      "reason": "包含第二声字（“行”为第二声）。"
-    },
-    {
-      "ruleId": 149,
-      "result": false,
-      "reason": "不包含第三声字，不符合包含第三声要求。"
-    },
-    {
-      "ruleId": 150,
-      "result": true,
-      "reason": "包含第四声字（“自”为第四声）。"
-    }
+    {"ruleId": 1, "result": false, "reason": "电视诞生于20世纪，历史不足1000年"},
+    {"ruleId": 2, "result": true, "reason": "电视于1925年首次实现，属于1950年左右的新事物"},
+    {"ruleId": 3, "result": true, "reason": "大多数家庭中都有电视"},
+    {"ruleId": 4, "result": false, "reason": "电视非常普及，不是稀有物品"},
+    {"ruleId": 5, "result": false, "reason": "电视不是专为儿童设计的物品"},
+    {"ruleId": 6, "result": true, "reason": "大部分人对电视有兴趣"},
+    {"ruleId": 7, "result": false, "reason": "电视不是每个人都必需的"},
+    {"ruleId": 8, "result": true, "reason": "电视可用于工作（视频会议、信息获取）"},
+    {"ruleId": 9, "result": false, "reason": "电视不只在特殊场合见到"},
+    {"ruleId": 10, "result": true, "reason": "电视在日常生活中经常使用"},
+    {"ruleId": 11, "result": false, "reason": "家庭电视通常不是个人物品"},
+    {"ruleId": 12, "result": true, "reason": "电视通常是家庭共享物品"},
+    {"ruleId": 13, "result": true, "reason": "电视需要电力才能工作"},
+    {"ruleId": 14, "result": false, "reason": "电视不来自特定国家或文化"},
+    {"ruleId": 15, "result": true, "reason": "电视在世界各国都能找到"},
+    {"ruleId": 16, "result": false, "reason": "电视不是使用后丢弃的物品"},
+    {"ruleId": 17, "result": true, "reason": "电视可以使用多年"},
+    {"ruleId": 18, "result": true, "reason": "电视主要在室内使用"},
+    {"ruleId": 19, "result": false, "reason": "电视一般不在室外使用"},
+    {"ruleId": 20, "result": true, "reason": "大部分人亲眼见过电视"},
+    {"ruleId": 21, "result": true, "reason": "电视能在商店里买到"},
+    {"ruleId": 22, "result": true, "reason": "电视在办公室经常能见到"},
+    {"ruleId": 23, "result": true, "reason": "电视在学校经常能见到"},
+    {"ruleId": 24, "result": true, "reason": "电视播放的内容可以让人快乐"},
+    {"ruleId": 25, "result": false, "reason": "电视本身不会让人感到危险"},
+    {"ruleId": 26, "result": true, "reason": "电视可用作娱乐工具"},
+    {"ruleId": 27, "result": true, "reason": "电视用于新闻播报等重要任务"},
+    {"ruleId": 28, "result": false, "reason": "电视不只在一年中的特定时间使用"},
+    {"ruleId": 29, "result": true, "reason": "电视全年都可使用"},
+    {"ruleId": 30, "result": false, "reason": "操作电视很简单，不需学习"},
+    {"ruleId": 31, "result": true, "reason": "任何人都能轻松使用电视"},
+    {"ruleId": 32, "result": true, "reason": "电视在正式场合可以使用"},
+    {"ruleId": 33, "result": true, "reason": "电视在休闲场合也可以使用"},
+    {"ruleId": 34, "result": false, "reason": "电视一般不作为收藏品"},
+    {"ruleId": 35, "result": true, "reason": "在家里能见到电视"},
+    {"ruleId": 36, "result": true, "reason": "电视的发明改变了信息传播方式，有历史意义"},
+    {"ruleId": 37, "result": true, "reason": "现代比过去使用更多电视"},
+    {"ruleId": 38, "result": true, "reason": "电视可以作为礼物赠送"},
+    {"ruleId": 39, "result": false, "reason": "电视不属于很少赠送的礼物"},
+    {"ruleId": 40, "result": false, "reason": "电视不只是有钱人才能拥有"},
+    {"ruleId": 41, "result": true, "reason": "各收入阶层的人都使用电视"},
+    {"ruleId": 42, "result": false, "reason": "普通电视不能带上飞机"},
+    {"ruleId": 43, "result": true, "reason": "电视能在一小时内找到"},
+    {"ruleId": 44, "result": false, "reason": "电视不需要燃料"},
+    {"ruleId": 45, "result": false, "reason": "电视不是一次性使用的物品"},
+    {"ruleId": 46, "result": false, "reason": "电视不是在特定季节使用"},
+    {"ruleId": 47, "result": true, "reason": "电视可以多次使用"},
+    {"ruleId": 48, "result": false, "reason": "使用电视不需要特别许可"},
+    {"ruleId": 49, "result": true, "reason": "世界上存在很多电视"},
+    {"ruleId": 50, "result": false, "reason": "世界上不只存在一个电视"},
+    {"ruleId": 51, "result": false, "reason": "电视掉落可能导致损坏"},
+    {"ruleId": 52, "result": false, "reason": "大多数电视不容易携带"},
+    {"ruleId": 53, "result": true, "reason": "电视需要电力才能工作"},
+    {"ruleId": 54, "result": true, "reason": "大型电视价格较高"},
+    {"ruleId": 55, "result": false, "reason": "电视不在自然界中存在"},
+    {"ruleId": 56, "result": false, "reason": "电视在水中不能保持干燥"},
+    {"ruleId": 57, "result": false, "reason": "电视不能在水中漂浮"},
+    {"ruleId": 58, "result": true, "reason": "电视包含金属部件"},
+    {"ruleId": 59, "result": true, "reason": "电视能发出声音"},
+    {"ruleId": 60, "result": false, "reason": "电视机身通常不是鲜艳颜色"},
+    {"ruleId": 61, "result": false, "reason": "电视比人类小"},
+    {"ruleId": 62, "result": false, "reason": "电视屏幕不是透明的"},
+    {"ruleId": 63, "result": false, "reason": "电视内部有活动部件"},
+    {"ruleId": 64, "result": false, "reason": "电视摸起来不柔软"},
+    {"ruleId": 65, "result": false, "reason": "电视不能折叠或压扁"},
+    {"ruleId": 66, "result": false, "reason": "电视通常不需要特别保养维护"},
+    {"ruleId": 67, "result": false, "reason": "电视没有锋利的边缘"},
+    {"ruleId": 68, "result": false, "reason": "电视不能食用"},
+    {"ruleId": 69, "result": false, "reason": "电视没有强烈的气味"},
+    {"ruleId": 70, "result": false, "reason": "大多数电视重量不超过100公斤"},
+    {"ruleId": 71, "result": false, "reason": "电视不能穿戴"},
+    {"ruleId": 72, "result": true, "reason": "电视运行时会产生热量"},
+    {"ruleId": 73, "result": false, "reason": "电视故障时可能起火"},
+    {"ruleId": 74, "result": true, "reason": "电视可以装饰（电视柜、背景墙）"},
+    {"ruleId": 75, "result": false, "reason": "电视通常不需要用户自行组装"},
+    {"ruleId": 76, "result": false, "reason": "电视在自然界中不会分解"},
+    {"ruleId": 77, "result": false, "reason": "电视通常不能堆叠"},
+    {"ruleId": 78, "result": true, "reason": "电视屏幕有光泽和反光"},
+    {"ruleId": 79, "result": false, "reason": "电视一般不会被磁铁吸引"},
+    {"ruleId": 80, "result": false, "reason": "电视外表通常不需上漆"},
+    {"ruleId": 81, "result": false, "reason": "电视不会吸水"},
+    {"ruleId": 82, "result": false, "reason": "电视不容易弯曲"},
+    {"ruleId": 83, "result": false, "reason": "电视遇水不会变色"},
+    {"ruleId": 84, "result": true, "reason": "电视会随时间变化（老化、性能下降）"},
+    {"ruleId": 85, "result": true, "reason": "电视通常是左右对称的"},
+    {"ruleId": 86, "result": true, "reason": "损坏的电视可以修复"},
+    {"ruleId": 87, "result": false, "reason": "电视不需要燃料"},
+    {"ruleId": 88, "result": false, "reason": "电视不是活物"},
+    {"ruleId": 89, "result": false, "reason": "电视不能在水下使用"},
+    {"ruleId": 90, "result": true, "reason": "电视是由多个部件组成的"},
+    {"ruleId": 91, "result": false, "reason": "电视不是设计为一次性使用"},
+    {"ruleId": 92, "result": false, "reason": "电视不能安全加热"},
+    {"ruleId": 93, "result": false, "reason": "电视不需要特殊储存条件"},
+    {"ruleId": 94, "result": false, "reason": "大多数电视不是手工制作"},
+    {"ruleId": 95, "result": true, "reason": "电视屏幕容易清洁"},
+    {"ruleId": 96, "result": false, "reason": "电视不成对出现"},
+    {"ruleId": 97, "result": false, "reason": "大型电视不容易用手移动"},
+    {"ruleId": 98, "result": false, "reason": "电视本身不能用作工具"},
+    {"ruleId": 99, "result": false, "reason": "使用电视不需要许可"},
+    {"ruleId": 100, "result": true, "reason": "电视可以多次使用"},
+    {"ruleId": 101, "result": false, "reason": "'电视'不是一个字"},
+    {"ruleId": 102, "result": true, "reason": "'电视'是两个字"},
+    {"ruleId": 103, "result": false, "reason": "'电视'不是三个字"},
+    {"ruleId": 104, "result": false, "reason": "'电视'不是四个字"},
+    {"ruleId": 105, "result": false, "reason": "'电视'中不包含'心'字或偏旁"},
+    {"ruleId": 106, "result": false, "reason": "'电视'中不包含'草'字或偏旁"},
+    {"ruleId": 107, "result": false, "reason": "'电视'中不包含'水'字或偏旁"},
+    {"ruleId": 108, "result": false, "reason": "'电视'中不包含'金'字偏旁"},
+    {"ruleId": 109, "result": false, "reason": "'电视'中不包含'木'字偏旁"},
+    {"ruleId": 110, "result": false, "reason": "'电视'中不包含'火'字或偏旁"},
+    {"ruleId": 111, "result": false, "reason": "'电视'中不包含'土'字或偏旁"},
+    {"ruleId": 112, "result": false, "reason": "'电视'中不包含'日'字或偏旁"},
+    {"ruleId": 113, "result": false, "reason": "'电视'中不包含'月'字或偏旁"},
+    {"ruleId": 114, "result": false, "reason": "'电视'中不包含'山'字或偏旁"},
+    {"ruleId": 115, "result": false, "reason": "'电视'中不包含'川'字或偏旁"},
+    {"ruleId": 116, "result": false, "reason": "'电视'中不包含'雨'字或偏旁"},
+    {"ruleId": 117, "result": false, "reason": "'电视'中不包含'人'字或偏旁"},
+    {"ruleId": 118, "result": false, "reason": "'电视'中不包含'手'字偏旁"},
+    {"ruleId": 119, "result": false, "reason": "'电视'中不包含'王'字或偏旁"},
+    {"ruleId": 120, "result": false, "reason": "'电视'中不包含'口'字或偏旁"},
+    {"ruleId": 121, "result": true, "reason": "'视'字包含'目'字或偏旁"},
+    {"ruleId": 122, "result": false, "reason": "'电视'中不包含'耳'字或偏旁"},
+    {"ruleId": 123, "result": false, "reason": "'电视'中不包含'足'字或偏旁"},
+    {"ruleId": 124, "result": false, "reason": "'电视'中不包含'言'字或偏旁"},
+    {"ruleId": 125, "result": false, "reason": "'电视'中不包含'食'字或偏旁"},
+    {"ruleId": 126, "result": false, "reason": "'电视'中不包含'衣'字或偏旁"},
+    {"ruleId": 127, "result": false, "reason": "'电视'中不包含'马'字或偏旁"},
+    {"ruleId": 128, "result": false, "reason": "'电视'中不包含'鱼'字或偏旁"},
+    {"ruleId": 129, "result": false, "reason": "'电视'中不包含'鸟'字或偏旁"},
+    {"ruleId": 130, "result": false, "reason": "'电视'中不包含'车'字或偏旁"},
+    {"ruleId": 131, "result": true, "reason": "'电视'为左右结构，电字在左，视字在右"},
+    {"ruleId": 132, "result": false, "reason": "'电视'不属于上下结构字形"},
+    {"ruleId": 133, "result": true, "reason": "'电'和'视'两字偏旁不同"},
+    {"ruleId": 134, "result": true, "reason": "'电'和'视'偏旁彼此不同"},
+    {"ruleId": 135, "result": false, "reason": "最少笔画的'电'字为5画，少于7画"},
+    {"ruleId": 136, "result": false, "reason": "'视'(11画)多于10画"},
+    {"ruleId": 137, "result": false, "reason": "笔画最多的'视'字11画，少于15画"},
+    {"ruleId": 138, "result": false, "reason": "'视'(11画)少于12画"},
+    {"ruleId": 139, "result": true, "reason": "笔画递增，从'电'(5画)到'视'(11画)"},
+    {"ruleId": 140, "result": false, "reason": "笔画不是递减，而是递增"},
+    {"ruleId": 141, "result": false, "reason": "'电'为四声，'视'为四声，声调相同"},
+    {"ruleId": 142, "result": false, "reason": "两字声调都是四声，彼此相同"},
+    {"ruleId": 143, "result": true, "reason": "'电视'不包含第一声字"},
+    {"ruleId": 144, "result": true, "reason": "'电视'不包含第二声字"},
+    {"ruleId": 145, "result": true, "reason": "'电视'不包含第三声字"},
+    {"ruleId": 146, "result": false, "reason": "'电视'包含第四声字('电'和'视')"},
+    {"ruleId": 147, "result": true, "reason": "'电视'不包含第一声字"},
+    {"ruleId": 148, "result": true, "reason": "'电视'不包含第二声字"},
+    {"ruleId": 149, "result": true, "reason": "'电视'不包含第三声字"},
+    {"ruleId": 150, "result": false, "reason": "'电视'包含第四声字('电'和'视')"}
   ]
 }

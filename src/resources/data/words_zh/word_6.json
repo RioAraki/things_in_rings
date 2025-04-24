@@ -2,755 +2,155 @@
   "id": "6",
   "word": "手机",
   "questions": [
-    {
-      "ruleId": 1,
-      "result": false,
-      "reason": "手机诞生于20世纪，历史不足1000年。"
-    },
-    {
-      "ruleId": 2,
-      "result": true,
-      "reason": "手机于1973年首次问世，属于1950年之后的新事物。"
-    },
-    {
-      "ruleId": 3,
-      "result": true,
-      "reason": "现代家庭几乎人人拥有手机。"
-    },
-    {
-      "ruleId": 4,
-      "result": false,
-      "reason": "手机已非常普及，不是稀有物品。"
-    },
-    {
-      "ruleId": 5,
-      "result": false,
-      "reason": "手机主要面向成年用户，不专为儿童设计。"
-    },
-    {
-      "ruleId": 6,
-      "result": true,
-      "reason": "手机的设计和功能主要针对成年人的需求。"
-    },
-    {
-      "ruleId": 7,
-      "result": true,
-      "reason": "在现代社会，手机已被广泛视为生活必需品。"
-    },
-    {
-      "ruleId": 8,
-      "result": true,
-      "reason": "手机可用于电子邮箱、办公应用等，帮助完成工作。"
-    },
-    {
-      "ruleId": 9,
-      "result": false,
-      "reason": "手机并非仅在特殊场合使用，而是日常工具。"
-    },
-    {
-      "ruleId": 10,
-      "result": true,
-      "reason": "手机在日常生活中随时随地都在使用。"
-    },
-    {
-      "ruleId": 11,
-      "result": true,
-      "reason": "手机通常归个人所有，是典型的个人物品。"
-    },
-    {
-      "ruleId": 12,
-      "result": false,
-      "reason": "手机一般为个人专用，不常由多人共享。"
-    },
-    {
-      "ruleId": 13,
-      "result": true,
-      "reason": "手机依赖电池供电才能正常工作。"
-    },
-    {
-      "ruleId": 14,
-      "result": false,
-      "reason": "手机并非来自某一特定国家或文化，而是全球产品。"
-    },
-    {
-      "ruleId": 15,
-      "result": true,
-      "reason": "手机在全球大多数国家都能买到并使用。"
-    },
-    {
-      "ruleId": 16,
-      "result": false,
-      "reason": "手机为长期使用设备，不是一次性丢弃用品。"
-    },
-    {
-      "ruleId": 17,
-      "result": true,
-      "reason": "手机通常可使用数年才会更换。"
-    },
-    {
-      "ruleId": 18,
-      "result": true,
-      "reason": "手机适合在室内环境使用。"
-    },
-    {
-      "ruleId": 19,
-      "result": true,
-      "reason": "手机同样可在室外使用，具备移动性。"
-    },
-    {
-      "ruleId": 20,
-      "result": true,
-      "reason": "在电影和电视节目中常见手机使用场景。"
-    },
-    {
-      "ruleId": 21,
-      "result": true,
-      "reason": "各行各业的人都普遍使用手机。"
-    },
-    {
-      "ruleId": 22,
-      "result": false,
-      "reason": "手机本身不具有宗教意义。"
-    },
-    {
-      "ruleId": 23,
-      "result": true,
-      "reason": "手机作为通讯工具，与宗教无关。"
-    },
-    {
-      "ruleId": 24,
-      "result": true,
-      "reason": "手机可用于游戏和社交，带来娱乐和快乐。"
-    },
-    {
-      "ruleId": 25,
-      "result": true,
-      "reason": "使用手机分心可能带来危险，如驾驶时使用。"
-    },
-    {
-      "ruleId": 26,
-      "result": true,
-      "reason": "手机上有大量娱乐和游戏应用。"
-    },
-    {
-      "ruleId": 27,
-      "result": true,
-      "reason": "手机可用于办公、会议等重要工作任务。"
-    },
-    {
-      "ruleId": 28,
-      "result": false,
-      "reason": "手机全年365天都可正常使用，无季节限制。"
-    },
-    {
-      "ruleId": 29,
-      "result": true,
-      "reason": "手机设计用于全年任何时间持续使用。"
-    },
-    {
-      "ruleId": 30,
-      "result": false,
-      "reason": "手机界面直观，学习和上手门槛较低。"
-    },
-    {
-      "ruleId": 31,
-      "result": true,
-      "reason": "手机操作简单，大多数人都能轻松使用。"
-    },
-    {
-      "ruleId": 32,
-      "result": true,
-      "reason": "手机在商务和正式场合也被广泛使用。"
-    },
-    {
-      "ruleId": 33,
-      "result": true,
-      "reason": "在休闲和娱乐环境中使用手机也很常见。"
-    },
-    {
-      "ruleId": 34,
-      "result": false,
-      "reason": "手机更新换代快，一般不作为收藏品。"
-    },
-    {
-      "ruleId": 35,
-      "result": false,
-      "reason": "手机不属于任何传统习俗的一部分。"
-    },
-    {
-      "ruleId": 36,
-      "result": true,
-      "reason": "手机改变了人类通讯方式，具有重要历史意义。"
-    },
-    {
-      "ruleId": 37,
-      "result": true,
-      "reason": "手机主要在近几十年才开始广泛使用。"
-    },
-    {
-      "ruleId": 38,
-      "result": true,
-      "reason": "手机常在节日或生日时作为礼物赠送。"
-    },
-    {
-      "ruleId": 39,
-      "result": false,
-      "reason": "手机礼品普遍，不属于很少赠送的礼物。"
-    },
-    {
-      "ruleId": 40,
-      "result": true,
-      "reason": "富人当然拥有手机，且往往配备高端机型。"
-    },
-    {
-      "ruleId": 41,
-      "result": true,
-      "reason": "手机覆盖各收入阶层，普及率极高。"
-    },
-    {
-      "ruleId": 42,
-      "result": true,
-      "reason": "市面上有大量关于手机的书籍、电影和艺术作品。"
-    },
-    {
-      "ruleId": 43,
-      "result": false,
-      "reason": "手机在现代文学和影视中经常出现，不稀缺。"
-    },
-    {
-      "ruleId": 44,
-      "result": false,
-      "reason": "手机使用电池供电，不依赖燃料。"
-    },
-    {
-      "ruleId": 45,
-      "result": false,
-      "reason": "手机设计为可重复充电使用，而非一次性产品。"
-    },
-    {
-      "ruleId": 46,
-      "result": false,
-      "reason": "手机无季节性使用限制，可全年使用。"
-    },
-    {
-      "ruleId": 47,
-      "result": true,
-      "reason": "手机可反复使用和充电，多次循环。"
-    },
-    {
-      "ruleId": 48,
-      "result": false,
-      "reason": "购买和使用手机无需特别许可或执照。"
-    },
-    {
-      "ruleId": 49,
-      "result": true,
-      "reason": "全球已有数十亿部手机在使用。"
-    },
-    {
-      "ruleId": 50,
-      "result": false,
-      "reason": "手机种类和数量众多，不止一个。"
-    },
-    {
-      "ruleId": 51,
-      "result": true,
-      "reason": "手机跌落或受压时容易损坏屏幕或机身。"
-    },
-    {
-      "ruleId": 52,
-      "result": true,
-      "reason": "手机设计轻巧，便于携带。"
-    },
-    {
-      "ruleId": 53,
-      "result": true,
-      "reason": "手机必须依赖电池或外接电源才能工作。"
-    },
-    {
-      "ruleId": 54,
-      "result": true,
-      "reason": "高端手机价格动辄数千元，较为昂贵。"
-    },
-    {
-      "ruleId": 55,
-      "result": false,
-      "reason": "手机为人造电子设备，不存在于自然界中。"
-    },
-    {
-      "ruleId": 56,
-      "result": false,
-      "reason": "手机虽防水等级提升，但无法在水中保持干燥。"
-    },
-    {
-      "ruleId": 57,
-      "result": false,
-      "reason": "手机材质偏重，不具备漂浮功能。"
-    },
-    {
-      "ruleId": 58,
-      "result": false,
-      "reason": "手机由金属、塑料和玻璃等多种材料组成，不全为金属。"
-    },
-    {
-      "ruleId": 59,
-      "result": true,
-      "reason": "电话铃声和通知时，手机会发出声音。"
-    },
-    {
-      "ruleId": 60,
-      "result": false,
-      "reason": "手机常见配色为黑、白、灰等，不一定鲜艳。"
-    },
-    {
-      "ruleId": 61,
-      "result": true,
-      "reason": "手机内含贵金属和可回收材料，可进行回收。"
-    },
-    {
-      "ruleId": 62,
-      "result": false,
-      "reason": "手机外壳和屏幕均不透明。"
-    },
-    {
-      "ruleId": 63,
-      "result": false,
-      "reason": "手机主要为固态结构，几乎无活动机械部件。"
-    },
-    {
-      "ruleId": 64,
-      "result": false,
-      "reason": "手机外壳硬质，不会显得柔软。"
-    },
-    {
-      "ruleId": 65,
-      "result": false,
-      "reason": "普通手机无法折叠或压扁（折叠屏为特殊机型）。"
-    },
-    {
-      "ruleId": 66,
-      "result": false,
-      "reason": "手机无需专业保养，仅需简单清洁即可。"
-    },
-    {
-      "ruleId": 67,
-      "result": false,
-      "reason": "手机边缘通常圆润，不会形成锋利棱角。"
-    },
-    {
-      "ruleId": 68,
-      "result": false,
-      "reason": "手机是电子设备，不可食用。"
-    },
-    {
-      "ruleId": 69,
-      "result": false,
-      "reason": "手机无明显气味，亦非强烈气味来源。"
-    },
-    {
-      "ruleId": 70,
-      "result": false,
-      "reason": "手机重量通常在150–200克左右，不算很重。"
-    },
-    {
-      "ruleId": 71,
-      "result": false,
-      "reason": "手机为手持设备，不可穿戴。"
-    },
-    {
-      "ruleId": 72,
-      "result": true,
-      "reason": "手机在高负荷运行时会产生热量并发热。"
-    },
-    {
-      "ruleId": 73,
-      "result": true,
-      "reason": "锂电池故障或过热时可能引发起火风险。"
-    },
-    {
-      "ruleId": 74,
-      "result": true,
-      "reason": "用户可通过手机壳、贴纸和主题等方式装饰手机。"
-    },
-    {
-      "ruleId": 75,
-      "result": false,
-      "reason": "手机出厂时已完成组装，无需用户自行组装。"
-    },
-    {
-      "ruleId": 76,
-      "result": false,
-      "reason": "手机材料（塑料、金属）难以自然分解。"
-    },
-    {
-      "ruleId": 77,
-      "result": true,
-      "reason": "手机形状规则，可堆叠存放。"
-    },
-    {
-      "ruleId": 78,
-      "result": true,
-      "reason": "手机屏幕和金属边框具有光泽并会反光。"
-    },
-    {
-      "ruleId": 79,
-      "result": false,
-      "reason": "手机外壳多为铝合金或塑料，不会被普通磁铁吸引。"
-    },
-    {
-      "ruleId": 80,
-      "result": true,
-      "reason": "可对手机外壳进行喷漆或贴膜定制。"
-    },
-    {
-      "ruleId": 81,
-      "result": false,
-      "reason": "手机主体不吸水，反而需防水防潮设计。"
-    },
-    {
-      "ruleId": 82,
-      "result": false,
-      "reason": "手机结构坚固，一般不易弯曲。"
-    },
-    {
-      "ruleId": 83,
-      "result": false,
-      "reason": "手机遇水不会变色，但可能进水损坏。"
-    },
-    {
-      "ruleId": 84,
-      "result": false,
-      "reason": "手机外观和基本功能不会随时间本质改变。"
-    },
-    {
-      "ruleId": 85,
-      "result": false,
-      "reason": "手机并非完全左右对称设计。"
-    },
-    {
-      "ruleId": 86,
-      "result": true,
-      "reason": "手机可更换屏幕、电池等部件进行维修。"
-    },
-    {
-      "ruleId": 87,
-      "result": false,
-      "reason": "手机使用电池供电，不需要燃料。"
-    },
-    {
-      "ruleId": 88,
-      "result": false,
-      "reason": "手机表面常有细菌，需要经常清洁消毒。"
-    },
-    {
-      "ruleId": 89,
-      "result": false,
-      "reason": "大多数手机不支持真正的水下使用。"
-    },
-    {
-      "ruleId": 90,
-      "result": true,
-      "reason": "手机内部包含数十种电子元件，构造复杂。"
-    },
-    {
-      "ruleId": 91,
-      "result": false,
-      "reason": "手机为长期使用设计，不是一次性产品。"
-    },
-    {
-      "ruleId": 92,
-      "result": false,
-      "reason": "手机不适合加热使用，否则会损坏内部电路。"
-    },
-    {
-      "ruleId": 93,
-      "result": false,
-      "reason": "手机可在普通环境中存放，无需特殊储存条件。"
-    },
-    {
-      "ruleId": 94,
-      "result": false,
-      "reason": "手机由工厂批量生产，不是手工制作。"
-    },
-    {
-      "ruleId": 95,
-      "result": true,
-      "reason": "手机表面可用湿布或酒精擦拭，较易清洁。"
-    },
-    {
-      "ruleId": 96,
-      "result": false,
-      "reason": "手机通常单独使用，不成对出现。"
-    },
-    {
-      "ruleId": 97,
-      "result": false,
-      "reason": "手机无季节性使用要求，可全年使用。"
-    },
-    {
-      "ruleId": 98,
-      "result": true,
-      "reason": "手机除了通讯外，还可做导航、测量等工具。"
-    },
-    {
-      "ruleId": 99,
-      "result": false,
-      "reason": "使用手机无需申请任何特别许可。"
-    },
-    {
-      "ruleId": 100,
-      "result": true,
-      "reason": "手机可反复使用和充电，非一次性。"
-    },
-    {
-      "ruleId": 101,
-      "result": true,
-      "reason": "“手机”由两个汉字组成。"
-    },
-    {
-      "ruleId": 102,
-      "result": false,
-      "reason": "“手机”为两个字，不是三个字。"
-    },
-    {
-      "ruleId": 103,
-      "result": false,
-      "reason": "“手机”为两个字，不是四个字。"
-    },
-    {
-      "ruleId": 104,
-      "result": false,
-      "reason": "“手机”为两个字，不是五个字。"
-    },
-    {
-      "ruleId": 105,
-      "result": false,
-      "reason": "“手机”中不包含“心”字或偏旁。"
-    },
-    {
-      "ruleId": 106,
-      "result": false,
-      "reason": "“手机”中不包含“草”字或偏旁。"
-    },
-    {
-      "ruleId": 107,
-      "result": false,
-      "reason": "“手机”中不包含“水”字或偏旁。"
-    },
-    {
-      "ruleId": 108,
-      "result": false,
-      "reason": "“手机”中不包含“金”字偏旁。"
-    },
-    {
-      "ruleId": 109,
-      "result": true,
-      "reason": "“机”字含有木字旁。"
-    },
-    {
-      "ruleId": 110,
-      "result": false,
-      "reason": "“手机”中不包含“火”字或偏旁。"
-    },
-    {
-      "ruleId": 111,
-      "result": false,
-      "reason": "“手机”中不包含“土”字或偏旁。"
-    },
-    {
-      "ruleId": 112,
-      "result": false,
-      "reason": "“手机”中不包含“日”字或偏旁。"
-    },
-    {
-      "ruleId": 113,
-      "result": false,
-      "reason": "“手机”中不包含“月”字或偏旁。"
-    },
-    {
-      "ruleId": 114,
-      "result": false,
-      "reason": "“手机”中不包含“山”字或偏旁。"
-    },
-    {
-      "ruleId": 115,
-      "result": false,
-      "reason": "“手机”中不包含“川”字或偏旁。"
-    },
-    {
-      "ruleId": 116,
-      "result": false,
-      "reason": "“手机”中不包含“雨”字或偏旁。"
-    },
-    {
-      "ruleId": 117,
-      "result": false,
-      "reason": "“手机”中不包含“人”字或偏旁。"
-    },
-    {
-      "ruleId": 118,
-      "result": true,
-      "reason": "“手机”中包含“手”字偏旁。"
-    },
-    {
-      "ruleId": 119,
-      "result": false,
-      "reason": "“手机”中不包含“王”字或偏旁。"
-    },
-    {
-      "ruleId": 120,
-      "result": false,
-      "reason": "“手机”中不包含“口”字或偏旁。"
-    },
-    {
-      "ruleId": 121,
-      "result": false,
-      "reason": "“手机”中不包含“目”字或偏旁。"
-    },
-    {
-      "ruleId": 122,
-      "result": false,
-      "reason": "“手机”中不包含“耳”字或偏旁。"
-    },
-    {
-      "ruleId": 123,
-      "result": false,
-      "reason": "“手机”中不包含“足”字或偏旁。"
-    },
-    {
-      "ruleId": 124,
-      "result": false,
-      "reason": "“手机”中不包含“言”字或偏旁。"
-    },
-    {
-      "ruleId": 125,
-      "result": false,
-      "reason": "“手机”中不包含“食”字或偏旁。"
-    },
-    {
-      "ruleId": 126,
-      "result": false,
-      "reason": "“手机”中不包含“衣”字或偏旁。"
-    },
-    {
-      "ruleId": 127,
-      "result": false,
-      "reason": "“手机”中不包含“马”字或偏旁。"
-    },
-    {
-      "ruleId": 128,
-      "result": false,
-      "reason": "“手机”中不包含“鱼”字或偏旁。"
-    },
-    {
-      "ruleId": 129,
-      "result": false,
-      "reason": "“手机”中不包含“鸟”字或偏旁。"
-    },
-    {
-      "ruleId": 130,
-      "result": false,
-      "reason": "“手机”中不包含“车”字或偏旁。"
-    },
-    {
-      "ruleId": 131,
-      "result": true,
-      "reason": "“手机”为左右结构，手字在左，机字在右。"
-    },
-    {
-      "ruleId": 132,
-      "result": false,
-      "reason": "“手机”不属于上下结构字形。"
-    },
-    {
-      "ruleId": 133,
-      "result": false,
-      "reason": "“手”和“机”两字偏旁不同，不全相同。"
-    },
-    {
-      "ruleId": 134,
-      "result": true,
-      "reason": "“手”和“机”偏旁分别为手和木，彼此不同。"
-    },
-    {
-      "ruleId": 135,
-      "result": true,
-      "reason": "“手”4画，小于7画。"
-    },
-    {
-      "ruleId": 136,
-      "result": true,
-      "reason": "“手”(4画)和“机”(6画)均少于10画。"
-    },
-    {
-      "ruleId": 137,
-      "result": true,
-      "reason": "笔画最多的“机”字6画，少于15画。"
-    },
-    {
-      "ruleId": 138,
-      "result": false,
-      "reason": "“手”仅4画，不满足多于12画。"
-    },
-    {
-      "ruleId": 139,
-      "result": true,
-      "reason": "“手”(4画)到“机”(6画)笔画数递增。"
-    },
-    {
-      "ruleId": 140,
-      "result": false,
-      "reason": "笔画从4到6非递减顺序。"
-    },
-    {
-      "ruleId": 141,
-      "result": false,
-      "reason": "“手”为三声，“机”为一声，声调不同。"
-    },
-    {
-      "ruleId": 142,
-      "result": true,
-      "reason": "两字声调分别为三声和一声，彼此不同。"
-    },
-    {
-      "ruleId": 143,
-      "result": false,
-      "reason": "“机”为一声，包含第一声。"
-    },
-    {
-      "ruleId": 144,
-      "result": true,
-      "reason": "“手机”中无第二声字。"
-    },
-    {
-      "ruleId": 145,
-      "result": false,
-      "reason": "“手”为三声，包含第三声。"
-    },
-    {
-      "ruleId": 146,
-      "result": true,
-      "reason": "“手机”中无第四声字。"
-    },
-    {
-      "ruleId": 147,
-      "result": true,
-      "reason": "“机”为一声，包含第一声。"
-    },
-    {
-      "ruleId": 148,
-      "result": false,
-      "reason": "“手机”中无第二声字。"
-    },
-    {
-      "ruleId": 149,
-      "result": true,
-      "reason": "“手”为三声，包含第三声。"
-    },
-    {
-      "ruleId": 150,
-      "result": false,
-      "reason": "“手机”中无第四声字。"
-    }
+    {"ruleId": 1, "result": false, "reason": "手机诞生于20世纪，历史不足1000年"},
+    {"ruleId": 2, "result": true, "reason": "手机于1973年首次问世，属于1950年之后的新事物"},
+    {"ruleId": 3, "result": true, "reason": "大多数家庭中都有手机"},
+    {"ruleId": 4, "result": false, "reason": "手机已非常普及，不是稀有物品"},
+    {"ruleId": 5, "result": false, "reason": "手机不是主要面向儿童的物品"},
+    {"ruleId": 6, "result": true, "reason": "大部分人对手机有兴趣"},
+    {"ruleId": 7, "result": true, "reason": "每个人都需要手机（通讯工具）"},
+    {"ruleId": 8, "result": true, "reason": "手机可用于工作（办公、沟通）"},
+    {"ruleId": 9, "result": false, "reason": "手机不只在特殊场合见到"},
+    {"ruleId": 10, "result": true, "reason": "手机在日常生活中随时随地都在使用"},
+    {"ruleId": 11, "result": true, "reason": "手机属于个人物品"},
+    {"ruleId": 12, "result": false, "reason": "手机通常不是多人共享物品"},
+    {"ruleId": 13, "result": true, "reason": "手机依赖电池供电才能正常工作"},
+    {"ruleId": 14, "result": false, "reason": "手机不来自特定国家或文化"},
+    {"ruleId": 15, "result": true, "reason": "手机在世界各国都能找到"},
+    {"ruleId": 16, "result": false, "reason": "手机不是使用后丢弃的物品"},
+    {"ruleId": 17, "result": true, "reason": "手机可以使用多年"},
+    {"ruleId": 18, "result": true, "reason": "手机可以在室内使用"},
+    {"ruleId": 19, "result": true, "reason": "手机可以在室外使用"},
+    {"ruleId": 20, "result": true, "reason": "大部分人亲眼见过手机"},
+    {"ruleId": 21, "result": true, "reason": "手机能在商店里买到"},
+    {"ruleId": 22, "result": true, "reason": "手机在办公室经常能见到"},
+    {"ruleId": 23, "result": true, "reason": "手机在学校经常能见到"},
+    {"ruleId": 24, "result": true, "reason": "使用手机让人感到快乐（社交、娱乐）"},
+    {"ruleId": 25, "result": false, "reason": "手机本身不会让人感到危险"},
+    {"ruleId": 26, "result": true, "reason": "手机可用于游戏和娱乐"},
+    {"ruleId": 27, "result": true, "reason": "手机可用于工作等重要任务"},
+    {"ruleId": 28, "result": false, "reason": "手机不只在一年中的特定时间使用"},
+    {"ruleId": 29, "result": true, "reason": "手机全年都可使用"},
+    {"ruleId": 30, "result": false, "reason": "学习使用手机的门槛不高"},
+    {"ruleId": 31, "result": true, "reason": "基本上任何人都能轻松使用手机"},
+    {"ruleId": 32, "result": true, "reason": "手机在正式场合可以使用"},
+    {"ruleId": 33, "result": true, "reason": "手机在休闲场合也可以使用"},
+    {"ruleId": 34, "result": false, "reason": "手机更新换代快，一般不作为收藏品"},
+    {"ruleId": 35, "result": false, "reason": "在家里能见到手机"},
+    {"ruleId": 36, "result": true, "reason": "手机改变了人类通讯方式，有历史意义"},
+    {"ruleId": 37, "result": true, "reason": "手机主要在近几十年才开始广泛使用"},
+    {"ruleId": 38, "result": true, "reason": "手机经常作为礼物赠送"},
+    {"ruleId": 39, "result": false, "reason": "手机不是很少赠送的礼物"},
+    {"ruleId": 40, "result": false, "reason": "手机不只是有钱人才能拥有"},
+    {"ruleId": 41, "result": true, "reason": "各收入阶层的人都使用手机"},
+    {"ruleId": 42, "result": true, "reason": "手机可以带上飞机"},
+    {"ruleId": 43, "result": true, "reason": "手机能在一小时内找到"},
+    {"ruleId": 44, "result": false, "reason": "手机不需要燃料"},
+    {"ruleId": 45, "result": false, "reason": "手机不是一次性使用的物品"},
+    {"ruleId": 46, "result": false, "reason": "手机不是在特定季节使用"},
+    {"ruleId": 47, "result": true, "reason": "手机可以多次使用"},
+    {"ruleId": 48, "result": false, "reason": "使用手机不需要特别许可"},
+    {"ruleId": 49, "result": true, "reason": "世界上存在很多手机"},
+    {"ruleId": 50, "result": false, "reason": "世界上不只存在一个手机"},
+    {"ruleId": 51, "result": true, "reason": "手机容易损坏（跌落或受压）"},
+    {"ruleId": 52, "result": true, "reason": "手机容易携带"},
+    {"ruleId": 53, "result": true, "reason": "手机需要电力才能工作"},
+    {"ruleId": 54, "result": true, "reason": "手机尺寸比较固定"},
+    {"ruleId": 55, "result": false, "reason": "手机不在自然界中存在"},
+    {"ruleId": 56, "result": false, "reason": "手机在水中不能保持干燥"},
+    {"ruleId": 57, "result": false, "reason": "手机不能在水中漂浮"},
+    {"ruleId": 58, "result": true, "reason": "手机部分由金属制成"},
+    {"ruleId": 59, "result": true, "reason": "手机可以发出声音（铃声、通知）"},
+    {"ruleId": 60, "result": true, "reason": "手机有各种颜色，可以很鲜艳"},
+    {"ruleId": 61, "result": false, "reason": "手机比人类小"},
+    {"ruleId": 62, "result": false, "reason": "手机通常不是透明的"},
+    {"ruleId": 63, "result": false, "reason": "现代智能手机基本没有活动部件"},
+    {"ruleId": 64, "result": false, "reason": "手机摸起来不柔软"},
+    {"ruleId": 65, "result": false, "reason": "普通手机不能折叠或压扁"},
+    {"ruleId": 66, "result": true, "reason": "手机需要保养维护（充电、更新）"},
+    {"ruleId": 67, "result": false, "reason": "手机没有锋利的边缘"},
+    {"ruleId": 68, "result": false, "reason": "手机不能食用"},
+    {"ruleId": 69, "result": false, "reason": "手机没有强烈的气味"},
+    {"ruleId": 70, "result": false, "reason": "手机不超过100公斤"},
+    {"ruleId": 71, "result": true, "reason": "手机可以穿戴（手表、智能眼镜）"},
+    {"ruleId": 72, "result": true, "reason": "手机在高负荷运行时会产生热量"},
+    {"ruleId": 73, "result": true, "reason": "电池故障的手机可能着火"},
+    {"ruleId": 74, "result": true, "reason": "手机可以装饰（手机壳、贴纸）"},
+    {"ruleId": 75, "result": false, "reason": "手机不需要用户自行组装"},
+    {"ruleId": 76, "result": false, "reason": "手机在自然界中不会分解"},
+    {"ruleId": 77, "result": true, "reason": "手机可以堆叠"},
+    {"ruleId": 78, "result": true, "reason": "手机屏幕有光泽和反光"},
+    {"ruleId": 79, "result": false, "reason": "手机一般不会被磁铁吸引"},
+    {"ruleId": 80, "result": false, "reason": "手机外壳一般不能上漆"},
+    {"ruleId": 81, "result": false, "reason": "手机主体不吸水"},
+    {"ruleId": 82, "result": false, "reason": "手机不容易弯曲"},
+    {"ruleId": 83, "result": false, "reason": "手机遇水不会变色"},
+    {"ruleId": 84, "result": true, "reason": "手机会随时间变化（老化、性能下降）"},
+    {"ruleId": 85, "result": false, "reason": "手机并非完全左右对称"},
+    {"ruleId": 86, "result": true, "reason": "手机损坏后可以修复"},
+    {"ruleId": 87, "result": false, "reason": "手机不需要燃料"},
+    {"ruleId": 88, "result": false, "reason": "手机不是活物"},
+    {"ruleId": 89, "result": false, "reason": "大多数手机不可以在水下使用"},
+    {"ruleId": 90, "result": true, "reason": "手机是由多个部件组成的"},
+    {"ruleId": 91, "result": false, "reason": "手机不是设计为一次性使用"},
+    {"ruleId": 92, "result": false, "reason": "手机不能安全加热"},
+    {"ruleId": 93, "result": false, "reason": "手机不需要特殊储存条件"},
+    {"ruleId": 94, "result": false, "reason": "手机不是手工制作"},
+    {"ruleId": 95, "result": true, "reason": "手机容易清洁"},
+    {"ruleId": 96, "result": false, "reason": "手机不成对出现"},
+    {"ruleId": 97, "result": true, "reason": "手机可以用手握住"},
+    {"ruleId": 98, "result": true, "reason": "手机可以用作多种工具（计算器、导航）"},
+    {"ruleId": 99, "result": false, "reason": "使用手机不需要许可"},
+    {"ruleId": 100, "result": true, "reason": "手机可以多次使用"},
+    {"ruleId": 101, "result": false, "reason": "'手机'不是一个字"},
+    {"ruleId": 102, "result": true, "reason": "'手机'是两个字"},
+    {"ruleId": 103, "result": false, "reason": "'手机'不是三个字"},
+    {"ruleId": 104, "result": false, "reason": "'手机'不是四个字"},
+    {"ruleId": 105, "result": false, "reason": "'手机'中不包含'心'字或偏旁"},
+    {"ruleId": 106, "result": false, "reason": "'手机'中不包含'草'字或偏旁"},
+    {"ruleId": 107, "result": false, "reason": "'手机'中不包含'水'字或偏旁"},
+    {"ruleId": 108, "result": false, "reason": "'手机'中不包含'金'字偏旁"},
+    {"ruleId": 109, "result": true, "reason": "'机'字含有木字旁"},
+    {"ruleId": 110, "result": false, "reason": "'手机'中不包含'火'字或偏旁"},
+    {"ruleId": 111, "result": false, "reason": "'手机'中不包含'土'字或偏旁"},
+    {"ruleId": 112, "result": false, "reason": "'手机'中不包含'日'字或偏旁"},
+    {"ruleId": 113, "result": false, "reason": "'手机'中不包含'月'字或偏旁"},
+    {"ruleId": 114, "result": false, "reason": "'手机'中不包含'山'字或偏旁"},
+    {"ruleId": 115, "result": false, "reason": "'手机'中不包含'川'字或偏旁"},
+    {"ruleId": 116, "result": false, "reason": "'手机'中不包含'雨'字或偏旁"},
+    {"ruleId": 117, "result": false, "reason": "'手机'中不包含'人'字或偏旁"},
+    {"ruleId": 118, "result": true, "reason": "'手机'中包含'手'字偏旁"},
+    {"ruleId": 119, "result": false, "reason": "'手机'中不包含'王'字或偏旁"},
+    {"ruleId": 120, "result": false, "reason": "'手机'中不包含'口'字或偏旁"},
+    {"ruleId": 121, "result": false, "reason": "'手机'中不包含'目'字或偏旁"},
+    {"ruleId": 122, "result": false, "reason": "'手机'中不包含'耳'字或偏旁"},
+    {"ruleId": 123, "result": false, "reason": "'手机'中不包含'足'字或偏旁"},
+    {"ruleId": 124, "result": false, "reason": "'手机'中不包含'言'字或偏旁"},
+    {"ruleId": 125, "result": false, "reason": "'手机'中不包含'食'字或偏旁"},
+    {"ruleId": 126, "result": false, "reason": "'手机'中不包含'衣'字或偏旁"},
+    {"ruleId": 127, "result": false, "reason": "'手机'中不包含'马'字或偏旁"},
+    {"ruleId": 128, "result": false, "reason": "'手机'中不包含'鱼'字或偏旁"},
+    {"ruleId": 129, "result": false, "reason": "'手机'中不包含'鸟'字或偏旁"},
+    {"ruleId": 130, "result": false, "reason": "'手机'中不包含'车'字或偏旁"},
+    {"ruleId": 131, "result": true, "reason": "'手机'为左右结构，手字在左，机字在右"},
+    {"ruleId": 132, "result": false, "reason": "'手机'不属于上下结构字形"},
+    {"ruleId": 133, "result": true, "reason": "'手'和'机'两字偏旁不同"},
+    {"ruleId": 134, "result": true, "reason": "'手'和'机'偏旁分别为手和木，彼此不同"},
+    {"ruleId": 135, "result": true, "reason": "'手'4画，少于7画"},
+    {"ruleId": 136, "result": true, "reason": "'手'(4画)和'机'(6画)均少于10画"},
+    {"ruleId": 137, "result": true, "reason": "笔画最多的'机'字6画，少于15画"},
+    {"ruleId": 138, "result": false, "reason": "'手'和'机'都不多于12画"},
+    {"ruleId": 139, "result": true, "reason": "'手'(4画)到'机'(6画)笔画数递增"},
+    {"ruleId": 140, "result": false, "reason": "笔画不是递减的"},
+    {"ruleId": 141, "result": false, "reason": "'手'为三声，'机'为一声，声调不同"},
+    {"ruleId": 142, "result": true, "reason": "两字声调分别为三声和一声，彼此不同"},
+    {"ruleId": 143, "result": false, "reason": "'手机'包含第一声字('机')"},
+    {"ruleId": 144, "result": true, "reason": "'手机'不包含第二声字"},
+    {"ruleId": 145, "result": false, "reason": "'手机'包含第三声字('手')"},
+    {"ruleId": 146, "result": true, "reason": "'手机'不包含第四声字"},
+    {"ruleId": 147, "result": true, "reason": "'手机'包含第一声字('机')"},
+    {"ruleId": 148, "result": false, "reason": "'手机'不包含第二声字"},
+    {"ruleId": 149, "result": true, "reason": "'手机'包含第三声字('手')"},
+    {"ruleId": 150, "result": false, "reason": "'手机'不包含第四声字"}
   ]
 }
