@@ -12,6 +12,7 @@ def generate_word_rules_table():
     all_words = []
     all_word_ids = []
     all_rule_results = []
+    all_rule_reasons = {}  # Add a new dictionary to store reasons
     
     # Process each word file
     files = glob.glob("src/resources/data/words_zh/word_*.json")
@@ -33,16 +34,21 @@ def generate_word_rules_table():
             
             # Create a dictionary for rule results
             rule_results = {}
+            rule_reasons = {}  # Add reasons dictionary for this word
             for i in range(1, 151):
                 rule_results[i] = '-'  # Default value
+                rule_reasons[i] = ''   # Default empty reason
                 
             for question in content['questions']:
                 rule_id = int(question['ruleId'])
                 # Convert to boolean to ensure consistent type
                 result = bool(question['result'])
+                reason = question.get('reason', '')  # Get the reason if available
                 rule_results[rule_id] = result
+                rule_reasons[rule_id] = reason
             
             all_rule_results.append(rule_results)
+            all_rule_reasons[word] = rule_reasons  # Store reasons by word
                 
         except Exception as e:
             print(f"Error processing {file_path}: {e}")
@@ -51,7 +57,7 @@ def generate_word_rules_table():
     df = pd.DataFrame(all_rule_results, index=all_words)
     
     # Create only the full table with all rules
-    create_full_table(all_words, all_word_ids, all_rule_results, rule_questions, "word_rules_table.html")
+    create_full_table(all_words, all_word_ids, all_rule_results, all_rule_reasons, rule_questions, "word_rules_table.html")
     
     print("Table visualization generated successfully. Check word_rules_table.html for the full table.")
 
@@ -100,7 +106,7 @@ def load_rule_questions():
     
     return rule_questions
 
-def create_full_table(all_words, all_word_ids, all_rule_results, rule_questions, output_file):
+def create_full_table(all_words, all_word_ids, all_rule_results, all_rule_reasons, rule_questions, output_file):
     """Create a full table with all rules and fixed first column"""
     # Create HTML directly for better control over fixed column
     
@@ -148,6 +154,7 @@ def create_full_table(all_words, all_word_ids, all_rule_results, rule_questions,
                 padding: 8px;
                 text-align: center;
                 min-width: 100px;
+                position: relative;
             }
             th {
                 background-color: paleturquoise;
@@ -254,6 +261,26 @@ def create_full_table(all_words, all_word_ids, all_rule_results, rule_questions,
                 box-shadow: 0 0 10px rgba(0,0,0,0.2);
                 border-radius: 3px;
                 padding: 5px;
+            }
+            /* Reason tooltip */
+            .reason-tooltip {
+                position: absolute;
+                z-index: 30;
+                background-color: #f9f9f9;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                padding: 8px;
+                width: 200px;
+                display: none;
+                text-align: left;
+                box-shadow: 0 0 10px rgba(0,0,0,0.2);
+                pointer-events: none;
+                font-size: 14px;
+                line-height: 1.4;
+                color: #333;
+            }
+            .cell-with-reason:hover .reason-tooltip {
+                display: block;
             }
             /* Controls for the table */
             .controls {
@@ -608,6 +635,10 @@ def create_full_table(all_words, all_word_ids, all_rule_results, rule_questions,
         # Add cells for each rule
         for rule_id in range(1, 151):
             value = all_rule_results[word_idx].get(rule_id, '-')
+            reason = all_rule_reasons.get(word, {}).get(rule_id, "")
+            
+            # Escape quotes in reason
+            reason = reason.replace('"', '&quot;')
             
             # Determine category
             category = ""
@@ -620,16 +651,20 @@ def create_full_table(all_words, all_word_ids, all_rule_results, rule_questions,
             
             # Determine cell class and text
             if value is True:
-                cell_class = "true"
+                cell_class = "true cell-with-reason"
                 cell_text = "true"
             elif value is False:
-                cell_class = "false"
+                cell_class = "false cell-with-reason"
                 cell_text = "false"
             else:
                 cell_class = ""
                 cell_text = "-"
-                
-            html += f'<td class="{cell_class}" data-category="{category}">{cell_text}</td>\n'
+
+            # Add reason as tooltip if available
+            if reason and (value is True or value is False):
+                html += f'<td class="{cell_class}" data-category="{category}">{cell_text}<div class="reason-tooltip">{reason}</div></td>\n'
+            else:
+                html += f'<td class="{cell_class}" data-category="{category}">{cell_text}</td>\n'
         
         html += '</tr>\n'
     
@@ -653,7 +688,5 @@ def create_full_table(all_words, all_word_ids, all_rule_results, rule_questions,
     
     print(f"Interactive table generated at {output_file}")
 
-if __name__ == "__main__":
-    generate_word_rules_table()
 if __name__ == "__main__":
     generate_word_rules_table()
