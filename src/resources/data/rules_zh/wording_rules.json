@@ -12,7 +12,7 @@
     { "id": 110, "question": "包含'火'字或偏旁？", "difficulty": 1 },
     { "id": 111, "question": "包含'土'字或偏旁？", "difficulty": 2 },
     { "id": 112, "question": "包含'日'字或偏旁？", "difficulty": 2 },
-    { "id": 113, "question": "包含'月'字或偏旁？", "difficulty": 1 },
+    { "id": 113, "question": "包含'走'字或偏旁？", "difficulty": 1 },
     { "id": 114, "question": "包含'山'字或偏旁？", "difficulty": 2 },
     { "id": 115, "question": "包含'川'字或偏旁？", "difficulty": 2 },
     { "id": 116, "question": "包含'雨'字或偏旁？", "difficulty": 2 },

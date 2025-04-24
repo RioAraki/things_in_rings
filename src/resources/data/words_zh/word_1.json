@@ -1,756 +1,155 @@
 {
-  "id": "1",
+  "id": 1,
   "word": "望远镜",
   "questions": [
-    {
-      "ruleId": 1,
-      "result": false,
-      "reason": "望远镜发明于17世纪，不超过1000年"
-    },
-    {
-      "ruleId": 2,
-      "result": false,
-      "reason": "17世纪已出现，不是1950年后的新事物"
-    },
-    {
-      "ruleId": 3,
-      "result": false,
-      "reason": "不是大多数家庭都有"
-    },
-    {
-      "ruleId": 4,
-      "result": false,
-      "reason": "并不属于大多数人没有的稀有物品"
-    },
-    {
-      "ruleId": 5,
-      "result": false,
-      "reason": "儿童和成人都用，甚至成人用得更多"
-    },
-    {
-      "ruleId": 6,
-      "result": true,
-      "reason": "大部分人对望远镜没有兴趣"
-    },
-    {
-      "ruleId": 7,
-      "result": false,
-      "reason": "不是每个人都需要"
-    },
-    {
-      "ruleId": 8,
-      "result": true,
-      "reason": "对部分工作（如天文、航海等）有帮助"
-    },
-    {
-      "ruleId": 9,
-      "result": true,
-      "reason": "生活中特殊场合（如观测）才会用到"
-    },
-    {
-      "ruleId": 10,
-      "result": false,
-      "reason": "日常生活中不常见"
-    },
-    {
-      "ruleId": 11,
-      "result": true,
-      "reason": "通常属于个人物品"
-    },
-    {
-      "ruleId": 12,
-      "result": false,
-      "reason": "通常不是多人共享"
-    },
-    {
-      "ruleId": 13,
-      "result": false,
-      "reason": "光学望远镜不需要电力"
-    },
-    {
-      "ruleId": 14,
-      "result": false,
-      "reason": "许多国家都有，不限特定文化"
-    },
-    {
-      "ruleId": 15,
-      "result": true,
-      "reason": "许多国家都能见到"
-    },
-    {
-      "ruleId": 16,
-      "result": false,
-      "reason": "不是用后即丢弃"
-    },
-    {
-      "ruleId": 17,
-      "result": true,
-      "reason": "可以使用多年"
-    },
-    {
-      "ruleId": 18,
-      "result": true,
-      "reason": "室内可用，如天文观测"
-    },
-    {
-      "ruleId": 19,
-      "result": true,
-      "reason": "户外（如野外、体育）也可用"
-    },
-    {
-      "ruleId": 20,
-      "result": true,
-      "reason": "多数人都见过望远镜"
-    },
-    {
-      "ruleId": 21,
-      "result": true,
-      "reason": "商店能买到"
-    },
-    {
-      "ruleId": 22,
-      "result": false,
-      "reason": "办公室很少见到"
-    },
-    {
-      "ruleId": 23,
-      "result": false,
-      "reason": "学校内少数场合会见到，不算经常"
-    },
-    {
-      "ruleId": 24,
-      "result": true,
-      "reason": "望远镜能给人带来观察世界的快乐"
-    },
-    {
-      "ruleId": 25,
-      "result": false,
-      "reason": "通常不让人觉得危险"
-    },
-    {
-      "ruleId": 26,
-      "result": true,
-      "reason": "用于娱乐或天文爱好"
-    },
-    {
-      "ruleId": 27,
-      "result": true,
-      "reason": "也用于科研和一些重要任务"
-    },
-    {
-      "ruleId": 28,
-      "result": false,
-      "reason": "一年任何时间都可以使用"
-    },
-    {
-      "ruleId": 29,
-      "result": true,
-      "reason": "全年皆可用"
-    },
-    {
-      "ruleId": 30,
-      "result": false,
-      "reason": "入门望远镜使用门槛不高"
-    },
-    {
-      "ruleId": 31,
-      "result": false,
-      "reason": "有部分操作需要说明或学习"
-    },
-    {
-      "ruleId": 32,
-      "result": false,
-      "reason": "正式场合不常用"
-    },
-    {
-      "ruleId": 33,
-      "result": true,
-      "reason": "多在轻松休闲环境下用"
-    },
-    {
-      "ruleId": 34,
-      "result": true,
-      "reason": "有人收藏望远镜"
-    },
-    {
-      "ruleId": 35,
-      "result": false,
-      "reason": "家庭也能拥有"
-    },
-    {
-      "ruleId": 36,
-      "result": true,
-      "reason": "科学历史上很重要"
-    },
-    {
-      "ruleId": 37,
-      "result": false,
-      "reason": "过去和现在都有广泛使用"
-    },
-    {
-      "ruleId": 38,
-      "result": true,
-      "reason": "有时候作为礼物赠送"
-    },
-    {
-      "ruleId": 39,
-      "result": false,
-      "reason": "作为礼物并不少见"
-    },
-    {
-      "ruleId": 40,
-      "result": false,
-      "reason": "并非只有有钱人拥有"
-    },
-    {
-      "ruleId": 41,
-      "result": true,
-      "reason": "各收入阶层的人都能用"
-    },
-    {
-      "ruleId": 42,
-      "result": true,
-      "reason": "可以带上飞机"
-    },
-    {
-      "ruleId": 43,
-      "result": true,
-      "reason": "正常城市一小时内可以买到"
-    },
-    {
-      "ruleId": 44,
-      "result": false,
-      "reason": "不需要燃料"
-    },
-    {
-      "ruleId": 45,
-      "result": false,
-      "reason": "并非一次性使用"
-    },
-    {
-      "ruleId": 46,
-      "result": false,
-      "reason": "不限定季节"
-    },
-    {
-      "ruleId": 47,
-      "result": true,
-      "reason": "可以多次使用"
-    },
-    {
-      "ruleId": 48,
-      "result": false,
-      "reason": "一般不需要许可"
-    },
-    {
-      "ruleId": 49,
-      "result": true,
-      "reason": "世界上望远镜数量很多"
-    },
-    {
-      "ruleId": 50,
-      "result": false,
-      "reason": "不是独一无二的物品"
-    },
-    {
-      "ruleId": 101,
-      "result": false,
-      "reason": "三个字"
-    },
-    {
-      "ruleId": 102,
-      "result": true,
-      "reason": "恰好三个字"
-    },
-    {
-      "ruleId": 103,
-      "result": false,
-      "reason": "不是四个字"
-    },
-    {
-      "ruleId": 104,
-      "result": false,
-      "reason": "不是五个字"
-    },
-    {
-      "ruleId": 105,
-      "result": false,
-      "reason": "无“心”部首"
-    },
-    {
-      "ruleId": 106,
-      "result": false,
-      "reason": "无“草”部首"
-    },
-    {
-      "ruleId": 107,
-      "result": false,
-      "reason": "无“水”部首"
-    },
-    {
-      "ruleId": 108,
-      "result": true,
-      "reason": "“镜”含金字旁"
-    },
-    {
-      "ruleId": 109,
-      "result": false,
-      "reason": "无“木”部首"
-    },
-    {
-      "ruleId": 110,
-      "result": false,
-      "reason": "无“火”部首"
-    },
-    {
-      "ruleId": 111,
-      "result": false,
-      "reason": "无“土”部首"
-    },
-    {
-      "ruleId": 112,
-      "result": false,
-      "reason": "无“日”部首"
-    },
-    {
-      "ruleId": 113,
-      "result": true,
-      "reason": "“望”含月字旁"
-    },
-    {
-      "ruleId": 114,
-      "result": false,
-      "reason": "无“山”部首"
-    },
-    {
-      "ruleId": 115,
-      "result": false,
-      "reason": "无“川”部首"
-    },
-    {
-      "ruleId": 116,
-      "result": false,
-      "reason": "无“雨”部首"
-    },
-    {
-      "ruleId": 117,
-      "result": false,
-      "reason": "无“人”部首"
-    },
-    {
-      "ruleId": 118,
-      "result": false,
-      "reason": "无“手”部首"
-    },
-    {
-      "ruleId": 119,
-      "result": false,
-      "reason": "无“王”部首"
-    },
-    {
-      "ruleId": 120,
-      "result": false,
-      "reason": "无“口”部首"
-    },
-    {
-      "ruleId": 121,
-      "result": false,
-      "reason": "无“目”部首"
-    },
-    {
-      "ruleId": 122,
-      "result": false,
-      "reason": "无“耳”部首"
-    },
-    {
-      "ruleId": 123,
-      "result": false,
-      "reason": "无“足”部首"
-    },
-    {
-      "ruleId": 124,
-      "result": false,
-      "reason": "无“言”部首"
-    },
-    {
-      "ruleId": 125,
-      "result": false,
-      "reason": "无“食”部首"
-    },
-    {
-      "ruleId": 126,
-      "result": false,
-      "reason": "无“衣”部首"
-    },
-    {
-      "ruleId": 127,
-      "result": false,
-      "reason": "无“马”部首"
-    },
-    {
-      "ruleId": 128,
-      "result": false,
-      "reason": "无“鱼”部首"
-    },
-    {
-      "ruleId": 129,
-      "result": false,
-      "reason": "无“鸟”部首"
-    },
-    {
-      "ruleId": 130,
-      "result": false,
-      "reason": "无“车”部首"
-    },
-    {
-      "ruleId": 131,
-      "result": true,
-      "reason": "“镜”为左右结构"
-    },
-    {
-      "ruleId": 132,
-      "result": false,
-      "reason": "没有上下结构字"
-    },
-    {
-      "ruleId": 133,
-      "result": false,
-      "reason": "偏旁不一致"
-    },
-    {
-      "ruleId": 134,
-      "result": true,
-      "reason": "三字部首各不同"
-    },
-    {
-      "ruleId": 135,
-      "result": true,
-      "reason": "“远”7画（等于7，不小于）"
-    },
-    {
-      "ruleId": 136,
-      "result": false,
-      "reason": "“镜”16画，超出10画"
-    },
-    {
-      "ruleId": 137,
-      "result": true,
-      "reason": "“镜”16画（等于15，不少于15）"
-    },
-    {
-      "ruleId": 138,
-      "result": false,
-      "reason": "“远”7画，“望”11画，有小于12画"
-    },
-    {
-      "ruleId": 139,
-      "result": false,
-      "reason": "11→7→16, 非递增"
-    },
-    {
-      "ruleId": 140,
-      "result": false,
-      "reason": "11→7→16, 非递减"
-    },
-    {
-      "ruleId": 141,
-      "result": false,
-      "reason": "声调分别为四、三、四"
-    },
-    {
-      "ruleId": 142,
-      "result": false,
-      "reason": "有两个第四声"
-    },
-    {
-      "ruleId": 143,
-      "result": false,
-      "reason": "包含第一声的字为0"
-    },
-    {
-      "ruleId": 144,
-      "result": true,
-      "reason": "没有第二声"
-    },
-    {
-      "ruleId": 145,
-      "result": false,
-      "reason": "有第三声（远）"
-    },
-    {
-      "ruleId": 146,
-      "result": false,
-      "reason": "有第四声（望、镜）"
-    },
-    {
-      "ruleId": 147,
-      "result": false,
-      "reason": "没有第一声"
-    },
-    {
-      "ruleId": 148,
-      "result": false,
-      "reason": "没有第二声"
-    },
-    {
-      "ruleId": 149,
-      "result": true,
-      "reason": "有第三声“远”"
-    },
-    {
-      "ruleId": 150,
-      "result": true,
-      "reason": "有第四声“望”“镜”"
-    },
-    {
-      "ruleId": 51,
-      "result": false,
-      "reason": "不易损坏"
-    },
-    {
-      "ruleId": 52,
-      "result": true,
-      "reason": "多为便携式，可携带"
-    },
-    {
-      "ruleId": 53,
-      "result": false,
-      "reason": "一般不需电力"
-    },
-    {
-      "ruleId": 54,
-      "result": false,
-      "reason": "多有多种尺寸"
-    },
-    {
-      "ruleId": 55,
-      "result": false,
-      "reason": "人造物品，自然界无"
-    },
-    {
-      "ruleId": 56,
-      "result": false,
-      "reason": "水中一般无法保持干燥"
-    },
-    {
-      "ruleId": 57,
-      "result": false,
-      "reason": "一般不会漂浮于水面"
-    },
-    {
-      "ruleId": 58,
-      "result": true,
-      "reason": "镜体常用金属部件"
-    },
-    {
-      "ruleId": 59,
-      "result": false,
-      "reason": "使用时一般不发声"
-    },
-    {
-      "ruleId": 60,
-      "result": false,
-      "reason": "颜色多为黑、灰、不鲜艳"
-    },
-    {
-      "ruleId": 61,
-      "result": false,
-      "reason": "通常比人小"
-    },
-    {
-      "ruleId": 62,
-      "result": false,
-      "reason": "不是透明物品"
-    },
-    {
-      "ruleId": 63,
-      "result": true,
-      "reason": "可分解为多个组件"
-    },
-    {
-      "ruleId": 64,
-      "result": false,
-      "reason": "通常不柔软"
-    },
-    {
-      "ruleId": 65,
-      "result": false,
-      "reason": "不能折叠压扁"
-    },
-    {
-      "ruleId": 66,
-      "result": true,
-      "reason": "需要精细保养"
-    },
-    {
-      "ruleId": 67,
-      "result": false,
-      "reason": "通常没有锋利边缘"
-    },
-    {
-      "ruleId": 68,
-      "result": false,
-      "reason": "不能食用"
-    },
-    {
-      "ruleId": 69,
-      "result": false,
-      "reason": "通常无味道"
-    },
-    {
-      "ruleId": 70,
-      "result": false,
-      "reason": "比100公斤轻"
-    },
-    {
-      "ruleId": 71,
-      "result": false,
-      "reason": "不能穿戴"
-    },
-    {
-      "ruleId": 72,
-      "result": false,
-      "reason": "通常不主动产生热量"
-    },
-    {
-      "ruleId": 73,
-      "result": false,
-      "reason": "不易燃"
-    },
-    {
-      "ruleId": 74,
-      "result": true,
-      "reason": "表面有标牌、刻字"
-    },
-    {
-      "ruleId": 75,
-      "result": false,
-      "reason": "一般出厂组装好"
-    },
-    {
-      "ruleId": 76,
-      "result": false,
-      "reason": "金属部件不易分解"
-    },
-    {
-      "ruleId": 77,
-      "result": false,
-      "reason": "结构决定不能堆叠"
-    },
-    {
-      "ruleId": 78,
-      "result": true,
-      "reason": "镜头有光泽高反光"
-    },
-    {
-      "ruleId": 79,
-      "result": true,
-      "reason": "金属部分能被磁铁吸引"
-    },
-    {
-      "ruleId": 80,
-      "result": false,
-      "reason": "本身不发声"
-    },
-    {
-      "ruleId": 81,
-      "result": false,
-      "reason": "不吸水"
-    },
-    {
-      "ruleId": 82,
-      "result": false,
-      "reason": "不易弯曲"
-    },
-    {
-      "ruleId": 83,
-      "result": false,
-      "reason": "一般不会浮在水面"
-    },
-    {
-      "ruleId": 84,
-      "result": false,
-      "reason": "基本形态随时间不变"
-    },
-    {
-      "ruleId": 85,
-      "result": false,
-      "reason": "两侧形状通常不同"
-    },
-    {
-      "ruleId": 86,
-      "result": true,
-      "reason": "损坏后可修理"
-    },
-    {
-      "ruleId": 87,
-      "result": false,
-      "reason": "不需燃料"
-    },
-    {
-      "ruleId": 88,
-      "result": false,
-      "reason": "非活物"
-    },
-    {
-      "ruleId": 89,
-      "result": false,
-      "reason": "通常不见于水下"
-    },
-    {
-      "ruleId": 90,
-      "result": true,
-      "reason": "部分望远镜有塑料部件"
-    },
-    {
-      "ruleId": 91,
-      "result": true,
-      "reason": "有些小型望远镜用木头"
-    },
-    {
-      "ruleId": 92,
-      "result": false,
-      "reason": "金属镜筒可加热，透镜不适宜"
-    },
-    {
-      "ruleId": 93,
-      "result": true,
-      "reason": "需防潮防尘等特殊保存"
-    },
-    {
-      "ruleId": 94,
-      "result": true,
-      "reason": "有手工定制款"
-    },
-    {
-      "ruleId": 95,
-      "result": false,
-      "reason": "镜头清洁需特殊技巧，不易清洁"
-    },
-    {
-      "ruleId": 96,
-      "result": false,
-      "reason": "一般单个存在"
-    },
-    {
-      "ruleId": 97,
-      "result": true,
-      "reason": "可以用手握住"
-    },
-    {
-      "ruleId": 98,
-      "result": false,
-      "reason": "颜色一般较少"
-    },
-    {
-      "ruleId": 99,
-      "result": true,
-      "reason": "通常坚硬"
-    },
-    {
-      "ruleId": 100,
-      "result": false,
-      "reason": "多为金属、玻璃等多材质组合"
-    }
+    {"ruleId": 1, "result": false, "reason": "望远镜发明于17世纪初，不到1000年"},
+    {"ruleId": 2, "result": true, "reason": "现代望远镜在1950年后有重大发展"},
+    {"ruleId": 3, "result": false, "reason": "不是日常必需品"},
+    {"ruleId": 4, "result": true, "reason": "是相对稀有的物品"},
+    {"ruleId": 5, "result": false, "reason": "虽然儿童可以使用，但不是主要面向儿童"},
+    {"ruleId": 6, "result": true, "reason": "大部分人对天文观测没有深入兴趣"},
+    {"ruleId": 7, "result": false, "reason": "不是每个人都需要的东西"},
+    {"ruleId": 8, "result": true, "reason": "可用于天文研究和专业工作"},
+    {"ruleId": 9, "result": true, "reason": "主要用于特殊场合如天文观测"},
+    {"ruleId": 10, "result": false, "reason": "不是日常使用的物品"},
+    {"ruleId": 11, "result": true, "reason": "通常是个人所有物"},
+    {"ruleId": 12, "result": true, "reason": "可以多人共享使用"},
+    {"ruleId": 13, "result": false, "reason": "基础望远镜不需要电力"},
+    {"ruleId": 14, "result": false, "reason": "不是特定文化的产物，是通用科学仪器"},
+    {"ruleId": 15, "result": true, "reason": "在世界各地都能找到"},
+    {"ruleId": 16, "result": false, "reason": "不是一次性用品"},
+    {"ruleId": 17, "result": true, "reason": "可以使用很多年"},
+    {"ruleId": 18, "result": true, "reason": "可以在室内使用"},
+    {"ruleId": 19, "result": true, "reason": "主要在室外使用"},
+    {"ruleId": 20, "result": true, "reason": "大部分人亲眼见过望远镜"},
+    {"ruleId": 21, "result": true, "reason": "可以在专业店铺和电商平台购买"},
+    {"ruleId": 22, "result": false, "reason": "在一般办公室不常见"},
+    {"ruleId": 23, "result": true, "reason": "在学校实验室或天文课上可见"},
+    {"ruleId": 24, "result": true, "reason": "能带来探索的快乐"},
+    {"ruleId": 25, "result": false, "reason": "不是危险物品"},
+    {"ruleId": 26, "result": true, "reason": "可用于天文爱好和娱乐"},
+    {"ruleId": 27, "result": true, "reason": "用于天文研究和重要观测任务"},
+    {"ruleId": 28, "result": false, "reason": "全年都可使用"},
+    {"ruleId": 29, "result": true, "reason": "不受季节限制"},
+    {"ruleId": 30, "result": true, "reason": "需要专业知识才能正确使用"},
+    {"ruleId": 31, "result": false, "reason": "需要一定技能才能使用"},
+    {"ruleId": 32, "result": true, "reason": "在科研机构等正式场合使用"},
+    {"ruleId": 33, "result": true, "reason": "也可以在休闲场合使用"},
+    {"ruleId": 34, "result": true, "reason": "有人收藏望远镜"},
+    {"ruleId": 35, "result": false, "reason": "不是特定传统的一部分"},
+    {"ruleId": 36, "result": true, "reason": "在科学发展史上有重要地位"},
+    {"ruleId": 37, "result": true, "reason": "现代望远镜比过去更先进"},
+    {"ruleId": 38, "result": true, "reason": "可以作为礼物赠送"},
+    {"ruleId": 39, "result": false, "reason": "是常见的礼物选择"},
+    {"ruleId": 40, "result": true, "reason": "高端望远镜价格昂贵"},
+    {"ruleId": 41, "result": true, "reason": "各收入层次都有适合的型号"},
+    {"ruleId": 42, "result": true, "reason": "小型望远镜可以带上飞机"},
+    {"ruleId": 43, "result": true, "reason": "在一小时内可以在专卖店或大型商场找到"},
+    {"ruleId": 44, "result": false, "reason": "不需要燃料"},
+    {"ruleId": 45, "result": false, "reason": "不是一次性用品"},
+    {"ruleId": 46, "result": false, "reason": "全年都可使用"},
+    {"ruleId": 47, "result": true, "reason": "可以多次重复使用"},
+    {"ruleId": 48, "result": false, "reason": "一般使用不需要特殊许可"},
+    {"ruleId": 49, "result": true, "reason": "世界上存在很多望远镜"},
+    {"ruleId": 50, "result": false, "reason": "不是独一无二的物品"},
+    {"ruleId": 51, "result": true, "reason": "精密光学仪器，容易损坏"},
+    {"ruleId": 52, "result": false, "reason": "体积较大，不易携带"},
+    {"ruleId": 53, "result": false, "reason": "基础望远镜不需要电力"},
+    {"ruleId": 54, "result": true, "reason": "望远镜大小一般固定，不可调整整体尺寸"},
+    {"ruleId": 55, "result": false, "reason": "是人工制造的仪器"},
+    {"ruleId": 56, "result": false, "reason": "不能在水中保持干燥，需要防水保护"},
+    {"ruleId": 57, "result": false, "reason": "不能在水中漂浮"},
+    {"ruleId": 58, "result": true, "reason": "包含金属部件"},
+    {"ruleId": 59, "result": false, "reason": "使用时不会发出声音"},
+    {"ruleId": 60, "result": false, "reason": "通常为黑色或深色"},
+    {"ruleId": 61, "result": false, "reason": "一般比人类小"},
+    {"ruleId": 62, "result": true, "reason": "有透明镜片"},
+    {"ruleId": 63, "result": true, "reason": "有可调节的活动部件"},
+    {"ruleId": 64, "result": false, "reason": "外壳通常坚硬"},
+    {"ruleId": 65, "result": false, "reason": "不能折叠或压扁"},
+    {"ruleId": 66, "result": true, "reason": "需要定期保养维护"},
+    {"ruleId": 67, "result": false, "reason": "没有锋利的边缘"},
+    {"ruleId": 68, "result": false, "reason": "不能食用"},
+    {"ruleId": 69, "result": false, "reason": "没有特殊气味"},
+    {"ruleId": 70, "result": false, "reason": "一般不超过100公斤"},
+    {"ruleId": 71, "result": false, "reason": "不能穿戴"},
+    {"ruleId": 72, "result": false, "reason": "不会产生热量"},
+    {"ruleId": 73, "result": false, "reason": "不易着火"},
+    {"ruleId": 74, "result": true, "reason": "可以装饰和定制，有些带有品牌标志"},
+    {"ruleId": 75, "result": true, "reason": "需要组装"},
+    {"ruleId": 76, "result": false, "reason": "不会自然分解"},
+    {"ruleId": 77, "result": false, "reason": "不能堆叠"},
+    {"ruleId": 78, "result": true, "reason": "镜片有光泽"},
+    {"ruleId": 79, "result": false, "reason": "大部分不会被磁铁吸引"},
+    {"ruleId": 80, "result": false, "reason": "使用时不能发出声音"},
+    {"ruleId": 81, "result": false, "reason": "不吸水"},
+    {"ruleId": 82, "result": false, "reason": "不易弯曲"},
+    {"ruleId": 83, "result": false, "reason": "不能浮在水面"},
+    {"ruleId": 84, "result": true, "reason": "会随时间老化"},
+    {"ruleId": 85, "result": true, "reason": "通常对称设计"},
+    {"ruleId": 86, "result": true, "reason": "损坏后可以修复"},
+    {"ruleId": 87, "result": false, "reason": "不需要燃料"},
+    {"ruleId": 88, "result": false, "reason": "不是活物"},
+    {"ruleId": 89, "result": false, "reason": "不能在水下使用"},
+    {"ruleId": 90, "result": true, "reason": "由多个精密部件组成"},
+    {"ruleId": 91, "result": false, "reason": "现代望远镜通常不含木头"},
+    {"ruleId": 92, "result": false, "reason": "不能加热"},
+    {"ruleId": 93, "result": true, "reason": "需要特殊储存条件"},
+    {"ruleId": 94, "result": false, "reason": "是工业制造产品"},
+    {"ruleId": 95, "result": true, "reason": "容易清洁保养"},
+    {"ruleId": 96, "result": false, "reason": "通常单独使用"},
+    {"ruleId": 97, "result": true, "reason": "可以用手握住"},
+    {"ruleId": 98, "result": false, "reason": "通常只有单一颜色"},
+    {"ruleId": 99, "result": true, "reason": "摸起来坚硬"},
+    {"ruleId": 100, "result": false, "reason": "由多种材质组成"},
+    {"ruleId": 101, "result": false, "reason": "不是两个字"},
+    {"ruleId": 102, "result": true, "reason": "是三个字"},
+    {"ruleId": 103, "result": false, "reason": "不是四个字"},
+    {"ruleId": 104, "result": false, "reason": "不是五个字"},
+    {"ruleId": 105, "result": false, "reason": "不包含'心'字或偏旁"},
+    {"ruleId": 106, "result": false, "reason": "不包含'草'字或偏旁"},
+    {"ruleId": 107, "result": false, "reason": "不包含'水'字或偏旁"},
+    {"ruleId": 108, "result": false, "reason": "不包含'金'字或偏旁"},
+    {"ruleId": 109, "result": false, "reason": "不包含'木'字或偏旁"},
+    {"ruleId": 110, "result": false, "reason": "不包含'火'字或偏旁"},
+    {"ruleId": 111, "result": false, "reason": "不包含'土'字或偏旁"},
+    {"ruleId": 112, "result": false, "reason": "不包含'日'字或偏旁"},
+    {"ruleId": 113, "result": false, "reason": "包含'走'字或偏旁"},
+    {"ruleId": 114, "result": false, "reason": "不包含'山'字或偏旁"},
+    {"ruleId": 115, "result": false, "reason": "不包含'川'字或偏旁"},
+    {"ruleId": 116, "result": false, "reason": "不包含'雨'字或偏旁"},
+    {"ruleId": 117, "result": false, "reason": "不包含'人'字或偏旁"},
+    {"ruleId": 118, "result": false, "reason": "不包含'手'字或偏旁"},
+    {"ruleId": 119, "result": false, "reason": "不包含'王'字或偏旁"},
+    {"ruleId": 120, "result": false, "reason": "不包含'口'字或偏旁"},
+    {"ruleId": 121, "result": true, "reason": "不包含'目'字或偏旁"},
+    {"ruleId": 122, "result": false, "reason": "不包含'耳'字或偏旁"},
+    {"ruleId": 123, "result": false, "reason": "不包含'足'字或偏旁"},
+    {"ruleId": 124, "result": false, "reason": "不包含'言'字或偏旁"},
+    {"ruleId": 125, "result": false, "reason": "不包含'食'字或偏旁"},
+    {"ruleId": 126, "result": false, "reason": "不包含'衣'字或偏旁"},
+    {"ruleId": 127, "result": false, "reason": "不包含'马'字或偏旁"},
+    {"ruleId": 128, "result": false, "reason": "不包含'鱼'字或偏旁"},
+    {"ruleId": 129, "result": false, "reason": "不包含'鸟'字或偏旁"},
+    {"ruleId": 130, "result": false, "reason": "不包含'车'字或偏旁"},
+    {"ruleId": 131, "result": true, "reason": "包含左右结构的字"},
+    {"ruleId": 132, "result": false, "reason": "不包含上下结构的字"},
+    {"ruleId": 133, "result": false, "reason": "字的偏旁不一样"},
+    {"ruleId": 134, "result": true, "reason": "所有字的偏旁都不一样"},
+    {"ruleId": 135, "result": false, "reason": "没有少于7画的字"},
+    {"ruleId": 136, "result": false, "reason": "不是所有字笔画都少于10画"},
+    {"ruleId": 137, "result": true, "reason": "笔画最多的字少于15画"},
+    {"ruleId": 138, "result": false, "reason": "不是所有字都多于12画"},
+    {"ruleId": 139, "result": false, "reason": "笔画不是递增的"},
+    {"ruleId": 140, "result": false, "reason": "笔画不是递减的"},
+    {"ruleId": 141, "result": false, "reason": "声调不相同"},
+    {"ruleId": 142, "result": true, "reason": "每个字声调都不同"},
+    {"ruleId": 143, "result": false, "reason": "包含第一声的字"},
+    {"ruleId": 144, "result": true, "reason": "不包含第二声的字"},
+    {"ruleId": 145, "result": false, "reason": "包含第三声的字"},
+    {"ruleId": 146, "result": false, "reason": "包含第四声的字"},
+    {"ruleId": 147, "result": true, "reason": "包含第一声的字"},
+    {"ruleId": 148, "result": false, "reason": "不包含第二声的字"},
+    {"ruleId": 149, "result": true, "reason": "包含第三声的字"},
+    {"ruleId": 150, "result": true, "reason": "包含第四声的字"}
   ]
-}
