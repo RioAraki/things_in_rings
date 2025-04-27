@@ -6,6 +6,7 @@ import re
 import glob
 
 # Set the API key as environment variable
+
 def load_rules_from_file(file_path):
     """Load rules from a JSON file."""
     with open(file_path, 'r', encoding='utf-8') as f:
@@ -193,6 +194,51 @@ def save_result(word, result, output_dir, file_id=None):
     
     return output_file
 
+def validate_word_by_id(word_id, output_dir, api_key=None):
+    """Validate a specific word by its ID."""
+    word_file = os.path.join(output_dir, f"word_{word_id}.json")
+    if not os.path.exists(word_file):
+        raise ValueError(f"File {word_file} does not exist")
+        
+    with open(word_file, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+        word = data.get("word")
+        if not word:
+            raise ValueError(f"No word found in {word_file}")
+        
+    print(f"Validating existing word '{word}' from {word_file}")
+    result = validate_word(word, api_key)
+    output_file = save_result(word, result, output_dir, word_id)
+    print(f"Validation result saved to: {output_file}")
+    return True
+
+def parse_word_ids(word_ids_str):
+    """Parse a string of comma-separated IDs and ranges into a list of IDs."""
+    ids = []
+    
+    if not word_ids_str:
+        return ids
+    
+    parts = word_ids_str.split(',')
+    for part in parts:
+        part = part.strip()
+        if '-' in part:
+            # Handle ranges like "1-5"
+            try:
+                start, end = part.split('-')
+                start, end = int(start.strip()), int(end.strip())
+                ids.extend(range(start, end + 1))
+            except ValueError:
+                print(f"Invalid range format: {part}, skipping")
+        else:
+            # Handle single IDs
+            try:
+                ids.append(int(part))
+            except ValueError:
+                print(f"Invalid ID format: {part}, skipping")
+    
+    return ids
+
 def main():
     """Main function to run the validator."""
     parser = argparse.ArgumentParser(description='Validate a Chinese word against rules.')
@@ -201,7 +247,7 @@ def main():
     parser.add_argument('--api-key', help='OpenAI API key (or set OPENAI_API_KEY env var)')
     parser.add_argument('--output-dir', default='words_zh', help='Directory to save results')
     parser.add_argument('--force', action='store_true', help='Force overwrite if word already exists')
-    parser.add_argument('--word-id', type=int, help='Validate a specific word_x.json file')
+    parser.add_argument('--word-id', help='Validate specific word_x.json file(s). Accepts single IDs, comma-separated IDs, and ranges (e.g. "1,3,5-8")')
     
     args = parser.parse_args()
     
@@ -210,23 +256,24 @@ def main():
         output_dir = os.path.join(os.path.dirname(__file__), args.output_dir)
         os.makedirs(output_dir, exist_ok=True)
         
-        # If word-id is provided, we use that specific file
+        # If word-id is provided, we use those specific files
         if args.word_id is not None:
-            word_file = os.path.join(output_dir, f"word_{args.word_id}.json")
-            if os.path.exists(word_file):
-                with open(word_file, 'r', encoding='utf-8') as f:
-                    data = json.load(f)
-                    word = data.get("word")
-                    if not word:
-                        raise ValueError(f"No word found in {word_file}")
-                    
-                print(f"Validating existing word '{word}' from {word_file}")
-                result = validate_word(word, args.api_key)
-                output_file = save_result(word, result, output_dir, args.word_id)
-                print(f"Validation result saved to: {output_file}")
-                return
-            else:
-                raise ValueError(f"File {word_file} does not exist")
+            word_ids = parse_word_ids(args.word_id)
+            if not word_ids:
+                raise ValueError("No valid word IDs provided")
+                
+            print(f"Bulk validating {len(word_ids)} words...")
+            success_count = 0
+            
+            for word_id in word_ids:
+                try:
+                    if validate_word_by_id(word_id, output_dir, args.api_key):
+                        success_count += 1
+                except Exception as e:
+                    print(f"Error validating word_{word_id}.json: {str(e)}")
+            
+            print(f"Bulk validation complete: {success_count}/{len(word_ids)} words processed successfully")
+            return
         
         # If no word-id is provided, we need a word argument
         if args.word is None:

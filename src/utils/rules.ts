@@ -1,21 +1,11 @@
-<<<<<<< HEAD
-import { type Rule, type RuleType } from '../types/rule'
-import contextRules from '../resources/data/rules_zh/context_rules.json'
-import propertyRules from '../resources/data/rules_zh/property_rules.json'
-import wordingRules from '../resources/data/rules_zh/wording_rules.json'
-=======
+import { type RuleType } from '../types/rule'
 import contextRules from '../resources/data/rules/context_rules.json'
 import propertyRules from '../resources/data/rules/property_rules.json'
 import wordingRules from '../resources/data/rules/wording_rules.json'
 import contextRulesZh from '../resources/data/rules_zh/context_rules.json'
 import propertyRulesZh from '../resources/data/rules_zh/property_rules.json'
-import wordingRulesZh from '../resources/data/rules_zh/wording_rule.json'
-import rulesIndex from '../resources/data/rules_index.json'
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
+import wordingRulesZh from '../resources/data/rules_zh/wording_rules.json'
 import { type WordQuestion } from '../types/word'
-import { getWordById } from './words'
-import { type RuleType } from '../types/rule'
-import { LANGUAGE_CONFIG } from '../config/app-config'
 import i18n from '../i18n/i18n'
 
 interface Rule {
