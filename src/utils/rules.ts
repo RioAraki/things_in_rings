@@ -1,22 +1,13 @@
-<<<<<<< HEAD
-import { type Rule, type RuleType } from '../types/rule'
-import contextRules from '../resources/data/rules_zh/context_rules.json'
-import propertyRules from '../resources/data/rules_zh/property_rules.json'
-import wordingRules from '../resources/data/rules_zh/wording_rules.json'
-=======
+import { type RuleType } from '../types/rule'
 import contextRules from '../resources/data/rules/context_rules.json'
 import propertyRules from '../resources/data/rules/property_rules.json'
 import wordingRules from '../resources/data/rules/wording_rules.json'
 import contextRulesZh from '../resources/data/rules_zh/context_rules.json'
 import propertyRulesZh from '../resources/data/rules_zh/property_rules.json'
-import wordingRulesZh from '../resources/data/rules_zh/wording_rule.json'
-import rulesIndex from '../resources/data/rules_index.json'
->>>>>>> 760c1c8329778aef23a9ab83c57a76ffa8c64958
+import wordingRulesZh from '../resources/data/rules_zh/wording_rules.json'
 import { type WordQuestion } from '../types/word'
-import { getWordById } from './words'
-import { type RuleType } from '../types/rule'
-import { LANGUAGE_CONFIG } from '../config/app-config'
 import i18n from '../i18n/i18n'
+import { getWordById } from './words'
 
 interface Rule {
   id: number;
@@ -50,9 +41,14 @@ function getRulesByLanguage(): {
 // Function to get a new set of randomly selected rules
 function getRandomRules(count: number): Rule[] {
   const rules = getRulesByLanguage();
-  const allRules = [...rules.context, ...rules.property, ...rules.wording];
-  const shuffled = [...allRules].sort(() => Math.random() - 0.5);
-  return shuffled.slice(0, count);
+  
+  // Get one rule of each type instead of fully random selection
+  const contextRule = rules.context[Math.floor(Math.random() * rules.context.length)];
+  const propertyRule = rules.property[Math.floor(Math.random() * rules.property.length)];
+  const wordingRule = rules.wording[Math.floor(Math.random() * rules.wording.length)];
+  
+  // Return exactly one of each type
+  return [contextRule, propertyRule, wordingRule];
 }
 
 // Keep the selected rules in a variable that can be updated
@@ -82,23 +78,51 @@ const findQuestionByRuleId = (questions: any[], ruleId: number): WordQuestion | 
 
 // Function to create rules based on selected IDs
 function createRules(selectedRules: typeof SELECTED_RULES): Rule[] {
-  return [
-    {
-      id: selectedRules[0].id,
-      question: selectedRules[0].question,
-      difficulty: selectedRules[0].difficulty
-    },
-    {
-      id: selectedRules[1].id,
-      question: selectedRules[1].question,
-      difficulty: selectedRules[1].difficulty
-    },
-    {
-      id: selectedRules[2].id,
-      question: selectedRules[2].question,
-      difficulty: selectedRules[2].difficulty
+  return selectedRules.map(rule => {
+    const id = rule.id;
+    let type: RuleType;
+    
+    // Determine rule type based on ID ranges
+    if (id >= 1 && id <= 50) {
+      type = 'context';
+    } else if (id >= 51 && id <= 100) {
+      type = 'property';
+    } else if (id >= 101 && id <= 150) {
+      type = 'wording';
+    } else {
+      // Default fallback (should not happen with proper data)
+      type = 'context';
     }
-  ];
+    
+    // Create a check function that matches words against this rule
+    const check = (wordId: string): boolean => {
+      const wordData = getWordById(wordId);
+      
+      if (!wordData || !wordData.questions) {
+        console.warn(`No word data found for wordId: ${wordId}`);
+        return false;
+      }
+      
+      // Find the question that matches this rule's ID
+      const question = wordData.questions.find((q: WordQuestion) => q.ruleId === id);
+      
+      if (!question) {
+        console.warn(`No question found for ruleId: ${id} in word: ${wordId}`);
+        return false;
+      }
+      
+      // Return the result of the question (true/false)
+      return question.result;
+    };
+    
+    return {
+      id: rule.id,
+      question: rule.question,
+      difficulty: rule.difficulty,
+      type: type,
+      check: check
+    };
+  });
 }
 
 // Keep the current rules in a variable that can be updated
@@ -123,6 +147,13 @@ export function getRuleById(id: number): Rule | undefined {
 // Helper function to check a single rule
 function checkSingleRule(wordId: string, type: RuleType): boolean {
   const rules = getRulesByType(type);
+  
+  // If no rules of this type are found, log a warning and return false
+  if (rules.length === 0) {
+    console.warn(`No rules found for type: ${type}`);
+    return false;
+  }
+  
   return rules.some(rule => rule.check && rule.check(wordId));
 }
 

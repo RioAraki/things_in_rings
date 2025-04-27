@@ -153,3 +153,4 @@
     {"ruleId": 149, "result": true, "reason": "包含第三声的字"},
     {"ruleId": 150, "result": true, "reason": "包含第四声的字"}
   ]
+}

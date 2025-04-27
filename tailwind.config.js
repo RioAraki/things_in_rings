@@ -11,12 +11,12 @@ module.exports = {
       },
       keyframes: {
         highlight: {
-          '0%, 30%, 60%, 100%': { boxShadow: '0 0 0 2px rgba(34, 197, 94, 0)' },
-          '15%, 45%': { boxShadow: '0 0 20px 2px rgba(34, 197, 94, 0.5)' },
+          '0%, 100%': { boxShadow: '0 0 0 2px rgba(34, 197, 94, 0)' },
+          '15%, 35%, 55%, 75%': { boxShadow: '0 0 20px 5px rgba(234, 179, 8, 0.6)' },
         }
       },
       animation: {
-        highlight: 'highlight 3s ease-in-out',
+        highlight: 'highlight 3.5s ease-in-out',
       }
     }
   },

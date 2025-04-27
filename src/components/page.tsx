@@ -231,6 +231,48 @@ export default function SetDiagramPage() {
       const isCorrect = checkRule(word.id, getEnglishAreaName(destArea))
       const correctArea = findCorrectArea(word.id)
       
+      // Debug logs
+      console.log("Word:", word.word);
+      console.log("Dropped in area:", destArea);
+      console.log("Is correct?", isCorrect);
+      console.log("Correct area (English):", correctArea);
+      
+      // Get the actual area name that exists in areaWords
+      let correctAreaTranslated = correctArea;
+      if (correctArea) {
+        // If the area is a basic type, translate it directly
+        if (correctArea === 'context') {
+          correctAreaTranslated = (t as any)('ui.context');
+        } else if (correctArea === 'property') {
+          correctAreaTranslated = (t as any)('ui.property');
+        } else if (correctArea === 'wording') {
+          correctAreaTranslated = (t as any)('ui.wording');
+        } else if (correctArea === 'all') {
+          correctAreaTranslated = (t as any)('ui.all');
+        } else if (correctArea === 'none') {
+          correctAreaTranslated = (t as any)('ui.none');
+        } 
+        // If it's a combined area, construct the combined name
+        else if (correctArea === 'context+property') {
+          correctAreaTranslated = `${(t as any)('ui.context')}+${(t as any)('ui.property')}`;
+        } else if (correctArea === 'context+wording') {
+          correctAreaTranslated = `${(t as any)('ui.context')}+${(t as any)('ui.wording')}`;
+        } else if (correctArea === 'property+wording') {
+          correctAreaTranslated = `${(t as any)('ui.property')}+${(t as any)('ui.wording')}`;
+        }
+      }
+      
+      console.log("Correct area (Translated):", correctAreaTranslated);
+      console.log("Available areas:", Object.keys(areaWords));
+      
+      // Check if the destination area is actually the correct area
+      // This is needed in case the checkRule function has bugs or inconsistencies
+      const isDirectlyInCorrectArea = destArea === correctAreaTranslated;
+      const isDestinationCorrect = isCorrect || isDirectlyInCorrectArea;
+      
+      console.log("Is directly in correct area?", isDirectlyInCorrectArea);
+      console.log("Is destination correct?", isDestinationCorrect);
+      
       // Update the selected word when dragged
       setSelectedWord(word);
       
@@ -248,12 +290,12 @@ export default function SetDiagramPage() {
       });
       
       // Only refill a new word if the placement was incorrect
-      if (!isCorrect) {
+      if (!isDestinationCorrect) {
         addNewWordToVisible();
       }
 
       // If incorrect, animate the movement to correct area
-      if (!isCorrect && correctArea) {
+      if (!isDestinationCorrect && correctArea && destArea !== correctAreaTranslated) {
         // Play wrong sound when word is placed incorrectly
         wrongSound.currentTime = 0; // Reset sound to beginning
         wrongSound.play().catch(err => console.log("Sound playback failed:", err));
@@ -284,13 +326,15 @@ export default function SetDiagramPage() {
 
         // After fade out, move to correct area
         setTimeout(() => {
+          console.log("Moving word to correct area:", correctAreaTranslated);
+          
           setAreaWords(prev => {
             const newAreaWords = { ...prev };
             // Remove from wrong area
             newAreaWords[destArea] = prev[destArea].filter(w => w.id !== word.id);
             // Add to correct area with isAutoMoved true initially
-            newAreaWords[correctArea as Area] = [
-              ...(prev[correctArea as Area] || []),
+            newAreaWords[correctAreaTranslated as Area] = [
+              ...(prev[correctAreaTranslated as Area] || []),
               {
                 ...word,
                 isChecked: true,
@@ -302,21 +346,41 @@ export default function SetDiagramPage() {
             return newAreaWords;
           });
 
-          // Fade in at new location
+          // Fade in at new location - first make it visible but keep isAutoMoved true for animation
           setTimeout(() => {
+            console.log("Fading in word in correct area");
+            
             setAreaWords(prev => ({
               ...prev,
-              [correctArea as Area]: prev[correctArea as Area].map(w =>
+              [correctAreaTranslated as Area]: prev[correctAreaTranslated as Area].map(w =>
                 w.id === word.id ? { 
                   ...w, 
-                  isAutoMoved: false  // Only change the animation flag
+                  isAutoMoved: false,  // Change the animation flag
+                  wasAutoMoved: false  // Temporarily set to false to make it visible
                 } : w
               )
             }));
-          }, 50);
+            
+            // After the word appears, mark it as auto-moved again for styling
+            setTimeout(() => {
+              console.log("Setting final style for auto-moved word");
+              
+              setAreaWords(prev => ({
+                ...prev,
+                [correctAreaTranslated as Area]: prev[correctAreaTranslated as Area].map(w =>
+                  w.id === word.id ? { 
+                    ...w,
+                    wasAutoMoved: true  // Set back to true for styling purposes
+                  } : w
+                )
+              }));
+            }, 500); // Wait 500ms after the word appears before marking it as auto-moved again
+          }, 100); // Increase from 50ms to 100ms to ensure the DOM has time to update
         }, 800); // Increased from 400ms to 800ms to allow for fade-out
       } else {
         // If correct, just add to the area (not auto-moved)
+        console.log(`Word "${word.word}" placed correctly in ${destArea}. Adding it directly.`);
+        
         setAreaWords(prev => ({
           ...prev,
           [destArea]: [
@@ -568,25 +632,47 @@ export default function SetDiagramPage() {
             <h3 className="font-bold mb-2">Active Rules:</h3>
             <div className="space-y-2">
               <div className="border-b border-gray-600 pb-2">
-                <div className="text-blue-300">{(t as any)('ui.context')} Rule (1):</div>
-                <div className="pl-2 text-xs">{contextRule?.question || 'Not found'}</div>
+                <div className="text-blue-300">{(t as any)('ui.context')} Rule:</div>
+                {contextRule ? (
+                  <div className="pl-2 text-xs">ID: {contextRule.id} - {contextRule.question}</div>
+                ) : (
+                  <div className="pl-2 text-xs text-red-400">Not found (Check rule initialization)</div>
+                )}
               </div>
               <div className="border-b border-gray-600 pb-2">
-                <div className="text-green-300">{(t as any)('ui.property')} Rule (2):</div>
-                <div className="pl-2 text-xs">{propertyRule?.question || 'Not found'}</div>
+                <div className="text-green-300">{(t as any)('ui.property')} Rule:</div>
+                {propertyRule ? (
+                  <div className="pl-2 text-xs">ID: {propertyRule.id} - {propertyRule.question}</div>
+                ) : (
+                  <div className="pl-2 text-xs text-red-400">Not found (Check rule initialization)</div>
+                )}
               </div>
               <div className="border-b border-gray-600 pb-2">
-                <div className="text-yellow-300">{(t as any)('ui.wording')} Rule (3):</div>
-                <div className="pl-2 text-xs">{wordingRule?.question || 'Not found'}</div>
+                <div className="text-yellow-300">{(t as any)('ui.wording')} Rule:</div>
+                {wordingRule ? (
+                  <div className="pl-2 text-xs">ID: {wordingRule.id} - {wordingRule.question}</div>
+                ) : (
+                  <div className="pl-2 text-xs text-red-400">Not found (Check rule initialization)</div>
+                )}
+              </div>
+              <div className="border-b border-gray-600 pb-2">
+                <div className="text-gray-300">All Active Rules:</div>
+                <div className="pl-2 text-xs">
+                  {rules.map((rule, index) => (
+                    <div key={index} className="mb-1">
+                      ID: {rule.id} - Type: {rule.type || 'unknown'} - {rule.question}
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
             {selectedWord && (
               <div className="mt-3 pt-2 border-t border-gray-600">
                 <div className="text-purple-300">Selected Word: {selectedWord.word}</div>
                 <div className="pl-2 text-xs">
-                  {(t as any)('ui.context')}: {contextRule?.question || ''}<br/>
-                  {(t as any)('ui.property')}: {propertyRule?.question || ''}<br/>
-                  {(t as any)('ui.wording')}: {wordingRule?.question || ''}
+                  {contextRule ? `${(t as any)('ui.context')}: ${contextRule.question}` : ''}<br/>
+                  {propertyRule ? `${(t as any)('ui.property')}: ${propertyRule.question}` : ''}<br/>
+                  {wordingRule ? `${(t as any)('ui.wording')}: ${wordingRule.question}` : ''}
                 </div>
               </div>
             )}

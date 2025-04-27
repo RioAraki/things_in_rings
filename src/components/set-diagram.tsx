@@ -118,7 +118,7 @@ const AreaComponent = ({
   }, [hasAutoMovedWord]);
 
   return (
-    <Droppable droppableId={baseAreaName}>
+    <Droppable droppableId={id}>
       {(provided, snapshot) => (
         <div
           ref={provided.innerRef}
@@ -210,7 +210,7 @@ const AreaComponent = ({
                     className={`
                       relative rounded-full px-2 py-1 text-sm shadow-sm inline-block whitespace-nowrap
                       transition-all duration-200 ease-out
-                      ${word.wasAutoMoved ? 'scale-75 opacity-0' : 'scale-100 opacity-100'}
+                      ${word.wasAutoMoved ? 'border-dashed border-2 border-yellow-500' : ''}
                       ${word.isChecked ? 'opacity-80' : ''}
                       ${snapshot.isDragging ? 'shadow-lg scale-110 z-50' : 'shadow-md'}
                     `}
@@ -224,9 +224,9 @@ const AreaComponent = ({
                       cursor: word.isChecked ? 'pointer' : 'grab',
                       transition: 'all 0.2s ease-out',
                       transform: `${provided.draggableProps.style?.transform || ''} ${
-                        word.wasAutoMoved ? 'scale(0.75)' : (snapshot.isDragging ? 'scale(1.1)' : 'scale(1)')
+                        word.isAutoMoved ? 'scale(0.75)' : (snapshot.isDragging ? 'scale(1.1)' : 'scale(1)')
                       }`,
-                      opacity: word.wasAutoMoved ? 0 : 1,
+                      opacity: word.isAutoMoved ? 0 : 1, // Only make it invisible during the auto-move animation
                       border: word.isChecked && word.isCorrect 
                         ? (word.wasAutoMoved 
                             ? '2px dashed #eab308' // dashed border for system-corrected
@@ -291,6 +291,8 @@ const SetDiagram: React.FC<SetDiagramProps> = ({
   onSelectWord,
   transparency = 20  // Default transparency value of 20%
 }) => {
+  const { t } = useTranslation();
+  
   // Base dimensions for cube layout
   const AREA_WIDTH = 25
   const AREA_HEIGHT = 18
@@ -299,6 +301,18 @@ const SetDiagram: React.FC<SetDiagramProps> = ({
   const OFFSET = { x: 0, y: 0 }  // Starting position offset
   const PERSPECTIVE = 0.6  // Perspective factor (0-1)
   
+  // Create a mapping of English names to actual area names in areaWords
+  const areaNameMapping: Record<string, Area> = {
+    'context': (t as any)('ui.context'),
+    'property': (t as any)('ui.property'),
+    'wording': (t as any)('ui.wording'),
+    'context+property': `${(t as any)('ui.context')}+${(t as any)('ui.property')}`,
+    'context+wording': `${(t as any)('ui.context')}+${(t as any)('ui.wording')}`,
+    'property+wording': `${(t as any)('ui.property')}+${(t as any)('ui.wording')}`,
+    'all': (t as any)('ui.all'),
+    'none': (t as any)('ui.none')
+  };
+
   // Function to calculate cube layout positions with perspective
   function calculateCubeLayout(
     cubeSize: number,
@@ -560,21 +574,26 @@ const SetDiagram: React.FC<SetDiagramProps> = ({
       </svg>
 
       {/* Render the area rectangles */}
-      {Object.entries(areaLayout).map(([areaId, layout]) => (
-        <AreaComponent
-          key={areaId}
-          id={areaId as Area}
-          words={areaWords[areaId as Area] || []}
-          left={layout.left}
-          top={layout.top}
-          width={layout.width}
-          height={layout.height}
-          showRuleDescriptions={showRuleDescriptions}
-          rules={rules}
-          onSelectWord={onSelectWord}
-          transparency={transparency}
-        />
-      ))}
+      {Object.entries(areaLayout).map(([areaId, layout]) => {
+        // Map the English area ID to the actual area name in areaWords
+        const actualAreaId = areaNameMapping[areaId.toLowerCase()] || areaId as Area;
+        
+        return (
+          <AreaComponent
+            key={areaId}
+            id={actualAreaId}
+            words={areaWords[actualAreaId] || []}
+            left={layout.left}
+            top={layout.top}
+            width={layout.width}
+            height={layout.height}
+            showRuleDescriptions={showRuleDescriptions}
+            rules={rules}
+            onSelectWord={onSelectWord}
+            transparency={transparency}
+          />
+        );
+      })}
     </div>
   )
 }
