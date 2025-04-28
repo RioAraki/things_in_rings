@@ -33,14 +33,14 @@ export const getBaseAreaName = (area: Area): string => {
   if (area === '全不满足') return 'none';
   
   // Handle intersection areas
-  if (area.startsWith('使用场景+')) {
-    return 'context' + area.substring('使用场景'.length);
+  if (area === ('使用场景+拼写')) {
+    return 'context+wording';
   }
-  if (area.includes('+拼写')) {
-    return area.replace('拼写', 'wording');
+  if (area === ('特性+拼写')) {
+    return 'property+wording';
   }
-  if (area.includes('特性')) {
-    return area.replace('特性', 'property');
+  if (area === ('使用场景+特性')) {
+    return 'context+property';
   }
   
   return area;

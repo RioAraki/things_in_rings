@@ -44,32 +44,48 @@ const getWordImage = (word: string): string => {
   }
 };
 
-// Add this function near the top of the file, after the imports
-function getEnglishAreaName(translatedArea: string): string {
-  // Handle basic areas
-  if (translatedArea === '使用场景') return 'context';
-  if (translatedArea === '特性') return 'property';
-  if (translatedArea === '拼写') return 'wording';
-  if (translatedArea === '全部满足') return 'all';
-  if (translatedArea === '全不满足') return 'none';
-
-  // Handle combination areas
-  if (translatedArea.startsWith('使用场景+')) {
-    return 'context' + translatedArea.substring('使用场景'.length);
-  }
-  if (translatedArea.includes('+拼写')) {
-    return translatedArea.replace('拼写', 'wording');
-  }
-  if (translatedArea.includes('特性')) {
-    return translatedArea.replace('特性', 'property');
-  }
-
-  // Default case: return as is
-  return translatedArea;
-}
-
 export default function SetDiagramPage() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  
+  // Function to convert translated area names to English
+  function getEnglishAreaName(translatedArea: string): string {
+    // Get the current language resources
+    const resources = i18n.getResourceBundle(i18n.language, 'ui');
+    
+    // Create a reverse mapping from translated to English
+    const reverseMap: Record<string, string> = {};
+    
+    // Build the reverse mapping dynamically
+    if (resources) {
+      reverseMap[resources.context] = 'context';
+      reverseMap[resources.property] = 'property';
+      reverseMap[resources.wording] = 'wording';
+      reverseMap[resources.all] = 'all';
+      reverseMap[resources.none] = 'none';
+    }
+    
+    // Handle basic areas using the reverse map
+    if (reverseMap[translatedArea]) {
+      return reverseMap[translatedArea];
+    }
+    
+    // Handle combination areas
+    if (translatedArea.includes('+')) {
+      const parts = translatedArea.split('+');
+      
+      // Map each part to its English equivalent
+      const mappedParts = parts.map(part => {
+        const trimmedPart = part.trim();
+        return reverseMap[trimmedPart] || trimmedPart;
+      });
+      
+      // Join them back with a '+' to form the English area name
+      return mappedParts.join('+');
+    }
+    
+    // Default case: return as is if we can't translate
+    return translatedArea;
+  }
   
   // Store all available words that haven't been shown yet
   const [allWords, setAllWords] = useState<Word[]>(getWords())
