@@ -148,6 +148,8 @@ export default function SetDiagramPage() {
     
     // Add translated areas
     initialAreas[(t as any)('ui.context')] = [];
+    initialAreas[(t as any)('ui.property')] = [];
+    initialAreas[(t as any)('ui.wording')] = [];  // Add the translated wording area
     initialAreas[`${(t as any)('ui.context')}+${(t as any)('ui.property')}`] = [];
     initialAreas[`${(t as any)('ui.context')}+${(t as any)('ui.wording')}`] = [];
     initialAreas[`${(t as any)('ui.property')}+${(t as any)('ui.wording')}`] = [];
