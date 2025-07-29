@@ -6,7 +6,7 @@ import contextRulesZh from '../resources/data/rules_zh/context_rules.json'
 import propertyRulesZh from '../resources/data/rules_zh/property_rules.json'
 import wordingRulesZh from '../resources/data/rules_zh/wording_rules.json'
 import { type WordQuestion } from '../types/word'
-import i18n from '../i18n/i18n'
+
 import { getWordById } from './words'
 
 interface Rule {
@@ -29,7 +29,7 @@ function getRulesByLanguage(): {
   property: Rule[];
   wording: Rule[];
 } {
-  const isChinese = i18n.language === 'zh';
+  const isChinese = false; // Always use English data
   
   return {
     context: isChinese ? (contextRulesZh as any).rules : (contextRules as any).rules,

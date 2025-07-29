@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Droppable, Draggable } from "@hello-pangea/dnd"
-import { useTranslation } from 'react-i18next'
 import { type Area, getBaseAreaName } from "../types/area"
 import { type Word } from "../types/word"
-import type { TFunction } from 'i18next'
 
 // Rename VennDiagramProps to SetDiagramProps
 type SetDiagramProps = {
@@ -81,7 +79,6 @@ const AreaComponent = ({
   onSelectWord?: (word: Word) => void
   transparency?: number
 }) => {
-  const { t } = useTranslation();
   const baseAreaName = getBaseAreaName(id);
   const [animationKey, setAnimationKey] = useState(0);
   const opacity = (100 - transparency) / 100;
@@ -94,14 +91,25 @@ const AreaComponent = ({
       return rules[ruleType] || '';
     }
 
+    // Area name mapping
+    const areaNames: Record<string, string> = {
+      'context': '使用场景',
+      'property': '特性', 
+      'wording': '拼写',
+      'all': '全部满足',
+      'none': '全不满足'
+    };
+
     // Handle combination areas
     if (baseAreaName.includes('+')) {
       const [first, second] = baseAreaName.toLowerCase().split('+');
-      return `${(t as (key: string) => string)(`ui.${first}`)}+${(t as (key: string) => string)(`ui.${second}`)}`;
+      const firstName = areaNames[first] || first;
+      const secondName = areaNames[second] || second;
+      return `${firstName}+${secondName}`;
     }
 
     // Handle single areas
-    return (t as (key: string) => string)(`ui.${baseAreaName.toLowerCase()}`);
+    return areaNames[baseAreaName.toLowerCase()] || baseAreaName;
   };
 
   const areaTitle = getTitle();
@@ -291,7 +299,6 @@ const SetDiagram: React.FC<SetDiagramProps> = ({
   onSelectWord,
   transparency = 20  // Default transparency value of 20%
 }) => {
-  const { t } = useTranslation();
   
   // Base dimensions for cube layout
   const AREA_WIDTH = 25
@@ -301,16 +308,16 @@ const SetDiagram: React.FC<SetDiagramProps> = ({
   const OFFSET = { x: 0, y: 0 }  // Starting position offset
   const PERSPECTIVE = 0.6  // Perspective factor (0-1)
   
-  // Create a mapping of English names to actual area names in areaWords
+  // Create a mapping of English names to actual Chinese area names in areaWords
   const areaNameMapping: Record<string, Area> = {
-    'context': (t as any)('ui.context'),
-    'property': (t as any)('ui.property'),
-    'wording': (t as any)('ui.wording'),
-    'context+property': `${(t as any)('ui.context')}+${(t as any)('ui.property')}`,
-    'context+wording': `${(t as any)('ui.context')}+${(t as any)('ui.wording')}`,
-    'property+wording': `${(t as any)('ui.property')}+${(t as any)('ui.wording')}`,
-    'all': (t as any)('ui.all'),
-    'none': (t as any)('ui.none')
+    'context': '使用场景',
+    'property': '特性',
+    'wording': '拼写',
+    'context+property': '使用场景+特性',
+    'context+wording': '使用场景+拼写',
+    'property+wording': '特性+拼写',
+    'all': '全部满足',
+    'none': '全不满足'
   };
 
   // Function to calculate cube layout positions with perspective
@@ -448,10 +455,14 @@ const SetDiagram: React.FC<SetDiagramProps> = ({
     bottomY: rect.top + rect.height
   })
 
-  const centers = Object.entries(areaLayout).reduce((acc, [id, rect]) => ({
-    ...acc,
-    [id]: getCenter(rect),
-  }), {} as Record<Area, { x: number; y: number; bottomY: number }>)
+  const centers = Object.entries(areaLayout).reduce((acc, [id, rect]) => {
+    // Map English area ID to Chinese area name for centers
+    const chineseAreaName = areaNameMapping[id.toLowerCase()] || id;
+    return {
+      ...acc,
+      [chineseAreaName]: getCenter(rect),
+    };
+  }, {} as Record<Area, { x: number; y: number; bottomY: number }>)
 
 
   return (
@@ -478,96 +489,60 @@ const SetDiagram: React.FC<SetDiagramProps> = ({
               transform-style: preserve-3d;
             }
           `}
-        </style>
-        <g className="cube-container">
-          {/* Colored cube faces */}
-          {/* Top face (red) */}
-          <polygon 
-            points={`
-              ${centers.context.x},${centers.context.y}
-              ${centers['context+property'].x},${centers['context+property'].y}
-              ${centers.all.x},${centers.all.y}
-              ${centers['context+wording'].x},${centers['context+wording'].y}
-            `}
-            fill="#cc3333"
-            opacity="0.7"
-          />
-          
-          {/* Left face (blue) */}
-          <polygon 
-            points={`
-              ${centers['context+property'].x},${centers['context+property'].y}
-              ${centers.property.x},${centers.property.y}
-              ${centers['property+wording'].x},${centers['property+wording'].y}
-              ${centers.all.x},${centers.all.y}
-            `}
-            fill="#0099cc"
-            opacity="0.7"
-          />
-          
-          {/* Right face (green) */}
-          <polygon 
-            points={`
-              ${centers['context+wording'].x},${centers['context+wording'].y}
-              ${centers.all.x},${centers.all.y}
-              ${centers['property+wording'].x},${centers['property+wording'].y}
-              ${centers.wording.x},${centers.wording.y}
-            `}
-            fill="#008833"
-            opacity="0.7"
-          />
+                  </style>
+          <g className="cube-container">
 
           {/* Cube edges */}
           {/* Left face connections */}
           <line 
-            x1={centers.context.x} y1={centers.context.y}
-            x2={centers['context+property'].x} y2={centers['context+property'].y}
+            x1={centers['使用场景'].x} y1={centers['使用场景'].y}
+            x2={centers['使用场景+特性'].x} y2={centers['使用场景+特性'].y}
             stroke="#666" strokeWidth="0.3"
           />
           <line 
-            x1={centers['context+property'].x} y1={centers['context+property'].y}
-            x2={centers.property.x} y2={centers.property.y}
+            x1={centers['使用场景+特性'].x} y1={centers['使用场景+特性'].y}
+            x2={centers['特性'].x} y2={centers['特性'].y}
             stroke="#666" strokeWidth="0.3"
           />
 
           {/* Right face connections */}
           <line 
-            x1={centers.context.x} y1={centers.context.y}
-            x2={centers['context+wording'].x} y2={centers['context+wording'].y}
+            x1={centers['使用场景'].x} y1={centers['使用场景'].y}
+            x2={centers['使用场景+拼写'].x} y2={centers['使用场景+拼写'].y}
             stroke="#666" strokeWidth="0.3"
           />
           <line 
-            x1={centers['context+wording'].x} y1={centers['context+wording'].y}
-            x2={centers.wording.x} y2={centers.wording.y}
+            x1={centers['使用场景+拼写'].x} y1={centers['使用场景+拼写'].y}
+            x2={centers['拼写'].x} y2={centers['拼写'].y}
             stroke="#666" strokeWidth="0.3"
           />
 
           {/* Bottom connections */}
           <line 
-            x1={centers.property.x} y1={centers.property.y}
-            x2={centers['property+wording'].x} y2={centers['property+wording'].y}
+            x1={centers['特性'].x} y1={centers['特性'].y}
+            x2={centers['特性+拼写'].x} y2={centers['特性+拼写'].y}
             stroke="#666" strokeWidth="0.3"
           />
           <line 
-            x1={centers['property+wording'].x} y1={centers['property+wording'].y}
-            x2={centers.wording.x} y2={centers.wording.y}
+            x1={centers['特性+拼写'].x} y1={centers['特性+拼写'].y}
+            x2={centers['拼写'].x} y2={centers['拼写'].y}
             stroke="#666" strokeWidth="0.3"
           />
 
           {/* Center connections */}
           <line 
-            x1={centers['context+property'].x} y1={centers['context+property'].y}
-            x2={centers.all.x} y2={centers.all.y}
+            x1={centers['使用场景+特性'].x} y1={centers['使用场景+特性'].y}
+            x2={centers['全部满足'].x} y2={centers['全部满足'].y}
             stroke="#666" strokeWidth="0.3"
           />
           <line 
-            x1={centers['context+wording'].x} y1={centers['context+wording'].y}
-            x2={centers.all.x} y2={centers.all.y}
+            x1={centers['使用场景+拼写'].x} y1={centers['使用场景+拼写'].y}
+            x2={centers['全部满足'].x} y2={centers['全部满足'].y}
             stroke="#666" strokeWidth="0.3"
           />
           <line 
-            x1={centers['property+wording'].x} y1={centers['property+wording'].y}
-            x2={centers.all.x} y2={centers.all.y}
+            x1={centers['特性+拼写'].x} y1={centers['特性+拼写'].y}
+            x2={centers['全部满足'].x} y2={centers['全部满足'].y}
             stroke="#666" strokeWidth="0.3"
           />
         </g>

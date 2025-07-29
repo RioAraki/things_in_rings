@@ -1,6 +1,6 @@
 import { type Word } from '../types/word'
 import { LANGUAGE_CONFIG } from '../config/app-config'
-import i18n from '../i18n/i18n'
+
 
 // Dynamically import all word files from the words directory
 const wordModules = (() => {
@@ -55,8 +55,8 @@ const originalWords = wordModules.map((module: any) => normalizeWordData(module)
 const originalWordsZh = wordModulesZh.map((module: any) => normalizeWordData(module));
 
 export function getWords(): Word[] {
-  // Get the current language from i18n
-  const isChinese = i18n.language === 'zh';
+  // Always use English data
+  const isChinese = false;
   
   // Get all words and shuffle them based on language
   const words = isChinese ? originalWordsZh : originalWords;
@@ -64,8 +64,8 @@ export function getWords(): Word[] {
 }
 
 export function getWordById(id: string): Word | undefined {
-  // Get the current language from i18n
-  const isChinese = i18n.language === 'zh';
+  // Always use English data
+  const isChinese = false;
   
   // Find word in the loaded words based on language
   const words = isChinese ? originalWordsZh : originalWords;
