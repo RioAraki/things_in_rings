@@ -1,6 +1,7 @@
 {
   "id": "14",
-  "word": "鸽子",
+  "word": "鸭子",
+  "word_en": "Duck",
   "questions": [
     {"ruleId": 1, "result": true, "reason": "鸽子被家养和驯化已有几千年历史"},
     {"ruleId": 2, "result": false, "reason": "鸽子并非新事物，早已存在"},

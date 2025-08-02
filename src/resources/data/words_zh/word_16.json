@@ -1,6 +1,7 @@
 {
   "id": "16",
   "word": "大理石",
+  "word_en": "Marble",
   "questions": [
     {"ruleId": 1, "result": true, "reason": "大理石自古以来就有使用历史超过1000年"},
     {"ruleId": 2, "result": false, "reason": "并非1950年后出现的新事物"},

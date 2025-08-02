@@ -1,6 +1,7 @@
 {
   "id": "47",
   "word": "牛奶",
+  "word_en": "Milk",
   "questions": [
     {"ruleId": 1, "result": false, "reason": "“牛奶”作为词仅流行于近代，距今不足1000年"},
     {"ruleId": 2, "result": false, "reason": "牛奶早于1950年已有，不是1950年后新事物"},

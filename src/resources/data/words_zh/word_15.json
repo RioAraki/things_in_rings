@@ -1,6 +1,7 @@
 {
   "id": "15",
   "word": "狗",
+  "word_en": "Dog",
   "questions": [
     {"ruleId": 1, "result": true, "reason": "狗作为动物被驯化已超过一千年"},
     {"ruleId": 2, "result": false, "reason": "狗并非1950年后的新事物"},

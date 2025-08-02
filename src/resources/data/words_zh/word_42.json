@@ -1,6 +1,7 @@
 {
   "id": "42",
   "word": "砖块",
+  "word_en": "Brick",
   "questions": [
     {"ruleId": 1, "result": false, "reason": "砖块作为建筑材料不到1000年"},
     {"ruleId": 2, "result": false, "reason": "不是1950年后的新事物"},

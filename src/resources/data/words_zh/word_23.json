@@ -1,6 +1,7 @@
 {
   "id": "23",
   "word": "桌子",
+  "word_en": "Table",
   "questions": [
     {"ruleId": 1, "result": true, "reason": "桌子已有上千年历史"},
     {"ruleId": 2, "result": false, "reason": "并非1950年后新事物"},

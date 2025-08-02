@@ -1,6 +1,7 @@
 {
   "id": "44",
   "word": "大提琴",
+  "word_en": "Cello",
   "questions": [
     {"ruleId": 1, "result": false, "reason": "大提琴自16世纪出现至今未超过1000年"},
     {"ruleId": 2, "result": false, "reason": "出现时间远早于1950年"},

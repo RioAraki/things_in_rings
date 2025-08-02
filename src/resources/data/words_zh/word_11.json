@@ -1,6 +1,7 @@
 {
   "id": "11",
   "word": "医院",
+  "word_en": "Hospital",
   "questions": [
     {"ruleId": 1, "result": false, "reason": "医院的现代形式自19世纪传入中国未满1000年"},
     {"ruleId": 2, "result": false, "reason": "并非1950年后才有，清末已存在"},

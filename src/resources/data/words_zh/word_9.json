@@ -1,6 +1,7 @@
 {
   "id": "9",
   "word": "眼镜",
+  "word_en": "Glasses",
   "questions": [
     {"ruleId": 1, "result": false, "reason": "眼镜大规模出现不到1000年"},
     {"ruleId": 2, "result": false, "reason": "眼镜出现在1950年之前"},

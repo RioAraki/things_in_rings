@@ -1,6 +1,7 @@
 {
   "id": "37",
   "word": "瓷器",
+  "word_en": "Porcelain",
   "questions": [
     {"ruleId": 1, "result": true, "reason": "瓷器出现已超1000年，有悠久历史。"},
     {"ruleId": 2, "result": false, "reason": "瓷器非新事物，非1950年后出现。"},

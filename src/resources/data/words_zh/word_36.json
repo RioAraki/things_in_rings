@@ -1,6 +1,7 @@
 {
   "id": "36",
   "word": "十字架",
+  "word_en": "Cross",
   "questions": [
     {"ruleId": 1, "result": true, "reason": "十字架起源于公元前，已有数千年历史。"},
     {"ruleId": 2, "result": false, "reason": "并非1950年后出现的新事物。"},

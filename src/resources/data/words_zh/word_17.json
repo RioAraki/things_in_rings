@@ -1,6 +1,7 @@
 {
   "id": "17",
   "word": "金字塔",
+  "word_en": "Pyramid",
   "questions": [
     {"ruleId": 1, "result": true, "reason": "金字塔自古埃及已有，存在超过4000年"},
     {"ruleId": 2, "result": false, "reason": "不是1950年后的新事物"},

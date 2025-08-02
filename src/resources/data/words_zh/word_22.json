@@ -1,6 +1,7 @@
 {
   "id": "22",
   "word": "书包",
+  "word_en": "Schoolbag",
   "questions": [
     {"ruleId": 1, "result": true, "reason": "书包作为词语至少已有数百年由来，接近或超过1000年。"},
     {"ruleId": 2, "result": false, "reason": "并非1950年后才出现的新事物。"},

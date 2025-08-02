@@ -1,6 +1,7 @@
 {
   "id": "6",
   "word": "手机",
+  "word_en": "Cellphone",
   "questions": [
     {"ruleId": 1, "result": false, "reason": "手机诞生于20世纪末未超过1000年"},
     {"ruleId": 2, "result": true, "reason": "手机是1950年后出现的新事物"},

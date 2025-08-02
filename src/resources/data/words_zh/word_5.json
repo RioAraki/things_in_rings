@@ -1,6 +1,7 @@
 {
   "id": "5",
   "word": "雨伞",
+  "word_en": "Umbrella",
   "questions": [
     {"ruleId": 1, "result": true, "reason": "自古即有雨伞类似用具，历史超过一千年"},
     {"ruleId": 2, "result": false, "reason": "雨伞早于1950年大量存在"},

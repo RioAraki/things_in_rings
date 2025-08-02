@@ -1,6 +1,7 @@
 {
   "id": "45",
   "word": "剪刀",
+  "word_en": "Scissors",
   "questions": [
     {"ruleId": 1, "result": true, "reason": "剪刀起源于中国春秋时期已有2000年以上历史"},
     {"ruleId": 2, "result": false, "reason": "剪刀并非1950年后出现的新事物"},

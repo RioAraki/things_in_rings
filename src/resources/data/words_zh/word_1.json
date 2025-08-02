@@ -1,6 +1,7 @@
 {
   "id": 1,
   "word": "望远镜",
+  "word_en": "Telescope",
   "questions": [
     {"ruleId": 1, "result": false, "reason": "望远镜发明于17世纪初，不到1000年"},
     {"ruleId": 2, "result": true, "reason": "现代望远镜在1950年后有重大发展"},

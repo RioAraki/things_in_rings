@@ -1,6 +1,7 @@
 {
   "id": "7",
   "word": "椅子",
+  "word_en": "Chair",
   "questions": [
     {"ruleId": 1, "result": true, "reason": "椅子作为家具已存在数千年"},
     {"ruleId": 2, "result": false, "reason": "不是1950年后的新事物"},

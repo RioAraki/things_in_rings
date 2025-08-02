@@ -1,6 +1,7 @@
 {
   "id": "39",
   "word": "毛笔",
+  "word_en": "Brush Pen",
   "questions": [
     {"ruleId": 1, "result": true, "reason": "毛笔自秦汉流传至今，已有2000年以上历史"},
     {"ruleId": 2, "result": false, "reason": "毛笔不是新事物，远早于1950年"},

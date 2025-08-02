@@ -110,7 +110,7 @@ export default function SetDiagramPage() {
                   <div className="h-[calc(100%-2.5rem)] flex items-center justify-center">
                     {gameState.selectedWord ? (
                       <img 
-                        src={getWordImage(gameState.selectedWord.word)} 
+                        src={getWordImage(gameState.selectedWord.word_en)} 
                         alt={gameState.selectedWord.word} 
                         className="rounded-lg max-h-full object-contain"
                         style={{ maxWidth: '100%' }}

@@ -1,6 +1,7 @@
 {
   "id": "12",
   "word": "火箭",
+  "word_en": "Rocket",
   "questions": [
     {"ruleId": 1, "result": false, "reason": "火箭作为现代科技产物，出现不满1000年"},
     {"ruleId": 2, "result": true, "reason": "现代火箭普遍发展与应用始于1950年后"},

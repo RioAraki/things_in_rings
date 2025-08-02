@@ -1,6 +1,7 @@
 {
   "id": "26",
   "word": "火星",
+  "word_en": "Mars",
   "questions": [
     {"ruleId": 1, "result": false, "reason": "'火星'作为行星名称较早，但中文普及主要为近代，未明确超1000年"},
     {"ruleId": 2, "result": false, "reason": "并非1950年后才有的新事物"},

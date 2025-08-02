@@ -7,6 +7,7 @@ export type WordQuestion = {
 export interface Word {
   id: string;
   word: string;
+  word_en: string;
   questions: WordQuestion[]
   isPlaced?: boolean
   isChecked?: boolean

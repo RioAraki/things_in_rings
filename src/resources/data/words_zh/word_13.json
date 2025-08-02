@@ -1,6 +1,7 @@
 {
   "id": "13",
   "word": "电动汽车",
+  "word_en": "Electric Car",
   "questions": [
     {"ruleId": 1, "result": false, "reason": "电动汽车出现于20世纪不是很久以前"},
     {"ruleId": 2, "result": true, "reason": "1950年后发展出来的新事物"},

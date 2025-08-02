@@ -1,6 +1,7 @@
 {
   "id": "19",
   "word": "哨子",
+  "word_en": "Whistle",
   "questions": [
     {"ruleId": 1, "result": false, "reason": "哨子为近现代物品未超过1000年"},
     {"ruleId": 2, "result": false, "reason": "哨子在1950年以前已存在"},

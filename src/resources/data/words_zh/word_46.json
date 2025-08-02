@@ -1,6 +1,7 @@
 {
   "id": "46",
   "word": "药片",
+  "word_en": "Tablet",
   "questions": [
     {"ruleId": 1, "result": false, "reason": "药片作为剂型大约19世纪传入中国，不满1000年"},
     {"ruleId": 2, "result": false, "reason": "药片并非1950年后全新事物，已有较长历史"},

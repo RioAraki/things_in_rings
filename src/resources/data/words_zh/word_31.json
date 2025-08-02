@@ -1,6 +1,7 @@
 {
   "id": "31",
   "word": "黑洞",
+  "word_en": "Black Hole",
   "questions": [
     {"ruleId": 1, "result": false, "reason": "“黑洞”一词作为天体专有名词源自20世纪，未超过1000年"},
     {"ruleId": 2, "result": true, "reason": "黑洞概念和词语诞生于1950年后"},

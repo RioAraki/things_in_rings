@@ -1,6 +1,7 @@
 {
   "id": "35",
   "word": "避孕套",
+  "word_en": "Condom",
   "questions": [
     {"ruleId": 1, "result": false, "reason": "避孕套仅在近百年普及，不超过1000年"},
     {"ruleId": 2, "result": true, "reason": "1950年后避孕套成为常见消费品"},

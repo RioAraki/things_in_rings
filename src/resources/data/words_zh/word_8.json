@@ -1,6 +1,7 @@
 {
   "id": "8",
   "word": "电视",
+  "word_en": "Television",
   "questions": [
     {"ruleId": 1, "result": false, "reason": "电视出现于20世纪，不超过1000年"},
     {"ruleId": 2, "result": true, "reason": "电视是1950年后普及的新事物"},

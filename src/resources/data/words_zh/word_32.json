@@ -1,6 +1,7 @@
 {
   "id": "32",
   "word": "罗盘",
+  "word_en": "Compass",
   "questions": [
     {"ruleId": 1, "result": true, "reason": "罗盘已有超过1000年历史"},
     {"ruleId": 2, "result": false, "reason": "罗盘不是1950年后的新事物"},

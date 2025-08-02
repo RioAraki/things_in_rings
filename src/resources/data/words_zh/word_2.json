@@ -1,6 +1,7 @@
 {
   "id": "2",
   "word": "企鹅",
+  "word_en": "Penguin",
   "questions": [
     {"ruleId": 1, "result": true, "reason": "企鹅是古老的物种（已进化数百万年）"},
     {"ruleId": 2, "result": false, "reason": "企鹅不是新事物，已经存在很久"},

@@ -1,6 +1,7 @@
 {
   "id": "3",
   "word": "牙膏",
+  "word_en": "Toothpaste",
   "questions": [
     {"ruleId": 1, "result": false, "reason": "牙膏是近现代产物，不超过1000年"},
     {"ruleId": 2, "result": true, "reason": "牙膏作为商品普及在1950年后"},

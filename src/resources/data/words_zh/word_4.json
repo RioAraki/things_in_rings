@@ -1,6 +1,7 @@
 {
   "id": "4",
   "word": "书",
+  "word_en": "Book",
   "questions": [
     {"ruleId": 1, "result": true, "reason": "书非常古老（已有数千年历史）"},
     {"ruleId": 2, "result": false, "reason": "书不是新事物"},

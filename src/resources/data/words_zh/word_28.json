@@ -1,6 +1,7 @@
 {
   "id": "28",
   "word": "冰山",
+  "word_en": "Iceberg",
   "questions": [
     {"ruleId": 1, "result": true, "reason": "冰山自古存在于自然界，超过1000年"},
     {"ruleId": 2, "result": false, "reason": "不是新事物，非1950年后产物"},

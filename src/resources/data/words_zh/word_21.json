@@ -1,6 +1,7 @@
 {
   "id": "21",
   "word": "电脑",
+  "word_en": "Computer",
   "questions": [
     {"ruleId": 1, "result": false, "reason": "“电脑”产生于20世纪中期，不超过1000年"},
     {"ruleId": 2, "result": true, "reason": "电脑是1950年后出现的新事物"},

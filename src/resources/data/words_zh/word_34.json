@@ -1,6 +1,7 @@
 {
   "id": "34",
   "word": "水晶",
+  "word_en": "Crystal",
   "questions": [
     {"ruleId": 1, "result": true, "reason": "水晶在中国有数千年历史"},
     {"ruleId": 2, "result": false, "reason": "并非1950年后新事物"},

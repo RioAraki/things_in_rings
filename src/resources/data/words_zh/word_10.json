@@ -1,6 +1,7 @@
 {
   "id": "10",
   "word": "博物馆",
+  "word_en": "Museum",
   "questions": [
     {"ruleId": 1, "result": true, "reason": "博物馆已有数百年以上历史，最早可追溯到古代。"},
     {"ruleId": 2, "result": false, "reason": "并非1950年后新兴事物，近现代早已有。"},

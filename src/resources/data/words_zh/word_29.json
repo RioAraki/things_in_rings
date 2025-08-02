@@ -1,6 +1,7 @@
 {
   "id": "29",
   "word": "长颈鹿",
+  "word_en": "Giraffe",
   "questions": [
     {"ruleId": 1, "result": true, "reason": "长颈鹿作为动物存在超过一千年"},
     {"ruleId": 2, "result": false, "reason": "并非1950年后新出现的动物"},

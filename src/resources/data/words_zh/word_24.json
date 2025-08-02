@@ -1,6 +1,7 @@
 {
   "id": "24",
   "word": "海洋",
+  "word_en": "Ocean",
   "questions": [
     {"ruleId": 1, "result": true, "reason": "“海洋”一词已有千年以上历史"},
     {"ruleId": 2, "result": false, "reason": "不是1950年后新事物"},

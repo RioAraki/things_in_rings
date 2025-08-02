@@ -42,6 +42,7 @@ function normalizeWordData(data: any): Word {
   return {
     id: data.id,
     word: data.word,
+    word_en: data.word_en,
     questions: data.questions.map((q: any) => ({
       ruleId: q.ruleId,
       result: typeof q.result === 'string' ? q.result.toLowerCase() === 'true' : q.result,

@@ -1,6 +1,7 @@
 {
   "id": "30",
   "word": "仙人掌",
+  "word_en": "Cactus",
   "questions": [
     {"ruleId": 1, "result": true, "reason": "仙人掌作为植物称呼自古有之,已存在千年"},
     {"ruleId": 2, "result": false, "reason": "不是1950年后的新事物"},

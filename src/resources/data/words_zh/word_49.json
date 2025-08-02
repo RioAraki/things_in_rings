@@ -1,6 +1,7 @@
 {
   "id": "49",
   "word": "信用卡",
+  "word_en": "Credit Card",
   "questions": [
     {"ruleId": 1, "result": false, "reason": "信用卡出现不满1000年"},
     {"ruleId": 2, "result": true, "reason": "信用卡为现代新生事物，1950年后广泛使用"},

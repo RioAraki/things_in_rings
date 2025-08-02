@@ -1,6 +1,7 @@
 {
   "id": "50",
   "word": "硬币",
+  "word_en": "Coin",
   "questions": [
     {"ruleId": 1, "result": true, "reason": "硬币在中国已经存在超过1000年。"},
     {"ruleId": 2, "result": false, "reason": "硬币早于1950年出现，非新事物。"},

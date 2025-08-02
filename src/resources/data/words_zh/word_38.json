@@ -1,6 +1,7 @@
 {
   "id": "38",
   "word": "创可贴",
+  "word_en": "BandAid",
   "questions": [
     {"ruleId": 1, "result": false, "reason": "创可贴发明于20世纪，不满1000年"},
     {"ruleId": 2, "result": true, "reason": "创可贴是20世纪50年后普及的新事物"},

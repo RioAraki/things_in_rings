@@ -1,6 +1,7 @@
 {
   "id": "27",
   "word": "摩天楼",
+  "word_en": "Skyscraper",
   "questions": [
     {"ruleId": 1, "result": false, "reason": "摩天楼作为建筑形式兴起于19世纪末，未满1000年"},
     {"ruleId": 2, "result": true, "reason": "摩天楼是在1950年后逐渐普及的新事物"},

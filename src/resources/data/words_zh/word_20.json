@@ -1,6 +1,7 @@
 {
   "id": "20",
   "word": "吉他",
+  "word_en": "Guitar",
   "questions": [
     {"ruleId": 1, "result": false, "reason": "吉他作为乐器传入中国不到200年未超过1000年"},
     {"ruleId": 2, "result": true, "reason": "现代吉他形态基本形成于1950年后"},

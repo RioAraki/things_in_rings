@@ -1,6 +1,7 @@
 {
   "id": "25",
   "word": "塑料瓶",
+  "word_en": "Plastic Bottle",
   "questions": [
     {"ruleId": 1, "result": false, "reason": "塑料瓶作为容器出现不到100年"},
     {"ruleId": 2, "result": true, "reason": "塑料瓶是1950年后出现的新事物"},
