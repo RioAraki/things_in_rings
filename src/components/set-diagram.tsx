@@ -25,11 +25,11 @@ const getAreaColor = (area: Area): string => {
   switch (baseArea) {
     // Primary faces with vivid colors
     case 'context':
-      return '#ff9999';
+      return '#ff8a9b';
     case 'property':
-      return '#99ff99';
+      return '#70fa70';
     case 'wording':
-      return '#9999ff';
+      return '#94ebff';
     
     // Intersection areas with mixed colors
     case 'context+property':
@@ -37,7 +37,7 @@ const getAreaColor = (area: Area): string => {
     case 'context+wording':
       return '#f999f9';
     case 'property+wording':
-      return '#99c9f9';
+      return '#3bf7cf';
     
     // Center intersection
     case 'all':
@@ -45,7 +45,7 @@ const getAreaColor = (area: Area): string => {
     
     // None area
     case 'none':
-      return '#000000';
+      return '#636161';
     
     default:
       return '#ffffff';

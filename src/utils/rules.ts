@@ -82,6 +82,7 @@ function createRules(selectedRules: typeof SELECTED_RULES): Rule[] {
     const id = rule.id;
     let type: RuleType;
     
+    // TODO: do not hardcode by number to distinguish the rule type
     // Determine rule type based on ID ranges
     if (id >= 1 && id <= 50) {
       type = 'context';
