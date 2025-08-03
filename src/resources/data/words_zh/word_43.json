@@ -1,7 +1,7 @@
 {
   "id": "43",
   "word": "电灯泡",
-  "word_en": "Light Bulb",
+  "word_en": "LightBulb",
   "questions": [
     {"ruleId": 1, "result": true, "reason": "电灯泡自19世纪末诞生，已存在超过100年但未超过1000年"},
     {"ruleId": 2, "result": false, "reason": "电灯泡出现早于1950年"},

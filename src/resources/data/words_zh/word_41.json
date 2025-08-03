@@ -1,7 +1,7 @@
 {
   "id": "41",
   "word": "冰淇淋",
-  "word_en": "Ice Cream",
+  "word_en": "IceCream",
   "questions": [
     {"ruleId": 1, "result": false, "reason": "冰淇凌为外来食品，传入中国不足1000年"},
     {"ruleId": 2, "result": true, "reason": "冰淇凌为近代新事物，盛行于1950年后"},

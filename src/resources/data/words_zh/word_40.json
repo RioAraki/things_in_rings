@@ -1,7 +1,7 @@
 {
   "id": "40",
   "word": "风铃",
-  "word_en": "Wind Chime",
+  "word_en": "WindChime",
   "questions": [
     {"ruleId": 1, "result": true, "reason": "“风铃”最早起源数千年前的中国"},
     {"ruleId": 2, "result": false, "reason": "并非1950年后新事物"},

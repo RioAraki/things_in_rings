@@ -1,7 +1,7 @@
 {
   "id": "48",
   "word": "校服",
-  "word_en": "School Uniform",
+  "word_en": "SchoolUniform",
   "questions": [
     {"ruleId": 1, "result": false, "reason": "校服出现于近现代教育体系，不超过1000年"},
     {"ruleId": 2, "result": false, "reason": "校服广泛普及大致在20世纪初并延续，不是1950年后的新事物"},
