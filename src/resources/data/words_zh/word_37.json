@@ -20,27 +20,27 @@
     },
     {
       "ruleId": 4,
-      "result": false,
+      "result": true,
       "reason": "普通瓷器常见非稀有物品。"
     },
     {
       "ruleId": 5,
-      "result": false,
+      "result": true,
       "reason": "成人用瓷器多于儿童。"
     },
     {
       "ruleId": 6,
-      "result": false,
+      "result": true,
       "reason": "多数人有日常接触瓷器。"
     },
     {
       "ruleId": 7,
-      "result": false,
+      "result": true,
       "reason": "并非每个人都需要瓷器。"
     },
     {
       "ruleId": 8,
-      "result": true,
+      "result": false,
       "reason": "用于盛装食物有助生活。"
     },
     {

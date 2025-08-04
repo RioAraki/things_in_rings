@@ -3,155 +3,755 @@
   "word": "硬币",
   "word_en": "Coin",
   "questions": [
-    {"ruleId": 1, "result": true, "reason": "硬币在中国已经存在超过1000年。"},
-    {"ruleId": 2, "result": false, "reason": "硬币早于1950年出现，非新事物。"},
-    {"ruleId": 3, "result": true, "reason": "大多数家庭都有硬币。"},
-    {"ruleId": 4, "result": false, "reason": "硬币不是稀有物品，大多数人都有。"},
-    {"ruleId": 5, "result": false, "reason": "成人和儿童都用硬币，并非儿童使用更多。"},
-    {"ruleId": 6, "result": false, "reason": "大部分人需要用硬币，对此有兴趣。"},
-    {"ruleId": 7, "result": true, "reason": "每个人都需要货币和零钱。"},
-    {"ruleId": 8, "result": true, "reason": "硬币有助于日常交易和工作。"},
-    {"ruleId": 9, "result": false, "reason": "硬币很常见，不限特殊场合。"},
-    {"ruleId": 10, "result": true, "reason": "硬币在日常生活中经常见到。"},
-    {"ruleId": 11, "result": true, "reason": "硬币经常属于个人财物。"},
-    {"ruleId": 12, "result": false, "reason": "硬币一般为个人物品，非多人共享。"},
-    {"ruleId": 13, "result": false, "reason": "硬币不需电力。"},
-    {"ruleId": 14, "result": false, "reason": "很多国家都有硬币，不属特定文化。"},
-    {"ruleId": 15, "result": true, "reason": "世界多数国家都有硬币。"},
-    {"ruleId": 16, "result": false, "reason": "硬币并非一次性消耗品，不是用后即弃。"},
-    {"ruleId": 17, "result": true, "reason": "硬币可流通多年。"},
-    {"ruleId": 18, "result": true, "reason": "硬币在室内如商场、家、银行可用。"},
-    {"ruleId": 19, "result": true, "reason": "室外交易中也会用到硬币。"},
-    {"ruleId": 20, "result": true, "reason": "大部分人亲眼见过硬币。"},
-    {"ruleId": 21, "result": false, "reason": "硬币通常不能直接在商店购买，而是获得找零或兑换。"},
-    {"ruleId": 22, "result": true, "reason": "办公室中可能有零钱箱等见到硬币。"},
-    {"ruleId": 23, "result": true, "reason": "学校也会用到或见到硬币。"},
-    {"ruleId": 24, "result": false, "reason": "硬币本身不带来快乐，除非作为收藏。"},
-    {"ruleId": 25, "result": false, "reason": "硬币不会让人感到危险。"},
-    {"ruleId": 26, "result": false, "reason": "硬币用途主是流通货币不是娱乐。"},
-    {"ruleId": 27, "result": true, "reason": "硬币用于正式交易和重要财务任务。"},
-    {"ruleId": 28, "result": false, "reason": "硬币全年都可用，不限特定时间。"},
-    {"ruleId": 29, "result": true, "reason": "硬币全年通用。"},
-    {"ruleId": 30, "result": false, "reason": "使用硬币没有学习门槛。"},
-    {"ruleId": 31, "result": true, "reason": "任何人都能轻易使用硬币。"},
-    {"ruleId": 32, "result": true, "reason": "正式场合也用硬币，例如支付。"},
-    {"ruleId": 33, "result": true, "reason": "休闲、轻松环境都可用硬币。"},
-    {"ruleId": 34, "result": true, "reason": "有人会收藏硬币。"},
-    {"ruleId": 35, "result": false, "reason": "家里一般可以看到硬币。"},
-    {"ruleId": 36, "result": true, "reason": "硬币在金融历史上非常重要。"},
-    {"ruleId": 37, "result": false, "reason": "硬币古今都有，非现代独有。"},
-    {"ruleId": 38, "result": false, "reason": "硬币较少作为礼物赠送。"},
-    {"ruleId": 39, "result": true, "reason": "硬币很少被当作礼物。"},
-    {"ruleId": 40, "result": false, "reason": "硬币不是富人专有，所有收入阶层都有。"},
-    {"ruleId": 41, "result": true, "reason": "各收入阶层的人都使用硬币。"},
-    {"ruleId": 42, "result": true, "reason": "可以携带硬币上飞机。"},
-    {"ruleId": 43, "result": true, "reason": "寻找硬币通常不超过一小时。"},
-    {"ruleId": 44, "result": false, "reason": "硬币无需燃料。"},
-    {"ruleId": 45, "result": false, "reason": "硬币可多次使用，不是一性品。"},
-    {"ruleId": 46, "result": false, "reason": "不限季节使用。"},
-    {"ruleId": 47, "result": true, "reason": "硬币可以反复使用。"},
-    {"ruleId": 48, "result": false, "reason": "使用硬币不需许可。"},
-    {"ruleId": 49, "result": true, "reason": "世界上有大量的硬币。"},
-    {"ruleId": 50, "result": false, "reason": "每国有无数枚硬币，非唯一。"},
-    {"ruleId": 51, "result": false, "reason": "硬币不容易损坏，较为坚固。"},
-    {"ruleId": 52, "result": true, "reason": "硬币小巧容易携带。"},
-    {"ruleId": 53, "result": false, "reason": "硬币不需要电力才能工作。"},
-    {"ruleId": 54, "result": true, "reason": "单一国家发行的硬币尺寸相对固定。"},
-    {"ruleId": 55, "result": false, "reason": "硬币为人造物，不存在自然界。"},
-    {"ruleId": 56, "result": false, "reason": "硬币放水中会变湿，不可保持全干燥。"},
-    {"ruleId": 57, "result": false, "reason": "一般硬币沉水，不会漂浮。"},
-    {"ruleId": 58, "result": true, "reason": "硬币一般由金属制成。"},
-    {"ruleId": 59, "result": false, "reason": "使用硬币不会主动发声。"},
-    {"ruleId": 60, "result": false, "reason": "硬币一般颜色不鲜艳，多为金银铜色。"},
-    {"ruleId": 61, "result": false, "reason": "硬币远小于人。"},
-    {"ruleId": 62, "result": false, "reason": "硬币通常不透明。"},
-    {"ruleId": 63, "result": false, "reason": "硬币为整体，不能拆分成各种组件。"},
-    {"ruleId": 64, "result": false, "reason": "硬币金属质地，摸起来不柔软。"},
-    {"ruleId": 65, "result": false, "reason": "硬币不可折叠压扁。"},
-    {"ruleId": 66, "result": false, "reason": "硬币一般无需保养维护。"},
-    {"ruleId": 67, "result": false, "reason": "硬币边缘不锋利。"},
-    {"ruleId": 68, "result": false, "reason": "硬币不可食用。"},
-    {"ruleId": 69, "result": false, "reason": "硬币没有强烈气味。"},
-    {"ruleId": 70, "result": false, "reason": "一枚硬币远小于100公斤。"},
-    {"ruleId": 71, "result": false, "reason": "硬币无法穿戴。"},
-    {"ruleId": 72, "result": false, "reason": "硬币自身不会产生热量。"},
-    {"ruleId": 73, "result": false, "reason": "金属硬币不易着火。"},
-    {"ruleId": 74, "result": true, "reason": "硬币表面通常有文字。"},
-    {"ruleId": 75, "result": false, "reason": "硬币无需组装。"},
-    {"ruleId": 76, "result": false, "reason": "金属硬币在自然界中难以快速分解。"},
-    {"ruleId": 77, "result": true, "reason": "硬币可堆叠存放。"},
-    {"ruleId": 78, "result": true, "reason": "新硬币有金属光泽，可反光。"},
-    {"ruleId": 79, "result": true, "reason": "铁制硬币能被磁铁吸引。"},
-    {"ruleId": 80, "result": true, "reason": "掉落或撞击时，硬币可发出声音。"},
-    {"ruleId": 81, "result": false, "reason": "硬币一般不吸收水分。"},
-    {"ruleId": 82, "result": false, "reason": "硬币不容易弯曲。"},
-    {"ruleId": 83, "result": false, "reason": "硬币一般下沉水中，不能浮于水面。"},
-    {"ruleId": 84, "result": true, "reason": "随时间硬币会磨损氧化。"},
-    {"ruleId": 85, "result": true, "reason": "大多数硬币为圆形，两侧对称。"},
-    {"ruleId": 86, "result": false, "reason": "损坏或变形的硬币一般不可修复。"},
-    {"ruleId": 87, "result": false, "reason": "硬币不需要燃料。"},
-    {"ruleId": 88, "result": false, "reason": "硬币非活物。"},
-    {"ruleId": 89, "result": true, "reason": "水下可以见到硬币（如游泳池、河里）。"},
-    {"ruleId": 90, "result": false, "reason": "常规硬币不含塑料。"},
-    {"ruleId": 91, "result": false, "reason": "硬币不含木头。"},
-    {"ruleId": 92, "result": true, "reason": "金属硬币可以安全加热（不会燃烧或释放有害气体）。"},
-    {"ruleId": 93, "result": false, "reason": "一般硬币不需特殊储存。"},
-    {"ruleId": 94, "result": false, "reason": "现代硬币为机器批量生产。"},
-    {"ruleId": 95, "result": true, "reason": "硬币容易清洁。"},
-    {"ruleId": 96, "result": false, "reason": "硬币通常单枚非成对出现。"},
-    {"ruleId": 97, "result": true, "reason": "硬币可手握持。"},
-    {"ruleId": 98, "result": false, "reason": "普通硬币颜色少，无明显多色。"},
-    {"ruleId": 99, "result": true, "reason": "硬币金属质地坚硬。"},
-    {"ruleId": 100, "result": true, "reason": "硬币一般为单一金属材质。"},
-    {"ruleId": 101, "result": true, "reason": "“硬币”是两个字。"},
-    {"ruleId": 102, "result": false, "reason": "“硬币”不是三个字。"},
-    {"ruleId": 103, "result": false, "reason": "“硬币”不是四个字。"},
-    {"ruleId": 104, "result": false, "reason": "“硬币”不是五个字。"},
-    {"ruleId": 105, "result": false, "reason": "两字均无“心”部首和心旁。"},
-    {"ruleId": 106, "result": false, "reason": "两字均无“草”部首和草字头。"},
-    {"ruleId": 107, "result": false, "reason": "两字均无“水”部首和三点水。"},
-    {"ruleId": 108, "result": false, "reason": "两字均无“金”部首和金字旁。"},
-    {"ruleId": 109, "result": false, "reason": "两字均无“木”部首和木字旁。"},
-    {"ruleId": 110, "result": false, "reason": "两字均无“火”部首和火字旁。"},
-    {"ruleId": 111, "result": false, "reason": "两字均无“土”部首和土字旁。"},
-    {"ruleId": 112, "result": false, "reason": "两字均无“日”部首和日字旁。"},
-    {"ruleId": 113, "result": false, "reason": "两字均无“走”部首和走字旁。"},
-    {"ruleId": 114, "result": false, "reason": "两字均无“山”部首和山字旁。"},
-    {"ruleId": 115, "result": false, "reason": "两字均无“川”部首和川字旁。"},
-    {"ruleId": 116, "result": false, "reason": "两字均无“雨”部首和雨字头。"},
-    {"ruleId": 117, "result": false, "reason": "两字均无“人”部首和单人旁。"},
-    {"ruleId": 118, "result": false, "reason": "两字均无“手”部首和提手旁。"},
-    {"ruleId": 119, "result": false, "reason": "两字均无“王”部首和王字旁。"},
-    {"ruleId": 120, "result": false, "reason": "两字均无“口”部首和口字旁。"},
-    {"ruleId": 121, "result": false, "reason": "两字均无“目”部首和目字旁。"},
-    {"ruleId": 122, "result": false, "reason": "两字均无“耳”部首和耳字旁。"},
-    {"ruleId": 123, "result": false, "reason": "两字均无“足”部首和足字旁。"},
-    {"ruleId": 124, "result": false, "reason": "两字均无“言”部首和言字旁。"},
-    {"ruleId": 125, "result": false, "reason": "两字均无“食”部首和食字旁。"},
-    {"ruleId": 126, "result": false, "reason": "两字均无“衣”部首和衣字旁。"},
-    {"ruleId": 127, "result": false, "reason": "两字均无“马”部首和马字旁。"},
-    {"ruleId": 128, "result": false, "reason": "两字均无“鱼”部首和鱼字旁。"},
-    {"ruleId": 129, "result": false, "reason": "两字均无“鸟”部首和鸟字旁。"},
-    {"ruleId": 130, "result": false, "reason": "两字均无“车”部首和车字旁。"},
-    {"ruleId": 131, "result": true, "reason": "“硬”为左右结构。"},
-    {"ruleId": 132, "result": true, "reason": "“币”为上下结构。"},
-    {"ruleId": 133, "result": false, "reason": "两字部首不同。"},
-    {"ruleId": 134, "result": true, "reason": "两字部首分别为“石”“巾”，全部不同。"},
-    {"ruleId": 135, "result": true, "reason": "“币”5画，少于7画。"},
-    {"ruleId": 136, "result": true, "reason": "“硬”12画，“币”5画，均少于10画。"},
-    {"ruleId": 137, "result": true, "reason": "“硬”12画，少于15画。"},
-    {"ruleId": 138, "result": false, "reason": "“币”只有5画，不全多于12画。"},
-    {"ruleId": 139, "result": false, "reason": "“硬”12画，“币”5画，未递增。"},
-    {"ruleId": 140, "result": true, "reason": "“硬”12画，“币”5画，笔画递减。"},
-    {"ruleId": 141, "result": true, "reason": "都为第四声。"},
-    {"ruleId": 142, "result": false, "reason": "都是相同（第四声），无不同声调。"},
-    {"ruleId": 143, "result": true, "reason": "没有第一声字。"},
-    {"ruleId": 144, "result": true, "reason": "没有第二声字。"},
-    {"ruleId": 145, "result": true, "reason": "没有第三声字。"},
-    {"ruleId": 146, "result": false, "reason": "都是第四声。"},
-    {"ruleId": 147, "result": false, "reason": "没有第一声字。"},
-    {"ruleId": 148, "result": false, "reason": "没有第二声字。"},
-    {"ruleId": 149, "result": false, "reason": "没有第三声字。"},
-    {"ruleId": 150, "result": true, "reason": "包含第四声。"}
+    {
+      "ruleId": 1,
+      "result": true,
+      "reason": "硬币在中国已经存在超过1000年。"
+    },
+    {
+      "ruleId": 2,
+      "result": false,
+      "reason": "硬币早于1950年出现，非新事物。"
+    },
+    {
+      "ruleId": 3,
+      "result": true,
+      "reason": "大多数家庭都有硬币。"
+    },
+    {
+      "ruleId": 4,
+      "result": true,
+      "reason": "硬币不是稀有物品，大多数人都有。"
+    },
+    {
+      "ruleId": 5,
+      "result": true,
+      "reason": "成人和儿童都用硬币，并非儿童使用更多。"
+    },
+    {
+      "ruleId": 6,
+      "result": true,
+      "reason": "大部分人需要用硬币，对此有兴趣。"
+    },
+    {
+      "ruleId": 7,
+      "result": true,
+      "reason": "每个人都需要货币和零钱。"
+    },
+    {
+      "ruleId": 8,
+      "result": false,
+      "reason": "硬币有助于日常交易和工作。"
+    },
+    {
+      "ruleId": 9,
+      "result": false,
+      "reason": "硬币很常见，不限特殊场合。"
+    },
+    {
+      "ruleId": 10,
+      "result": true,
+      "reason": "硬币在日常生活中经常见到。"
+    },
+    {
+      "ruleId": 11,
+      "result": true,
+      "reason": "硬币经常属于个人财物。"
+    },
+    {
+      "ruleId": 12,
+      "result": false,
+      "reason": "硬币一般为个人物品，非多人共享。"
+    },
+    {
+      "ruleId": 13,
+      "result": false,
+      "reason": "硬币不需电力。"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "很多国家都有硬币，不属特定文化。"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "世界多数国家都有硬币。"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "硬币并非一次性消耗品，不是用后即弃。"
+    },
+    {
+      "ruleId": 17,
+      "result": true,
+      "reason": "硬币可流通多年。"
+    },
+    {
+      "ruleId": 18,
+      "result": true,
+      "reason": "硬币在室内如商场、家、银行可用。"
+    },
+    {
+      "ruleId": 19,
+      "result": true,
+      "reason": "室外交易中也会用到硬币。"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "大部分人亲眼见过硬币。"
+    },
+    {
+      "ruleId": 21,
+      "result": false,
+      "reason": "硬币通常不能直接在商店购买，而是获得找零或兑换。"
+    },
+    {
+      "ruleId": 22,
+      "result": true,
+      "reason": "办公室中可能有零钱箱等见到硬币。"
+    },
+    {
+      "ruleId": 23,
+      "result": true,
+      "reason": "学校也会用到或见到硬币。"
+    },
+    {
+      "ruleId": 24,
+      "result": false,
+      "reason": "硬币本身不带来快乐，除非作为收藏。"
+    },
+    {
+      "ruleId": 25,
+      "result": false,
+      "reason": "硬币不会让人感到危险。"
+    },
+    {
+      "ruleId": 26,
+      "result": false,
+      "reason": "硬币用途主是流通货币不是娱乐。"
+    },
+    {
+      "ruleId": 27,
+      "result": true,
+      "reason": "硬币用于正式交易和重要财务任务。"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "硬币全年都可用，不限特定时间。"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "硬币全年通用。"
+    },
+    {
+      "ruleId": 30,
+      "result": false,
+      "reason": "使用硬币没有学习门槛。"
+    },
+    {
+      "ruleId": 31,
+      "result": true,
+      "reason": "任何人都能轻易使用硬币。"
+    },
+    {
+      "ruleId": 32,
+      "result": true,
+      "reason": "正式场合也用硬币，例如支付。"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "休闲、轻松环境都可用硬币。"
+    },
+    {
+      "ruleId": 34,
+      "result": true,
+      "reason": "有人会收藏硬币。"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "家里一般可以看到硬币。"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "硬币在金融历史上非常重要。"
+    },
+    {
+      "ruleId": 37,
+      "result": false,
+      "reason": "硬币古今都有，非现代独有。"
+    },
+    {
+      "ruleId": 38,
+      "result": false,
+      "reason": "硬币较少作为礼物赠送。"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "硬币很少被当作礼物。"
+    },
+    {
+      "ruleId": 40,
+      "result": false,
+      "reason": "硬币不是富人专有，所有收入阶层都有。"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "各收入阶层的人都使用硬币。"
+    },
+    {
+      "ruleId": 42,
+      "result": true,
+      "reason": "可以携带硬币上飞机。"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "寻找硬币通常不超过一小时。"
+    },
+    {
+      "ruleId": 44,
+      "result": false,
+      "reason": "硬币无需燃料。"
+    },
+    {
+      "ruleId": 45,
+      "result": false,
+      "reason": "硬币可多次使用，不是一性品。"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "不限季节使用。"
+    },
+    {
+      "ruleId": 47,
+      "result": true,
+      "reason": "硬币可以反复使用。"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "使用硬币不需许可。"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "世界上有大量的硬币。"
+    },
+    {
+      "ruleId": 50,
+      "result": false,
+      "reason": "每国有无数枚硬币，非唯一。"
+    },
+    {
+      "ruleId": 51,
+      "result": false,
+      "reason": "硬币不容易损坏，较为坚固。"
+    },
+    {
+      "ruleId": 52,
+      "result": true,
+      "reason": "硬币小巧容易携带。"
+    },
+    {
+      "ruleId": 53,
+      "result": false,
+      "reason": "硬币不需要电力才能工作。"
+    },
+    {
+      "ruleId": 54,
+      "result": true,
+      "reason": "单一国家发行的硬币尺寸相对固定。"
+    },
+    {
+      "ruleId": 55,
+      "result": false,
+      "reason": "硬币为人造物，不存在自然界。"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "硬币放水中会变湿，不可保持全干燥。"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "一般硬币沉水，不会漂浮。"
+    },
+    {
+      "ruleId": 58,
+      "result": true,
+      "reason": "硬币一般由金属制成。"
+    },
+    {
+      "ruleId": 59,
+      "result": false,
+      "reason": "使用硬币不会主动发声。"
+    },
+    {
+      "ruleId": 60,
+      "result": false,
+      "reason": "硬币一般颜色不鲜艳，多为金银铜色。"
+    },
+    {
+      "ruleId": 61,
+      "result": false,
+      "reason": "硬币远小于人。"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "硬币通常不透明。"
+    },
+    {
+      "ruleId": 63,
+      "result": false,
+      "reason": "硬币为整体，不能拆分成各种组件。"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "硬币金属质地，摸起来不柔软。"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "硬币不可折叠压扁。"
+    },
+    {
+      "ruleId": 66,
+      "result": false,
+      "reason": "硬币一般无需保养维护。"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "硬币边缘不锋利。"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "硬币不可食用。"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "硬币没有强烈气味。"
+    },
+    {
+      "ruleId": 70,
+      "result": false,
+      "reason": "一枚硬币远小于100公斤。"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "硬币无法穿戴。"
+    },
+    {
+      "ruleId": 72,
+      "result": false,
+      "reason": "硬币自身不会产生热量。"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "金属硬币不易着火。"
+    },
+    {
+      "ruleId": 74,
+      "result": true,
+      "reason": "硬币表面通常有文字。"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "硬币无需组装。"
+    },
+    {
+      "ruleId": 76,
+      "result": false,
+      "reason": "金属硬币在自然界中难以快速分解。"
+    },
+    {
+      "ruleId": 77,
+      "result": true,
+      "reason": "硬币可堆叠存放。"
+    },
+    {
+      "ruleId": 78,
+      "result": true,
+      "reason": "新硬币有金属光泽，可反光。"
+    },
+    {
+      "ruleId": 79,
+      "result": true,
+      "reason": "铁制硬币能被磁铁吸引。"
+    },
+    {
+      "ruleId": 80,
+      "result": true,
+      "reason": "掉落或撞击时，硬币可发出声音。"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "硬币一般不吸收水分。"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "硬币不容易弯曲。"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "硬币一般下沉水中，不能浮于水面。"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "随时间硬币会磨损氧化。"
+    },
+    {
+      "ruleId": 85,
+      "result": true,
+      "reason": "大多数硬币为圆形，两侧对称。"
+    },
+    {
+      "ruleId": 86,
+      "result": false,
+      "reason": "损坏或变形的硬币一般不可修复。"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "硬币不需要燃料。"
+    },
+    {
+      "ruleId": 88,
+      "result": false,
+      "reason": "硬币非活物。"
+    },
+    {
+      "ruleId": 89,
+      "result": true,
+      "reason": "水下可以见到硬币（如游泳池、河里）。"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "常规硬币不含塑料。"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "硬币不含木头。"
+    },
+    {
+      "ruleId": 92,
+      "result": true,
+      "reason": "金属硬币可以安全加热（不会燃烧或释放有害气体）。"
+    },
+    {
+      "ruleId": 93,
+      "result": false,
+      "reason": "一般硬币不需特殊储存。"
+    },
+    {
+      "ruleId": 94,
+      "result": false,
+      "reason": "现代硬币为机器批量生产。"
+    },
+    {
+      "ruleId": 95,
+      "result": true,
+      "reason": "硬币容易清洁。"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "硬币通常单枚非成对出现。"
+    },
+    {
+      "ruleId": 97,
+      "result": true,
+      "reason": "硬币可手握持。"
+    },
+    {
+      "ruleId": 98,
+      "result": false,
+      "reason": "普通硬币颜色少，无明显多色。"
+    },
+    {
+      "ruleId": 99,
+      "result": true,
+      "reason": "硬币金属质地坚硬。"
+    },
+    {
+      "ruleId": 100,
+      "result": true,
+      "reason": "硬币一般为单一金属材质。"
+    },
+    {
+      "ruleId": 101,
+      "result": true,
+      "reason": "“硬币”是两个字。"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "“硬币”不是三个字。"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "“硬币”不是四个字。"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "“硬币”不是五个字。"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "两字均无“心”部首和心旁。"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "两字均无“草”部首和草字头。"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "两字均无“水”部首和三点水。"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "两字均无“金”部首和金字旁。"
+    },
+    {
+      "ruleId": 109,
+      "result": false,
+      "reason": "两字均无“木”部首和木字旁。"
+    },
+    {
+      "ruleId": 110,
+      "result": false,
+      "reason": "两字均无“火”部首和火字旁。"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "两字均无“土”部首和土字旁。"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "两字均无“日”部首和日字旁。"
+    },
+    {
+      "ruleId": 113,
+      "result": false,
+      "reason": "两字均无“走”部首和走字旁。"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "两字均无“山”部首和山字旁。"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "两字均无“川”部首和川字旁。"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "两字均无“雨”部首和雨字头。"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "两字均无“人”部首和单人旁。"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "两字均无“手”部首和提手旁。"
+    },
+    {
+      "ruleId": 119,
+      "result": false,
+      "reason": "两字均无“王”部首和王字旁。"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "两字均无“口”部首和口字旁。"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "两字均无“目”部首和目字旁。"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "两字均无“耳”部首和耳字旁。"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "两字均无“足”部首和足字旁。"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "两字均无“言”部首和言字旁。"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "两字均无“食”部首和食字旁。"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "两字均无“衣”部首和衣字旁。"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "两字均无“马”部首和马字旁。"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "两字均无“鱼”部首和鱼字旁。"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "两字均无“鸟”部首和鸟字旁。"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "两字均无“车”部首和车字旁。"
+    },
+    {
+      "ruleId": 131,
+      "result": true,
+      "reason": "“硬”为左右结构。"
+    },
+    {
+      "ruleId": 132,
+      "result": true,
+      "reason": "“币”为上下结构。"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "两字部首不同。"
+    },
+    {
+      "ruleId": 134,
+      "result": true,
+      "reason": "两字部首分别为“石”“巾”，全部不同。"
+    },
+    {
+      "ruleId": 135,
+      "result": true,
+      "reason": "“币”5画，少于7画。"
+    },
+    {
+      "ruleId": 136,
+      "result": true,
+      "reason": "“硬”12画，“币”5画，均少于10画。"
+    },
+    {
+      "ruleId": 137,
+      "result": true,
+      "reason": "“硬”12画，少于15画。"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "“币”只有5画，不全多于12画。"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "“硬”12画，“币”5画，未递增。"
+    },
+    {
+      "ruleId": 140,
+      "result": true,
+      "reason": "“硬”12画，“币”5画，笔画递减。"
+    },
+    {
+      "ruleId": 141,
+      "result": true,
+      "reason": "都为第四声。"
+    },
+    {
+      "ruleId": 142,
+      "result": false,
+      "reason": "都是相同（第四声），无不同声调。"
+    },
+    {
+      "ruleId": 143,
+      "result": true,
+      "reason": "没有第一声字。"
+    },
+    {
+      "ruleId": 144,
+      "result": true,
+      "reason": "没有第二声字。"
+    },
+    {
+      "ruleId": 145,
+      "result": true,
+      "reason": "没有第三声字。"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "都是第四声。"
+    },
+    {
+      "ruleId": 147,
+      "result": false,
+      "reason": "没有第一声字。"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "没有第二声字。"
+    },
+    {
+      "ruleId": 149,
+      "result": false,
+      "reason": "没有第三声字。"
+    },
+    {
+      "ruleId": 150,
+      "result": true,
+      "reason": "包含第四声。"
+    }
   ]
 }

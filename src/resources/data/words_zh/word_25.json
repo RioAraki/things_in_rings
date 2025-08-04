@@ -3,155 +3,755 @@
   "word": "塑料瓶",
   "word_en": "Plastic Bottle",
   "questions": [
-    {"ruleId": 1, "result": false, "reason": "塑料瓶作为容器出现不到100年"},
-    {"ruleId": 2, "result": true, "reason": "塑料瓶是1950年后出现的新事物"},
-    {"ruleId": 3, "result": true, "reason": "绝大部分家庭都有塑料瓶"},
-    {"ruleId": 4, "result": false, "reason": "塑料瓶非常常见，不稀有"},
-    {"ruleId": 5, "result": false, "reason": "成人和儿童都用，并非儿童更多"},
-    {"ruleId": 6, "result": false, "reason": "很多人日常会用到塑料瓶"},
-    {"ruleId": 7, "result": false, "reason": "不是每个人都需要塑料瓶"},
-    {"ruleId": 8, "result": true, "reason": "用于装水等可辅助完成工作"},
-    {"ruleId": 9, "result": false, "reason": "日常场合都能见到塑料瓶"},
-    {"ruleId": 10, "result": true, "reason": "塑料瓶在日常生活中常见"},
-    {"ruleId": 11, "result": true, "reason": "通常为个人所有使用"},
-    {"ruleId": 12, "result": true, "reason": "也可以多人共享如饮料瓶"},
-    {"ruleId": 13, "result": false, "reason": "使用塑料瓶无需电力"},
-    {"ruleId": 14, "result": false, "reason": "非特定国家或文化专属"},
-    {"ruleId": 15, "result": true, "reason": "全球各地都能见到塑料瓶"},
-    {"ruleId": 16, "result": true, "reason": "多数塑料瓶用后即丢弃"},
-    {"ruleId": 17, "result": false, "reason": "塑料瓶多为一次性使用"},
-    {"ruleId": 18, "result": true, "reason": "室内广泛使用"},
-    {"ruleId": 19, "result": true, "reason": "室外也常见"},
-    {"ruleId": 20, "result": true, "reason": "大部分人都见过塑料瓶"},
-    {"ruleId": 21, "result": true, "reason": "商店里可轻易买到"},
-    {"ruleId": 22, "result": true, "reason": "办公室中饮用水常用"},
-    {"ruleId": 23, "result": true, "reason": "学校中饮水常用"},
-    {"ruleId": 24, "result": false, "reason": "塑料瓶本身不特别让人感到快乐"},
-    {"ruleId": 25, "result": false, "reason": "塑料瓶不会让人感到危险"},
-    {"ruleId": 26, "result": false, "reason": "塑料瓶本身不是娱乐用途"},
-    {"ruleId": 27, "result": true, "reason": "可装水、资料等用于工作"},
-    {"ruleId": 28, "result": false, "reason": "全年都可使用"},
-    {"ruleId": 29, "result": true, "reason": "塑料瓶不分季节通用"},
-    {"ruleId": 30, "result": false, "reason": "使用门槛极低"},
-    {"ruleId": 31, "result": true, "reason": "任何人都可以轻松使用"},
-    {"ruleId": 32, "result": false, "reason": "正式场合使用不常见"},
-    {"ruleId": 33, "result": true, "reason": "常在休闲环境下如旅游饮水"},
-    {"ruleId": 34, "result": false, "reason": "很少有人收藏塑料瓶"},
-    {"ruleId": 35, "result": false, "reason": "家中经常可见塑料瓶"},
-    {"ruleId": 36, "result": false, "reason": "塑料瓶无历史重要性"},
-    {"ruleId": 37, "result": true, "reason": "主要是现代产物"},
-    {"ruleId": 38, "result": false, "reason": "很少作为礼物"},
-    {"ruleId": 39, "result": true, "reason": "赠送塑料瓶极为少见"},
-    {"ruleId": 40, "result": false, "reason": "不专属于有钱人才有"},
-    {"ruleId": 41, "result": true, "reason": "各个收入阶层都会用到"},
-    {"ruleId": 42, "result": true, "reason": "可以带上飞机（视是否带液体而定，不含液体通用）"},
-    {"ruleId": 43, "result": true, "reason": "一小时内很容易找到塑料瓶"},
-    {"ruleId": 44, "result": false, "reason": "使用不需要燃料"},
-    {"ruleId": 45, "result": true, "reason": "多数塑料瓶一次性使用"},
-    {"ruleId": 46, "result": false, "reason": "非特定季节所用"},
-    {"ruleId": 47, "result": false, "reason": "虽可多次用但设计为一次性"},
-    {"ruleId": 48, "result": false, "reason": "无需许可即可用"},
-    {"ruleId": 49, "result": true, "reason": "世上塑料瓶数量巨大"},
-    {"ruleId": 50, "result": false, "reason": "不是独一无二"},
-    {"ruleId": 51, "result": true, "reason": "塑料瓶易损坏变形"},
-    {"ruleId": 52, "result": true, "reason": "塑料瓶很容易携带"},
-    {"ruleId": 53, "result": false, "reason": "重复，见上（无需电力工作）"},
-    {"ruleId": 54, "result": true, "reason": "瓶子尺寸大多标准"},
-    {"ruleId": 55, "result": false, "reason": "塑料瓶为人工制品，不存在于自然界"},
-    {"ruleId": 56, "result": false, "reason": "水中难保持干燥，容易进水"},
-    {"ruleId": 57, "result": true, "reason": "空瓶可浮于水面"},
-    {"ruleId": 58, "result": false, "reason": "多用塑料非金属制成"},
-    {"ruleId": 59, "result": false, "reason": "通常不会主动发声"},
-    {"ruleId": 60, "result": true, "reason": "常有鲜艳色彩包装"},
-    {"ruleId": 61, "result": false, "reason": "塑料瓶远小于人类体型"},
-    {"ruleId": 62, "result": true, "reason": "部分塑料瓶为透明"},
-    {"ruleId": 63, "result": false, "reason": "塑料瓶结构简单难拆分"},
-    {"ruleId": 64, "result": false, "reason": "一般较硬不柔软"},
-    {"ruleId": 65, "result": true, "reason": "容易压扁折叠"},
-    {"ruleId": 66, "result": false, "reason": "用后即弃很少维护"},
-    {"ruleId": 67, "result": false, "reason": "表面无锋利边缘"},
-    {"ruleId": 68, "result": false, "reason": "不可食用"},
-    {"ruleId": 69, "result": false, "reason": "没有强烈气味"},
-    {"ruleId": 70, "result": false, "reason": "重量远低于100公斤"},
-    {"ruleId": 71, "result": false, "reason": "不能穿戴"},
-    {"ruleId": 72, "result": false, "reason": "不会产生热量"},
-    {"ruleId": 73, "result": false, "reason": "不易燃烧"},
-    {"ruleId": 74, "result": true, "reason": "常印有商品、品牌文字"},
-    {"ruleId": 75, "result": false, "reason": "一体成型无需组装"},
-    {"ruleId": 76, "result": false, "reason": "多数塑料瓶难以自然分解"},
-    {"ruleId": 77, "result": true, "reason": "空瓶可堆叠"},
-    {"ruleId": 78, "result": true, "reason": "部分瓶身有光泽"},
-    {"ruleId": 79, "result": false, "reason": "塑料对磁铁无反应"},
-    {"ruleId": 80, "result": false, "reason": "自身不发声，用时才可能出现声音"},
-    {"ruleId": 81, "result": false, "reason": "瓶身不易吸水"},
-    {"ruleId": 82, "result": true, "reason": "易弯曲变形"},
-    {"ruleId": 83, "result": true, "reason": "空瓶可浮水面"},
-    {"ruleId": 84, "result": true, "reason": "塑料瓶会老化变脆"},
-    {"ruleId": 85, "result": true, "reason": "瓶身左右对称"},
-    {"ruleId": 86, "result": false, "reason": "损坏后一般不修复"},
-    {"ruleId": 87, "result": false, "reason": "无需燃料"},
-    {"ruleId": 88, "result": false, "reason": "塑料瓶不是活物"},
-    {"ruleId": 89, "result": true, "reason": "水下常见（漂流垃圾等）"},
-    {"ruleId": 90, "result": true, "reason": "主要材质为塑料"},
-    {"ruleId": 91, "result": false, "reason": "不含木头"},
-    {"ruleId": 92, "result": true, "reason": "可短时间加热不融化"},
-    {"ruleId": 93, "result": false, "reason": "正常存储即可"},
-    {"ruleId": 94, "result": false, "reason": "工厂机器制作为主"},
-    {"ruleId": 95, "result": true, "reason": "清洗容易"},
-    {"ruleId": 96, "result": false, "reason": "通常单独出现"},
-    {"ruleId": 97, "result": true, "reason": "能用手轻松拿"},
-    {"ruleId": 98, "result": true, "reason": "有多种颜色"},
-    {"ruleId": 99, "result": false, "reason": "一般不是很坚硬"},
-    {"ruleId": 100, "result": true, "reason": "材质通常单一为塑料"},
-    {"ruleId": 101, "result": false, "reason": "“塑料瓶”为三个字"},
-    {"ruleId": 102, "result": true, "reason": "正好三个字"},
-    {"ruleId": 103, "result": false, "reason": "不是四字"},
-    {"ruleId": 104, "result": false, "reason": "不是五字"},
-    {"ruleId": 105, "result": false, "reason": "无“心”或其偏旁"},
-    {"ruleId": 106, "result": false, "reason": "无“草”或艹字头等"},
-    {"ruleId": 107, "result": false, "reason": "无“水”或氵部"},
-    {"ruleId": 108, "result": false, "reason": "无“金”或其偏旁"},
-    {"ruleId": 109, "result": false, "reason": "无“木”或其偏旁"},
-    {"ruleId": 110, "result": false, "reason": "无“火”或其偏旁"},
-    {"ruleId": 111, "result": true, "reason": "“塑”为“土”部"},
-    {"ruleId": 112, "result": false, "reason": "无“日”字或偏旁"},
-    {"ruleId": 113, "result": false, "reason": "无“走”字或相关偏旁"},
-    {"ruleId": 114, "result": false, "reason": "无“山”部"},
-    {"ruleId": 115, "result": false, "reason": "无“川”部"},
-    {"ruleId": 116, "result": false, "reason": "无“雨”部"},
-    {"ruleId": 117, "result": false, "reason": "无“人”或其偏旁"},
-    {"ruleId": 118, "result": false, "reason": "无“手”部"},
-    {"ruleId": 119, "result": false, "reason": "无“王”部"},
-    {"ruleId": 120, "result": false, "reason": "无“口”部"},
-    {"ruleId": 121, "result": false, "reason": "无“目”部"},
-    {"ruleId": 122, "result": false, "reason": "无“耳”部"},
-    {"ruleId": 123, "result": false, "reason": "无“足”部"},
-    {"ruleId": 124, "result": false, "reason": "无“言”部"},
-    {"ruleId": 125, "result": false, "reason": "无“食”部"},
-    {"ruleId": 126, "result": false, "reason": "无“衣”部"},
-    {"ruleId": 127, "result": false, "reason": "无“马”部"},
-    {"ruleId": 128, "result": false, "reason": "无“鱼”部"},
-    {"ruleId": 129, "result": false, "reason": "无“鸟”部"},
-    {"ruleId": 130, "result": false, "reason": "无“车”部"},
-    {"ruleId": 131, "result": true, "reason": "“料”为左右结构字"},
-    {"ruleId": 132, "result": true, "reason": "“瓶”为上下结构字"},
-    {"ruleId": 133, "result": false, "reason": "偏旁不全同"},
-    {"ruleId": 134, "result": true, "reason": "“土”“斗”“瓦”皆不同"},
-    {"ruleId": 135, "result": false, "reason": "最少为10画（料）"},
-    {"ruleId": 136, "result": false, "reason": "“塑”为13画多于10画"},
-    {"ruleId": 137, "result": true, "reason": "无字超过15画"},
-    {"ruleId": 138, "result": false, "reason": "有字不到12画"},
-    {"ruleId": 139, "result": false, "reason": "笔画：13,10,11，无递增/递减"},
-    {"ruleId": 140, "result": false, "reason": "笔画无递减趋势"},
-    {"ruleId": 141, "result": false, "reason": "有四声和二声，不全同"},
-    {"ruleId": 142, "result": false, "reason": "“塑”、“料”同声调"},
-    {"ruleId": 143, "result": true, "reason": "都无第一声"},
-    {"ruleId": 144, "result": false, "reason": "“瓶”是第二声"},
-    {"ruleId": 145, "result": true, "reason": "都无第三声"},
-    {"ruleId": 146, "result": false, "reason": "“塑”“料”为第四声"},
-    {"ruleId": 147, "result": false, "reason": "不含第一声"},
-    {"ruleId": 148, "result": true, "reason": "“瓶”为第二声"},
-    {"ruleId": 149, "result": false, "reason": "不含第三声"},
-    {"ruleId": 150, "result": true, "reason": "“塑”“料”为第四声"}
+    {
+      "ruleId": 1,
+      "result": false,
+      "reason": "塑料瓶作为容器出现不到100年"
+    },
+    {
+      "ruleId": 2,
+      "result": true,
+      "reason": "塑料瓶是1950年后出现的新事物"
+    },
+    {
+      "ruleId": 3,
+      "result": true,
+      "reason": "绝大部分家庭都有塑料瓶"
+    },
+    {
+      "ruleId": 4,
+      "result": true,
+      "reason": "塑料瓶非常常见，不稀有"
+    },
+    {
+      "ruleId": 5,
+      "result": true,
+      "reason": "成人和儿童都用，并非儿童更多"
+    },
+    {
+      "ruleId": 6,
+      "result": true,
+      "reason": "很多人日常会用到塑料瓶"
+    },
+    {
+      "ruleId": 7,
+      "result": true,
+      "reason": "不是每个人都需要塑料瓶"
+    },
+    {
+      "ruleId": 8,
+      "result": false,
+      "reason": "用于装水等可辅助完成工作"
+    },
+    {
+      "ruleId": 9,
+      "result": false,
+      "reason": "日常场合都能见到塑料瓶"
+    },
+    {
+      "ruleId": 10,
+      "result": true,
+      "reason": "塑料瓶在日常生活中常见"
+    },
+    {
+      "ruleId": 11,
+      "result": true,
+      "reason": "通常为个人所有使用"
+    },
+    {
+      "ruleId": 12,
+      "result": true,
+      "reason": "也可以多人共享如饮料瓶"
+    },
+    {
+      "ruleId": 13,
+      "result": false,
+      "reason": "使用塑料瓶无需电力"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "非特定国家或文化专属"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "全球各地都能见到塑料瓶"
+    },
+    {
+      "ruleId": 16,
+      "result": true,
+      "reason": "多数塑料瓶用后即丢弃"
+    },
+    {
+      "ruleId": 17,
+      "result": false,
+      "reason": "塑料瓶多为一次性使用"
+    },
+    {
+      "ruleId": 18,
+      "result": true,
+      "reason": "室内广泛使用"
+    },
+    {
+      "ruleId": 19,
+      "result": true,
+      "reason": "室外也常见"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "大部分人都见过塑料瓶"
+    },
+    {
+      "ruleId": 21,
+      "result": true,
+      "reason": "商店里可轻易买到"
+    },
+    {
+      "ruleId": 22,
+      "result": true,
+      "reason": "办公室中饮用水常用"
+    },
+    {
+      "ruleId": 23,
+      "result": true,
+      "reason": "学校中饮水常用"
+    },
+    {
+      "ruleId": 24,
+      "result": false,
+      "reason": "塑料瓶本身不特别让人感到快乐"
+    },
+    {
+      "ruleId": 25,
+      "result": false,
+      "reason": "塑料瓶不会让人感到危险"
+    },
+    {
+      "ruleId": 26,
+      "result": false,
+      "reason": "塑料瓶本身不是娱乐用途"
+    },
+    {
+      "ruleId": 27,
+      "result": true,
+      "reason": "可装水、资料等用于工作"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "全年都可使用"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "塑料瓶不分季节通用"
+    },
+    {
+      "ruleId": 30,
+      "result": false,
+      "reason": "使用门槛极低"
+    },
+    {
+      "ruleId": 31,
+      "result": true,
+      "reason": "任何人都可以轻松使用"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "正式场合使用不常见"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "常在休闲环境下如旅游饮水"
+    },
+    {
+      "ruleId": 34,
+      "result": false,
+      "reason": "很少有人收藏塑料瓶"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "家中经常可见塑料瓶"
+    },
+    {
+      "ruleId": 36,
+      "result": false,
+      "reason": "塑料瓶无历史重要性"
+    },
+    {
+      "ruleId": 37,
+      "result": true,
+      "reason": "主要是现代产物"
+    },
+    {
+      "ruleId": 38,
+      "result": false,
+      "reason": "很少作为礼物"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "赠送塑料瓶极为少见"
+    },
+    {
+      "ruleId": 40,
+      "result": false,
+      "reason": "不专属于有钱人才有"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "各个收入阶层都会用到"
+    },
+    {
+      "ruleId": 42,
+      "result": true,
+      "reason": "可以带上飞机（视是否带液体而定，不含液体通用）"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "一小时内很容易找到塑料瓶"
+    },
+    {
+      "ruleId": 44,
+      "result": false,
+      "reason": "使用不需要燃料"
+    },
+    {
+      "ruleId": 45,
+      "result": true,
+      "reason": "多数塑料瓶一次性使用"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "非特定季节所用"
+    },
+    {
+      "ruleId": 47,
+      "result": false,
+      "reason": "虽可多次用但设计为一次性"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "无需许可即可用"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "世上塑料瓶数量巨大"
+    },
+    {
+      "ruleId": 50,
+      "result": false,
+      "reason": "不是独一无二"
+    },
+    {
+      "ruleId": 51,
+      "result": true,
+      "reason": "塑料瓶易损坏变形"
+    },
+    {
+      "ruleId": 52,
+      "result": true,
+      "reason": "塑料瓶很容易携带"
+    },
+    {
+      "ruleId": 53,
+      "result": false,
+      "reason": "重复，见上（无需电力工作）"
+    },
+    {
+      "ruleId": 54,
+      "result": true,
+      "reason": "瓶子尺寸大多标准"
+    },
+    {
+      "ruleId": 55,
+      "result": false,
+      "reason": "塑料瓶为人工制品，不存在于自然界"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "水中难保持干燥，容易进水"
+    },
+    {
+      "ruleId": 57,
+      "result": true,
+      "reason": "空瓶可浮于水面"
+    },
+    {
+      "ruleId": 58,
+      "result": false,
+      "reason": "多用塑料非金属制成"
+    },
+    {
+      "ruleId": 59,
+      "result": false,
+      "reason": "通常不会主动发声"
+    },
+    {
+      "ruleId": 60,
+      "result": true,
+      "reason": "常有鲜艳色彩包装"
+    },
+    {
+      "ruleId": 61,
+      "result": false,
+      "reason": "塑料瓶远小于人类体型"
+    },
+    {
+      "ruleId": 62,
+      "result": true,
+      "reason": "部分塑料瓶为透明"
+    },
+    {
+      "ruleId": 63,
+      "result": false,
+      "reason": "塑料瓶结构简单难拆分"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "一般较硬不柔软"
+    },
+    {
+      "ruleId": 65,
+      "result": true,
+      "reason": "容易压扁折叠"
+    },
+    {
+      "ruleId": 66,
+      "result": false,
+      "reason": "用后即弃很少维护"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "表面无锋利边缘"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "不可食用"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "没有强烈气味"
+    },
+    {
+      "ruleId": 70,
+      "result": false,
+      "reason": "重量远低于100公斤"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "不能穿戴"
+    },
+    {
+      "ruleId": 72,
+      "result": false,
+      "reason": "不会产生热量"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "不易燃烧"
+    },
+    {
+      "ruleId": 74,
+      "result": true,
+      "reason": "常印有商品、品牌文字"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "一体成型无需组装"
+    },
+    {
+      "ruleId": 76,
+      "result": false,
+      "reason": "多数塑料瓶难以自然分解"
+    },
+    {
+      "ruleId": 77,
+      "result": true,
+      "reason": "空瓶可堆叠"
+    },
+    {
+      "ruleId": 78,
+      "result": true,
+      "reason": "部分瓶身有光泽"
+    },
+    {
+      "ruleId": 79,
+      "result": false,
+      "reason": "塑料对磁铁无反应"
+    },
+    {
+      "ruleId": 80,
+      "result": false,
+      "reason": "自身不发声，用时才可能出现声音"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "瓶身不易吸水"
+    },
+    {
+      "ruleId": 82,
+      "result": true,
+      "reason": "易弯曲变形"
+    },
+    {
+      "ruleId": 83,
+      "result": true,
+      "reason": "空瓶可浮水面"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "塑料瓶会老化变脆"
+    },
+    {
+      "ruleId": 85,
+      "result": true,
+      "reason": "瓶身左右对称"
+    },
+    {
+      "ruleId": 86,
+      "result": false,
+      "reason": "损坏后一般不修复"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "无需燃料"
+    },
+    {
+      "ruleId": 88,
+      "result": false,
+      "reason": "塑料瓶不是活物"
+    },
+    {
+      "ruleId": 89,
+      "result": true,
+      "reason": "水下常见（漂流垃圾等）"
+    },
+    {
+      "ruleId": 90,
+      "result": true,
+      "reason": "主要材质为塑料"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "不含木头"
+    },
+    {
+      "ruleId": 92,
+      "result": true,
+      "reason": "可短时间加热不融化"
+    },
+    {
+      "ruleId": 93,
+      "result": false,
+      "reason": "正常存储即可"
+    },
+    {
+      "ruleId": 94,
+      "result": false,
+      "reason": "工厂机器制作为主"
+    },
+    {
+      "ruleId": 95,
+      "result": true,
+      "reason": "清洗容易"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "通常单独出现"
+    },
+    {
+      "ruleId": 97,
+      "result": true,
+      "reason": "能用手轻松拿"
+    },
+    {
+      "ruleId": 98,
+      "result": true,
+      "reason": "有多种颜色"
+    },
+    {
+      "ruleId": 99,
+      "result": false,
+      "reason": "一般不是很坚硬"
+    },
+    {
+      "ruleId": 100,
+      "result": true,
+      "reason": "材质通常单一为塑料"
+    },
+    {
+      "ruleId": 101,
+      "result": false,
+      "reason": "“塑料瓶”为三个字"
+    },
+    {
+      "ruleId": 102,
+      "result": true,
+      "reason": "正好三个字"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "不是四字"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "不是五字"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "无“心”或其偏旁"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "无“草”或艹字头等"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "无“水”或氵部"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "无“金”或其偏旁"
+    },
+    {
+      "ruleId": 109,
+      "result": false,
+      "reason": "无“木”或其偏旁"
+    },
+    {
+      "ruleId": 110,
+      "result": false,
+      "reason": "无“火”或其偏旁"
+    },
+    {
+      "ruleId": 111,
+      "result": true,
+      "reason": "“塑”为“土”部"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "无“日”字或偏旁"
+    },
+    {
+      "ruleId": 113,
+      "result": false,
+      "reason": "无“走”字或相关偏旁"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "无“山”部"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "无“川”部"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "无“雨”部"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "无“人”或其偏旁"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "无“手”部"
+    },
+    {
+      "ruleId": 119,
+      "result": false,
+      "reason": "无“王”部"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "无“口”部"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "无“目”部"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "无“耳”部"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "无“足”部"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "无“言”部"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "无“食”部"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "无“衣”部"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "无“马”部"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "无“鱼”部"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "无“鸟”部"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "无“车”部"
+    },
+    {
+      "ruleId": 131,
+      "result": true,
+      "reason": "“料”为左右结构字"
+    },
+    {
+      "ruleId": 132,
+      "result": true,
+      "reason": "“瓶”为上下结构字"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "偏旁不全同"
+    },
+    {
+      "ruleId": 134,
+      "result": true,
+      "reason": "“土”“斗”“瓦”皆不同"
+    },
+    {
+      "ruleId": 135,
+      "result": false,
+      "reason": "最少为10画（料）"
+    },
+    {
+      "ruleId": 136,
+      "result": false,
+      "reason": "“塑”为13画多于10画"
+    },
+    {
+      "ruleId": 137,
+      "result": true,
+      "reason": "无字超过15画"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "有字不到12画"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "笔画：13,10,11，无递增/递减"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "笔画无递减趋势"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "有四声和二声，不全同"
+    },
+    {
+      "ruleId": 142,
+      "result": false,
+      "reason": "“塑”、“料”同声调"
+    },
+    {
+      "ruleId": 143,
+      "result": true,
+      "reason": "都无第一声"
+    },
+    {
+      "ruleId": 144,
+      "result": false,
+      "reason": "“瓶”是第二声"
+    },
+    {
+      "ruleId": 145,
+      "result": true,
+      "reason": "都无第三声"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "“塑”“料”为第四声"
+    },
+    {
+      "ruleId": 147,
+      "result": false,
+      "reason": "不含第一声"
+    },
+    {
+      "ruleId": 148,
+      "result": true,
+      "reason": "“瓶”为第二声"
+    },
+    {
+      "ruleId": 149,
+      "result": false,
+      "reason": "不含第三声"
+    },
+    {
+      "ruleId": 150,
+      "result": true,
+      "reason": "“塑”“料”为第四声"
+    }
   ]
 }

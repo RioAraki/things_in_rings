@@ -20,7 +20,7 @@
     },
     {
       "ruleId": 4,
-      "result": true,
+      "result": false,
       "reason": "并不是稀有物品,多数人能见到"
     },
     {
@@ -30,7 +30,7 @@
     },
     {
       "ruleId": 6,
-      "result": true,
+      "result": false,
       "reason": "大部分人对仙人掌没兴趣"
     },
     {
@@ -45,12 +45,12 @@
     },
     {
       "ruleId": 9,
-      "result": false,
+      "result": true,
       "reason": "日常生活也能见到仙人掌"
     },
     {
       "ruleId": 10,
-      "result": true,
+      "result": false,
       "reason": "街头市售等日常能见到仙人掌"
     },
     {

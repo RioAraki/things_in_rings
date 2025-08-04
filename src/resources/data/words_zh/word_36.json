@@ -3,155 +3,755 @@
   "word": "十字架",
   "word_en": "Cross",
   "questions": [
-    {"ruleId": 1, "result": true, "reason": "十字架起源于公元前，已有数千年历史。"},
-    {"ruleId": 2, "result": false, "reason": "并非1950年后出现的新事物。"},
-    {"ruleId": 3, "result": false, "reason": "十字架大部分家庭里没有。"},
-    {"ruleId": 4, "result": false, "reason": "不是非常稀有的物品。"},
-    {"ruleId": 5, "result": false, "reason": "儿童使用较少。"},
-    {"ruleId": 6, "result": true, "reason": "多数人对宗教符号没有兴趣。"},
-    {"ruleId": 7, "result": false, "reason": "并不是每个人都需要十字架。"},
-    {"ruleId": 8, "result": false, "reason": "不是用于完成工作的工具。"},
-    {"ruleId": 9, "result": true, "reason": "多见于教堂等特殊场合。"},
-    {"ruleId": 10, "result": false, "reason": "日常生活中不常见十字架。"},
-    {"ruleId": 11, "result": true, "reason": "可以作为个人饰品或信仰物。"},
-    {"ruleId": 12, "result": true, "reason": "也可能被教众多人共享。"},
-    {"ruleId": 13, "result": false, "reason": "不需要电力工作。"},
-    {"ruleId": 14, "result": true, "reason": "起源于西方宗教文化。"},
-    {"ruleId": 15, "result": true, "reason": "许多国家都能见到。"},
-    {"ruleId": 16, "result": false, "reason": "通常不会使用后丢弃。"},
-    {"ruleId": 17, "result": true, "reason": "可以保存多年。"},
-    {"ruleId": 18, "result": true, "reason": "多在建筑、饰品、室内展示。"},
-    {"ruleId": 19, "result": true, "reason": "亦可用于室外场所。"},
-    {"ruleId": 20, "result": true, "reason": "大部分人都亲眼见过。"},
-    {"ruleId": 21, "result": true, "reason": "部分商店可买到饰品类十字架。"},
-    {"ruleId": 22, "result": false, "reason": "办公室较少见。"},
-    {"ruleId": 23, "result": false, "reason": "学校一般不常见。"},
-    {"ruleId": 24, "result": false, "reason": "多数人不会因十字架觉得快乐。"},
-    {"ruleId": 25, "result": false, "reason": "一般不会让人感到危险。"},
-    {"ruleId": 26, "result": false, "reason": "不是娱乐或游戏物品。"},
-    {"ruleId": 27, "result": false, "reason": "不是工作工具。"},
-    {"ruleId": 28, "result": false, "reason": "并非特定时间使用。"},
-    {"ruleId": 29, "result": true, "reason": "全年可见可用。"},
-    {"ruleId": 30, "result": false, "reason": "没有学习门槛。"},
-    {"ruleId": 31, "result": true, "reason": "任何人都可使用。"},
-    {"ruleId": 32, "result": true, "reason": "在宗教仪式等正式场合使用。"},
-    {"ruleId": 33, "result": true, "reason": "也可在休闲场合被佩戴。"},
-    {"ruleId": 34, "result": true, "reason": "有人喜欢收藏十字架相关物品。"},
-    {"ruleId": 35, "result": false, "reason": "在家中见到并不罕见。"},
-    {"ruleId": 36, "result": true, "reason": "在历史上有宗教象征意义。"},
-    {"ruleId": 37, "result": false, "reason": "古今都使用较广。"},
-    {"ruleId": 38, "result": true, "reason": "作为礼物较常见。"},
-    {"ruleId": 39, "result": false, "reason": "礼物赠送并不少。"},
-    {"ruleId": 40, "result": false, "reason": "各阶层均可拥有。"},
-    {"ruleId": 41, "result": true, "reason": "各收入人群均可能使用。"},
-    {"ruleId": 42, "result": true, "reason": "小型饰品可随身携带上飞机。"},
-    {"ruleId": 43, "result": true, "reason": "很容易在城镇找到。"},
-    {"ruleId": 44, "result": false, "reason": "不需要燃料。"},
-    {"ruleId": 45, "result": false, "reason": "并非一次性使用。"},
-    {"ruleId": 46, "result": false, "reason": "并无特定季节。"},
-    {"ruleId": 47, "result": true, "reason": "可多次使用和保存。"},
-    {"ruleId": 48, "result": false, "reason": "无需许可。"},
-    {"ruleId": 49, "result": true, "reason": "世界上可见很多十字架。"},
-    {"ruleId": 50, "result": false, "reason": "存在无数十字架。"},
-    {"ruleId": 51, "result": false, "reason": "通常结构简单不易损坏。"},
-    {"ruleId": 52, "result": true, "reason": "小型便携饰品居多。"},
-    {"ruleId": 53, "result": false, "reason": "不需电力。"},
-    {"ruleId": 54, "result": false, "reason": "尺寸变化大。"},
-    {"ruleId": 55, "result": false, "reason": "不存在自然界。"},
-    {"ruleId": 56, "result": false, "reason": "木制品在水中不会保持干燥。"},
-    {"ruleId": 57, "result": false, "reason": "多数不会漂浮。"},
-    {"ruleId": 58, "result": false, "reason": "也有木质、石质等材质。"},
-    {"ruleId": 59, "result": false, "reason": "不会发声。"},
-    {"ruleId": 60, "result": false, "reason": "通常非鲜艳色。"},
-    {"ruleId": 61, "result": false, "reason": "一般体积远小于人类。"},
-    {"ruleId": 62, "result": false, "reason": "大多不透明。"},
-    {"ruleId": 63, "result": false, "reason": "一体成形，结构简单。"},
-    {"ruleId": 64, "result": false, "reason": "多为硬质材质。"},
-    {"ruleId": 65, "result": false, "reason": "一般不能折叠或压扁。"},
-    {"ruleId": 66, "result": false, "reason": "通常不需要特殊维护。"},
-    {"ruleId": 67, "result": false, "reason": "边缘多为圆滑。"},
-    {"ruleId": 68, "result": false, "reason": "不是食物。"},
-    {"ruleId": 69, "result": false, "reason": "无强烈气味。"},
-    {"ruleId": 70, "result": false, "reason": "远小于100公斤。"},
-    {"ruleId": 71, "result": true, "reason": "饰品类可以佩戴。"},
-    {"ruleId": 72, "result": false, "reason": "自身不产生热量。"},
-    {"ruleId": 73, "result": false, "reason": "不容易着火。"},
-    {"ruleId": 74, "result": false, "reason": "通常不印文字。"},
-    {"ruleId": 75, "result": false, "reason": "多为成品无需组装。"},
-    {"ruleId": 76, "result": false, "reason": "人工制品不易分解。"},
-    {"ruleId": 77, "result": true, "reason": "可以堆叠收纳。"},
-    {"ruleId": 78, "result": false, "reason": "通常无明显光泽。"},
-    {"ruleId": 79, "result": false, "reason": "多数材质不被磁铁吸引。"},
-    {"ruleId": 80, "result": false, "reason": "不会发声。"},
-    {"ruleId": 81, "result": false, "reason": "配饰类不吸水。"},
-    {"ruleId": 82, "result": false, "reason": "多为硬材质不可弯曲。"},
-    {"ruleId": 83, "result": false, "reason": "多数材质沉于水。"},
-    {"ruleId": 84, "result": false, "reason": "形态不随时间变化。"},
-    {"ruleId": 85, "result": false, "reason": "大多非轴对称。"},
-    {"ruleId": 86, "result": false, "reason": "损坏多不可修复。"},
-    {"ruleId": 87, "result": false, "reason": "不需要燃料。"},
-    {"ruleId": 88, "result": false, "reason": "非活物。"},
-    {"ruleId": 89, "result": false, "reason": "一般不在水下见到。"},
-    {"ruleId": 90, "result": false, "reason": "通常不含塑料。"},
-    {"ruleId": 91, "result": true, "reason": "有木制品。"},
-    {"ruleId": 92, "result": true, "reason": "多数材质可安全加热。"},
-    {"ruleId": 93, "result": false, "reason": "一般不需特殊储存。"},
-    {"ruleId": 94, "result": true, "reason": "可为手工制作。"},
-    {"ruleId": 95, "result": true, "reason": "易于清洁。"},
-    {"ruleId": 96, "result": false, "reason": "通常单个出现。"},
-    {"ruleId": 97, "result": true, "reason": "多可以手握。"},
-    {"ruleId": 98, "result": false, "reason": "通常为单一或双色。"},
-    {"ruleId": 99, "result": true, "reason": "多为坚硬材质。"},
-    {"ruleId": 100, "result": false, "reason": "常有多种材质组合。"},
-    {"ruleId": 101, "result": false, "reason": "共有三字。"},
-    {"ruleId": 102, "result": true, "reason": "“十字架”为三个字。"},
-    {"ruleId": 103, "result": false, "reason": "只有三个字。"},
-    {"ruleId": 104, "result": false, "reason": "只有三个字。"},
-    {"ruleId": 105, "result": false, "reason": "无任何字含“心”或心旁。"},
-    {"ruleId": 106, "result": false, "reason": "无“草”字或草字头。"},
-    {"ruleId": 107, "result": false, "reason": "无“水”字或三点水。"},
-    {"ruleId": 108, "result": false, "reason": "无“金”字或金旁。"},
-    {"ruleId": 109, "result": true, "reason": "“架”含木字旁。"},
-    {"ruleId": 110, "result": false, "reason": "无火字旁。"},
-    {"ruleId": 111, "result": false, "reason": "无土字旁。"},
-    {"ruleId": 112, "result": false, "reason": "无日字旁。"},
-    {"ruleId": 113, "result": false, "reason": "无走字旁。"},
-    {"ruleId": 114, "result": false, "reason": "无山字旁。"},
-    {"ruleId": 115, "result": false, "reason": "无川字旁。"},
-    {"ruleId": 116, "result": false, "reason": "无雨字旁。"},
-    {"ruleId": 117, "result": false, "reason": "无人字旁。"},
-    {"ruleId": 118, "result": false, "reason": "无手字旁。"},
-    {"ruleId": 119, "result": false, "reason": "无王字旁。"},
-    {"ruleId": 120, "result": false, "reason": "无口字旁。"},
-    {"ruleId": 121, "result": false, "reason": "无目字旁。"},
-    {"ruleId": 122, "result": false, "reason": "无耳字旁。"},
-    {"ruleId": 123, "result": false, "reason": "无足字旁。"},
-    {"ruleId": 124, "result": false, "reason": "无言字旁。"},
-    {"ruleId": 125, "result": false, "reason": "无食字旁。"},
-    {"ruleId": 126, "result": false, "reason": "无衣字旁。"},
-    {"ruleId": 127, "result": false, "reason": "无马字旁。"},
-    {"ruleId": 128, "result": false, "reason": "无鱼字旁。"},
-    {"ruleId": 129, "result": false, "reason": "无鸟字旁。"},
-    {"ruleId": 130, "result": false, "reason": "无车字旁。"},
-    {"ruleId": 131, "result": true, "reason": "“架”是左右结构。"},
-    {"ruleId": 132, "result": true, "reason": "“字”为上下结构。"},
-    {"ruleId": 133, "result": false, "reason": "三字部首均不同。"},
-    {"ruleId": 134, "result": true, "reason": "三字部首都不同。"},
-    {"ruleId": 135, "result": true, "reason": "“十”仅2画。"},
-    {"ruleId": 136, "result": true, "reason": "“十”(2)、'字'(6)、'架'(9)都少于10画。"},
-    {"ruleId": 137, "result": true, "reason": "笔画最多'架'为9，少于15画。"},
-    {"ruleId": 138, "result": false, "reason": "并非全部都多于12画。"},
-    {"ruleId": 139, "result": true, "reason": "2、6、9属于递增。"},
-    {"ruleId": 140, "result": false, "reason": "不是递减（2、6、9）。"},
-    {"ruleId": 141, "result": false, "reason": "声调分别为2、4、4。"},
-    {"ruleId": 142, "result": false, "reason": "有重复的第四声。"},
-    {"ruleId": 143, "result": false, "reason": "包含第二声。"},
-    {"ruleId": 144, "result": false, "reason": "包含第二声。"},
-    {"ruleId": 145, "result": true, "reason": "无第三声。"},
-    {"ruleId": 146, "result": false, "reason": "包含第四声。"},
-    {"ruleId": 147, "result": false, "reason": "无第一声。"},
-    {"ruleId": 148, "result": true, "reason": "含第二声（十）。"},
-    {"ruleId": 149, "result": false, "reason": "无第三声。"},
-    {"ruleId": 150, "result": true, "reason": "有第四声（字、架）。"}
+    {
+      "ruleId": 1,
+      "result": true,
+      "reason": "十字架起源于公元前，已有数千年历史。"
+    },
+    {
+      "ruleId": 2,
+      "result": false,
+      "reason": "并非1950年后出现的新事物。"
+    },
+    {
+      "ruleId": 3,
+      "result": false,
+      "reason": "十字架大部分家庭里没有。"
+    },
+    {
+      "ruleId": 4,
+      "result": true,
+      "reason": "不是非常稀有的物品。"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "儿童使用较少。"
+    },
+    {
+      "ruleId": 6,
+      "result": false,
+      "reason": "多数人对宗教符号没有兴趣。"
+    },
+    {
+      "ruleId": 7,
+      "result": false,
+      "reason": "并不是每个人都需要十字架。"
+    },
+    {
+      "ruleId": 8,
+      "result": true,
+      "reason": "不是用于完成工作的工具。"
+    },
+    {
+      "ruleId": 9,
+      "result": true,
+      "reason": "多见于教堂等特殊场合。"
+    },
+    {
+      "ruleId": 10,
+      "result": false,
+      "reason": "日常生活中不常见十字架。"
+    },
+    {
+      "ruleId": 11,
+      "result": true,
+      "reason": "可以作为个人饰品或信仰物。"
+    },
+    {
+      "ruleId": 12,
+      "result": true,
+      "reason": "也可能被教众多人共享。"
+    },
+    {
+      "ruleId": 13,
+      "result": false,
+      "reason": "不需要电力工作。"
+    },
+    {
+      "ruleId": 14,
+      "result": true,
+      "reason": "起源于西方宗教文化。"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "许多国家都能见到。"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "通常不会使用后丢弃。"
+    },
+    {
+      "ruleId": 17,
+      "result": true,
+      "reason": "可以保存多年。"
+    },
+    {
+      "ruleId": 18,
+      "result": true,
+      "reason": "多在建筑、饰品、室内展示。"
+    },
+    {
+      "ruleId": 19,
+      "result": true,
+      "reason": "亦可用于室外场所。"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "大部分人都亲眼见过。"
+    },
+    {
+      "ruleId": 21,
+      "result": true,
+      "reason": "部分商店可买到饰品类十字架。"
+    },
+    {
+      "ruleId": 22,
+      "result": false,
+      "reason": "办公室较少见。"
+    },
+    {
+      "ruleId": 23,
+      "result": false,
+      "reason": "学校一般不常见。"
+    },
+    {
+      "ruleId": 24,
+      "result": false,
+      "reason": "多数人不会因十字架觉得快乐。"
+    },
+    {
+      "ruleId": 25,
+      "result": false,
+      "reason": "一般不会让人感到危险。"
+    },
+    {
+      "ruleId": 26,
+      "result": false,
+      "reason": "不是娱乐或游戏物品。"
+    },
+    {
+      "ruleId": 27,
+      "result": false,
+      "reason": "不是工作工具。"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "并非特定时间使用。"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "全年可见可用。"
+    },
+    {
+      "ruleId": 30,
+      "result": false,
+      "reason": "没有学习门槛。"
+    },
+    {
+      "ruleId": 31,
+      "result": true,
+      "reason": "任何人都可使用。"
+    },
+    {
+      "ruleId": 32,
+      "result": true,
+      "reason": "在宗教仪式等正式场合使用。"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "也可在休闲场合被佩戴。"
+    },
+    {
+      "ruleId": 34,
+      "result": true,
+      "reason": "有人喜欢收藏十字架相关物品。"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "在家中见到并不罕见。"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "在历史上有宗教象征意义。"
+    },
+    {
+      "ruleId": 37,
+      "result": false,
+      "reason": "古今都使用较广。"
+    },
+    {
+      "ruleId": 38,
+      "result": true,
+      "reason": "作为礼物较常见。"
+    },
+    {
+      "ruleId": 39,
+      "result": false,
+      "reason": "礼物赠送并不少。"
+    },
+    {
+      "ruleId": 40,
+      "result": false,
+      "reason": "各阶层均可拥有。"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "各收入人群均可能使用。"
+    },
+    {
+      "ruleId": 42,
+      "result": true,
+      "reason": "小型饰品可随身携带上飞机。"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "很容易在城镇找到。"
+    },
+    {
+      "ruleId": 44,
+      "result": false,
+      "reason": "不需要燃料。"
+    },
+    {
+      "ruleId": 45,
+      "result": false,
+      "reason": "并非一次性使用。"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "并无特定季节。"
+    },
+    {
+      "ruleId": 47,
+      "result": true,
+      "reason": "可多次使用和保存。"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "无需许可。"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "世界上可见很多十字架。"
+    },
+    {
+      "ruleId": 50,
+      "result": false,
+      "reason": "存在无数十字架。"
+    },
+    {
+      "ruleId": 51,
+      "result": false,
+      "reason": "通常结构简单不易损坏。"
+    },
+    {
+      "ruleId": 52,
+      "result": true,
+      "reason": "小型便携饰品居多。"
+    },
+    {
+      "ruleId": 53,
+      "result": false,
+      "reason": "不需电力。"
+    },
+    {
+      "ruleId": 54,
+      "result": false,
+      "reason": "尺寸变化大。"
+    },
+    {
+      "ruleId": 55,
+      "result": false,
+      "reason": "不存在自然界。"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "木制品在水中不会保持干燥。"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "多数不会漂浮。"
+    },
+    {
+      "ruleId": 58,
+      "result": false,
+      "reason": "也有木质、石质等材质。"
+    },
+    {
+      "ruleId": 59,
+      "result": false,
+      "reason": "不会发声。"
+    },
+    {
+      "ruleId": 60,
+      "result": false,
+      "reason": "通常非鲜艳色。"
+    },
+    {
+      "ruleId": 61,
+      "result": false,
+      "reason": "一般体积远小于人类。"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "大多不透明。"
+    },
+    {
+      "ruleId": 63,
+      "result": false,
+      "reason": "一体成形，结构简单。"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "多为硬质材质。"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "一般不能折叠或压扁。"
+    },
+    {
+      "ruleId": 66,
+      "result": false,
+      "reason": "通常不需要特殊维护。"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "边缘多为圆滑。"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "不是食物。"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "无强烈气味。"
+    },
+    {
+      "ruleId": 70,
+      "result": false,
+      "reason": "远小于100公斤。"
+    },
+    {
+      "ruleId": 71,
+      "result": true,
+      "reason": "饰品类可以佩戴。"
+    },
+    {
+      "ruleId": 72,
+      "result": false,
+      "reason": "自身不产生热量。"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "不容易着火。"
+    },
+    {
+      "ruleId": 74,
+      "result": false,
+      "reason": "通常不印文字。"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "多为成品无需组装。"
+    },
+    {
+      "ruleId": 76,
+      "result": false,
+      "reason": "人工制品不易分解。"
+    },
+    {
+      "ruleId": 77,
+      "result": true,
+      "reason": "可以堆叠收纳。"
+    },
+    {
+      "ruleId": 78,
+      "result": false,
+      "reason": "通常无明显光泽。"
+    },
+    {
+      "ruleId": 79,
+      "result": false,
+      "reason": "多数材质不被磁铁吸引。"
+    },
+    {
+      "ruleId": 80,
+      "result": false,
+      "reason": "不会发声。"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "配饰类不吸水。"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "多为硬材质不可弯曲。"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "多数材质沉于水。"
+    },
+    {
+      "ruleId": 84,
+      "result": false,
+      "reason": "形态不随时间变化。"
+    },
+    {
+      "ruleId": 85,
+      "result": false,
+      "reason": "大多非轴对称。"
+    },
+    {
+      "ruleId": 86,
+      "result": false,
+      "reason": "损坏多不可修复。"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "不需要燃料。"
+    },
+    {
+      "ruleId": 88,
+      "result": false,
+      "reason": "非活物。"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "一般不在水下见到。"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "通常不含塑料。"
+    },
+    {
+      "ruleId": 91,
+      "result": true,
+      "reason": "有木制品。"
+    },
+    {
+      "ruleId": 92,
+      "result": true,
+      "reason": "多数材质可安全加热。"
+    },
+    {
+      "ruleId": 93,
+      "result": false,
+      "reason": "一般不需特殊储存。"
+    },
+    {
+      "ruleId": 94,
+      "result": true,
+      "reason": "可为手工制作。"
+    },
+    {
+      "ruleId": 95,
+      "result": true,
+      "reason": "易于清洁。"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "通常单个出现。"
+    },
+    {
+      "ruleId": 97,
+      "result": true,
+      "reason": "多可以手握。"
+    },
+    {
+      "ruleId": 98,
+      "result": false,
+      "reason": "通常为单一或双色。"
+    },
+    {
+      "ruleId": 99,
+      "result": true,
+      "reason": "多为坚硬材质。"
+    },
+    {
+      "ruleId": 100,
+      "result": false,
+      "reason": "常有多种材质组合。"
+    },
+    {
+      "ruleId": 101,
+      "result": false,
+      "reason": "共有三字。"
+    },
+    {
+      "ruleId": 102,
+      "result": true,
+      "reason": "“十字架”为三个字。"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "只有三个字。"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "只有三个字。"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "无任何字含“心”或心旁。"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "无“草”字或草字头。"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "无“水”字或三点水。"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "无“金”字或金旁。"
+    },
+    {
+      "ruleId": 109,
+      "result": true,
+      "reason": "“架”含木字旁。"
+    },
+    {
+      "ruleId": 110,
+      "result": false,
+      "reason": "无火字旁。"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "无土字旁。"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "无日字旁。"
+    },
+    {
+      "ruleId": 113,
+      "result": false,
+      "reason": "无走字旁。"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "无山字旁。"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "无川字旁。"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "无雨字旁。"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "无人字旁。"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "无手字旁。"
+    },
+    {
+      "ruleId": 119,
+      "result": false,
+      "reason": "无王字旁。"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "无口字旁。"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "无目字旁。"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "无耳字旁。"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "无足字旁。"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "无言字旁。"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "无食字旁。"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "无衣字旁。"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "无马字旁。"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "无鱼字旁。"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "无鸟字旁。"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "无车字旁。"
+    },
+    {
+      "ruleId": 131,
+      "result": true,
+      "reason": "“架”是左右结构。"
+    },
+    {
+      "ruleId": 132,
+      "result": true,
+      "reason": "“字”为上下结构。"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "三字部首均不同。"
+    },
+    {
+      "ruleId": 134,
+      "result": true,
+      "reason": "三字部首都不同。"
+    },
+    {
+      "ruleId": 135,
+      "result": true,
+      "reason": "“十”仅2画。"
+    },
+    {
+      "ruleId": 136,
+      "result": true,
+      "reason": "“十”(2)、'字'(6)、'架'(9)都少于10画。"
+    },
+    {
+      "ruleId": 137,
+      "result": true,
+      "reason": "笔画最多'架'为9，少于15画。"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "并非全部都多于12画。"
+    },
+    {
+      "ruleId": 139,
+      "result": true,
+      "reason": "2、6、9属于递增。"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "不是递减（2、6、9）。"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "声调分别为2、4、4。"
+    },
+    {
+      "ruleId": 142,
+      "result": false,
+      "reason": "有重复的第四声。"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "包含第二声。"
+    },
+    {
+      "ruleId": 144,
+      "result": false,
+      "reason": "包含第二声。"
+    },
+    {
+      "ruleId": 145,
+      "result": true,
+      "reason": "无第三声。"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "包含第四声。"
+    },
+    {
+      "ruleId": 147,
+      "result": false,
+      "reason": "无第一声。"
+    },
+    {
+      "ruleId": 148,
+      "result": true,
+      "reason": "含第二声（十）。"
+    },
+    {
+      "ruleId": 149,
+      "result": false,
+      "reason": "无第三声。"
+    },
+    {
+      "ruleId": 150,
+      "result": true,
+      "reason": "有第四声（字、架）。"
+    }
   ]
 }

@@ -3,155 +3,755 @@
   "word": "机器人",
   "word_en": "Robot",
   "questions": [
-    {"ruleId": 1, "result": false, "reason": "机器人出现不到100年"},
-    {"ruleId": 2, "result": true, "reason": "机器人是1950年后出现的新事物"},
-    {"ruleId": 3, "result": false, "reason": "大多数家庭并没有机器人"},
-    {"ruleId": 4, "result": true, "reason": "机器人属于多数人没有的稀有物品"},
-    {"ruleId": 5, "result": false, "reason": "机器人使用者一般是成人或社会群体"},
-    {"ruleId": 6, "result": true, "reason": "机器人对大部分人来说没直接兴趣或需求"},
-    {"ruleId": 7, "result": false, "reason": "并非每个人都需要机器人"},
-    {"ruleId": 8, "result": true, "reason": "机器人有助于完成各类工作"},
-    {"ruleId": 9, "result": false, "reason": "已在展厅、公司、家庭、工厂等多种场合见到"},
-    {"ruleId": 10, "result": false, "reason": "日常生活中少见，未普及"},
-    {"ruleId": 11, "result": true, "reason": "可以属于个人，如家用机器人"},
-    {"ruleId": 12, "result": true, "reason": "也可多人共享，如工厂机器人"},
-    {"ruleId": 13, "result": true, "reason": "大部分机器人需要电力"},
-    {"ruleId": 14, "result": false, "reason": "并非只来自特定国家或文化"},
-    {"ruleId": 15, "result": true, "reason": "许多国家均有机器人"},
-    {"ruleId": 16, "result": false, "reason": "通常机器人不是一次性产品"},
-    {"ruleId": 17, "result": true, "reason": "机器人可使用多年"},
-    {"ruleId": 18, "result": true, "reason": "很多机器人在室内使用"},
-    {"ruleId": 19, "result": true, "reason": "也有室外服务/工程机器人"},
-    {"ruleId": 20, "result": false, "reason": "大部分人未亲眼见过真机器人"},
-    {"ruleId": 21, "result": false, "reason": "普通商店难买机器人"},
-    {"ruleId": 22, "result": true, "reason": "办公室可能出现服务或流程型机器人"},
-    {"ruleId": 23, "result": true, "reason": "有教育机器人等在学校中应用"},
-    {"ruleId": 24, "result": true, "reason": "智能娱乐机器人等让人快乐"},
-    {"ruleId": 25, "result": false, "reason": "普通机器人不让人觉得危险（*杀手机器人例外，但非主流）"},
-    {"ruleId": 26, "result": true, "reason": "部分机器人专为娱乐或游戏"},
-    {"ruleId": 27, "result": true, "reason": "很多用于工作或重要任务"},
-    {"ruleId": 28, "result": false, "reason": "机器人全年无季节限制"},
-    {"ruleId": 29, "result": true, "reason": "全年可用"},
-    {"ruleId": 30, "result": true, "reason": "使用与设计机器人学习门槛较高"},
-    {"ruleId": 31, "result": false, "reason": "并非任何人都易于操作机器人"},
-    {"ruleId": 32, "result": true, "reason": "可在正式场合使用（如行业峰会、展览演示）"},
-    {"ruleId": 33, "result": true, "reason": "亦可在家中、休闲场景应用"},
-    {"ruleId": 34, "result": true, "reason": "部分人群热衷收藏机器人"},
-    {"ruleId": 35, "result": false, "reason": "越来越多机器人在家出现"},
-    {"ruleId": 36, "result": false, "reason": "目前对整体历史影响不及某些古物"},
-    {"ruleId": 37, "result": true, "reason": "机器人主要在现代才有"},
-    {"ruleId": 38, "result": false, "reason": "作为礼物较少"},
-    {"ruleId": 39, "result": true, "reason": "一般不会送机器人做礼物"},
-    {"ruleId": 40, "result": true, "reason": "许多先进机器人更适合有钱人购置"},
-    {"ruleId": 41, "result": false, "reason": "高价机器人并非各收入阶层都用到"},
-    {"ruleId": 42, "result": false, "reason": "部分机器人不能随身携带登机"},
-    {"ruleId": 43, "result": false, "reason": "日常生活中找到机器人较难"},
-    {"ruleId": 44, "result": false, "reason": "主流机器人不需燃料"},
-    {"ruleId": 45, "result": false, "reason": "并非一次性"},
-    {"ruleId": 46, "result": false, "reason": "无特定季节需求"},
-    {"ruleId": 47, "result": true, "reason": "可以多次重复使用"},
-    {"ruleId": 48, "result": false, "reason": "正常家用/娱乐机器人不需许可（工业特种机器人可能需，但非主流）"},
-    {"ruleId": 49, "result": true, "reason": "世界上已有很多种类机器人"},
-    {"ruleId": 50, "result": false, "reason": "并非独一无二"},
-    {"ruleId": 51, "result": true, "reason": "机器人高精设备易损坏"},
-    {"ruleId": 52, "result": false, "reason": "多数机器人体积不便携"},
-    {"ruleId": 53, "result": true, "reason": "需要电力工作"},
-    {"ruleId": 54, "result": false, "reason": "尺寸不固定，因功能变动大"},
-    {"ruleId": 55, "result": false, "reason": "人造物，非自然界产物"},
-    {"ruleId": 56, "result": false, "reason": "机器人大多不防水"},
-    {"ruleId": 57, "result": false, "reason": "通常不会浮在水面"},
-    {"ruleId": 58, "result": true, "reason": "主要由金属制成"},
-    {"ruleId": 59, "result": true, "reason": "运作时会有电机等声音"},
-    {"ruleId": 60, "result": false, "reason": "一般金属外观为主，色彩不鲜艳"},
-    {"ruleId": 61, "result": false, "reason": "普及机器人小于人类"},
-    {"ruleId": 62, "result": false, "reason": "机器人本体不可见"},
-    {"ruleId": 63, "result": true, "reason": "内部有多种组件"},
-    {"ruleId": 64, "result": false, "reason": "通常为金属材料，表面坚硬"},
-    {"ruleId": 65, "result": false, "reason": "机身结构多坚硬不可折叠"},
-    {"ruleId": 66, "result": true, "reason": "需保养与维护"},
-    {"ruleId": 67, "result": true, "reason": "存在锋利机械部件"},
-    {"ruleId": 68, "result": false, "reason": "不能食用"},
-    {"ruleId": 69, "result": false, "reason": "通常无强烈气味"},
-    {"ruleId": 70, "result": false, "reason": "多数个人/商用机器人小于100公斤"},
-    {"ruleId": 71, "result": false, "reason": "机器人无法穿戴"},
-    {"ruleId": 72, "result": true, "reason": "运作时电机/CPU等会产生热量"},
-    {"ruleId": 73, "result": true, "reason": "电气设备有短路风险可着火"},
-    {"ruleId": 74, "result": false, "reason": "多数机器人表面无文字"},
-    {"ruleId": 75, "result": false, "reason": "工厂组装完成，用户不需组装"},
-    {"ruleId": 76, "result": false, "reason": "多使用合成材料无法自然分解"},
-    {"ruleId": 77, "result": false, "reason": "通常不可堆叠"},
-    {"ruleId": 78, "result": true, "reason": "金属表面有光泽"},
-    {"ruleId": 79, "result": true, "reason": "金属零件受磁铁吸引"},
-    {"ruleId": 80, "result": true, "reason": "发动机等能发出声音"},
-    {"ruleId": 81, "result": false, "reason": "一般材质吸水性差"},
-    {"ruleId": 82, "result": false, "reason": "结构不易弯曲"},
-    {"ruleId": 83, "result": false, "reason": "本体多金属密度，不浮水"},
-    {"ruleId": 84, "result": true, "reason": "功能/状态会随时间变化升级"},
-    {"ruleId": 85, "result": false, "reason": "形状多样不对称"},
-    {"ruleId": 86, "result": true, "reason": "可被修理"},
-    {"ruleId": 87, "result": false, "reason": "一般用电，不用燃料"},
-    {"ruleId": 88, "result": false, "reason": "机器人非活物"},
-    {"ruleId": 89, "result": false, "reason": "一般不做水下作业"},
-    {"ruleId": 90, "result": false, "reason": "部分含塑料但主要为金属"},
-    {"ruleId": 91, "result": false, "reason": "很少含木头"},
-    {"ruleId": 92, "result": false, "reason": "多数机器人不适宜加热"},
-    {"ruleId": 93, "result": true, "reason": "需专门场所和注意存储"},
-    {"ruleId": 94, "result": false, "reason": "主要工业生产"},
-    {"ruleId": 95, "result": false, "reason": "结构复杂不易清洁"},
-    {"ruleId": 96, "result": false, "reason": "多为单体出现"},
-    {"ruleId": 97, "result": false, "reason": "多体积大或笨重无法手持"},
-    {"ruleId": 98, "result": false, "reason": "多种无色或单色"},
-    {"ruleId": 99, "result": true, "reason": "金属外壳坚硬"},
-    {"ruleId": 100, "result": false, "reason": "组件多材质混合"},
-    {"ruleId": 101, "result": false, "reason": "机器“人”为三字"},
-    {"ruleId": 102, "result": true, "reason": "“机器人”为三个字"},
-    {"ruleId": 103, "result": false, "reason": "不为四字（不是成语或常用四字词）"},
-    {"ruleId": 104, "result": false, "reason": "不是五字"},
-    {"ruleId": 105, "result": false, "reason": "无“心”字或偏旁"},
-    {"ruleId": 106, "result": false, "reason": "无“草”字或偏旁"},
-    {"ruleId": 107, "result": false, "reason": "无“水”字或偏旁"},
-    {"ruleId": 108, "result": false, "reason": "无“金”字或偏旁"},
-    {"ruleId": 109, "result": true, "reason": "“机”带木字旁"},
-    {"ruleId": 110, "result": false, "reason": "无“火”字或偏旁"},
-    {"ruleId": 111, "result": false, "reason": "无“土”字或偏旁"},
-    {"ruleId": 112, "result": false, "reason": "无“日”字或偏旁"},
-    {"ruleId": 113, "result": false, "reason": "无“走”字或偏旁"},
-    {"ruleId": 114, "result": false, "reason": "无“山”字或偏旁"},
-    {"ruleId": 115, "result": false, "reason": "无“川”字或偏旁"},
-    {"ruleId": 116, "result": false, "reason": "无“雨”字或偏旁"},
-    {"ruleId": 117, "result": true, "reason": "“人”字本身是人字旁"},
-    {"ruleId": 118, "result": false, "reason": "无“手”字或偏旁"},
-    {"ruleId": 119, "result": false, "reason": "无“王”字或偏旁"},
-    {"ruleId": 120, "result": true, "reason": "“器”带“口”字旁"},
-    {"ruleId": 121, "result": false, "reason": "无“目”字或偏旁"},
-    {"ruleId": 122, "result": false, "reason": "无“耳”字或偏旁"},
-    {"ruleId": 123, "result": false, "reason": "无“足”字或偏旁"},
-    {"ruleId": 124, "result": false, "reason": "无“言”字或偏旁"},
-    {"ruleId": 125, "result": false, "reason": "无“食”字或偏旁"},
-    {"ruleId": 126, "result": false, "reason": "无“衣”字或偏旁"},
-    {"ruleId": 127, "result": false, "reason": "无“马”字或偏旁"},
-    {"ruleId": 128, "result": false, "reason": "无“鱼”字或偏旁"},
-    {"ruleId": 129, "result": false, "reason": "无“鸟”字或偏旁"},
-    {"ruleId": 130, "result": false, "reason": "无“车”字或偏旁"},
-    {"ruleId": 131, "result": true, "reason": "“机”“器”为左右结构字"},
-    {"ruleId": 132, "result": false, "reason": "无上下结构字"},
-    {"ruleId": 133, "result": false, "reason": "偏旁不同，木/口/人"},
-    {"ruleId": 134, "result": true, "reason": "偏旁均不重复"},
-    {"ruleId": 135, "result": true, "reason": "“人”2画＜7画"},
-    {"ruleId": 136, "result": false, "reason": "“器”16画＞10画"},
-    {"ruleId": 137, "result": true, "reason": "画数最大“器”16画＜15画为false"},
-    {"ruleId": 138, "result": false, "reason": "有“人”2画，不都超过12画"},
-    {"ruleId": 139, "result": false, "reason": "9→16→2，不递增"},
-    {"ruleId": 140, "result": false, "reason": "9→16→2，不递减"},
-    {"ruleId": 141, "result": false, "reason": "ji1、qi4、ren2声调不相同"},
-    {"ruleId": 142, "result": true, "reason": "分别一、四、二声"},
-    {"ruleId": 143, "result": false, "reason": "有第一声的“机”"},
-    {"ruleId": 144, "result": false, "reason": "有第二声的“人”"},
-    {"ruleId": 145, "result": true, "reason": "没有第三声"},
-    {"ruleId": 146, "result": false, "reason": "有四声“器”"},
-    {"ruleId": 147, "result": true, "reason": "“机”为第一声"},
-    {"ruleId": 148, "result": true, "reason": "“人”为第二声"},
-    {"ruleId": 149, "result": false, "reason": "无第三声字"},
-    {"ruleId": 150, "result": true, "reason": "“器”为第四声"}
+    {
+      "ruleId": 1,
+      "result": false,
+      "reason": "机器人出现不到100年"
+    },
+    {
+      "ruleId": 2,
+      "result": true,
+      "reason": "机器人是1950年后出现的新事物"
+    },
+    {
+      "ruleId": 3,
+      "result": false,
+      "reason": "大多数家庭并没有机器人"
+    },
+    {
+      "ruleId": 4,
+      "result": false,
+      "reason": "机器人属于多数人没有的稀有物品"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "机器人使用者一般是成人或社会群体"
+    },
+    {
+      "ruleId": 6,
+      "result": false,
+      "reason": "机器人对大部分人来说没直接兴趣或需求"
+    },
+    {
+      "ruleId": 7,
+      "result": false,
+      "reason": "并非每个人都需要机器人"
+    },
+    {
+      "ruleId": 8,
+      "result": true,
+      "reason": "机器人有助于完成各类工作"
+    },
+    {
+      "ruleId": 9,
+      "result": true,
+      "reason": "已在展厅、公司、家庭、工厂等多种场合见到"
+    },
+    {
+      "ruleId": 10,
+      "result": false,
+      "reason": "日常生活中少见，未普及"
+    },
+    {
+      "ruleId": 11,
+      "result": true,
+      "reason": "可以属于个人，如家用机器人"
+    },
+    {
+      "ruleId": 12,
+      "result": true,
+      "reason": "也可多人共享，如工厂机器人"
+    },
+    {
+      "ruleId": 13,
+      "result": true,
+      "reason": "大部分机器人需要电力"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "并非只来自特定国家或文化"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "许多国家均有机器人"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "通常机器人不是一次性产品"
+    },
+    {
+      "ruleId": 17,
+      "result": true,
+      "reason": "机器人可使用多年"
+    },
+    {
+      "ruleId": 18,
+      "result": true,
+      "reason": "很多机器人在室内使用"
+    },
+    {
+      "ruleId": 19,
+      "result": true,
+      "reason": "也有室外服务/工程机器人"
+    },
+    {
+      "ruleId": 20,
+      "result": false,
+      "reason": "大部分人未亲眼见过真机器人"
+    },
+    {
+      "ruleId": 21,
+      "result": false,
+      "reason": "普通商店难买机器人"
+    },
+    {
+      "ruleId": 22,
+      "result": true,
+      "reason": "办公室可能出现服务或流程型机器人"
+    },
+    {
+      "ruleId": 23,
+      "result": true,
+      "reason": "有教育机器人等在学校中应用"
+    },
+    {
+      "ruleId": 24,
+      "result": true,
+      "reason": "智能娱乐机器人等让人快乐"
+    },
+    {
+      "ruleId": 25,
+      "result": false,
+      "reason": "普通机器人不让人觉得危险（*杀手机器人例外，但非主流）"
+    },
+    {
+      "ruleId": 26,
+      "result": true,
+      "reason": "部分机器人专为娱乐或游戏"
+    },
+    {
+      "ruleId": 27,
+      "result": true,
+      "reason": "很多用于工作或重要任务"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "机器人全年无季节限制"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "全年可用"
+    },
+    {
+      "ruleId": 30,
+      "result": true,
+      "reason": "使用与设计机器人学习门槛较高"
+    },
+    {
+      "ruleId": 31,
+      "result": false,
+      "reason": "并非任何人都易于操作机器人"
+    },
+    {
+      "ruleId": 32,
+      "result": true,
+      "reason": "可在正式场合使用（如行业峰会、展览演示）"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "亦可在家中、休闲场景应用"
+    },
+    {
+      "ruleId": 34,
+      "result": true,
+      "reason": "部分人群热衷收藏机器人"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "越来越多机器人在家出现"
+    },
+    {
+      "ruleId": 36,
+      "result": false,
+      "reason": "目前对整体历史影响不及某些古物"
+    },
+    {
+      "ruleId": 37,
+      "result": true,
+      "reason": "机器人主要在现代才有"
+    },
+    {
+      "ruleId": 38,
+      "result": false,
+      "reason": "作为礼物较少"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "一般不会送机器人做礼物"
+    },
+    {
+      "ruleId": 40,
+      "result": true,
+      "reason": "许多先进机器人更适合有钱人购置"
+    },
+    {
+      "ruleId": 41,
+      "result": false,
+      "reason": "高价机器人并非各收入阶层都用到"
+    },
+    {
+      "ruleId": 42,
+      "result": false,
+      "reason": "部分机器人不能随身携带登机"
+    },
+    {
+      "ruleId": 43,
+      "result": false,
+      "reason": "日常生活中找到机器人较难"
+    },
+    {
+      "ruleId": 44,
+      "result": false,
+      "reason": "主流机器人不需燃料"
+    },
+    {
+      "ruleId": 45,
+      "result": false,
+      "reason": "并非一次性"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "无特定季节需求"
+    },
+    {
+      "ruleId": 47,
+      "result": true,
+      "reason": "可以多次重复使用"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "正常家用/娱乐机器人不需许可（工业特种机器人可能需，但非主流）"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "世界上已有很多种类机器人"
+    },
+    {
+      "ruleId": 50,
+      "result": false,
+      "reason": "并非独一无二"
+    },
+    {
+      "ruleId": 51,
+      "result": true,
+      "reason": "机器人高精设备易损坏"
+    },
+    {
+      "ruleId": 52,
+      "result": false,
+      "reason": "多数机器人体积不便携"
+    },
+    {
+      "ruleId": 53,
+      "result": true,
+      "reason": "需要电力工作"
+    },
+    {
+      "ruleId": 54,
+      "result": false,
+      "reason": "尺寸不固定，因功能变动大"
+    },
+    {
+      "ruleId": 55,
+      "result": false,
+      "reason": "人造物，非自然界产物"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "机器人大多不防水"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "通常不会浮在水面"
+    },
+    {
+      "ruleId": 58,
+      "result": true,
+      "reason": "主要由金属制成"
+    },
+    {
+      "ruleId": 59,
+      "result": true,
+      "reason": "运作时会有电机等声音"
+    },
+    {
+      "ruleId": 60,
+      "result": false,
+      "reason": "一般金属外观为主，色彩不鲜艳"
+    },
+    {
+      "ruleId": 61,
+      "result": false,
+      "reason": "普及机器人小于人类"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "机器人本体不可见"
+    },
+    {
+      "ruleId": 63,
+      "result": true,
+      "reason": "内部有多种组件"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "通常为金属材料，表面坚硬"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "机身结构多坚硬不可折叠"
+    },
+    {
+      "ruleId": 66,
+      "result": true,
+      "reason": "需保养与维护"
+    },
+    {
+      "ruleId": 67,
+      "result": true,
+      "reason": "存在锋利机械部件"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "不能食用"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "通常无强烈气味"
+    },
+    {
+      "ruleId": 70,
+      "result": false,
+      "reason": "多数个人/商用机器人小于100公斤"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "机器人无法穿戴"
+    },
+    {
+      "ruleId": 72,
+      "result": true,
+      "reason": "运作时电机/CPU等会产生热量"
+    },
+    {
+      "ruleId": 73,
+      "result": true,
+      "reason": "电气设备有短路风险可着火"
+    },
+    {
+      "ruleId": 74,
+      "result": false,
+      "reason": "多数机器人表面无文字"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "工厂组装完成，用户不需组装"
+    },
+    {
+      "ruleId": 76,
+      "result": false,
+      "reason": "多使用合成材料无法自然分解"
+    },
+    {
+      "ruleId": 77,
+      "result": false,
+      "reason": "通常不可堆叠"
+    },
+    {
+      "ruleId": 78,
+      "result": true,
+      "reason": "金属表面有光泽"
+    },
+    {
+      "ruleId": 79,
+      "result": true,
+      "reason": "金属零件受磁铁吸引"
+    },
+    {
+      "ruleId": 80,
+      "result": true,
+      "reason": "发动机等能发出声音"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "一般材质吸水性差"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "结构不易弯曲"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "本体多金属密度，不浮水"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "功能/状态会随时间变化升级"
+    },
+    {
+      "ruleId": 85,
+      "result": false,
+      "reason": "形状多样不对称"
+    },
+    {
+      "ruleId": 86,
+      "result": true,
+      "reason": "可被修理"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "一般用电，不用燃料"
+    },
+    {
+      "ruleId": 88,
+      "result": false,
+      "reason": "机器人非活物"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "一般不做水下作业"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "部分含塑料但主要为金属"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "很少含木头"
+    },
+    {
+      "ruleId": 92,
+      "result": false,
+      "reason": "多数机器人不适宜加热"
+    },
+    {
+      "ruleId": 93,
+      "result": true,
+      "reason": "需专门场所和注意存储"
+    },
+    {
+      "ruleId": 94,
+      "result": false,
+      "reason": "主要工业生产"
+    },
+    {
+      "ruleId": 95,
+      "result": false,
+      "reason": "结构复杂不易清洁"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "多为单体出现"
+    },
+    {
+      "ruleId": 97,
+      "result": false,
+      "reason": "多体积大或笨重无法手持"
+    },
+    {
+      "ruleId": 98,
+      "result": false,
+      "reason": "多种无色或单色"
+    },
+    {
+      "ruleId": 99,
+      "result": true,
+      "reason": "金属外壳坚硬"
+    },
+    {
+      "ruleId": 100,
+      "result": false,
+      "reason": "组件多材质混合"
+    },
+    {
+      "ruleId": 101,
+      "result": false,
+      "reason": "机器“人”为三字"
+    },
+    {
+      "ruleId": 102,
+      "result": true,
+      "reason": "“机器人”为三个字"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "不为四字（不是成语或常用四字词）"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "不是五字"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "无“心”字或偏旁"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "无“草”字或偏旁"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "无“水”字或偏旁"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "无“金”字或偏旁"
+    },
+    {
+      "ruleId": 109,
+      "result": true,
+      "reason": "“机”带木字旁"
+    },
+    {
+      "ruleId": 110,
+      "result": false,
+      "reason": "无“火”字或偏旁"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "无“土”字或偏旁"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "无“日”字或偏旁"
+    },
+    {
+      "ruleId": 113,
+      "result": false,
+      "reason": "无“走”字或偏旁"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "无“山”字或偏旁"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "无“川”字或偏旁"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "无“雨”字或偏旁"
+    },
+    {
+      "ruleId": 117,
+      "result": true,
+      "reason": "“人”字本身是人字旁"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "无“手”字或偏旁"
+    },
+    {
+      "ruleId": 119,
+      "result": false,
+      "reason": "无“王”字或偏旁"
+    },
+    {
+      "ruleId": 120,
+      "result": true,
+      "reason": "“器”带“口”字旁"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "无“目”字或偏旁"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "无“耳”字或偏旁"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "无“足”字或偏旁"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "无“言”字或偏旁"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "无“食”字或偏旁"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "无“衣”字或偏旁"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "无“马”字或偏旁"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "无“鱼”字或偏旁"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "无“鸟”字或偏旁"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "无“车”字或偏旁"
+    },
+    {
+      "ruleId": 131,
+      "result": true,
+      "reason": "“机”“器”为左右结构字"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "无上下结构字"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "偏旁不同，木/口/人"
+    },
+    {
+      "ruleId": 134,
+      "result": true,
+      "reason": "偏旁均不重复"
+    },
+    {
+      "ruleId": 135,
+      "result": true,
+      "reason": "“人”2画＜7画"
+    },
+    {
+      "ruleId": 136,
+      "result": false,
+      "reason": "“器”16画＞10画"
+    },
+    {
+      "ruleId": 137,
+      "result": true,
+      "reason": "画数最大“器”16画＜15画为false"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "有“人”2画，不都超过12画"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "9→16→2，不递增"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "9→16→2，不递减"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "ji1、qi4、ren2声调不相同"
+    },
+    {
+      "ruleId": 142,
+      "result": true,
+      "reason": "分别一、四、二声"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "有第一声的“机”"
+    },
+    {
+      "ruleId": 144,
+      "result": false,
+      "reason": "有第二声的“人”"
+    },
+    {
+      "ruleId": 145,
+      "result": true,
+      "reason": "没有第三声"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "有四声“器”"
+    },
+    {
+      "ruleId": 147,
+      "result": true,
+      "reason": "“机”为第一声"
+    },
+    {
+      "ruleId": 148,
+      "result": true,
+      "reason": "“人”为第二声"
+    },
+    {
+      "ruleId": 149,
+      "result": false,
+      "reason": "无第三声字"
+    },
+    {
+      "ruleId": 150,
+      "result": true,
+      "reason": "“器”为第四声"
+    }
   ]
 }

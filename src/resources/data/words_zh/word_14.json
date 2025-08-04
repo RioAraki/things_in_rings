@@ -3,155 +3,755 @@
   "word": "鸭子",
   "word_en": "Duck",
   "questions": [
-    {"ruleId": 1, "result": true, "reason": "鸽子被家养和驯化已有几千年历史"},
-    {"ruleId": 2, "result": false, "reason": "鸽子并非新事物，早已存在"},
-    {"ruleId": 3, "result": false, "reason": "不是大多数家庭都有"},
-    {"ruleId": 4, "result": true, "reason": "大部分人家中没有鸽子，属于较稀有"},
-    {"ruleId": 5, "result": false, "reason": "鸟类养殖并非儿童更多使用"},
-    {"ruleId": 6, "result": true, "reason": "很多人对鸽子没兴趣"},
-    {"ruleId": 7, "result": false, "reason": "并不是每个人都需要鸽子"},
-    {"ruleId": 8, "result": false, "reason": "鸽子一般无助于完成工作"},
-    {"ruleId": 9, "result": false, "reason": "鸽子平时也能见到，不限特殊场合"},
-    {"ruleId": 10, "result": true, "reason": "很多城市日常都可见到鸽子"},
-    {"ruleId": 11, "result": true, "reason": "作为宠物鸽属于个人物品"},
-    {"ruleId": 12, "result": true, "reason": "公园鸽子等多可多人共享"},
-    {"ruleId": 13, "result": false, "reason": "鸽子不是用电力工作的"},
-    {"ruleId": 14, "result": false, "reason": "鸽子各国均有，不限于某文化"},
-    {"ruleId": 15, "result": true, "reason": "鸽子各大洲国家均能见到"},
-    {"ruleId": 16, "result": false, "reason": "鸽子不是用后即丢弃的物品"},
-    {"ruleId": 17, "result": true, "reason": "鸽子生命可多年存活"},
-    {"ruleId": 18, "result": true, "reason": "家养鸽子一般在室内"},
-    {"ruleId": 19, "result": true, "reason": "野生及部分家鸽都在室外"},
-    {"ruleId": 20, "result": true, "reason": "多数人亲眼见过鸽子"},
-    {"ruleId": 21, "result": false, "reason": "很少在普通商店直接买到鸽子"},
-    {"ruleId": 22, "result": false, "reason": "办公室不常见鸽子"},
-    {"ruleId": 23, "result": false, "reason": "学校里也不常见鸽子"},
-    {"ruleId": 24, "result": true, "reason": "观赏鸽子能让人愉悦"},
-    {"ruleId": 25, "result": false, "reason": "看鸽子不会令人生危险感"},
-    {"ruleId": 26, "result": true, "reason": "观赏鸽常被娱乐使用"},
-    {"ruleId": 27, "result": false, "reason": "一般不用于工作或重要任务"},
-    {"ruleId": 28, "result": false, "reason": "全年均可见和饲养鸽子"},
-    {"ruleId": 29, "result": true, "reason": "鸽子全年都可观赏饲养"},
-    {"ruleId": 30, "result": false, "reason": "养鸽学习门槛不高"},
-    {"ruleId": 31, "result": true, "reason": "操作简易，普通人也可饲养"},
-    {"ruleId": 32, "result": false, "reason": "正式场合很少见鸽子出现"},
-    {"ruleId": 33, "result": true, "reason": "公园等休闲环境常见鸽子"},
-    {"ruleId": 34, "result": true, "reason": "有人喜欢养鸽子并进行收藏"},
-    {"ruleId": 35, "result": false, "reason": "家里偶尔会养鸽子"},
-    {"ruleId": 36, "result": true, "reason": "鸽子在历史（如通信）上很重要"},
-    {"ruleId": 37, "result": false, "reason": "古今皆有使用鸽子的情况"},
-    {"ruleId": 38, "result": false, "reason": "鸽子不常作为礼物送人"},
-    {"ruleId": 39, "result": true, "reason": "鸽子很少作为礼物出现"},
-    {"ruleId": 40, "result": false, "reason": "并非只有富人能养鸽子"},
-    {"ruleId": 41, "result": true, "reason": "各阶层都可能养鸽"},
-    {"ruleId": 42, "result": false, "reason": "活鸽子难以携带登机，有航空管制"},
-    {"ruleId": 43, "result": true, "reason": "公园等地找鸽子很容易"},
-    {"ruleId": 44, "result": false, "reason": "鸽子不需燃料"},
-    {"ruleId": 45, "result": false, "reason": "鸽子非一次性物品"},
-    {"ruleId": 46, "result": false, "reason": "四季均可使用/见到鸽子"},
-    {"ruleId": 47, "result": true, "reason": "鸽子可长期养且重复观赏"},
-    {"ruleId": 48, "result": false, "reason": "一般不需许可饲养鸽子"},
-    {"ruleId": 49, "result": true, "reason": "全球有大量鸽子"},
-    {"ruleId": 50, "result": false, "reason": "鸽子不只一个"},
-    {"ruleId": 51, "result": true, "reason": "鸽子容易受到外伤或死亡"},
-    {"ruleId": 52, "result": true, "reason": "鸽子体型小容易携带"},
-    {"ruleId": 53, "result": false, "reason": "鸽子不需电力"},
-    {"ruleId": 54, "result": false, "reason": "鸽子个体差异明显，尺寸不固定"},
-    {"ruleId": 55, "result": true, "reason": "鸽子是自然界生物"},
-    {"ruleId": 56, "result": false, "reason": "鸽子落水会湿，不会保持干燥"},
-    {"ruleId": 57, "result": false, "reason": "鸽子不会漂浮在水上"},
-    {"ruleId": 58, "result": false, "reason": "鸽子非金属"},
-    {"ruleId": 59, "result": true, "reason": "鸽子会发出咕咕叫等声音"},
-    {"ruleId": 60, "result": false, "reason": "鸽子羽色多为灰白"},
-    {"ruleId": 61, "result": false, "reason": "鸽子远小于人类"},
-    {"ruleId": 62, "result": false, "reason": "鸽子身体不透明"},
-    {"ruleId": 63, "result": false, "reason": "鸽子非机械体，不可拆分组件"},
-    {"ruleId": 64, "result": false, "reason": "鸽子羽毛不柔软到显著柔感"},
-    {"ruleId": 65, "result": false, "reason": "鸽子不可折叠压扁"},
-    {"ruleId": 66, "result": true, "reason": "养鸽需定期打理笼舍"},
-    {"ruleId": 67, "result": false, "reason": "鸽子身体无锋利边缘"},
-    {"ruleId": 68, "result": true, "reason": "鸽肉可食用"},
-    {"ruleId": 69, "result": false, "reason": "鸽子没强烈气味"},
-    {"ruleId": 70, "result": false, "reason": "鸽子很轻远小于100公斤"},
-    {"ruleId": 71, "result": false, "reason": "鸽子不能被穿戴"},
-    {"ruleId": 72, "result": true, "reason": "鸽子是温热动物可产生热量"},
-    {"ruleId": 73, "result": false, "reason": "鸽子正常情况下不会自燃"},
-    {"ruleId": 74, "result": false, "reason": "鸽子表面没有印文字"},
-    {"ruleId": 75, "result": false, "reason": "鸽子本体不需组装"},
-    {"ruleId": 76, "result": true, "reason": "鸽子死后能自然分解"},
-    {"ruleId": 77, "result": false, "reason": "鸽子身体不可堆叠"},
-    {"ruleId": 78, "result": false, "reason": "鸽子羽毛不具光泽反光特征"},
-    {"ruleId": 79, "result": false, "reason": "鸽子不被磁铁吸引"},
-    {"ruleId": 80, "result": true, "reason": "鸽子会叫能发声音"},
-    {"ruleId": 81, "result": false, "reason": "鸽子身体不强调吸水性"},
-    {"ruleId": 82, "result": false, "reason": "鸽骨架无法轻松弯曲"},
-    {"ruleId": 83, "result": false, "reason": "鸽子不会浮于水面"},
-    {"ruleId": 84, "result": true, "reason": "鸽子生命和状态随时间会变化"},
-    {"ruleId": 85, "result": false, "reason": "鸽子左右形态不完全对称"},
-    {"ruleId": 86, "result": false, "reason": "鸽子损坏（受伤）难以自修复"},
-    {"ruleId": 87, "result": false, "reason": "鸽子不需燃料"},
-    {"ruleId": 88, "result": true, "reason": "鸽子属于活物"},
-    {"ruleId": 89, "result": false, "reason": "鸽子一般不会在水下生存"},
-    {"ruleId": 90, "result": false, "reason": "鸽子体内不含塑料"},
-    {"ruleId": 91, "result": false, "reason": "鸽子不是木头"},
-    {"ruleId": 92, "result": false, "reason": "鸽子不能“安全加热”"},
-    {"ruleId": 93, "result": false, "reason": "养鸽时通常不需特殊储存"},
-    {"ruleId": 94, "result": false, "reason": "鸽子非手工制作"},
-    {"ruleId": 95, "result": false, "reason": "鸽子需要打理但不算容易清洁"},
-    {"ruleId": 96, "result": false, "reason": "鸽子不总是成对出现"},
-    {"ruleId": 97, "result": true, "reason": "鸽子个头小，可用手握住"},
-    {"ruleId": 98, "result": true, "reason": "鸽有多种羽毛颜色"},
-    {"ruleId": 99, "result": false, "reason": "鸽子摸起来不坚硬"},
-    {"ruleId": 100, "result": true, "reason": "鸽子由动物组织组成，材质单一"},
-    {"ruleId": 101, "result": true, "reason": "“鸽子”共两个字"},
-    {"ruleId": 102, "result": false, "reason": "非三个字"},
-    {"ruleId": 103, "result": false, "reason": "非四个字"},
-    {"ruleId": 104, "result": false, "reason": "非一个字"},
-    {"ruleId": 105, "result": false, "reason": "无“心”及其偏旁"},
-    {"ruleId": 106, "result": false, "reason": "无“草”及其偏旁"},
-    {"ruleId": 107, "result": false, "reason": "无“水”及其偏旁"},
-    {"ruleId": 108, "result": false, "reason": "无“金”及其偏旁"},
-    {"ruleId": 109, "result": false, "reason": "无“木”及其偏旁"},
-    {"ruleId": 110, "result": false, "reason": "无“火”及其偏旁"},
-    {"ruleId": 111, "result": false, "reason": "无“土”及其偏旁"},
-    {"ruleId": 112, "result": false, "reason": "无“日”及其偏旁"},
-    {"ruleId": 113, "result": false, "reason": "无“走”及其偏旁"},
-    {"ruleId": 114, "result": true, "reason": "“鸽”含“鸟”部，鸟部上下结构类似山"},
-    {"ruleId": 115, "result": false, "reason": "无“川”及其偏旁"},
-    {"ruleId": 116, "result": false, "reason": "无“雨”及其偏旁"},
-    {"ruleId": 117, "result": false, "reason": "无“人”及其偏旁"},
-    {"ruleId": 118, "result": false, "reason": "无“手”及其偏旁"},
-    {"ruleId": 119, "result": false, "reason": "无“王”及其偏旁"},
-    {"ruleId": 120, "result": false, "reason": "无“口”及其偏旁"},
-    {"ruleId": 121, "result": false, "reason": "无“目”及其偏旁"},
-    {"ruleId": 122, "result": false, "reason": "无“耳”及其偏旁"},
-    {"ruleId": 123, "result": false, "reason": "无“足”及其偏旁"},
-    {"ruleId": 124, "result": false, "reason": "无“言”及其偏旁"},
-    {"ruleId": 125, "result": false, "reason": "无“食”及其偏旁"},
-    {"ruleId": 126, "result": false, "reason": "无“衣”及其偏旁"},
-    {"ruleId": 127, "result": true, "reason": "“鸽”含“鸟”，属于马旁扩展类"},
-    {"ruleId": 128, "result": false, "reason": "无“鱼”及其偏旁"},
-    {"ruleId": 129, "result": true, "reason": "“鸽”含鸟部"},
-    {"ruleId": 130, "result": false, "reason": "无“车”及其偏旁"},
-    {"ruleId": 131, "result": true, "reason": "“鸽”为左右结构"},
-    {"ruleId": 132, "result": false, "reason": "“鸽子”不含上下结构字"},
-    {"ruleId": 133, "result": false, "reason": "鸽和子部首不同"},
-    {"ruleId": 134, "result": true, "reason": "两字部首不同"},
-    {"ruleId": 135, "result": true, "reason": "“子”为3画，少于7画"},
-    {"ruleId": 136, "result": true, "reason": "两字都少于10画"},
-    {"ruleId": 137, "result": true, "reason": "“鸽”为11画，少于15画"},
-    {"ruleId": 138, "result": false, "reason": "“鸽”为11画，“子”为3画，并非都大于12画"},
-    {"ruleId": 139, "result": false, "reason": "11→3非递增"},
-    {"ruleId": 140, "result": true, "reason": "11→3为递减"},
-    {"ruleId": 141, "result": false, "reason": "“鸽”第一声，“子”轻声/第三声，有差异"},
-    {"ruleId": 142, "result": true, "reason": "声调不同"},
-    {"ruleId": 143, "result": false, "reason": "“鸽”为第一声"},
-    {"ruleId": 144, "result": true, "reason": "无第二声"},
-    {"ruleId": 145, "result": false, "reason": "“子”可为第三声"},
-    {"ruleId": 146, "result": true, "reason": "没有第四声"},
-    {"ruleId": 147, "result": true, "reason": "“鸽”为第一声"},
-    {"ruleId": 148, "result": false, "reason": "无第二声"},
-    {"ruleId": 149, "result": true, "reason": "“子”常为第三声"},
-    {"ruleId": 150, "result": false, "reason": "无第四声"}
+    {
+      "ruleId": 1,
+      "result": true,
+      "reason": "鸽子被家养和驯化已有几千年历史"
+    },
+    {
+      "ruleId": 2,
+      "result": false,
+      "reason": "鸽子并非新事物，早已存在"
+    },
+    {
+      "ruleId": 3,
+      "result": false,
+      "reason": "不是大多数家庭都有"
+    },
+    {
+      "ruleId": 4,
+      "result": false,
+      "reason": "大部分人家中没有鸽子，属于较稀有"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "鸟类养殖并非儿童更多使用"
+    },
+    {
+      "ruleId": 6,
+      "result": false,
+      "reason": "很多人对鸽子没兴趣"
+    },
+    {
+      "ruleId": 7,
+      "result": false,
+      "reason": "并不是每个人都需要鸽子"
+    },
+    {
+      "ruleId": 8,
+      "result": false,
+      "reason": "鸽子一般无助于完成工作"
+    },
+    {
+      "ruleId": 9,
+      "result": false,
+      "reason": "鸽子平时也能见到，不限特殊场合"
+    },
+    {
+      "ruleId": 10,
+      "result": false,
+      "reason": "很多城市日常都可见到鸽子"
+    },
+    {
+      "ruleId": 11,
+      "result": false,
+      "reason": "作为宠物鸽属于个人物品"
+    },
+    {
+      "ruleId": 12,
+      "result": true,
+      "reason": "公园鸽子等多可多人共享"
+    },
+    {
+      "ruleId": 13,
+      "result": false,
+      "reason": "鸽子不是用电力工作的"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "鸽子各国均有，不限于某文化"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "鸽子各大洲国家均能见到"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "鸽子不是用后即丢弃的物品"
+    },
+    {
+      "ruleId": 17,
+      "result": true,
+      "reason": "鸽子生命可多年存活"
+    },
+    {
+      "ruleId": 18,
+      "result": true,
+      "reason": "家养鸽子一般在室内"
+    },
+    {
+      "ruleId": 19,
+      "result": true,
+      "reason": "野生及部分家鸽都在室外"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "多数人亲眼见过鸽子"
+    },
+    {
+      "ruleId": 21,
+      "result": false,
+      "reason": "很少在普通商店直接买到鸽子"
+    },
+    {
+      "ruleId": 22,
+      "result": false,
+      "reason": "办公室不常见鸽子"
+    },
+    {
+      "ruleId": 23,
+      "result": false,
+      "reason": "学校里也不常见鸽子"
+    },
+    {
+      "ruleId": 24,
+      "result": true,
+      "reason": "观赏鸽子能让人愉悦"
+    },
+    {
+      "ruleId": 25,
+      "result": false,
+      "reason": "看鸽子不会令人生危险感"
+    },
+    {
+      "ruleId": 26,
+      "result": true,
+      "reason": "观赏鸽常被娱乐使用"
+    },
+    {
+      "ruleId": 27,
+      "result": false,
+      "reason": "一般不用于工作或重要任务"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "全年均可见和饲养鸽子"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "鸽子全年都可观赏饲养"
+    },
+    {
+      "ruleId": 30,
+      "result": false,
+      "reason": "养鸽学习门槛不高"
+    },
+    {
+      "ruleId": 31,
+      "result": true,
+      "reason": "操作简易，普通人也可饲养"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "正式场合很少见鸽子出现"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "公园等休闲环境常见鸽子"
+    },
+    {
+      "ruleId": 34,
+      "result": true,
+      "reason": "有人喜欢养鸽子并进行收藏"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "家里偶尔会养鸽子"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "鸽子在历史（如通信）上很重要"
+    },
+    {
+      "ruleId": 37,
+      "result": false,
+      "reason": "古今皆有使用鸽子的情况"
+    },
+    {
+      "ruleId": 38,
+      "result": false,
+      "reason": "鸽子不常作为礼物送人"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "鸽子很少作为礼物出现"
+    },
+    {
+      "ruleId": 40,
+      "result": false,
+      "reason": "并非只有富人能养鸽子"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "各阶层都可能养鸽"
+    },
+    {
+      "ruleId": 42,
+      "result": false,
+      "reason": "活鸽子难以携带登机，有航空管制"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "公园等地找鸽子很容易"
+    },
+    {
+      "ruleId": 44,
+      "result": false,
+      "reason": "鸽子不需燃料"
+    },
+    {
+      "ruleId": 45,
+      "result": false,
+      "reason": "鸽子非一次性物品"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "四季均可使用/见到鸽子"
+    },
+    {
+      "ruleId": 47,
+      "result": true,
+      "reason": "鸽子可长期养且重复观赏"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "一般不需许可饲养鸽子"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "全球有大量鸽子"
+    },
+    {
+      "ruleId": 50,
+      "result": false,
+      "reason": "鸽子不只一个"
+    },
+    {
+      "ruleId": 51,
+      "result": true,
+      "reason": "鸽子容易受到外伤或死亡"
+    },
+    {
+      "ruleId": 52,
+      "result": true,
+      "reason": "鸽子体型小容易携带"
+    },
+    {
+      "ruleId": 53,
+      "result": false,
+      "reason": "鸽子不需电力"
+    },
+    {
+      "ruleId": 54,
+      "result": false,
+      "reason": "鸽子个体差异明显，尺寸不固定"
+    },
+    {
+      "ruleId": 55,
+      "result": true,
+      "reason": "鸽子是自然界生物"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "鸽子落水会湿，不会保持干燥"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "鸽子不会漂浮在水上"
+    },
+    {
+      "ruleId": 58,
+      "result": false,
+      "reason": "鸽子非金属"
+    },
+    {
+      "ruleId": 59,
+      "result": true,
+      "reason": "鸽子会发出咕咕叫等声音"
+    },
+    {
+      "ruleId": 60,
+      "result": false,
+      "reason": "鸽子羽色多为灰白"
+    },
+    {
+      "ruleId": 61,
+      "result": false,
+      "reason": "鸽子远小于人类"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "鸽子身体不透明"
+    },
+    {
+      "ruleId": 63,
+      "result": false,
+      "reason": "鸽子非机械体，不可拆分组件"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "鸽子羽毛不柔软到显著柔感"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "鸽子不可折叠压扁"
+    },
+    {
+      "ruleId": 66,
+      "result": true,
+      "reason": "养鸽需定期打理笼舍"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "鸽子身体无锋利边缘"
+    },
+    {
+      "ruleId": 68,
+      "result": true,
+      "reason": "鸽肉可食用"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "鸽子没强烈气味"
+    },
+    {
+      "ruleId": 70,
+      "result": false,
+      "reason": "鸽子很轻远小于100公斤"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "鸽子不能被穿戴"
+    },
+    {
+      "ruleId": 72,
+      "result": true,
+      "reason": "鸽子是温热动物可产生热量"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "鸽子正常情况下不会自燃"
+    },
+    {
+      "ruleId": 74,
+      "result": false,
+      "reason": "鸽子表面没有印文字"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "鸽子本体不需组装"
+    },
+    {
+      "ruleId": 76,
+      "result": true,
+      "reason": "鸽子死后能自然分解"
+    },
+    {
+      "ruleId": 77,
+      "result": false,
+      "reason": "鸽子身体不可堆叠"
+    },
+    {
+      "ruleId": 78,
+      "result": false,
+      "reason": "鸽子羽毛不具光泽反光特征"
+    },
+    {
+      "ruleId": 79,
+      "result": false,
+      "reason": "鸽子不被磁铁吸引"
+    },
+    {
+      "ruleId": 80,
+      "result": true,
+      "reason": "鸽子会叫能发声音"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "鸽子身体不强调吸水性"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "鸽骨架无法轻松弯曲"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "鸽子不会浮于水面"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "鸽子生命和状态随时间会变化"
+    },
+    {
+      "ruleId": 85,
+      "result": false,
+      "reason": "鸽子左右形态不完全对称"
+    },
+    {
+      "ruleId": 86,
+      "result": false,
+      "reason": "鸽子损坏（受伤）难以自修复"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "鸽子不需燃料"
+    },
+    {
+      "ruleId": 88,
+      "result": true,
+      "reason": "鸽子属于活物"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "鸽子一般不会在水下生存"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "鸽子体内不含塑料"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "鸽子不是木头"
+    },
+    {
+      "ruleId": 92,
+      "result": false,
+      "reason": "鸽子不能“安全加热”"
+    },
+    {
+      "ruleId": 93,
+      "result": false,
+      "reason": "养鸽时通常不需特殊储存"
+    },
+    {
+      "ruleId": 94,
+      "result": false,
+      "reason": "鸽子非手工制作"
+    },
+    {
+      "ruleId": 95,
+      "result": false,
+      "reason": "鸽子需要打理但不算容易清洁"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "鸽子不总是成对出现"
+    },
+    {
+      "ruleId": 97,
+      "result": true,
+      "reason": "鸽子个头小，可用手握住"
+    },
+    {
+      "ruleId": 98,
+      "result": true,
+      "reason": "鸽有多种羽毛颜色"
+    },
+    {
+      "ruleId": 99,
+      "result": false,
+      "reason": "鸽子摸起来不坚硬"
+    },
+    {
+      "ruleId": 100,
+      "result": true,
+      "reason": "鸽子由动物组织组成，材质单一"
+    },
+    {
+      "ruleId": 101,
+      "result": true,
+      "reason": "“鸽子”共两个字"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "非三个字"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "非四个字"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "非一个字"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "无“心”及其偏旁"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "无“草”及其偏旁"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "无“水”及其偏旁"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "无“金”及其偏旁"
+    },
+    {
+      "ruleId": 109,
+      "result": false,
+      "reason": "无“木”及其偏旁"
+    },
+    {
+      "ruleId": 110,
+      "result": false,
+      "reason": "无“火”及其偏旁"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "无“土”及其偏旁"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "无“日”及其偏旁"
+    },
+    {
+      "ruleId": 113,
+      "result": false,
+      "reason": "无“走”及其偏旁"
+    },
+    {
+      "ruleId": 114,
+      "result": true,
+      "reason": "“鸽”含“鸟”部，鸟部上下结构类似山"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "无“川”及其偏旁"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "无“雨”及其偏旁"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "无“人”及其偏旁"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "无“手”及其偏旁"
+    },
+    {
+      "ruleId": 119,
+      "result": false,
+      "reason": "无“王”及其偏旁"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "无“口”及其偏旁"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "无“目”及其偏旁"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "无“耳”及其偏旁"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "无“足”及其偏旁"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "无“言”及其偏旁"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "无“食”及其偏旁"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "无“衣”及其偏旁"
+    },
+    {
+      "ruleId": 127,
+      "result": true,
+      "reason": "“鸽”含“鸟”，属于马旁扩展类"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "无“鱼”及其偏旁"
+    },
+    {
+      "ruleId": 129,
+      "result": true,
+      "reason": "“鸽”含鸟部"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "无“车”及其偏旁"
+    },
+    {
+      "ruleId": 131,
+      "result": true,
+      "reason": "“鸽”为左右结构"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "“鸽子”不含上下结构字"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "鸽和子部首不同"
+    },
+    {
+      "ruleId": 134,
+      "result": true,
+      "reason": "两字部首不同"
+    },
+    {
+      "ruleId": 135,
+      "result": true,
+      "reason": "“子”为3画，少于7画"
+    },
+    {
+      "ruleId": 136,
+      "result": true,
+      "reason": "两字都少于10画"
+    },
+    {
+      "ruleId": 137,
+      "result": true,
+      "reason": "“鸽”为11画，少于15画"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "“鸽”为11画，“子”为3画，并非都大于12画"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "11→3非递增"
+    },
+    {
+      "ruleId": 140,
+      "result": true,
+      "reason": "11→3为递减"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "“鸽”第一声，“子”轻声/第三声，有差异"
+    },
+    {
+      "ruleId": 142,
+      "result": true,
+      "reason": "声调不同"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "“鸽”为第一声"
+    },
+    {
+      "ruleId": 144,
+      "result": true,
+      "reason": "无第二声"
+    },
+    {
+      "ruleId": 145,
+      "result": false,
+      "reason": "“子”可为第三声"
+    },
+    {
+      "ruleId": 146,
+      "result": true,
+      "reason": "没有第四声"
+    },
+    {
+      "ruleId": 147,
+      "result": true,
+      "reason": "“鸽”为第一声"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "无第二声"
+    },
+    {
+      "ruleId": 149,
+      "result": true,
+      "reason": "“子”常为第三声"
+    },
+    {
+      "ruleId": 150,
+      "result": false,
+      "reason": "无第四声"
+    }
   ]
 }

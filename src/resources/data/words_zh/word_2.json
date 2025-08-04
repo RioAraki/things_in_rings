@@ -1,157 +1,757 @@
 {
-  "id": 2,
+  "id": "2",
   "word": "企鹅",
   "word_en": "Penguin",
   "questions": [
-    {"ruleId": 1, "result": true, "reason": "企鹅是古老的物种（已进化数百万年）"},
-    {"ruleId": 2, "result": false, "reason": "企鹅不是新事物，已经存在很久"},
-    {"ruleId": 3, "result": false, "reason": "大多数家庭没有企鹅"},
-    {"ruleId": 4, "result": true, "reason": "企鹅是稀有动物，不是每个人都能拥有"},
-    {"ruleId": 5, "result": false, "reason": "企鹅不是主要面向儿童的动物"},
-    {"ruleId": 6, "result": true, "reason": "大部分人对企鹅没有深入兴趣"},
-    {"ruleId": 7, "result": false, "reason": "企鹅不是每个人都需要的东西"},
-    {"ruleId": 8, "result": true, "reason": "企鹅可以用于科研工作"},
-    {"ruleId": 9, "result": true, "reason": "企鹅只能在特殊场合见到（动物园、南极）"},
-    {"ruleId": 10, "result": false, "reason": "日常生活中见不到企鹅"},
-    {"ruleId": 11, "result": false, "reason": "企鹅通常不属于个人"},
-    {"ruleId": 12, "result": true, "reason": "企鹅在动物园中被多人共享观赏"},
-    {"ruleId": 13, "result": false, "reason": "企鹅不需要电力"},
-    {"ruleId": 14, "result": false, "reason": "企鹅不是特定国家或文化的产物"},
-    {"ruleId": 15, "result": true, "reason": "企鹅在许多国家的动物园都能找到"},
-    {"ruleId": 16, "result": false, "reason": "企鹅不是使用后丢弃的物品"},
-    {"ruleId": 17, "result": true, "reason": "企鹅可以存活多年"},
-    {"ruleId": 18, "result": true, "reason": "企鹅在室内（动物园）可以饲养"},
-    {"ruleId": 19, "result": true, "reason": "企鹅主要在自然环境中生活"},
-    {"ruleId": 20, "result": true, "reason": "大部分人亲眼见过企鹅（动物园或电视）"},
-    {"ruleId": 21, "result": false, "reason": "普通商店买不到企鹅"},
-    {"ruleId": 22, "result": false, "reason": "在办公室不会见到企鹅"},
-    {"ruleId": 23, "result": false, "reason": "在学校不常见到企鹅"},
-    {"ruleId": 24, "result": true, "reason": "观看企鹅让人感到快乐"},
-    {"ruleId": 25, "result": false, "reason": "企鹅通常不危险"},
-    {"ruleId": 26, "result": true, "reason": "企鹅形象用于娱乐或游戏"},
-    {"ruleId": 27, "result": true, "reason": "企鹅被用于科研工作"},
-    {"ruleId": 28, "result": false, "reason": "企鹅全年都存在"},
-    {"ruleId": 29, "result": true, "reason": "企鹅不受季节限制"},
-    {"ruleId": 30, "result": true, "reason": "了解企鹅需要一定的专业知识"},
-    {"ruleId": 31, "result": false, "reason": "照顾企鹅不容易"},
-    {"ruleId": 32, "result": true, "reason": "企鹅在科研机构等正式场合出现"},
-    {"ruleId": 33, "result": true, "reason": "企鹅形象在轻松、休闲环境中使用"},
-    {"ruleId": 34, "result": true, "reason": "人们喜欢收藏企鹅相关物品"},
-    {"ruleId": 35, "result": true, "reason": "一般家庭中见不到真的企鹅"},
-    {"ruleId": 36, "result": true, "reason": "企鹅在生态史上很重要"},
-    {"ruleId": 37, "result": false, "reason": "企鹅不是现代才出现的物种"},
-    {"ruleId": 38, "result": true, "reason": "企鹅玩具经常作为礼物"},
-    {"ruleId": 39, "result": false, "reason": "企鹅玩具是常见礼物"},
-    {"ruleId": 40, "result": false, "reason": "不仅有钱人才能看到企鹅"},
-    {"ruleId": 41, "result": true, "reason": "各收入阶层的人都可以观赏企鹅"},
-    {"ruleId": 42, "result": false, "reason": "活体企鹅不能带上飞机"},
-    {"ruleId": 43, "result": false, "reason": "在一般城市找不到真的企鹅"},
-    {"ruleId": 44, "result": false, "reason": "企鹅不需要燃料"},
-    {"ruleId": 45, "result": false, "reason": "企鹅不是一次性使用的物品"},
-    {"ruleId": 46, "result": false, "reason": "企鹅不是季节性动物"},
-    {"ruleId": 47, "result": true, "reason": "可以多次观察同一只企鹅"},
-    {"ruleId": 48, "result": true, "reason": "饲养企鹅需要许可"},
-    {"ruleId": 49, "result": true, "reason": "世界上存在很多企鹅"},
-    {"ruleId": 50, "result": false, "reason": "世界上有多种企鹅"},
-    {"ruleId": 51, "result": true, "reason": "企鹅容易受到环境变化的影响"},
-    {"ruleId": 52, "result": false, "reason": "企鹅体型较大，不易携带"},
-    {"ruleId": 53, "result": false, "reason": "企鹅不需要电力才能活动"},
-    {"ruleId": 54, "result": true, "reason": "企鹅体型大小相对固定"},
-    {"ruleId": 55, "result": true, "reason": "企鹅在自然界中存在"},
-    {"ruleId": 56, "result": false, "reason": "企鹅在水中不能保持干燥"},
-    {"ruleId": 57, "result": true, "reason": "企鹅能在水中漂浮"},
-    {"ruleId": 58, "result": false, "reason": "企鹅不是由金属制成"},
-    {"ruleId": 59, "result": true, "reason": "企鹅使用时会发出声音"},
-    {"ruleId": 60, "result": false, "reason": "企鹅不是颜色鲜艳的动物"},
-    {"ruleId": 61, "result": false, "reason": "企鹅比人类小"},
-    {"ruleId": 62, "result": false, "reason": "企鹅不是透明的"},
-    {"ruleId": 63, "result": true, "reason": "企鹅可以分为多个部分（翅膀、头等）"},
-    {"ruleId": 64, "result": true, "reason": "企鹅摸起来有羽毛，感觉柔软"},
-    {"ruleId": 65, "result": false, "reason": "企鹅不能折叠或压扁"},
-    {"ruleId": 66, "result": true, "reason": "企鹅需要保养维护"},
-    {"ruleId": 67, "result": false, "reason": "企鹅没有锋利的边缘"},
-    {"ruleId": 68, "result": false, "reason": "企鹅不可食用（受保护动物）"},
-    {"ruleId": 69, "result": true, "reason": "企鹅有特殊的气味"},
-    {"ruleId": 70, "result": false, "reason": "成年企鹅一般不超过100公斤"},
-    {"ruleId": 71, "result": false, "reason": "企鹅不能穿戴"},
-    {"ruleId": 72, "result": true, "reason": "企鹅会产生热量（体温）"},
-    {"ruleId": 73, "result": false, "reason": "企鹅不易着火"},
-    {"ruleId": 74, "result": false, "reason": "企鹅身上没有文字"},
-    {"ruleId": 75, "result": false, "reason": "企鹅不需要组装"},
-    {"ruleId": 76, "result": true, "reason": "企鹅在自然界中会分解"},
-    {"ruleId": 77, "result": false, "reason": "企鹅不能堆叠"},
-    {"ruleId": 78, "result": true, "reason": "企鹅羽毛有光泽"},
-    {"ruleId": 79, "result": false, "reason": "企鹅不会被磁铁吸引"},
-    {"ruleId": 80, "result": true, "reason": "企鹅会发出声音"},
-    {"ruleId": 81, "result": false, "reason": "企鹅羽毛不吸水"},
-    {"ruleId": 82, "result": false, "reason": "企鹅身体不易弯曲"},
-    {"ruleId": 83, "result": false, "reason": "企鹅不能浮在水面上"},
-    {"ruleId": 84, "result": true, "reason": "企鹅会随时间变化（生长、衰老）"},
-    {"ruleId": 85, "result": true, "reason": "企鹅身体两侧形状相同"},
-    {"ruleId": 86, "result": false, "reason": "受伤的企鹅可以痊愈"},
-    {"ruleId": 87, "result": false, "reason": "企鹅不需要燃料"},
-    {"ruleId": 88, "result": true, "reason": "企鹅是活物"},
-    {"ruleId": 89, "result": true, "reason": "企鹅可以在水下活动"},
-    {"ruleId": 90, "result": false, "reason": "企鹅不含塑料"},
-    {"ruleId": 91, "result": false, "reason": "企鹅不含木头"},
-    {"ruleId": 92, "result": false, "reason": "企鹅不能安全加热"},
-    {"ruleId": 93, "result": true, "reason": "企鹅需要特殊储存环境"},
-    {"ruleId": 94, "result": true, "reason": "企鹅是自然生成的，不是手工制作"},
-    {"ruleId": 95, "result": false, "reason": "企鹅自身会清洁羽毛"},
-    {"ruleId": 96, "result": true, "reason": "企鹅通常成对出现"},
-    {"ruleId": 97, "result": true, "reason": "企鹅可以用手握住（小型企鹅）"},
-    {"ruleId": 98, "result": false, "reason": "企鹅只有有限的几种颜色"},
-    {"ruleId": 99, "result": true, "reason": "企鹅身体摸起来较硬（骨骼）"},
-    {"ruleId": 100, "result": false, "reason": "企鹅由多种材质组成（骨骼、器官等）"},
-    {"ruleId": 101, "result": false, "reason": "企鹅不是一个字"},
-    {"ruleId": 102, "result": true, "reason": "企鹅是两个字"},
-    {"ruleId": 103, "result": false, "reason": "企鹅不是三个字"},
-    {"ruleId": 104, "result": false, "reason": "不是一个字"},
-    {"ruleId": 105, "result": false, "reason": "企鹅不包含'心'字或偏旁"},
-    {"ruleId": 106, "result": false, "reason": "企鹅不包含'草'字或偏旁"},
-    {"ruleId": 107, "result": false, "reason": "企鹅不包含'水'字或偏旁"},
-    {"ruleId": 108, "result": false, "reason": "企鹅不包含'金'字或偏旁"},
-    {"ruleId": 109, "result": false, "reason": "企鹅不包含'木'字或偏旁"},
-    {"ruleId": 110, "result": false, "reason": "企鹅不包含'火'字或偏旁"},
-    {"ruleId": 111, "result": false, "reason": "企鹅不包含'土'字或偏旁"},
-    {"ruleId": 112, "result": false, "reason": "企鹅不包含'日'字或偏旁"},
-    {"ruleId": 113, "result": false, "reason": "企鹅不包含'月'字或偏旁"},
-    {"ruleId": 114, "result": false, "reason": "企鹅不包含'山'字或偏旁"},
-    {"ruleId": 115, "result": false, "reason": "企鹅不包含'川'字或偏旁"},
-    {"ruleId": 116, "result": false, "reason": "企鹅不包含'雨'字或偏旁"},
-    {"ruleId": 117, "result": true, "reason": "企鹅包含'人'字或偏旁"},
-    {"ruleId": 118, "result": false, "reason": "企鹅不包含'手'字或偏旁"},
-    {"ruleId": 119, "result": false, "reason": "企鹅不包含'王'字或偏旁"},
-    {"ruleId": 120, "result": false, "reason": "企鹅不包含'口'字或偏旁"},
-    {"ruleId": 121, "result": false, "reason": "企鹅不包含'目'字或偏旁"},
-    {"ruleId": 122, "result": false, "reason": "企鹅不包含'耳'字或偏旁"},
-    {"ruleId": 123, "result": false, "reason": "企鹅不包含'足'字或偏旁"},
-    {"ruleId": 124, "result": false, "reason": "企鹅不包含'言'字或偏旁"},
-    {"ruleId": 125, "result": false, "reason": "企鹅不包含'食'字或偏旁"},
-    {"ruleId": 126, "result": false, "reason": "企鹅不包含'衣'字或偏旁"},
-    {"ruleId": 127, "result": false, "reason": "企鹅不包含'马'字或偏旁"},
-    {"ruleId": 128, "result": false, "reason": "企鹅不包含'鱼'字或偏旁"},
-    {"ruleId": 129, "result": false, "reason": "企鹅不包含'鸟'字或偏旁"},
-    {"ruleId": 130, "result": false, "reason": "企鹅不包含'车'字或偏旁"},
-    {"ruleId": 131, "result": true, "reason": "企鹅包含左右结构的字"},
-    {"ruleId": 132, "result": false, "reason": "企鹅不包含上下结构的字"},
-    {"ruleId": 133, "result": false, "reason": "企鹅字的偏旁不一样"},
-    {"ruleId": 134, "result": true, "reason": "企鹅所有字的偏旁都不一样"},
-    {"ruleId": 135, "result": true, "reason": "企鹅笔画最少的字少于7画"},
-    {"ruleId": 136, "result": true, "reason": "企鹅所有字笔画都少于10画"},
-    {"ruleId": 137, "result": true, "reason": "企鹅笔画最多的字少于15画"},
-    {"ruleId": 138, "result": false, "reason": "企鹅不是所有字都多于12画"},
-    {"ruleId": 139, "result": false, "reason": "企鹅笔画不是递增的"},
-    {"ruleId": 140, "result": false, "reason": "企鹅笔画不是递减的"},
-    {"ruleId": 141, "result": false, "reason": "企鹅声调不相同"},
-    {"ruleId": 142, "result": true, "reason": "企鹅每个字声调都不同"},
-    {"ruleId": 143, "result": false, "reason": "不包含任何第一声的字"},
-    {"ruleId": 144, "result": true, "reason": "不包含任何第二声的字"},
-    {"ruleId": 145, "result": false, "reason": "包含第三声的字"},
-    {"ruleId": 146, "result": true, "reason": "不包含任何第四声的字"},
-    {"ruleId": 147, "result": false, "reason": "不包含第一声的字"},
-    {"ruleId": 148, "result": true, "reason": "不包含第二声的字"},
-    {"ruleId": 149, "result": true, "reason": "包含第三声的字"},
-    {"ruleId": 150, "result": false, "reason": "不包含第四声的字"}
+    {
+      "ruleId": 1,
+      "result": true,
+      "reason": "企鹅是古老的物种（已进化数百万年）"
+    },
+    {
+      "ruleId": 2,
+      "result": false,
+      "reason": "企鹅不是新事物，已经存在很久"
+    },
+    {
+      "ruleId": 3,
+      "result": false,
+      "reason": "大多数家庭没有企鹅"
+    },
+    {
+      "ruleId": 4,
+      "result": false,
+      "reason": "企鹅活不了那么久"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "企鹅不是主要面向儿童的动物"
+    },
+    {
+      "ruleId": 6,
+      "result": false,
+      "reason": "大部分人对企鹅没有深入兴趣"
+    },
+    {
+      "ruleId": 7,
+      "result": false,
+      "reason": "企鹅不是每个人都需要的东西"
+    },
+    {
+      "ruleId": 8,
+      "result": false,
+      "reason": "企鹅可以用于科研工作"
+    },
+    {
+      "ruleId": 9,
+      "result": true,
+      "reason": "企鹅只能在特殊场合见到（动物园、南极）"
+    },
+    {
+      "ruleId": 10,
+      "result": false,
+      "reason": "日常生活中见不到企鹅"
+    },
+    {
+      "ruleId": 11,
+      "result": false,
+      "reason": "企鹅通常不属于个人"
+    },
+    {
+      "ruleId": 12,
+      "result": true,
+      "reason": "企鹅在动物园中被多人共享观赏"
+    },
+    {
+      "ruleId": 13,
+      "result": false,
+      "reason": "企鹅不需要电力"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "企鹅不是特定国家或文化的产物"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "企鹅在许多国家的动物园都能找到"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "企鹅不是使用后丢弃的物品"
+    },
+    {
+      "ruleId": 17,
+      "result": true,
+      "reason": "企鹅可以存活多年"
+    },
+    {
+      "ruleId": 18,
+      "result": true,
+      "reason": "企鹅在室内（动物园）可以饲养"
+    },
+    {
+      "ruleId": 19,
+      "result": true,
+      "reason": "企鹅主要在自然环境中生活"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "大部分人亲眼见过企鹅（动物园或电视）"
+    },
+    {
+      "ruleId": 21,
+      "result": false,
+      "reason": "普通商店买不到企鹅"
+    },
+    {
+      "ruleId": 22,
+      "result": false,
+      "reason": "在办公室不会见到企鹅"
+    },
+    {
+      "ruleId": 23,
+      "result": false,
+      "reason": "在学校不常见到企鹅"
+    },
+    {
+      "ruleId": 24,
+      "result": true,
+      "reason": "观看企鹅让人感到快乐"
+    },
+    {
+      "ruleId": 25,
+      "result": false,
+      "reason": "企鹅通常不危险"
+    },
+    {
+      "ruleId": 26,
+      "result": true,
+      "reason": "企鹅形象用于娱乐或游戏"
+    },
+    {
+      "ruleId": 27,
+      "result": true,
+      "reason": "企鹅被用于科研工作"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "企鹅全年都存在"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "企鹅不受季节限制"
+    },
+    {
+      "ruleId": 30,
+      "result": true,
+      "reason": "了解企鹅需要一定的专业知识"
+    },
+    {
+      "ruleId": 31,
+      "result": false,
+      "reason": "照顾企鹅不容易"
+    },
+    {
+      "ruleId": 32,
+      "result": true,
+      "reason": "企鹅在科研机构等正式场合出现"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "企鹅形象在轻松、休闲环境中使用"
+    },
+    {
+      "ruleId": 34,
+      "result": true,
+      "reason": "人们喜欢收藏企鹅相关物品"
+    },
+    {
+      "ruleId": 35,
+      "result": true,
+      "reason": "一般家庭中见不到真的企鹅"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "企鹅在生态史上很重要"
+    },
+    {
+      "ruleId": 37,
+      "result": false,
+      "reason": "企鹅不是现代才出现的物种"
+    },
+    {
+      "ruleId": 38,
+      "result": true,
+      "reason": "企鹅玩具经常作为礼物"
+    },
+    {
+      "ruleId": 39,
+      "result": false,
+      "reason": "企鹅玩具是常见礼物"
+    },
+    {
+      "ruleId": 40,
+      "result": false,
+      "reason": "不仅有钱人才能看到企鹅"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "各收入阶层的人都可以观赏企鹅"
+    },
+    {
+      "ruleId": 42,
+      "result": false,
+      "reason": "活体企鹅不能带上飞机"
+    },
+    {
+      "ruleId": 43,
+      "result": false,
+      "reason": "在一般城市找不到真的企鹅"
+    },
+    {
+      "ruleId": 44,
+      "result": false,
+      "reason": "企鹅不需要燃料"
+    },
+    {
+      "ruleId": 45,
+      "result": false,
+      "reason": "企鹅不是一次性使用的物品"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "企鹅不是季节性动物"
+    },
+    {
+      "ruleId": 47,
+      "result": true,
+      "reason": "可以多次观察同一只企鹅"
+    },
+    {
+      "ruleId": 48,
+      "result": true,
+      "reason": "饲养企鹅需要许可"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "世界上存在很多企鹅"
+    },
+    {
+      "ruleId": 50,
+      "result": false,
+      "reason": "世界上有多种企鹅"
+    },
+    {
+      "ruleId": 51,
+      "result": true,
+      "reason": "企鹅容易受到环境变化的影响"
+    },
+    {
+      "ruleId": 52,
+      "result": false,
+      "reason": "企鹅体型较大，不易携带"
+    },
+    {
+      "ruleId": 53,
+      "result": false,
+      "reason": "企鹅不需要电力才能活动"
+    },
+    {
+      "ruleId": 54,
+      "result": true,
+      "reason": "企鹅体型大小相对固定"
+    },
+    {
+      "ruleId": 55,
+      "result": true,
+      "reason": "企鹅在自然界中存在"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "企鹅在水中不能保持干燥"
+    },
+    {
+      "ruleId": 57,
+      "result": true,
+      "reason": "企鹅能在水中漂浮"
+    },
+    {
+      "ruleId": 58,
+      "result": false,
+      "reason": "企鹅不是由金属制成"
+    },
+    {
+      "ruleId": 59,
+      "result": true,
+      "reason": "企鹅使用时会发出声音"
+    },
+    {
+      "ruleId": 60,
+      "result": false,
+      "reason": "企鹅不是颜色鲜艳的动物"
+    },
+    {
+      "ruleId": 61,
+      "result": false,
+      "reason": "企鹅比人类小"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "企鹅不是透明的"
+    },
+    {
+      "ruleId": 63,
+      "result": true,
+      "reason": "企鹅可以分为多个部分（翅膀、头等）"
+    },
+    {
+      "ruleId": 64,
+      "result": true,
+      "reason": "企鹅摸起来有羽毛，感觉柔软"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "企鹅不能折叠或压扁"
+    },
+    {
+      "ruleId": 66,
+      "result": true,
+      "reason": "企鹅需要保养维护"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "企鹅没有锋利的边缘"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "企鹅不可食用（受保护动物）"
+    },
+    {
+      "ruleId": 69,
+      "result": true,
+      "reason": "企鹅有特殊的气味"
+    },
+    {
+      "ruleId": 70,
+      "result": false,
+      "reason": "成年企鹅一般不超过100公斤"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "企鹅不能穿戴"
+    },
+    {
+      "ruleId": 72,
+      "result": true,
+      "reason": "企鹅会产生热量（体温）"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "企鹅不易着火"
+    },
+    {
+      "ruleId": 74,
+      "result": false,
+      "reason": "企鹅身上没有文字"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "企鹅不需要组装"
+    },
+    {
+      "ruleId": 76,
+      "result": true,
+      "reason": "企鹅在自然界中会分解"
+    },
+    {
+      "ruleId": 77,
+      "result": false,
+      "reason": "企鹅不能堆叠"
+    },
+    {
+      "ruleId": 78,
+      "result": true,
+      "reason": "企鹅羽毛有光泽"
+    },
+    {
+      "ruleId": 79,
+      "result": false,
+      "reason": "企鹅不会被磁铁吸引"
+    },
+    {
+      "ruleId": 80,
+      "result": true,
+      "reason": "企鹅会发出声音"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "企鹅羽毛不吸水"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "企鹅身体不易弯曲"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "企鹅不能浮在水面上"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "企鹅会随时间变化（生长、衰老）"
+    },
+    {
+      "ruleId": 85,
+      "result": true,
+      "reason": "企鹅身体两侧形状相同"
+    },
+    {
+      "ruleId": 86,
+      "result": false,
+      "reason": "受伤的企鹅可以痊愈"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "企鹅不需要燃料"
+    },
+    {
+      "ruleId": 88,
+      "result": true,
+      "reason": "企鹅是活物"
+    },
+    {
+      "ruleId": 89,
+      "result": true,
+      "reason": "企鹅可以在水下活动"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "企鹅不含塑料"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "企鹅不含木头"
+    },
+    {
+      "ruleId": 92,
+      "result": false,
+      "reason": "企鹅不能安全加热"
+    },
+    {
+      "ruleId": 93,
+      "result": true,
+      "reason": "企鹅需要特殊储存环境"
+    },
+    {
+      "ruleId": 94,
+      "result": true,
+      "reason": "企鹅是自然生成的，不是手工制作"
+    },
+    {
+      "ruleId": 95,
+      "result": false,
+      "reason": "企鹅自身会清洁羽毛"
+    },
+    {
+      "ruleId": 96,
+      "result": true,
+      "reason": "企鹅通常成对出现"
+    },
+    {
+      "ruleId": 97,
+      "result": true,
+      "reason": "企鹅可以用手握住（小型企鹅）"
+    },
+    {
+      "ruleId": 98,
+      "result": false,
+      "reason": "企鹅只有有限的几种颜色"
+    },
+    {
+      "ruleId": 99,
+      "result": true,
+      "reason": "企鹅身体摸起来较硬（骨骼）"
+    },
+    {
+      "ruleId": 100,
+      "result": false,
+      "reason": "企鹅由多种材质组成（骨骼、器官等）"
+    },
+    {
+      "ruleId": 101,
+      "result": false,
+      "reason": "企鹅不是一个字"
+    },
+    {
+      "ruleId": 102,
+      "result": true,
+      "reason": "企鹅是两个字"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "企鹅不是三个字"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "不是一个字"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "企鹅不包含'心'字或偏旁"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "企鹅不包含'草'字或偏旁"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "企鹅不包含'水'字或偏旁"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "企鹅不包含'金'字或偏旁"
+    },
+    {
+      "ruleId": 109,
+      "result": false,
+      "reason": "企鹅不包含'木'字或偏旁"
+    },
+    {
+      "ruleId": 110,
+      "result": false,
+      "reason": "企鹅不包含'火'字或偏旁"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "企鹅不包含'土'字或偏旁"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "企鹅不包含'日'字或偏旁"
+    },
+    {
+      "ruleId": 113,
+      "result": false,
+      "reason": "企鹅不包含'月'字或偏旁"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "企鹅不包含'山'字或偏旁"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "企鹅不包含'川'字或偏旁"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "企鹅不包含'雨'字或偏旁"
+    },
+    {
+      "ruleId": 117,
+      "result": true,
+      "reason": "企鹅包含'人'字或偏旁"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "企鹅不包含'手'字或偏旁"
+    },
+    {
+      "ruleId": 119,
+      "result": false,
+      "reason": "企鹅不包含'王'字或偏旁"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "企鹅不包含'口'字或偏旁"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "企鹅不包含'目'字或偏旁"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "企鹅不包含'耳'字或偏旁"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "企鹅不包含'足'字或偏旁"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "企鹅不包含'言'字或偏旁"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "企鹅不包含'食'字或偏旁"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "企鹅不包含'衣'字或偏旁"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "企鹅不包含'马'字或偏旁"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "企鹅不包含'鱼'字或偏旁"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "企鹅不包含'鸟'字或偏旁"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "企鹅不包含'车'字或偏旁"
+    },
+    {
+      "ruleId": 131,
+      "result": true,
+      "reason": "企鹅包含左右结构的字"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "企鹅不包含上下结构的字"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "企鹅字的偏旁不一样"
+    },
+    {
+      "ruleId": 134,
+      "result": true,
+      "reason": "企鹅所有字的偏旁都不一样"
+    },
+    {
+      "ruleId": 135,
+      "result": true,
+      "reason": "企鹅笔画最少的字少于7画"
+    },
+    {
+      "ruleId": 136,
+      "result": true,
+      "reason": "企鹅所有字笔画都少于10画"
+    },
+    {
+      "ruleId": 137,
+      "result": true,
+      "reason": "企鹅笔画最多的字少于15画"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "企鹅不是所有字都多于12画"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "企鹅笔画不是递增的"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "企鹅笔画不是递减的"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "企鹅声调不相同"
+    },
+    {
+      "ruleId": 142,
+      "result": true,
+      "reason": "企鹅每个字声调都不同"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "不包含任何第一声的字"
+    },
+    {
+      "ruleId": 144,
+      "result": true,
+      "reason": "不包含任何第二声的字"
+    },
+    {
+      "ruleId": 145,
+      "result": false,
+      "reason": "包含第三声的字"
+    },
+    {
+      "ruleId": 146,
+      "result": true,
+      "reason": "不包含任何第四声的字"
+    },
+    {
+      "ruleId": 147,
+      "result": false,
+      "reason": "不包含第一声的字"
+    },
+    {
+      "ruleId": 148,
+      "result": true,
+      "reason": "不包含第二声的字"
+    },
+    {
+      "ruleId": 149,
+      "result": true,
+      "reason": "包含第三声的字"
+    },
+    {
+      "ruleId": 150,
+      "result": false,
+      "reason": "不包含第四声的字"
+    }
   ]
-} 
+}

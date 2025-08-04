@@ -3,155 +3,755 @@
   "word": "黑洞",
   "word_en": "Black Hole",
   "questions": [
-    {"ruleId": 1, "result": false, "reason": "“黑洞”一词作为天体专有名词源自20世纪，未超过1000年"},
-    {"ruleId": 2, "result": true, "reason": "黑洞概念和词语诞生于1950年后"},
-    {"ruleId": 3, "result": false, "reason": "家庭里不会有黑洞"},
-    {"ruleId": 4, "result": true, "reason": "黑洞是稀有天文现象，大多数人没有也无法拥有"},
-    {"ruleId": 5, "result": false, "reason": "黑洞词汇或知识不是儿童比成人更多使用"},
-    {"ruleId": 6, "result": true, "reason": "大部分人对真实黑洞没兴趣"},
-    {"ruleId": 7, "result": false, "reason": "并非每个人都需要黑洞"},
-    {"ruleId": 8, "result": false, "reason": "黑洞不会帮助人完成工作"},
-    {"ruleId": 9, "result": true, "reason": "只能在特殊场合如天文学讨论中见到"},
-    {"ruleId": 10, "result": false, "reason": "黑洞在日常生活中见不到"},
-    {"ruleId": 11, "result": false, "reason": "黑洞不属于个人"},
-    {"ruleId": 12, "result": true, "reason": "黑洞属于全人类共同研究对象"},
-    {"ruleId": 13, "result": false, "reason": "黑洞本身不需要电力工作"},
-    {"ruleId": 14, "result": false, "reason": "不属于特定国家或文化"},
-    {"ruleId": 15, "result": true, "reason": "天文上各国都研究黑洞"},
-    {"ruleId": 16, "result": false, "reason": "黑洞无使用且谈不上丢弃"},
-    {"ruleId": 17, "result": true, "reason": "黑洞存在时间极长可亿万年"},
-    {"ruleId": 18, "result": false, "reason": "黑洞不能在室内使用"},
-    {"ruleId": 19, "result": false, "reason": "黑洞也不能在室外（地球上）使用"},
-    {"ruleId": 20, "result": false, "reason": "大部分人没亲眼见过黑洞"},
-    {"ruleId": 21, "result": false, "reason": "商店里买不到黑洞"},
-    {"ruleId": 22, "result": false, "reason": "办公室不会看到黑洞"},
-    {"ruleId": 23, "result": false, "reason": "学校也不会看到黑洞实物"},
-    {"ruleId": 24, "result": false, "reason": "黑洞本身不会让人快乐"},
-    {"ruleId": 25, "result": true, "reason": "黑洞概念让人想到危险"},
-    {"ruleId": 26, "result": false, "reason": "黑洞不是娱乐或游戏物品"},
-    {"ruleId": 27, "result": false, "reason": "黑洞不用于工作任务"},
-    {"ruleId": 28, "result": false, "reason": "黑洞不依赖特定时间使用"},
-    {"ruleId": 29, "result": false, "reason": "黑洞无全年使用概念"},
-    {"ruleId": 30, "result": true, "reason": "理解黑洞需要较高学习门槛"},
-    {"ruleId": 31, "result": false, "reason": "不是所有人都容易理解黑洞"},
-    {"ruleId": 32, "result": false, "reason": "黑洞一般不用于正式场合"},
-    {"ruleId": 33, "result": true, "reason": "科普等轻松场合会涉及黑洞"},
-    {"ruleId": 34, "result": false, "reason": "黑洞无法收藏"},
-    {"ruleId": 35, "result": true, "reason": "“黑洞”在家里见不到"},
-    {"ruleId": 36, "result": true, "reason": "黑洞在天文学史上很重要"},
-    {"ruleId": 37, "result": true, "reason": "黑洞主要为现代科学概念"},
-    {"ruleId": 38, "result": false, "reason": "黑洞无法作为礼物"},
-    {"ruleId": 39, "result": true, "reason": "黑洞非常少成为礼物"},
-    {"ruleId": 40, "result": false, "reason": "无法拥有，不存有钱人才有"},
-    {"ruleId": 41, "result": true, "reason": "各阶层都能接触黑洞知识"},
-    {"ruleId": 42, "result": false, "reason": "黑洞不能随身带上飞机"},
-    {"ruleId": 43, "result": false, "reason": "1小时内无法找到黑洞"},
-    {"ruleId": 44, "result": false, "reason": "黑洞不需要燃料"},
-    {"ruleId": 45, "result": false, "reason": "无一次性使用设计"},
-    {"ruleId": 46, "result": false, "reason": "黑洞无特定季节"},
-    {"ruleId": 47, "result": false, "reason": "黑洞无法被使用"},
-    {"ruleId": 48, "result": false, "reason": "无需许可才能拥有黑洞"},
-    {"ruleId": 49, "result": true, "reason": "宇宙中有大量黑洞"},
-    {"ruleId": 50, "result": false, "reason": "宇宙中不是只存在一个黑洞"},
-    {"ruleId": 51, "result": false, "reason": "黑洞无法损坏"},
-    {"ruleId": 52, "result": false, "reason": "黑洞无法携带"},
-    {"ruleId": 53, "result": false, "reason": "黑洞本身不需要电力"},
-    {"ruleId": 54, "result": false, "reason": "黑洞尺寸极不固定"},
-    {"ruleId": 55, "result": true, "reason": "黑洞在自然界宇宙中存在"},
-    {"ruleId": 56, "result": false, "reason": "黑洞无特指是否在水中及干燥"},
-    {"ruleId": 57, "result": false, "reason": "黑洞不是漂浮在水中"},
-    {"ruleId": 58, "result": false, "reason": "黑洞由密集物质构成，不是金属"},
-    {"ruleId": 59, "result": false, "reason": "黑洞本身不能发声"},
-    {"ruleId": 60, "result": false, "reason": "黑洞不可见，谈不上颜色鲜艳"},
-    {"ruleId": 61, "result": true, "reason": "黑洞体积远比人类大"},
-    {"ruleId": 62, "result": false, "reason": "黑洞不可见，不透明"},
-    {"ruleId": 63, "result": false, "reason": "黑洞无组件可拆分"},
-    {"ruleId": 64, "result": false, "reason": "黑洞无柔软触感"},
-    {"ruleId": 65, "result": false, "reason": "黑洞不可折叠或压扁"},
-    {"ruleId": 66, "result": false, "reason": "黑洞无需保养"},
-    {"ruleId": 67, "result": false, "reason": "黑洞没有形体结构就无锋利边缘"},
-    {"ruleId": 68, "result": false, "reason": "黑洞不可食用"},
-    {"ruleId": 69, "result": false, "reason": "黑洞不会有气味"},
-    {"ruleId": 70, "result": true, "reason": "黑洞质量远超100公斤"},
-    {"ruleId": 71, "result": false, "reason": "黑洞不可穿戴"},
-    {"ruleId": 72, "result": true, "reason": "黑洞释放能量会产生热量"},
-    {"ruleId": 73, "result": false, "reason": "黑洞不会被点燃"},
-    {"ruleId": 74, "result": false, "reason": "黑洞无表面，不印文字"},
-    {"ruleId": 75, "result": false, "reason": "黑洞无组装"},
-    {"ruleId": 76, "result": false, "reason": "黑洞非自然生物分解"},
-    {"ruleId": 77, "result": false, "reason": "黑洞无法堆叠"},
-    {"ruleId": 78, "result": false, "reason": "黑洞不可见，无光泽反光"},
-    {"ruleId": 79, "result": false, "reason": "黑洞不具被磁铁吸引属性"},
-    {"ruleId": 80, "result": false, "reason": "黑洞无法发声"},
-    {"ruleId": 81, "result": false, "reason": "黑洞不吸收水分"},
-    {"ruleId": 82, "result": false, "reason": "不易弯曲，无法触碰"},
-    {"ruleId": 83, "result": false, "reason": "黑洞不浮于水面"},
-    {"ruleId": 84, "result": true, "reason": "黑洞随时间会蒸发或合并"},
-    {"ruleId": 85, "result": false, "reason": "黑洞无具体形状对称"},
-    {"ruleId": 86, "result": false, "reason": "黑洞不能人工修复"},
-    {"ruleId": 87, "result": false, "reason": "黑洞无外加燃料需求"},
-    {"ruleId": 88, "result": false, "reason": "黑洞不是活物"},
-    {"ruleId": 89, "result": false, "reason": "黑洞不在水下见到"},
-    {"ruleId": 90, "result": false, "reason": "黑洞不包含塑料"},
-    {"ruleId": 91, "result": false, "reason": "黑洞不会含木头"},
-    {"ruleId": 92, "result": false, "reason": "黑洞无法加热"},
-    {"ruleId": 93, "result": false, "reason": "无特殊储存条件"},
-    {"ruleId": 94, "result": false, "reason": "黑洞非手工制造"},
-    {"ruleId": 95, "result": false, "reason": "黑洞无法清洁"},
-    {"ruleId": 96, "result": false, "reason": "黑洞不存在成对模式"},
-    {"ruleId": 97, "result": false, "reason": "无法用手握住黑洞"},
-    {"ruleId": 98, "result": false, "reason": "黑洞不可见无颜色"},
-    {"ruleId": 99, "result": false, "reason": "黑洞无触感无坚硬属性"},
-    {"ruleId": 100, "result": false, "reason": "黑洞非由单一材质组成"},
-    {"ruleId": 101, "result": true, "reason": "“黑洞”二字，共2字"},
-    {"ruleId": 102, "result": false, "reason": "非三个字"},
-    {"ruleId": 103, "result": false, "reason": "非四个字"},
-    {"ruleId": 104, "result": false, "reason": "非五个字"},
-    {"ruleId": 105, "result": false, "reason": "无“心”字与偏旁"},
-    {"ruleId": 106, "result": false, "reason": "无“草”字与偏旁"},
-    {"ruleId": 107, "result": false, "reason": "无“水”字与偏旁"},
-    {"ruleId": 108, "result": false, "reason": "无“金”字与偏旁"},
-    {"ruleId": 109, "result": false, "reason": "无“木”字与偏旁"},
-    {"ruleId": 110, "result": false, "reason": "无“火”字或偏旁"},
-    {"ruleId": 111, "result": false, "reason": "无“土”字或偏旁"},
-    {"ruleId": 112, "result": false, "reason": "无“日”字或偏旁"},
-    {"ruleId": 113, "result": false, "reason": "无“走”字或偏旁"},
-    {"ruleId": 114, "result": false, "reason": "无“山”字或偏旁"},
-    {"ruleId": 115, "result": false, "reason": "无“川”字或偏旁"},
-    {"ruleId": 116, "result": false, "reason": "无“雨”字或偏旁"},
-    {"ruleId": 117, "result": false, "reason": "无“人”字或偏旁"},
-    {"ruleId": 118, "result": false, "reason": "无“手”字或偏旁"},
-    {"ruleId": 119, "result": false, "reason": "无“王”字或偏旁"},
-    {"ruleId": 120, "result": false, "reason": "无“口”字或偏旁"},
-    {"ruleId": 121, "result": false, "reason": "无“目”字或偏旁"},
-    {"ruleId": 122, "result": false, "reason": "无“耳”字或偏旁"},
-    {"ruleId": 123, "result": false, "reason": "无“足”字或偏旁"},
-    {"ruleId": 124, "result": false, "reason": "无“言”字或偏旁"},
-    {"ruleId": 125, "result": false, "reason": "无“食”字或偏旁"},
-    {"ruleId": 126, "result": false, "reason": "无“衣”字或偏旁"},
-    {"ruleId": 127, "result": false, "reason": "无“马”字或偏旁"},
-    {"ruleId": 128, "result": false, "reason": "无“鱼”字或偏旁"},
-    {"ruleId": 129, "result": false, "reason": "无“鸟”字或偏旁"},
-    {"ruleId": 130, "result": false, "reason": "无“车”字或偏旁"},
-    {"ruleId": 131, "result": true, "reason": "“洞”为左右结构"},
-    {"ruleId": 132, "result": true, "reason": "“黑”为上下结构"},
-    {"ruleId": 133, "result": false, "reason": "两字部首不同"},
-    {"ruleId": 134, "result": true, "reason": "“黑”部首“黑”，“洞”部首“穴”，皆不相同"},
-    {"ruleId": 135, "result": false, "reason": "“黑”为12画，不少于7画"},
-    {"ruleId": 136, "result": true, "reason": "两字都少于10画，“洞”9画，但“黑”12画，结果为false"},
-    {"ruleId": 137, "result": true, "reason": "笔画最多为12（黑），少于15画"},
-    {"ruleId": 138, "result": false, "reason": "无一字多于12笔画"},
-    {"ruleId": 139, "result": false, "reason": "12画到9画，非递增"},
-    {"ruleId": 140, "result": true, "reason": "笔画12到9，递减"},
-    {"ruleId": 141, "result": false, "reason": "一个一声一个四声，声调不同"},
-    {"ruleId": 142, "result": true, "reason": "两字声调均不同"},
-    {"ruleId": 143, "result": false, "reason": "包含第一声“黑”"},
-    {"ruleId": 144, "result": true, "reason": "无第二声"},
-    {"ruleId": 145, "result": true, "reason": "无第三声"},
-    {"ruleId": 146, "result": false, "reason": "包含第四声“洞”"},
-    {"ruleId": 147, "result": true, "reason": "含一声字“黑”"},
-    {"ruleId": 148, "result": false, "reason": "不含二声字"},
-    {"ruleId": 149, "result": false, "reason": "不含三声字"},
-    {"ruleId": 150, "result": true, "reason": "含四声字“洞”"}
+    {
+      "ruleId": 1,
+      "result": true,
+      "reason": "黑洞存在了远超1000年"
+    },
+    {
+      "ruleId": 2,
+      "result": true,
+      "reason": "黑洞概念和词语诞生于1950年后"
+    },
+    {
+      "ruleId": 3,
+      "result": false,
+      "reason": "家庭里不会有黑洞"
+    },
+    {
+      "ruleId": 4,
+      "result": true,
+      "reason": "黑洞是稀有天文现象，大多数人没有也无法拥有"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "黑洞词汇或知识不是儿童比成人更多使用"
+    },
+    {
+      "ruleId": 6,
+      "result": false,
+      "reason": "大部分人对真实黑洞没兴趣"
+    },
+    {
+      "ruleId": 7,
+      "result": false,
+      "reason": "并非每个人都需要黑洞"
+    },
+    {
+      "ruleId": 8,
+      "result": false,
+      "reason": "黑洞不会帮助人完成工作"
+    },
+    {
+      "ruleId": 9,
+      "result": true,
+      "reason": "只能在特殊场合如天文学讨论中见到"
+    },
+    {
+      "ruleId": 10,
+      "result": false,
+      "reason": "黑洞在日常生活中见不到"
+    },
+    {
+      "ruleId": 11,
+      "result": false,
+      "reason": "黑洞不属于个人"
+    },
+    {
+      "ruleId": 12,
+      "result": true,
+      "reason": "黑洞属于全人类共同研究对象"
+    },
+    {
+      "ruleId": 13,
+      "result": false,
+      "reason": "黑洞本身不需要电力工作"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "不属于特定国家或文化"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "天文上各国都研究黑洞"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "黑洞无使用且谈不上丢弃"
+    },
+    {
+      "ruleId": 17,
+      "result": true,
+      "reason": "黑洞存在时间极长可亿万年"
+    },
+    {
+      "ruleId": 18,
+      "result": false,
+      "reason": "黑洞不能在室内使用"
+    },
+    {
+      "ruleId": 19,
+      "result": false,
+      "reason": "黑洞也不能在室外（地球上）使用"
+    },
+    {
+      "ruleId": 20,
+      "result": false,
+      "reason": "大部分人没亲眼见过黑洞"
+    },
+    {
+      "ruleId": 21,
+      "result": false,
+      "reason": "商店里买不到黑洞"
+    },
+    {
+      "ruleId": 22,
+      "result": false,
+      "reason": "办公室不会看到黑洞"
+    },
+    {
+      "ruleId": 23,
+      "result": false,
+      "reason": "学校也不会看到黑洞实物"
+    },
+    {
+      "ruleId": 24,
+      "result": false,
+      "reason": "黑洞本身不会让人快乐"
+    },
+    {
+      "ruleId": 25,
+      "result": true,
+      "reason": "黑洞概念让人想到危险"
+    },
+    {
+      "ruleId": 26,
+      "result": false,
+      "reason": "黑洞不是娱乐或游戏物品"
+    },
+    {
+      "ruleId": 27,
+      "result": false,
+      "reason": "黑洞不用于工作任务"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "黑洞不依赖特定时间使用"
+    },
+    {
+      "ruleId": 29,
+      "result": false,
+      "reason": "黑洞无全年使用概念"
+    },
+    {
+      "ruleId": 30,
+      "result": true,
+      "reason": "理解黑洞需要较高学习门槛"
+    },
+    {
+      "ruleId": 31,
+      "result": false,
+      "reason": "不是所有人都容易理解黑洞"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "黑洞一般不用于正式场合"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "科普等轻松场合会涉及黑洞"
+    },
+    {
+      "ruleId": 34,
+      "result": false,
+      "reason": "黑洞无法收藏"
+    },
+    {
+      "ruleId": 35,
+      "result": true,
+      "reason": "“黑洞”在家里见不到"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "黑洞在天文学史上很重要"
+    },
+    {
+      "ruleId": 37,
+      "result": true,
+      "reason": "黑洞主要为现代科学概念"
+    },
+    {
+      "ruleId": 38,
+      "result": false,
+      "reason": "黑洞无法作为礼物"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "黑洞非常少成为礼物"
+    },
+    {
+      "ruleId": 40,
+      "result": false,
+      "reason": "无法拥有，不存有钱人才有"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "各阶层都能接触黑洞知识"
+    },
+    {
+      "ruleId": 42,
+      "result": false,
+      "reason": "黑洞不能随身带上飞机"
+    },
+    {
+      "ruleId": 43,
+      "result": false,
+      "reason": "1小时内无法找到黑洞"
+    },
+    {
+      "ruleId": 44,
+      "result": false,
+      "reason": "黑洞不需要燃料"
+    },
+    {
+      "ruleId": 45,
+      "result": false,
+      "reason": "无一次性使用设计"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "黑洞无特定季节"
+    },
+    {
+      "ruleId": 47,
+      "result": false,
+      "reason": "黑洞无法被使用"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "无需许可才能拥有黑洞"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "宇宙中有大量黑洞"
+    },
+    {
+      "ruleId": 50,
+      "result": false,
+      "reason": "宇宙中不是只存在一个黑洞"
+    },
+    {
+      "ruleId": 51,
+      "result": false,
+      "reason": "黑洞无法损坏"
+    },
+    {
+      "ruleId": 52,
+      "result": false,
+      "reason": "黑洞无法携带"
+    },
+    {
+      "ruleId": 53,
+      "result": false,
+      "reason": "黑洞本身不需要电力"
+    },
+    {
+      "ruleId": 54,
+      "result": false,
+      "reason": "黑洞尺寸极不固定"
+    },
+    {
+      "ruleId": 55,
+      "result": true,
+      "reason": "黑洞在自然界宇宙中存在"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "黑洞无特指是否在水中及干燥"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "黑洞不是漂浮在水中"
+    },
+    {
+      "ruleId": 58,
+      "result": false,
+      "reason": "黑洞由密集物质构成，不是金属"
+    },
+    {
+      "ruleId": 59,
+      "result": false,
+      "reason": "黑洞本身不能发声"
+    },
+    {
+      "ruleId": 60,
+      "result": false,
+      "reason": "黑洞不可见，谈不上颜色鲜艳"
+    },
+    {
+      "ruleId": 61,
+      "result": true,
+      "reason": "黑洞体积远比人类大"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "黑洞不可见，不透明"
+    },
+    {
+      "ruleId": 63,
+      "result": false,
+      "reason": "黑洞无组件可拆分"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "黑洞无柔软触感"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "黑洞不可折叠或压扁"
+    },
+    {
+      "ruleId": 66,
+      "result": false,
+      "reason": "黑洞无需保养"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "黑洞没有形体结构就无锋利边缘"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "黑洞不可食用"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "黑洞不会有气味"
+    },
+    {
+      "ruleId": 70,
+      "result": true,
+      "reason": "黑洞质量远超100公斤"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "黑洞不可穿戴"
+    },
+    {
+      "ruleId": 72,
+      "result": true,
+      "reason": "黑洞释放能量会产生热量"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "黑洞不会被点燃"
+    },
+    {
+      "ruleId": 74,
+      "result": false,
+      "reason": "黑洞无表面，不印文字"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "黑洞无组装"
+    },
+    {
+      "ruleId": 76,
+      "result": false,
+      "reason": "黑洞非自然生物分解"
+    },
+    {
+      "ruleId": 77,
+      "result": false,
+      "reason": "黑洞无法堆叠"
+    },
+    {
+      "ruleId": 78,
+      "result": false,
+      "reason": "黑洞不可见，无光泽反光"
+    },
+    {
+      "ruleId": 79,
+      "result": false,
+      "reason": "黑洞不具被磁铁吸引属性"
+    },
+    {
+      "ruleId": 80,
+      "result": false,
+      "reason": "黑洞无法发声"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "黑洞不吸收水分"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "不易弯曲，无法触碰"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "黑洞不浮于水面"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "黑洞随时间会蒸发或合并"
+    },
+    {
+      "ruleId": 85,
+      "result": false,
+      "reason": "黑洞无具体形状对称"
+    },
+    {
+      "ruleId": 86,
+      "result": false,
+      "reason": "黑洞不能人工修复"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "黑洞无外加燃料需求"
+    },
+    {
+      "ruleId": 88,
+      "result": false,
+      "reason": "黑洞不是活物"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "黑洞不在水下见到"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "黑洞不包含塑料"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "黑洞不会含木头"
+    },
+    {
+      "ruleId": 92,
+      "result": false,
+      "reason": "黑洞无法加热"
+    },
+    {
+      "ruleId": 93,
+      "result": false,
+      "reason": "无特殊储存条件"
+    },
+    {
+      "ruleId": 94,
+      "result": false,
+      "reason": "黑洞非手工制造"
+    },
+    {
+      "ruleId": 95,
+      "result": false,
+      "reason": "黑洞无法清洁"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "黑洞不存在成对模式"
+    },
+    {
+      "ruleId": 97,
+      "result": false,
+      "reason": "无法用手握住黑洞"
+    },
+    {
+      "ruleId": 98,
+      "result": false,
+      "reason": "黑洞不可见无颜色"
+    },
+    {
+      "ruleId": 99,
+      "result": false,
+      "reason": "黑洞无触感无坚硬属性"
+    },
+    {
+      "ruleId": 100,
+      "result": false,
+      "reason": "黑洞非由单一材质组成"
+    },
+    {
+      "ruleId": 101,
+      "result": true,
+      "reason": "“黑洞”二字，共2字"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "非三个字"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "非四个字"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "非五个字"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "无“心”字与偏旁"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "无“草”字与偏旁"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "无“水”字与偏旁"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "无“金”字与偏旁"
+    },
+    {
+      "ruleId": 109,
+      "result": false,
+      "reason": "无“木”字与偏旁"
+    },
+    {
+      "ruleId": 110,
+      "result": false,
+      "reason": "无“火”字或偏旁"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "无“土”字或偏旁"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "无“日”字或偏旁"
+    },
+    {
+      "ruleId": 113,
+      "result": false,
+      "reason": "无“走”字或偏旁"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "无“山”字或偏旁"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "无“川”字或偏旁"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "无“雨”字或偏旁"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "无“人”字或偏旁"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "无“手”字或偏旁"
+    },
+    {
+      "ruleId": 119,
+      "result": false,
+      "reason": "无“王”字或偏旁"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "无“口”字或偏旁"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "无“目”字或偏旁"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "无“耳”字或偏旁"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "无“足”字或偏旁"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "无“言”字或偏旁"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "无“食”字或偏旁"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "无“衣”字或偏旁"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "无“马”字或偏旁"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "无“鱼”字或偏旁"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "无“鸟”字或偏旁"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "无“车”字或偏旁"
+    },
+    {
+      "ruleId": 131,
+      "result": true,
+      "reason": "“洞”为左右结构"
+    },
+    {
+      "ruleId": 132,
+      "result": true,
+      "reason": "“黑”为上下结构"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "两字部首不同"
+    },
+    {
+      "ruleId": 134,
+      "result": true,
+      "reason": "“黑”部首“黑”，“洞”部首“穴”，皆不相同"
+    },
+    {
+      "ruleId": 135,
+      "result": false,
+      "reason": "“黑”为12画，不少于7画"
+    },
+    {
+      "ruleId": 136,
+      "result": true,
+      "reason": "两字都少于10画，“洞”9画，但“黑”12画，结果为false"
+    },
+    {
+      "ruleId": 137,
+      "result": true,
+      "reason": "笔画最多为12（黑），少于15画"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "无一字多于12笔画"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "12画到9画，非递增"
+    },
+    {
+      "ruleId": 140,
+      "result": true,
+      "reason": "笔画12到9，递减"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "一个一声一个四声，声调不同"
+    },
+    {
+      "ruleId": 142,
+      "result": true,
+      "reason": "两字声调均不同"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "包含第一声“黑”"
+    },
+    {
+      "ruleId": 144,
+      "result": true,
+      "reason": "无第二声"
+    },
+    {
+      "ruleId": 145,
+      "result": true,
+      "reason": "无第三声"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "包含第四声“洞”"
+    },
+    {
+      "ruleId": 147,
+      "result": true,
+      "reason": "含一声字“黑”"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "不含二声字"
+    },
+    {
+      "ruleId": 149,
+      "result": false,
+      "reason": "不含三声字"
+    },
+    {
+      "ruleId": 150,
+      "result": true,
+      "reason": "含四声字“洞”"
+    }
   ]
 }

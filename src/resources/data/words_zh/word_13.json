@@ -3,155 +3,755 @@
   "word": "电动汽车",
   "word_en": "Electric Car",
   "questions": [
-    {"ruleId": 1, "result": false, "reason": "电动汽车出现于20世纪不是很久以前"},
-    {"ruleId": 2, "result": true, "reason": "1950年后发展出来的新事物"},
-    {"ruleId": 3, "result": false, "reason": "目前不是大多数家庭都有"},
-    {"ruleId": 4, "result": true, "reason": "目前属于相对稀有物品"},
-    {"ruleId": 5, "result": false, "reason": "儿童使用远少于成人"},
-    {"ruleId": 6, "result": false, "reason": "大多数人对汽车都有兴趣"},
-    {"ruleId": 7, "result": false, "reason": "不是每个人都需要"},
-    {"ruleId": 8, "result": true, "reason": "有助于完成出行等工作"},
-    {"ruleId": 9, "result": false, "reason": "日常可见，不是特殊场合"},
-    {"ruleId": 10, "result": true, "reason": "在日常生活中经常见到"},
-    {"ruleId": 11, "result": true, "reason": "通常归个人所有"},
-    {"ruleId": 12, "result": true, "reason": "也可多人共享如网约车"},
-    {"ruleId": 13, "result": true, "reason": "需要电力驱动"},
-    {"ruleId": 14, "result": false, "reason": "多国都有，不属特定文化"},
-    {"ruleId": 15, "result": true, "reason": "许多国家都有"},
-    {"ruleId": 16, "result": false, "reason": "不是用过即丢弃"},
-    {"ruleId": 17, "result": true, "reason": "可多年使用"},
-    {"ruleId": 18, "result": false, "reason": "主要在室外使用"},
-    {"ruleId": 19, "result": true, "reason": "主要在室外道路使用"},
-    {"ruleId": 20, "result": true, "reason": "绝大部分人亲眼见过"},
-    {"ruleId": 21, "result": true, "reason": "能在汽车销售店买到"},
-    {"ruleId": 22, "result": false, "reason": "办公室内一般不见"},
-    {"ruleId": 23, "result": false, "reason": "学校内很少见到"},
-    {"ruleId": 24, "result": true, "reason": "自己拥有会很开心"},
-    {"ruleId": 25, "result": false, "reason": "让人不觉得危险自身"},
-    {"ruleId": 26, "result": false, "reason": "不是主要用于娱乐游戏"},
-    {"ruleId": 27, "result": true, "reason": "可用于重要任务如运输"},
-    {"ruleId": 28, "result": false, "reason": "全年皆可使用"},
-    {"ruleId": 29, "result": true, "reason": "没有季节性限制"},
-    {"ruleId": 30, "result": true, "reason": "驾驶门槛高须驾照"},
-    {"ruleId": 31, "result": false, "reason": "并非所有人易使用"},
-    {"ruleId": 32, "result": true, "reason": "正式场合如公务也使用"},
-    {"ruleId": 33, "result": true, "reason": "休闲出行也常用"},
-    {"ruleId": 34, "result": false, "reason": "很少作为收藏品"},
-    {"ruleId": 35, "result": true, "reason": "家里一般不放汽车"},
-    {"ruleId": 36, "result": true, "reason": "对工业和能源有历史意义"},
-    {"ruleId": 37, "result": true, "reason": "主要为现代产物"},
-    {"ruleId": 38, "result": true, "reason": "有时作为贵重礼物"},
-    {"ruleId": 39, "result": false, "reason": "汽车偶然也用于送礼"},
-    {"ruleId": 40, "result": true, "reason": "有钱人通常更早拥有"},
-    {"ruleId": 41, "result": false, "reason": "不是所有收入阶层都能拥有"},
-    {"ruleId": 42, "result": false, "reason": "通常不能上飞机"},
-    {"ruleId": 43, "result": false, "reason": "不是一小时内能找到购买"},
-    {"ruleId": 44, "result": false, "reason": "不需化石燃料需电力"},
-    {"ruleId": 45, "result": false, "reason": "不是一次性产品"},
-    {"ruleId": 46, "result": false, "reason": "无季节性"},
-    {"ruleId": 47, "result": true, "reason": "可重复多年使用"},
-    {"ruleId": 48, "result": true, "reason": "驾驶需许可"},
-    {"ruleId": 49, "result": true, "reason": "世界各地数量巨大"},
-    {"ruleId": 50, "result": false, "reason": "并非唯一"},
-    {"ruleId": 51, "result": true, "reason": "易损坏如交通事故"},
-    {"ruleId": 52, "result": false, "reason": "体积大、不易携带"},
-    {"ruleId": 53, "result": true, "reason": "需电能驱动"},
-    {"ruleId": 54, "result": true, "reason": "尺寸通常较固定"},
-    {"ruleId": 55, "result": false, "reason": "不存在于自然界"},
-    {"ruleId": 56, "result": false, "reason": "汽车进水易损"},
-    {"ruleId": 57, "result": false, "reason": "不能在水中漂浮"},
-    {"ruleId": 58, "result": true, "reason": "主要有金属外壳"},
-    {"ruleId": 59, "result": true, "reason": "行驶时会有噪音"},
-    {"ruleId": 60, "result": false, "reason": "常见颜色稳重非鲜艳"},
-    {"ruleId": 61, "result": false, "reason": "没有比人还大太多"},
-    {"ruleId": 62, "result": false, "reason": "不透明"},
-    {"ruleId": 63, "result": true, "reason": "可拆成大量零件"},
-    {"ruleId": 64, "result": false, "reason": "本体多坚硬"},
-    {"ruleId": 65, "result": false, "reason": "不能折叠"},
-    {"ruleId": 66, "result": true, "reason": "需定期保养维修"},
-    {"ruleId": 67, "result": true, "reason": "某些部位如车门可锋利"},
-    {"ruleId": 68, "result": false, "reason": "不能食用"},
-    {"ruleId": 69, "result": false, "reason": "无强烈气味"},
-    {"ruleId": 70, "result": true, "reason": "远重于100公斤"},
-    {"ruleId": 71, "result": false, "reason": "不能穿戴"},
-    {"ruleId": 72, "result": true, "reason": "电池及电机发热量大"},
-    {"ruleId": 73, "result": false, "reason": "难以自然点燃"},
-    {"ruleId": 74, "result": true, "reason": "有文字如logo"},
-    {"ruleId": 75, "result": false, "reason": "用户购车无需组装"},
-    {"ruleId": 76, "result": false, "reason": "不能自然界分解"},
-    {"ruleId": 77, "result": false, "reason": "汽车很难堆叠"},
-    {"ruleId": 78, "result": true, "reason": "金属车体有光泽"},
-    {"ruleId": 79, "result": true, "reason": "金属材质部件可磁吸"},
-    {"ruleId": 80, "result": true, "reason": "可发出声响如喇叭"},
-    {"ruleId": 81, "result": false, "reason": "不吸水"},
-    {"ruleId": 82, "result": false, "reason": "不易弯曲"},
-    {"ruleId": 83, "result": false, "reason": "不浮水"},
-    {"ruleId": 84, "result": true, "reason": "随使用年限状况变化"},
-    {"ruleId": 85, "result": false, "reason": "车左右对称但外形不完全一致"},
-    {"ruleId": 86, "result": true, "reason": "损坏可修理"},
-    {"ruleId": 87, "result": false, "reason": "不需燃料需电"},
-    {"ruleId": 88, "result": false, "reason": "不属于生物"},
-    {"ruleId": 89, "result": false, "reason": "不能水下使用"},
-    {"ruleId": 90, "result": true, "reason": "内饰/零件可含塑料"},
-    {"ruleId": 91, "result": true, "reason": "零部件部分含木头"},
-    {"ruleId": 92, "result": false, "reason": "不可随意加热"},
-    {"ruleId": 93, "result": false, "reason": "无需特殊储存"},
-    {"ruleId": 94, "result": false, "reason": "主为工业生产"},
-    {"ruleId": 95, "result": false, "reason": "内外清洁较难"},
-    {"ruleId": 96, "result": false, "reason": "不成对出现"},
-    {"ruleId": 97, "result": false, "reason": "无法单手握住"},
-    {"ruleId": 98, "result": true, "reason": "汽车颜色系列丰富"},
-    {"ruleId": 99, "result": true, "reason": "车身坚硬"},
-    {"ruleId": 100, "result": false, "reason": "多种材质构成"},
-    {"ruleId": 101, "result": false, "reason": "此词四字"},
-    {"ruleId": 102, "result": false, "reason": "不是三个字"},
-    {"ruleId": 103, "result": true, "reason": "恰为四字"},
-    {"ruleId": 104, "result": false, "reason": "非一个字"},
-    {"ruleId": 105, "result": false, "reason": "没有“心”或其偏旁"},
-    {"ruleId": 106, "result": false, "reason": "没有“草”字头"},
-    {"ruleId": 107, "result": true, "reason": "“汽”带“氵”偏旁"},
-    {"ruleId": 108, "result": false, "reason": "没有“金”偏旁"},
-    {"ruleId": 109, "result": false, "reason": "无“木”偏旁"},
-    {"ruleId": 110, "result": false, "reason": "没有“火”偏旁"},
-    {"ruleId": 111, "result": false, "reason": "没有“土”偏旁"},
-    {"ruleId": 112, "result": false, "reason": "没有“日”偏旁"},
-    {"ruleId": 113, "result": false, "reason": "无“走”字旁"},
-    {"ruleId": 114, "result": false, "reason": "无“山”"},
-    {"ruleId": 115, "result": false, "reason": "无“川”"},
-    {"ruleId": 116, "result": false, "reason": "无“雨”偏旁"},
-    {"ruleId": 117, "result": false, "reason": "无“人”字旁"},
-    {"ruleId": 118, "result": false, "reason": "无“手”偏旁"},
-    {"ruleId": 119, "result": false, "reason": "无“王”"},
-    {"ruleId": 120, "result": false, "reason": "无“口”字旁"},
-    {"ruleId": 121, "result": false, "reason": "无“目”"},
-    {"ruleId": 122, "result": false, "reason": "无“耳”"},
-    {"ruleId": 123, "result": false, "reason": "无“足”"},
-    {"ruleId": 124, "result": false, "reason": "无“言”"},
-    {"ruleId": 125, "result": false, "reason": "无“食”"},
-    {"ruleId": 126, "result": false, "reason": "无“衣”"},
-    {"ruleId": 127, "result": false, "reason": "无“马”"},
-    {"ruleId": 128, "result": false, "reason": "无“鱼”"},
-    {"ruleId": 129, "result": false, "reason": "无“鸟”"},
-    {"ruleId": 130, "result": true, "reason": "“车”字有“车”偏旁"},
-    {"ruleId": 131, "result": true, "reason": "“动”“汽”等为左右结构"},
-    {"ruleId": 132, "result": true, "reason": "“电”上下结构，“汽车”含上下结构"},
-    {"ruleId": 133, "result": false, "reason": "四字偏旁均不同"},
-    {"ruleId": 134, "result": true, "reason": "各字偏旁都不同"},
-    {"ruleId": 135, "result": true, "reason": "“车”4画少于7"},
-    {"ruleId": 136, "result": true, "reason": "所有字均少于10画"},
-    {"ruleId": 137, "result": true, "reason": "最多7画小于15"},
-    {"ruleId": 138, "result": false, "reason": "都未超过12画"},
-    {"ruleId": 139, "result": true, "reason": "5,6,7,4，动汽车递增再递减，非全递增，故false"},
-    {"ruleId": 140, "result": false, "reason": "非笔画全递减"},
-    {"ruleId": 141, "result": false, "reason": "三字四声，一字一声，声调不全同"},
-    {"ruleId": 142, "result": false, "reason": "有三字同调"},
-    {"ruleId": 143, "result": false, "reason": "包含“车”第一声"},
-    {"ruleId": 144, "result": true, "reason": "无第二声"},
-    {"ruleId": 145, "result": true, "reason": "无第三声"},
-    {"ruleId": 146, "result": false, "reason": "有第四声"},
-    {"ruleId": 147, "result": true, "reason": "“车”第一声"},
-    {"ruleId": 148, "result": false, "reason": "没有第二声"},
-    {"ruleId": 149, "result": false, "reason": "没有第三声"},
-    {"ruleId": 150, "result": true, "reason": "“电动汽车”有第四声"}
+    {
+      "ruleId": 1,
+      "result": false,
+      "reason": "电动汽车出现于20世纪不是很久以前"
+    },
+    {
+      "ruleId": 2,
+      "result": true,
+      "reason": "1950年后发展出来的新事物"
+    },
+    {
+      "ruleId": 3,
+      "result": false,
+      "reason": "目前不是大多数家庭都有"
+    },
+    {
+      "ruleId": 4,
+      "result": false,
+      "reason": "目前属于相对稀有物品"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "儿童使用远少于成人"
+    },
+    {
+      "ruleId": 6,
+      "result": false,
+      "reason": "大多数人对汽车都有兴趣"
+    },
+    {
+      "ruleId": 7,
+      "result": false,
+      "reason": "不是每个人都需要"
+    },
+    {
+      "ruleId": 8,
+      "result": true,
+      "reason": "有助于完成出行等工作"
+    },
+    {
+      "ruleId": 9,
+      "result": false,
+      "reason": "日常可见，不是特殊场合"
+    },
+    {
+      "ruleId": 10,
+      "result": true,
+      "reason": "在日常生活中经常见到"
+    },
+    {
+      "ruleId": 11,
+      "result": true,
+      "reason": "通常归个人所有"
+    },
+    {
+      "ruleId": 12,
+      "result": true,
+      "reason": "也可多人共享如网约车"
+    },
+    {
+      "ruleId": 13,
+      "result": true,
+      "reason": "需要电力驱动"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "多国都有，不属特定文化"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "许多国家都有"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "不是用过即丢弃"
+    },
+    {
+      "ruleId": 17,
+      "result": true,
+      "reason": "可多年使用"
+    },
+    {
+      "ruleId": 18,
+      "result": false,
+      "reason": "主要在室外使用"
+    },
+    {
+      "ruleId": 19,
+      "result": true,
+      "reason": "主要在室外道路使用"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "绝大部分人亲眼见过"
+    },
+    {
+      "ruleId": 21,
+      "result": true,
+      "reason": "能在汽车销售店买到"
+    },
+    {
+      "ruleId": 22,
+      "result": false,
+      "reason": "办公室内一般不见"
+    },
+    {
+      "ruleId": 23,
+      "result": false,
+      "reason": "学校内很少见到"
+    },
+    {
+      "ruleId": 24,
+      "result": true,
+      "reason": "自己拥有会很开心"
+    },
+    {
+      "ruleId": 25,
+      "result": false,
+      "reason": "让人不觉得危险自身"
+    },
+    {
+      "ruleId": 26,
+      "result": false,
+      "reason": "不是主要用于娱乐游戏"
+    },
+    {
+      "ruleId": 27,
+      "result": true,
+      "reason": "可用于重要任务如运输"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "全年皆可使用"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "没有季节性限制"
+    },
+    {
+      "ruleId": 30,
+      "result": true,
+      "reason": "驾驶门槛高须驾照"
+    },
+    {
+      "ruleId": 31,
+      "result": false,
+      "reason": "并非所有人易使用"
+    },
+    {
+      "ruleId": 32,
+      "result": true,
+      "reason": "正式场合如公务也使用"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "休闲出行也常用"
+    },
+    {
+      "ruleId": 34,
+      "result": false,
+      "reason": "很少作为收藏品"
+    },
+    {
+      "ruleId": 35,
+      "result": true,
+      "reason": "家里一般不放汽车"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "对工业和能源有历史意义"
+    },
+    {
+      "ruleId": 37,
+      "result": true,
+      "reason": "主要为现代产物"
+    },
+    {
+      "ruleId": 38,
+      "result": true,
+      "reason": "有时作为贵重礼物"
+    },
+    {
+      "ruleId": 39,
+      "result": false,
+      "reason": "汽车偶然也用于送礼"
+    },
+    {
+      "ruleId": 40,
+      "result": true,
+      "reason": "有钱人通常更早拥有"
+    },
+    {
+      "ruleId": 41,
+      "result": false,
+      "reason": "不是所有收入阶层都能拥有"
+    },
+    {
+      "ruleId": 42,
+      "result": false,
+      "reason": "通常不能上飞机"
+    },
+    {
+      "ruleId": 43,
+      "result": false,
+      "reason": "不是一小时内能找到购买"
+    },
+    {
+      "ruleId": 44,
+      "result": false,
+      "reason": "不需化石燃料需电力"
+    },
+    {
+      "ruleId": 45,
+      "result": false,
+      "reason": "不是一次性产品"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "无季节性"
+    },
+    {
+      "ruleId": 47,
+      "result": true,
+      "reason": "可重复多年使用"
+    },
+    {
+      "ruleId": 48,
+      "result": true,
+      "reason": "驾驶需许可"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "世界各地数量巨大"
+    },
+    {
+      "ruleId": 50,
+      "result": false,
+      "reason": "并非唯一"
+    },
+    {
+      "ruleId": 51,
+      "result": true,
+      "reason": "易损坏如交通事故"
+    },
+    {
+      "ruleId": 52,
+      "result": false,
+      "reason": "体积大、不易携带"
+    },
+    {
+      "ruleId": 53,
+      "result": true,
+      "reason": "需电能驱动"
+    },
+    {
+      "ruleId": 54,
+      "result": true,
+      "reason": "尺寸通常较固定"
+    },
+    {
+      "ruleId": 55,
+      "result": false,
+      "reason": "不存在于自然界"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "汽车进水易损"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "不能在水中漂浮"
+    },
+    {
+      "ruleId": 58,
+      "result": true,
+      "reason": "主要有金属外壳"
+    },
+    {
+      "ruleId": 59,
+      "result": true,
+      "reason": "行驶时会有噪音"
+    },
+    {
+      "ruleId": 60,
+      "result": false,
+      "reason": "常见颜色稳重非鲜艳"
+    },
+    {
+      "ruleId": 61,
+      "result": false,
+      "reason": "没有比人还大太多"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "不透明"
+    },
+    {
+      "ruleId": 63,
+      "result": true,
+      "reason": "可拆成大量零件"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "本体多坚硬"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "不能折叠"
+    },
+    {
+      "ruleId": 66,
+      "result": true,
+      "reason": "需定期保养维修"
+    },
+    {
+      "ruleId": 67,
+      "result": true,
+      "reason": "某些部位如车门可锋利"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "不能食用"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "无强烈气味"
+    },
+    {
+      "ruleId": 70,
+      "result": true,
+      "reason": "远重于100公斤"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "不能穿戴"
+    },
+    {
+      "ruleId": 72,
+      "result": true,
+      "reason": "电池及电机发热量大"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "难以自然点燃"
+    },
+    {
+      "ruleId": 74,
+      "result": true,
+      "reason": "有文字如logo"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "用户购车无需组装"
+    },
+    {
+      "ruleId": 76,
+      "result": false,
+      "reason": "不能自然界分解"
+    },
+    {
+      "ruleId": 77,
+      "result": false,
+      "reason": "汽车很难堆叠"
+    },
+    {
+      "ruleId": 78,
+      "result": true,
+      "reason": "金属车体有光泽"
+    },
+    {
+      "ruleId": 79,
+      "result": true,
+      "reason": "金属材质部件可磁吸"
+    },
+    {
+      "ruleId": 80,
+      "result": true,
+      "reason": "可发出声响如喇叭"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "不吸水"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "不易弯曲"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "不浮水"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "随使用年限状况变化"
+    },
+    {
+      "ruleId": 85,
+      "result": false,
+      "reason": "车左右对称但外形不完全一致"
+    },
+    {
+      "ruleId": 86,
+      "result": true,
+      "reason": "损坏可修理"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "不需燃料需电"
+    },
+    {
+      "ruleId": 88,
+      "result": false,
+      "reason": "不属于生物"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "不能水下使用"
+    },
+    {
+      "ruleId": 90,
+      "result": true,
+      "reason": "内饰/零件可含塑料"
+    },
+    {
+      "ruleId": 91,
+      "result": true,
+      "reason": "零部件部分含木头"
+    },
+    {
+      "ruleId": 92,
+      "result": false,
+      "reason": "不可随意加热"
+    },
+    {
+      "ruleId": 93,
+      "result": false,
+      "reason": "无需特殊储存"
+    },
+    {
+      "ruleId": 94,
+      "result": false,
+      "reason": "主为工业生产"
+    },
+    {
+      "ruleId": 95,
+      "result": false,
+      "reason": "内外清洁较难"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "不成对出现"
+    },
+    {
+      "ruleId": 97,
+      "result": false,
+      "reason": "无法单手握住"
+    },
+    {
+      "ruleId": 98,
+      "result": true,
+      "reason": "汽车颜色系列丰富"
+    },
+    {
+      "ruleId": 99,
+      "result": true,
+      "reason": "车身坚硬"
+    },
+    {
+      "ruleId": 100,
+      "result": false,
+      "reason": "多种材质构成"
+    },
+    {
+      "ruleId": 101,
+      "result": false,
+      "reason": "此词四字"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "不是三个字"
+    },
+    {
+      "ruleId": 103,
+      "result": true,
+      "reason": "恰为四字"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "非一个字"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "没有“心”或其偏旁"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "没有“草”字头"
+    },
+    {
+      "ruleId": 107,
+      "result": true,
+      "reason": "“汽”带“氵”偏旁"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "没有“金”偏旁"
+    },
+    {
+      "ruleId": 109,
+      "result": false,
+      "reason": "无“木”偏旁"
+    },
+    {
+      "ruleId": 110,
+      "result": false,
+      "reason": "没有“火”偏旁"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "没有“土”偏旁"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "没有“日”偏旁"
+    },
+    {
+      "ruleId": 113,
+      "result": false,
+      "reason": "无“走”字旁"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "无“山”"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "无“川”"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "无“雨”偏旁"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "无“人”字旁"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "无“手”偏旁"
+    },
+    {
+      "ruleId": 119,
+      "result": false,
+      "reason": "无“王”"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "无“口”字旁"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "无“目”"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "无“耳”"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "无“足”"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "无“言”"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "无“食”"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "无“衣”"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "无“马”"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "无“鱼”"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "无“鸟”"
+    },
+    {
+      "ruleId": 130,
+      "result": true,
+      "reason": "“车”字有“车”偏旁"
+    },
+    {
+      "ruleId": 131,
+      "result": true,
+      "reason": "“动”“汽”等为左右结构"
+    },
+    {
+      "ruleId": 132,
+      "result": true,
+      "reason": "“电”上下结构，“汽车”含上下结构"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "四字偏旁均不同"
+    },
+    {
+      "ruleId": 134,
+      "result": true,
+      "reason": "各字偏旁都不同"
+    },
+    {
+      "ruleId": 135,
+      "result": true,
+      "reason": "“车”4画少于7"
+    },
+    {
+      "ruleId": 136,
+      "result": true,
+      "reason": "所有字均少于10画"
+    },
+    {
+      "ruleId": 137,
+      "result": true,
+      "reason": "最多7画小于15"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "都未超过12画"
+    },
+    {
+      "ruleId": 139,
+      "result": true,
+      "reason": "5,6,7,4，动汽车递增再递减，非全递增，故false"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "非笔画全递减"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "三字四声，一字一声，声调不全同"
+    },
+    {
+      "ruleId": 142,
+      "result": false,
+      "reason": "有三字同调"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "包含“车”第一声"
+    },
+    {
+      "ruleId": 144,
+      "result": true,
+      "reason": "无第二声"
+    },
+    {
+      "ruleId": 145,
+      "result": true,
+      "reason": "无第三声"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "有第四声"
+    },
+    {
+      "ruleId": 147,
+      "result": true,
+      "reason": "“车”第一声"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "没有第二声"
+    },
+    {
+      "ruleId": 149,
+      "result": false,
+      "reason": "没有第三声"
+    },
+    {
+      "ruleId": 150,
+      "result": true,
+      "reason": "“电动汽车”有第四声"
+    }
   ]
 }

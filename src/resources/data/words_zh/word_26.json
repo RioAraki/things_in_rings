@@ -3,155 +3,755 @@
   "word": "火星",
   "word_en": "Mars",
   "questions": [
-    {"ruleId": 1, "result": false, "reason": "'火星'作为行星名称较早，但中文普及主要为近代，未明确超1000年"},
-    {"ruleId": 2, "result": false, "reason": "并非1950年后才有的新事物"},
-    {"ruleId": 3, "result": false, "reason": "不是大多数家庭都有的东西"},
-    {"ruleId": 4, "result": false, "reason": "不是物品，人人都可了解"},
-    {"ruleId": 5, "result": false, "reason": "儿童与成人均谈论学习，与年龄无关"},
-    {"ruleId": 6, "result": false, "reason": "火星是热门天体，大众有一定兴趣"},
-    {"ruleId": 7, "result": false, "reason": "不是每个人都需要的东西"},
-    {"ruleId": 8, "result": false, "reason": "对工作有特殊性, 非所有工作相关"},
-    {"ruleId": 9, "result": true, "reason": "只能通过天文望远镜或相关资料“见到”，算特殊场合"},
-    {"ruleId": 10, "result": false, "reason": "日常生活中无法直接见到"},
-    {"ruleId": 11, "result": false, "reason": "不属于个人"},
-    {"ruleId": 12, "result": false, "reason": "也不是多人共同拥有"},
-    {"ruleId": 13, "result": false, "reason": "本身不需要电力"},
-    {"ruleId": 14, "result": false, "reason": "不专属于特定国家或文化"},
-    {"ruleId": 15, "result": true, "reason": "各国天文学中都存在火星概念"},
-    {"ruleId": 16, "result": false, "reason": "概念性事物，没有使用后丢弃"},
-    {"ruleId": 17, "result": true, "reason": "概念长久存在可用于多年"},
-    {"ruleId": 18, "result": false, "reason": "不是在室内使用的物品"},
-    {"ruleId": 19, "result": false, "reason": "也不是在室外使用的物品"},
-    {"ruleId": 20, "result": false, "reason": "亲眼见过火星的人极少"},
-    {"ruleId": 21, "result": false, "reason": "在商店买不到火星本体"},
-    {"ruleId": 22, "result": false, "reason": "办公室不常见"},
-    {"ruleId": 23, "result": false, "reason": "学校教材可能涉及，但不是经常见到的实体"},
-    {"ruleId": 24, "result": false, "reason": "让人心情愉快无共性"},
-    {"ruleId": 25, "result": false, "reason": "并不让人感到危险"},
-    {"ruleId": 26, "result": false, "reason": "并不用于娱乐或游戏"},
-    {"ruleId": 27, "result": false, "reason": "普遍不用于实际工作"},
-    {"ruleId": 28, "result": false, "reason": "无时间限定"},
-    {"ruleId": 29, "result": false, "reason": "不是使用型物品"},
-    {"ruleId": 30, "result": false, "reason": "认知火星门槛不高"},
-    {"ruleId": 31, "result": true, "reason": "每个人都可以了解和说出"},
-    {"ruleId": 32, "result": false, "reason": "正式场合不会特意提及"},
-    {"ruleId": 33, "result": false, "reason": "轻松休闲环境涉及较少"},
-    {"ruleId": 34, "result": false, "reason": "不属于收藏品"},
-    {"ruleId": 35, "result": true, "reason": "在家里见不到"},
-    {"ruleId": 36, "result": true, "reason": "火星在天文历史中的确很重要"},
-    {"ruleId": 37, "result": false, "reason": "古代观察也很普遍，不局限现代"},
-    {"ruleId": 38, "result": false, "reason": "非常规礼物"},
-    {"ruleId": 39, "result": true, "reason": "几乎不会作为礼物"},
-    {"ruleId": 40, "result": false, "reason": "有钱人并没有所有权"},
-    {"ruleId": 41, "result": true, "reason": "各收入阶层都可谈论或学习火星"},
-    {"ruleId": 42, "result": false, "reason": "实体无法携带上飞机"},
-    {"ruleId": 43, "result": false, "reason": "一小时内找不到火星本体"},
-    {"ruleId": 44, "result": false, "reason": "火星本身不需燃料"},
-    {"ruleId": 45, "result": false, "reason": "非物品无法适用"},
-    {"ruleId": 46, "result": false, "reason": "无季节性"},
-    {"ruleId": 47, "result": false, "reason": "非可用物品"},
-    {"ruleId": 48, "result": false, "reason": "无需许可"},
-    {"ruleId": 49, "result": true, "reason": "宇宙中存在很多火星状的行星"},
-    {"ruleId": 50, "result": false, "reason": "火星并非唯一的行星类型（还有火星以外的行星）"},
-    {"ruleId": 51, "result": false, "reason": "不涉及损坏"},
-    {"ruleId": 52, "result": false, "reason": "不可携带"},
-    {"ruleId": 53, "result": false, "reason": "不需要电力"},
-    {"ruleId": 54, "result": false, "reason": "尺寸不固定，各种参考值"},
-    {"ruleId": 55, "result": true, "reason": "火星在宇宙自然存在"},
-    {"ruleId": 56, "result": false, "reason": "本身不涉及“干燥”状态"},
-    {"ruleId": 57, "result": false, "reason": "火星不会漂浮于水中"},
-    {"ruleId": 58, "result": false, "reason": "火星不是金属制"},
-    {"ruleId": 59, "result": false, "reason": "本身不发声"},
-    {"ruleId": 60, "result": false, "reason": "表面色并不算鲜艳"},
-    {"ruleId": 61, "result": true, "reason": "火星比人更大"},
-    {"ruleId": 62, "result": false, "reason": "非透明"},
-    {"ruleId": 63, "result": false, "reason": "非组件物品"},
-    {"ruleId": 64, "result": false, "reason": "无法触摸"},
-    {"ruleId": 65, "result": false, "reason": "理念上无折叠可能"},
-    {"ruleId": 66, "result": false, "reason": "无需保养"},
-    {"ruleId": 67, "result": false, "reason": "无边缘"},
-    {"ruleId": 68, "result": false, "reason": "不可食用"},
-    {"ruleId": 69, "result": false, "reason": "无气味"},
-    {"ruleId": 70, "result": true, "reason": "质量远大于100公斤"},
-    {"ruleId": 71, "result": false, "reason": "不能穿戴"},
-    {"ruleId": 72, "result": true, "reason": "火星有热量"},
-    {"ruleId": 73, "result": false, "reason": "不易着火"},
-    {"ruleId": 74, "result": false, "reason": "表面无印文字"},
-    {"ruleId": 75, "result": false, "reason": "无须组装"},
-    {"ruleId": 76, "result": false, "reason": "不会自然分解"},
-    {"ruleId": 77, "result": false, "reason": "不可堆叠"},
-    {"ruleId": 78, "result": false, "reason": "缺乏光泽或反光"},
-    {"ruleId": 79, "result": false, "reason": "不适用"},
-    {"ruleId": 80, "result": false, "reason": "不会发声"},
-    {"ruleId": 81, "result": false, "reason": "不会吸水"},
-    {"ruleId": 82, "result": false, "reason": "不可弯曲"},
-    {"ruleId": 83, "result": false, "reason": "不会浮于水面"},
-    {"ruleId": 84, "result": true, "reason": "火星随着时间地理环境变化"},
-    {"ruleId": 85, "result": false, "reason": "不是两侧形状相同得人造物"},
-    {"ruleId": 86, "result": false, "reason": "损坏这种概念不适用"},
-    {"ruleId": 87, "result": false, "reason": "不需燃料"},
-    {"ruleId": 88, "result": false, "reason": "火星非活物"},
-    {"ruleId": 89, "result": false, "reason": "不可在水下见到"},
-    {"ruleId": 90, "result": false, "reason": "与塑料无关"},
-    {"ruleId": 91, "result": false, "reason": "与木头无关"},
-    {"ruleId": 92, "result": false, "reason": "无可加热性"},
-    {"ruleId": 93, "result": false, "reason": "不需储存"},
-    {"ruleId": 94, "result": false, "reason": "非人工制造"},
-    {"ruleId": 95, "result": false, "reason": "无清洁需求"},
-    {"ruleId": 96, "result": false, "reason": "不成对"},
-    {"ruleId": 97, "result": false, "reason": "无法手握"},
-    {"ruleId": 98, "result": false, "reason": "主要为红棕色，无多色"},
-    {"ruleId": 99, "result": true, "reason": "物质构成坚硬"},
-    {"ruleId": 100, "result": false, "reason": "并非单一材质"},
-    {"ruleId": 101, "result": true, "reason": "火星为两个字词语"},
-    {"ruleId": 102, "result": false, "reason": "不是三个字"},
-    {"ruleId": 103, "result": false, "reason": "不是四个字"},
-    {"ruleId": 104, "result": false, "reason": "不是五个字"},
-    {"ruleId": 105, "result": false, "reason": "无“心”字或偏旁"},
-    {"ruleId": 106, "result": false, "reason": "无“草”字或偏旁"},
-    {"ruleId": 107, "result": false, "reason": "无“水”字或偏旁"},
-    {"ruleId": 108, "result": false, "reason": "无“金”字或偏旁"},
-    {"ruleId": 109, "result": false, "reason": "无“木”字或偏旁"},
-    {"ruleId": 110, "result": true, "reason": "“火”是火字旁"},
-    {"ruleId": 111, "result": false, "reason": "无“土”字或偏旁"},
-    {"ruleId": 112, "result": true, "reason": "“星”含“日”字旁"},
-    {"ruleId": 113, "result": false, "reason": "无“走”字或偏旁"},
-    {"ruleId": 114, "result": false, "reason": "无“山”字或偏旁"},
-    {"ruleId": 115, "result": false, "reason": "无“川”字或偏旁"},
-    {"ruleId": 116, "result": false, "reason": "无“雨”字或偏旁"},
-    {"ruleId": 117, "result": false, "reason": "无“人”字或偏旁"},
-    {"ruleId": 118, "result": false, "reason": "无“手”字或偏旁"},
-    {"ruleId": 119, "result": false, "reason": "无“王”字或偏旁"},
-    {"ruleId": 120, "result": false, "reason": "无“口”字或偏旁"},
-    {"ruleId": 121, "result": false, "reason": "无“目”字或偏旁"},
-    {"ruleId": 122, "result": false, "reason": "无“耳”字或偏旁"},
-    {"ruleId": 123, "result": false, "reason": "无“足”字或偏旁"},
-    {"ruleId": 124, "result": false, "reason": "无“言”字或偏旁"},
-    {"ruleId": 125, "result": false, "reason": "无“食”字或偏旁"},
-    {"ruleId": 126, "result": false, "reason": "无“衣”字或偏旁"},
-    {"ruleId": 127, "result": false, "reason": "无“马”字或偏旁"},
-    {"ruleId": 128, "result": false, "reason": "无“鱼”字或偏旁"},
-    {"ruleId": 129, "result": false, "reason": "无“鸟”字或偏旁"},
-    {"ruleId": 130, "result": false, "reason": "无“车”字或偏旁"},
-    {"ruleId": 131, "result": true, "reason": "“火”与“星”结构都为左右结构"},
-    {"ruleId": 132, "result": true, "reason": "“星”为上下结构"},
-    {"ruleId": 133, "result": false, "reason": "两字部首不同"},
-    {"ruleId": 134, "result": true, "reason": "两字偏旁完全不同"},
-    {"ruleId": 135, "result": true, "reason": "“火”仅4画，小于7画"},
-    {"ruleId": 136, "result": true, "reason": "“火”4画，“星”9画，均小于10画"},
-    {"ruleId": 137, "result": true, "reason": "“星”9画，小于15画"},
-    {"ruleId": 138, "result": false, "reason": "皆未超过12画"},
-    {"ruleId": 139, "result": true, "reason": "“火”4画→“星”9画，递增"},
-    {"ruleId": 140, "result": false, "reason": "笔画递增非递减"},
-    {"ruleId": 141, "result": false, "reason": "声调为三声、一声，不同"},
-    {"ruleId": 142, "result": true, "reason": "“火”三声，“星”一声，声调不同"},
-    {"ruleId": 143, "result": false, "reason": "含有第一声（“星”xīng）"},
-    {"ruleId": 144, "result": true, "reason": "没有第二声"},
-    {"ruleId": 145, "result": false, "reason": "有第三声（“火”huǒ）"},
-    {"ruleId": 146, "result": true, "reason": "没有第四声"},
-    {"ruleId": 147, "result": true, "reason": "“星”是一声"},
-    {"ruleId": 148, "result": false, "reason": "无二声"},
-    {"ruleId": 149, "result": true, "reason": "“火”为三声"},
-    {"ruleId": 150, "result": false, "reason": "无四声"}
+    {
+      "ruleId": 1,
+      "result": true,
+      "reason": "火星存在了远超1000年"
+    },
+    {
+      "ruleId": 2,
+      "result": false,
+      "reason": "并非1950年后才有的新事物"
+    },
+    {
+      "ruleId": 3,
+      "result": false,
+      "reason": "不是大多数家庭都有的东西"
+    },
+    {
+      "ruleId": 4,
+      "result": true,
+      "reason": "不是物品，人人都可了解"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "儿童与成人均谈论学习，与年龄无关"
+    },
+    {
+      "ruleId": 6,
+      "result": false,
+      "reason": "火星是热门天体，大众有一定兴趣"
+    },
+    {
+      "ruleId": 7,
+      "result": false,
+      "reason": "不是每个人都需要的东西"
+    },
+    {
+      "ruleId": 8,
+      "result": false,
+      "reason": "对工作有特殊性, 非所有工作相关"
+    },
+    {
+      "ruleId": 9,
+      "result": true,
+      "reason": "只能通过天文望远镜或相关资料“见到”，算特殊场合"
+    },
+    {
+      "ruleId": 10,
+      "result": false,
+      "reason": "日常生活中无法直接见到"
+    },
+    {
+      "ruleId": 11,
+      "result": false,
+      "reason": "不属于个人"
+    },
+    {
+      "ruleId": 12,
+      "result": false,
+      "reason": "也不是多人共同拥有"
+    },
+    {
+      "ruleId": 13,
+      "result": false,
+      "reason": "本身不需要电力"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "不专属于特定国家或文化"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "各国天文学中都存在火星概念"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "概念性事物，没有使用后丢弃"
+    },
+    {
+      "ruleId": 17,
+      "result": true,
+      "reason": "概念长久存在可用于多年"
+    },
+    {
+      "ruleId": 18,
+      "result": false,
+      "reason": "不是在室内使用的物品"
+    },
+    {
+      "ruleId": 19,
+      "result": false,
+      "reason": "也不是在室外使用的物品"
+    },
+    {
+      "ruleId": 20,
+      "result": false,
+      "reason": "亲眼见过火星的人极少"
+    },
+    {
+      "ruleId": 21,
+      "result": false,
+      "reason": "在商店买不到火星本体"
+    },
+    {
+      "ruleId": 22,
+      "result": false,
+      "reason": "办公室不常见"
+    },
+    {
+      "ruleId": 23,
+      "result": false,
+      "reason": "学校教材可能涉及，但不是经常见到的实体"
+    },
+    {
+      "ruleId": 24,
+      "result": false,
+      "reason": "让人心情愉快无共性"
+    },
+    {
+      "ruleId": 25,
+      "result": false,
+      "reason": "并不让人感到危险"
+    },
+    {
+      "ruleId": 26,
+      "result": false,
+      "reason": "并不用于娱乐或游戏"
+    },
+    {
+      "ruleId": 27,
+      "result": false,
+      "reason": "普遍不用于实际工作"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "无时间限定"
+    },
+    {
+      "ruleId": 29,
+      "result": false,
+      "reason": "不是使用型物品"
+    },
+    {
+      "ruleId": 30,
+      "result": false,
+      "reason": "认知火星门槛不高"
+    },
+    {
+      "ruleId": 31,
+      "result": true,
+      "reason": "每个人都可以了解和说出"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "正式场合不会特意提及"
+    },
+    {
+      "ruleId": 33,
+      "result": false,
+      "reason": "轻松休闲环境涉及较少"
+    },
+    {
+      "ruleId": 34,
+      "result": false,
+      "reason": "不属于收藏品"
+    },
+    {
+      "ruleId": 35,
+      "result": true,
+      "reason": "在家里见不到"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "火星在天文历史中的确很重要"
+    },
+    {
+      "ruleId": 37,
+      "result": false,
+      "reason": "古代观察也很普遍，不局限现代"
+    },
+    {
+      "ruleId": 38,
+      "result": false,
+      "reason": "非常规礼物"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "几乎不会作为礼物"
+    },
+    {
+      "ruleId": 40,
+      "result": false,
+      "reason": "有钱人并没有所有权"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "各收入阶层都可谈论或学习火星"
+    },
+    {
+      "ruleId": 42,
+      "result": false,
+      "reason": "实体无法携带上飞机"
+    },
+    {
+      "ruleId": 43,
+      "result": false,
+      "reason": "一小时内找不到火星本体"
+    },
+    {
+      "ruleId": 44,
+      "result": false,
+      "reason": "火星本身不需燃料"
+    },
+    {
+      "ruleId": 45,
+      "result": false,
+      "reason": "非物品无法适用"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "无季节性"
+    },
+    {
+      "ruleId": 47,
+      "result": false,
+      "reason": "非可用物品"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "无需许可"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "宇宙中存在很多火星状的行星"
+    },
+    {
+      "ruleId": 50,
+      "result": false,
+      "reason": "火星并非唯一的行星类型（还有火星以外的行星）"
+    },
+    {
+      "ruleId": 51,
+      "result": false,
+      "reason": "不涉及损坏"
+    },
+    {
+      "ruleId": 52,
+      "result": false,
+      "reason": "不可携带"
+    },
+    {
+      "ruleId": 53,
+      "result": false,
+      "reason": "不需要电力"
+    },
+    {
+      "ruleId": 54,
+      "result": false,
+      "reason": "尺寸不固定，各种参考值"
+    },
+    {
+      "ruleId": 55,
+      "result": true,
+      "reason": "火星在宇宙自然存在"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "本身不涉及“干燥”状态"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "火星不会漂浮于水中"
+    },
+    {
+      "ruleId": 58,
+      "result": false,
+      "reason": "火星不是金属制"
+    },
+    {
+      "ruleId": 59,
+      "result": false,
+      "reason": "本身不发声"
+    },
+    {
+      "ruleId": 60,
+      "result": false,
+      "reason": "表面色并不算鲜艳"
+    },
+    {
+      "ruleId": 61,
+      "result": true,
+      "reason": "火星比人更大"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "非透明"
+    },
+    {
+      "ruleId": 63,
+      "result": false,
+      "reason": "非组件物品"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "无法触摸"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "理念上无折叠可能"
+    },
+    {
+      "ruleId": 66,
+      "result": false,
+      "reason": "无需保养"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "无边缘"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "不可食用"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "无气味"
+    },
+    {
+      "ruleId": 70,
+      "result": true,
+      "reason": "质量远大于100公斤"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "不能穿戴"
+    },
+    {
+      "ruleId": 72,
+      "result": true,
+      "reason": "火星有热量"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "不易着火"
+    },
+    {
+      "ruleId": 74,
+      "result": false,
+      "reason": "表面无印文字"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "无须组装"
+    },
+    {
+      "ruleId": 76,
+      "result": false,
+      "reason": "不会自然分解"
+    },
+    {
+      "ruleId": 77,
+      "result": false,
+      "reason": "不可堆叠"
+    },
+    {
+      "ruleId": 78,
+      "result": false,
+      "reason": "缺乏光泽或反光"
+    },
+    {
+      "ruleId": 79,
+      "result": false,
+      "reason": "不适用"
+    },
+    {
+      "ruleId": 80,
+      "result": false,
+      "reason": "不会发声"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "不会吸水"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "不可弯曲"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "不会浮于水面"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "火星随着时间地理环境变化"
+    },
+    {
+      "ruleId": 85,
+      "result": false,
+      "reason": "不是两侧形状相同得人造物"
+    },
+    {
+      "ruleId": 86,
+      "result": false,
+      "reason": "损坏这种概念不适用"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "不需燃料"
+    },
+    {
+      "ruleId": 88,
+      "result": false,
+      "reason": "火星非活物"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "不可在水下见到"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "与塑料无关"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "与木头无关"
+    },
+    {
+      "ruleId": 92,
+      "result": false,
+      "reason": "无可加热性"
+    },
+    {
+      "ruleId": 93,
+      "result": false,
+      "reason": "不需储存"
+    },
+    {
+      "ruleId": 94,
+      "result": false,
+      "reason": "非人工制造"
+    },
+    {
+      "ruleId": 95,
+      "result": false,
+      "reason": "无清洁需求"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "不成对"
+    },
+    {
+      "ruleId": 97,
+      "result": false,
+      "reason": "无法手握"
+    },
+    {
+      "ruleId": 98,
+      "result": false,
+      "reason": "主要为红棕色，无多色"
+    },
+    {
+      "ruleId": 99,
+      "result": true,
+      "reason": "物质构成坚硬"
+    },
+    {
+      "ruleId": 100,
+      "result": false,
+      "reason": "并非单一材质"
+    },
+    {
+      "ruleId": 101,
+      "result": true,
+      "reason": "火星为两个字词语"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "不是三个字"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "不是四个字"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "不是五个字"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "无“心”字或偏旁"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "无“草”字或偏旁"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "无“水”字或偏旁"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "无“金”字或偏旁"
+    },
+    {
+      "ruleId": 109,
+      "result": false,
+      "reason": "无“木”字或偏旁"
+    },
+    {
+      "ruleId": 110,
+      "result": true,
+      "reason": "“火”是火字旁"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "无“土”字或偏旁"
+    },
+    {
+      "ruleId": 112,
+      "result": true,
+      "reason": "“星”含“日”字旁"
+    },
+    {
+      "ruleId": 113,
+      "result": false,
+      "reason": "无“走”字或偏旁"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "无“山”字或偏旁"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "无“川”字或偏旁"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "无“雨”字或偏旁"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "无“人”字或偏旁"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "无“手”字或偏旁"
+    },
+    {
+      "ruleId": 119,
+      "result": false,
+      "reason": "无“王”字或偏旁"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "无“口”字或偏旁"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "无“目”字或偏旁"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "无“耳”字或偏旁"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "无“足”字或偏旁"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "无“言”字或偏旁"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "无“食”字或偏旁"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "无“衣”字或偏旁"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "无“马”字或偏旁"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "无“鱼”字或偏旁"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "无“鸟”字或偏旁"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "无“车”字或偏旁"
+    },
+    {
+      "ruleId": 131,
+      "result": true,
+      "reason": "“火”与“星”结构都为左右结构"
+    },
+    {
+      "ruleId": 132,
+      "result": true,
+      "reason": "“星”为上下结构"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "两字部首不同"
+    },
+    {
+      "ruleId": 134,
+      "result": true,
+      "reason": "两字偏旁完全不同"
+    },
+    {
+      "ruleId": 135,
+      "result": true,
+      "reason": "“火”仅4画，小于7画"
+    },
+    {
+      "ruleId": 136,
+      "result": true,
+      "reason": "“火”4画，“星”9画，均小于10画"
+    },
+    {
+      "ruleId": 137,
+      "result": true,
+      "reason": "“星”9画，小于15画"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "皆未超过12画"
+    },
+    {
+      "ruleId": 139,
+      "result": true,
+      "reason": "“火”4画→“星”9画，递增"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "笔画递增非递减"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "声调为三声、一声，不同"
+    },
+    {
+      "ruleId": 142,
+      "result": true,
+      "reason": "“火”三声，“星”一声，声调不同"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "含有第一声（“星”xīng）"
+    },
+    {
+      "ruleId": 144,
+      "result": true,
+      "reason": "没有第二声"
+    },
+    {
+      "ruleId": 145,
+      "result": false,
+      "reason": "有第三声（“火”huǒ）"
+    },
+    {
+      "ruleId": 146,
+      "result": true,
+      "reason": "没有第四声"
+    },
+    {
+      "ruleId": 147,
+      "result": true,
+      "reason": "“星”是一声"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "无二声"
+    },
+    {
+      "ruleId": 149,
+      "result": true,
+      "reason": "“火”为三声"
+    },
+    {
+      "ruleId": 150,
+      "result": false,
+      "reason": "无四声"
+    }
   ]
 }

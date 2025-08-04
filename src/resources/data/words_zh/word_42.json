@@ -3,155 +3,755 @@
   "word": "砖块",
   "word_en": "Brick",
   "questions": [
-    {"ruleId": 1, "result": false, "reason": "砖块作为建筑材料不到1000年"},
-    {"ruleId": 2, "result": false, "reason": "不是1950年后的新事物"},
-    {"ruleId": 3, "result": false, "reason": "大部分家庭没有实体砖块"},
-    {"ruleId": 4, "result": false, "reason": "不是稀有物品"},
-    {"ruleId": 5, "result": false, "reason": "成人比儿童更多使用"},
-    {"ruleId": 6, "result": false, "reason": "大多数人对其无兴趣但非极少数"},
-    {"ruleId": 7, "result": false, "reason": "并非每个人都需要"},
-    {"ruleId": 8, "result": true, "reason": "可辅助建筑等工作"},
-    {"ruleId": 9, "result": false, "reason": "建筑工地等常见"},
-    {"ruleId": 10, "result": true, "reason": "日常生活周围环境可见到"},
-    {"ruleId": 11, "result": false, "reason": "通常不是个人专属"},
-    {"ruleId": 12, "result": true, "reason": "可多人共享例如施工现场"},
-    {"ruleId": 13, "result": false, "reason": "不需要电力"},
-    {"ruleId": 14, "result": false, "reason": "世界各地均有类似砖块"},
-    {"ruleId": 15, "result": true, "reason": "许多国家都有砖块"},
-    {"ruleId": 16, "result": false, "reason": "不属于一次性或用后即弃"},
-    {"ruleId": 17, "result": true, "reason": "可多年使用不易损坏"},
-    {"ruleId": 18, "result": false, "reason": "通常用于室外或建筑结构"},
-    {"ruleId": 19, "result": true, "reason": "常用于室外建筑"},
-    {"ruleId": 20, "result": true, "reason": "大部分人亲眼见过"},
-    {"ruleId": 21, "result": true, "reason": "可在建材市场购买"},
-    {"ruleId": 22, "result": false, "reason": "办公室不常见"},
-    {"ruleId": 23, "result": false, "reason": "学校里不常见实体砖块"},
-    {"ruleId": 24, "result": false, "reason": "很少让人感到快乐"},
-    {"ruleId": 25, "result": false, "reason": "通常不会让人感到危险"},
-    {"ruleId": 26, "result": false, "reason": "不用于娱乐或游戏"},
-    {"ruleId": 27, "result": true, "reason": "常用于建筑等重要任务"},
-    {"ruleId": 28, "result": false, "reason": "并非只在特定时间用"},
-    {"ruleId": 29, "result": true, "reason": "全年可用"},
-    {"ruleId": 30, "result": false, "reason": "学习和使用门槛较低"},
-    {"ruleId": 31, "result": true, "reason": "任何人都易于搬运、使用"},
-    {"ruleId": 32, "result": false, "reason": "正式场合如会议等不用砖块"},
-    {"ruleId": 33, "result": false, "reason": "休闲环境不适用"},
-    {"ruleId": 34, "result": false, "reason": "很少收藏"},
-    {"ruleId": 35, "result": true, "reason": "一般家里见不到"},
-    {"ruleId": 36, "result": true, "reason": "在建筑历史上很重要"},
-    {"ruleId": 37, "result": false, "reason": "古代同样有砖块"},
-    {"ruleId": 38, "result": false, "reason": "极少作为礼物"},
-    {"ruleId": 39, "result": true, "reason": "很少做礼物"},
-    {"ruleId": 40, "result": false, "reason": "各阶层都可拥有"},
-    {"ruleId": 41, "result": true, "reason": "所有收入阶层能接触或使用"},
-    {"ruleId": 42, "result": true, "reason": "通常允许带上飞机"},
-    {"ruleId": 43, "result": true, "reason": "建材市场等1小时内能找到"},
-    {"ruleId": 44, "result": false, "reason": "不需燃料"},
-    {"ruleId": 45, "result": false, "reason": "非一次性"},
-    {"ruleId": 46, "result": false, "reason": "非特定季节用品"},
-    {"ruleId": 47, "result": true, "reason": "可多次使用"},
-    {"ruleId": 48, "result": false, "reason": "使用不需许可"},
-    {"ruleId": 49, "result": true, "reason": "世界各地数量巨大"},
-    {"ruleId": 50, "result": false, "reason": "不止一个"},
-    {"ruleId": 51, "result": false, "reason": "不易损坏"},
-    {"ruleId": 52, "result": false, "reason": "较重不易携带"},
-    {"ruleId": 53, "result": false, "reason": "不需电力（与13条同理）"},
-    {"ruleId": 54, "result": true, "reason": "尺寸较为固定"},
-    {"ruleId": 55, "result": false, "reason": "非自然界直接产物"},
-    {"ruleId": 56, "result": false, "reason": "水中易吸水不干燥"},
-    {"ruleId": 57, "result": false, "reason": "不漂浮于水"},
-    {"ruleId": 58, "result": false, "reason": "非金属制品"},
-    {"ruleId": 59, "result": false, "reason": "使用不发声"},
-    {"ruleId": 60, "result": false, "reason": "一般为土色不鲜艳"},
-    {"ruleId": 61, "result": false, "reason": "砖块体积远小于人"},
-    {"ruleId": 62, "result": false, "reason": "不透明"},
-    {"ruleId": 63, "result": false, "reason": "不可拆分为更多组件"},
-    {"ruleId": 64, "result": false, "reason": "触感坚硬"},
-    {"ruleId": 65, "result": false, "reason": "不可折叠挤压"},
-    {"ruleId": 66, "result": false, "reason": "不需定期保养"},
-    {"ruleId": 67, "result": false, "reason": "没有锋利边缘"},
-    {"ruleId": 68, "result": false, "reason": "不能食用"},
-    {"ruleId": 69, "result": false, "reason": "无强烈气味"},
-    {"ruleId": 70, "result": false, "reason": "单块远小于100公斤"},
-    {"ruleId": 71, "result": false, "reason": "不能穿戴"},
-    {"ruleId": 72, "result": false, "reason": "不会产生热量"},
-    {"ruleId": 73, "result": false, "reason": "不易着火"},
-    {"ruleId": 74, "result": false, "reason": "表面一般无文字"},
-    {"ruleId": 75, "result": false, "reason": "不需组装"},
-    {"ruleId": 76, "result": true, "reason": "在自然环境下可风化分解"},
-    {"ruleId": 77, "result": true, "reason": "可堆叠码放"},
-    {"ruleId": 78, "result": false, "reason": "表面无光泽"},
-    {"ruleId": 79, "result": false, "reason": "不能被磁铁吸引"},
-    {"ruleId": 80, "result": false, "reason": "本身不发声"},
-    {"ruleId": 81, "result": true, "reason": "能吸收水分"},
-    {"ruleId": 82, "result": false, "reason": "不易弯曲"},
-    {"ruleId": 83, "result": false, "reason": "不能浮于水面"},
-    {"ruleId": 84, "result": true, "reason": "长期暴露风化会变化"},
-    {"ruleId": 85, "result": false, "reason": "一般不为对称形状"},
-    {"ruleId": 86, "result": false, "reason": "损坏难修复通常更换"},
-    {"ruleId": 87, "result": false, "reason": "不需燃料"},
-    {"ruleId": 88, "result": false, "reason": "非活物"},
-    {"ruleId": 89, "result": false, "reason": "水下罕见砖块"},
-    {"ruleId": 90, "result": false, "reason": "通常不包含塑料"},
-    {"ruleId": 91, "result": false, "reason": "不含木头"},
-    {"ruleId": 92, "result": true, "reason": "能耐热可加热"},
-    {"ruleId": 93, "result": false, "reason": "无需特殊储存"},
-    {"ruleId": 94, "result": true, "reason": "既有手工也有机械制作"},
-    {"ruleId": 95, "result": false, "reason": "多孔结构不易清洁"},
-    {"ruleId": 96, "result": false, "reason": "通常不是成对"},
-    {"ruleId": 97, "result": true, "reason": "用手可握住单块"},
-    {"ruleId": 98, "result": false, "reason": "砖块颜色选择有限"},
-    {"ruleId": 99, "result": true, "reason": "触感坚硬"},
-    {"ruleId": 100, "result": true, "reason": "通常为单一材质如陶土"},
-    {"ruleId": 101, "result": true, "reason": "两个字"},
-    {"ruleId": 102, "result": false, "reason": "不是三个字"},
-    {"ruleId": 103, "result": false, "reason": "不是四个字"},
-    {"ruleId": 104, "result": false, "reason": "不是五个字"},
-    {"ruleId": 105, "result": false, "reason": "无心字或部首"},
-    {"ruleId": 106, "result": false, "reason": "无草字头"},
-    {"ruleId": 107, "result": false, "reason": "无水部"},
-    {"ruleId": 108, "result": false, "reason": "无金部"},
-    {"ruleId": 109, "result": false, "reason": "无木部"},
-    {"ruleId": 110, "result": false, "reason": "无火部"},
-    {"ruleId": 111, "result": true, "reason": "“块”有土字旁"},
-    {"ruleId": 112, "result": false, "reason": "无日字部"},
-    {"ruleId": 113, "result": false, "reason": "无走部"},
-    {"ruleId": 114, "result": false, "reason": "无山部"},
-    {"ruleId": 115, "result": false, "reason": "无川部"},
-    {"ruleId": 116, "result": false, "reason": "无雨部"},
-    {"ruleId": 117, "result": false, "reason": "无人部"},
-    {"ruleId": 118, "result": false, "reason": "无手部"},
-    {"ruleId": 119, "result": false, "reason": "无王部"},
-    {"ruleId": 120, "result": false, "reason": "无口部"},
-    {"ruleId": 121, "result": false, "reason": "无目部"},
-    {"ruleId": 122, "result": false, "reason": "无耳部"},
-    {"ruleId": 123, "result": false, "reason": "无足部"},
-    {"ruleId": 124, "result": false, "reason": "无言部"},
-    {"ruleId": 125, "result": false, "reason": "无食部"},
-    {"ruleId": 126, "result": false, "reason": "无衣部"},
-    {"ruleId": 127, "result": false, "reason": "无马部"},
-    {"ruleId": 128, "result": false, "reason": "无鱼部"},
-    {"ruleId": 129, "result": false, "reason": "无鸟部"},
-    {"ruleId": 130, "result": false, "reason": "无车部"},
-    {"ruleId": 131, "result": true, "reason": "'砖'和'块'均为左右结构"},
-    {"ruleId": 132, "result": false, "reason": "无上下结构"},
-    {"ruleId": 133, "result": false, "reason": "偏旁分别为“石”“土”不同"},
-    {"ruleId": 134, "result": true, "reason": "两字偏旁不同"},
-    {"ruleId": 135, "result": true, "reason": "块7画=7；等于或少于7画"},
-    {"ruleId": 136, "result": true, "reason": "砖10画，块7画，均少于10画"},
-    {"ruleId": 137, "result": true, "reason": "笔画最多为10画，少于15"},
-    {"ruleId": 138, "result": false, "reason": "都不超过12画"},
-    {"ruleId": 139, "result": false, "reason": "10>7笔画数递减"},
-    {"ruleId": 140, "result": true, "reason": "笔画依次递减"},
-    {"ruleId": 141, "result": false, "reason": "声调不同（一/四声）"},
-    {"ruleId": 142, "result": true, "reason": "声调分别是第一和第四声不同"},
-    {"ruleId": 143, "result": false, "reason": "“砖”为第一声"},
-    {"ruleId": 144, "result": true, "reason": "二字无第二声"},
-    {"ruleId": 145, "result": true, "reason": "二字无第三声"},
-    {"ruleId": 146, "result": false, "reason": "'块'为第四声"},
-    {"ruleId": 147, "result": true, "reason": "“砖”为第一声"},
-    {"ruleId": 148, "result": false, "reason": "没有第二声"},
-    {"ruleId": 149, "result": false, "reason": "没有第三声"},
-    {"ruleId": 150, "result": true, "reason": "“块”第四声"}
+    {
+      "ruleId": 1,
+      "result": false,
+      "reason": "砖块作为建筑材料不到1000年"
+    },
+    {
+      "ruleId": 2,
+      "result": false,
+      "reason": "不是1950年后的新事物"
+    },
+    {
+      "ruleId": 3,
+      "result": false,
+      "reason": "大部分家庭没有实体砖块"
+    },
+    {
+      "ruleId": 4,
+      "result": true,
+      "reason": "不是稀有物品"
+    },
+    {
+      "ruleId": 5,
+      "result": true,
+      "reason": "成人比儿童更多使用"
+    },
+    {
+      "ruleId": 6,
+      "result": false,
+      "reason": "大多数人对其无兴趣但非极少数"
+    },
+    {
+      "ruleId": 7,
+      "result": false,
+      "reason": "并非每个人都需要"
+    },
+    {
+      "ruleId": 8,
+      "result": true,
+      "reason": "可辅助建筑等工作"
+    },
+    {
+      "ruleId": 9,
+      "result": false,
+      "reason": "建筑工地等常见"
+    },
+    {
+      "ruleId": 10,
+      "result": true,
+      "reason": "日常生活周围环境可见到"
+    },
+    {
+      "ruleId": 11,
+      "result": false,
+      "reason": "通常不是个人专属"
+    },
+    {
+      "ruleId": 12,
+      "result": true,
+      "reason": "可多人共享例如施工现场"
+    },
+    {
+      "ruleId": 13,
+      "result": false,
+      "reason": "不需要电力"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "世界各地均有类似砖块"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "许多国家都有砖块"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "不属于一次性或用后即弃"
+    },
+    {
+      "ruleId": 17,
+      "result": true,
+      "reason": "可多年使用不易损坏"
+    },
+    {
+      "ruleId": 18,
+      "result": false,
+      "reason": "通常用于室外或建筑结构"
+    },
+    {
+      "ruleId": 19,
+      "result": true,
+      "reason": "常用于室外建筑"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "大部分人亲眼见过"
+    },
+    {
+      "ruleId": 21,
+      "result": true,
+      "reason": "可在建材市场购买"
+    },
+    {
+      "ruleId": 22,
+      "result": false,
+      "reason": "办公室不常见"
+    },
+    {
+      "ruleId": 23,
+      "result": false,
+      "reason": "学校里不常见实体砖块"
+    },
+    {
+      "ruleId": 24,
+      "result": false,
+      "reason": "很少让人感到快乐"
+    },
+    {
+      "ruleId": 25,
+      "result": false,
+      "reason": "通常不会让人感到危险"
+    },
+    {
+      "ruleId": 26,
+      "result": false,
+      "reason": "不用于娱乐或游戏"
+    },
+    {
+      "ruleId": 27,
+      "result": true,
+      "reason": "常用于建筑等重要任务"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "并非只在特定时间用"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "全年可用"
+    },
+    {
+      "ruleId": 30,
+      "result": false,
+      "reason": "学习和使用门槛较低"
+    },
+    {
+      "ruleId": 31,
+      "result": true,
+      "reason": "任何人都易于搬运、使用"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "正式场合如会议等不用砖块"
+    },
+    {
+      "ruleId": 33,
+      "result": false,
+      "reason": "休闲环境不适用"
+    },
+    {
+      "ruleId": 34,
+      "result": false,
+      "reason": "很少收藏"
+    },
+    {
+      "ruleId": 35,
+      "result": true,
+      "reason": "一般家里见不到"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "在建筑历史上很重要"
+    },
+    {
+      "ruleId": 37,
+      "result": false,
+      "reason": "古代同样有砖块"
+    },
+    {
+      "ruleId": 38,
+      "result": false,
+      "reason": "极少作为礼物"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "很少做礼物"
+    },
+    {
+      "ruleId": 40,
+      "result": false,
+      "reason": "各阶层都可拥有"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "所有收入阶层能接触或使用"
+    },
+    {
+      "ruleId": 42,
+      "result": true,
+      "reason": "通常允许带上飞机"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "建材市场等1小时内能找到"
+    },
+    {
+      "ruleId": 44,
+      "result": false,
+      "reason": "不需燃料"
+    },
+    {
+      "ruleId": 45,
+      "result": false,
+      "reason": "非一次性"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "非特定季节用品"
+    },
+    {
+      "ruleId": 47,
+      "result": true,
+      "reason": "可多次使用"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "使用不需许可"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "世界各地数量巨大"
+    },
+    {
+      "ruleId": 50,
+      "result": false,
+      "reason": "不止一个"
+    },
+    {
+      "ruleId": 51,
+      "result": false,
+      "reason": "不易损坏"
+    },
+    {
+      "ruleId": 52,
+      "result": false,
+      "reason": "较重不易携带"
+    },
+    {
+      "ruleId": 53,
+      "result": false,
+      "reason": "不需电力（与13条同理）"
+    },
+    {
+      "ruleId": 54,
+      "result": true,
+      "reason": "尺寸较为固定"
+    },
+    {
+      "ruleId": 55,
+      "result": false,
+      "reason": "非自然界直接产物"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "水中易吸水不干燥"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "不漂浮于水"
+    },
+    {
+      "ruleId": 58,
+      "result": false,
+      "reason": "非金属制品"
+    },
+    {
+      "ruleId": 59,
+      "result": false,
+      "reason": "使用不发声"
+    },
+    {
+      "ruleId": 60,
+      "result": false,
+      "reason": "一般为土色不鲜艳"
+    },
+    {
+      "ruleId": 61,
+      "result": false,
+      "reason": "砖块体积远小于人"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "不透明"
+    },
+    {
+      "ruleId": 63,
+      "result": false,
+      "reason": "不可拆分为更多组件"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "触感坚硬"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "不可折叠挤压"
+    },
+    {
+      "ruleId": 66,
+      "result": false,
+      "reason": "不需定期保养"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "没有锋利边缘"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "不能食用"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "无强烈气味"
+    },
+    {
+      "ruleId": 70,
+      "result": false,
+      "reason": "单块远小于100公斤"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "不能穿戴"
+    },
+    {
+      "ruleId": 72,
+      "result": false,
+      "reason": "不会产生热量"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "不易着火"
+    },
+    {
+      "ruleId": 74,
+      "result": false,
+      "reason": "表面一般无文字"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "不需组装"
+    },
+    {
+      "ruleId": 76,
+      "result": true,
+      "reason": "在自然环境下可风化分解"
+    },
+    {
+      "ruleId": 77,
+      "result": true,
+      "reason": "可堆叠码放"
+    },
+    {
+      "ruleId": 78,
+      "result": false,
+      "reason": "表面无光泽"
+    },
+    {
+      "ruleId": 79,
+      "result": false,
+      "reason": "不能被磁铁吸引"
+    },
+    {
+      "ruleId": 80,
+      "result": false,
+      "reason": "本身不发声"
+    },
+    {
+      "ruleId": 81,
+      "result": true,
+      "reason": "能吸收水分"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "不易弯曲"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "不能浮于水面"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "长期暴露风化会变化"
+    },
+    {
+      "ruleId": 85,
+      "result": false,
+      "reason": "一般不为对称形状"
+    },
+    {
+      "ruleId": 86,
+      "result": false,
+      "reason": "损坏难修复通常更换"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "不需燃料"
+    },
+    {
+      "ruleId": 88,
+      "result": false,
+      "reason": "非活物"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "水下罕见砖块"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "通常不包含塑料"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "不含木头"
+    },
+    {
+      "ruleId": 92,
+      "result": true,
+      "reason": "能耐热可加热"
+    },
+    {
+      "ruleId": 93,
+      "result": false,
+      "reason": "无需特殊储存"
+    },
+    {
+      "ruleId": 94,
+      "result": true,
+      "reason": "既有手工也有机械制作"
+    },
+    {
+      "ruleId": 95,
+      "result": false,
+      "reason": "多孔结构不易清洁"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "通常不是成对"
+    },
+    {
+      "ruleId": 97,
+      "result": true,
+      "reason": "用手可握住单块"
+    },
+    {
+      "ruleId": 98,
+      "result": false,
+      "reason": "砖块颜色选择有限"
+    },
+    {
+      "ruleId": 99,
+      "result": true,
+      "reason": "触感坚硬"
+    },
+    {
+      "ruleId": 100,
+      "result": true,
+      "reason": "通常为单一材质如陶土"
+    },
+    {
+      "ruleId": 101,
+      "result": true,
+      "reason": "两个字"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "不是三个字"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "不是四个字"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "不是五个字"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "无心字或部首"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "无草字头"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "无水部"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "无金部"
+    },
+    {
+      "ruleId": 109,
+      "result": false,
+      "reason": "无木部"
+    },
+    {
+      "ruleId": 110,
+      "result": false,
+      "reason": "无火部"
+    },
+    {
+      "ruleId": 111,
+      "result": true,
+      "reason": "“块”有土字旁"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "无日字部"
+    },
+    {
+      "ruleId": 113,
+      "result": false,
+      "reason": "无走部"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "无山部"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "无川部"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "无雨部"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "无人部"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "无手部"
+    },
+    {
+      "ruleId": 119,
+      "result": false,
+      "reason": "无王部"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "无口部"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "无目部"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "无耳部"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "无足部"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "无言部"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "无食部"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "无衣部"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "无马部"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "无鱼部"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "无鸟部"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "无车部"
+    },
+    {
+      "ruleId": 131,
+      "result": true,
+      "reason": "'砖'和'块'均为左右结构"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "无上下结构"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "偏旁分别为“石”“土”不同"
+    },
+    {
+      "ruleId": 134,
+      "result": true,
+      "reason": "两字偏旁不同"
+    },
+    {
+      "ruleId": 135,
+      "result": true,
+      "reason": "块7画=7；等于或少于7画"
+    },
+    {
+      "ruleId": 136,
+      "result": true,
+      "reason": "砖10画，块7画，均少于10画"
+    },
+    {
+      "ruleId": 137,
+      "result": true,
+      "reason": "笔画最多为10画，少于15"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "都不超过12画"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "10>7笔画数递减"
+    },
+    {
+      "ruleId": 140,
+      "result": true,
+      "reason": "笔画依次递减"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "声调不同（一/四声）"
+    },
+    {
+      "ruleId": 142,
+      "result": true,
+      "reason": "声调分别是第一和第四声不同"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "“砖”为第一声"
+    },
+    {
+      "ruleId": 144,
+      "result": true,
+      "reason": "二字无第二声"
+    },
+    {
+      "ruleId": 145,
+      "result": true,
+      "reason": "二字无第三声"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "'块'为第四声"
+    },
+    {
+      "ruleId": 147,
+      "result": true,
+      "reason": "“砖”为第一声"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "没有第二声"
+    },
+    {
+      "ruleId": 149,
+      "result": false,
+      "reason": "没有第三声"
+    },
+    {
+      "ruleId": 150,
+      "result": true,
+      "reason": "“块”第四声"
+    }
   ]
 }

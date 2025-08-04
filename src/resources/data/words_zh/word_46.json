@@ -25,7 +25,7 @@
     },
     {
       "ruleId": 5,
-      "result": false,
+      "result": true,
       "reason": "成人服用药片更多"
     },
     {
@@ -35,12 +35,12 @@
     },
     {
       "ruleId": 7,
-      "result": false,
+      "result": true,
       "reason": "不是每个人都一定需要药片"
     },
     {
       "ruleId": 8,
-      "result": false,
+      "result": true,
       "reason": "药片不直接辅助工作"
     },
     {

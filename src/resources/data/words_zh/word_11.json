@@ -5,8 +5,8 @@
   "questions": [
     {
       "ruleId": 1,
-      "result": false,
-      "reason": "医院的现代形式自19世纪传入中国未满1000年"
+      "result": true,
+      "reason": "医院存在了超过1000年"
     },
     {
       "ruleId": 2,

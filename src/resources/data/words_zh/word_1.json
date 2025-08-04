@@ -5,7 +5,7 @@
   "questions": [
     {
       "ruleId": 1,
-      "result": true,
+      "result": false,
       "reason": "望远镜发明于17世纪初，不到1000年"
     },
     {
@@ -30,7 +30,7 @@
     },
     {
       "ruleId": 6,
-      "result": true,
+      "result": false,
       "reason": "大部分人对天文观测没有深入兴趣"
     },
     {
@@ -60,7 +60,7 @@
     },
     {
       "ruleId": 12,
-      "result": true,
+      "result": false,
       "reason": "可以多人共享使用"
     },
     {

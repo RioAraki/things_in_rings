@@ -3,155 +3,755 @@
   "word": "电灯泡",
   "word_en": "LightBulb",
   "questions": [
-    {"ruleId": 1, "result": true, "reason": "电灯泡自19世纪末诞生，已存在超过100年但未超过1000年"},
-    {"ruleId": 2, "result": false, "reason": "电灯泡出现早于1950年"},
-    {"ruleId": 3, "result": true, "reason": "大多数家庭有电灯泡"},
-    {"ruleId": 4, "result": false, "reason": "电灯泡属于普及物品"},
-    {"ruleId": 5, "result": false, "reason": "成人日常使用更多"},
-    {"ruleId": 6, "result": false, "reason": "电灯泡是常用物，非大部分人没兴趣"},
-    {"ruleId": 7, "result": true, "reason": "照明每个人都需要"},
-    {"ruleId": 8, "result": true, "reason": "有助于照明与工作环境"},
-    {"ruleId": 9, "result": false, "reason": "日常可见非特殊场合"},
-    {"ruleId": 10, "result": true, "reason": "日常生活中常见"},
-    {"ruleId": 11, "result": true, "reason": "多为个人或家庭所有"},
-    {"ruleId": 12, "result": true, "reason": "也可在多人公共空间共用"},
-    {"ruleId": 13, "result": true, "reason": "需要电力工作"},
-    {"ruleId": 14, "result": false, "reason": "并非仅限某国或文化"},
-    {"ruleId": 15, "result": true, "reason": "世界各地普遍拥有"},
-    {"ruleId": 16, "result": true, "reason": "使用寿命到后即废弃"},
-    {"ruleId": 17, "result": false, "reason": "普通电灯泡用年限有限"},
-    {"ruleId": 18, "result": true, "reason": "主要在室内使用"},
-    {"ruleId": 19, "result": true, "reason": "户外亦有专用灯泡"},
-    {"ruleId": 20, "result": true, "reason": "几乎所有人都见过"},
-    {"ruleId": 21, "result": true, "reason": "商店里能买到"},
-    {"ruleId": 22, "result": true, "reason": "办公室内大量使用"},
-    {"ruleId": 23, "result": true, "reason": "学校内常有照明用"},
-    {"ruleId": 24, "result": true, "reason": "明亮环境多数人感到愉快"},
-    {"ruleId": 25, "result": false, "reason": "电灯泡通常不让人感危险"},
-    {"ruleId": 26, "result": false, "reason": "主要用于照明并非娱乐"},
-    {"ruleId": 27, "result": true, "reason": "工作生活都离不开照明"},
-    {"ruleId": 28, "result": false, "reason": "全年都需使用"},
-    {"ruleId": 29, "result": true, "reason": "不分季节全年可用"},
-    {"ruleId": 30, "result": false, "reason": "使用电灯泡没门槛"},
-    {"ruleId": 31, "result": true, "reason": "任何人会开关电灯"},
-    {"ruleId": 32, "result": true, "reason": "正式场合如会议室常有"},
-    {"ruleId": 33, "result": true, "reason": "休闲家庭场所也用"},
-    {"ruleId": 34, "result": false, "reason": "很少有人专门收藏电灯泡"},
-    {"ruleId": 35, "result": false, "reason": "家里普遍都有电灯泡"},
-    {"ruleId": 36, "result": true, "reason": "电灯泡对人类进步影响巨大"},
-    {"ruleId": 37, "result": false, "reason": "早期即用，非主要现代才用"},
-    {"ruleId": 38, "result": false, "reason": "很少当礼物送人"},
-    {"ruleId": 39, "result": true, "reason": "很少有人送电灯泡做礼物"},
-    {"ruleId": 40, "result": false, "reason": "非有钱人专享"},
-    {"ruleId": 41, "result": true, "reason": "各收入阶层都会用"},
-    {"ruleId": 42, "result": true, "reason": "合规可带上飞机"},
-    {"ruleId": 43, "result": true, "reason": "一小时内可购得"},
-    {"ruleId": 44, "result": false, "reason": "用电非用燃料"},
-    {"ruleId": 45, "result": true, "reason": "多数灯泡为一次性"},
-    {"ruleId": 46, "result": false, "reason": "不限特定季节"},
-    {"ruleId": 47, "result": false, "reason": "普通灯泡不多次用"},
-    {"ruleId": 48, "result": false, "reason": "购买和使用无须许可"},
-    {"ruleId": 49, "result": true, "reason": "世上产量巨大"},
-    {"ruleId": 50, "result": false, "reason": "并非独一无二"},
-    {"ruleId": 51, "result": true, "reason": "玻璃壳易碎"},
-    {"ruleId": 52, "result": true, "reason": "小巧便携"},
-    {"ruleId": 53, "result": true, "reason": "需电力才亮"},
-    {"ruleId": 54, "result": true, "reason": "尺寸统一标准较多"},
-    {"ruleId": 55, "result": false, "reason": "为人造物品非自然界产物"},
-    {"ruleId": 56, "result": false, "reason": "水中会进水损坏"},
-    {"ruleId": 57, "result": false, "reason": "电灯泡不能漂浮"},
-    {"ruleId": 58, "result": false, "reason": "主体为玻璃部分金属"},
-    {"ruleId": 59, "result": false, "reason": "正常工作时无声"},
-    {"ruleId": 60, "result": false, "reason": "常见为乳白/透明不鲜艳"},
-    {"ruleId": 61, "result": false, "reason": "常规体积远小时人类"},
-    {"ruleId": 62, "result": true, "reason": "有普通透明款"},
-    {"ruleId": 63, "result": false, "reason": "通常不可拆"},
-    {"ruleId": 64, "result": false, "reason": "材质坚硬不软"},
-    {"ruleId": 65, "result": false, "reason": "不可折叠或压扁"},
-    {"ruleId": 66, "result": false, "reason": "一次性无需保养"},
-    {"ruleId": 67, "result": false, "reason": "没有明显锋利边缘"},
-    {"ruleId": 68, "result": false, "reason": "不可食用"},
-    {"ruleId": 69, "result": false, "reason": "无明显气味"},
-    {"ruleId": 70, "result": false, "reason": "重量远小于100公斤"},
-    {"ruleId": 71, "result": false, "reason": "不能穿戴"},
-    {"ruleId": 72, "result": true, "reason": "工作时发热"},
-    {"ruleId": 73, "result": true, "reason": "高温状态容易着火"},
-    {"ruleId": 74, "result": false, "reason": "表面一般无文字"},
-    {"ruleId": 75, "result": false, "reason": "出厂即可用无须组装"},
-    {"ruleId": 76, "result": false, "reason": "玻璃金属不易在自然界分解"},
-    {"ruleId": 77, "result": false, "reason": "不适合堆叠"},
-    {"ruleId": 78, "result": true, "reason": "玻璃本身有光泽"},
-    {"ruleId": 79, "result": true, "reason": "内有金属部分可被磁铁吸引"},
-    {"ruleId": 80, "result": false, "reason": "本身不发声"},
-    {"ruleId": 81, "result": false, "reason": "玻璃不吸水"},
-    {"ruleId": 82, "result": false, "reason": "玻璃不易弯曲"},
-    {"ruleId": 83, "result": false, "reason": "玻璃会沉水"},
-    {"ruleId": 84, "result": true, "reason": "灯泡随时间会老化变黑损坏"},
-    {"ruleId": 85, "result": true, "reason": "灯泡形状近似对称"},
-    {"ruleId": 86, "result": false, "reason": "损坏后无法修复"},
-    {"ruleId": 87, "result": false, "reason": "用电不用燃料"},
-    {"ruleId": 88, "result": false, "reason": "非生物活物"},
-    {"ruleId": 89, "result": false, "reason": "水下不能正常工作"},
-    {"ruleId": 90, "result": true, "reason": "某些灯泡含塑料部件"},
-    {"ruleId": 91, "result": false, "reason": "基本不含木头"},
-    {"ruleId": 92, "result": false, "reason": "大部分灯泡加热危险"},
-    {"ruleId": 93, "result": false, "reason": "无需特殊储存"},
-    {"ruleId": 94, "result": false, "reason": "多为流水线生产"},
-    {"ruleId": 95, "result": false, "reason": "内部清洁困难"},
-    {"ruleId": 96, "result": false, "reason": "单个使用不成对"},
-    {"ruleId": 97, "result": true, "reason": "灯泡可用手握住"},
-    {"ruleId": 98, "result": true, "reason": "有多种颜色灯泡可选"},
-    {"ruleId": 99, "result": true, "reason": "玻璃外壳很坚硬"},
-    {"ruleId": 100, "result": false, "reason": "通常含多种材质（玻璃、金属等）"},
-    {"ruleId": 101, "result": false, "reason": "电灯泡为三个字"},
-    {"ruleId": 102, "result": true, "reason": "是三个字"},
-    {"ruleId": 103, "result": false, "reason": "不是四字词"},
-    {"ruleId": 104, "result": false, "reason": "非五字"},
-    {"ruleId": 105, "result": false, "reason": "三字均无心偏旁"},
-    {"ruleId": 106, "result": false, "reason": "无草字头"},
-    {"ruleId": 107, "result": true, "reason": "“泡”字含水偏旁"},
-    {"ruleId": 108, "result": false, "reason": "无金字旁"},
-    {"ruleId": 109, "result": false, "reason": "无木字旁"},
-    {"ruleId": 110, "result": true, "reason": "“灯”有火字旁"},
-    {"ruleId": 111, "result": false, "reason": "无土字旁"},
-    {"ruleId": 112, "result": false, "reason": "无日字旁"},
-    {"ruleId": 113, "result": false, "reason": "无走字旁"},
-    {"ruleId": 114, "result": false, "reason": "无山字旁"},
-    {"ruleId": 115, "result": false, "reason": "三字无川字旁"},
-    {"ruleId": 116, "result": false, "reason": "无雨字旁"},
-    {"ruleId": 117, "result": false, "reason": "三字都无“人”字形旁"},
-    {"ruleId": 118, "result": false, "reason": "无手字旁"},
-    {"ruleId": 119, "result": false, "reason": "无王字旁"},
-    {"ruleId": 120, "result": false, "reason": "无口字旁"},
-    {"ruleId": 121, "result": false, "reason": "无目字旁"},
-    {"ruleId": 122, "result": false, "reason": "无耳字旁"},
-    {"ruleId": 123, "result": false, "reason": "无足字旁"},
-    {"ruleId": 124, "result": false, "reason": "无言字旁"},
-    {"ruleId": 125, "result": false, "reason": "无食字旁"},
-    {"ruleId": 126, "result": false, "reason": "无衣字旁"},
-    {"ruleId": 127, "result": false, "reason": "无马字旁"},
-    {"ruleId": 128, "result": false, "reason": "无鱼字旁"},
-    {"ruleId": 129, "result": false, "reason": "无鸟字旁"},
-    {"ruleId": 130, "result": false, "reason": "无车字旁"},
-    {"ruleId": 131, "result": true, "reason": "“泡”属于左右结构"},
-    {"ruleId": 132, "result": false, "reason": "无上下结构字"},
-    {"ruleId": 133, "result": false, "reason": "偏旁不同"},
-    {"ruleId": 134, "result": true, "reason": "偏旁均不一样"},
-    {"ruleId": 135, "result": true, "reason": "“电”仅5画少于7画"},
-    {"ruleId": 136, "result": true, "reason": "三字都少于10画"},
-    {"ruleId": 137, "result": true, "reason": "最多8画，少于15画"},
-    {"ruleId": 138, "result": false, "reason": "都未超12画"},
-    {"ruleId": 139, "result": true, "reason": "笔画为5、6、8递增"},
-    {"ruleId": 140, "result": false, "reason": "笔画递增非递减"},
-    {"ruleId": 141, "result": false, "reason": "声调（4/1/4）并不全同"},
-    {"ruleId": 142, "result": false, "reason": "“电”“泡”同为四声"},
-    {"ruleId": 143, "result": false, "reason": "“灯”为一声，其余是四声"},
-    {"ruleId": 144, "result": true, "reason": "没有第二声字"},
-    {"ruleId": 145, "result": true, "reason": "没有第三声字"},
-    {"ruleId": 146, "result": false, "reason": "“电”“泡”为四声存在"},
-    {"ruleId": 147, "result": true, "reason": "“灯”是一声"},
-    {"ruleId": 148, "result": false, "reason": "没有二声字"},
-    {"ruleId": 149, "result": false, "reason": "三字均无三声"},
-    {"ruleId": 150, "result": true, "reason": "“电”“泡”为四声字"}
+    {
+      "ruleId": 1,
+      "result": false,
+      "reason": "电灯泡自19世纪末诞生，已存在超过100年但未超过1000年"
+    },
+    {
+      "ruleId": 2,
+      "result": false,
+      "reason": "电灯泡出现早于1950年"
+    },
+    {
+      "ruleId": 3,
+      "result": true,
+      "reason": "大多数家庭有电灯泡"
+    },
+    {
+      "ruleId": 4,
+      "result": false,
+      "reason": "电灯泡属于普及物品"
+    },
+    {
+      "ruleId": 5,
+      "result": true,
+      "reason": "成人日常使用更多"
+    },
+    {
+      "ruleId": 6,
+      "result": true,
+      "reason": "电灯泡是常用物，非大部分人没兴趣"
+    },
+    {
+      "ruleId": 7,
+      "result": true,
+      "reason": "照明每个人都需要"
+    },
+    {
+      "ruleId": 8,
+      "result": false,
+      "reason": "有助于照明与工作环境"
+    },
+    {
+      "ruleId": 9,
+      "result": false,
+      "reason": "日常可见非特殊场合"
+    },
+    {
+      "ruleId": 10,
+      "result": true,
+      "reason": "日常生活中常见"
+    },
+    {
+      "ruleId": 11,
+      "result": true,
+      "reason": "多为个人或家庭所有"
+    },
+    {
+      "ruleId": 12,
+      "result": true,
+      "reason": "也可在多人公共空间共用"
+    },
+    {
+      "ruleId": 13,
+      "result": true,
+      "reason": "需要电力工作"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "并非仅限某国或文化"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "世界各地普遍拥有"
+    },
+    {
+      "ruleId": 16,
+      "result": true,
+      "reason": "使用寿命到后即废弃"
+    },
+    {
+      "ruleId": 17,
+      "result": false,
+      "reason": "普通电灯泡用年限有限"
+    },
+    {
+      "ruleId": 18,
+      "result": true,
+      "reason": "主要在室内使用"
+    },
+    {
+      "ruleId": 19,
+      "result": true,
+      "reason": "户外亦有专用灯泡"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "几乎所有人都见过"
+    },
+    {
+      "ruleId": 21,
+      "result": true,
+      "reason": "商店里能买到"
+    },
+    {
+      "ruleId": 22,
+      "result": true,
+      "reason": "办公室内大量使用"
+    },
+    {
+      "ruleId": 23,
+      "result": true,
+      "reason": "学校内常有照明用"
+    },
+    {
+      "ruleId": 24,
+      "result": true,
+      "reason": "明亮环境多数人感到愉快"
+    },
+    {
+      "ruleId": 25,
+      "result": false,
+      "reason": "电灯泡通常不让人感危险"
+    },
+    {
+      "ruleId": 26,
+      "result": false,
+      "reason": "主要用于照明并非娱乐"
+    },
+    {
+      "ruleId": 27,
+      "result": true,
+      "reason": "工作生活都离不开照明"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "全年都需使用"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "不分季节全年可用"
+    },
+    {
+      "ruleId": 30,
+      "result": false,
+      "reason": "使用电灯泡没门槛"
+    },
+    {
+      "ruleId": 31,
+      "result": true,
+      "reason": "任何人会开关电灯"
+    },
+    {
+      "ruleId": 32,
+      "result": true,
+      "reason": "正式场合如会议室常有"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "休闲家庭场所也用"
+    },
+    {
+      "ruleId": 34,
+      "result": false,
+      "reason": "很少有人专门收藏电灯泡"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "家里普遍都有电灯泡"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "电灯泡对人类进步影响巨大"
+    },
+    {
+      "ruleId": 37,
+      "result": false,
+      "reason": "早期即用，非主要现代才用"
+    },
+    {
+      "ruleId": 38,
+      "result": false,
+      "reason": "很少当礼物送人"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "很少有人送电灯泡做礼物"
+    },
+    {
+      "ruleId": 40,
+      "result": false,
+      "reason": "非有钱人专享"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "各收入阶层都会用"
+    },
+    {
+      "ruleId": 42,
+      "result": true,
+      "reason": "合规可带上飞机"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "一小时内可购得"
+    },
+    {
+      "ruleId": 44,
+      "result": false,
+      "reason": "用电非用燃料"
+    },
+    {
+      "ruleId": 45,
+      "result": true,
+      "reason": "多数灯泡为一次性"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "不限特定季节"
+    },
+    {
+      "ruleId": 47,
+      "result": false,
+      "reason": "普通灯泡不多次用"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "购买和使用无须许可"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "世上产量巨大"
+    },
+    {
+      "ruleId": 50,
+      "result": false,
+      "reason": "并非独一无二"
+    },
+    {
+      "ruleId": 51,
+      "result": true,
+      "reason": "玻璃壳易碎"
+    },
+    {
+      "ruleId": 52,
+      "result": true,
+      "reason": "小巧便携"
+    },
+    {
+      "ruleId": 53,
+      "result": true,
+      "reason": "需电力才亮"
+    },
+    {
+      "ruleId": 54,
+      "result": true,
+      "reason": "尺寸统一标准较多"
+    },
+    {
+      "ruleId": 55,
+      "result": false,
+      "reason": "为人造物品非自然界产物"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "水中会进水损坏"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "电灯泡不能漂浮"
+    },
+    {
+      "ruleId": 58,
+      "result": false,
+      "reason": "主体为玻璃部分金属"
+    },
+    {
+      "ruleId": 59,
+      "result": false,
+      "reason": "正常工作时无声"
+    },
+    {
+      "ruleId": 60,
+      "result": false,
+      "reason": "常见为乳白/透明不鲜艳"
+    },
+    {
+      "ruleId": 61,
+      "result": false,
+      "reason": "常规体积远小时人类"
+    },
+    {
+      "ruleId": 62,
+      "result": true,
+      "reason": "有普通透明款"
+    },
+    {
+      "ruleId": 63,
+      "result": false,
+      "reason": "通常不可拆"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "材质坚硬不软"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "不可折叠或压扁"
+    },
+    {
+      "ruleId": 66,
+      "result": false,
+      "reason": "一次性无需保养"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "没有明显锋利边缘"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "不可食用"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "无明显气味"
+    },
+    {
+      "ruleId": 70,
+      "result": false,
+      "reason": "重量远小于100公斤"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "不能穿戴"
+    },
+    {
+      "ruleId": 72,
+      "result": true,
+      "reason": "工作时发热"
+    },
+    {
+      "ruleId": 73,
+      "result": true,
+      "reason": "高温状态容易着火"
+    },
+    {
+      "ruleId": 74,
+      "result": false,
+      "reason": "表面一般无文字"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "出厂即可用无须组装"
+    },
+    {
+      "ruleId": 76,
+      "result": false,
+      "reason": "玻璃金属不易在自然界分解"
+    },
+    {
+      "ruleId": 77,
+      "result": false,
+      "reason": "不适合堆叠"
+    },
+    {
+      "ruleId": 78,
+      "result": true,
+      "reason": "玻璃本身有光泽"
+    },
+    {
+      "ruleId": 79,
+      "result": true,
+      "reason": "内有金属部分可被磁铁吸引"
+    },
+    {
+      "ruleId": 80,
+      "result": false,
+      "reason": "本身不发声"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "玻璃不吸水"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "玻璃不易弯曲"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "玻璃会沉水"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "灯泡随时间会老化变黑损坏"
+    },
+    {
+      "ruleId": 85,
+      "result": true,
+      "reason": "灯泡形状近似对称"
+    },
+    {
+      "ruleId": 86,
+      "result": false,
+      "reason": "损坏后无法修复"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "用电不用燃料"
+    },
+    {
+      "ruleId": 88,
+      "result": false,
+      "reason": "非生物活物"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "水下不能正常工作"
+    },
+    {
+      "ruleId": 90,
+      "result": true,
+      "reason": "某些灯泡含塑料部件"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "基本不含木头"
+    },
+    {
+      "ruleId": 92,
+      "result": false,
+      "reason": "大部分灯泡加热危险"
+    },
+    {
+      "ruleId": 93,
+      "result": false,
+      "reason": "无需特殊储存"
+    },
+    {
+      "ruleId": 94,
+      "result": false,
+      "reason": "多为流水线生产"
+    },
+    {
+      "ruleId": 95,
+      "result": false,
+      "reason": "内部清洁困难"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "单个使用不成对"
+    },
+    {
+      "ruleId": 97,
+      "result": true,
+      "reason": "灯泡可用手握住"
+    },
+    {
+      "ruleId": 98,
+      "result": true,
+      "reason": "有多种颜色灯泡可选"
+    },
+    {
+      "ruleId": 99,
+      "result": true,
+      "reason": "玻璃外壳很坚硬"
+    },
+    {
+      "ruleId": 100,
+      "result": false,
+      "reason": "通常含多种材质（玻璃、金属等）"
+    },
+    {
+      "ruleId": 101,
+      "result": false,
+      "reason": "电灯泡为三个字"
+    },
+    {
+      "ruleId": 102,
+      "result": true,
+      "reason": "是三个字"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "不是四字词"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "非五字"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "三字均无心偏旁"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "无草字头"
+    },
+    {
+      "ruleId": 107,
+      "result": true,
+      "reason": "“泡”字含水偏旁"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "无金字旁"
+    },
+    {
+      "ruleId": 109,
+      "result": false,
+      "reason": "无木字旁"
+    },
+    {
+      "ruleId": 110,
+      "result": true,
+      "reason": "“灯”有火字旁"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "无土字旁"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "无日字旁"
+    },
+    {
+      "ruleId": 113,
+      "result": false,
+      "reason": "无走字旁"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "无山字旁"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "三字无川字旁"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "无雨字旁"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "三字都无“人”字形旁"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "无手字旁"
+    },
+    {
+      "ruleId": 119,
+      "result": false,
+      "reason": "无王字旁"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "无口字旁"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "无目字旁"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "无耳字旁"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "无足字旁"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "无言字旁"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "无食字旁"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "无衣字旁"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "无马字旁"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "无鱼字旁"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "无鸟字旁"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "无车字旁"
+    },
+    {
+      "ruleId": 131,
+      "result": true,
+      "reason": "“泡”属于左右结构"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "无上下结构字"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "偏旁不同"
+    },
+    {
+      "ruleId": 134,
+      "result": true,
+      "reason": "偏旁均不一样"
+    },
+    {
+      "ruleId": 135,
+      "result": true,
+      "reason": "“电”仅5画少于7画"
+    },
+    {
+      "ruleId": 136,
+      "result": true,
+      "reason": "三字都少于10画"
+    },
+    {
+      "ruleId": 137,
+      "result": true,
+      "reason": "最多8画，少于15画"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "都未超12画"
+    },
+    {
+      "ruleId": 139,
+      "result": true,
+      "reason": "笔画为5、6、8递增"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "笔画递增非递减"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "声调（4/1/4）并不全同"
+    },
+    {
+      "ruleId": 142,
+      "result": false,
+      "reason": "“电”“泡”同为四声"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "“灯”为一声，其余是四声"
+    },
+    {
+      "ruleId": 144,
+      "result": true,
+      "reason": "没有第二声字"
+    },
+    {
+      "ruleId": 145,
+      "result": true,
+      "reason": "没有第三声字"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "“电”“泡”为四声存在"
+    },
+    {
+      "ruleId": 147,
+      "result": true,
+      "reason": "“灯”是一声"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "没有二声字"
+    },
+    {
+      "ruleId": 149,
+      "result": false,
+      "reason": "三字均无三声"
+    },
+    {
+      "ruleId": 150,
+      "result": true,
+      "reason": "“电”“泡”为四声字"
+    }
   ]
 }

@@ -3,155 +3,755 @@
   "word": "电脑",
   "word_en": "Computer",
   "questions": [
-    {"ruleId": 1, "result": false, "reason": "“电脑”产生于20世纪中期，不超过1000年"},
-    {"ruleId": 2, "result": true, "reason": "电脑是1950年后出现的新事物"},
-    {"ruleId": 3, "result": true, "reason": "绝大多数家庭都有电脑"},
-    {"ruleId": 4, "result": false, "reason": "电脑已普及不是稀有物品"},
-    {"ruleId": 5, "result": false, "reason": "成年人使用电脑较多"},
-    {"ruleId": 6, "result": false, "reason": "大部分人对电脑感兴趣"},
-    {"ruleId": 7, "result": false, "reason": "不是每个人都必需电脑"},
-    {"ruleId": 8, "result": true, "reason": "电脑能有效帮助完成工作"},
-    {"ruleId": 9, "result": false, "reason": "电脑广泛用于日常而非特殊场合"},
-    {"ruleId": 10, "result": true, "reason": "日常生活可常见电脑"},
-    {"ruleId": 11, "result": true, "reason": "电脑常为个人所有"},
-    {"ruleId": 12, "result": true, "reason": "也有多人共享电脑的情况"},
-    {"ruleId": 13, "result": true, "reason": "电脑必须通电使用"},
-    {"ruleId": 14, "result": false, "reason": "电脑非特定国家或文化产物"},
-    {"ruleId": 15, "result": true, "reason": "世界许多国家有电脑"},
-    {"ruleId": 16, "result": false, "reason": "电脑通常多年使用非一次性"},
-    {"ruleId": 17, "result": true, "reason": "电脑可多年使用"},
-    {"ruleId": 18, "result": true, "reason": "电脑主要于室内使用"},
-    {"ruleId": 19, "result": true, "reason": "也有笔记本可携带至室外"},
-    {"ruleId": 20, "result": true, "reason": "大多数人亲眼见过电脑"},
-    {"ruleId": 21, "result": true, "reason": "电脑可在商店买到"},
-    {"ruleId": 22, "result": true, "reason": "办公室经常见到电脑"},
-    {"ruleId": 23, "result": true, "reason": "学校也大量使用电脑"},
-    {"ruleId": 24, "result": true, "reason": "电脑可带来娱乐与快乐"},
-    {"ruleId": 25, "result": false, "reason": "电脑通常不让人感到危险"},
-    {"ruleId": 26, "result": true, "reason": "电脑可用于娱乐游戏"},
-    {"ruleId": 27, "result": true, "reason": "电脑也是重要的工作工具"},
-    {"ruleId": 28, "result": false, "reason": "电脑全年都可使用"},
-    {"ruleId": 29, "result": true, "reason": "电脑全年可用"},
-    {"ruleId": 30, "result": false, "reason": "普通电脑操作门槛不高"},
-    {"ruleId": 31, "result": true, "reason": "大部分人可轻易操作电脑"},
-    {"ruleId": 32, "result": true, "reason": "正式场合常用电脑展示等"},
-    {"ruleId": 33, "result": true, "reason": "电脑也用于休闲环境"},
-    {"ruleId": 34, "result": false, "reason": "人们不以收藏电脑为目的"},
-    {"ruleId": 35, "result": false, "reason": "家里常有电脑"},
-    {"ruleId": 36, "result": true, "reason": "电脑在现代史上影响重大"},
-    {"ruleId": 37, "result": true, "reason": "现代技术背景下电脑才普及"},
-    {"ruleId": 38, "result": true, "reason": "电脑可以作为贵重礼物"},
-    {"ruleId": 39, "result": false, "reason": "十分场合会送电脑作为礼物"},
-    {"ruleId": 40, "result": true, "reason": "有钱人大概率拥有高端电脑"},
-    {"ruleId": 41, "result": true, "reason": "各收入阶层都在用电脑"},
-    {"ruleId": 42, "result": true, "reason": "笔记本等电脑可带上飞机"},
-    {"ruleId": 43, "result": true, "reason": "一小时内能买到或见到电脑"},
-    {"ruleId": 44, "result": false, "reason": "电脑需电力而非燃料"},
-    {"ruleId": 45, "result": false, "reason": "电脑绝非一次性物品"},
-    {"ruleId": 46, "result": false, "reason": "电脑非特定季节才用"},
-    {"ruleId": 47, "result": true, "reason": "电脑可反复多次使用"},
-    {"ruleId": 48, "result": false, "reason": "使用电脑不需许可"},
-    {"ruleId": 49, "result": true, "reason": "世界电脑数量极多"},
-    {"ruleId": 50, "result": false, "reason": "电脑不是唯一存在"},
-    {"ruleId": 51, "result": true, "reason": "电脑易损坏需维护"},
-    {"ruleId": 52, "result": true, "reason": "笔记本电脑携带方便"},
-    {"ruleId": 53, "result": true, "reason": "电脑必须靠电力运行"},
-    {"ruleId": 54, "result": false, "reason": "电脑尺寸多样，非固定"},
-    {"ruleId": 55, "result": false, "reason": "电脑非自然界产物"},
-    {"ruleId": 56, "result": false, "reason": "电脑在水中无法保持干燥"},
-    {"ruleId": 57, "result": false, "reason": "电脑不会漂浮在水面"},
-    {"ruleId": 58, "result": false, "reason": "有些部分金属但并非全金属"},
-    {"ruleId": 59, "result": true, "reason": "有些电脑有风扇等声音"},
-    {"ruleId": 60, "result": false, "reason": "电脑色彩以黑灰银色为主"},
-    {"ruleId": 61, "result": false, "reason": "电脑体积一般不大于人类"},
-    {"ruleId": 62, "result": false, "reason": "电脑本身不透明"},
-    {"ruleId": 63, "result": true, "reason": "电脑有主机、键盘等多个部件"},
-    {"ruleId": 64, "result": false, "reason": "电脑硬件一般不柔软"},
-    {"ruleId": 65, "result": false, "reason": "电脑不可折叠（少数特殊机型外）"},
-    {"ruleId": 66, "result": true, "reason": "电脑需日常维护"},
-    {"ruleId": 67, "result": false, "reason": "电脑边缘一般不锋利"},
-    {"ruleId": 68, "result": false, "reason": "电脑不可食用"},
-    {"ruleId": 69, "result": false, "reason": "电脑通常无强烈气味"},
-    {"ruleId": 70, "result": false, "reason": "电脑重量远小于100公斤"},
-    {"ruleId": 71, "result": false, "reason": "电脑无法穿戴"},
-    {"ruleId": 72, "result": true, "reason": "电脑运行会散热"},
-    {"ruleId": 73, "result": false, "reason": "电脑一般不易着火"},
-    {"ruleId": 74, "result": true, "reason": "电脑上常贴有标签文字"},
-    {"ruleId": 75, "result": true, "reason": "台式电脑需组装"},
-    {"ruleId": 76, "result": false, "reason": "电脑部件难以自然分解"},
-    {"ruleId": 77, "result": true, "reason": "电脑主机等可堆叠存放"},
-    {"ruleId": 78, "result": true, "reason": "屏幕、外壳有光泽反光"},
-    {"ruleId": 79, "result": true, "reason": "电脑有铁可被磁铁吸引"},
-    {"ruleId": 80, "result": true, "reason": "电脑可播放声音"},
-    {"ruleId": 81, "result": false, "reason": "电脑外壳不吸收水分"},
-    {"ruleId": 82, "result": false, "reason": "电脑硬件不易弯曲"},
-    {"ruleId": 83, "result": false, "reason": "电脑不会浮在水面"},
-    {"ruleId": 84, "result": true, "reason": "电脑会随时间升级与损坏"},
-    {"ruleId": 85, "result": false, "reason": "两侧形状一般不完全对称"},
-    {"ruleId": 86, "result": true, "reason": "电脑损坏后可修复维修"},
-    {"ruleId": 87, "result": false, "reason": "电脑不依靠燃料运作"},
-    {"ruleId": 88, "result": false, "reason": "电脑不是活物"},
-    {"ruleId": 89, "result": false, "reason": "电脑一般不在水下见到"},
-    {"ruleId": 90, "result": true, "reason": "电脑部件常用塑料"},
-    {"ruleId": 91, "result": false, "reason": "电脑一般不含木头"},
-    {"ruleId": 92, "result": true, "reason": "电脑设计可散热安全加热"},
-    {"ruleId": 93, "result": false, "reason": "家用普通电脑不需特殊储存"},
-    {"ruleId": 94, "result": false, "reason": "电脑以工业生产为主"},
-    {"ruleId": 95, "result": true, "reason": "电脑表面易清洁"},
-    {"ruleId": 96, "result": false, "reason": "电脑本身不成对出现"},
-    {"ruleId": 97, "result": true, "reason": "笔记本、鼠标等可手握"},
-    {"ruleId": 98, "result": true, "reason": "电脑外壳有多种颜色"},
-    {"ruleId": 99, "result": true, "reason": "电脑硬件摸起来坚硬"},
-    {"ruleId": 100, "result": false, "reason": "电脑由多种材料组成"},
-    {"ruleId": 101, "result": true, "reason": "“电脑”为两个字"},
-    {"ruleId": 102, "result": false, "reason": "不是三个字"},
-    {"ruleId": 103, "result": false, "reason": "不是四个字"},
-    {"ruleId": 104, "result": false, "reason": "不是五个字"},
-    {"ruleId": 105, "result": false, "reason": "“电”“脑”不含“心”偏旁"},
-    {"ruleId": 106, "result": false, "reason": "没有“草”字或其偏旁"},
-    {"ruleId": 107, "result": false, "reason": "无“水”字或偏旁"},
-    {"ruleId": 108, "result": false, "reason": "无“金”字或偏旁"},
-    {"ruleId": 109, "result": false, "reason": "无“木”字或偏旁"},
-    {"ruleId": 110, "result": false, "reason": "无“火”字或偏旁"},
-    {"ruleId": 111, "result": false, "reason": "无“土”字或偏旁"},
-    {"ruleId": 112, "result": false, "reason": "无“日”字或偏旁"},
-    {"ruleId": 113, "result": false, "reason": "无“走”字或偏旁"},
-    {"ruleId": 114, "result": false, "reason": "无“山”字或偏旁"},
-    {"ruleId": 115, "result": false, "reason": "无“川”字或偏旁"},
-    {"ruleId": 116, "result": false, "reason": "无“雨”字或偏旁"},
-    {"ruleId": 117, "result": false, "reason": "无“人”字或偏旁"},
-    {"ruleId": 118, "result": false, "reason": "无“手”字或偏旁"},
-    {"ruleId": 119, "result": false, "reason": "无“王”字或偏旁"},
-    {"ruleId": 120, "result": false, "reason": "无“口”字或偏旁"},
-    {"ruleId": 121, "result": false, "reason": "无“目”字或偏旁"},
-    {"ruleId": 122, "result": false, "reason": "无“耳”字或偏旁"},
-    {"ruleId": 123, "result": false, "reason": "无“足”字或偏旁"},
-    {"ruleId": 124, "result": false, "reason": "无“言”字或偏旁"},
-    {"ruleId": 125, "result": false, "reason": "无“食”字或偏旁"},
-    {"ruleId": 126, "result": false, "reason": "无“衣”字或偏旁"},
-    {"ruleId": 127, "result": false, "reason": "无“马”字或偏旁"},
-    {"ruleId": 128, "result": false, "reason": "无“鱼”字或偏旁"},
-    {"ruleId": 129, "result": false, "reason": "无“鸟”字或偏旁"},
-    {"ruleId": 130, "result": false, "reason": "无“车”字或偏旁"},
-    {"ruleId": 131, "result": true, "reason": "“脑”为左右结构"},
-    {"ruleId": 132, "result": false, "reason": "“电”为独体字，未见上下结构"},
-    {"ruleId": 133, "result": false, "reason": "“电”“脑”偏旁不同"},
-    {"ruleId": 134, "result": true, "reason": "两字部首都不相同"},
-    {"ruleId": 135, "result": true, "reason": "“电”有5画少于7画"},
-    {"ruleId": 136, "result": true, "reason": "两字都少于10画"},
-    {"ruleId": 137, "result": true, "reason": "“脑”最多11画少于15画"},
-    {"ruleId": 138, "result": false, "reason": "“电”不足12画"},
-    {"ruleId": 139, "result": true, "reason": "“电”5画，“脑”11画递增"},
-    {"ruleId": 140, "result": false, "reason": "“电”后“脑”递增，不递减"},
-    {"ruleId": 141, "result": false, "reason": "一个4声一个3声声调不同"},
-    {"ruleId": 142, "result": true, "reason": "“电”(4声)、“脑”(3声)"},
-    {"ruleId": 143, "result": false, "reason": "“电”字为第四声"},
-    {"ruleId": 144, "result": true, "reason": "无第二声"},
-    {"ruleId": 145, "result": false, "reason": "“脑”为第三声"},
-    {"ruleId": 146, "result": false, "reason": "“电”为第四声"},
-    {"ruleId": 147, "result": false, "reason": "无第一声"},
-    {"ruleId": 148, "result": false, "reason": "无第二声"},
-    {"ruleId": 149, "result": true, "reason": "“脑”为第三声"},
-    {"ruleId": 150, "result": true, "reason": "“电”为第四声"}
+    {
+      "ruleId": 1,
+      "result": false,
+      "reason": "“电脑”产生于20世纪中期，不超过1000年"
+    },
+    {
+      "ruleId": 2,
+      "result": true,
+      "reason": "电脑是1950年后出现的新事物"
+    },
+    {
+      "ruleId": 3,
+      "result": true,
+      "reason": "绝大多数家庭都有电脑"
+    },
+    {
+      "ruleId": 4,
+      "result": false,
+      "reason": "电脑已普及不是稀有物品"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "成年人使用电脑较多"
+    },
+    {
+      "ruleId": 6,
+      "result": true,
+      "reason": "大部分人对电脑感兴趣"
+    },
+    {
+      "ruleId": 7,
+      "result": true,
+      "reason": "不是每个人都必需电脑"
+    },
+    {
+      "ruleId": 8,
+      "result": true,
+      "reason": "电脑能有效帮助完成工作"
+    },
+    {
+      "ruleId": 9,
+      "result": false,
+      "reason": "电脑广泛用于日常而非特殊场合"
+    },
+    {
+      "ruleId": 10,
+      "result": true,
+      "reason": "日常生活可常见电脑"
+    },
+    {
+      "ruleId": 11,
+      "result": true,
+      "reason": "电脑常为个人所有"
+    },
+    {
+      "ruleId": 12,
+      "result": true,
+      "reason": "也有多人共享电脑的情况"
+    },
+    {
+      "ruleId": 13,
+      "result": true,
+      "reason": "电脑必须通电使用"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "电脑非特定国家或文化产物"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "世界许多国家有电脑"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "电脑通常多年使用非一次性"
+    },
+    {
+      "ruleId": 17,
+      "result": true,
+      "reason": "电脑可多年使用"
+    },
+    {
+      "ruleId": 18,
+      "result": true,
+      "reason": "电脑主要于室内使用"
+    },
+    {
+      "ruleId": 19,
+      "result": true,
+      "reason": "也有笔记本可携带至室外"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "大多数人亲眼见过电脑"
+    },
+    {
+      "ruleId": 21,
+      "result": true,
+      "reason": "电脑可在商店买到"
+    },
+    {
+      "ruleId": 22,
+      "result": true,
+      "reason": "办公室经常见到电脑"
+    },
+    {
+      "ruleId": 23,
+      "result": true,
+      "reason": "学校也大量使用电脑"
+    },
+    {
+      "ruleId": 24,
+      "result": true,
+      "reason": "电脑可带来娱乐与快乐"
+    },
+    {
+      "ruleId": 25,
+      "result": false,
+      "reason": "电脑通常不让人感到危险"
+    },
+    {
+      "ruleId": 26,
+      "result": true,
+      "reason": "电脑可用于娱乐游戏"
+    },
+    {
+      "ruleId": 27,
+      "result": true,
+      "reason": "电脑也是重要的工作工具"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "电脑全年都可使用"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "电脑全年可用"
+    },
+    {
+      "ruleId": 30,
+      "result": false,
+      "reason": "普通电脑操作门槛不高"
+    },
+    {
+      "ruleId": 31,
+      "result": true,
+      "reason": "大部分人可轻易操作电脑"
+    },
+    {
+      "ruleId": 32,
+      "result": true,
+      "reason": "正式场合常用电脑展示等"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "电脑也用于休闲环境"
+    },
+    {
+      "ruleId": 34,
+      "result": false,
+      "reason": "人们不以收藏电脑为目的"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "家里常有电脑"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "电脑在现代史上影响重大"
+    },
+    {
+      "ruleId": 37,
+      "result": true,
+      "reason": "现代技术背景下电脑才普及"
+    },
+    {
+      "ruleId": 38,
+      "result": true,
+      "reason": "电脑可以作为贵重礼物"
+    },
+    {
+      "ruleId": 39,
+      "result": false,
+      "reason": "十分场合会送电脑作为礼物"
+    },
+    {
+      "ruleId": 40,
+      "result": true,
+      "reason": "有钱人大概率拥有高端电脑"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "各收入阶层都在用电脑"
+    },
+    {
+      "ruleId": 42,
+      "result": true,
+      "reason": "笔记本等电脑可带上飞机"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "一小时内能买到或见到电脑"
+    },
+    {
+      "ruleId": 44,
+      "result": false,
+      "reason": "电脑需电力而非燃料"
+    },
+    {
+      "ruleId": 45,
+      "result": false,
+      "reason": "电脑绝非一次性物品"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "电脑非特定季节才用"
+    },
+    {
+      "ruleId": 47,
+      "result": true,
+      "reason": "电脑可反复多次使用"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "使用电脑不需许可"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "世界电脑数量极多"
+    },
+    {
+      "ruleId": 50,
+      "result": false,
+      "reason": "电脑不是唯一存在"
+    },
+    {
+      "ruleId": 51,
+      "result": true,
+      "reason": "电脑易损坏需维护"
+    },
+    {
+      "ruleId": 52,
+      "result": true,
+      "reason": "笔记本电脑携带方便"
+    },
+    {
+      "ruleId": 53,
+      "result": true,
+      "reason": "电脑必须靠电力运行"
+    },
+    {
+      "ruleId": 54,
+      "result": false,
+      "reason": "电脑尺寸多样，非固定"
+    },
+    {
+      "ruleId": 55,
+      "result": false,
+      "reason": "电脑非自然界产物"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "电脑在水中无法保持干燥"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "电脑不会漂浮在水面"
+    },
+    {
+      "ruleId": 58,
+      "result": false,
+      "reason": "有些部分金属但并非全金属"
+    },
+    {
+      "ruleId": 59,
+      "result": true,
+      "reason": "有些电脑有风扇等声音"
+    },
+    {
+      "ruleId": 60,
+      "result": false,
+      "reason": "电脑色彩以黑灰银色为主"
+    },
+    {
+      "ruleId": 61,
+      "result": false,
+      "reason": "电脑体积一般不大于人类"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "电脑本身不透明"
+    },
+    {
+      "ruleId": 63,
+      "result": true,
+      "reason": "电脑有主机、键盘等多个部件"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "电脑硬件一般不柔软"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "电脑不可折叠（少数特殊机型外）"
+    },
+    {
+      "ruleId": 66,
+      "result": true,
+      "reason": "电脑需日常维护"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "电脑边缘一般不锋利"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "电脑不可食用"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "电脑通常无强烈气味"
+    },
+    {
+      "ruleId": 70,
+      "result": false,
+      "reason": "电脑重量远小于100公斤"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "电脑无法穿戴"
+    },
+    {
+      "ruleId": 72,
+      "result": true,
+      "reason": "电脑运行会散热"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "电脑一般不易着火"
+    },
+    {
+      "ruleId": 74,
+      "result": true,
+      "reason": "电脑上常贴有标签文字"
+    },
+    {
+      "ruleId": 75,
+      "result": true,
+      "reason": "台式电脑需组装"
+    },
+    {
+      "ruleId": 76,
+      "result": false,
+      "reason": "电脑部件难以自然分解"
+    },
+    {
+      "ruleId": 77,
+      "result": true,
+      "reason": "电脑主机等可堆叠存放"
+    },
+    {
+      "ruleId": 78,
+      "result": true,
+      "reason": "屏幕、外壳有光泽反光"
+    },
+    {
+      "ruleId": 79,
+      "result": true,
+      "reason": "电脑有铁可被磁铁吸引"
+    },
+    {
+      "ruleId": 80,
+      "result": true,
+      "reason": "电脑可播放声音"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "电脑外壳不吸收水分"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "电脑硬件不易弯曲"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "电脑不会浮在水面"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "电脑会随时间升级与损坏"
+    },
+    {
+      "ruleId": 85,
+      "result": false,
+      "reason": "两侧形状一般不完全对称"
+    },
+    {
+      "ruleId": 86,
+      "result": true,
+      "reason": "电脑损坏后可修复维修"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "电脑不依靠燃料运作"
+    },
+    {
+      "ruleId": 88,
+      "result": false,
+      "reason": "电脑不是活物"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "电脑一般不在水下见到"
+    },
+    {
+      "ruleId": 90,
+      "result": true,
+      "reason": "电脑部件常用塑料"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "电脑一般不含木头"
+    },
+    {
+      "ruleId": 92,
+      "result": true,
+      "reason": "电脑设计可散热安全加热"
+    },
+    {
+      "ruleId": 93,
+      "result": false,
+      "reason": "家用普通电脑不需特殊储存"
+    },
+    {
+      "ruleId": 94,
+      "result": false,
+      "reason": "电脑以工业生产为主"
+    },
+    {
+      "ruleId": 95,
+      "result": true,
+      "reason": "电脑表面易清洁"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "电脑本身不成对出现"
+    },
+    {
+      "ruleId": 97,
+      "result": true,
+      "reason": "笔记本、鼠标等可手握"
+    },
+    {
+      "ruleId": 98,
+      "result": true,
+      "reason": "电脑外壳有多种颜色"
+    },
+    {
+      "ruleId": 99,
+      "result": true,
+      "reason": "电脑硬件摸起来坚硬"
+    },
+    {
+      "ruleId": 100,
+      "result": false,
+      "reason": "电脑由多种材料组成"
+    },
+    {
+      "ruleId": 101,
+      "result": true,
+      "reason": "“电脑”为两个字"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "不是三个字"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "不是四个字"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "不是五个字"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "“电”“脑”不含“心”偏旁"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "没有“草”字或其偏旁"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "无“水”字或偏旁"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "无“金”字或偏旁"
+    },
+    {
+      "ruleId": 109,
+      "result": false,
+      "reason": "无“木”字或偏旁"
+    },
+    {
+      "ruleId": 110,
+      "result": false,
+      "reason": "无“火”字或偏旁"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "无“土”字或偏旁"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "无“日”字或偏旁"
+    },
+    {
+      "ruleId": 113,
+      "result": false,
+      "reason": "无“走”字或偏旁"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "无“山”字或偏旁"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "无“川”字或偏旁"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "无“雨”字或偏旁"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "无“人”字或偏旁"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "无“手”字或偏旁"
+    },
+    {
+      "ruleId": 119,
+      "result": false,
+      "reason": "无“王”字或偏旁"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "无“口”字或偏旁"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "无“目”字或偏旁"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "无“耳”字或偏旁"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "无“足”字或偏旁"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "无“言”字或偏旁"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "无“食”字或偏旁"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "无“衣”字或偏旁"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "无“马”字或偏旁"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "无“鱼”字或偏旁"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "无“鸟”字或偏旁"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "无“车”字或偏旁"
+    },
+    {
+      "ruleId": 131,
+      "result": true,
+      "reason": "“脑”为左右结构"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "“电”为独体字，未见上下结构"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "“电”“脑”偏旁不同"
+    },
+    {
+      "ruleId": 134,
+      "result": true,
+      "reason": "两字部首都不相同"
+    },
+    {
+      "ruleId": 135,
+      "result": true,
+      "reason": "“电”有5画少于7画"
+    },
+    {
+      "ruleId": 136,
+      "result": true,
+      "reason": "两字都少于10画"
+    },
+    {
+      "ruleId": 137,
+      "result": true,
+      "reason": "“脑”最多11画少于15画"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "“电”不足12画"
+    },
+    {
+      "ruleId": 139,
+      "result": true,
+      "reason": "“电”5画，“脑”11画递增"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "“电”后“脑”递增，不递减"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "一个4声一个3声声调不同"
+    },
+    {
+      "ruleId": 142,
+      "result": true,
+      "reason": "“电”(4声)、“脑”(3声)"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "“电”字为第四声"
+    },
+    {
+      "ruleId": 144,
+      "result": true,
+      "reason": "无第二声"
+    },
+    {
+      "ruleId": 145,
+      "result": false,
+      "reason": "“脑”为第三声"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "“电”为第四声"
+    },
+    {
+      "ruleId": 147,
+      "result": false,
+      "reason": "无第一声"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "无第二声"
+    },
+    {
+      "ruleId": 149,
+      "result": true,
+      "reason": "“脑”为第三声"
+    },
+    {
+      "ruleId": 150,
+      "result": true,
+      "reason": "“电”为第四声"
+    }
   ]
 }

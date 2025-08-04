@@ -3,155 +3,755 @@
   "word": "毛笔",
   "word_en": "BrushPen",
   "questions": [
-    {"ruleId": 1, "result": true, "reason": "毛笔自秦汉流传至今，已有2000年以上历史"},
-    {"ruleId": 2, "result": false, "reason": "毛笔不是新事物，远早于1950年"},
-    {"ruleId": 3, "result": false, "reason": "现代大多数家庭并无毛笔"},
-    {"ruleId": 4, "result": false, "reason": "毛笔并非稀有物"},
-    {"ruleId": 5, "result": false, "reason": "传统上书法者、成人用得多，近期儿童用得可能略多"},
-    {"ruleId": 6, "result": false, "reason": "许多书法爱好者及学生对毛笔有兴趣"},
-    {"ruleId": 7, "result": false, "reason": "并非每个人都需要"},
-    {"ruleId": 8, "result": true, "reason": "可帮助完成书写、书法相关工作"},
-    {"ruleId": 9, "result": false, "reason": "不是仅限特殊场合，普通场合、学校可见"},
-    {"ruleId": 10, "result": false, "reason": "日常生活中不是随处可见"},
-    {"ruleId": 11, "result": true, "reason": "毛笔通常属于个人文具"},
-    {"ruleId": 12, "result": false, "reason": "通常属于个人用品"},
-    {"ruleId": 13, "result": false, "reason": "毛笔不需要电力工作"},
-    {"ruleId": 14, "result": true, "reason": "毛笔主要起源于中国文化"},
-    {"ruleId": 15, "result": false, "reason": "并非诸多国家都普遍用毛笔"},
-    {"ruleId": 16, "result": false, "reason": "毛笔可长期使用"},
-    {"ruleId": 17, "result": true, "reason": "好的毛笔可以使用很多年"},
-    {"ruleId": 18, "result": true, "reason": "主要在室内书写、作画时使用"},
-    {"ruleId": 19, "result": false, "reason": "毛笔多用于书桌、室内"},
-    {"ruleId": 20, "result": true, "reason": "中国大部分人学生时代都见过"},
-    {"ruleId": 21, "result": true, "reason": "文具店、美术用品店可买到"},
-    {"ruleId": 22, "result": false, "reason": "办公室很少用毛笔"},
-    {"ruleId": 23, "result": true, "reason": "传统美术课堂常见"},
-    {"ruleId": 24, "result": true, "reason": "书写书法/绘画带来快乐"},
-    {"ruleId": 25, "result": false, "reason": "毛笔无危险感"},
-    {"ruleId": 26, "result": true, "reason": "可用于书法、画画等娱乐"},
-    {"ruleId": 27, "result": true, "reason": "也可作为专业工具用于创作"},
-    {"ruleId": 28, "result": false, "reason": "一年四季皆可用"},
-    {"ruleId": 29, "result": true, "reason": "全年可使用"},
-    {"ruleId": 30, "result": false, "reason": "学习门槛不高，练习可掌握"},
-    {"ruleId": 31, "result": false, "reason": "正确使用需学习"},
-    {"ruleId": 32, "result": true, "reason": "正式书法书写等正式场合使用"},
-    {"ruleId": 33, "result": true, "reason": "书画环境、业余休闲时也可用"},
-    {"ruleId": 34, "result": true, "reason": "有些人收藏高档毛笔"},
-    {"ruleId": 35, "result": false, "reason": "很多家庭仍有毛笔"},
-    {"ruleId": 36, "result": true, "reason": "中国书法史上举足轻重"},
-    {"ruleId": 37, "result": false, "reason": "现代使用减少，过去更常见"},
-    {"ruleId": 38, "result": true, "reason": "毛笔常作为礼物赠予书画爱好者"},
-    {"ruleId": 39, "result": false, "reason": "作为艺术品、文房四宝常被赠送"},
-    {"ruleId": 40, "result": false, "reason": "各阶层都可用，非特权物品"},
-    {"ruleId": 41, "result": true, "reason": "价格区间广，各收入阶层均可拥有"},
-    {"ruleId": 42, "result": true, "reason": "通常可随身携带上飞机"},
-    {"ruleId": 43, "result": true, "reason": "在文具店较易找到"},
-    {"ruleId": 44, "result": false, "reason": "不需燃料"},
-    {"ruleId": 45, "result": false, "reason": "可反复使用，不是一次性"},
-    {"ruleId": 46, "result": false, "reason": "无特定季节限制"},
-    {"ruleId": 47, "result": true, "reason": "可以多次反复用"},
-    {"ruleId": 48, "result": false, "reason": "不需特殊许可"},
-    {"ruleId": 49, "result": true, "reason": "世界各地（尤其中国）很多毛笔"},
-    {"ruleId": 50, "result": false, "reason": "不止一个，数量众多"},
-    {"ruleId": 51, "result": true, "reason": "毛笔容易损坏（笔毫易分散或断裂）"},
-    {"ruleId": 52, "result": true, "reason": "毛笔小巧易携带"},
-    {"ruleId": 53, "result": false, "reason": "毛笔无需电力"},
-    {"ruleId": 54, "result": false, "reason": "毛笔形状、尺寸差别较大"},
-    {"ruleId": 55, "result": false, "reason": "毛笔是人造物"},
-    {"ruleId": 56, "result": false, "reason": "毛笔放入水中会湿，不会保持干燥"},
-    {"ruleId": 57, "result": false, "reason": "毛笔入水会沉"},
-    {"ruleId": 58, "result": false, "reason": "毛笔主体多为竹制，部分有金属"},
-    {"ruleId": 59, "result": false, "reason": "使用时不发声"},
-    {"ruleId": 60, "result": false, "reason": "毛笔颜色以原木色和黑色居多，不鲜艳"},
-    {"ruleId": 61, "result": false, "reason": "很小，不比人类大"},
-    {"ruleId": 62, "result": false, "reason": "毛笔不透明"},
-    {"ruleId": 63, "result": false, "reason": "通常整体为一根，结构简单"},
-    {"ruleId": 64, "result": true, "reason": "笔毫部分摸起来柔软"},
-    {"ruleId": 65, "result": false, "reason": "不可折叠也不可压扁"},
-    {"ruleId": 66, "result": true, "reason": "需定期保养、清洗"},
-    {"ruleId": 67, "result": false, "reason": "毛笔无锋利边缘"},
-    {"ruleId": 68, "result": false, "reason": "不可食用"},
-    {"ruleId": 69, "result": false, "reason": "通常无强烈气味"},
-    {"ruleId": 70, "result": false, "reason": "很轻，不超过100公斤"},
-    {"ruleId": 71, "result": false, "reason": "作为文具不会穿戴"},
-    {"ruleId": 72, "result": false, "reason": "本身不产生热量"},
-    {"ruleId": 73, "result": false, "reason": "不容易着火"},
-    {"ruleId": 74, "result": false, "reason": "表面多为无字刻印"},
-    {"ruleId": 75, "result": false, "reason": "通常为成品无需组装"},
-    {"ruleId": 76, "result": true, "reason": "竹木、动物毛入土会分解"},
-    {"ruleId": 77, "result": true, "reason": "数支毛笔可并列堆叠存放"},
-    {"ruleId": 78, "result": false, "reason": "一般无光泽"},
-    {"ruleId": 79, "result": false, "reason": "无金属部分或极少，磁铁无法吸引"},
-    {"ruleId": 80, "result": false, "reason": "不会主动发声"},
-    {"ruleId": 81, "result": true, "reason": "笔毛可吸水"},
-    {"ruleId": 82, "result": true, "reason": "笔毛柔软可弯曲"},
-    {"ruleId": 83, "result": false, "reason": "放入水中不会浮"},
-    {"ruleId": 84, "result": true, "reason": "使用时间久了会磨损变形"},
-    {"ruleId": 85, "result": false, "reason": "非对称物品"},
-    {"ruleId": 86, "result": false, "reason": "损坏后难修复"},
-    {"ruleId": 87, "result": false, "reason": "不需燃料"},
-    {"ruleId": 88, "result": false, "reason": "毛笔为无生命物"},
-    {"ruleId": 89, "result": false, "reason": "水下难见毛笔"},
-    {"ruleId": 90, "result": false, "reason": "很少用塑料部件"},
-    {"ruleId": 91, "result": true, "reason": "毛笔杆常用竹木制作"},
-    {"ruleId": 92, "result": false, "reason": "加热易损坏"},
-    {"ruleId": 93, "result": false, "reason": "一般文房储存，无需特别"},
-    {"ruleId": 94, "result": true, "reason": "高档毛笔需手工制作"},
-    {"ruleId": 95, "result": false, "reason": "墨汁残留难清洗"},
-    {"ruleId": 96, "result": false, "reason": "单件出现，非成对"},
-    {"ruleId": 97, "result": true, "reason": "可手握使用"},
-    {"ruleId": 98, "result": false, "reason": "多为单一或两色"},
-    {"ruleId": 99, "result": false, "reason": "竹身硬，笔毛软，不全坚硬"},
-    {"ruleId": 100, "result": false, "reason": "常见为竹+动物毛组合"},
-    {"ruleId": 101, "result": true, "reason": "“毛笔”为两个字"},
-    {"ruleId": 102, "result": false, "reason": "不是三个字"},
-    {"ruleId": 103, "result": false, "reason": "不是四个字"},
-    {"ruleId": 104, "result": false, "reason": "不是五个字"},
-    {"ruleId": 105, "result": false, "reason": "未含“心”或心旁"},
-    {"ruleId": 106, "result": true, "reason": "“笔”字为竹字头，属草字头变形"},
-    {"ruleId": 107, "result": false, "reason": "没出现水字或其偏旁"},
-    {"ruleId": 108, "result": false, "reason": "没出现金字或偏旁"},
-    {"ruleId": 109, "result": false, "reason": "没有木字或木旁"},
-    {"ruleId": 110, "result": false, "reason": "无火字或火旁"},
-    {"ruleId": 111, "result": false, "reason": "无土字或其偏旁"},
-    {"ruleId": 112, "result": false, "reason": "无日字或偏旁"},
-    {"ruleId": 113, "result": false, "reason": "无走字或相关偏旁"},
-    {"ruleId": 114, "result": false, "reason": "无山字或相关偏旁"},
-    {"ruleId": 115, "result": false, "reason": "无川字或偏旁"},
-    {"ruleId": 116, "result": false, "reason": "无雨字或相关偏旁"},
-    {"ruleId": 117, "result": false, "reason": "两字未含人字或亻等偏旁"},
-    {"ruleId": 118, "result": false, "reason": "无手字或扌偏旁"},
-    {"ruleId": 119, "result": false, "reason": "无王字及旁"},
-    {"ruleId": 120, "result": false, "reason": "无口字及偏旁"},
-    {"ruleId": 121, "result": false, "reason": "无目字及旁"},
-    {"ruleId": 122, "result": false, "reason": "无耳字及旁"},
-    {"ruleId": 123, "result": false, "reason": "无足字及旁"},
-    {"ruleId": 124, "result": false, "reason": "无言字及旁"},
-    {"ruleId": 125, "result": false, "reason": "无食字及旁"},
-    {"ruleId": 126, "result": false, "reason": "无衣字及旁"},
-    {"ruleId": 127, "result": false, "reason": "无马字及旁"},
-    {"ruleId": 128, "result": false, "reason": "无鱼字及旁"},
-    {"ruleId": 129, "result": false, "reason": "无鸟字及旁"},
-    {"ruleId": 130, "result": false, "reason": "无车字及旁"},
-    {"ruleId": 131, "result": true, "reason": "“笔”为左右结构，“毛”为独体"},
-    {"ruleId": 132, "result": false, "reason": "两字都不是上下结构"},
-    {"ruleId": 133, "result": false, "reason": "一个毛旁，一个竹头，偏旁不同"},
-    {"ruleId": 134, "result": true, "reason": "两字部首均不相同"},
-    {"ruleId": 135, "result": true, "reason": "“毛”仅4画，小于7画"},
-    {"ruleId": 136, "result": true, "reason": "两字都在10画以下"},
-    {"ruleId": 137, "result": true, "reason": "最多为10画，远小于15画"},
-    {"ruleId": 138, "result": false, "reason": "都小于12画"},
-    {"ruleId": 139, "result": false, "reason": "“毛”4画，“笔”10画，递增，但仅两字不作趋势"},
-    {"ruleId": 140, "result": false, "reason": "第二字比第一字多，不递减"},
-    {"ruleId": 141, "result": false, "reason": "分别为第二和第三声，声调不同"},
-    {"ruleId": 142, "result": true, "reason": "一个二声一个三声，完全不同"},
-    {"ruleId": 143, "result": true, "reason": "没有第一声"},
-    {"ruleId": 144, "result": false, "reason": "有“毛”（第二声）"},
-    {"ruleId": 145, "result": false, "reason": "有“笔”（第三声）"},
-    {"ruleId": 146, "result": true, "reason": "没有第四声"},
-    {"ruleId": 147, "result": false, "reason": "没有第一声"},
-    {"ruleId": 148, "result": true, "reason": "包含“毛”二声"},
-    {"ruleId": 149, "result": true, "reason": "包含“笔”三声"},
-    {"ruleId": 150, "result": false, "reason": "无第四声"}
+    {
+      "ruleId": 1,
+      "result": true,
+      "reason": "毛笔自秦汉流传至今，已有2000年以上历史"
+    },
+    {
+      "ruleId": 2,
+      "result": false,
+      "reason": "毛笔不是新事物，远早于1950年"
+    },
+    {
+      "ruleId": 3,
+      "result": false,
+      "reason": "现代大多数家庭并无毛笔"
+    },
+    {
+      "ruleId": 4,
+      "result": false,
+      "reason": "毛笔并非稀有物"
+    },
+    {
+      "ruleId": 5,
+      "result": true,
+      "reason": "传统上书法者、成人用得多，近期儿童用得可能略多"
+    },
+    {
+      "ruleId": 6,
+      "result": false,
+      "reason": "许多书法爱好者及学生对毛笔有兴趣"
+    },
+    {
+      "ruleId": 7,
+      "result": false,
+      "reason": "并非每个人都需要"
+    },
+    {
+      "ruleId": 8,
+      "result": true,
+      "reason": "可帮助完成书写、书法相关工作"
+    },
+    {
+      "ruleId": 9,
+      "result": false,
+      "reason": "不是仅限特殊场合，普通场合、学校可见"
+    },
+    {
+      "ruleId": 10,
+      "result": false,
+      "reason": "日常生活中不是随处可见"
+    },
+    {
+      "ruleId": 11,
+      "result": true,
+      "reason": "毛笔通常属于个人文具"
+    },
+    {
+      "ruleId": 12,
+      "result": false,
+      "reason": "通常属于个人用品"
+    },
+    {
+      "ruleId": 13,
+      "result": false,
+      "reason": "毛笔不需要电力工作"
+    },
+    {
+      "ruleId": 14,
+      "result": true,
+      "reason": "毛笔主要起源于中国文化"
+    },
+    {
+      "ruleId": 15,
+      "result": false,
+      "reason": "并非诸多国家都普遍用毛笔"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "毛笔可长期使用"
+    },
+    {
+      "ruleId": 17,
+      "result": true,
+      "reason": "好的毛笔可以使用很多年"
+    },
+    {
+      "ruleId": 18,
+      "result": true,
+      "reason": "主要在室内书写、作画时使用"
+    },
+    {
+      "ruleId": 19,
+      "result": false,
+      "reason": "毛笔多用于书桌、室内"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "中国大部分人学生时代都见过"
+    },
+    {
+      "ruleId": 21,
+      "result": true,
+      "reason": "文具店、美术用品店可买到"
+    },
+    {
+      "ruleId": 22,
+      "result": false,
+      "reason": "办公室很少用毛笔"
+    },
+    {
+      "ruleId": 23,
+      "result": true,
+      "reason": "传统美术课堂常见"
+    },
+    {
+      "ruleId": 24,
+      "result": true,
+      "reason": "书写书法/绘画带来快乐"
+    },
+    {
+      "ruleId": 25,
+      "result": false,
+      "reason": "毛笔无危险感"
+    },
+    {
+      "ruleId": 26,
+      "result": true,
+      "reason": "可用于书法、画画等娱乐"
+    },
+    {
+      "ruleId": 27,
+      "result": true,
+      "reason": "也可作为专业工具用于创作"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "一年四季皆可用"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "全年可使用"
+    },
+    {
+      "ruleId": 30,
+      "result": false,
+      "reason": "学习门槛不高，练习可掌握"
+    },
+    {
+      "ruleId": 31,
+      "result": false,
+      "reason": "正确使用需学习"
+    },
+    {
+      "ruleId": 32,
+      "result": true,
+      "reason": "正式书法书写等正式场合使用"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "书画环境、业余休闲时也可用"
+    },
+    {
+      "ruleId": 34,
+      "result": true,
+      "reason": "有些人收藏高档毛笔"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "很多家庭仍有毛笔"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "中国书法史上举足轻重"
+    },
+    {
+      "ruleId": 37,
+      "result": false,
+      "reason": "现代使用减少，过去更常见"
+    },
+    {
+      "ruleId": 38,
+      "result": true,
+      "reason": "毛笔常作为礼物赠予书画爱好者"
+    },
+    {
+      "ruleId": 39,
+      "result": false,
+      "reason": "作为艺术品、文房四宝常被赠送"
+    },
+    {
+      "ruleId": 40,
+      "result": false,
+      "reason": "各阶层都可用，非特权物品"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "价格区间广，各收入阶层均可拥有"
+    },
+    {
+      "ruleId": 42,
+      "result": true,
+      "reason": "通常可随身携带上飞机"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "在文具店较易找到"
+    },
+    {
+      "ruleId": 44,
+      "result": false,
+      "reason": "不需燃料"
+    },
+    {
+      "ruleId": 45,
+      "result": false,
+      "reason": "可反复使用，不是一次性"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "无特定季节限制"
+    },
+    {
+      "ruleId": 47,
+      "result": true,
+      "reason": "可以多次反复用"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "不需特殊许可"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "世界各地（尤其中国）很多毛笔"
+    },
+    {
+      "ruleId": 50,
+      "result": false,
+      "reason": "不止一个，数量众多"
+    },
+    {
+      "ruleId": 51,
+      "result": true,
+      "reason": "毛笔容易损坏（笔毫易分散或断裂）"
+    },
+    {
+      "ruleId": 52,
+      "result": true,
+      "reason": "毛笔小巧易携带"
+    },
+    {
+      "ruleId": 53,
+      "result": false,
+      "reason": "毛笔无需电力"
+    },
+    {
+      "ruleId": 54,
+      "result": false,
+      "reason": "毛笔形状、尺寸差别较大"
+    },
+    {
+      "ruleId": 55,
+      "result": false,
+      "reason": "毛笔是人造物"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "毛笔放入水中会湿，不会保持干燥"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "毛笔入水会沉"
+    },
+    {
+      "ruleId": 58,
+      "result": false,
+      "reason": "毛笔主体多为竹制，部分有金属"
+    },
+    {
+      "ruleId": 59,
+      "result": false,
+      "reason": "使用时不发声"
+    },
+    {
+      "ruleId": 60,
+      "result": false,
+      "reason": "毛笔颜色以原木色和黑色居多，不鲜艳"
+    },
+    {
+      "ruleId": 61,
+      "result": false,
+      "reason": "很小，不比人类大"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "毛笔不透明"
+    },
+    {
+      "ruleId": 63,
+      "result": false,
+      "reason": "通常整体为一根，结构简单"
+    },
+    {
+      "ruleId": 64,
+      "result": true,
+      "reason": "笔毫部分摸起来柔软"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "不可折叠也不可压扁"
+    },
+    {
+      "ruleId": 66,
+      "result": true,
+      "reason": "需定期保养、清洗"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "毛笔无锋利边缘"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "不可食用"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "通常无强烈气味"
+    },
+    {
+      "ruleId": 70,
+      "result": false,
+      "reason": "很轻，不超过100公斤"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "作为文具不会穿戴"
+    },
+    {
+      "ruleId": 72,
+      "result": false,
+      "reason": "本身不产生热量"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "不容易着火"
+    },
+    {
+      "ruleId": 74,
+      "result": false,
+      "reason": "表面多为无字刻印"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "通常为成品无需组装"
+    },
+    {
+      "ruleId": 76,
+      "result": true,
+      "reason": "竹木、动物毛入土会分解"
+    },
+    {
+      "ruleId": 77,
+      "result": true,
+      "reason": "数支毛笔可并列堆叠存放"
+    },
+    {
+      "ruleId": 78,
+      "result": false,
+      "reason": "一般无光泽"
+    },
+    {
+      "ruleId": 79,
+      "result": false,
+      "reason": "无金属部分或极少，磁铁无法吸引"
+    },
+    {
+      "ruleId": 80,
+      "result": false,
+      "reason": "不会主动发声"
+    },
+    {
+      "ruleId": 81,
+      "result": true,
+      "reason": "笔毛可吸水"
+    },
+    {
+      "ruleId": 82,
+      "result": true,
+      "reason": "笔毛柔软可弯曲"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "放入水中不会浮"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "使用时间久了会磨损变形"
+    },
+    {
+      "ruleId": 85,
+      "result": false,
+      "reason": "非对称物品"
+    },
+    {
+      "ruleId": 86,
+      "result": false,
+      "reason": "损坏后难修复"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "不需燃料"
+    },
+    {
+      "ruleId": 88,
+      "result": false,
+      "reason": "毛笔为无生命物"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "水下难见毛笔"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "很少用塑料部件"
+    },
+    {
+      "ruleId": 91,
+      "result": true,
+      "reason": "毛笔杆常用竹木制作"
+    },
+    {
+      "ruleId": 92,
+      "result": false,
+      "reason": "加热易损坏"
+    },
+    {
+      "ruleId": 93,
+      "result": false,
+      "reason": "一般文房储存，无需特别"
+    },
+    {
+      "ruleId": 94,
+      "result": true,
+      "reason": "高档毛笔需手工制作"
+    },
+    {
+      "ruleId": 95,
+      "result": false,
+      "reason": "墨汁残留难清洗"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "单件出现，非成对"
+    },
+    {
+      "ruleId": 97,
+      "result": true,
+      "reason": "可手握使用"
+    },
+    {
+      "ruleId": 98,
+      "result": false,
+      "reason": "多为单一或两色"
+    },
+    {
+      "ruleId": 99,
+      "result": false,
+      "reason": "竹身硬，笔毛软，不全坚硬"
+    },
+    {
+      "ruleId": 100,
+      "result": false,
+      "reason": "常见为竹+动物毛组合"
+    },
+    {
+      "ruleId": 101,
+      "result": true,
+      "reason": "“毛笔”为两个字"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "不是三个字"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "不是四个字"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "不是五个字"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "未含“心”或心旁"
+    },
+    {
+      "ruleId": 106,
+      "result": true,
+      "reason": "“笔”字为竹字头，属草字头变形"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "没出现水字或其偏旁"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "没出现金字或偏旁"
+    },
+    {
+      "ruleId": 109,
+      "result": false,
+      "reason": "没有木字或木旁"
+    },
+    {
+      "ruleId": 110,
+      "result": false,
+      "reason": "无火字或火旁"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "无土字或其偏旁"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "无日字或偏旁"
+    },
+    {
+      "ruleId": 113,
+      "result": false,
+      "reason": "无走字或相关偏旁"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "无山字或相关偏旁"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "无川字或偏旁"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "无雨字或相关偏旁"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "两字未含人字或亻等偏旁"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "无手字或扌偏旁"
+    },
+    {
+      "ruleId": 119,
+      "result": false,
+      "reason": "无王字及旁"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "无口字及偏旁"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "无目字及旁"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "无耳字及旁"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "无足字及旁"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "无言字及旁"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "无食字及旁"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "无衣字及旁"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "无马字及旁"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "无鱼字及旁"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "无鸟字及旁"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "无车字及旁"
+    },
+    {
+      "ruleId": 131,
+      "result": true,
+      "reason": "“笔”为左右结构，“毛”为独体"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "两字都不是上下结构"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "一个毛旁，一个竹头，偏旁不同"
+    },
+    {
+      "ruleId": 134,
+      "result": true,
+      "reason": "两字部首均不相同"
+    },
+    {
+      "ruleId": 135,
+      "result": true,
+      "reason": "“毛”仅4画，小于7画"
+    },
+    {
+      "ruleId": 136,
+      "result": true,
+      "reason": "两字都在10画以下"
+    },
+    {
+      "ruleId": 137,
+      "result": true,
+      "reason": "最多为10画，远小于15画"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "都小于12画"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "“毛”4画，“笔”10画，递增，但仅两字不作趋势"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "第二字比第一字多，不递减"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "分别为第二和第三声，声调不同"
+    },
+    {
+      "ruleId": 142,
+      "result": true,
+      "reason": "一个二声一个三声，完全不同"
+    },
+    {
+      "ruleId": 143,
+      "result": true,
+      "reason": "没有第一声"
+    },
+    {
+      "ruleId": 144,
+      "result": false,
+      "reason": "有“毛”（第二声）"
+    },
+    {
+      "ruleId": 145,
+      "result": false,
+      "reason": "有“笔”（第三声）"
+    },
+    {
+      "ruleId": 146,
+      "result": true,
+      "reason": "没有第四声"
+    },
+    {
+      "ruleId": 147,
+      "result": false,
+      "reason": "没有第一声"
+    },
+    {
+      "ruleId": 148,
+      "result": true,
+      "reason": "包含“毛”二声"
+    },
+    {
+      "ruleId": 149,
+      "result": true,
+      "reason": "包含“笔”三声"
+    },
+    {
+      "ruleId": 150,
+      "result": false,
+      "reason": "无第四声"
+    }
   ]
 }

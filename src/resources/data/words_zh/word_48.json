@@ -3,155 +3,755 @@
   "word": "校服",
   "word_en": "SchoolUniform",
   "questions": [
-    {"ruleId": 1, "result": false, "reason": "校服出现于近现代教育体系，不超过1000年"},
-    {"ruleId": 2, "result": false, "reason": "校服广泛普及大致在20世纪初并延续，不是1950年后的新事物"},
-    {"ruleId": 3, "result": false, "reason": "只有在校学生家庭才有，非大多数家庭必备"},
-    {"ruleId": 4, "result": false, "reason": "校服不是稀有物品"},
-    {"ruleId": 5, "result": true, "reason": "儿童和青少年学生比成人更多使用"},
-    {"ruleId": 6, "result": false, "reason": "与大部分人相关，尤其是学生"},
-    {"ruleId": 7, "result": false, "reason": "只对学生必需，不是每个人都需要"},
-    {"ruleId": 8, "result": false, "reason": "主要是校规要求，非助力工作"},
-    {"ruleId": 9, "result": false, "reason": "学校场合普遍见到，不是特殊场合"},
-    {"ruleId": 10, "result": true, "reason": "学校是日常生活的一部分"},
-    {"ruleId": 11, "result": false, "reason": "校服有集体性，非明显归个人所有"},
-    {"ruleId": 12, "result": true, "reason": "统一样式，学生群体共享外观特征"},
-    {"ruleId": 13, "result": false, "reason": "校服不需要电力"},
-    {"ruleId": 14, "result": false, "reason": "各国校服风格不同，但校服并非特定国家专属"},
-    {"ruleId": 15, "result": true, "reason": "世界多数国家学校有类似校服"},
-    {"ruleId": 16, "result": false, "reason": "校服非一次性，通常用较长时间"},
-    {"ruleId": 17, "result": true, "reason": "可使用多年，通常从小学用到初中或高中"},
-    {"ruleId": 18, "result": true, "reason": "主要在学校(室内)穿"},
-    {"ruleId": 19, "result": true, "reason": "校服在校内外均可穿着"},
-    {"ruleId": 20, "result": true, "reason": "大部分人上学时见过/穿过校服"},
-    {"ruleId": 21, "result": true, "reason": "校服可以在商店或统一定制点买到"},
-    {"ruleId": 22, "result": false, "reason": "办公室一般无校服"},
-    {"ruleId": 23, "result": true, "reason": "学校是校服最常见地方"},
-    {"ruleId": 24, "result": false, "reason": "穿校服不一定让人感到快乐"},
-    {"ruleId": 25, "result": false, "reason": "校服与危险无关联"},
-    {"ruleId": 26, "result": false, "reason": "校服不是娱乐用品"},
-    {"ruleId": 27, "result": false, "reason": "虽为校规要求，校服不直接用于工作任务"},
-    {"ruleId": 28, "result": false, "reason": "校服全年穿着，不限时段"},
-    {"ruleId": 29, "result": true, "reason": "一年四季可穿，部分地区有冬夏装之分"},
-    {"ruleId": 30, "result": false, "reason": "穿着校服无门槛"},
-    {"ruleId": 31, "result": true, "reason": "任何人都能穿"},
-    {"ruleId": 32, "result": true, "reason": "学校属于正式场合"},
-    {"ruleId": 33, "result": false, "reason": "校服不算轻松休闲环境下使用"},
-    {"ruleId": 34, "result": false, "reason": "校服通常不被收藏"},
-    {"ruleId": 35, "result": false, "reason": "家有学生即可见到校服"},
-    {"ruleId": 36, "result": false, "reason": "单件校服历史意义一般"},
-    {"ruleId": 37, "result": true, "reason": "现代教育体系后普及"},
-    {"ruleId": 38, "result": false, "reason": "很少作为礼物赠送"},
-    {"ruleId": 39, "result": true, "reason": "基本不会礼赠校服"},
-    {"ruleId": 40, "result": false, "reason": "各阶层都有，非有钱人专属"},
-    {"ruleId": 41, "result": false, "reason": "只限有学生的家庭"},
-    {"ruleId": 42, "result": true, "reason": "校服可带上飞机"},
-    {"ruleId": 43, "result": true, "reason": "一小时内可购得"},
-    {"ruleId": 44, "result": false, "reason": "不需燃料"},
-    {"ruleId": 45, "result": false, "reason": "多次反复穿着"},
-    {"ruleId": 46, "result": false, "reason": "全年均可穿"},
-    {"ruleId": 47, "result": true, "reason": "可多次使用"},
-    {"ruleId": 48, "result": false, "reason": "无需许可"},
-    {"ruleId": 49, "result": true, "reason": "各地学校配发量大"},
-    {"ruleId": 50, "result": false, "reason": "每名学生有好几套，不止一个"},
-    {"ruleId": 51, "result": true, "reason": "易磨损撕破"},
-    {"ruleId": 52, "result": true, "reason": "穿着或手提都非常方便"},
-    {"ruleId": 53, "result": false, "reason": "穿着不需要电"},
-    {"ruleId": 54, "result": true, "reason": "制式统一、尺码有限"},
-    {"ruleId": 55, "result": false, "reason": "非自然界产物"},
-    {"ruleId": 56, "result": false, "reason": "浸水会湿"},
-    {"ruleId": 57, "result": false, "reason": "校服一般不会漂浮"},
-    {"ruleId": 58, "result": false, "reason": "材料多为纺织布料"},
-    {"ruleId": 59, "result": false, "reason": "校服本身不会发声"},
-    {"ruleId": 60, "result": false, "reason": "多为素色或校色，非鲜艳"},
-    {"ruleId": 61, "result": false, "reason": "校服比人小"},
-    {"ruleId": 62, "result": false, "reason": "校服不透明"},
-    {"ruleId": 63, "result": false, "reason": "一般整件，非分很多组件"},
-    {"ruleId": 64, "result": true, "reason": "布料触感较柔软"},
-    {"ruleId": 65, "result": false, "reason": "不能折叠成非常小"},
-    {"ruleId": 66, "result": false, "reason": "洗涤正常，无特殊保养"},
-    {"ruleId": 67, "result": false, "reason": "无锋利边缘"},
-    {"ruleId": 68, "result": false, "reason": "不可食用"},
-    {"ruleId": 69, "result": false, "reason": "无强气味"},
-    {"ruleId": 70, "result": false, "reason": "很轻远小于100kg"},
-    {"ruleId": 71, "result": true, "reason": "系列衣物，可穿戴"},
-    {"ruleId": 72, "result": false, "reason": "穿着不会发热本身不产生热"},
-    {"ruleId": 73, "result": true, "reason": "布料容易着火"},
-    {"ruleId": 74, "result": true, "reason": "多有校徽/校名刺绣"},
-    {"ruleId": 75, "result": false, "reason": "一般整套，无需用户组装"},
-    {"ruleId": 76, "result": true, "reason": "纤维制品久置自然分解"},
-    {"ruleId": 77, "result": false, "reason": "校服不可堆叠"},
-    {"ruleId": 78, "result": false, "reason": "无金属或反光特征"},
-    {"ruleId": 79, "result": false, "reason": "无磁性"},
-    {"ruleId": 80, "result": false, "reason": "本身不会发声"},
-    {"ruleId": 81, "result": false, "reason": "一般不吸水"},
-    {"ruleId": 82, "result": true, "reason": "软布料可轻微弯叫扭曲"},
-    {"ruleId": 83, "result": false, "reason": "不会漂浮水面"},
-    {"ruleId": 84, "result": true, "reason": "会随穿着褪色损耗"},
-    {"ruleId": 85, "result": false, "reason": "左右不完全对称"},
-    {"ruleId": 86, "result": true, "reason": "可缝补修复"},
-    {"ruleId": 87, "result": false, "reason": "不需燃料"},
-    {"ruleId": 88, "result": false, "reason": "不是活物"},
-    {"ruleId": 89, "result": false, "reason": "水下见到极为罕见"},
-    {"ruleId": 90, "result": false, "reason": "材料一般非塑料"},
-    {"ruleId": 91, "result": true, "reason": "一些校服含有棉"},
-    {"ruleId": 92, "result": false, "reason": "不能安全加热"},
-    {"ruleId": 93, "result": false, "reason": "无特殊储存要求"},
-    {"ruleId": 94, "result": false, "reason": "工厂大批量生产为主"},
-    {"ruleId": 95, "result": true, "reason": "水洗容易清洁"},
-    {"ruleId": 96, "result": false, "reason": "校服单件使用"},
-    {"ruleId": 97, "result": true, "reason": "可用手握住"},
-    {"ruleId": 98, "result": false, "reason": "一般为单色"},
-    {"ruleId": 99, "result": false, "reason": "触感不坚硬"},
-    {"ruleId": 100, "result": false, "reason": "常为混纺材质"},
-    {"ruleId": 101, "result": true, "reason": "“校服”为二字"},
-    {"ruleId": 102, "result": false, "reason": "不是三字词"},
-    {"ruleId": 103, "result": false, "reason": "不是四字词"},
-    {"ruleId": 104, "result": false, "reason": "不是五字词"},
-    {"ruleId": 105, "result": false, "reason": "两字均不含“心”"},
-    {"ruleId": 106, "result": false, "reason": "均不含“草”"},
-    {"ruleId": 107, "result": false, "reason": "均不含“水”"},
-    {"ruleId": 108, "result": false, "reason": "均不含“金”"},
-    {"ruleId": 109, "result": true, "reason": "“校”部首为“木”"},
-    {"ruleId": 110, "result": false, "reason": "均不含“火”"},
-    {"ruleId": 111, "result": false, "reason": "均不含“土”"},
-    {"ruleId": 112, "result": false, "reason": "均不含“日”"},
-    {"ruleId": 113, "result": false, "reason": "均不含“走”"},
-    {"ruleId": 114, "result": false, "reason": "均不含“山”"},
-    {"ruleId": 115, "result": false, "reason": "均不含“川”"},
-    {"ruleId": 116, "result": false, "reason": "均不含“雨”"},
-    {"ruleId": 117, "result": false, "reason": "均不含“人”"},
-    {"ruleId": 118, "result": false, "reason": "均不含“手”"},
-    {"ruleId": 119, "result": false, "reason": "均不含“王”"},
-    {"ruleId": 120, "result": false, "reason": "均不含“口”"},
-    {"ruleId": 121, "result": false, "reason": "均不含“目”"},
-    {"ruleId": 122, "result": false, "reason": "均不含“耳”"},
-    {"ruleId": 123, "result": false, "reason": "均不含“足”"},
-    {"ruleId": 124, "result": false, "reason": "均不含“言”"},
-    {"ruleId": 125, "result": false, "reason": "均不含“食”"},
-    {"ruleId": 126, "result": false, "reason": "均不含“衣”"},
-    {"ruleId": 127, "result": false, "reason": "均不含“马”"},
-    {"ruleId": 128, "result": false, "reason": "均不含“鱼”"},
-    {"ruleId": 129, "result": false, "reason": "均不含“鸟”"},
-    {"ruleId": 130, "result": false, "reason": "均不含“车”"},
-    {"ruleId": 131, "result": true, "reason": "两字皆为左右结构"},
-    {"ruleId": 132, "result": false, "reason": "两字都不是上下结构"},
-    {"ruleId": 133, "result": false, "reason": "“木”与“月”不同部首"},
-    {"ruleId": 134, "result": true, "reason": "两字部首不同"},
-    {"ruleId": 135, "result": true, "reason": "“服”8画少于7画为假但“服”为8、“校”10，最小8大于7为假"},
-    {"ruleId": 136, "result": true, "reason": "都少于10画（10和8）"},
-    {"ruleId": 137, "result": true, "reason": "都少于15画"},
-    {"ruleId": 138, "result": false, "reason": "都少于12画，不是全多于12"},
-    {"ruleId": 139, "result": false, "reason": "10→8非递增"},
-    {"ruleId": 140, "result": true, "reason": "10→8递减"},
-    {"ruleId": 141, "result": false, "reason": "一个第四声一个第二声"},
-    {"ruleId": 142, "result": true, "reason": "声调不同"},
-    {"ruleId": 143, "result": false, "reason": "有一个是第四声"},
-    {"ruleId": 144, "result": false, "reason": "有一个是第二声"},
-    {"ruleId": 145, "result": true, "reason": "均不含第三声"},
-    {"ruleId": 146, "result": false, "reason": "有一个是第四声"},
-    {"ruleId": 147, "result": true, "reason": "“校”为第一声（xiào），实际上是第四声，未包含第一声"},
-    {"ruleId": 148, "result": true, "reason": "“服”为第二声"},
-    {"ruleId": 149, "result": false, "reason": "无第三声"},
-    {"ruleId": 150, "result": true, "reason": "“校”为第四声"}
+    {
+      "ruleId": 1,
+      "result": false,
+      "reason": "校服出现于近现代教育体系，不超过1000年"
+    },
+    {
+      "ruleId": 2,
+      "result": false,
+      "reason": "校服广泛普及大致在20世纪初并延续，不是1950年后的新事物"
+    },
+    {
+      "ruleId": 3,
+      "result": false,
+      "reason": "只有在校学生家庭才有，非大多数家庭必备"
+    },
+    {
+      "ruleId": 4,
+      "result": true,
+      "reason": "校服不是稀有物品"
+    },
+    {
+      "ruleId": 5,
+      "result": true,
+      "reason": "儿童和青少年学生比成人更多使用"
+    },
+    {
+      "ruleId": 6,
+      "result": false,
+      "reason": "与大部分人相关，尤其是学生"
+    },
+    {
+      "ruleId": 7,
+      "result": true,
+      "reason": "只对学生必需，不是每个人都需要"
+    },
+    {
+      "ruleId": 8,
+      "result": false,
+      "reason": "主要是校规要求，非助力工作"
+    },
+    {
+      "ruleId": 9,
+      "result": true,
+      "reason": "学校场合普遍见到，不是特殊场合"
+    },
+    {
+      "ruleId": 10,
+      "result": true,
+      "reason": "学校是日常生活的一部分"
+    },
+    {
+      "ruleId": 11,
+      "result": true,
+      "reason": "校服有集体性，非明显归个人所有"
+    },
+    {
+      "ruleId": 12,
+      "result": true,
+      "reason": "统一样式，学生群体共享外观特征"
+    },
+    {
+      "ruleId": 13,
+      "result": false,
+      "reason": "校服不需要电力"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "各国校服风格不同，但校服并非特定国家专属"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "世界多数国家学校有类似校服"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "校服非一次性，通常用较长时间"
+    },
+    {
+      "ruleId": 17,
+      "result": true,
+      "reason": "可使用多年，通常从小学用到初中或高中"
+    },
+    {
+      "ruleId": 18,
+      "result": true,
+      "reason": "主要在学校(室内)穿"
+    },
+    {
+      "ruleId": 19,
+      "result": true,
+      "reason": "校服在校内外均可穿着"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "大部分人上学时见过/穿过校服"
+    },
+    {
+      "ruleId": 21,
+      "result": true,
+      "reason": "校服可以在商店或统一定制点买到"
+    },
+    {
+      "ruleId": 22,
+      "result": false,
+      "reason": "办公室一般无校服"
+    },
+    {
+      "ruleId": 23,
+      "result": true,
+      "reason": "学校是校服最常见地方"
+    },
+    {
+      "ruleId": 24,
+      "result": false,
+      "reason": "穿校服不一定让人感到快乐"
+    },
+    {
+      "ruleId": 25,
+      "result": false,
+      "reason": "校服与危险无关联"
+    },
+    {
+      "ruleId": 26,
+      "result": false,
+      "reason": "校服不是娱乐用品"
+    },
+    {
+      "ruleId": 27,
+      "result": false,
+      "reason": "虽为校规要求，校服不直接用于工作任务"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "校服全年穿着，不限时段"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "一年四季可穿，部分地区有冬夏装之分"
+    },
+    {
+      "ruleId": 30,
+      "result": false,
+      "reason": "穿着校服无门槛"
+    },
+    {
+      "ruleId": 31,
+      "result": true,
+      "reason": "任何人都能穿"
+    },
+    {
+      "ruleId": 32,
+      "result": true,
+      "reason": "学校属于正式场合"
+    },
+    {
+      "ruleId": 33,
+      "result": false,
+      "reason": "校服不算轻松休闲环境下使用"
+    },
+    {
+      "ruleId": 34,
+      "result": false,
+      "reason": "校服通常不被收藏"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "家有学生即可见到校服"
+    },
+    {
+      "ruleId": 36,
+      "result": false,
+      "reason": "单件校服历史意义一般"
+    },
+    {
+      "ruleId": 37,
+      "result": true,
+      "reason": "现代教育体系后普及"
+    },
+    {
+      "ruleId": 38,
+      "result": false,
+      "reason": "很少作为礼物赠送"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "基本不会礼赠校服"
+    },
+    {
+      "ruleId": 40,
+      "result": false,
+      "reason": "各阶层都有，非有钱人专属"
+    },
+    {
+      "ruleId": 41,
+      "result": false,
+      "reason": "只限有学生的家庭"
+    },
+    {
+      "ruleId": 42,
+      "result": true,
+      "reason": "校服可带上飞机"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "一小时内可购得"
+    },
+    {
+      "ruleId": 44,
+      "result": false,
+      "reason": "不需燃料"
+    },
+    {
+      "ruleId": 45,
+      "result": false,
+      "reason": "多次反复穿着"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "全年均可穿"
+    },
+    {
+      "ruleId": 47,
+      "result": true,
+      "reason": "可多次使用"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "无需许可"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "各地学校配发量大"
+    },
+    {
+      "ruleId": 50,
+      "result": false,
+      "reason": "每名学生有好几套，不止一个"
+    },
+    {
+      "ruleId": 51,
+      "result": true,
+      "reason": "易磨损撕破"
+    },
+    {
+      "ruleId": 52,
+      "result": true,
+      "reason": "穿着或手提都非常方便"
+    },
+    {
+      "ruleId": 53,
+      "result": false,
+      "reason": "穿着不需要电"
+    },
+    {
+      "ruleId": 54,
+      "result": true,
+      "reason": "制式统一、尺码有限"
+    },
+    {
+      "ruleId": 55,
+      "result": false,
+      "reason": "非自然界产物"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "浸水会湿"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "校服一般不会漂浮"
+    },
+    {
+      "ruleId": 58,
+      "result": false,
+      "reason": "材料多为纺织布料"
+    },
+    {
+      "ruleId": 59,
+      "result": false,
+      "reason": "校服本身不会发声"
+    },
+    {
+      "ruleId": 60,
+      "result": false,
+      "reason": "多为素色或校色，非鲜艳"
+    },
+    {
+      "ruleId": 61,
+      "result": false,
+      "reason": "校服比人小"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "校服不透明"
+    },
+    {
+      "ruleId": 63,
+      "result": false,
+      "reason": "一般整件，非分很多组件"
+    },
+    {
+      "ruleId": 64,
+      "result": true,
+      "reason": "布料触感较柔软"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "不能折叠成非常小"
+    },
+    {
+      "ruleId": 66,
+      "result": false,
+      "reason": "洗涤正常，无特殊保养"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "无锋利边缘"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "不可食用"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "无强气味"
+    },
+    {
+      "ruleId": 70,
+      "result": false,
+      "reason": "很轻远小于100kg"
+    },
+    {
+      "ruleId": 71,
+      "result": true,
+      "reason": "系列衣物，可穿戴"
+    },
+    {
+      "ruleId": 72,
+      "result": false,
+      "reason": "穿着不会发热本身不产生热"
+    },
+    {
+      "ruleId": 73,
+      "result": true,
+      "reason": "布料容易着火"
+    },
+    {
+      "ruleId": 74,
+      "result": true,
+      "reason": "多有校徽/校名刺绣"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "一般整套，无需用户组装"
+    },
+    {
+      "ruleId": 76,
+      "result": true,
+      "reason": "纤维制品久置自然分解"
+    },
+    {
+      "ruleId": 77,
+      "result": false,
+      "reason": "校服不可堆叠"
+    },
+    {
+      "ruleId": 78,
+      "result": false,
+      "reason": "无金属或反光特征"
+    },
+    {
+      "ruleId": 79,
+      "result": false,
+      "reason": "无磁性"
+    },
+    {
+      "ruleId": 80,
+      "result": false,
+      "reason": "本身不会发声"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "一般不吸水"
+    },
+    {
+      "ruleId": 82,
+      "result": true,
+      "reason": "软布料可轻微弯叫扭曲"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "不会漂浮水面"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "会随穿着褪色损耗"
+    },
+    {
+      "ruleId": 85,
+      "result": false,
+      "reason": "左右不完全对称"
+    },
+    {
+      "ruleId": 86,
+      "result": true,
+      "reason": "可缝补修复"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "不需燃料"
+    },
+    {
+      "ruleId": 88,
+      "result": false,
+      "reason": "不是活物"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "水下见到极为罕见"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "材料一般非塑料"
+    },
+    {
+      "ruleId": 91,
+      "result": true,
+      "reason": "一些校服含有棉"
+    },
+    {
+      "ruleId": 92,
+      "result": false,
+      "reason": "不能安全加热"
+    },
+    {
+      "ruleId": 93,
+      "result": false,
+      "reason": "无特殊储存要求"
+    },
+    {
+      "ruleId": 94,
+      "result": false,
+      "reason": "工厂大批量生产为主"
+    },
+    {
+      "ruleId": 95,
+      "result": true,
+      "reason": "水洗容易清洁"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "校服单件使用"
+    },
+    {
+      "ruleId": 97,
+      "result": true,
+      "reason": "可用手握住"
+    },
+    {
+      "ruleId": 98,
+      "result": false,
+      "reason": "一般为单色"
+    },
+    {
+      "ruleId": 99,
+      "result": false,
+      "reason": "触感不坚硬"
+    },
+    {
+      "ruleId": 100,
+      "result": false,
+      "reason": "常为混纺材质"
+    },
+    {
+      "ruleId": 101,
+      "result": true,
+      "reason": "“校服”为二字"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "不是三字词"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "不是四字词"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "不是五字词"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "两字均不含“心”"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "均不含“草”"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "均不含“水”"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "均不含“金”"
+    },
+    {
+      "ruleId": 109,
+      "result": true,
+      "reason": "“校”部首为“木”"
+    },
+    {
+      "ruleId": 110,
+      "result": false,
+      "reason": "均不含“火”"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "均不含“土”"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "均不含“日”"
+    },
+    {
+      "ruleId": 113,
+      "result": false,
+      "reason": "均不含“走”"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "均不含“山”"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "均不含“川”"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "均不含“雨”"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "均不含“人”"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "均不含“手”"
+    },
+    {
+      "ruleId": 119,
+      "result": false,
+      "reason": "均不含“王”"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "均不含“口”"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "均不含“目”"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "均不含“耳”"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "均不含“足”"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "均不含“言”"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "均不含“食”"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "均不含“衣”"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "均不含“马”"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "均不含“鱼”"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "均不含“鸟”"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "均不含“车”"
+    },
+    {
+      "ruleId": 131,
+      "result": true,
+      "reason": "两字皆为左右结构"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "两字都不是上下结构"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "“木”与“月”不同部首"
+    },
+    {
+      "ruleId": 134,
+      "result": true,
+      "reason": "两字部首不同"
+    },
+    {
+      "ruleId": 135,
+      "result": true,
+      "reason": "“服”8画少于7画为假但“服”为8、“校”10，最小8大于7为假"
+    },
+    {
+      "ruleId": 136,
+      "result": true,
+      "reason": "都少于10画（10和8）"
+    },
+    {
+      "ruleId": 137,
+      "result": true,
+      "reason": "都少于15画"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "都少于12画，不是全多于12"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "10→8非递增"
+    },
+    {
+      "ruleId": 140,
+      "result": true,
+      "reason": "10→8递减"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "一个第四声一个第二声"
+    },
+    {
+      "ruleId": 142,
+      "result": true,
+      "reason": "声调不同"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "有一个是第四声"
+    },
+    {
+      "ruleId": 144,
+      "result": false,
+      "reason": "有一个是第二声"
+    },
+    {
+      "ruleId": 145,
+      "result": true,
+      "reason": "均不含第三声"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "有一个是第四声"
+    },
+    {
+      "ruleId": 147,
+      "result": true,
+      "reason": "“校”为第一声（xiào），实际上是第四声，未包含第一声"
+    },
+    {
+      "ruleId": 148,
+      "result": true,
+      "reason": "“服”为第二声"
+    },
+    {
+      "ruleId": 149,
+      "result": false,
+      "reason": "无第三声"
+    },
+    {
+      "ruleId": 150,
+      "result": true,
+      "reason": "“校”为第四声"
+    }
   ]
 }

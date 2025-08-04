@@ -3,155 +3,755 @@
   "word": "电视",
   "word_en": "Television",
   "questions": [
-    {"ruleId": 1, "result": false, "reason": "电视出现于20世纪，不超过1000年"},
-    {"ruleId": 2, "result": true, "reason": "电视是1950年后普及的新事物"},
-    {"ruleId": 3, "result": true, "reason": "大多数家庭都有电视"},
-    {"ruleId": 4, "result": false, "reason": "电视已大量普及，并非稀有物品"},
-    {"ruleId": 5, "result": false, "reason": "成人使用电视的比例不低于儿童"},
-    {"ruleId": 6, "result": false, "reason": "大多数人对电视有兴趣"},
-    {"ruleId": 7, "result": false, "reason": "不是每个人都必须要电视"},
-    {"ruleId": 8, "result": true, "reason": "电视有助于部分工作（如宣传、信息）"},
-    {"ruleId": 9, "result": false, "reason": "电视在日常生活常见"},
-    {"ruleId": 10, "result": true, "reason": "日常生活中常常见到电视"},
-    {"ruleId": 11, "result": true, "reason": "电视属于个人或家庭财产"},
-    {"ruleId": 12, "result": true, "reason": "电视可多人共享"},
-    {"ruleId": 13, "result": true, "reason": "电视需电力工作"},
-    {"ruleId": 14, "result": false, "reason": "电视全球普及非特定国家专属"},
-    {"ruleId": 15, "result": true, "reason": "许多国家都能找到电视"},
-    {"ruleId": 16, "result": false, "reason": "电视通常长期使用并非一次性"},
-    {"ruleId": 17, "result": true, "reason": "电视可以使用多年"},
-    {"ruleId": 18, "result": true, "reason": "电视主要在室内使用"},
-    {"ruleId": 19, "result": false, "reason": "电视很少在室外使用"},
-    {"ruleId": 20, "result": true, "reason": "大部分人亲眼见过电视"},
-    {"ruleId": 21, "result": true, "reason": "电视能在商店买到"},
-    {"ruleId": 22, "result": false, "reason": "现在办公室很少配备电视"},
-    {"ruleId": 23, "result": false, "reason": "学校一般不放置电视，电视非常见设备"},
-    {"ruleId": 24, "result": true, "reason": "电视经常带来娱乐与快乐"},
-    {"ruleId": 25, "result": false, "reason": "电视本身不会让人感到危险"},
-    {"ruleId": 26, "result": true, "reason": "电视常被用于娱乐"},
-    {"ruleId": 27, "result": true, "reason": "电视可用作新闻、公告等重要任务"},
-    {"ruleId": 28, "result": false, "reason": "电视全年可用非特定时间"},
-    {"ruleId": 29, "result": true, "reason": "电视全年都可使用"},
-    {"ruleId": 30, "result": false, "reason": "使用电视门槛极低"},
-    {"ruleId": 31, "result": true, "reason": "人人都易会使用电视"},
-    {"ruleId": 32, "result": false, "reason": "正式场合电视较少出现"},
-    {"ruleId": 33, "result": true, "reason": "看电视多在休闲环境"},
-    {"ruleId": 34, "result": false, "reason": "一般很少有人收藏电视"},
-    {"ruleId": 35, "result": false, "reason": "大部分家庭都可见电视"},
-    {"ruleId": 36, "result": true, "reason": "电视在现代史和传播史上很重要"},
-    {"ruleId": 37, "result": true, "reason": "电视主要在现代社会使用"},
-    {"ruleId": 38, "result": false, "reason": "电视很少被当作礼物赠送"},
-    {"ruleId": 39, "result": true, "reason": "电视确实很少成为礼物"},
-    {"ruleId": 40, "result": false, "reason": "不只富人拥有，各阶层都有"},
-    {"ruleId": 41, "result": true, "reason": "各收入阶层普遍会有电视"},
-    {"ruleId": 42, "result": false, "reason": "电视体积较大，不可随身带上飞机"},
-    {"ruleId": 43, "result": true, "reason": "在大多数城市一小时内可买到电视"},
-    {"ruleId": 44, "result": false, "reason": "电视需电而非燃料"},
-    {"ruleId": 45, "result": false, "reason": "电视并非一次性用品"},
-    {"ruleId": 46, "result": false, "reason": "电视不是特定季节用品"},
-    {"ruleId": 47, "result": true, "reason": "电视可多次反复使用"},
-    {"ruleId": 48, "result": false, "reason": "使用电视无须许可"},
-    {"ruleId": 49, "result": true, "reason": "世界存在大量电视"},
-    {"ruleId": 50, "result": false, "reason": "电视全球数量极多不唯一"},
-    {"ruleId": 51, "result": false, "reason": "电视日常使用下不易损坏"},
-    {"ruleId": 52, "result": false, "reason": "电视一般体积较大不易携带"},
-    {"ruleId": 53, "result": true, "reason": "电视需用电工作"},
-    {"ruleId": 54, "result": true, "reason": "电视尺寸相对固定"},
-    {"ruleId": 55, "result": false, "reason": "电视是人造物不在自然界出现"},
-    {"ruleId": 56, "result": false, "reason": "电视放水中会进水损坏"},
-    {"ruleId": 57, "result": false, "reason": "电视不能漂浮水中"},
-    {"ruleId": 58, "result": false, "reason": "电视主要非金属制成"},
-    {"ruleId": 59, "result": true, "reason": "电视工作时有声音输出"},
-    {"ruleId": 60, "result": false, "reason": "电视外观一般不算颜色鲜艳"},
-    {"ruleId": 61, "result": false, "reason": "电视比人大体型小"},
-    {"ruleId": 62, "result": false, "reason": "电视本体不透明"},
-    {"ruleId": 63, "result": true, "reason": "电视内部有多个组件"},
-    {"ruleId": 64, "result": false, "reason": "电视外壳通常坚硬不柔软"},
-    {"ruleId": 65, "result": false, "reason": "电视不能折叠压扁"},
-    {"ruleId": 66, "result": true, "reason": "电视需维护保养"},
-    {"ruleId": 67, "result": false, "reason": "电视通常没有锋利边缘"},
-    {"ruleId": 68, "result": false, "reason": "电视不可食用"},
-    {"ruleId": 69, "result": false, "reason": "电视无强烈气味"},
-    {"ruleId": 70, "result": false, "reason": "电视一般远低于100公斤"},
-    {"ruleId": 71, "result": false, "reason": "电视不能穿戴"},
-    {"ruleId": 72, "result": true, "reason": "一部分电视能产生热量"},
-    {"ruleId": 73, "result": false, "reason": "电视不易着火"},
-    {"ruleId": 74, "result": true, "reason": "电视外壳和屏幕多有品牌文字"},
-    {"ruleId": 75, "result": false, "reason": "电视一般出厂整体，无需用户组装"},
-    {"ruleId": 76, "result": false, "reason": "电视不易在自然分解"},
-    {"ruleId": 77, "result": false, "reason": "电视不方便堆叠"},
-    {"ruleId": 78, "result": true, "reason": "电视屏幕有光泽感"},
-    {"ruleId": 79, "result": false, "reason": "电视整体不会被磁铁吸引"},
-    {"ruleId": 80, "result": true, "reason": "电视功能之一即发出声音"},
-    {"ruleId": 81, "result": false, "reason": "电视不吸收水分"},
-    {"ruleId": 82, "result": false, "reason": "电视结构不可弯曲"},
-    {"ruleId": 83, "result": false, "reason": "电视不会浮水"},
-    {"ruleId": 84, "result": true, "reason": "电视随时间会更新或损坏"},
-    {"ruleId": 85, "result": false, "reason": "电视两侧一般不全对称"},
-    {"ruleId": 86, "result": true, "reason": "电视损坏后有些可修理"},
-    {"ruleId": 87, "result": false, "reason": "电视无需燃料仅需电力"},
-    {"ruleId": 88, "result": false, "reason": "电视不是活物"},
-    {"ruleId": 89, "result": false, "reason": "电视不在水下使用"},
-    {"ruleId": 90, "result": true, "reason": "电视部件含塑料外壳"},
-    {"ruleId": 91, "result": false, "reason": "现代电视不含木头"},
-    {"ruleId": 92, "result": false, "reason": "电视不可安全加热"},
-    {"ruleId": 93, "result": false, "reason": "电视常温存放无特殊要求"},
-    {"ruleId": 94, "result": false, "reason": "电视为工业化生产非手工"},
-    {"ruleId": 95, "result": false, "reason": "电视结构复杂清洁不易"},
-    {"ruleId": 96, "result": false, "reason": "电视通常单体出现"},
-    {"ruleId": 97, "result": false, "reason": "电视体积较大无法用手握持"},
-    {"ruleId": 98, "result": false, "reason": "电视颜色一般为黑、灰、银色，无多种颜色"},
-    {"ruleId": 99, "result": true, "reason": "电视外壳坚硬"},
-    {"ruleId": 100, "result": false, "reason": "电视由多种材料组成"},
-    {"ruleId": 101, "result": true, "reason": "电视为两个字"},
-    {"ruleId": 102, "result": false, "reason": "电视不是三个字"},
-    {"ruleId": 103, "result": false, "reason": "电视不是四个字"},
-    {"ruleId": 104, "result": false, "reason": "非一个字"},
-    {"ruleId": 105, "result": false, "reason": "电视无“心”或其偏旁"},
-    {"ruleId": 106, "result": false, "reason": "电视不含草字头"},
-    {"ruleId": 107, "result": false, "reason": "电视无“水”或其偏旁"},
-    {"ruleId": 108, "result": false, "reason": "电视无“金”或其偏旁"},
-    {"ruleId": 109, "result": false, "reason": "电视无“木”或其偏旁"},
-    {"ruleId": 110, "result": false, "reason": "电视不含“火”或其偏旁"},
-    {"ruleId": 111, "result": false, "reason": "电视无“土”或其偏旁"},
-    {"ruleId": 112, "result": false, "reason": "电视无“日”或其偏旁"},
-    {"ruleId": 113, "result": false, "reason": "电视无“走”字或偏旁"},
-    {"ruleId": 114, "result": false, "reason": "电视无“山”偏旁"},
-    {"ruleId": 115, "result": false, "reason": "电视无“川”偏旁"},
-    {"ruleId": 116, "result": false, "reason": "电视无“雨”偏旁"},
-    {"ruleId": 117, "result": false, "reason": "电视无“人”或亻"},
-    {"ruleId": 118, "result": false, "reason": "电视无“手”或提手旁"},
-    {"ruleId": 119, "result": false, "reason": "电视无“王”字或偏旁"},
-    {"ruleId": 120, "result": false, "reason": "电视无“口”字或偏旁"},
-    {"ruleId": 121, "result": false, "reason": "电视无“目”字或偏旁"},
-    {"ruleId": 122, "result": false, "reason": "电视无“耳”字或偏旁"},
-    {"ruleId": 123, "result": false, "reason": "电视无“足”字或偏旁"},
-    {"ruleId": 124, "result": false, "reason": "电视无“言”字或偏旁"},
-    {"ruleId": 125, "result": false, "reason": "电视无“食”字或偏旁"},
-    {"ruleId": 126, "result": false, "reason": "电视无“衣”字或偏旁"},
-    {"ruleId": 127, "result": false, "reason": "电视无“马”字或偏旁"},
-    {"ruleId": 128, "result": false, "reason": "电视无“鱼”字或偏旁"},
-    {"ruleId": 129, "result": false, "reason": "电视无“鸟”字或偏旁"},
-    {"ruleId": 130, "result": false, "reason": "电视无“车”字或偏旁"},
-    {"ruleId": 131, "result": false, "reason": "“电视”两字都不是左右结构"},
-    {"ruleId": 132, "result": true, "reason": "“电”是上下结构"},
-    {"ruleId": 133, "result": false, "reason": "“电”与“视”部首不同"},
-    {"ruleId": 134, "result": true, "reason": "两字部首分别为田和见，不一样"},
-    {"ruleId": 135, "result": true, "reason": "“电”为5画，少于7画"},
-    {"ruleId": 136, "result": true, "reason": "“电”5画、“视”7画，均少于10画"},
-    {"ruleId": 137, "result": true, "reason": "“视”7画，小于15画"},
-    {"ruleId": 138, "result": false, "reason": "“电”5画、“视”7画，都不大于12画"},
-    {"ruleId": 139, "result": true, "reason": "5画到7画，笔画递增"},
-    {"ruleId": 140, "result": false, "reason": "不是递减，先5后7"},
-    {"ruleId": 141, "result": true, "reason": "两字都是第四声"},
-    {"ruleId": 142, "result": false, "reason": "两字声调相同"},
-    {"ruleId": 143, "result": true, "reason": "两字均为第四声，不含第一声"},
-    {"ruleId": 144, "result": true, "reason": "两字均为第四声，不含第二声"},
-    {"ruleId": 145, "result": true, "reason": "两字均为第四声，不含第三声"},
-    {"ruleId": 146, "result": false, "reason": "两字均为第四声"},
-    {"ruleId": 147, "result": false, "reason": "不含第一声字"},
-    {"ruleId": 148, "result": false, "reason": "不含第二声字"},
-    {"ruleId": 149, "result": false, "reason": "不含第三声字"},
-    {"ruleId": 150, "result": true, "reason": "包含第四声（diàn、shì）"}
+    {
+      "ruleId": 1,
+      "result": false,
+      "reason": "电视出现于20世纪，不超过1000年"
+    },
+    {
+      "ruleId": 2,
+      "result": true,
+      "reason": "电视是1950年后普及的新事物"
+    },
+    {
+      "ruleId": 3,
+      "result": true,
+      "reason": "大多数家庭都有电视"
+    },
+    {
+      "ruleId": 4,
+      "result": false,
+      "reason": "电视更新频繁，难以使用100年"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "成人使用电视的比例不低于儿童"
+    },
+    {
+      "ruleId": 6,
+      "result": true,
+      "reason": "大多数人对电视有兴趣"
+    },
+    {
+      "ruleId": 7,
+      "result": false,
+      "reason": "不是每个人都必须要电视"
+    },
+    {
+      "ruleId": 8,
+      "result": false,
+      "reason": "电视有助于部分工作（如宣传、信息）"
+    },
+    {
+      "ruleId": 9,
+      "result": false,
+      "reason": "电视在日常生活常见"
+    },
+    {
+      "ruleId": 10,
+      "result": true,
+      "reason": "日常生活中常常见到电视"
+    },
+    {
+      "ruleId": 11,
+      "result": true,
+      "reason": "电视属于个人或家庭财产"
+    },
+    {
+      "ruleId": 12,
+      "result": true,
+      "reason": "电视可多人共享"
+    },
+    {
+      "ruleId": 13,
+      "result": true,
+      "reason": "电视需电力工作"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "电视全球普及非特定国家专属"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "许多国家都能找到电视"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "电视通常长期使用并非一次性"
+    },
+    {
+      "ruleId": 17,
+      "result": true,
+      "reason": "电视可以使用多年"
+    },
+    {
+      "ruleId": 18,
+      "result": true,
+      "reason": "电视主要在室内使用"
+    },
+    {
+      "ruleId": 19,
+      "result": false,
+      "reason": "电视很少在室外使用"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "大部分人亲眼见过电视"
+    },
+    {
+      "ruleId": 21,
+      "result": true,
+      "reason": "电视能在商店买到"
+    },
+    {
+      "ruleId": 22,
+      "result": false,
+      "reason": "现在办公室很少配备电视"
+    },
+    {
+      "ruleId": 23,
+      "result": false,
+      "reason": "学校一般不放置电视，电视非常见设备"
+    },
+    {
+      "ruleId": 24,
+      "result": true,
+      "reason": "电视经常带来娱乐与快乐"
+    },
+    {
+      "ruleId": 25,
+      "result": false,
+      "reason": "电视本身不会让人感到危险"
+    },
+    {
+      "ruleId": 26,
+      "result": true,
+      "reason": "电视常被用于娱乐"
+    },
+    {
+      "ruleId": 27,
+      "result": true,
+      "reason": "电视可用作新闻、公告等重要任务"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "电视全年可用非特定时间"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "电视全年都可使用"
+    },
+    {
+      "ruleId": 30,
+      "result": false,
+      "reason": "使用电视门槛极低"
+    },
+    {
+      "ruleId": 31,
+      "result": true,
+      "reason": "人人都易会使用电视"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "正式场合电视较少出现"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "看电视多在休闲环境"
+    },
+    {
+      "ruleId": 34,
+      "result": false,
+      "reason": "一般很少有人收藏电视"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "大部分家庭都可见电视"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "电视在现代史和传播史上很重要"
+    },
+    {
+      "ruleId": 37,
+      "result": true,
+      "reason": "电视主要在现代社会使用"
+    },
+    {
+      "ruleId": 38,
+      "result": false,
+      "reason": "电视很少被当作礼物赠送"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "电视确实很少成为礼物"
+    },
+    {
+      "ruleId": 40,
+      "result": false,
+      "reason": "不只富人拥有，各阶层都有"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "各收入阶层普遍会有电视"
+    },
+    {
+      "ruleId": 42,
+      "result": false,
+      "reason": "电视体积较大，不可随身带上飞机"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "在大多数城市一小时内可买到电视"
+    },
+    {
+      "ruleId": 44,
+      "result": false,
+      "reason": "电视需电而非燃料"
+    },
+    {
+      "ruleId": 45,
+      "result": false,
+      "reason": "电视并非一次性用品"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "电视不是特定季节用品"
+    },
+    {
+      "ruleId": 47,
+      "result": true,
+      "reason": "电视可多次反复使用"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "使用电视无须许可"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "世界存在大量电视"
+    },
+    {
+      "ruleId": 50,
+      "result": false,
+      "reason": "电视全球数量极多不唯一"
+    },
+    {
+      "ruleId": 51,
+      "result": false,
+      "reason": "电视日常使用下不易损坏"
+    },
+    {
+      "ruleId": 52,
+      "result": false,
+      "reason": "电视一般体积较大不易携带"
+    },
+    {
+      "ruleId": 53,
+      "result": true,
+      "reason": "电视需用电工作"
+    },
+    {
+      "ruleId": 54,
+      "result": true,
+      "reason": "电视尺寸相对固定"
+    },
+    {
+      "ruleId": 55,
+      "result": false,
+      "reason": "电视是人造物不在自然界出现"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "电视放水中会进水损坏"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "电视不能漂浮水中"
+    },
+    {
+      "ruleId": 58,
+      "result": false,
+      "reason": "电视主要非金属制成"
+    },
+    {
+      "ruleId": 59,
+      "result": true,
+      "reason": "电视工作时有声音输出"
+    },
+    {
+      "ruleId": 60,
+      "result": false,
+      "reason": "电视外观一般不算颜色鲜艳"
+    },
+    {
+      "ruleId": 61,
+      "result": false,
+      "reason": "电视比人大体型小"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "电视本体不透明"
+    },
+    {
+      "ruleId": 63,
+      "result": true,
+      "reason": "电视内部有多个组件"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "电视外壳通常坚硬不柔软"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "电视不能折叠压扁"
+    },
+    {
+      "ruleId": 66,
+      "result": true,
+      "reason": "电视需维护保养"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "电视通常没有锋利边缘"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "电视不可食用"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "电视无强烈气味"
+    },
+    {
+      "ruleId": 70,
+      "result": false,
+      "reason": "电视一般远低于100公斤"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "电视不能穿戴"
+    },
+    {
+      "ruleId": 72,
+      "result": true,
+      "reason": "一部分电视能产生热量"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "电视不易着火"
+    },
+    {
+      "ruleId": 74,
+      "result": true,
+      "reason": "电视外壳和屏幕多有品牌文字"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "电视一般出厂整体，无需用户组装"
+    },
+    {
+      "ruleId": 76,
+      "result": false,
+      "reason": "电视不易在自然分解"
+    },
+    {
+      "ruleId": 77,
+      "result": false,
+      "reason": "电视不方便堆叠"
+    },
+    {
+      "ruleId": 78,
+      "result": true,
+      "reason": "电视屏幕有光泽感"
+    },
+    {
+      "ruleId": 79,
+      "result": false,
+      "reason": "电视整体不会被磁铁吸引"
+    },
+    {
+      "ruleId": 80,
+      "result": true,
+      "reason": "电视功能之一即发出声音"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "电视不吸收水分"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "电视结构不可弯曲"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "电视不会浮水"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "电视随时间会更新或损坏"
+    },
+    {
+      "ruleId": 85,
+      "result": false,
+      "reason": "电视两侧一般不全对称"
+    },
+    {
+      "ruleId": 86,
+      "result": true,
+      "reason": "电视损坏后有些可修理"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "电视无需燃料仅需电力"
+    },
+    {
+      "ruleId": 88,
+      "result": false,
+      "reason": "电视不是活物"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "电视不在水下使用"
+    },
+    {
+      "ruleId": 90,
+      "result": true,
+      "reason": "电视部件含塑料外壳"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "现代电视不含木头"
+    },
+    {
+      "ruleId": 92,
+      "result": false,
+      "reason": "电视不可安全加热"
+    },
+    {
+      "ruleId": 93,
+      "result": false,
+      "reason": "电视常温存放无特殊要求"
+    },
+    {
+      "ruleId": 94,
+      "result": false,
+      "reason": "电视为工业化生产非手工"
+    },
+    {
+      "ruleId": 95,
+      "result": false,
+      "reason": "电视结构复杂清洁不易"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "电视通常单体出现"
+    },
+    {
+      "ruleId": 97,
+      "result": false,
+      "reason": "电视体积较大无法用手握持"
+    },
+    {
+      "ruleId": 98,
+      "result": false,
+      "reason": "电视颜色一般为黑、灰、银色，无多种颜色"
+    },
+    {
+      "ruleId": 99,
+      "result": true,
+      "reason": "电视外壳坚硬"
+    },
+    {
+      "ruleId": 100,
+      "result": false,
+      "reason": "电视由多种材料组成"
+    },
+    {
+      "ruleId": 101,
+      "result": true,
+      "reason": "电视为两个字"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "电视不是三个字"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "电视不是四个字"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "非一个字"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "电视无“心”或其偏旁"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "电视不含草字头"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "电视无“水”或其偏旁"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "电视无“金”或其偏旁"
+    },
+    {
+      "ruleId": 109,
+      "result": false,
+      "reason": "电视无“木”或其偏旁"
+    },
+    {
+      "ruleId": 110,
+      "result": false,
+      "reason": "电视不含“火”或其偏旁"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "电视无“土”或其偏旁"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "电视无“日”或其偏旁"
+    },
+    {
+      "ruleId": 113,
+      "result": false,
+      "reason": "电视无“走”字或偏旁"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "电视无“山”偏旁"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "电视无“川”偏旁"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "电视无“雨”偏旁"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "电视无“人”或亻"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "电视无“手”或提手旁"
+    },
+    {
+      "ruleId": 119,
+      "result": false,
+      "reason": "电视无“王”字或偏旁"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "电视无“口”字或偏旁"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "电视无“目”字或偏旁"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "电视无“耳”字或偏旁"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "电视无“足”字或偏旁"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "电视无“言”字或偏旁"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "电视无“食”字或偏旁"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "电视无“衣”字或偏旁"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "电视无“马”字或偏旁"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "电视无“鱼”字或偏旁"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "电视无“鸟”字或偏旁"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "电视无“车”字或偏旁"
+    },
+    {
+      "ruleId": 131,
+      "result": false,
+      "reason": "“电视”两字都不是左右结构"
+    },
+    {
+      "ruleId": 132,
+      "result": true,
+      "reason": "“电”是上下结构"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "“电”与“视”部首不同"
+    },
+    {
+      "ruleId": 134,
+      "result": true,
+      "reason": "两字部首分别为田和见，不一样"
+    },
+    {
+      "ruleId": 135,
+      "result": true,
+      "reason": "“电”为5画，少于7画"
+    },
+    {
+      "ruleId": 136,
+      "result": true,
+      "reason": "“电”5画、“视”7画，均少于10画"
+    },
+    {
+      "ruleId": 137,
+      "result": true,
+      "reason": "“视”7画，小于15画"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "“电”5画、“视”7画，都不大于12画"
+    },
+    {
+      "ruleId": 139,
+      "result": true,
+      "reason": "5画到7画，笔画递增"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "不是递减，先5后7"
+    },
+    {
+      "ruleId": 141,
+      "result": true,
+      "reason": "两字都是第四声"
+    },
+    {
+      "ruleId": 142,
+      "result": false,
+      "reason": "两字声调相同"
+    },
+    {
+      "ruleId": 143,
+      "result": true,
+      "reason": "两字均为第四声，不含第一声"
+    },
+    {
+      "ruleId": 144,
+      "result": true,
+      "reason": "两字均为第四声，不含第二声"
+    },
+    {
+      "ruleId": 145,
+      "result": true,
+      "reason": "两字均为第四声，不含第三声"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "两字均为第四声"
+    },
+    {
+      "ruleId": 147,
+      "result": false,
+      "reason": "不含第一声字"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "不含第二声字"
+    },
+    {
+      "ruleId": 149,
+      "result": false,
+      "reason": "不含第三声字"
+    },
+    {
+      "ruleId": 150,
+      "result": true,
+      "reason": "包含第四声（diàn、shì）"
+    }
   ]
 }

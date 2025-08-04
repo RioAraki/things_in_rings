@@ -3,155 +3,755 @@
   "word": "信用卡",
   "word_en": "CreditCard",
   "questions": [
-    {"ruleId": 1, "result": false, "reason": "信用卡出现不满1000年"},
-    {"ruleId": 2, "result": true, "reason": "信用卡为现代新生事物，1950年后广泛使用"},
-    {"ruleId": 3, "result": true, "reason": "大多数家庭有信用卡"},
-    {"ruleId": 4, "result": false, "reason": "信用卡并非稀有物品"},
-    {"ruleId": 5, "result": false, "reason": "儿童少用信用卡"},
-    {"ruleId": 6, "result": false, "reason": "绝大部分人对信用卡有兴趣或常用"},
-    {"ruleId": 7, "result": false, "reason": "并非每个人都需要信用卡"},
-    {"ruleId": 8, "result": true, "reason": "信用卡有助于完成金融类工作"},
-    {"ruleId": 9, "result": false, "reason": "信用卡用于日常生活"},
-    {"ruleId": 10, "result": true, "reason": "信用卡在日常生活中见到"},
-    {"ruleId": 11, "result": true, "reason": "信用卡属于个人"},
-    {"ruleId": 12, "result": false, "reason": "信用卡通常不多人共享"},
-    {"ruleId": 13, "result": false, "reason": "信用卡本身不需电力"},
-    {"ruleId": 14, "result": false, "reason": "多国存在信用卡"},
-    {"ruleId": 15, "result": true, "reason": "许多国家都可见信用卡"},
-    {"ruleId": 16, "result": false, "reason": "信用卡一般不用即丢弃"},
-    {"ruleId": 17, "result": true, "reason": "信用卡可用多年（有效期内）"},
-    {"ruleId": 18, "result": true, "reason": "信用卡一般在室内使用"},
-    {"ruleId": 19, "result": false, "reason": "信用卡主要不针对室外使用场景"},
-    {"ruleId": 20, "result": true, "reason": "大部分人都见过信用卡"},
-    {"ruleId": 21, "result": false, "reason": "信用卡不在商店零售贩卖"},
-    {"ruleId": 22, "result": true, "reason": "办公室常有信用卡"},
-    {"ruleId": 23, "result": false, "reason": "学校较少使用信用卡"},
-    {"ruleId": 24, "result": true, "reason": "拥有信用卡有一定愉悦感和便捷性"},
-    {"ruleId": 25, "result": false, "reason": "信用卡本身不让人感到危险"},
-    {"ruleId": 26, "result": false, "reason": "信用卡主要非娱乐用途"},
-    {"ruleId": 27, "result": true, "reason": "信用卡用于财务等重要任务"},
-    {"ruleId": 28, "result": false, "reason": "信用卡不局限特定时间"},
-    {"ruleId": 29, "result": true, "reason": "信用卡全年可用"},
-    {"ruleId": 30, "result": false, "reason": "信用卡使用门槛不高"},
-    {"ruleId": 31, "result": true, "reason": "大多数人可轻松使用信用卡"},
-    {"ruleId": 32, "result": false, "reason": "信用卡不局限正式场合"},
-    {"ruleId": 33, "result": true, "reason": "信用卡多数在轻松、日常环境使用"},
-    {"ruleId": 34, "result": false, "reason": "很少有人收藏信用卡"},
-    {"ruleId": 35, "result": false, "reason": "家里通常有信用卡"},
-    {"ruleId": 36, "result": false, "reason": "信用卡历史作用有限"},
-    {"ruleId": 37, "result": true, "reason": "信用卡主要是现代物品"},
-    {"ruleId": 38, "result": false, "reason": "很少作为礼物赠送信用卡"},
-    {"ruleId": 39, "result": true, "reason": "信用卡很少作为礼物赠送"},
-    {"ruleId": 40, "result": false, "reason": "非有钱人才有信用卡"},
-    {"ruleId": 41, "result": true, "reason": "各收入阶层均有信用卡"},
-    {"ruleId": 42, "result": true, "reason": "信用卡可带上飞机"},
-    {"ruleId": 43, "result": true, "reason": "信用卡容易在短时间内找到"},
-    {"ruleId": 44, "result": false, "reason": "信用卡不需燃料"},
-    {"ruleId": 45, "result": false, "reason": "信用卡非一次性使用"},
-    {"ruleId": 46, "result": false, "reason": "信用卡非特定季节"},
-    {"ruleId": 47, "result": true, "reason": "信用卡可多次使用"},
-    {"ruleId": 48, "result": true, "reason": "需审批许可（办卡）"},
-    {"ruleId": 49, "result": true, "reason": "世界有大量信用卡"},
-    {"ruleId": 50, "result": false, "reason": "信用卡不是唯一"},
-    {"ruleId": 51, "result": true, "reason": "信用卡容易损坏（物理弯折、损耗）"},
-    {"ruleId": 52, "result": true, "reason": "小巧便于携带"},
-    {"ruleId": 53, "result": false, "reason": "信用卡使用不强依赖电力"},
-    {"ruleId": 54, "result": true, "reason": "信用卡尺寸固定"},
-    {"ruleId": 55, "result": false, "reason": "信用卡为人为产物"},
-    {"ruleId": 56, "result": false, "reason": "信用卡遇水易湿不防水"},
-    {"ruleId": 57, "result": false, "reason": "不会漂浮于水上"},
-    {"ruleId": 58, "result": false, "reason": "信用卡非金属制成"},
-    {"ruleId": 59, "result": false, "reason": "信用卡本身不发声"},
-    {"ruleId": 60, "result": false, "reason": "多为朴素颜色"},
-    {"ruleId": 61, "result": false, "reason": "信用卡当然不大于人"},
-    {"ruleId": 62, "result": false, "reason": "一般不透明"},
-    {"ruleId": 63, "result": false, "reason": "信用卡结构单一不能分拆"},
-    {"ruleId": 64, "result": false, "reason": "信用卡材质坚硬不柔软"},
-    {"ruleId": 65, "result": false, "reason": "信用卡不可折叠"},
-    {"ruleId": 66, "result": false, "reason": "信用卡无需保养"},
-    {"ruleId": 67, "result": false, "reason": "信用卡无锋利边缘"},
-    {"ruleId": 68, "result": false, "reason": "信用卡不可食用"},
-    {"ruleId": 69, "result": false, "reason": "信用卡无气味"},
-    {"ruleId": 70, "result": false, "reason": "信用卡极轻"},
-    {"ruleId": 71, "result": false, "reason": "信用卡不穿戴"},
-    {"ruleId": 72, "result": false, "reason": "信用卡本身不产生热量"},
-    {"ruleId": 73, "result": false, "reason": "信用卡不易燃"},
-    {"ruleId": 74, "result": true, "reason": "信用卡常印字"},
-    {"ruleId": 75, "result": false, "reason": "无需组装"},
-    {"ruleId": 76, "result": true, "reason": "信用卡塑料可自然分解但时间长"},
-    {"ruleId": 77, "result": true, "reason": "可叠放多张信用卡"},
-    {"ruleId": 78, "result": true, "reason": "信用卡表面有亮光"},
-    {"ruleId": 79, "result": false, "reason": "信用卡非金属不可被磁铁吸引"},
-    {"ruleId": 80, "result": false, "reason": "信用卡不会发声"},
-    {"ruleId": 81, "result": false, "reason": "信用卡不吸水"},
-    {"ruleId": 82, "result": false, "reason": "弯曲容易损坏，不易弯曲"},
-    {"ruleId": 83, "result": false, "reason": "信用卡下水即沉"},
-    {"ruleId": 84, "result": true, "reason": "有效期和状态随时间变"},
-    {"ruleId": 85, "result": true, "reason": "信用卡形状两侧对称"},
-    {"ruleId": 86, "result": false, "reason": "损坏基本不可修"},
-    {"ruleId": 87, "result": false, "reason": "不需燃料"},
-    {"ruleId": 88, "result": false, "reason": "信用卡非生物"},
-    {"ruleId": 89, "result": false, "reason": "信用卡本非水下物品"},
-    {"ruleId": 90, "result": true, "reason": "含塑料"},
-    {"ruleId": 91, "result": false, "reason": "没有木头"},
-    {"ruleId": 92, "result": false, "reason": "加热会受损"},
-    {"ruleId": 93, "result": false, "reason": "无需特殊储存"},
-    {"ruleId": 94, "result": false, "reason": "工厂大批量生产为主"},
-    {"ruleId": 95, "result": true, "reason": "表面易擦拭"},
-    {"ruleId": 96, "result": false, "reason": "通常单独持有不成对"},
-    {"ruleId": 97, "result": true, "reason": "可手握"},
-    {"ruleId": 98, "result": true, "reason": "有多种颜色设计"},
-    {"ruleId": 99, "result": true, "reason": "摸起来坚硬"},
-    {"ruleId": 100, "result": true, "reason": "塑料为主，基本单一材质"},
-    {"ruleId": 101, "result": false, "reason": "“信用卡”三字"},
-    {"ruleId": 102, "result": true, "reason": "“信用卡”三字"},
-    {"ruleId": 103, "result": false, "reason": "不是四字"},
-    {"ruleId": 104, "result": false, "reason": "不是五字"},
-    {"ruleId": 105, "result": false, "reason": "无“心”部"},
-    {"ruleId": 106, "result": false, "reason": "无“草”部"},
-    {"ruleId": 107, "result": false, "reason": "无“水”部"},
-    {"ruleId": 108, "result": false, "reason": "无“金”部"},
-    {"ruleId": 109, "result": false, "reason": "无“木”部"},
-    {"ruleId": 110, "result": false, "reason": "无“火”部"},
-    {"ruleId": 111, "result": false, "reason": "无“土”部"},
-    {"ruleId": 112, "result": false, "reason": "无“日”部"},
-    {"ruleId": 113, "result": false, "reason": "无“走”部"},
-    {"ruleId": 114, "result": false, "reason": "无“山”部"},
-    {"ruleId": 115, "result": false, "reason": "无“川”部"},
-    {"ruleId": 116, "result": false, "reason": "无“雨”部"},
-    {"ruleId": 117, "result": false, "reason": "无“人”部"},
-    {"ruleId": 118, "result": false, "reason": "无“手”部"},
-    {"ruleId": 119, "result": false, "reason": "无“王”部"},
-    {"ruleId": 120, "result": true, "reason": "“卡”含“口”"},
-    {"ruleId": 121, "result": false, "reason": "无“目”部"},
-    {"ruleId": 122, "result": false, "reason": "无“耳”部"},
-    {"ruleId": 123, "result": false, "reason": "无“足”部"},
-    {"ruleId": 124, "result": false, "reason": "无“言”部"},
-    {"ruleId": 125, "result": false, "reason": "无“食”部"},
-    {"ruleId": 126, "result": false, "reason": "无“衣”部"},
-    {"ruleId": 127, "result": false, "reason": "无“马”部"},
-    {"ruleId": 128, "result": false, "reason": "无“鱼”部"},
-    {"ruleId": 129, "result": false, "reason": "无“鸟”部"},
-    {"ruleId": 130, "result": false, "reason": "无“车”部"},
-    {"ruleId": 131, "result": true, "reason": "“信”字左右结构"},
-    {"ruleId": 132, "result": true, "reason": "“卡”字上下结构"},
-    {"ruleId": 133, "result": false, "reason": "三字部首不一致"},
-    {"ruleId": 134, "result": true, "reason": "三字部首均不同"},
-    {"ruleId": 135, "result": true, "reason": "用/卡为5画，少于7"},
-    {"ruleId": 136, "result": true, "reason": "三字均<10画"},
-    {"ruleId": 137, "result": true, "reason": "笔画最多“信”为9画，<15"},
-    {"ruleId": 138, "result": false, "reason": "无字超12画"},
-    {"ruleId": 139, "result": false, "reason": "9,5,5，无递增"},
-    {"ruleId": 140, "result": false, "reason": "9,5,5，无递减"},
-    {"ruleId": 141, "result": false, "reason": "xìn（4），yòng（4），kǎ（3），不全同声调"},
-    {"ruleId": 142, "result": false, "reason": "有重复声调"},
-    {"ruleId": 143, "result": false, "reason": "“信”“用”均为第四声"},
-    {"ruleId": 144, "result": true, "reason": "无第二声"},
-    {"ruleId": 145, "result": false, "reason": "“卡”为第三声"},
-    {"ruleId": 146, "result": false, "reason": "“信”“用”有第四声"},
-    {"ruleId": 147, "result": false, "reason": "无第一声"},
-    {"ruleId": 148, "result": false, "reason": "无第二声"},
-    {"ruleId": 149, "result": true, "reason": "“卡”为第三声"},
-    {"ruleId": 150, "result": true, "reason": "“信”“用”有第四声"}
+    {
+      "ruleId": 1,
+      "result": false,
+      "reason": "信用卡出现不满1000年"
+    },
+    {
+      "ruleId": 2,
+      "result": true,
+      "reason": "信用卡为现代新生事物，1950年后广泛使用"
+    },
+    {
+      "ruleId": 3,
+      "result": true,
+      "reason": "大多数家庭有信用卡"
+    },
+    {
+      "ruleId": 4,
+      "result": false,
+      "reason": "信用卡并非稀有物品"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "儿童少用信用卡"
+    },
+    {
+      "ruleId": 6,
+      "result": true,
+      "reason": "绝大部分人对信用卡有兴趣或常用"
+    },
+    {
+      "ruleId": 7,
+      "result": true,
+      "reason": "并非每个人都需要信用卡"
+    },
+    {
+      "ruleId": 8,
+      "result": false,
+      "reason": "信用卡有助于完成金融类工作"
+    },
+    {
+      "ruleId": 9,
+      "result": false,
+      "reason": "信用卡用于日常生活"
+    },
+    {
+      "ruleId": 10,
+      "result": true,
+      "reason": "信用卡在日常生活中见到"
+    },
+    {
+      "ruleId": 11,
+      "result": true,
+      "reason": "信用卡属于个人"
+    },
+    {
+      "ruleId": 12,
+      "result": false,
+      "reason": "信用卡通常不多人共享"
+    },
+    {
+      "ruleId": 13,
+      "result": false,
+      "reason": "信用卡本身不需电力"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "多国存在信用卡"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "许多国家都可见信用卡"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "信用卡一般不用即丢弃"
+    },
+    {
+      "ruleId": 17,
+      "result": true,
+      "reason": "信用卡可用多年（有效期内）"
+    },
+    {
+      "ruleId": 18,
+      "result": true,
+      "reason": "信用卡一般在室内使用"
+    },
+    {
+      "ruleId": 19,
+      "result": false,
+      "reason": "信用卡主要不针对室外使用场景"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "大部分人都见过信用卡"
+    },
+    {
+      "ruleId": 21,
+      "result": false,
+      "reason": "信用卡不在商店零售贩卖"
+    },
+    {
+      "ruleId": 22,
+      "result": true,
+      "reason": "办公室常有信用卡"
+    },
+    {
+      "ruleId": 23,
+      "result": false,
+      "reason": "学校较少使用信用卡"
+    },
+    {
+      "ruleId": 24,
+      "result": true,
+      "reason": "拥有信用卡有一定愉悦感和便捷性"
+    },
+    {
+      "ruleId": 25,
+      "result": false,
+      "reason": "信用卡本身不让人感到危险"
+    },
+    {
+      "ruleId": 26,
+      "result": false,
+      "reason": "信用卡主要非娱乐用途"
+    },
+    {
+      "ruleId": 27,
+      "result": true,
+      "reason": "信用卡用于财务等重要任务"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "信用卡不局限特定时间"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "信用卡全年可用"
+    },
+    {
+      "ruleId": 30,
+      "result": false,
+      "reason": "信用卡使用门槛不高"
+    },
+    {
+      "ruleId": 31,
+      "result": true,
+      "reason": "大多数人可轻松使用信用卡"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "信用卡不局限正式场合"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "信用卡多数在轻松、日常环境使用"
+    },
+    {
+      "ruleId": 34,
+      "result": false,
+      "reason": "很少有人收藏信用卡"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "家里通常有信用卡"
+    },
+    {
+      "ruleId": 36,
+      "result": false,
+      "reason": "信用卡历史作用有限"
+    },
+    {
+      "ruleId": 37,
+      "result": true,
+      "reason": "信用卡主要是现代物品"
+    },
+    {
+      "ruleId": 38,
+      "result": false,
+      "reason": "很少作为礼物赠送信用卡"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "信用卡很少作为礼物赠送"
+    },
+    {
+      "ruleId": 40,
+      "result": false,
+      "reason": "非有钱人才有信用卡"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "各收入阶层均有信用卡"
+    },
+    {
+      "ruleId": 42,
+      "result": true,
+      "reason": "信用卡可带上飞机"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "信用卡容易在短时间内找到"
+    },
+    {
+      "ruleId": 44,
+      "result": false,
+      "reason": "信用卡不需燃料"
+    },
+    {
+      "ruleId": 45,
+      "result": false,
+      "reason": "信用卡非一次性使用"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "信用卡非特定季节"
+    },
+    {
+      "ruleId": 47,
+      "result": true,
+      "reason": "信用卡可多次使用"
+    },
+    {
+      "ruleId": 48,
+      "result": true,
+      "reason": "需审批许可（办卡）"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "世界有大量信用卡"
+    },
+    {
+      "ruleId": 50,
+      "result": false,
+      "reason": "信用卡不是唯一"
+    },
+    {
+      "ruleId": 51,
+      "result": true,
+      "reason": "信用卡容易损坏（物理弯折、损耗）"
+    },
+    {
+      "ruleId": 52,
+      "result": true,
+      "reason": "小巧便于携带"
+    },
+    {
+      "ruleId": 53,
+      "result": false,
+      "reason": "信用卡使用不强依赖电力"
+    },
+    {
+      "ruleId": 54,
+      "result": true,
+      "reason": "信用卡尺寸固定"
+    },
+    {
+      "ruleId": 55,
+      "result": false,
+      "reason": "信用卡为人为产物"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "信用卡遇水易湿不防水"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "不会漂浮于水上"
+    },
+    {
+      "ruleId": 58,
+      "result": false,
+      "reason": "信用卡非金属制成"
+    },
+    {
+      "ruleId": 59,
+      "result": false,
+      "reason": "信用卡本身不发声"
+    },
+    {
+      "ruleId": 60,
+      "result": false,
+      "reason": "多为朴素颜色"
+    },
+    {
+      "ruleId": 61,
+      "result": false,
+      "reason": "信用卡当然不大于人"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "一般不透明"
+    },
+    {
+      "ruleId": 63,
+      "result": false,
+      "reason": "信用卡结构单一不能分拆"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "信用卡材质坚硬不柔软"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "信用卡不可折叠"
+    },
+    {
+      "ruleId": 66,
+      "result": false,
+      "reason": "信用卡无需保养"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "信用卡无锋利边缘"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "信用卡不可食用"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "信用卡无气味"
+    },
+    {
+      "ruleId": 70,
+      "result": false,
+      "reason": "信用卡极轻"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "信用卡不穿戴"
+    },
+    {
+      "ruleId": 72,
+      "result": false,
+      "reason": "信用卡本身不产生热量"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "信用卡不易燃"
+    },
+    {
+      "ruleId": 74,
+      "result": true,
+      "reason": "信用卡常印字"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "无需组装"
+    },
+    {
+      "ruleId": 76,
+      "result": true,
+      "reason": "信用卡塑料可自然分解但时间长"
+    },
+    {
+      "ruleId": 77,
+      "result": true,
+      "reason": "可叠放多张信用卡"
+    },
+    {
+      "ruleId": 78,
+      "result": true,
+      "reason": "信用卡表面有亮光"
+    },
+    {
+      "ruleId": 79,
+      "result": false,
+      "reason": "信用卡非金属不可被磁铁吸引"
+    },
+    {
+      "ruleId": 80,
+      "result": false,
+      "reason": "信用卡不会发声"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "信用卡不吸水"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "弯曲容易损坏，不易弯曲"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "信用卡下水即沉"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "有效期和状态随时间变"
+    },
+    {
+      "ruleId": 85,
+      "result": true,
+      "reason": "信用卡形状两侧对称"
+    },
+    {
+      "ruleId": 86,
+      "result": false,
+      "reason": "损坏基本不可修"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "不需燃料"
+    },
+    {
+      "ruleId": 88,
+      "result": false,
+      "reason": "信用卡非生物"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "信用卡本非水下物品"
+    },
+    {
+      "ruleId": 90,
+      "result": true,
+      "reason": "含塑料"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "没有木头"
+    },
+    {
+      "ruleId": 92,
+      "result": false,
+      "reason": "加热会受损"
+    },
+    {
+      "ruleId": 93,
+      "result": false,
+      "reason": "无需特殊储存"
+    },
+    {
+      "ruleId": 94,
+      "result": false,
+      "reason": "工厂大批量生产为主"
+    },
+    {
+      "ruleId": 95,
+      "result": true,
+      "reason": "表面易擦拭"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "通常单独持有不成对"
+    },
+    {
+      "ruleId": 97,
+      "result": true,
+      "reason": "可手握"
+    },
+    {
+      "ruleId": 98,
+      "result": true,
+      "reason": "有多种颜色设计"
+    },
+    {
+      "ruleId": 99,
+      "result": true,
+      "reason": "摸起来坚硬"
+    },
+    {
+      "ruleId": 100,
+      "result": true,
+      "reason": "塑料为主，基本单一材质"
+    },
+    {
+      "ruleId": 101,
+      "result": false,
+      "reason": "“信用卡”三字"
+    },
+    {
+      "ruleId": 102,
+      "result": true,
+      "reason": "“信用卡”三字"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "不是四字"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "不是五字"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "无“心”部"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "无“草”部"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "无“水”部"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "无“金”部"
+    },
+    {
+      "ruleId": 109,
+      "result": false,
+      "reason": "无“木”部"
+    },
+    {
+      "ruleId": 110,
+      "result": false,
+      "reason": "无“火”部"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "无“土”部"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "无“日”部"
+    },
+    {
+      "ruleId": 113,
+      "result": false,
+      "reason": "无“走”部"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "无“山”部"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "无“川”部"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "无“雨”部"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "无“人”部"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "无“手”部"
+    },
+    {
+      "ruleId": 119,
+      "result": false,
+      "reason": "无“王”部"
+    },
+    {
+      "ruleId": 120,
+      "result": true,
+      "reason": "“卡”含“口”"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "无“目”部"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "无“耳”部"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "无“足”部"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "无“言”部"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "无“食”部"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "无“衣”部"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "无“马”部"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "无“鱼”部"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "无“鸟”部"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "无“车”部"
+    },
+    {
+      "ruleId": 131,
+      "result": true,
+      "reason": "“信”字左右结构"
+    },
+    {
+      "ruleId": 132,
+      "result": true,
+      "reason": "“卡”字上下结构"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "三字部首不一致"
+    },
+    {
+      "ruleId": 134,
+      "result": true,
+      "reason": "三字部首均不同"
+    },
+    {
+      "ruleId": 135,
+      "result": true,
+      "reason": "用/卡为5画，少于7"
+    },
+    {
+      "ruleId": 136,
+      "result": true,
+      "reason": "三字均<10画"
+    },
+    {
+      "ruleId": 137,
+      "result": true,
+      "reason": "笔画最多“信”为9画，<15"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "无字超12画"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "9,5,5，无递增"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "9,5,5，无递减"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "xìn（4），yòng（4），kǎ（3），不全同声调"
+    },
+    {
+      "ruleId": 142,
+      "result": false,
+      "reason": "有重复声调"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "“信”“用”均为第四声"
+    },
+    {
+      "ruleId": 144,
+      "result": true,
+      "reason": "无第二声"
+    },
+    {
+      "ruleId": 145,
+      "result": false,
+      "reason": "“卡”为第三声"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "“信”“用”有第四声"
+    },
+    {
+      "ruleId": 147,
+      "result": false,
+      "reason": "无第一声"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "无第二声"
+    },
+    {
+      "ruleId": 149,
+      "result": true,
+      "reason": "“卡”为第三声"
+    },
+    {
+      "ruleId": 150,
+      "result": true,
+      "reason": "“信”“用”有第四声"
+    }
   ]
 }

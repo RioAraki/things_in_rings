@@ -25,7 +25,7 @@
     },
     {
       "ruleId": 5,
-      "result": false,
+      "result": true,
       "reason": "成人和儿童皆常用雨伞，不以儿童为主"
     },
     {
@@ -35,7 +35,7 @@
     },
     {
       "ruleId": 7,
-      "result": false,
+      "result": true,
       "reason": "不是每个人都需要，部分地区或习惯不同"
     },
     {
@@ -60,7 +60,7 @@
     },
     {
       "ruleId": 12,
-      "result": true,
+      "result": false,
       "reason": "也常有家庭共用雨伞的情况"
     },
     {

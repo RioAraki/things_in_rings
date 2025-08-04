@@ -15,8 +15,8 @@
     },
     {
       "ruleId": 3,
-      "result": true,
-      "reason": "所有家庭都生活在地球，地球上都有海洋"
+      "result": false,
+      "reason": "家庭无法拥有一片海洋"
     },
     {
       "ruleId": 4,
@@ -40,7 +40,7 @@
     },
     {
       "ruleId": 8,
-      "result": true,
+      "result": false,
       "reason": "海洋有助于渔业、航运等工作"
     },
     {

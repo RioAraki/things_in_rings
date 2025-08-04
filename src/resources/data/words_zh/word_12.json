@@ -3,155 +3,755 @@
   "word": "火箭",
   "word_en": "Rocket",
   "questions": [
-    {"ruleId": 1, "result": false, "reason": "火箭作为现代科技产物，出现不满1000年"},
-    {"ruleId": 2, "result": true, "reason": "现代火箭普遍发展与应用始于1950年后"},
-    {"ruleId": 3, "result": false, "reason": "一般家庭没有火箭"},
-    {"ruleId": 4, "result": true, "reason": "火箭是非常稀有的物品"},
-    {"ruleId": 5, "result": false, "reason": "火箭主要由专业人员使用"},
-    {"ruleId": 6, "result": true, "reason": "大部分人对火箭无实际兴趣或接触机会"},
-    {"ruleId": 7, "result": false, "reason": "火箭不是每个人都需要的东西"},
-    {"ruleId": 8, "result": true, "reason": "火箭对于航天等特殊工作任务有重要作用"},
-    {"ruleId": 9, "result": true, "reason": "火箭一般仅在特殊场合如发射场可见"},
-    {"ruleId": 10, "result": false, "reason": "火箭不属于日常生活可见之物"},
-    {"ruleId": 11, "result": false, "reason": "火箭归属国家或机构而非个人"},
-    {"ruleId": 12, "result": false, "reason": "火箭通常不会多人共享，指由团队操作"},
-    {"ruleId": 13, "result": true, "reason": "火箭系统内某些设备需要电力"},
-    {"ruleId": 14, "result": false, "reason": "火箭并非特定国家专属，许多国家有"},
-    {"ruleId": 15, "result": true, "reason": "不同国家均有火箭技术和实物"},
-    {"ruleId": 16, "result": true, "reason": "火箭大多为一次性使用，用后不可回收"},
-    {"ruleId": 17, "result": false, "reason": "火箭本体一般不能重复多年使用"},
-    {"ruleId": 18, "result": false, "reason": "火箭在户外甚至太空操作"},
-    {"ruleId": 19, "result": true, "reason": "火箭主要在室外发射"},
-    {"ruleId": 20, "result": false, "reason": "很少有人亲眼看到真火箭"},
-    {"ruleId": 21, "result": false, "reason": "火箭不能在普通商店购得"},
-    {"ruleId": 22, "result": false, "reason": "办公室几乎没有火箭"},
-    {"ruleId": 23, "result": false, "reason": "学校不会有火箭实物"},
-    {"ruleId": 24, "result": false, "reason": "绝大多数人不会因火箭感到快乐"},
-    {"ruleId": 25, "result": true, "reason": "火箭具有一定危险性"},
-    {"ruleId": 26, "result": false, "reason": "火箭用于科研及运载，不用于娱乐"},
-    {"ruleId": 27, "result": true, "reason": "火箭承担重要科研或军事任务"},
-    {"ruleId": 28, "result": false, "reason": "火箭发射无严格季节性"},
-    {"ruleId": 29, "result": false, "reason": "火箭并非全年都可持续使用"},
-    {"ruleId": 30, "result": true, "reason": "火箭操作技术门槛极高"},
-    {"ruleId": 31, "result": false, "reason": "火箭操作极高专业性，一般人不能用"},
-    {"ruleId": 32, "result": true, "reason": "火箭在正式科研/军事场合作用"},
-    {"ruleId": 33, "result": false, "reason": "火箭一般与专业/正式环境无关"},
-    {"ruleId": 34, "result": false, "reason": "很少有人收藏真火箭"},
-    {"ruleId": 35, "result": true, "reason": "家里肯定见不到火箭"},
-    {"ruleId": 36, "result": true, "reason": "火箭技术对人类航天史有重大意义"},
-    {"ruleId": 37, "result": true, "reason": "火箭主要为近现代产物"},
-    {"ruleId": 38, "result": false, "reason": "火箭不会作为礼物赠送"},
-    {"ruleId": 39, "result": true, "reason": "火箭极少被当做礼物"},
-    {"ruleId": 40, "result": false, "reason": "有钱人也难以拥有火箭"},
-    {"ruleId": 41, "result": false, "reason": "并非所有人都有机会使用火箭"},
-    {"ruleId": 42, "result": false, "reason": "火箭绝不可带上民航飞机"},
-    {"ruleId": 43, "result": false, "reason": "一小时内很难找到一枚火箭"},
-    {"ruleId": 44, "result": true, "reason": "火箭发射需消耗大量燃料"},
-    {"ruleId": 45, "result": true, "reason": "火箭大多数为一次性发射"},
-    {"ruleId": 46, "result": false, "reason": "火箭发射没有严格季节限制"},
-    {"ruleId": 47, "result": false, "reason": "多数火箭不可多次使用"},
-    {"ruleId": 48, "result": true, "reason": "火箭使用需要严格许可"},
-    {"ruleId": 49, "result": true, "reason": "世界上火箭数量较多"},
-    {"ruleId": 50, "result": false, "reason": "每个国家有许多火箭，不唯一"},
-    {"ruleId": 51, "result": true, "reason": "火箭易损坏和报废"},
-    {"ruleId": 52, "result": false, "reason": "火箭体积大，极难携带"},
-    {"ruleId": 53, "result": true, "reason": "火箭多部件需用电"},
-    {"ruleId": 54, "result": true, "reason": "火箭尺寸相对设计较固定"},
-    {"ruleId": 55, "result": false, "reason": "火箭为人造物，不存在于自然界"},
-    {"ruleId": 56, "result": false, "reason": "火箭在水中无法保持干燥"},
-    {"ruleId": 57, "result": false, "reason": "火箭通常沉入水中"},
-    {"ruleId": 58, "result": true, "reason": "火箭大量使用金属材料"},
-    {"ruleId": 59, "result": true, "reason": "火箭工作时有启动轰鸣"},
-    {"ruleId": 60, "result": false, "reason": "火箭多为金属灰等颜色，并不鲜艳"},
-    {"ruleId": 61, "result": true, "reason": "火箭体积远超人类"},
-    {"ruleId": 62, "result": false, "reason": "火箭不透明"},
-    {"ruleId": 63, "result": true, "reason": "火箭由众多组件组成"},
-    {"ruleId": 64, "result": false, "reason": "火箭整体坚硬，不柔软"},
-    {"ruleId": 65, "result": false, "reason": "火箭无法折叠或压扁"},
-    {"ruleId": 66, "result": true, "reason": "火箭在发射前维护要求严格"},
-    {"ruleId": 67, "result": true, "reason": "火箭结构存在锋利边缘"},
-    {"ruleId": 68, "result": false, "reason": "火箭不可食用"},
-    {"ruleId": 69, "result": true, "reason": "火箭发射有强烈气味如燃气等"},
-    {"ruleId": 70, "result": true, "reason": "火箭重量数吨至数百吨"},
-    {"ruleId": 71, "result": false, "reason": "火箭不可穿戴"},
-    {"ruleId": 72, "result": true, "reason": "发射时火箭产生巨大热量"},
-    {"ruleId": 73, "result": true, "reason": "火箭推进剂易燃"},
-    {"ruleId": 74, "result": false, "reason": "火箭表面一般无文字"},
-    {"ruleId": 75, "result": true, "reason": "火箭工程需组装"},
-    {"ruleId": 76, "result": false, "reason": "大型火箭材料不易被自然分解"},
-    {"ruleId": 77, "result": false, "reason": "火箭无法堆叠"},
-    {"ruleId": 78, "result": true, "reason": "火箭金属表面有光泽"},
-    {"ruleId": 79, "result": true, "reason": "火箭金属可被磁铁吸引"},
-    {"ruleId": 80, "result": true, "reason": "火箭发射可产生巨大声音"},
-    {"ruleId": 81, "result": false, "reason": "金属材料很难吸水"},
-    {"ruleId": 82, "result": false, "reason": "火箭结构坚硬难弯曲"},
-    {"ruleId": 83, "result": false, "reason": "火箭无法浮于水面"},
-    {"ruleId": 84, "result": true, "reason": "火箭随年代和任务技术变化大"},
-    {"ruleId": 85, "result": false, "reason": "火箭两侧外观通常不完全对称"},
-    {"ruleId": 86, "result": false, "reason": "损坏后的火箭大多不可修复"},
-    {"ruleId": 87, "result": true, "reason": "火箭运行需要燃料"},
-    {"ruleId": 88, "result": false, "reason": "火箭非活物"},
-    {"ruleId": 89, "result": false, "reason": "火箭一般不在水下见到"},
-    {"ruleId": 90, "result": false, "reason": "火箭主体并非塑料材质"},
-    {"ruleId": 91, "result": false, "reason": "火箭极少包含木头"},
-    {"ruleId": 92, "result": false, "reason": "火箭剧烈加热会销毁"},
-    {"ruleId": 93, "result": true, "reason": "火箭需特殊库房存储"},
-    {"ruleId": 94, "result": false, "reason": "火箭制造以工业为主"},
-    {"ruleId": 95, "result": false, "reason": "火箭难以清洁"},
-    {"ruleId": 96, "result": false, "reason": "火箭通常单独发射"},
-    {"ruleId": 97, "result": false, "reason": "火箭极大，不能用手握住"},
-    {"ruleId": 98, "result": false, "reason": "火箭多单色，不多彩"},
-    {"ruleId": 99, "result": true, "reason": "火箭整体坚硬异常"},
-    {"ruleId": 100, "result": false, "reason": "火箭通常为复合材料结构"},
-    {"ruleId": 101, "result": true, "reason": "“火箭”为两个字"},
-    {"ruleId": 102, "result": false, "reason": "不是三个字"},
-    {"ruleId": 103, "result": false, "reason": "不是四个字"},
-    {"ruleId": 104, "result": false, "reason": "非一个字"},
-    {"ruleId": 105, "result": false, "reason": "“火箭”均不含心字或偏旁"},
-    {"ruleId": 106, "result": false, "reason": "“火箭”均不含草字头部首"},
-    {"ruleId": 107, "result": false, "reason": "不含水字或偏旁"},
-    {"ruleId": 108, "result": false, "reason": "不含金字或偏旁"},
-    {"ruleId": 109, "result": false, "reason": "不含木字或偏旁"},
-    {"ruleId": 110, "result": true, "reason": "含有火字偏旁"},
-    {"ruleId": 111, "result": false, "reason": "没有土字或偏旁"},
-    {"ruleId": 112, "result": false, "reason": "没有日字或偏旁"},
-    {"ruleId": 113, "result": false, "reason": "没有走字或偏旁"},
-    {"ruleId": 114, "result": false, "reason": "没有山字或偏旁"},
-    {"ruleId": 115, "result": false, "reason": "没有川字或偏旁"},
-    {"ruleId": 116, "result": false, "reason": "没有雨字或偏旁"},
-    {"ruleId": 117, "result": false, "reason": "没有人字或偏旁"},
-    {"ruleId": 118, "result": false, "reason": "没有手字或偏旁"},
-    {"ruleId": 119, "result": false, "reason": "没有王字或偏旁"},
-    {"ruleId": 120, "result": false, "reason": "没有口字或偏旁"},
-    {"ruleId": 121, "result": false, "reason": "没有目字或偏旁"},
-    {"ruleId": 122, "result": false, "reason": "没有耳字或偏旁"},
-    {"ruleId": 123, "result": false, "reason": "没有足字或偏旁"},
-    {"ruleId": 124, "result": false, "reason": "没有言字或偏旁"},
-    {"ruleId": 125, "result": false, "reason": "没有食字或偏旁"},
-    {"ruleId": 126, "result": false, "reason": "没有衣字或偏旁"},
-    {"ruleId": 127, "result": false, "reason": "没有马字或偏旁"},
-    {"ruleId": 128, "result": false, "reason": "没有鱼字或偏旁"},
-    {"ruleId": 129, "result": false, "reason": "没有鸟字或偏旁"},
-    {"ruleId": 130, "result": false, "reason": "没有车字或偏旁"},
-    {"ruleId": 131, "result": true, "reason": "“箭”为左右结构"},
-    {"ruleId": 132, "result": false, "reason": "“火”“箭”均不是上下结构"},
-    {"ruleId": 133, "result": false, "reason": "两字偏旁不同（火&竹）"},
-    {"ruleId": 134, "result": true, "reason": "两字偏旁均不同"},
-    {"ruleId": 135, "result": true, "reason": "“火”4画，少于7画"},
-    {"ruleId": 136, "result": true, "reason": "“火”4画、“箭”15画，不全少于10，但有一字少于10画"},
-    {"ruleId": 137, "result": false, "reason": "“箭”15画等于15，不少于15"},
-    {"ruleId": 138, "result": false, "reason": "所有字笔画都有低于12画的"},
-    {"ruleId": 139, "result": true, "reason": "“火”4画，“箭”15画，递增"},
-    {"ruleId": 140, "result": false, "reason": "递减不成立"},
-    {"ruleId": 141, "result": false, "reason": "“火”(三声)、“箭”(四声)声调不同"},
-    {"ruleId": 142, "result": true, "reason": "两个字声调不同"},
-    {"ruleId": 143, "result": false, "reason": "有第三声（火）"},
-    {"ruleId": 144, "result": true, "reason": "无第二声"},
-    {"ruleId": 145, "result": false, "reason": "有第三声（火）"},
-    {"ruleId": 146, "result": false, "reason": "有第四声（箭）"},
-    {"ruleId": 147, "result": false, "reason": "无第一声"},
-    {"ruleId": 148, "result": false, "reason": "无第二声"},
-    {"ruleId": 149, "result": true, "reason": "包含第三声（火）"},
-    {"ruleId": 150, "result": true, "reason": "包含第四声（箭）"}
+    {
+      "ruleId": 1,
+      "result": false,
+      "reason": "火箭作为现代科技产物，出现不满1000年"
+    },
+    {
+      "ruleId": 2,
+      "result": true,
+      "reason": "现代火箭普遍发展与应用始于1950年后"
+    },
+    {
+      "ruleId": 3,
+      "result": false,
+      "reason": "一般家庭没有火箭"
+    },
+    {
+      "ruleId": 4,
+      "result": false,
+      "reason": "火箭是非常稀有的物品"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "火箭主要由专业人员使用"
+    },
+    {
+      "ruleId": 6,
+      "result": false,
+      "reason": "大部分人对火箭无实际兴趣或接触机会"
+    },
+    {
+      "ruleId": 7,
+      "result": false,
+      "reason": "火箭不是每个人都需要的东西"
+    },
+    {
+      "ruleId": 8,
+      "result": true,
+      "reason": "火箭对于航天等特殊工作任务有重要作用"
+    },
+    {
+      "ruleId": 9,
+      "result": true,
+      "reason": "火箭一般仅在特殊场合如发射场可见"
+    },
+    {
+      "ruleId": 10,
+      "result": false,
+      "reason": "火箭不属于日常生活可见之物"
+    },
+    {
+      "ruleId": 11,
+      "result": false,
+      "reason": "火箭归属国家或机构而非个人"
+    },
+    {
+      "ruleId": 12,
+      "result": false,
+      "reason": "火箭通常不会多人共享，指由团队操作"
+    },
+    {
+      "ruleId": 13,
+      "result": true,
+      "reason": "火箭系统内某些设备需要电力"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "火箭并非特定国家专属，许多国家有"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "不同国家均有火箭技术和实物"
+    },
+    {
+      "ruleId": 16,
+      "result": true,
+      "reason": "火箭大多为一次性使用，用后不可回收"
+    },
+    {
+      "ruleId": 17,
+      "result": false,
+      "reason": "火箭本体一般不能重复多年使用"
+    },
+    {
+      "ruleId": 18,
+      "result": false,
+      "reason": "火箭在户外甚至太空操作"
+    },
+    {
+      "ruleId": 19,
+      "result": true,
+      "reason": "火箭主要在室外发射"
+    },
+    {
+      "ruleId": 20,
+      "result": false,
+      "reason": "很少有人亲眼看到真火箭"
+    },
+    {
+      "ruleId": 21,
+      "result": false,
+      "reason": "火箭不能在普通商店购得"
+    },
+    {
+      "ruleId": 22,
+      "result": false,
+      "reason": "办公室几乎没有火箭"
+    },
+    {
+      "ruleId": 23,
+      "result": false,
+      "reason": "学校不会有火箭实物"
+    },
+    {
+      "ruleId": 24,
+      "result": false,
+      "reason": "绝大多数人不会因火箭感到快乐"
+    },
+    {
+      "ruleId": 25,
+      "result": true,
+      "reason": "火箭具有一定危险性"
+    },
+    {
+      "ruleId": 26,
+      "result": false,
+      "reason": "火箭用于科研及运载，不用于娱乐"
+    },
+    {
+      "ruleId": 27,
+      "result": true,
+      "reason": "火箭承担重要科研或军事任务"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "火箭发射无严格季节性"
+    },
+    {
+      "ruleId": 29,
+      "result": false,
+      "reason": "火箭并非全年都可持续使用"
+    },
+    {
+      "ruleId": 30,
+      "result": true,
+      "reason": "火箭操作技术门槛极高"
+    },
+    {
+      "ruleId": 31,
+      "result": false,
+      "reason": "火箭操作极高专业性，一般人不能用"
+    },
+    {
+      "ruleId": 32,
+      "result": true,
+      "reason": "火箭在正式科研/军事场合作用"
+    },
+    {
+      "ruleId": 33,
+      "result": false,
+      "reason": "火箭一般与专业/正式环境无关"
+    },
+    {
+      "ruleId": 34,
+      "result": false,
+      "reason": "很少有人收藏真火箭"
+    },
+    {
+      "ruleId": 35,
+      "result": true,
+      "reason": "家里肯定见不到火箭"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "火箭技术对人类航天史有重大意义"
+    },
+    {
+      "ruleId": 37,
+      "result": true,
+      "reason": "火箭主要为近现代产物"
+    },
+    {
+      "ruleId": 38,
+      "result": false,
+      "reason": "火箭不会作为礼物赠送"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "火箭极少被当做礼物"
+    },
+    {
+      "ruleId": 40,
+      "result": false,
+      "reason": "有钱人也难以拥有火箭"
+    },
+    {
+      "ruleId": 41,
+      "result": false,
+      "reason": "并非所有人都有机会使用火箭"
+    },
+    {
+      "ruleId": 42,
+      "result": false,
+      "reason": "火箭绝不可带上民航飞机"
+    },
+    {
+      "ruleId": 43,
+      "result": false,
+      "reason": "一小时内很难找到一枚火箭"
+    },
+    {
+      "ruleId": 44,
+      "result": true,
+      "reason": "火箭发射需消耗大量燃料"
+    },
+    {
+      "ruleId": 45,
+      "result": true,
+      "reason": "火箭大多数为一次性发射"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "火箭发射没有严格季节限制"
+    },
+    {
+      "ruleId": 47,
+      "result": false,
+      "reason": "多数火箭不可多次使用"
+    },
+    {
+      "ruleId": 48,
+      "result": true,
+      "reason": "火箭使用需要严格许可"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "世界上火箭数量较多"
+    },
+    {
+      "ruleId": 50,
+      "result": false,
+      "reason": "每个国家有许多火箭，不唯一"
+    },
+    {
+      "ruleId": 51,
+      "result": true,
+      "reason": "火箭易损坏和报废"
+    },
+    {
+      "ruleId": 52,
+      "result": false,
+      "reason": "火箭体积大，极难携带"
+    },
+    {
+      "ruleId": 53,
+      "result": true,
+      "reason": "火箭多部件需用电"
+    },
+    {
+      "ruleId": 54,
+      "result": true,
+      "reason": "火箭尺寸相对设计较固定"
+    },
+    {
+      "ruleId": 55,
+      "result": false,
+      "reason": "火箭为人造物，不存在于自然界"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "火箭在水中无法保持干燥"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "火箭通常沉入水中"
+    },
+    {
+      "ruleId": 58,
+      "result": true,
+      "reason": "火箭大量使用金属材料"
+    },
+    {
+      "ruleId": 59,
+      "result": true,
+      "reason": "火箭工作时有启动轰鸣"
+    },
+    {
+      "ruleId": 60,
+      "result": false,
+      "reason": "火箭多为金属灰等颜色，并不鲜艳"
+    },
+    {
+      "ruleId": 61,
+      "result": true,
+      "reason": "火箭体积远超人类"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "火箭不透明"
+    },
+    {
+      "ruleId": 63,
+      "result": true,
+      "reason": "火箭由众多组件组成"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "火箭整体坚硬，不柔软"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "火箭无法折叠或压扁"
+    },
+    {
+      "ruleId": 66,
+      "result": true,
+      "reason": "火箭在发射前维护要求严格"
+    },
+    {
+      "ruleId": 67,
+      "result": true,
+      "reason": "火箭结构存在锋利边缘"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "火箭不可食用"
+    },
+    {
+      "ruleId": 69,
+      "result": true,
+      "reason": "火箭发射有强烈气味如燃气等"
+    },
+    {
+      "ruleId": 70,
+      "result": true,
+      "reason": "火箭重量数吨至数百吨"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "火箭不可穿戴"
+    },
+    {
+      "ruleId": 72,
+      "result": true,
+      "reason": "发射时火箭产生巨大热量"
+    },
+    {
+      "ruleId": 73,
+      "result": true,
+      "reason": "火箭推进剂易燃"
+    },
+    {
+      "ruleId": 74,
+      "result": false,
+      "reason": "火箭表面一般无文字"
+    },
+    {
+      "ruleId": 75,
+      "result": true,
+      "reason": "火箭工程需组装"
+    },
+    {
+      "ruleId": 76,
+      "result": false,
+      "reason": "大型火箭材料不易被自然分解"
+    },
+    {
+      "ruleId": 77,
+      "result": false,
+      "reason": "火箭无法堆叠"
+    },
+    {
+      "ruleId": 78,
+      "result": true,
+      "reason": "火箭金属表面有光泽"
+    },
+    {
+      "ruleId": 79,
+      "result": true,
+      "reason": "火箭金属可被磁铁吸引"
+    },
+    {
+      "ruleId": 80,
+      "result": true,
+      "reason": "火箭发射可产生巨大声音"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "金属材料很难吸水"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "火箭结构坚硬难弯曲"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "火箭无法浮于水面"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "火箭随年代和任务技术变化大"
+    },
+    {
+      "ruleId": 85,
+      "result": false,
+      "reason": "火箭两侧外观通常不完全对称"
+    },
+    {
+      "ruleId": 86,
+      "result": false,
+      "reason": "损坏后的火箭大多不可修复"
+    },
+    {
+      "ruleId": 87,
+      "result": true,
+      "reason": "火箭运行需要燃料"
+    },
+    {
+      "ruleId": 88,
+      "result": false,
+      "reason": "火箭非活物"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "火箭一般不在水下见到"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "火箭主体并非塑料材质"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "火箭极少包含木头"
+    },
+    {
+      "ruleId": 92,
+      "result": false,
+      "reason": "火箭剧烈加热会销毁"
+    },
+    {
+      "ruleId": 93,
+      "result": true,
+      "reason": "火箭需特殊库房存储"
+    },
+    {
+      "ruleId": 94,
+      "result": false,
+      "reason": "火箭制造以工业为主"
+    },
+    {
+      "ruleId": 95,
+      "result": false,
+      "reason": "火箭难以清洁"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "火箭通常单独发射"
+    },
+    {
+      "ruleId": 97,
+      "result": false,
+      "reason": "火箭极大，不能用手握住"
+    },
+    {
+      "ruleId": 98,
+      "result": false,
+      "reason": "火箭多单色，不多彩"
+    },
+    {
+      "ruleId": 99,
+      "result": true,
+      "reason": "火箭整体坚硬异常"
+    },
+    {
+      "ruleId": 100,
+      "result": false,
+      "reason": "火箭通常为复合材料结构"
+    },
+    {
+      "ruleId": 101,
+      "result": true,
+      "reason": "“火箭”为两个字"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "不是三个字"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "不是四个字"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "非一个字"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "“火箭”均不含心字或偏旁"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "“火箭”均不含草字头部首"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "不含水字或偏旁"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "不含金字或偏旁"
+    },
+    {
+      "ruleId": 109,
+      "result": false,
+      "reason": "不含木字或偏旁"
+    },
+    {
+      "ruleId": 110,
+      "result": true,
+      "reason": "含有火字偏旁"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "没有土字或偏旁"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "没有日字或偏旁"
+    },
+    {
+      "ruleId": 113,
+      "result": false,
+      "reason": "没有走字或偏旁"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "没有山字或偏旁"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "没有川字或偏旁"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "没有雨字或偏旁"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "没有人字或偏旁"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "没有手字或偏旁"
+    },
+    {
+      "ruleId": 119,
+      "result": false,
+      "reason": "没有王字或偏旁"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "没有口字或偏旁"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "没有目字或偏旁"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "没有耳字或偏旁"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "没有足字或偏旁"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "没有言字或偏旁"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "没有食字或偏旁"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "没有衣字或偏旁"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "没有马字或偏旁"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "没有鱼字或偏旁"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "没有鸟字或偏旁"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "没有车字或偏旁"
+    },
+    {
+      "ruleId": 131,
+      "result": true,
+      "reason": "“箭”为左右结构"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "“火”“箭”均不是上下结构"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "两字偏旁不同（火&竹）"
+    },
+    {
+      "ruleId": 134,
+      "result": true,
+      "reason": "两字偏旁均不同"
+    },
+    {
+      "ruleId": 135,
+      "result": true,
+      "reason": "“火”4画，少于7画"
+    },
+    {
+      "ruleId": 136,
+      "result": true,
+      "reason": "“火”4画、“箭”15画，不全少于10，但有一字少于10画"
+    },
+    {
+      "ruleId": 137,
+      "result": false,
+      "reason": "“箭”15画等于15，不少于15"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "所有字笔画都有低于12画的"
+    },
+    {
+      "ruleId": 139,
+      "result": true,
+      "reason": "“火”4画，“箭”15画，递增"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "递减不成立"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "“火”(三声)、“箭”(四声)声调不同"
+    },
+    {
+      "ruleId": 142,
+      "result": true,
+      "reason": "两个字声调不同"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "有第三声（火）"
+    },
+    {
+      "ruleId": 144,
+      "result": true,
+      "reason": "无第二声"
+    },
+    {
+      "ruleId": 145,
+      "result": false,
+      "reason": "有第三声（火）"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "有第四声（箭）"
+    },
+    {
+      "ruleId": 147,
+      "result": false,
+      "reason": "无第一声"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "无第二声"
+    },
+    {
+      "ruleId": 149,
+      "result": true,
+      "reason": "包含第三声（火）"
+    },
+    {
+      "ruleId": 150,
+      "result": true,
+      "reason": "包含第四声（箭）"
+    }
   ]
 }

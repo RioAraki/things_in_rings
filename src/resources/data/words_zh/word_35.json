@@ -3,155 +3,755 @@
   "word": "避孕套",
   "word_en": "Condom",
   "questions": [
-    {"ruleId": 1, "result": false, "reason": "避孕套仅在近百年普及，不超过1000年"},
-    {"ruleId": 2, "result": true, "reason": "1950年后避孕套成为常见消费品"},
-    {"ruleId": 3, "result": true, "reason": "多数家庭都可购买并拥有避孕套"},
-    {"ruleId": 4, "result": false, "reason": "并非稀有物品，易获得"},
-    {"ruleId": 5, "result": false, "reason": "成人比儿童使用更多"},
-    {"ruleId": 6, "result": false, "reason": "很多人对此有需求或关注"},
-    {"ruleId": 7, "result": false, "reason": "并非每个人都需要"},
-    {"ruleId": 8, "result": true, "reason": "有助于防止怀孕和疾病，有实际用途"},
-    {"ruleId": 9, "result": false, "reason": "日常生活也会用，不限特殊场合"},
-    {"ruleId": 10, "result": true, "reason": "属于常见日用品"},
-    {"ruleId": 11, "result": true, "reason": "通常属于个人物品"},
-    {"ruleId": 12, "result": true, "reason": "情况下可与伴侣共享使用"},
-    {"ruleId": 13, "result": false, "reason": "不用电力即可使用"},
-    {"ruleId": 14, "result": false, "reason": "全球多地均有，不限特定文化"},
-    {"ruleId": 15, "result": true, "reason": "许多国家都有售"},
-    {"ruleId": 16, "result": true, "reason": "用后即弃"},
-    {"ruleId": 17, "result": false, "reason": "单次使用无法多年反复使用"},
-    {"ruleId": 18, "result": true, "reason": "主要在室内(如卧室)使用"},
-    {"ruleId": 19, "result": false, "reason": "很少在室外使用"},
-    {"ruleId": 20, "result": true, "reason": "大部分人都见过"},
-    {"ruleId": 21, "result": true, "reason": "商店常见商品"},
-    {"ruleId": 22, "result": false, "reason": "办公室通常不会有避孕套"},
-    {"ruleId": 23, "result": false, "reason": "学校基本不见此物（除医学相关）"},
-    {"ruleId": 24, "result": true, "reason": "有助于性健康，有时带来快乐"},
-    {"ruleId": 25, "result": false, "reason": "正确使用不会让人感到危险"},
-    {"ruleId": 26, "result": true, "reason": "有时用于情趣娱乐"},
-    {"ruleId": 27, "result": false, "reason": "并非工作或重要任务的工具"},
-    {"ruleId": 28, "result": false, "reason": "无特定时间限制"},
-    {"ruleId": 29, "result": true, "reason": "全年均可用"},
-    {"ruleId": 30, "result": false, "reason": "使用非常简单，无学习门槛"},
-    {"ruleId": 31, "result": true, "reason": "说明简单，人人都能操作"},
-    {"ruleId": 32, "result": false, "reason": "用于私人场合，很少正式场合"},
-    {"ruleId": 33, "result": true, "reason": "多为轻松、私密环境使用"},
-    {"ruleId": 34, "result": false, "reason": "很少有人收藏避孕套"},
-    {"ruleId": 35, "result": false, "reason": "家中常有存储"},
-    {"ruleId": 36, "result": true, "reason": "性文化、避孕技术发展史重要"},
-    {"ruleId": 37, "result": true, "reason": "现代社会应用显著增加"},
-    {"ruleId": 38, "result": false, "reason": "很少作为礼物送"},
-    {"ruleId": 39, "result": true, "reason": "很少当作礼物"},
-    {"ruleId": 40, "result": false, "reason": "人人可有，无贫富门槛"},
-    {"ruleId": 41, "result": true, "reason": "各收入层均可购买使用"},
-    {"ruleId": 42, "result": true, "reason": "可带上飞机"},
-    {"ruleId": 43, "result": true, "reason": "一小时内可轻松买到"},
-    {"ruleId": 44, "result": false, "reason": "使用不需燃料"},
-    {"ruleId": 45, "result": true, "reason": "设计为一次性消费品"},
-    {"ruleId": 46, "result": false, "reason": "非季节性商品"},
-    {"ruleId": 47, "result": false, "reason": "属于一次性用品"},
-    {"ruleId": 48, "result": false, "reason": "不需许可即可购买使用"},
-    {"ruleId": 49, "result": true, "reason": "全球产量和存量巨大"},
-    {"ruleId": 50, "result": false, "reason": "种类繁多，非唯一"},
-    {"ruleId": 51, "result": false, "reason": "通常不易损坏，有弹性"},
-    {"ruleId": 52, "result": true, "reason": "小巧便携，易带"},
-    {"ruleId": 53, "result": false, "reason": "无需电力"},
-    {"ruleId": 54, "result": false, "reason": "尺寸存在不同型号，不固定"},
-    {"ruleId": 55, "result": false, "reason": "不在自然界存在"},
-    {"ruleId": 56, "result": true, "reason": "防水材料可保持干燥"},
-    {"ruleId": 57, "result": false, "reason": "不能漂浮，沉水"},
-    {"ruleId": 58, "result": false, "reason": "塑料、橡胶材质，无金属"},
-    {"ruleId": 59, "result": false, "reason": "一般不发声"},
-    {"ruleId": 60, "result": false, "reason": "多为低调色，非鲜艳"},
-    {"ruleId": 61, "result": false, "reason": "很小，不会比人类大"},
-    {"ruleId": 62, "result": true, "reason": "有透明款式"},
-    {"ruleId": 63, "result": false, "reason": "一体成型不可拆分"},
-    {"ruleId": 64, "result": true, "reason": "橡胶材质柔软"},
-    {"ruleId": 65, "result": true, "reason": "可折叠压扁至小体积"},
-    {"ruleId": 66, "result": false, "reason": "一次性用品无需保养"},
-    {"ruleId": 67, "result": false, "reason": "不含锋利边缘"},
-    {"ruleId": 68, "result": false, "reason": "非食用品"},
-    {"ruleId": 69, "result": false, "reason": "通常无强烈气味"},
-    {"ruleId": 70, "result": false, "reason": "极轻，仅数克"},
-    {"ruleId": 71, "result": true, "reason": "需穿戴在生殖器官上使用"},
-    {"ruleId": 72, "result": false, "reason": "使用中不产生热量"},
-    {"ruleId": 73, "result": false, "reason": "不易着火"},
-    {"ruleId": 74, "result": false, "reason": "印有文字较少"},
-    {"ruleId": 75, "result": false, "reason": "无需组装"},
-    {"ruleId": 76, "result": false, "reason": "橡胶材料不易分解"},
-    {"ruleId": 77, "result": false, "reason": "不适合堆叠"},
-    {"ruleId": 78, "result": true, "reason": "材质常有光泽感"},
-    {"ruleId": 79, "result": false, "reason": "橡胶/塑料不被磁铁吸引"},
-    {"ruleId": 80, "result": false, "reason": "本身不发出声音"},
-    {"ruleId": 81, "result": false, "reason": "橡胶表面不吸收水分"},
-    {"ruleId": 82, "result": true, "reason": "有弹性易弯曲"},
-    {"ruleId": 83, "result": false, "reason": "通常不能浮在水面上"},
-    {"ruleId": 84, "result": false, "reason": "一次性用品时间影响小"},
-    {"ruleId": 85, "result": false, "reason": "并非对称设计"},
-    {"ruleId": 86, "result": false, "reason": "一次性损坏无法修复"},
-    {"ruleId": 87, "result": false, "reason": "不需燃料"},
-    {"ruleId": 88, "result": false, "reason": "不是活物"},
-    {"ruleId": 89, "result": true, "reason": "可在水下使用及见到"},
-    {"ruleId": 90, "result": true, "reason": "多为橡胶/塑料制品"},
-    {"ruleId": 91, "result": false, "reason": "无木头成分"},
-    {"ruleId": 92, "result": true, "reason": "可安全加热无毒"},
-    {"ruleId": 93, "result": false, "reason": "不需特殊储存，避光即可"},
-    {"ruleId": 94, "result": false, "reason": "工业生产，并非手工制作"},
-    {"ruleId": 95, "result": true, "reason": "一次性用品无需清洁"},
-    {"ruleId": 96, "result": true, "reason": "通常成对使用（男女）"},
-    {"ruleId": 97, "result": true, "reason": "可用手握住"},
-    {"ruleId": 98, "result": true, "reason": "市面上有多种颜色"},
-    {"ruleId": 99, "result": false, "reason": "材质柔软，不坚硬"},
-    {"ruleId": 100, "result": true, "reason": "通常为单一材质"},
-    {"ruleId": 101, "result": false, "reason": "词为三字"},
-    {"ruleId": 102, "result": true, "reason": "是三个字"},
-    {"ruleId": 103, "result": false, "reason": "非四字词语"},
-    {"ruleId": 104, "result": false, "reason": "非五字"},
-    {"ruleId": 105, "result": false, "reason": "无心字或偏旁"},
-    {"ruleId": 106, "result": false, "reason": "无草字或草字头"},
-    {"ruleId": 107, "result": false, "reason": "无水字或偏旁"},
-    {"ruleId": 108, "result": false, "reason": "无金字或偏旁"},
-    {"ruleId": 109, "result": false, "reason": "无木字或偏旁"},
-    {"ruleId": 110, "result": false, "reason": "无火字或偏旁"},
-    {"ruleId": 111, "result": false, "reason": "无土字或偏旁"},
-    {"ruleId": 112, "result": false, "reason": "无日字或偏旁"},
-    {"ruleId": 113, "result": true, "reason": "“避”含走之底"},
-    {"ruleId": 114, "result": false, "reason": "无山字或偏旁"},
-    {"ruleId": 115, "result": false, "reason": "无川字或偏旁"},
-    {"ruleId": 116, "result": false, "reason": "无雨字或偏旁"},
-    {"ruleId": 117, "result": false, "reason": "无人字或偏旁"},
-    {"ruleId": 118, "result": false, "reason": "无手字或偏旁"},
-    {"ruleId": 119, "result": false, "reason": "无王字或偏旁"},
-    {"ruleId": 120, "result": false, "reason": "无口字或偏旁"},
-    {"ruleId": 121, "result": false, "reason": "无目字或偏旁"},
-    {"ruleId": 122, "result": false, "reason": "无耳字或偏旁"},
-    {"ruleId": 123, "result": false, "reason": "无足字或偏旁"},
-    {"ruleId": 124, "result": false, "reason": "无言字或偏旁"},
-    {"ruleId": 125, "result": false, "reason": "无食字或偏旁"},
-    {"ruleId": 126, "result": false, "reason": "无衣字或偏旁"},
-    {"ruleId": 127, "result": false, "reason": "无马字或偏旁"},
-    {"ruleId": 128, "result": false, "reason": "无鱼字或偏旁"},
-    {"ruleId": 129, "result": false, "reason": "无鸟字或偏旁"},
-    {"ruleId": 130, "result": false, "reason": "无车字或偏旁"},
-    {"ruleId": 131, "result": true, "reason": "“避”“孕”“套”均为左右结构"},
-    {"ruleId": 132, "result": false, "reason": "无上下结构"},
-    {"ruleId": 133, "result": false, "reason": "部首不同"},
-    {"ruleId": 134, "result": true, "reason": "三字部首不同"},
-    {"ruleId": 135, "result": false, "reason": "最少笔画为9画（孕）"},
-    {"ruleId": 136, "result": false, "reason": "“避”超10画（15画）"},
-    {"ruleId": 137, "result": true, "reason": "笔画最多为15画，少于15"},
-    {"ruleId": 138, "result": false, "reason": "“孕”只有9画不满足12画以上"},
-    {"ruleId": 139, "result": false, "reason": "15（避）—9（孕）—10（套），非递增递减"},
-    {"ruleId": 140, "result": false, "reason": "15-9-10，既不全递增也不全递减"},
-    {"ruleId": 141, "result": true, "reason": "全部为第四声"},
-    {"ruleId": 142, "result": false, "reason": "都为第四声，未包含不同声调"},
-    {"ruleId": 143, "result": true, "reason": "未包含第一声"},
-    {"ruleId": 144, "result": true, "reason": "未包含第二声"},
-    {"ruleId": 145, "result": true, "reason": "未包含第三声"},
-    {"ruleId": 146, "result": false, "reason": "全为第四声，包含第四声"},
-    {"ruleId": 147, "result": false, "reason": "无第一声"},
-    {"ruleId": 148, "result": false, "reason": "无第二声"},
-    {"ruleId": 149, "result": false, "reason": "无第三声"},
-    {"ruleId": 150, "result": true, "reason": "三字都为第四声"}
+    {
+      "ruleId": 1,
+      "result": false,
+      "reason": "避孕套仅在近百年普及，不超过1000年"
+    },
+    {
+      "ruleId": 2,
+      "result": true,
+      "reason": "1950年后避孕套成为常见消费品"
+    },
+    {
+      "ruleId": 3,
+      "result": true,
+      "reason": "多数家庭都可购买并拥有避孕套"
+    },
+    {
+      "ruleId": 4,
+      "result": false,
+      "reason": "并非稀有物品，易获得"
+    },
+    {
+      "ruleId": 5,
+      "result": true,
+      "reason": "成人比儿童使用更多"
+    },
+    {
+      "ruleId": 6,
+      "result": false,
+      "reason": "很多人对此有需求或关注"
+    },
+    {
+      "ruleId": 7,
+      "result": false,
+      "reason": "并非每个人都需要"
+    },
+    {
+      "ruleId": 8,
+      "result": false,
+      "reason": "有助于防止怀孕和疾病，有实际用途"
+    },
+    {
+      "ruleId": 9,
+      "result": false,
+      "reason": "日常生活也会用，不限特殊场合"
+    },
+    {
+      "ruleId": 10,
+      "result": true,
+      "reason": "属于常见日用品"
+    },
+    {
+      "ruleId": 11,
+      "result": true,
+      "reason": "通常属于个人物品"
+    },
+    {
+      "ruleId": 12,
+      "result": true,
+      "reason": "情况下可与伴侣共享使用"
+    },
+    {
+      "ruleId": 13,
+      "result": false,
+      "reason": "不用电力即可使用"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "全球多地均有，不限特定文化"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "许多国家都有售"
+    },
+    {
+      "ruleId": 16,
+      "result": true,
+      "reason": "用后即弃"
+    },
+    {
+      "ruleId": 17,
+      "result": false,
+      "reason": "单次使用无法多年反复使用"
+    },
+    {
+      "ruleId": 18,
+      "result": true,
+      "reason": "主要在室内(如卧室)使用"
+    },
+    {
+      "ruleId": 19,
+      "result": false,
+      "reason": "很少在室外使用"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "大部分人都见过"
+    },
+    {
+      "ruleId": 21,
+      "result": true,
+      "reason": "商店常见商品"
+    },
+    {
+      "ruleId": 22,
+      "result": false,
+      "reason": "办公室通常不会有避孕套"
+    },
+    {
+      "ruleId": 23,
+      "result": false,
+      "reason": "学校基本不见此物（除医学相关）"
+    },
+    {
+      "ruleId": 24,
+      "result": true,
+      "reason": "有助于性健康，有时带来快乐"
+    },
+    {
+      "ruleId": 25,
+      "result": false,
+      "reason": "正确使用不会让人感到危险"
+    },
+    {
+      "ruleId": 26,
+      "result": true,
+      "reason": "有时用于情趣娱乐"
+    },
+    {
+      "ruleId": 27,
+      "result": false,
+      "reason": "并非工作或重要任务的工具"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "无特定时间限制"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "全年均可用"
+    },
+    {
+      "ruleId": 30,
+      "result": false,
+      "reason": "使用非常简单，无学习门槛"
+    },
+    {
+      "ruleId": 31,
+      "result": true,
+      "reason": "说明简单，人人都能操作"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "用于私人场合，很少正式场合"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "多为轻松、私密环境使用"
+    },
+    {
+      "ruleId": 34,
+      "result": false,
+      "reason": "很少有人收藏避孕套"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "家中常有存储"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "性文化、避孕技术发展史重要"
+    },
+    {
+      "ruleId": 37,
+      "result": true,
+      "reason": "现代社会应用显著增加"
+    },
+    {
+      "ruleId": 38,
+      "result": false,
+      "reason": "很少作为礼物送"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "很少当作礼物"
+    },
+    {
+      "ruleId": 40,
+      "result": false,
+      "reason": "人人可有，无贫富门槛"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "各收入层均可购买使用"
+    },
+    {
+      "ruleId": 42,
+      "result": true,
+      "reason": "可带上飞机"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "一小时内可轻松买到"
+    },
+    {
+      "ruleId": 44,
+      "result": false,
+      "reason": "使用不需燃料"
+    },
+    {
+      "ruleId": 45,
+      "result": true,
+      "reason": "设计为一次性消费品"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "非季节性商品"
+    },
+    {
+      "ruleId": 47,
+      "result": false,
+      "reason": "属于一次性用品"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "不需许可即可购买使用"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "全球产量和存量巨大"
+    },
+    {
+      "ruleId": 50,
+      "result": false,
+      "reason": "种类繁多，非唯一"
+    },
+    {
+      "ruleId": 51,
+      "result": false,
+      "reason": "通常不易损坏，有弹性"
+    },
+    {
+      "ruleId": 52,
+      "result": true,
+      "reason": "小巧便携，易带"
+    },
+    {
+      "ruleId": 53,
+      "result": false,
+      "reason": "无需电力"
+    },
+    {
+      "ruleId": 54,
+      "result": false,
+      "reason": "尺寸存在不同型号，不固定"
+    },
+    {
+      "ruleId": 55,
+      "result": false,
+      "reason": "不在自然界存在"
+    },
+    {
+      "ruleId": 56,
+      "result": true,
+      "reason": "防水材料可保持干燥"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "不能漂浮，沉水"
+    },
+    {
+      "ruleId": 58,
+      "result": false,
+      "reason": "塑料、橡胶材质，无金属"
+    },
+    {
+      "ruleId": 59,
+      "result": false,
+      "reason": "一般不发声"
+    },
+    {
+      "ruleId": 60,
+      "result": false,
+      "reason": "多为低调色，非鲜艳"
+    },
+    {
+      "ruleId": 61,
+      "result": false,
+      "reason": "很小，不会比人类大"
+    },
+    {
+      "ruleId": 62,
+      "result": true,
+      "reason": "有透明款式"
+    },
+    {
+      "ruleId": 63,
+      "result": false,
+      "reason": "一体成型不可拆分"
+    },
+    {
+      "ruleId": 64,
+      "result": true,
+      "reason": "橡胶材质柔软"
+    },
+    {
+      "ruleId": 65,
+      "result": true,
+      "reason": "可折叠压扁至小体积"
+    },
+    {
+      "ruleId": 66,
+      "result": false,
+      "reason": "一次性用品无需保养"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "不含锋利边缘"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "非食用品"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "通常无强烈气味"
+    },
+    {
+      "ruleId": 70,
+      "result": false,
+      "reason": "极轻，仅数克"
+    },
+    {
+      "ruleId": 71,
+      "result": true,
+      "reason": "需穿戴在生殖器官上使用"
+    },
+    {
+      "ruleId": 72,
+      "result": false,
+      "reason": "使用中不产生热量"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "不易着火"
+    },
+    {
+      "ruleId": 74,
+      "result": false,
+      "reason": "印有文字较少"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "无需组装"
+    },
+    {
+      "ruleId": 76,
+      "result": false,
+      "reason": "橡胶材料不易分解"
+    },
+    {
+      "ruleId": 77,
+      "result": false,
+      "reason": "不适合堆叠"
+    },
+    {
+      "ruleId": 78,
+      "result": true,
+      "reason": "材质常有光泽感"
+    },
+    {
+      "ruleId": 79,
+      "result": false,
+      "reason": "橡胶/塑料不被磁铁吸引"
+    },
+    {
+      "ruleId": 80,
+      "result": false,
+      "reason": "本身不发出声音"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "橡胶表面不吸收水分"
+    },
+    {
+      "ruleId": 82,
+      "result": true,
+      "reason": "有弹性易弯曲"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "通常不能浮在水面上"
+    },
+    {
+      "ruleId": 84,
+      "result": false,
+      "reason": "一次性用品时间影响小"
+    },
+    {
+      "ruleId": 85,
+      "result": false,
+      "reason": "并非对称设计"
+    },
+    {
+      "ruleId": 86,
+      "result": false,
+      "reason": "一次性损坏无法修复"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "不需燃料"
+    },
+    {
+      "ruleId": 88,
+      "result": false,
+      "reason": "不是活物"
+    },
+    {
+      "ruleId": 89,
+      "result": true,
+      "reason": "可在水下使用及见到"
+    },
+    {
+      "ruleId": 90,
+      "result": true,
+      "reason": "多为橡胶/塑料制品"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "无木头成分"
+    },
+    {
+      "ruleId": 92,
+      "result": true,
+      "reason": "可安全加热无毒"
+    },
+    {
+      "ruleId": 93,
+      "result": false,
+      "reason": "不需特殊储存，避光即可"
+    },
+    {
+      "ruleId": 94,
+      "result": false,
+      "reason": "工业生产，并非手工制作"
+    },
+    {
+      "ruleId": 95,
+      "result": true,
+      "reason": "一次性用品无需清洁"
+    },
+    {
+      "ruleId": 96,
+      "result": true,
+      "reason": "通常成对使用（男女）"
+    },
+    {
+      "ruleId": 97,
+      "result": true,
+      "reason": "可用手握住"
+    },
+    {
+      "ruleId": 98,
+      "result": true,
+      "reason": "市面上有多种颜色"
+    },
+    {
+      "ruleId": 99,
+      "result": false,
+      "reason": "材质柔软，不坚硬"
+    },
+    {
+      "ruleId": 100,
+      "result": true,
+      "reason": "通常为单一材质"
+    },
+    {
+      "ruleId": 101,
+      "result": false,
+      "reason": "词为三字"
+    },
+    {
+      "ruleId": 102,
+      "result": true,
+      "reason": "是三个字"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "非四字词语"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "非五字"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "无心字或偏旁"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "无草字或草字头"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "无水字或偏旁"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "无金字或偏旁"
+    },
+    {
+      "ruleId": 109,
+      "result": false,
+      "reason": "无木字或偏旁"
+    },
+    {
+      "ruleId": 110,
+      "result": false,
+      "reason": "无火字或偏旁"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "无土字或偏旁"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "无日字或偏旁"
+    },
+    {
+      "ruleId": 113,
+      "result": true,
+      "reason": "“避”含走之底"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "无山字或偏旁"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "无川字或偏旁"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "无雨字或偏旁"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "无人字或偏旁"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "无手字或偏旁"
+    },
+    {
+      "ruleId": 119,
+      "result": false,
+      "reason": "无王字或偏旁"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "无口字或偏旁"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "无目字或偏旁"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "无耳字或偏旁"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "无足字或偏旁"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "无言字或偏旁"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "无食字或偏旁"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "无衣字或偏旁"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "无马字或偏旁"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "无鱼字或偏旁"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "无鸟字或偏旁"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "无车字或偏旁"
+    },
+    {
+      "ruleId": 131,
+      "result": true,
+      "reason": "“避”“孕”“套”均为左右结构"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "无上下结构"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "部首不同"
+    },
+    {
+      "ruleId": 134,
+      "result": true,
+      "reason": "三字部首不同"
+    },
+    {
+      "ruleId": 135,
+      "result": false,
+      "reason": "最少笔画为9画（孕）"
+    },
+    {
+      "ruleId": 136,
+      "result": false,
+      "reason": "“避”超10画（15画）"
+    },
+    {
+      "ruleId": 137,
+      "result": true,
+      "reason": "笔画最多为15画，少于15"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "“孕”只有9画不满足12画以上"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "15（避）—9（孕）—10（套），非递增递减"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "15-9-10，既不全递增也不全递减"
+    },
+    {
+      "ruleId": 141,
+      "result": true,
+      "reason": "全部为第四声"
+    },
+    {
+      "ruleId": 142,
+      "result": false,
+      "reason": "都为第四声，未包含不同声调"
+    },
+    {
+      "ruleId": 143,
+      "result": true,
+      "reason": "未包含第一声"
+    },
+    {
+      "ruleId": 144,
+      "result": true,
+      "reason": "未包含第二声"
+    },
+    {
+      "ruleId": 145,
+      "result": true,
+      "reason": "未包含第三声"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "全为第四声，包含第四声"
+    },
+    {
+      "ruleId": 147,
+      "result": false,
+      "reason": "无第一声"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "无第二声"
+    },
+    {
+      "ruleId": 149,
+      "result": false,
+      "reason": "无第三声"
+    },
+    {
+      "ruleId": 150,
+      "result": true,
+      "reason": "三字都为第四声"
+    }
   ]
 }

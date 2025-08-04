@@ -3,155 +3,755 @@
   "word": "长颈鹿",
   "word_en": "Giraffe",
   "questions": [
-    {"ruleId": 1, "result": true, "reason": "长颈鹿作为动物存在超过一千年"},
-    {"ruleId": 2, "result": false, "reason": "并非1950年后新出现的动物"},
-    {"ruleId": 3, "result": false, "reason": "大多数家庭没有长颈鹿"},
-    {"ruleId": 4, "result": true, "reason": "大多数人都没有长颈鹿，它是稀有物种"},
-    {"ruleId": 5, "result": false, "reason": "儿童和成人都不常用长颈鹿"},
-    {"ruleId": 6, "result": false, "reason": "很多人对长颈鹿感兴趣"},
-    {"ruleId": 7, "result": false, "reason": "并不是每个人都需要长颈鹿"},
-    {"ruleId": 8, "result": false, "reason": "通常无法用于完成工作"},
-    {"ruleId": 9, "result": true, "reason": "只能在动物园等特殊场合见到"},
-    {"ruleId": 10, "result": false, "reason": "日常生活中见不到"},
-    {"ruleId": 11, "result": false, "reason": "不属于个人"},
-    {"ruleId": 12, "result": false, "reason": "并不是多人共享财物"},
-    {"ruleId": 13, "result": false, "reason": "不需要电力"},
-    {"ruleId": 14, "result": false, "reason": "并非只来自特定国家或文化"},
-    {"ruleId": 15, "result": true, "reason": "许多国家动物园等都有"},
-    {"ruleId": 16, "result": false, "reason": "不是用后即丢弃"},
-    {"ruleId": 17, "result": false, "reason": "并非供人类多年使用物品"},
-    {"ruleId": 18, "result": false, "reason": "不在室内使用"},
-    {"ruleId": 19, "result": true, "reason": "多在室外活动"},
-    {"ruleId": 20, "result": false, "reason": "很多人都没亲眼见过实体长颈鹿"},
-    {"ruleId": 21, "result": false, "reason": "商店买不到真的长颈鹿"},
-    {"ruleId": 22, "result": false, "reason": "办公室见不到"},
-    {"ruleId": 23, "result": false, "reason": "学校见不到活体长颈鹿"},
-    {"ruleId": 24, "result": true, "reason": "看见长颈鹿会让人感到快乐"},
-    {"ruleId": 25, "result": false, "reason": "一般不会让人感到危险"},
-    {"ruleId": 26, "result": false, "reason": "并不用作娱乐道具或游戏"},
-    {"ruleId": 27, "result": false, "reason": "不用于工作或重要任务"},
-    {"ruleId": 28, "result": false, "reason": "并非特定时间才出现"},
-    {"ruleId": 29, "result": true, "reason": "全年都存在或可见"},
-    {"ruleId": 30, "result": false, "reason": "不涉及学习门槛问题"},
-    {"ruleId": 31, "result": false, "reason": "不能使用长颈鹿"},
-    {"ruleId": 32, "result": false, "reason": "不适合在正式场合使用"},
-    {"ruleId": 33, "result": true, "reason": "动物园等休闲环境常见"},
-    {"ruleId": 34, "result": false, "reason": "长颈鹿不是收藏品"},
-    {"ruleId": 35, "result": true, "reason": "家里见不到长颈鹿"},
-    {"ruleId": 36, "result": false, "reason": "动物本身非历史事件主体"},
-    {"ruleId": 37, "result": false, "reason": "古今均有存在"},
-    {"ruleId": 38, "result": false, "reason": "不送活体长颈鹿做礼物"},
-    {"ruleId": 39, "result": true, "reason": "极少作为礼物"},
-    {"ruleId": 40, "result": false, "reason": "一般人都无长颈鹿"},
-    {"ruleId": 41, "result": false, "reason": "各收入阶层都不拥有"},
-    {"ruleId": 42, "result": false, "reason": "不能带上飞机"},
-    {"ruleId": 43, "result": false, "reason": "一小时内不好找到实体长颈鹿"},
-    {"ruleId": 44, "result": false, "reason": "不需燃料"},
-    {"ruleId": 45, "result": false, "reason": "非一次性"},
-    {"ruleId": 46, "result": false, "reason": "并非特定季节才能看见"},
-    {"ruleId": 47, "result": false, "reason": "不是可反复使用的对象"},
-    {"ruleId": 48, "result": false, "reason": "不涉及使用许可问题"},
-    {"ruleId": 49, "result": true, "reason": "世界各地有很多长颈鹿"},
-    {"ruleId": 50, "result": false, "reason": "世界不只有一只"},
-    {"ruleId": 51, "result": false, "reason": "长颈鹿不容易损坏"},
-    {"ruleId": 52, "result": false, "reason": "不易携带"},
-    {"ruleId": 53, "result": false, "reason": "无需电力"},
-    {"ruleId": 54, "result": false, "reason": "个体尺寸不完全固定"},
-    {"ruleId": 55, "result": true, "reason": "自然界存在"},
-    {"ruleId": 56, "result": false, "reason": "水中不会干燥"},
-    {"ruleId": 57, "result": false, "reason": "不会漂浮水面"},
-    {"ruleId": 58, "result": false, "reason": "不是金属制品"},
-    {"ruleId": 59, "result": true, "reason": "会发出叫声"},
-    {"ruleId": 60, "result": false, "reason": "颜色不算鲜艳"},
-    {"ruleId": 61, "result": true, "reason": "长颈鹿体型大于人"},
-    {"ruleId": 62, "result": false, "reason": "不透明"},
-    {"ruleId": 63, "result": false, "reason": "不能拆分为组件"},
-    {"ruleId": 64, "result": false, "reason": "皮肤不柔软"},
-    {"ruleId": 65, "result": false, "reason": "不可折叠压扁"},
-    {"ruleId": 66, "result": true, "reason": "需要动物饲养和护理"},
-    {"ruleId": 67, "result": false, "reason": "没有锋利边缘"},
-    {"ruleId": 68, "result": false, "reason": "通常不食用"},
-    {"ruleId": 69, "result": false, "reason": "没有强烈气味"},
-    {"ruleId": 70, "result": true, "reason": "通常重于100公斤"},
-    {"ruleId": 71, "result": false, "reason": "不能穿戴"},
-    {"ruleId": 72, "result": true, "reason": "动物体会产生热量"},
-    {"ruleId": 73, "result": false, "reason": "不易着火"},
-    {"ruleId": 74, "result": false, "reason": "表面无文字"},
-    {"ruleId": 75, "result": false, "reason": "不用组装"},
-    {"ruleId": 76, "result": true, "reason": "死后可被自然分解"},
-    {"ruleId": 77, "result": false, "reason": "不能堆叠"},
-    {"ruleId": 78, "result": false, "reason": "无光泽或镜面反光"},
-    {"ruleId": 79, "result": false, "reason": "不被磁铁吸引"},
-    {"ruleId": 80, "result": true, "reason": "能发出叫声"},
-    {"ruleId": 81, "result": true, "reason": "皮毛能吸水"},
-    {"ruleId": 82, "result": false, "reason": "不易弯曲"},
-    {"ruleId": 83, "result": false, "reason": "不能浮于水面"},
-    {"ruleId": 84, "result": true, "reason": "会随年龄成长衰老"},
-    {"ruleId": 85, "result": false, "reason": "两侧形态不完全相同"},
-    {"ruleId": 86, "result": false, "reason": "受伤很难修复"},
-    {"ruleId": 87, "result": false, "reason": "不是靠燃料驱动"},
-    {"ruleId": 88, "result": true, "reason": "活体动物"},
-    {"ruleId": 89, "result": false, "reason": "生活在陆地不在水下"},
-    {"ruleId": 90, "result": false, "reason": "不含塑料"},
-    {"ruleId": 91, "result": false, "reason": "不含木头"},
-    {"ruleId": 92, "result": false, "reason": "不可加热"},
-    {"ruleId": 93, "result": true, "reason": "动物园等需特殊饲养"},
-    {"ruleId": 94, "result": false, "reason": "非手工制作"},
-    {"ruleId": 95, "result": false, "reason": "不易清洁"},
-    {"ruleId": 96, "result": false, "reason": "不成对出现"},
-    {"ruleId": 97, "result": false, "reason": "无法手握"},
-    {"ruleId": 98, "result": false, "reason": "颜色不多"},
-    {"ruleId": 99, "result": false, "reason": "不是坚硬物体"},
-    {"ruleId": 100, "result": true, "reason": "只由生物组织构成"},
-    {"ruleId": 101, "result": true, "reason": "共两个字"},
-    {"ruleId": 102, "result": false, "reason": "不是三个字"},
-    {"ruleId": 103, "result": false, "reason": "不是四个字"},
-    {"ruleId": 104, "result": false, "reason": "不是五个字"},
-    {"ruleId": 105, "result": false, "reason": "无“心”字及偏旁"},
-    {"ruleId": 106, "result": false, "reason": "无“草”字及偏旁"},
-    {"ruleId": 107, "result": false, "reason": "无“水”字或偏旁"},
-    {"ruleId": 108, "result": false, "reason": "无“金”字或偏旁"},
-    {"ruleId": 109, "result": false, "reason": "无“木”字和偏旁"},
-    {"ruleId": 110, "result": false, "reason": "无“火”字或偏旁"},
-    {"ruleId": 111, "result": false, "reason": "无“土”字或偏旁"},
-    {"ruleId": 112, "result": false, "reason": "无“日”字或偏旁"},
-    {"ruleId": 113, "result": false, "reason": "无“走”字或偏旁"},
-    {"ruleId": 114, "result": false, "reason": "无“山”字或偏旁"},
-    {"ruleId": 115, "result": false, "reason": "无“川”字或偏旁"},
-    {"ruleId": 116, "result": false, "reason": "无“雨”字或偏旁"},
-    {"ruleId": 117, "result": false, "reason": "无“人”字或偏旁"},
-    {"ruleId": 118, "result": false, "reason": "无“手”字或偏旁"},
-    {"ruleId": 119, "result": false, "reason": "无“王”字或偏旁"},
-    {"ruleId": 120, "result": false, "reason": "无“口”字或偏旁"},
-    {"ruleId": 121, "result": false, "reason": "无“目”字或偏旁"},
-    {"ruleId": 122, "result": false, "reason": "无“耳”字或偏旁"},
-    {"ruleId": 123, "result": false, "reason": "无“足”字或偏旁"},
-    {"ruleId": 124, "result": false, "reason": "无“言”字或偏旁"},
-    {"ruleId": 125, "result": false, "reason": "无“食”字或偏旁"},
-    {"ruleId": 126, "result": false, "reason": "无“衣”字或偏旁"},
-    {"ruleId": 127, "result": false, "reason": "无“马”字或偏旁"},
-    {"ruleId": 128, "result": false, "reason": "无“鱼”字或偏旁"},
-    {"ruleId": 129, "result": false, "reason": "无“鸟”字或偏旁"},
-    {"ruleId": 130, "result": false, "reason": "无“车”字或偏旁"},
-    {"ruleId": 131, "result": true, "reason": "颈、鹿为左右结构字"},
-    {"ruleId": 132, "result": false, "reason": "长、颈、鹿均不是上下结构字"},
-    {"ruleId": 133, "result": false, "reason": "偏旁分别为长、页、鹿不同"},
-    {"ruleId": 134, "result": true, "reason": "偏旁完全不一样"},
-    {"ruleId": 135, "result": true, "reason": "“长”4画少于7画"},
-    {"ruleId": 136, "result": true, "reason": "三字笔画都少于10画（4画、11画、11画）"},
-    {"ruleId": 137, "result": true, "reason": "笔画最多为11画，少于15画"},
-    {"ruleId": 138, "result": false, "reason": "只有颈、鹿大于12画"},
-    {"ruleId": 139, "result": false, "reason": "笔画为4、11、11，无递增"},
-    {"ruleId": 140, "result": false, "reason": "无递减"},
-    {"ruleId": 141, "result": false, "reason": "声调分别为二、三、四，不相同"},
-    {"ruleId": 142, "result": true, "reason": "声调各不相同"},
-    {"ruleId": 143, "result": false, "reason": "有第二声（长）、第三声（颈）、第四声（鹿），但无第一声"},
-    {"ruleId": 144, "result": false, "reason": "有第二声（长）"},
-    {"ruleId": 145, "result": false, "reason": "有第三声（颈）"},
-    {"ruleId": 146, "result": false, "reason": "有第四声（鹿）"},
-    {"ruleId": 147, "result": false, "reason": "没有第一声"},
-    {"ruleId": 148, "result": true, "reason": "包含第二声“长”"},
-    {"ruleId": 149, "result": true, "reason": "包含第三声“颈”"},
-    {"ruleId": 150, "result": true, "reason": "包含第四声“鹿”"}
+    {
+      "ruleId": 1,
+      "result": true,
+      "reason": "长颈鹿作为动物存在超过一千年"
+    },
+    {
+      "ruleId": 2,
+      "result": false,
+      "reason": "并非1950年后新出现的动物"
+    },
+    {
+      "ruleId": 3,
+      "result": false,
+      "reason": "大多数家庭没有长颈鹿"
+    },
+    {
+      "ruleId": 4,
+      "result": false,
+      "reason": "大多数人都没有长颈鹿，它是稀有物种"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "儿童和成人都不常用长颈鹿"
+    },
+    {
+      "ruleId": 6,
+      "result": false,
+      "reason": "很多人对长颈鹿感兴趣"
+    },
+    {
+      "ruleId": 7,
+      "result": false,
+      "reason": "并不是每个人都需要长颈鹿"
+    },
+    {
+      "ruleId": 8,
+      "result": false,
+      "reason": "通常无法用于完成工作"
+    },
+    {
+      "ruleId": 9,
+      "result": true,
+      "reason": "只能在动物园等特殊场合见到"
+    },
+    {
+      "ruleId": 10,
+      "result": false,
+      "reason": "日常生活中见不到"
+    },
+    {
+      "ruleId": 11,
+      "result": false,
+      "reason": "不属于个人"
+    },
+    {
+      "ruleId": 12,
+      "result": false,
+      "reason": "并不是多人共享财物"
+    },
+    {
+      "ruleId": 13,
+      "result": false,
+      "reason": "不需要电力"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "并非只来自特定国家或文化"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "许多国家动物园等都有"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "不是用后即丢弃"
+    },
+    {
+      "ruleId": 17,
+      "result": false,
+      "reason": "并非供人类多年使用物品"
+    },
+    {
+      "ruleId": 18,
+      "result": false,
+      "reason": "不在室内使用"
+    },
+    {
+      "ruleId": 19,
+      "result": true,
+      "reason": "多在室外活动"
+    },
+    {
+      "ruleId": 20,
+      "result": false,
+      "reason": "很多人都没亲眼见过实体长颈鹿"
+    },
+    {
+      "ruleId": 21,
+      "result": false,
+      "reason": "商店买不到真的长颈鹿"
+    },
+    {
+      "ruleId": 22,
+      "result": false,
+      "reason": "办公室见不到"
+    },
+    {
+      "ruleId": 23,
+      "result": false,
+      "reason": "学校见不到活体长颈鹿"
+    },
+    {
+      "ruleId": 24,
+      "result": true,
+      "reason": "看见长颈鹿会让人感到快乐"
+    },
+    {
+      "ruleId": 25,
+      "result": false,
+      "reason": "一般不会让人感到危险"
+    },
+    {
+      "ruleId": 26,
+      "result": false,
+      "reason": "并不用作娱乐道具或游戏"
+    },
+    {
+      "ruleId": 27,
+      "result": false,
+      "reason": "不用于工作或重要任务"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "并非特定时间才出现"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "全年都存在或可见"
+    },
+    {
+      "ruleId": 30,
+      "result": false,
+      "reason": "不涉及学习门槛问题"
+    },
+    {
+      "ruleId": 31,
+      "result": false,
+      "reason": "不能使用长颈鹿"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "不适合在正式场合使用"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "动物园等休闲环境常见"
+    },
+    {
+      "ruleId": 34,
+      "result": false,
+      "reason": "长颈鹿不是收藏品"
+    },
+    {
+      "ruleId": 35,
+      "result": true,
+      "reason": "家里见不到长颈鹿"
+    },
+    {
+      "ruleId": 36,
+      "result": false,
+      "reason": "动物本身非历史事件主体"
+    },
+    {
+      "ruleId": 37,
+      "result": false,
+      "reason": "古今均有存在"
+    },
+    {
+      "ruleId": 38,
+      "result": false,
+      "reason": "不送活体长颈鹿做礼物"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "极少作为礼物"
+    },
+    {
+      "ruleId": 40,
+      "result": false,
+      "reason": "一般人都无长颈鹿"
+    },
+    {
+      "ruleId": 41,
+      "result": false,
+      "reason": "各收入阶层都不拥有"
+    },
+    {
+      "ruleId": 42,
+      "result": false,
+      "reason": "不能带上飞机"
+    },
+    {
+      "ruleId": 43,
+      "result": false,
+      "reason": "一小时内不好找到实体长颈鹿"
+    },
+    {
+      "ruleId": 44,
+      "result": false,
+      "reason": "不需燃料"
+    },
+    {
+      "ruleId": 45,
+      "result": false,
+      "reason": "非一次性"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "并非特定季节才能看见"
+    },
+    {
+      "ruleId": 47,
+      "result": false,
+      "reason": "不是可反复使用的对象"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "不涉及使用许可问题"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "世界各地有很多长颈鹿"
+    },
+    {
+      "ruleId": 50,
+      "result": false,
+      "reason": "世界不只有一只"
+    },
+    {
+      "ruleId": 51,
+      "result": false,
+      "reason": "长颈鹿不容易损坏"
+    },
+    {
+      "ruleId": 52,
+      "result": false,
+      "reason": "不易携带"
+    },
+    {
+      "ruleId": 53,
+      "result": false,
+      "reason": "无需电力"
+    },
+    {
+      "ruleId": 54,
+      "result": false,
+      "reason": "个体尺寸不完全固定"
+    },
+    {
+      "ruleId": 55,
+      "result": true,
+      "reason": "自然界存在"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "水中不会干燥"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "不会漂浮水面"
+    },
+    {
+      "ruleId": 58,
+      "result": false,
+      "reason": "不是金属制品"
+    },
+    {
+      "ruleId": 59,
+      "result": true,
+      "reason": "会发出叫声"
+    },
+    {
+      "ruleId": 60,
+      "result": false,
+      "reason": "颜色不算鲜艳"
+    },
+    {
+      "ruleId": 61,
+      "result": true,
+      "reason": "长颈鹿体型大于人"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "不透明"
+    },
+    {
+      "ruleId": 63,
+      "result": false,
+      "reason": "不能拆分为组件"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "皮肤不柔软"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "不可折叠压扁"
+    },
+    {
+      "ruleId": 66,
+      "result": true,
+      "reason": "需要动物饲养和护理"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "没有锋利边缘"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "通常不食用"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "没有强烈气味"
+    },
+    {
+      "ruleId": 70,
+      "result": true,
+      "reason": "通常重于100公斤"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "不能穿戴"
+    },
+    {
+      "ruleId": 72,
+      "result": true,
+      "reason": "动物体会产生热量"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "不易着火"
+    },
+    {
+      "ruleId": 74,
+      "result": false,
+      "reason": "表面无文字"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "不用组装"
+    },
+    {
+      "ruleId": 76,
+      "result": true,
+      "reason": "死后可被自然分解"
+    },
+    {
+      "ruleId": 77,
+      "result": false,
+      "reason": "不能堆叠"
+    },
+    {
+      "ruleId": 78,
+      "result": false,
+      "reason": "无光泽或镜面反光"
+    },
+    {
+      "ruleId": 79,
+      "result": false,
+      "reason": "不被磁铁吸引"
+    },
+    {
+      "ruleId": 80,
+      "result": true,
+      "reason": "能发出叫声"
+    },
+    {
+      "ruleId": 81,
+      "result": true,
+      "reason": "皮毛能吸水"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "不易弯曲"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "不能浮于水面"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "会随年龄成长衰老"
+    },
+    {
+      "ruleId": 85,
+      "result": false,
+      "reason": "两侧形态不完全相同"
+    },
+    {
+      "ruleId": 86,
+      "result": false,
+      "reason": "受伤很难修复"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "不是靠燃料驱动"
+    },
+    {
+      "ruleId": 88,
+      "result": true,
+      "reason": "活体动物"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "生活在陆地不在水下"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "不含塑料"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "不含木头"
+    },
+    {
+      "ruleId": 92,
+      "result": false,
+      "reason": "不可加热"
+    },
+    {
+      "ruleId": 93,
+      "result": true,
+      "reason": "动物园等需特殊饲养"
+    },
+    {
+      "ruleId": 94,
+      "result": false,
+      "reason": "非手工制作"
+    },
+    {
+      "ruleId": 95,
+      "result": false,
+      "reason": "不易清洁"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "不成对出现"
+    },
+    {
+      "ruleId": 97,
+      "result": false,
+      "reason": "无法手握"
+    },
+    {
+      "ruleId": 98,
+      "result": false,
+      "reason": "颜色不多"
+    },
+    {
+      "ruleId": 99,
+      "result": false,
+      "reason": "不是坚硬物体"
+    },
+    {
+      "ruleId": 100,
+      "result": true,
+      "reason": "只由生物组织构成"
+    },
+    {
+      "ruleId": 101,
+      "result": true,
+      "reason": "共两个字"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "不是三个字"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "不是四个字"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "不是五个字"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "无“心”字及偏旁"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "无“草”字及偏旁"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "无“水”字或偏旁"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "无“金”字或偏旁"
+    },
+    {
+      "ruleId": 109,
+      "result": false,
+      "reason": "无“木”字和偏旁"
+    },
+    {
+      "ruleId": 110,
+      "result": false,
+      "reason": "无“火”字或偏旁"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "无“土”字或偏旁"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "无“日”字或偏旁"
+    },
+    {
+      "ruleId": 113,
+      "result": false,
+      "reason": "无“走”字或偏旁"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "无“山”字或偏旁"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "无“川”字或偏旁"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "无“雨”字或偏旁"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "无“人”字或偏旁"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "无“手”字或偏旁"
+    },
+    {
+      "ruleId": 119,
+      "result": false,
+      "reason": "无“王”字或偏旁"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "无“口”字或偏旁"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "无“目”字或偏旁"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "无“耳”字或偏旁"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "无“足”字或偏旁"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "无“言”字或偏旁"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "无“食”字或偏旁"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "无“衣”字或偏旁"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "无“马”字或偏旁"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "无“鱼”字或偏旁"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "无“鸟”字或偏旁"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "无“车”字或偏旁"
+    },
+    {
+      "ruleId": 131,
+      "result": true,
+      "reason": "颈、鹿为左右结构字"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "长、颈、鹿均不是上下结构字"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "偏旁分别为长、页、鹿不同"
+    },
+    {
+      "ruleId": 134,
+      "result": true,
+      "reason": "偏旁完全不一样"
+    },
+    {
+      "ruleId": 135,
+      "result": true,
+      "reason": "“长”4画少于7画"
+    },
+    {
+      "ruleId": 136,
+      "result": true,
+      "reason": "三字笔画都少于10画（4画、11画、11画）"
+    },
+    {
+      "ruleId": 137,
+      "result": true,
+      "reason": "笔画最多为11画，少于15画"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "只有颈、鹿大于12画"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "笔画为4、11、11，无递增"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "无递减"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "声调分别为二、三、四，不相同"
+    },
+    {
+      "ruleId": 142,
+      "result": true,
+      "reason": "声调各不相同"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "有第二声（长）、第三声（颈）、第四声（鹿），但无第一声"
+    },
+    {
+      "ruleId": 144,
+      "result": false,
+      "reason": "有第二声（长）"
+    },
+    {
+      "ruleId": 145,
+      "result": false,
+      "reason": "有第三声（颈）"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "有第四声（鹿）"
+    },
+    {
+      "ruleId": 147,
+      "result": false,
+      "reason": "没有第一声"
+    },
+    {
+      "ruleId": 148,
+      "result": true,
+      "reason": "包含第二声“长”"
+    },
+    {
+      "ruleId": 149,
+      "result": true,
+      "reason": "包含第三声“颈”"
+    },
+    {
+      "ruleId": 150,
+      "result": true,
+      "reason": "包含第四声“鹿”"
+    }
   ]
 }
