@@ -3,155 +3,755 @@
   "word": "医院",
   "word_en": "Hospital",
   "questions": [
-    {"ruleId": 1, "result": false, "reason": "医院的现代形式自19世纪传入中国未满1000年"},
-    {"ruleId": 2, "result": false, "reason": "并非1950年后才有，清末已存在"},
-    {"ruleId": 3, "result": false, "reason": "医院不是大多数家庭都有"},
-    {"ruleId": 4, "result": false, "reason": "医院不是稀有物品"},
-    {"ruleId": 5, "result": false, "reason": "更常由成人使用"},
-    {"ruleId": 6, "result": false, "reason": "大部分人生病时需医院，并非没兴趣"},
-    {"ruleId": 7, "result": true, "reason": "生病时人人可能需要医院"},
-    {"ruleId": 8, "result": true, "reason": "医院帮助医生完成工作"},
-    {"ruleId": 9, "result": false, "reason": "医院在城市随处可见"},
-    {"ruleId": 10, "result": true, "reason": "日常可见医院"},
-    {"ruleId": 11, "result": false, "reason": "医院不属于个人"},
-    {"ruleId": 12, "result": true, "reason": "医院为多人共享"},
-    {"ruleId": 13, "result": true, "reason": "医院多数设备依赖电力"},
-    {"ruleId": 14, "result": false, "reason": "世界各地皆有医院"},
-    {"ruleId": 15, "result": true, "reason": "很多国家有医院"},
-    {"ruleId": 16, "result": false, "reason": "医院不是用后即弃"},
-    {"ruleId": 17, "result": true, "reason": "医院可使用多年"},
-    {"ruleId": 18, "result": true, "reason": "医院在室内场所"},
-    {"ruleId": 19, "result": false, "reason": "医院属于建筑物，不能在室外直接使用"},
-    {"ruleId": 20, "result": true, "reason": "多数人都见过医院"},
-    {"ruleId": 21, "result": false, "reason": "不能在商店购买医院"},
-    {"ruleId": 22, "result": false, "reason": "医院不是办公室设备"},
-    {"ruleId": 23, "result": false, "reason": "学校里一般没有医院"},
-    {"ruleId": 24, "result": false, "reason": "医院未必能让人感到快乐"},
-    {"ruleId": 25, "result": true, "reason": "医院让部分人感到危险和紧张"},
-    {"ruleId": 26, "result": false, "reason": "医院非娱乐/游戏用途"},
-    {"ruleId": 27, "result": true, "reason": "医护人员工作场所"},
-    {"ruleId": 28, "result": false, "reason": "全年使用"},
-    {"ruleId": 29, "result": true, "reason": "医院全年均开放"},
-    {"ruleId": 30, "result": true, "reason": "运营医院需高门槛专业知识"},
-    {"ruleId": 31, "result": false, "reason": "非任何人都能随便用"},
-    {"ruleId": 32, "result": true, "reason": "医院属于正式场所"},
-    {"ruleId": 33, "result": false, "reason": "医院氛围多为正式，不轻松"},
-    {"ruleId": 34, "result": false, "reason": "医院不会被收藏"},
-    {"ruleId": 35, "result": true, "reason": "家庭一般见不到医院"},
-    {"ruleId": 36, "result": true, "reason": "医院在历史上救治很多重要人物和事件"},
-    {"ruleId": 37, "result": true, "reason": "现代医院主要在近代社会出现"},
-    {"ruleId": 38, "result": false, "reason": "医院不作为礼物赠送"},
-    {"ruleId": 39, "result": true, "reason": "医院基本不会作为礼物"},
-    {"ruleId": 40, "result": false, "reason": "医院不专属于有钱人"},
-    {"ruleId": 41, "result": true, "reason": "各阶层皆可到医院就医"},
-    {"ruleId": 42, "result": false, "reason": "医院无法带上飞机"},
-    {"ruleId": 43, "result": false, "reason": "医院无法在一小时内找到（指获得一个医院）"},
-    {"ruleId": 44, "result": false, "reason": "医院不靠燃料直接工作"},
-    {"ruleId": 45, "result": false, "reason": "医院绝非一次性使用"},
-    {"ruleId": 46, "result": false, "reason": "医院全年使用"},
-    {"ruleId": 47, "result": true, "reason": "医院可反复多次为病人服务"},
-    {"ruleId": 48, "result": false, "reason": "一般人获得非经营/管理医院无须许可"},
-    {"ruleId": 49, "result": true, "reason": "世界上医院数量很多"},
-    {"ruleId": 50, "result": false, "reason": "医院不是唯一"},
-    {"ruleId": 51, "result": false, "reason": "医院不容易损坏"},
-    {"ruleId": 52, "result": false, "reason": "医院无法携带"},
-    {"ruleId": 53, "result": true, "reason": "许多设施必须电力"},
-    {"ruleId": 54, "result": false, "reason": "医院建筑尺寸差异较大"},
-    {"ruleId": 55, "result": false, "reason": "医院为人造，不来自自然界"},
-    {"ruleId": 56, "result": false, "reason": "医院不是专为在水中干燥而设计"},
-    {"ruleId": 57, "result": false, "reason": "医院建筑无法漂浮"},
-    {"ruleId": 58, "result": false, "reason": "建筑以混凝土/砖为主"},
-    {"ruleId": 59, "result": false, "reason": "医院本身不发出声音"},
-    {"ruleId": 60, "result": false, "reason": "医院外观通常不鲜艳"},
-    {"ruleId": 61, "result": true, "reason": "医院通常大于人"},
-    {"ruleId": 62, "result": false, "reason": "医院非透明体"},
-    {"ruleId": 63, "result": true, "reason": "医院包含许多房间组件"},
-    {"ruleId": 64, "result": false, "reason": "医院建筑物本身不柔软"},
-    {"ruleId": 65, "result": false, "reason": "医院不可折叠压扁"},
-    {"ruleId": 66, "result": true, "reason": "医院需定期维护"},
-    {"ruleId": 67, "result": false, "reason": "医院外观无锋利边缘"},
-    {"ruleId": 68, "result": false, "reason": "医院不可食用"},
-    {"ruleId": 69, "result": false, "reason": "医院本身无强烈气味"},
-    {"ruleId": 70, "result": true, "reason": "医院远超100公斤"},
-    {"ruleId": 71, "result": false, "reason": "医院不能穿戴"},
-    {"ruleId": 72, "result": true, "reason": "医院内部设备/系统会发热"},
-    {"ruleId": 73, "result": false, "reason": "医院不易着火"},
-    {"ruleId": 74, "result": true, "reason": "医院表面常有门牌、科室文字"},
-    {"ruleId": 75, "result": true, "reason": "医院建设需要组装建筑组件"},
-    {"ruleId": 76, "result": false, "reason": "医院建筑不易自然分解"},
-    {"ruleId": 77, "result": false, "reason": "医院建筑不可堆叠"},
-    {"ruleId": 78, "result": false, "reason": "医院外墙普遍非光泽"},
-    {"ruleId": 79, "result": false, "reason": "建筑整体不会被磁铁吸引"},
-    {"ruleId": 80, "result": false, "reason": "医院本身不会发声"},
-    {"ruleId": 81, "result": false, "reason": "医院一般不吸水"},
-    {"ruleId": 82, "result": false, "reason": "医院结构坚固不可弯曲"},
-    {"ruleId": 83, "result": false, "reason": "医院不能浮水"},
-    {"ruleId": 84, "result": true, "reason": "医院会随时间进行维修和变化"},
-    {"ruleId": 85, "result": false, "reason": "医院建筑两侧通常不同"},
-    {"ruleId": 86, "result": true, "reason": "医院损坏后可修复"},
-    {"ruleId": 87, "result": false, "reason": "医院无需燃料直接运行"},
-    {"ruleId": 88, "result": false, "reason": "医院非活物"},
-    {"ruleId": 89, "result": false, "reason": "医院不能出现在水下"},
-    {"ruleId": 90, "result": false, "reason": "医院不以塑料为主"},
-    {"ruleId": 91, "result": false, "reason": "医院非木制建筑"},
-    {"ruleId": 92, "result": true, "reason": "医院结构稳定，可耐常规加热如暖气"},
-    {"ruleId": 93, "result": true, "reason": "医院需特定卫生及温控储存条件"},
-    {"ruleId": 94, "result": false, "reason": "医院多为机械化建筑工艺"},
-    {"ruleId": 95, "result": false, "reason": "医院清洁难度较高"},
-    {"ruleId": 96, "result": false, "reason": "医院单独存在"},
-    {"ruleId": 97, "result": false, "reason": "医院无法用手握住"},
-    {"ruleId": 98, "result": false, "reason": "医院外观多为灰白，无多种颜色"},
-    {"ruleId": 99, "result": true, "reason": "医院建筑坚硬"},
-    {"ruleId": 100, "result": false, "reason": "医院由多种材质组成"},
-    {"ruleId": 101, "result": true, "reason": "“医院”为两个字"},
-    {"ruleId": 102, "result": false, "reason": "不是三个字"},
-    {"ruleId": 103, "result": false, "reason": "不是四个字"},
-    {"ruleId": 104, "result": false, "reason": "非一个字"},
-    {"ruleId": 105, "result": false, "reason": "无“心”部或偏旁"},
-    {"ruleId": 106, "result": false, "reason": "无“草”部或偏旁"},
-    {"ruleId": 107, "result": false, "reason": "无“水”部或偏旁"},
-    {"ruleId": 108, "result": false, "reason": "无“金”部或偏旁"},
-    {"ruleId": 109, "result": false, "reason": "无“木”部或偏旁"},
-    {"ruleId": 110, "result": false, "reason": "无“火”部或偏旁"},
-    {"ruleId": 111, "result": false, "reason": "无“土”部或偏旁"},
-    {"ruleId": 112, "result": false, "reason": "无“日”部或偏旁"},
-    {"ruleId": 113, "result": false, "reason": "无“走”旁结构"},
-    {"ruleId": 114, "result": false, "reason": "无“山”偏旁"},
-    {"ruleId": 115, "result": false, "reason": "无“川”偏旁"},
-    {"ruleId": 116, "result": false, "reason": "无“雨”偏旁"},
-    {"ruleId": 117, "result": false, "reason": "无“人”偏旁"},
-    {"ruleId": 118, "result": false, "reason": "无“手”偏旁"},
-    {"ruleId": 119, "result": false, "reason": "无“王”偏旁"},
-    {"ruleId": 120, "result": false, "reason": "无“口”偏旁"},
-    {"ruleId": 121, "result": false, "reason": "无“目”偏旁"},
-    {"ruleId": 122, "result": false, "reason": "无“耳”偏旁"},
-    {"ruleId": 123, "result": false, "reason": "无“足”偏旁"},
-    {"ruleId": 124, "result": false, "reason": "无“言”偏旁"},
-    {"ruleId": 125, "result": false, "reason": "无“食”偏旁"},
-    {"ruleId": 126, "result": false, "reason": "无“衣”偏旁"},
-    {"ruleId": 127, "result": false, "reason": "无“马”偏旁"},
-    {"ruleId": 128, "result": false, "reason": "无“鱼”偏旁"},
-    {"ruleId": 129, "result": false, "reason": "无“鸟”偏旁"},
-    {"ruleId": 130, "result": false, "reason": "无“车”偏旁"},
-    {"ruleId": 131, "result": true, "reason": "“医”和“院”都是左右结构"},
-    {"ruleId": 132, "result": false, "reason": "无上下结构字"},
-    {"ruleId": 133, "result": false, "reason": "“医”与“院”偏旁不同"},
-    {"ruleId": 134, "result": true, "reason": "两字偏旁分别为“匚”和“阝”不同"},
-    {"ruleId": 135, "result": true, "reason": "最少笔画“医”为7画，小于7为false，等于7为true"},
-    {"ruleId": 136, "result": true, "reason": "两字均小于10画"},
-    {"ruleId": 137, "result": true, "reason": "笔画最多为10，少于15"},
-    {"ruleId": 138, "result": false, "reason": "两字都不满12画"},
-    {"ruleId": 139, "result": true, "reason": "“医”7画，“院”10画，递增"},
-    {"ruleId": 140, "result": false, "reason": "无笔画递减"},
-    {"ruleId": 141, "result": false, "reason": "“医”一声，“院”四声，不同"},
-    {"ruleId": 142, "result": true, "reason": "两字声调不同"},
-    {"ruleId": 143, "result": false, "reason": "包含第一声“医”"},
-    {"ruleId": 144, "result": false, "reason": "不含第二声，但规则是否定所有，含第一、四声"},
-    {"ruleId": 145, "result": true, "reason": "无第三声"},
-    {"ruleId": 146, "result": false, "reason": "包含第四声"},
-    {"ruleId": 147, "result": true, "reason": "包含第一声“医”"},
-    {"ruleId": 148, "result": false, "reason": "不含第二声"},
-    {"ruleId": 149, "result": false, "reason": "不包含第三声"},
-    {"ruleId": 150, "result": true, "reason": "包含第四声“院”"}
+    {
+      "ruleId": 1,
+      "result": false,
+      "reason": "医院的现代形式自19世纪传入中国未满1000年"
+    },
+    {
+      "ruleId": 2,
+      "result": false,
+      "reason": "并非1950年后才有，清末已存在"
+    },
+    {
+      "ruleId": 3,
+      "result": false,
+      "reason": "医院不是大多数家庭都有"
+    },
+    {
+      "ruleId": 4,
+      "result": true,
+      "reason": "大多数人不会拥有医院"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "更常由成人使用"
+    },
+    {
+      "ruleId": 6,
+      "result": false,
+      "reason": "大部分人生病时需医院，并非没兴趣"
+    },
+    {
+      "ruleId": 7,
+      "result": true,
+      "reason": "生病时人人可能需要医院"
+    },
+    {
+      "ruleId": 8,
+      "result": true,
+      "reason": "医院帮助医生完成工作"
+    },
+    {
+      "ruleId": 9,
+      "result": false,
+      "reason": "医院在城市随处可见"
+    },
+    {
+      "ruleId": 10,
+      "result": true,
+      "reason": "日常可见医院"
+    },
+    {
+      "ruleId": 11,
+      "result": false,
+      "reason": "医院不属于个人"
+    },
+    {
+      "ruleId": 12,
+      "result": true,
+      "reason": "医院为多人共享"
+    },
+    {
+      "ruleId": 13,
+      "result": true,
+      "reason": "医院多数设备依赖电力"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "世界各地皆有医院"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "很多国家有医院"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "医院不是用后即弃"
+    },
+    {
+      "ruleId": 17,
+      "result": true,
+      "reason": "医院可使用多年"
+    },
+    {
+      "ruleId": 18,
+      "result": true,
+      "reason": "医院在室内场所"
+    },
+    {
+      "ruleId": 19,
+      "result": false,
+      "reason": "医院属于建筑物，不能在室外直接使用"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "多数人都见过医院"
+    },
+    {
+      "ruleId": 21,
+      "result": false,
+      "reason": "不能在商店购买医院"
+    },
+    {
+      "ruleId": 22,
+      "result": false,
+      "reason": "医院不是办公室设备"
+    },
+    {
+      "ruleId": 23,
+      "result": false,
+      "reason": "学校里一般没有医院"
+    },
+    {
+      "ruleId": 24,
+      "result": false,
+      "reason": "医院未必能让人感到快乐"
+    },
+    {
+      "ruleId": 25,
+      "result": true,
+      "reason": "医院让部分人感到危险和紧张"
+    },
+    {
+      "ruleId": 26,
+      "result": false,
+      "reason": "医院非娱乐/游戏用途"
+    },
+    {
+      "ruleId": 27,
+      "result": true,
+      "reason": "医护人员工作场所"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "全年使用"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "医院全年均开放"
+    },
+    {
+      "ruleId": 30,
+      "result": true,
+      "reason": "运营医院需高门槛专业知识"
+    },
+    {
+      "ruleId": 31,
+      "result": false,
+      "reason": "非任何人都能随便用"
+    },
+    {
+      "ruleId": 32,
+      "result": true,
+      "reason": "医院属于正式场所"
+    },
+    {
+      "ruleId": 33,
+      "result": false,
+      "reason": "医院氛围多为正式，不轻松"
+    },
+    {
+      "ruleId": 34,
+      "result": false,
+      "reason": "医院不会被收藏"
+    },
+    {
+      "ruleId": 35,
+      "result": true,
+      "reason": "家庭一般见不到医院"
+    },
+    {
+      "ruleId": 36,
+      "result": true,
+      "reason": "医院在历史上救治很多重要人物和事件"
+    },
+    {
+      "ruleId": 37,
+      "result": true,
+      "reason": "现代医院主要在近代社会出现"
+    },
+    {
+      "ruleId": 38,
+      "result": false,
+      "reason": "医院不作为礼物赠送"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "医院基本不会作为礼物"
+    },
+    {
+      "ruleId": 40,
+      "result": false,
+      "reason": "医院不专属于有钱人"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "各阶层皆可到医院就医"
+    },
+    {
+      "ruleId": 42,
+      "result": false,
+      "reason": "医院无法带上飞机"
+    },
+    {
+      "ruleId": 43,
+      "result": false,
+      "reason": "医院无法在一小时内找到（指获得一个医院）"
+    },
+    {
+      "ruleId": 44,
+      "result": false,
+      "reason": "医院不靠燃料直接工作"
+    },
+    {
+      "ruleId": 45,
+      "result": false,
+      "reason": "医院绝非一次性使用"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "医院全年使用"
+    },
+    {
+      "ruleId": 47,
+      "result": true,
+      "reason": "医院可反复多次为病人服务"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "一般人获得非经营/管理医院无须许可"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "世界上医院数量很多"
+    },
+    {
+      "ruleId": 50,
+      "result": false,
+      "reason": "医院不是唯一"
+    },
+    {
+      "ruleId": 51,
+      "result": false,
+      "reason": "医院不容易损坏"
+    },
+    {
+      "ruleId": 52,
+      "result": false,
+      "reason": "医院无法携带"
+    },
+    {
+      "ruleId": 53,
+      "result": true,
+      "reason": "许多设施必须电力"
+    },
+    {
+      "ruleId": 54,
+      "result": false,
+      "reason": "医院建筑尺寸差异较大"
+    },
+    {
+      "ruleId": 55,
+      "result": false,
+      "reason": "医院为人造，不来自自然界"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "医院不是专为在水中干燥而设计"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "医院建筑无法漂浮"
+    },
+    {
+      "ruleId": 58,
+      "result": false,
+      "reason": "建筑以混凝土/砖为主"
+    },
+    {
+      "ruleId": 59,
+      "result": false,
+      "reason": "医院本身不发出声音"
+    },
+    {
+      "ruleId": 60,
+      "result": false,
+      "reason": "医院外观通常不鲜艳"
+    },
+    {
+      "ruleId": 61,
+      "result": true,
+      "reason": "医院通常大于人"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "医院非透明体"
+    },
+    {
+      "ruleId": 63,
+      "result": true,
+      "reason": "医院包含许多房间组件"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "医院建筑物本身不柔软"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "医院不可折叠压扁"
+    },
+    {
+      "ruleId": 66,
+      "result": true,
+      "reason": "医院需定期维护"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "医院外观无锋利边缘"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "医院不可食用"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "医院本身无强烈气味"
+    },
+    {
+      "ruleId": 70,
+      "result": true,
+      "reason": "医院远超100公斤"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "医院不能穿戴"
+    },
+    {
+      "ruleId": 72,
+      "result": true,
+      "reason": "医院内部设备/系统会发热"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "医院不易着火"
+    },
+    {
+      "ruleId": 74,
+      "result": true,
+      "reason": "医院表面常有门牌、科室文字"
+    },
+    {
+      "ruleId": 75,
+      "result": true,
+      "reason": "医院建设需要组装建筑组件"
+    },
+    {
+      "ruleId": 76,
+      "result": false,
+      "reason": "医院建筑不易自然分解"
+    },
+    {
+      "ruleId": 77,
+      "result": false,
+      "reason": "医院建筑不可堆叠"
+    },
+    {
+      "ruleId": 78,
+      "result": false,
+      "reason": "医院外墙普遍非光泽"
+    },
+    {
+      "ruleId": 79,
+      "result": false,
+      "reason": "建筑整体不会被磁铁吸引"
+    },
+    {
+      "ruleId": 80,
+      "result": false,
+      "reason": "医院本身不会发声"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "医院一般不吸水"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "医院结构坚固不可弯曲"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "医院不能浮水"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "医院会随时间进行维修和变化"
+    },
+    {
+      "ruleId": 85,
+      "result": false,
+      "reason": "医院建筑两侧通常不同"
+    },
+    {
+      "ruleId": 86,
+      "result": true,
+      "reason": "医院损坏后可修复"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "医院无需燃料直接运行"
+    },
+    {
+      "ruleId": 88,
+      "result": false,
+      "reason": "医院非活物"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "医院不能出现在水下"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "医院不以塑料为主"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "医院非木制建筑"
+    },
+    {
+      "ruleId": 92,
+      "result": true,
+      "reason": "医院结构稳定，可耐常规加热如暖气"
+    },
+    {
+      "ruleId": 93,
+      "result": true,
+      "reason": "医院需特定卫生及温控储存条件"
+    },
+    {
+      "ruleId": 94,
+      "result": false,
+      "reason": "医院多为机械化建筑工艺"
+    },
+    {
+      "ruleId": 95,
+      "result": false,
+      "reason": "医院清洁难度较高"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "医院单独存在"
+    },
+    {
+      "ruleId": 97,
+      "result": false,
+      "reason": "医院无法用手握住"
+    },
+    {
+      "ruleId": 98,
+      "result": false,
+      "reason": "医院外观多为灰白，无多种颜色"
+    },
+    {
+      "ruleId": 99,
+      "result": true,
+      "reason": "医院建筑坚硬"
+    },
+    {
+      "ruleId": 100,
+      "result": false,
+      "reason": "医院由多种材质组成"
+    },
+    {
+      "ruleId": 101,
+      "result": true,
+      "reason": "“医院”为两个字"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "不是三个字"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "不是四个字"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "非一个字"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "无“心”部或偏旁"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "无“草”部或偏旁"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "无“水”部或偏旁"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "无“金”部或偏旁"
+    },
+    {
+      "ruleId": 109,
+      "result": false,
+      "reason": "无“木”部或偏旁"
+    },
+    {
+      "ruleId": 110,
+      "result": false,
+      "reason": "无“火”部或偏旁"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "无“土”部或偏旁"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "无“日”部或偏旁"
+    },
+    {
+      "ruleId": 113,
+      "result": false,
+      "reason": "无“走”旁结构"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "无“山”偏旁"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "无“川”偏旁"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "无“雨”偏旁"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "无“人”偏旁"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "无“手”偏旁"
+    },
+    {
+      "ruleId": 119,
+      "result": false,
+      "reason": "无“王”偏旁"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "无“口”偏旁"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "无“目”偏旁"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "无“耳”偏旁"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "无“足”偏旁"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "无“言”偏旁"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "无“食”偏旁"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "无“衣”偏旁"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "无“马”偏旁"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "无“鱼”偏旁"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "无“鸟”偏旁"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "无“车”偏旁"
+    },
+    {
+      "ruleId": 131,
+      "result": true,
+      "reason": "“医”和“院”都是左右结构"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "无上下结构字"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "“医”与“院”偏旁不同"
+    },
+    {
+      "ruleId": 134,
+      "result": true,
+      "reason": "两字偏旁分别为“匚”和“阝”不同"
+    },
+    {
+      "ruleId": 135,
+      "result": true,
+      "reason": "最少笔画“医”为7画，小于7为false，等于7为true"
+    },
+    {
+      "ruleId": 136,
+      "result": true,
+      "reason": "两字均小于10画"
+    },
+    {
+      "ruleId": 137,
+      "result": true,
+      "reason": "笔画最多为10，少于15"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "两字都不满12画"
+    },
+    {
+      "ruleId": 139,
+      "result": true,
+      "reason": "“医”7画，“院”10画，递增"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "无笔画递减"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "“医”一声，“院”四声，不同"
+    },
+    {
+      "ruleId": 142,
+      "result": true,
+      "reason": "两字声调不同"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "包含第一声“医”"
+    },
+    {
+      "ruleId": 144,
+      "result": false,
+      "reason": "不含第二声，但规则是否定所有，含第一、四声"
+    },
+    {
+      "ruleId": 145,
+      "result": true,
+      "reason": "无第三声"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "包含第四声"
+    },
+    {
+      "ruleId": 147,
+      "result": true,
+      "reason": "包含第一声“医”"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "不含第二声"
+    },
+    {
+      "ruleId": 149,
+      "result": false,
+      "reason": "不包含第三声"
+    },
+    {
+      "ruleId": 150,
+      "result": true,
+      "reason": "包含第四声“院”"
+    }
   ]
 }

@@ -19,13 +19,13 @@ PORT = 5000
 def index():
     return send_from_directory('.', 'word_rules_table_interactive.html')
 
-@app.route('/word_rules_table.html')
-def original_table():
-    return send_from_directory('.', 'word_rules_table.html')
-
 @app.route('/src/resources/data/words_zh/<filename>')
 def serve_word_file(filename):
     return send_from_directory(WORDS_DIR, filename)
+
+@app.route('/src/resources/data/rules_zh/<filename>')
+def serve_rule_file(filename):
+    return send_from_directory("src/resources/data/rules_zh", filename)
 
 @app.route('/api/save-word/<int:word_id>', methods=['POST'])
 def save_word(word_id):
@@ -34,14 +34,17 @@ def save_word(word_id):
         data = request.get_json()
         
         if not data:
+            print(f"Error: No data provided for word {word_id}")
             return jsonify({'error': 'No data provided'}), 400
         
         # Validate the data structure
         if 'id' not in data or 'word' not in data or 'questions' not in data:
+            print(f"Error: Invalid data structure for word {word_id}. Data keys: {data.keys() if data else 'None'}")
             return jsonify({'error': 'Invalid data structure'}), 400
         
-        # Ensure the word ID matches
-        if data['id'] != word_id:
+        # Ensure the word ID matches (handle both string and int IDs)
+        if str(data['id']) != str(word_id):
+            print(f"Error: Word ID mismatch for word {word_id}. Expected: {word_id}, Got: {data['id']}")
             return jsonify({'error': 'Word ID mismatch'}), 400
         
         # Create the filename

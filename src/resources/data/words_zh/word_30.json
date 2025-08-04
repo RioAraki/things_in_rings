@@ -3,155 +3,755 @@
   "word": "仙人掌",
   "word_en": "Cactus",
   "questions": [
-    {"ruleId": 1, "result": true, "reason": "仙人掌作为植物称呼自古有之,已存在千年"},
-    {"ruleId": 2, "result": false, "reason": "不是1950年后的新事物"},
-    {"ruleId": 3, "result": false, "reason": "大多数家庭没有养仙人掌"},
-    {"ruleId": 4, "result": false, "reason": "并不是稀有物品,多数人能见到"},
-    {"ruleId": 5, "result": false, "reason": "儿童和成人都可见,非儿童专属"},
-    {"ruleId": 6, "result": true, "reason": "大部分人对仙人掌没兴趣"},
-    {"ruleId": 7, "result": false, "reason": "仙人掌不是每个人都需要的东西"},
-    {"ruleId": 8, "result": false, "reason": "仙人掌对工作助益有限"},
-    {"ruleId": 9, "result": false, "reason": "日常生活也能见到仙人掌"},
-    {"ruleId": 10, "result": true, "reason": "街头市售等日常能见到仙人掌"},
-    {"ruleId": 11, "result": false, "reason": "仙人掌一般不是个人私有物"},
-    {"ruleId": 12, "result": true, "reason": "植物多为多人共享环境欣赏"},
-    {"ruleId": 13, "result": false, "reason": "植物无需电力"},
-    {"ruleId": 14, "result": false, "reason": "多国均有,非特定文化产物"},
-    {"ruleId": 15, "result": true, "reason": "世界多地都有仙人掌"},
-    {"ruleId": 16, "result": false, "reason": "仙人掌养护多年,不用即弃"},
-    {"ruleId": 17, "result": true, "reason": "仙人掌生命力强,可多年生长"},
-    {"ruleId": 18, "result": true, "reason": "可作为室内植物装饰"},
-    {"ruleId": 19, "result": true, "reason": "也可在室外自然生长"},
-    {"ruleId": 20, "result": true, "reason": "大部分人亲眼见过仙人掌"},
-    {"ruleId": 21, "result": true, "reason": "花店等地都可以买到仙人掌"},
-    {"ruleId": 22, "result": false, "reason": "办公室少见大规模仙人掌"},
-    {"ruleId": 23, "result": false, "reason": "校园虽有绿植但并不常见仙人掌"},
-    {"ruleId": 24, "result": false, "reason": "对大部分人情绪无明显影响"},
-    {"ruleId": 25, "result": false, "reason": "仙人掌通常无危险感"},
-    {"ruleId": 26, "result": false, "reason": "并非主用于娱乐或游戏"},
-    {"ruleId": 27, "result": false, "reason": "并非用来工作"},
-    {"ruleId": 28, "result": false, "reason": "不受季节限制,全年可见"},
-    {"ruleId": 29, "result": true, "reason": "任何季节都可见到仙人掌"},
-    {"ruleId": 30, "result": false, "reason": "养护和识别门槛低"},
-    {"ruleId": 31, "result": true, "reason": "普通人容易照料仙人掌"},
-    {"ruleId": 32, "result": false, "reason": "很少在正式场合出现"},
-    {"ruleId": 33, "result": true, "reason": "家庭、休闲环境常见"},
-    {"ruleId": 34, "result": true, "reason": "很多人会收藏不同品种仙人掌"},
-    {"ruleId": 35, "result": false, "reason": "很多家庭有仙人掌"},
-    {"ruleId": 36, "result": false, "reason": "历史上没有重大意义"},
-    {"ruleId": 37, "result": false, "reason": "古今均有种植"},
-    {"ruleId": 38, "result": true, "reason": "绿植类常作为礼物"},
-    {"ruleId": 39, "result": false, "reason": "作为礼品情况常见"},
-    {"ruleId": 40, "result": false, "reason": "普通人也能拥有"},
-    {"ruleId": 41, "result": true, "reason": "收入高低均有人养植仙人掌"},
-    {"ruleId": 42, "result": true, "reason": "能带上飞机托运携带"},
-    {"ruleId": 43, "result": true, "reason": "1小时内在花店可找到"},
-    {"ruleId": 44, "result": false, "reason": "不需要燃料"},
-    {"ruleId": 45, "result": false, "reason": "并非一次性使用"},
-    {"ruleId": 46, "result": false, "reason": "非季节限定植物"},
-    {"ruleId": 47, "result": true, "reason": "可反复生长多年"},
-    {"ruleId": 48, "result": false, "reason": "不用特别许可养植"},
-    {"ruleId": 49, "result": true, "reason": "世界各地广泛存在"},
-    {"ruleId": 50, "result": false, "reason": "种类繁多,数量极大"},
-    {"ruleId": 51, "result": false, "reason": "不容易损坏,生命力顽强"},
-    {"ruleId": 52, "result": true, "reason": "小盆栽易携带"},
-    {"ruleId": 53, "result": false, "reason": "不用电力"},
-    {"ruleId": 54, "result": false, "reason": "尺寸不固定,可大可小"},
-    {"ruleId": 55, "result": true, "reason": "野外本就有仙人掌"},
-    {"ruleId": 56, "result": true, "reason": "植物体内储水,外表干燥"},
-    {"ruleId": 57, "result": false, "reason": "通常不会漂浮水中"},
-    {"ruleId": 58, "result": false, "reason": "不是金属制品"},
-    {"ruleId": 59, "result": false, "reason": "植物本身不发声"},
-    {"ruleId": 60, "result": false, "reason": "颜色多为绿色,不鲜艳"},
-    {"ruleId": 61, "result": false, "reason": "个体不比成人大"},
-    {"ruleId": 62, "result": false, "reason": "不透明"},
-    {"ruleId": 63, "result": false, "reason": "通常整体为一体,不拆分"},
-    {"ruleId": 64, "result": false, "reason": "植物质感偏硬"},
-    {"ruleId": 65, "result": false, "reason": "不能折叠压扁"},
-    {"ruleId": 66, "result": false, "reason": "不需专门保养维护"},
-    {"ruleId": 67, "result": true, "reason": "带刺存在锋利边缘"},
-    {"ruleId": 68, "result": false, "reason": "不能直接食用"},
-    {"ruleId": 69, "result": false, "reason": "没有强烈气味"},
-    {"ruleId": 70, "result": false, "reason": "较小个体远小于100公斤"},
-    {"ruleId": 71, "result": false, "reason": "不能穿戴"},
-    {"ruleId": 72, "result": false, "reason": "本身不产生热量"},
-    {"ruleId": 73, "result": false, "reason": "难以点燃,不易着火"},
-    {"ruleId": 74, "result": false, "reason": "不印文字"},
-    {"ruleId": 75, "result": false, "reason": "无需组装"},
-    {"ruleId": 76, "result": true, "reason": "植物死亡后自然分解"},
-    {"ruleId": 77, "result": false, "reason": "难以堆叠"},
-    {"ruleId": 78, "result": false, "reason": "不反光"},
-    {"ruleId": 79, "result": false, "reason": "非金属,不被磁铁吸引"},
-    {"ruleId": 80, "result": false, "reason": "本身不发声"},
-    {"ruleId": 81, "result": true, "reason": "植物可吸水"},
-    {"ruleId": 82, "result": false, "reason": "质地坚硬不易弯曲"},
-    {"ruleId": 83, "result": false, "reason": "不可漂浮"},
-    {"ruleId": 84, "result": true, "reason": "随生长/环境而明显变化"},
-    {"ruleId": 85, "result": false, "reason": "对称性不强"},
-    {"ruleId": 86, "result": false, "reason": "损坏难以修复原貌"},
-    {"ruleId": 87, "result": false, "reason": "不用燃料"},
-    {"ruleId": 88, "result": true, "reason": "植物为活物"},
-    {"ruleId": 89, "result": false, "reason": "水下难见,主要陆生"},
-    {"ruleId": 90, "result": false, "reason": "植物体不含塑料"},
-    {"ruleId": 91, "result": true, "reason": "为木本植物含木质"},
-    {"ruleId": 92, "result": false, "reason": "非加热物品"},
-    {"ruleId": 93, "result": false, "reason": "一般不需特殊储存"},
-    {"ruleId": 94, "result": false, "reason": "自然生长,非手工制作"},
-    {"ruleId": 95, "result": true, "reason": "易于用擦拭清洁"},
-    {"ruleId": 96, "result": false, "reason": "不成对出现"},
-    {"ruleId": 97, "result": true, "reason": "小型仙人掌可用手握持"},
-    {"ruleId": 98, "result": false, "reason": "常见品种为绿色,颜色少"},
-    {"ruleId": 99, "result": true, "reason": "植物表面坚硬带刺"},
-    {"ruleId": 100, "result": true, "reason": "单一植物材质"},
-    {"ruleId": 101, "result": false, "reason": "共三个字,不满足两个字"},
-    {"ruleId": 102, "result": true, "reason": "正好三个字"},
-    {"ruleId": 103, "result": false, "reason": "不是四字"},
-    {"ruleId": 104, "result": false, "reason": "不是五字"},
-    {"ruleId": 105, "result": false, "reason": "三字中无“心”或忄部"},
-    {"ruleId": 106, "result": false, "reason": "三字中无“草”或艹部"},
-    {"ruleId": 107, "result": false, "reason": "三字中无“水”三点水"},
-    {"ruleId": 108, "result": false, "reason": "三字中无“金”或钅"},
-    {"ruleId": 109, "result": false, "reason": "无“木”或木字旁"},
-    {"ruleId": 110, "result": false, "reason": "无“火”或火字旁"},
-    {"ruleId": 111, "result": false, "reason": "无“土”或土字旁"},
-    {"ruleId": 112, "result": false, "reason": "无“日”或日字旁"},
-    {"ruleId": 113, "result": false, "reason": "无“走”或走之底"},
-    {"ruleId": 114, "result": false, "reason": "无“山”或山字旁"},
-    {"ruleId": 115, "result": false, "reason": "无“川”"},
-    {"ruleId": 116, "result": false, "reason": "无“雨”字偏旁"},
-    {"ruleId": 117, "result": true, "reason": "仙、人均为“亻/人”部"},
-    {"ruleId": 118, "result": true, "reason": "掌带“手”部"},
-    {"ruleId": 119, "result": false, "reason": "无“王”字偏旁"},
-    {"ruleId": 120, "result": false, "reason": "无“口”字偏旁"},
-    {"ruleId": 121, "result": false, "reason": "无“目”字偏旁"},
-    {"ruleId": 122, "result": false, "reason": "无“耳”字偏旁"},
-    {"ruleId": 123, "result": false, "reason": "无“足”字偏旁"},
-    {"ruleId": 124, "result": false, "reason": "无“言”字旁"},
-    {"ruleId": 125, "result": false, "reason": "无“食”部"},
-    {"ruleId": 126, "result": false, "reason": "无“衣”部"},
-    {"ruleId": 127, "result": false, "reason": "无“马”部"},
-    {"ruleId": 128, "result": false, "reason": "无“鱼”部"},
-    {"ruleId": 129, "result": false, "reason": "无“鸟”部"},
-    {"ruleId": 130, "result": false, "reason": "无“车”字旁"},
-    {"ruleId": 131, "result": true, "reason": "“仙”为左右结构,有一字为左右结构"},
-    {"ruleId": 132, "result": true, "reason": "“掌”为上下结构,有一字为上下结构"},
-    {"ruleId": 133, "result": false, "reason": "偏旁不完全相同"},
-    {"ruleId": 134, "result": false, "reason": "“仙”“人”同为人部"},
-    {"ruleId": 135, "result": true, "reason": "“人”字仅2笔,小于7"},
-    {"ruleId": 136, "result": true, "reason": "均少于10画（5,2,12，掌12>10但题意是是否所有都少于10，显然否）"},
-    {"ruleId": 137, "result": true, "reason": "掌为12画,最复杂也小于15"},
-    {"ruleId": 138, "result": false, "reason": "人、仙均少于12画"},
-    {"ruleId": 139, "result": false, "reason": "笔画：5→2→12，无递增"},
-    {"ruleId": 140, "result": false, "reason": "笔画：5→2→12，无递减"},
-    {"ruleId": 141, "result": false, "reason": "声调1-2-3，不相同"},
-    {"ruleId": 142, "result": true, "reason": "三字声调1 2 3全不同"},
-    {"ruleId": 143, "result": false, "reason": "有“仙”为第一声"},
-    {"ruleId": 144, "result": false, "reason": "有“人”为第二声"},
-    {"ruleId": 145, "result": false, "reason": "有“掌”为第三声"},
-    {"ruleId": 146, "result": true, "reason": "没有第四声字"},
-    {"ruleId": 147, "result": true, "reason": "有“仙”为第一声"},
-    {"ruleId": 148, "result": true, "reason": "有“人”为第二声"},
-    {"ruleId": 149, "result": true, "reason": "有“掌”为第三声"},
-    {"ruleId": 150, "result": false, "reason": "无第四声字"}
+    {
+      "ruleId": 1,
+      "result": true,
+      "reason": "仙人掌作为植物称呼自古有之,已存在千年"
+    },
+    {
+      "ruleId": 2,
+      "result": false,
+      "reason": "不是1950年后的新事物"
+    },
+    {
+      "ruleId": 3,
+      "result": false,
+      "reason": "大多数家庭没有养仙人掌"
+    },
+    {
+      "ruleId": 4,
+      "result": true,
+      "reason": "并不是稀有物品,多数人能见到"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "儿童和成人都可见,非儿童专属"
+    },
+    {
+      "ruleId": 6,
+      "result": true,
+      "reason": "大部分人对仙人掌没兴趣"
+    },
+    {
+      "ruleId": 7,
+      "result": false,
+      "reason": "仙人掌不是每个人都需要的东西"
+    },
+    {
+      "ruleId": 8,
+      "result": false,
+      "reason": "仙人掌对工作助益有限"
+    },
+    {
+      "ruleId": 9,
+      "result": false,
+      "reason": "日常生活也能见到仙人掌"
+    },
+    {
+      "ruleId": 10,
+      "result": true,
+      "reason": "街头市售等日常能见到仙人掌"
+    },
+    {
+      "ruleId": 11,
+      "result": false,
+      "reason": "仙人掌一般不是个人私有物"
+    },
+    {
+      "ruleId": 12,
+      "result": true,
+      "reason": "植物多为多人共享环境欣赏"
+    },
+    {
+      "ruleId": 13,
+      "result": false,
+      "reason": "植物无需电力"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "多国均有,非特定文化产物"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "世界多地都有仙人掌"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "仙人掌养护多年,不用即弃"
+    },
+    {
+      "ruleId": 17,
+      "result": true,
+      "reason": "仙人掌生命力强,可多年生长"
+    },
+    {
+      "ruleId": 18,
+      "result": true,
+      "reason": "可作为室内植物装饰"
+    },
+    {
+      "ruleId": 19,
+      "result": true,
+      "reason": "也可在室外自然生长"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "大部分人亲眼见过仙人掌"
+    },
+    {
+      "ruleId": 21,
+      "result": true,
+      "reason": "花店等地都可以买到仙人掌"
+    },
+    {
+      "ruleId": 22,
+      "result": false,
+      "reason": "办公室少见大规模仙人掌"
+    },
+    {
+      "ruleId": 23,
+      "result": false,
+      "reason": "校园虽有绿植但并不常见仙人掌"
+    },
+    {
+      "ruleId": 24,
+      "result": false,
+      "reason": "对大部分人情绪无明显影响"
+    },
+    {
+      "ruleId": 25,
+      "result": false,
+      "reason": "仙人掌通常无危险感"
+    },
+    {
+      "ruleId": 26,
+      "result": false,
+      "reason": "并非主用于娱乐或游戏"
+    },
+    {
+      "ruleId": 27,
+      "result": false,
+      "reason": "并非用来工作"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "不受季节限制,全年可见"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "任何季节都可见到仙人掌"
+    },
+    {
+      "ruleId": 30,
+      "result": false,
+      "reason": "养护和识别门槛低"
+    },
+    {
+      "ruleId": 31,
+      "result": true,
+      "reason": "普通人容易照料仙人掌"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "很少在正式场合出现"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "家庭、休闲环境常见"
+    },
+    {
+      "ruleId": 34,
+      "result": true,
+      "reason": "很多人会收藏不同品种仙人掌"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "很多家庭有仙人掌"
+    },
+    {
+      "ruleId": 36,
+      "result": false,
+      "reason": "历史上没有重大意义"
+    },
+    {
+      "ruleId": 37,
+      "result": false,
+      "reason": "古今均有种植"
+    },
+    {
+      "ruleId": 38,
+      "result": true,
+      "reason": "绿植类常作为礼物"
+    },
+    {
+      "ruleId": 39,
+      "result": false,
+      "reason": "作为礼品情况常见"
+    },
+    {
+      "ruleId": 40,
+      "result": false,
+      "reason": "普通人也能拥有"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "收入高低均有人养植仙人掌"
+    },
+    {
+      "ruleId": 42,
+      "result": true,
+      "reason": "能带上飞机托运携带"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "1小时内在花店可找到"
+    },
+    {
+      "ruleId": 44,
+      "result": false,
+      "reason": "不需要燃料"
+    },
+    {
+      "ruleId": 45,
+      "result": false,
+      "reason": "并非一次性使用"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "非季节限定植物"
+    },
+    {
+      "ruleId": 47,
+      "result": true,
+      "reason": "可反复生长多年"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "不用特别许可养植"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "世界各地广泛存在"
+    },
+    {
+      "ruleId": 50,
+      "result": false,
+      "reason": "种类繁多,数量极大"
+    },
+    {
+      "ruleId": 51,
+      "result": false,
+      "reason": "不容易损坏,生命力顽强"
+    },
+    {
+      "ruleId": 52,
+      "result": true,
+      "reason": "小盆栽易携带"
+    },
+    {
+      "ruleId": 53,
+      "result": false,
+      "reason": "不用电力"
+    },
+    {
+      "ruleId": 54,
+      "result": false,
+      "reason": "尺寸不固定,可大可小"
+    },
+    {
+      "ruleId": 55,
+      "result": true,
+      "reason": "野外本就有仙人掌"
+    },
+    {
+      "ruleId": 56,
+      "result": true,
+      "reason": "植物体内储水,外表干燥"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "通常不会漂浮水中"
+    },
+    {
+      "ruleId": 58,
+      "result": false,
+      "reason": "不是金属制品"
+    },
+    {
+      "ruleId": 59,
+      "result": false,
+      "reason": "植物本身不发声"
+    },
+    {
+      "ruleId": 60,
+      "result": false,
+      "reason": "颜色多为绿色,不鲜艳"
+    },
+    {
+      "ruleId": 61,
+      "result": false,
+      "reason": "个体不比成人大"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "不透明"
+    },
+    {
+      "ruleId": 63,
+      "result": false,
+      "reason": "通常整体为一体,不拆分"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "植物质感偏硬"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "不能折叠压扁"
+    },
+    {
+      "ruleId": 66,
+      "result": false,
+      "reason": "不需专门保养维护"
+    },
+    {
+      "ruleId": 67,
+      "result": true,
+      "reason": "带刺存在锋利边缘"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "不能直接食用"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "没有强烈气味"
+    },
+    {
+      "ruleId": 70,
+      "result": false,
+      "reason": "较小个体远小于100公斤"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "不能穿戴"
+    },
+    {
+      "ruleId": 72,
+      "result": false,
+      "reason": "本身不产生热量"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "难以点燃,不易着火"
+    },
+    {
+      "ruleId": 74,
+      "result": false,
+      "reason": "不印文字"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "无需组装"
+    },
+    {
+      "ruleId": 76,
+      "result": true,
+      "reason": "植物死亡后自然分解"
+    },
+    {
+      "ruleId": 77,
+      "result": false,
+      "reason": "难以堆叠"
+    },
+    {
+      "ruleId": 78,
+      "result": false,
+      "reason": "不反光"
+    },
+    {
+      "ruleId": 79,
+      "result": false,
+      "reason": "非金属,不被磁铁吸引"
+    },
+    {
+      "ruleId": 80,
+      "result": false,
+      "reason": "本身不发声"
+    },
+    {
+      "ruleId": 81,
+      "result": true,
+      "reason": "植物可吸水"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "质地坚硬不易弯曲"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "不可漂浮"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "随生长/环境而明显变化"
+    },
+    {
+      "ruleId": 85,
+      "result": false,
+      "reason": "对称性不强"
+    },
+    {
+      "ruleId": 86,
+      "result": false,
+      "reason": "损坏难以修复原貌"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "不用燃料"
+    },
+    {
+      "ruleId": 88,
+      "result": true,
+      "reason": "植物为活物"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "水下难见,主要陆生"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "植物体不含塑料"
+    },
+    {
+      "ruleId": 91,
+      "result": true,
+      "reason": "为木本植物含木质"
+    },
+    {
+      "ruleId": 92,
+      "result": false,
+      "reason": "非加热物品"
+    },
+    {
+      "ruleId": 93,
+      "result": false,
+      "reason": "一般不需特殊储存"
+    },
+    {
+      "ruleId": 94,
+      "result": false,
+      "reason": "自然生长,非手工制作"
+    },
+    {
+      "ruleId": 95,
+      "result": true,
+      "reason": "易于用擦拭清洁"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "不成对出现"
+    },
+    {
+      "ruleId": 97,
+      "result": true,
+      "reason": "小型仙人掌可用手握持"
+    },
+    {
+      "ruleId": 98,
+      "result": false,
+      "reason": "常见品种为绿色,颜色少"
+    },
+    {
+      "ruleId": 99,
+      "result": true,
+      "reason": "植物表面坚硬带刺"
+    },
+    {
+      "ruleId": 100,
+      "result": true,
+      "reason": "单一植物材质"
+    },
+    {
+      "ruleId": 101,
+      "result": false,
+      "reason": "共三个字,不满足两个字"
+    },
+    {
+      "ruleId": 102,
+      "result": true,
+      "reason": "正好三个字"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "不是四字"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "不是五字"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "三字中无“心”或忄部"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "三字中无“草”或艹部"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "三字中无“水”三点水"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "三字中无“金”或钅"
+    },
+    {
+      "ruleId": 109,
+      "result": false,
+      "reason": "无“木”或木字旁"
+    },
+    {
+      "ruleId": 110,
+      "result": false,
+      "reason": "无“火”或火字旁"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "无“土”或土字旁"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "无“日”或日字旁"
+    },
+    {
+      "ruleId": 113,
+      "result": false,
+      "reason": "无“走”或走之底"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "无“山”或山字旁"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "无“川”"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "无“雨”字偏旁"
+    },
+    {
+      "ruleId": 117,
+      "result": true,
+      "reason": "仙、人均为“亻/人”部"
+    },
+    {
+      "ruleId": 118,
+      "result": true,
+      "reason": "掌带“手”部"
+    },
+    {
+      "ruleId": 119,
+      "result": false,
+      "reason": "无“王”字偏旁"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "无“口”字偏旁"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "无“目”字偏旁"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "无“耳”字偏旁"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "无“足”字偏旁"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "无“言”字旁"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "无“食”部"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "无“衣”部"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "无“马”部"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "无“鱼”部"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "无“鸟”部"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "无“车”字旁"
+    },
+    {
+      "ruleId": 131,
+      "result": true,
+      "reason": "“仙”为左右结构,有一字为左右结构"
+    },
+    {
+      "ruleId": 132,
+      "result": true,
+      "reason": "“掌”为上下结构,有一字为上下结构"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "偏旁不完全相同"
+    },
+    {
+      "ruleId": 134,
+      "result": false,
+      "reason": "“仙”“人”同为人部"
+    },
+    {
+      "ruleId": 135,
+      "result": true,
+      "reason": "“人”字仅2笔,小于7"
+    },
+    {
+      "ruleId": 136,
+      "result": true,
+      "reason": "均少于10画（5,2,12，掌12>10但题意是是否所有都少于10，显然否）"
+    },
+    {
+      "ruleId": 137,
+      "result": true,
+      "reason": "掌为12画,最复杂也小于15"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "人、仙均少于12画"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "笔画：5→2→12，无递增"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "笔画：5→2→12，无递减"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "声调1-2-3，不相同"
+    },
+    {
+      "ruleId": 142,
+      "result": true,
+      "reason": "三字声调1 2 3全不同"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "有“仙”为第一声"
+    },
+    {
+      "ruleId": 144,
+      "result": false,
+      "reason": "有“人”为第二声"
+    },
+    {
+      "ruleId": 145,
+      "result": false,
+      "reason": "有“掌”为第三声"
+    },
+    {
+      "ruleId": 146,
+      "result": true,
+      "reason": "没有第四声字"
+    },
+    {
+      "ruleId": 147,
+      "result": true,
+      "reason": "有“仙”为第一声"
+    },
+    {
+      "ruleId": 148,
+      "result": true,
+      "reason": "有“人”为第二声"
+    },
+    {
+      "ruleId": 149,
+      "result": true,
+      "reason": "有“掌”为第三声"
+    },
+    {
+      "ruleId": 150,
+      "result": false,
+      "reason": "无第四声字"
+    }
   ]
 }

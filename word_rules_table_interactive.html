@@ -348,6 +348,76 @@
         .modal-btn.save:hover {
             background-color: #218838;
         }
+        /* Filter controls */
+        .filter-controls {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+        }
+        .category-filters {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+        }
+        button.active {
+            background-color: #2c3e50;
+        }
+        /* Hide rows based on filter */
+        .hide-true .row-has-true:not(.row-has-false) {
+            display: none;
+        }
+        .hide-false .row-has-false:not(.row-has-true) {
+            display: none;
+        }
+        .highlight-diff tr:not(.has-diff):not(:nth-child(1)):not(:nth-child(2)) {
+            opacity: 0.5;
+        }
+        /* Category filters */
+        .hide-context td[data-category="context"],
+        .hide-context th[data-category="context"] {
+            display: none;
+        }
+        .hide-property td[data-category="property"],
+        .hide-property th[data-category="property"] {
+            display: none;
+        }
+        .hide-wording td[data-category="wording"],
+        .hide-wording th[data-category="wording"] {
+            display: none;
+        }
+        /* Search box */
+        .search-box {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+            align-items: center;
+        }
+        #searchInput {
+            padding: 5px;
+            width: 200px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+        .legend {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-right: 15px;
+        }
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            margin-right: 5px;
+            border: 1px solid #ccc;
+        }
     </style>
 </head>
 <body>
@@ -355,12 +425,42 @@
         <h1>词语规则可视化表格 - 交互版</h1>
         
         <div class="controls">
-            <div>
-                <button id="saveChanges" class="save-btn">保存更改</button>
-                <button id="exportCSV">导出为CSV</button>
+            <div class="legend">
+                <div class="legend-item">
+                    <span class="legend-color" style="background-color: lightgreen;"></span>
+                    <span>True (是)</span>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-color" style="background-color: lightcoral;"></span>
+                    <span>False (否)</span>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-color" style="background-color: #ff6b6b; border: 3px solid #ff6b6b;"></span>
+                    <span>已修改</span>
+                </div>
             </div>
-            <div class="stats">
-                <span>已修改: <span id="changedCount">0</span></span>
+            
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="搜索ID或词语...">
+                <button id="exportCSV">导出为CSV</button>
+                <button id="saveChanges" class="save-btn">保存更改</button>
+                <div class="stats">
+                    <span>显示: <span id="visibleRowsCount">0</span>/<span id="totalRowsCount">0</span> 词</span>
+                    <span>已修改: <span id="changedCount">0</span></span>
+                </div>
+            </div>
+            
+            <div class="filter-controls">
+                <button id="filterTrue">隐藏纯True行</button>
+                <button id="filterFalse">隐藏纯False行</button>
+                <button id="highlightDiff">突出显示差异行</button>
+            </div>
+            
+            <div class="category-filters">
+                <button id="hideContext">切换语境规则 (1-50)</button>
+                <button id="hideProperty">切换属性规则 (51-100)</button>
+                <button id="hideWording">切换文字规则 (101-150)</button>
+                <button id="resetFilters">重置所有筛选</button>
             </div>
         </div>
         
@@ -399,79 +499,26 @@
         let tableData = [];
         let changedCellDetails = new Map(); // Store detailed info about changed cells
 
-        // Load table data
+        // Get rule category based on rule ID
+        function getRuleCategory(ruleId) {
+            const id = parseInt(ruleId);
+            if (id >= 1 && id <= 50) return 'context';
+            if (id >= 51 && id <= 100) return 'property';
+            if (id >= 101 && id <= 150) return 'wording';
+            return '';
+        }
+
+        // Load table data directly from JSON files
         async function loadTableData() {
             try {
-                // Load the original table HTML to extract data
-                const response = await fetch('word_rules_table.html');
-                const html = await response.text();
-                
-                // Parse the HTML to extract table data
-                const parser = new DOMParser();
-                const doc = parser.parseFromString(html, 'text/html');
-                const table = doc.querySelector('table');
-                
-                if (!table) {
-                    throw new Error('Table not found in HTML');
-                }
-
-                // Extract headers
-                const headers = [];
-                const headerRows = table.querySelectorAll('thead tr');
-                headerRows.forEach((row, rowIndex) => {
-                    const rowHeaders = [];
-                    row.querySelectorAll('th').forEach((th, colIndex) => {
-                        if (rowIndex === 0) {
-                            // Rule IDs
-                            rowHeaders.push(th.textContent.trim());
-                        } else {
-                            // Rule questions
-                            const titleDiv = th.querySelector('.rule-title');
-                            rowHeaders.push(titleDiv ? titleDiv.textContent.trim() : th.textContent.trim());
-                        }
-                    });
-                    headers.push(rowHeaders);
-                });
-
-                // Extract table body data
-                const tbody = table.querySelector('tbody');
-                const rows = tbody.querySelectorAll('tr');
-                
-                rows.forEach((row, rowIndex) => {
-                    const cells = row.querySelectorAll('td');
-                    const wordId = cells[0].textContent.trim();
-                    const word = cells[1].textContent.trim();
-                    
-                    const wordRow = {
-                        id: wordId,
-                        word: word,
-                        data: {}
-                    };
-                    
-                    // Extract cell data (skip first two columns: ID and word)
-                    for (let i = 2; i < cells.length; i++) {
-                        const cell = cells[i];
-                        const ruleId = headers[0][i];
-                        const question = headers[1][i];
-                        const result = cell.classList.contains('true');
-                        const reason = cell.querySelector('.reason-tooltip') ? 
-                            cell.querySelector('.reason-tooltip').textContent.trim() : '';
-                        
-                        wordRow.data[ruleId] = {
-                            result: result,
-                            reason: reason,
-                            question: question
-                        };
-                    }
-                    
-                    tableData.push(wordRow);
-                });
-
-                // Sort tableData by ID numerically
-                tableData.sort((a, b) => parseInt(a.id) - parseInt(b.id));
+                // Load rule questions first
+                const ruleQuestions = await loadRuleQuestions();
                 
                 // Load word JSON files
                 await loadWordJsonFiles();
+                
+                // Build table data from JSON files
+                buildTableDataFromJson(ruleQuestions);
                 
                 // Render the interactive table
                 renderTable();
@@ -480,6 +527,86 @@
                 console.error('Error loading table data:', error);
                 showSaveStatus('加载表格数据失败: ' + error.message, 'error');
             }
+        }
+
+        // Load rule questions from JSON files
+        async function loadRuleQuestions() {
+            const ruleQuestions = {};
+            
+            try {
+                // Load context rules (1-50)
+                const contextResponse = await fetch('src/resources/data/rules_zh/context_rules.json');
+                if (contextResponse.ok) {
+                    const contextRules = await contextResponse.json();
+                    contextRules.rules.forEach(rule => {
+                        ruleQuestions[rule.id] = rule.question;
+                    });
+                }
+                
+                // Load property rules (51-100)
+                const propertyResponse = await fetch('src/resources/data/rules_zh/property_rules.json');
+                if (propertyResponse.ok) {
+                    const propertyRules = await propertyResponse.json();
+                    propertyRules.rules.forEach(rule => {
+                        ruleQuestions[rule.id] = rule.question;
+                    });
+                }
+                
+                // Load wording rules (101-150)
+                const wordingResponse = await fetch('src/resources/data/rules_zh/wording_rules.json');
+                if (wordingResponse.ok) {
+                    const wordingRules = await wordingResponse.json();
+                    wordingRules.rules.forEach(rule => {
+                        ruleQuestions[rule.id] = rule.question;
+                    });
+                }
+            } catch (error) {
+                console.warn('Error loading rule questions:', error);
+            }
+            
+            return ruleQuestions;
+        }
+
+        // Build table data from loaded JSON files
+        function buildTableDataFromJson(ruleQuestions) {
+            tableData = [];
+            
+            // Process each word from wordData
+            Object.values(wordData).forEach(wordInfo => {
+                const wordRow = {
+                    id: wordInfo.id.toString(),
+                    word: wordInfo.word,
+                    data: {}
+                };
+                
+                // Initialize all rules with default values
+                for (let ruleId = 1; ruleId <= 150; ruleId++) {
+                    wordRow.data[ruleId] = {
+                        result: false,
+                        reason: '',
+                        question: ruleQuestions[ruleId] || '未知问题'
+                    };
+                }
+                
+                // Fill in actual data from questions array
+                if (wordInfo.questions) {
+                    wordInfo.questions.forEach(question => {
+                        const ruleId = parseInt(question.ruleId);
+                        if (ruleId >= 1 && ruleId <= 150) {
+                            wordRow.data[ruleId] = {
+                                result: Boolean(question.result),
+                                reason: question.reason || '',
+                                question: ruleQuestions[ruleId] || '未知问题'
+                            };
+                        }
+                    });
+                }
+                
+                tableData.push(wordRow);
+            });
+            
+            // Sort tableData by ID numerically
+            tableData.sort((a, b) => parseInt(a.id) - parseInt(b.id));
         }
 
         // Load word JSON files
@@ -494,7 +621,10 @@
                     const response = await fetch(file);
                     if (response.ok) {
                         const data = await response.json();
-                        wordData[data.id] = data;
+                        // Normalize ID to string for consistency
+                        const normalizedId = String(data.id);
+                        data.id = normalizedId;
+                        wordData[normalizedId] = data;
                     }
                 } catch (error) {
                     console.warn(`Failed to load ${file}:`, error);
@@ -515,9 +645,10 @@
             tableHTML += '<th class="word-header">词语</th>';
             
             // Add rule IDs
-            const ruleIds = Object.keys(tableData[0].data);
+            const ruleIds = Object.keys(tableData[0].data).map(id => parseInt(id)).sort((a, b) => a - b);
             ruleIds.forEach(ruleId => {
-                tableHTML += `<th>${ruleId}</th>`;
+                const category = getRuleCategory(ruleId);
+                tableHTML += `<th data-category="${category}">${ruleId}</th>`;
             });
             tableHTML += '</tr>';
             
@@ -528,7 +659,8 @@
             
             ruleIds.forEach(ruleId => {
                 const question = tableData[0].data[ruleId].question;
-                tableHTML += `<th><div class="rule-title">${question}</div></th>`;
+                const category = getRuleCategory(ruleId);
+                tableHTML += `<th data-category="${category}"><div class="rule-title">${question}</div></th>`;
             });
             tableHTML += '</tr></thead><tbody>';
             
@@ -549,6 +681,7 @@
                     const cellData = row.data[ruleId];
                     const result = cellData.result;
                     const reason = cellData.reason;
+                    const category = getRuleCategory(ruleId);
                     
                     let cellClass = result ? 'true' : 'false';
                     if (reason) cellClass += ' cell-with-reason';
@@ -556,7 +689,7 @@
                     
                     const cellId = `cell_${row.id}_${ruleId}`;
                     
-                    tableHTML += `<td class="${cellClass}" data-word-id="${row.id}" data-rule-id="${ruleId}" id="${cellId}">`;
+                    tableHTML += `<td class="${cellClass}" data-category="${category}" data-word-id="${row.id}" data-rule-id="${ruleId}" id="${cellId}">`;
                     tableHTML += result ? 'true' : 'false';
                     if (reason) {
                         tableHTML += `<div class="reason-tooltip">${reason}</div>`;
@@ -674,11 +807,92 @@
                     hideReasonModal();
                 }
             });
+            
+            // Filter functionality
+            const tableContainer = document.getElementById('tableContainer');
+            
+            // Filter true/false values
+            document.getElementById('filterTrue').addEventListener('click', function() {
+                tableContainer.classList.toggle('hide-true');
+                this.classList.toggle('active');
+            });
+            
+            document.getElementById('filterFalse').addEventListener('click', function() {
+                tableContainer.classList.toggle('hide-false');
+                this.classList.toggle('active');
+            });
+            
+            // Highlight rows with differing results
+            document.getElementById('highlightDiff').addEventListener('click', function() {
+                tableContainer.classList.toggle('highlight-diff');
+                this.classList.toggle('active');
+            });
+            
+            // Filter by category
+            document.getElementById('hideContext').addEventListener('click', function() {
+                tableContainer.classList.toggle('hide-context');
+                this.classList.toggle('active');
+            });
+            
+            document.getElementById('hideProperty').addEventListener('click', function() {
+                tableContainer.classList.toggle('hide-property');
+                this.classList.toggle('active');
+            });
+            
+            document.getElementById('hideWording').addEventListener('click', function() {
+                tableContainer.classList.toggle('hide-wording');
+                this.classList.toggle('active');
+            });
+            
+            // Toggle all filters off
+            document.getElementById('resetFilters').addEventListener('click', function() {
+                tableContainer.classList.remove(
+                    'hide-true', 
+                    'hide-false', 
+                    'highlight-diff',
+                    'hide-context',
+                    'hide-property',
+                    'hide-wording'
+                );
+                document.querySelectorAll('button').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+            });
+            
+            // Search functionality
+            document.getElementById('searchInput').addEventListener('input', function() {
+                const searchTerm = this.value.toLowerCase();
+                const rows = document.querySelectorAll('tbody tr');
+                let visibleRows = 0;
+                
+                rows.forEach(row => {
+                    const wordCell = row.querySelector('.word-cell');
+                    const idCell = row.querySelector('.id-cell');
+                    if (wordCell && idCell) {
+                        const word = wordCell.textContent.toLowerCase();
+                        const id = idCell.textContent.toLowerCase();
+                        if (word.includes(searchTerm) || id.includes(searchTerm)) {
+                            row.style.display = '';
+                            visibleRows++;
+                        } else {
+                            row.style.display = 'none';
+                        }
+                    }
+                });
+                
+                // Update visible rows count
+                document.getElementById('visibleRowsCount').textContent = visibleRows;
+            });
         }
 
         // Update statistics
         function updateStats() {
             document.getElementById('changedCount').textContent = changedCells.size;
+            
+            // Update row counts
+            const totalRows = document.querySelectorAll('tbody tr').length;
+            document.getElementById('totalRowsCount').textContent = totalRows;
+            document.getElementById('visibleRowsCount').textContent = totalRows;
             
             // Enable/disable save button
             const saveBtn = document.getElementById('saveChanges');

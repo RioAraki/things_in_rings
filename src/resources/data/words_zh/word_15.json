@@ -3,155 +3,755 @@
   "word": "狗",
   "word_en": "Dog",
   "questions": [
-    {"ruleId": 1, "result": true, "reason": "狗作为动物被驯化已超过一千年"},
-    {"ruleId": 2, "result": false, "reason": "狗并非1950年后的新事物"},
-    {"ruleId": 3, "result": true, "reason": "许多家庭都有狗"},
-    {"ruleId": 4, "result": false, "reason": "狗不是稀有物品"},
-    {"ruleId": 5, "result": false, "reason": "狗成年人和儿童都养，没有明显差异"},
-    {"ruleId": 6, "result": false, "reason": "很多人喜欢狗并对之有兴趣"},
-    {"ruleId": 7, "result": false, "reason": "狗不是每个人都需要的东西"},
-    {"ruleId": 8, "result": true, "reason": "狗作为看门、导盲等有助于工作"},
-    {"ruleId": 9, "result": false, "reason": "狗在日常生活中常见"},
-    {"ruleId": 10, "result": true, "reason": "狗日常生活中常见"},
-    {"ruleId": 11, "result": true, "reason": "狗属于个人饲养"},
-    {"ruleId": 12, "result": true, "reason": "有时狗属于一整个家庭或多人"},
-    {"ruleId": 13, "result": false, "reason": "狗不需要电力才能生活"},
-    {"ruleId": 14, "result": false, "reason": "各国/文化均有狗"},
-    {"ruleId": 15, "result": true, "reason": "许多国家都能看到狗"},
-    {"ruleId": 16, "result": false, "reason": "狗不能用后丢弃"},
-    {"ruleId": 17, "result": true, "reason": "狗可以陪伴多年"},
-    {"ruleId": 18, "result": true, "reason": "狗可在室内生活"},
-    {"ruleId": 19, "result": true, "reason": "狗也可在室外生活"},
-    {"ruleId": 20, "result": true, "reason": "大部分人都见过狗"},
-    {"ruleId": 21, "result": false, "reason": "狗一般不是在商店，需在宠物店等购买"},
-    {"ruleId": 22, "result": false, "reason": "办公室极少见到狗"},
-    {"ruleId": 23, "result": false, "reason": "学校里一般不见狗"},
-    {"ruleId": 24, "result": true, "reason": "狗常让人感到快乐"},
-    {"ruleId": 25, "result": false, "reason": "狗一般不让人有危险感"},
-    {"ruleId": 26, "result": true, "reason": "狗可用于娱乐、玩耍"},
-    {"ruleId": 27, "result": true, "reason": "狗可用于重要工作如导盲等"},
-    {"ruleId": 28, "result": false, "reason": "狗一年四季都可养"},
-    {"ruleId": 29, "result": true, "reason": "狗全年可养"},
-    {"ruleId": 30, "result": false, "reason": "基本养狗门槛不高"},
-    {"ruleId": 31, "result": true, "reason": "一般人养狗容易上手"},
-    {"ruleId": 32, "result": false, "reason": "狗不常出现在正式场合"},
-    {"ruleId": 33, "result": true, "reason": "狗常出现在休闲环境"},
-    {"ruleId": 34, "result": false, "reason": "狗不是收藏品"},
-    {"ruleId": 35, "result": false, "reason": "许多家庭有狗"},
-    {"ruleId": 36, "result": false, "reason": "狗对历史影响不如文化遗物"},
-    {"ruleId": 37, "result": false, "reason": "狗古今皆有"},
-    {"ruleId": 38, "result": false, "reason": "狗很少作为礼物赠送"},
-    {"ruleId": 39, "result": true, "reason": "狗很少被直接当礼物"},
-    {"ruleId": 40, "result": false, "reason": "并非只有有钱人才有狗"},
-    {"ruleId": 41, "result": true, "reason": "各收入阶层都有养狗"},
-    {"ruleId": 42, "result": false, "reason": "一般宠物狗不能随意带上飞机"},
-    {"ruleId": 43, "result": true, "reason": "一小时内可于小区等见到狗"},
-    {"ruleId": 44, "result": false, "reason": "狗不需燃料"},
-    {"ruleId": 45, "result": false, "reason": "狗自身不可“一次性使用”"},
-    {"ruleId": 46, "result": false, "reason": "狗不限定季节"},
-    {"ruleId": 47, "result": true, "reason": "狗可长期陪伴"},
-    {"ruleId": 48, "result": false, "reason": "养狗一般不需许可（部分地区例外）"},
-    {"ruleId": 49, "result": true, "reason": "世界各地狗数量众多"},
-    {"ruleId": 50, "result": false, "reason": "狗不是唯一"},
-    {"ruleId": 51, "result": false, "reason": "狗不算容易损坏"},
-    {"ruleId": 52, "result": true, "reason": "小型犬易携带"},
-    {"ruleId": 53, "result": false, "reason": "狗不需要电"},
-    {"ruleId": 54, "result": false, "reason": "狗体型差异大"},
-    {"ruleId": 55, "result": true, "reason": "狗为自然界生物"},
-    {"ruleId": 56, "result": false, "reason": "狗在水中一般无法保持干燥"},
-    {"ruleId": 57, "result": false, "reason": "多数狗无法漂浮（会游泳，但沉入水中）"},
-    {"ruleId": 58, "result": false, "reason": "狗不是金属制成"},
-    {"ruleId": 59, "result": true, "reason": "狗会发出叫声"},
-    {"ruleId": 60, "result": false, "reason": "多为褐、白、黑等常见色"},
-    {"ruleId": 61, "result": false, "reason": "狗体型小于人"},
-    {"ruleId": 62, "result": false, "reason": "狗不透明"},
-    {"ruleId": 63, "result": false, "reason": "狗不可拆分成组件"},
-    {"ruleId": 64, "result": false, "reason": "狗体感不“柔软”"},
-    {"ruleId": 65, "result": false, "reason": "狗不可折叠压扁"},
-    {"ruleId": 66, "result": true, "reason": "狗需日常护理"},
-    {"ruleId": 67, "result": false, "reason": "狗身体无锋利边缘"},
-    {"ruleId": 68, "result": false, "reason": "狗不可食用（多数地区/文化）"},
-    {"ruleId": 69, "result": false, "reason": "狗通常气味不算强烈"},
-    {"ruleId": 70, "result": false, "reason": "狗体重一般小于100公斤"},
-    {"ruleId": 71, "result": false, "reason": "狗不可穿戴"},
-    {"ruleId": 72, "result": true, "reason": "狗是活物会产生热量"},
-    {"ruleId": 73, "result": false, "reason": "狗不易着火"},
-    {"ruleId": 74, "result": false, "reason": "狗表面无文字"},
-    {"ruleId": 75, "result": false, "reason": "狗不需组装"},
-    {"ruleId": 76, "result": true, "reason": "狗生命结束后自然分解"},
-    {"ruleId": 77, "result": false, "reason": "狗不可堆叠"},
-    {"ruleId": 78, "result": false, "reason": "狗无光泽反光"},
-    {"ruleId": 79, "result": false, "reason": "狗不被磁铁吸引"},
-    {"ruleId": 80, "result": true, "reason": "狗能发出声音"},
-    {"ruleId": 81, "result": false, "reason": "狗不具备吸水功能"},
-    {"ruleId": 82, "result": false, "reason": "狗不可弯曲"},
-    {"ruleId": 83, "result": false, "reason": "狗不能长时间浮于水面"},
-    {"ruleId": 84, "result": true, "reason": "狗随时间会成长变化"},
-    {"ruleId": 85, "result": false, "reason": "狗两侧不对称"},
-    {"ruleId": 86, "result": false, "reason": "狗损伤后不可“修复”"},
-    {"ruleId": 87, "result": false, "reason": "狗不需燃料"},
-    {"ruleId": 88, "result": true, "reason": "狗是活物"},
-    {"ruleId": 89, "result": false, "reason": "狗不能在水下长期见到"},
-    {"ruleId": 90, "result": false, "reason": "狗身上不含塑料"},
-    {"ruleId": 91, "result": false, "reason": "狗身上不含木头"},
-    {"ruleId": 92, "result": false, "reason": "狗不可加热"},
-    {"ruleId": 93, "result": false, "reason": "养狗一般不需特殊储存"},
-    {"ruleId": 94, "result": false, "reason": "狗不是手工制作"},
-    {"ruleId": 95, "result": false, "reason": "狗护理不是“易清洁”"},
-    {"ruleId": 96, "result": false, "reason": "狗不成对出现"},
-    {"ruleId": 97, "result": false, "reason": "不能单手握住狗"},
-    {"ruleId": 98, "result": false, "reason": "狗颜色有限"},
-    {"ruleId": 99, "result": false, "reason": "狗体感不坚硬"},
-    {"ruleId": 100, "result": true, "reason": "狗为单一材质（生物体）"},
-    {"ruleId": 101, "result": false, "reason": "“狗”为单字"},
-    {"ruleId": 102, "result": false, "reason": "非三字"},
-    {"ruleId": 103, "result": false, "reason": "非四字"},
-    {"ruleId": 104, "result": true, "reason": "是一个字"},
-    {"ruleId": 105, "result": false, "reason": "“狗”无心偏旁"},
-    {"ruleId": 106, "result": false, "reason": "“狗”无草偏旁"},
-    {"ruleId": 107, "result": false, "reason": "“狗”无水偏旁"},
-    {"ruleId": 108, "result": false, "reason": "“狗”无金偏旁"},
-    {"ruleId": 109, "result": false, "reason": "“狗”无木偏旁"},
-    {"ruleId": 110, "result": false, "reason": "“狗”无火偏旁"},
-    {"ruleId": 111, "result": false, "reason": "“狗”无土偏旁"},
-    {"ruleId": 112, "result": false, "reason": "“狗”无日偏旁"},
-    {"ruleId": 113, "result": false, "reason": "“狗”无走偏旁"},
-    {"ruleId": 114, "result": false, "reason": "“狗”无山偏旁"},
-    {"ruleId": 115, "result": false, "reason": "“狗”无川偏旁"},
-    {"ruleId": 116, "result": false, "reason": "“狗”无雨偏旁"},
-    {"ruleId": 117, "result": false, "reason": "“狗”无人偏旁"},
-    {"ruleId": 118, "result": false, "reason": "“狗”无手偏旁"},
-    {"ruleId": 119, "result": false, "reason": "“狗”无王偏旁"},
-    {"ruleId": 120, "result": false, "reason": "“狗”无口部"},
-    {"ruleId": 121, "result": false, "reason": "“狗”无目部"},
-    {"ruleId": 122, "result": false, "reason": "“狗”无耳偏旁"},
-    {"ruleId": 123, "result": false, "reason": "“狗”无足偏旁"},
-    {"ruleId": 124, "result": false, "reason": "“狗”无言偏旁"},
-    {"ruleId": 125, "result": false, "reason": "“狗”无食字旁"},
-    {"ruleId": 126, "result": false, "reason": "“狗”无衣字旁"},
-    {"ruleId": 127, "result": false, "reason": "“狗”无马字旁"},
-    {"ruleId": 128, "result": false, "reason": "“狗”无鱼字旁"},
-    {"ruleId": 129, "result": false, "reason": "“狗”无鸟字旁"},
-    {"ruleId": 130, "result": false, "reason": "“狗”无车字旁"},
-    {"ruleId": 131, "result": true, "reason": "“狗”为左右结构（犭+句）"},
-    {"ruleId": 132, "result": false, "reason": "“狗”不是上下结构"},
-    {"ruleId": 133, "result": true, "reason": "仅有一个字偏旁为“犭”"},
-    {"ruleId": 134, "result": false, "reason": "只有一个字无比较"},
-    {"ruleId": 135, "result": true, "reason": "“狗”仅8画，少于7画为false"},
-    {"ruleId": 136, "result": true, "reason": "只有一个字且8画，少于10画"},
-    {"ruleId": 137, "result": true, "reason": "只有一个字，8画少于15画"},
-    {"ruleId": 138, "result": false, "reason": "笔画未超12画"},
-    {"ruleId": 139, "result": false, "reason": "只有一个字"},
-    {"ruleId": 140, "result": false, "reason": "只有一个字"},
-    {"ruleId": 141, "result": true, "reason": "只有一个字，只是第三声"},
-    {"ruleId": 142, "result": false, "reason": "只有一个字"},
-    {"ruleId": 143, "result": false, "reason": "“狗”为第三声"},
-    {"ruleId": 144, "result": true, "reason": "没有第二声"},
-    {"ruleId": 145, "result": false, "reason": "有第三声"},
-    {"ruleId": 146, "result": true, "reason": "没有第四声"},
-    {"ruleId": 147, "result": false, "reason": "没有第一声"},
-    {"ruleId": 148, "result": false, "reason": "没有第二声"},
-    {"ruleId": 149, "result": true, "reason": "含有第三声"},
-    {"ruleId": 150, "result": false, "reason": "没有第四声"}
+    {
+      "ruleId": 1,
+      "result": true,
+      "reason": "狗作为动物被驯化已超过一千年"
+    },
+    {
+      "ruleId": 2,
+      "result": false,
+      "reason": "狗并非1950年后的新事物"
+    },
+    {
+      "ruleId": 3,
+      "result": false,
+      "reason": "并非大多数家庭都养宠物"
+    },
+    {
+      "ruleId": 4,
+      "result": false,
+      "reason": "狗不是稀有物品"
+    },
+    {
+      "ruleId": 5,
+      "result": false,
+      "reason": "狗成年人和儿童都养，没有明显差异"
+    },
+    {
+      "ruleId": 6,
+      "result": false,
+      "reason": "很多人喜欢狗并对之有兴趣"
+    },
+    {
+      "ruleId": 7,
+      "result": false,
+      "reason": "狗不是每个人都需要的东西"
+    },
+    {
+      "ruleId": 8,
+      "result": true,
+      "reason": "狗作为看门、导盲等有助于工作"
+    },
+    {
+      "ruleId": 9,
+      "result": false,
+      "reason": "狗在日常生活中常见"
+    },
+    {
+      "ruleId": 10,
+      "result": true,
+      "reason": "狗日常生活中常见"
+    },
+    {
+      "ruleId": 11,
+      "result": true,
+      "reason": "狗属于个人饲养"
+    },
+    {
+      "ruleId": 12,
+      "result": true,
+      "reason": "有时狗属于一整个家庭或多人"
+    },
+    {
+      "ruleId": 13,
+      "result": false,
+      "reason": "狗不需要电力才能生活"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "各国/文化均有狗"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "许多国家都能看到狗"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "狗不能用后丢弃"
+    },
+    {
+      "ruleId": 17,
+      "result": true,
+      "reason": "狗可以陪伴多年"
+    },
+    {
+      "ruleId": 18,
+      "result": true,
+      "reason": "狗可在室内生活"
+    },
+    {
+      "ruleId": 19,
+      "result": true,
+      "reason": "狗也可在室外生活"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "大部分人都见过狗"
+    },
+    {
+      "ruleId": 21,
+      "result": false,
+      "reason": "狗一般不是在商店，需在宠物店等购买"
+    },
+    {
+      "ruleId": 22,
+      "result": false,
+      "reason": "办公室极少见到狗"
+    },
+    {
+      "ruleId": 23,
+      "result": false,
+      "reason": "学校里一般不见狗"
+    },
+    {
+      "ruleId": 24,
+      "result": true,
+      "reason": "狗常让人感到快乐"
+    },
+    {
+      "ruleId": 25,
+      "result": false,
+      "reason": "狗一般不让人有危险感"
+    },
+    {
+      "ruleId": 26,
+      "result": true,
+      "reason": "狗可用于娱乐、玩耍"
+    },
+    {
+      "ruleId": 27,
+      "result": true,
+      "reason": "狗可用于重要工作如导盲等"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "狗一年四季都可养"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "狗全年可养"
+    },
+    {
+      "ruleId": 30,
+      "result": false,
+      "reason": "基本养狗门槛不高"
+    },
+    {
+      "ruleId": 31,
+      "result": true,
+      "reason": "一般人养狗容易上手"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "狗不常出现在正式场合"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "狗常出现在休闲环境"
+    },
+    {
+      "ruleId": 34,
+      "result": false,
+      "reason": "狗不是收藏品"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "许多家庭有狗"
+    },
+    {
+      "ruleId": 36,
+      "result": false,
+      "reason": "狗对历史影响不如文化遗物"
+    },
+    {
+      "ruleId": 37,
+      "result": false,
+      "reason": "狗古今皆有"
+    },
+    {
+      "ruleId": 38,
+      "result": false,
+      "reason": "狗很少作为礼物赠送"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "狗很少被直接当礼物"
+    },
+    {
+      "ruleId": 40,
+      "result": false,
+      "reason": "并非只有有钱人才有狗"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "各收入阶层都有养狗"
+    },
+    {
+      "ruleId": 42,
+      "result": false,
+      "reason": "一般宠物狗不能随意带上飞机"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "一小时内可于小区等见到狗"
+    },
+    {
+      "ruleId": 44,
+      "result": false,
+      "reason": "狗不需燃料"
+    },
+    {
+      "ruleId": 45,
+      "result": false,
+      "reason": "狗自身不可“一次性使用”"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "狗不限定季节"
+    },
+    {
+      "ruleId": 47,
+      "result": true,
+      "reason": "狗可长期陪伴"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "养狗一般不需许可（部分地区例外）"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "世界各地狗数量众多"
+    },
+    {
+      "ruleId": 50,
+      "result": false,
+      "reason": "狗不是唯一"
+    },
+    {
+      "ruleId": 51,
+      "result": false,
+      "reason": "狗不算容易损坏"
+    },
+    {
+      "ruleId": 52,
+      "result": true,
+      "reason": "小型犬易携带"
+    },
+    {
+      "ruleId": 53,
+      "result": false,
+      "reason": "狗不需要电"
+    },
+    {
+      "ruleId": 54,
+      "result": false,
+      "reason": "狗体型差异大"
+    },
+    {
+      "ruleId": 55,
+      "result": true,
+      "reason": "狗为自然界生物"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "狗在水中一般无法保持干燥"
+    },
+    {
+      "ruleId": 57,
+      "result": false,
+      "reason": "多数狗无法漂浮（会游泳，但沉入水中）"
+    },
+    {
+      "ruleId": 58,
+      "result": false,
+      "reason": "狗不是金属制成"
+    },
+    {
+      "ruleId": 59,
+      "result": true,
+      "reason": "狗会发出叫声"
+    },
+    {
+      "ruleId": 60,
+      "result": false,
+      "reason": "多为褐、白、黑等常见色"
+    },
+    {
+      "ruleId": 61,
+      "result": false,
+      "reason": "狗体型小于人"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "狗不透明"
+    },
+    {
+      "ruleId": 63,
+      "result": false,
+      "reason": "狗不可拆分成组件"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "狗体感不“柔软”"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "狗不可折叠压扁"
+    },
+    {
+      "ruleId": 66,
+      "result": true,
+      "reason": "狗需日常护理"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "狗身体无锋利边缘"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "狗不可食用（多数地区/文化）"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "狗通常气味不算强烈"
+    },
+    {
+      "ruleId": 70,
+      "result": false,
+      "reason": "狗体重一般小于100公斤"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "狗不可穿戴"
+    },
+    {
+      "ruleId": 72,
+      "result": true,
+      "reason": "狗是活物会产生热量"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "狗不易着火"
+    },
+    {
+      "ruleId": 74,
+      "result": false,
+      "reason": "狗表面无文字"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "狗不需组装"
+    },
+    {
+      "ruleId": 76,
+      "result": true,
+      "reason": "狗生命结束后自然分解"
+    },
+    {
+      "ruleId": 77,
+      "result": false,
+      "reason": "狗不可堆叠"
+    },
+    {
+      "ruleId": 78,
+      "result": false,
+      "reason": "狗无光泽反光"
+    },
+    {
+      "ruleId": 79,
+      "result": false,
+      "reason": "狗不被磁铁吸引"
+    },
+    {
+      "ruleId": 80,
+      "result": true,
+      "reason": "狗能发出声音"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "狗不具备吸水功能"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "狗不可弯曲"
+    },
+    {
+      "ruleId": 83,
+      "result": false,
+      "reason": "狗不能长时间浮于水面"
+    },
+    {
+      "ruleId": 84,
+      "result": true,
+      "reason": "狗随时间会成长变化"
+    },
+    {
+      "ruleId": 85,
+      "result": false,
+      "reason": "狗两侧不对称"
+    },
+    {
+      "ruleId": 86,
+      "result": false,
+      "reason": "狗损伤后不可“修复”"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "狗不需燃料"
+    },
+    {
+      "ruleId": 88,
+      "result": true,
+      "reason": "狗是活物"
+    },
+    {
+      "ruleId": 89,
+      "result": false,
+      "reason": "狗不能在水下长期见到"
+    },
+    {
+      "ruleId": 90,
+      "result": false,
+      "reason": "狗身上不含塑料"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "狗身上不含木头"
+    },
+    {
+      "ruleId": 92,
+      "result": false,
+      "reason": "狗不可加热"
+    },
+    {
+      "ruleId": 93,
+      "result": false,
+      "reason": "养狗一般不需特殊储存"
+    },
+    {
+      "ruleId": 94,
+      "result": false,
+      "reason": "狗不是手工制作"
+    },
+    {
+      "ruleId": 95,
+      "result": false,
+      "reason": "狗护理不是“易清洁”"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "狗不成对出现"
+    },
+    {
+      "ruleId": 97,
+      "result": false,
+      "reason": "不能单手握住狗"
+    },
+    {
+      "ruleId": 98,
+      "result": false,
+      "reason": "狗颜色有限"
+    },
+    {
+      "ruleId": 99,
+      "result": false,
+      "reason": "狗体感不坚硬"
+    },
+    {
+      "ruleId": 100,
+      "result": true,
+      "reason": "狗为单一材质（生物体）"
+    },
+    {
+      "ruleId": 101,
+      "result": false,
+      "reason": "“狗”为单字"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "非三字"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "非四字"
+    },
+    {
+      "ruleId": 104,
+      "result": true,
+      "reason": "是一个字"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "“狗”无心偏旁"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "“狗”无草偏旁"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "“狗”无水偏旁"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "“狗”无金偏旁"
+    },
+    {
+      "ruleId": 109,
+      "result": false,
+      "reason": "“狗”无木偏旁"
+    },
+    {
+      "ruleId": 110,
+      "result": false,
+      "reason": "“狗”无火偏旁"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "“狗”无土偏旁"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "“狗”无日偏旁"
+    },
+    {
+      "ruleId": 113,
+      "result": false,
+      "reason": "“狗”无走偏旁"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "“狗”无山偏旁"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "“狗”无川偏旁"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "“狗”无雨偏旁"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "“狗”无人偏旁"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "“狗”无手偏旁"
+    },
+    {
+      "ruleId": 119,
+      "result": false,
+      "reason": "“狗”无王偏旁"
+    },
+    {
+      "ruleId": 120,
+      "result": false,
+      "reason": "“狗”无口部"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "“狗”无目部"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "“狗”无耳偏旁"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "“狗”无足偏旁"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "“狗”无言偏旁"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "“狗”无食字旁"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "“狗”无衣字旁"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "“狗”无马字旁"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "“狗”无鱼字旁"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "“狗”无鸟字旁"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "“狗”无车字旁"
+    },
+    {
+      "ruleId": 131,
+      "result": true,
+      "reason": "“狗”为左右结构（犭+句）"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "“狗”不是上下结构"
+    },
+    {
+      "ruleId": 133,
+      "result": true,
+      "reason": "仅有一个字偏旁为“犭”"
+    },
+    {
+      "ruleId": 134,
+      "result": false,
+      "reason": "只有一个字无比较"
+    },
+    {
+      "ruleId": 135,
+      "result": true,
+      "reason": "“狗”仅8画，少于7画为false"
+    },
+    {
+      "ruleId": 136,
+      "result": true,
+      "reason": "只有一个字且8画，少于10画"
+    },
+    {
+      "ruleId": 137,
+      "result": true,
+      "reason": "只有一个字，8画少于15画"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "笔画未超12画"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "只有一个字"
+    },
+    {
+      "ruleId": 140,
+      "result": false,
+      "reason": "只有一个字"
+    },
+    {
+      "ruleId": 141,
+      "result": true,
+      "reason": "只有一个字，只是第三声"
+    },
+    {
+      "ruleId": 142,
+      "result": false,
+      "reason": "只有一个字"
+    },
+    {
+      "ruleId": 143,
+      "result": false,
+      "reason": "“狗”为第三声"
+    },
+    {
+      "ruleId": 144,
+      "result": true,
+      "reason": "没有第二声"
+    },
+    {
+      "ruleId": 145,
+      "result": false,
+      "reason": "有第三声"
+    },
+    {
+      "ruleId": 146,
+      "result": true,
+      "reason": "没有第四声"
+    },
+    {
+      "ruleId": 147,
+      "result": false,
+      "reason": "没有第一声"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "没有第二声"
+    },
+    {
+      "ruleId": 149,
+      "result": true,
+      "reason": "含有第三声"
+    },
+    {
+      "ruleId": 150,
+      "result": false,
+      "reason": "没有第四声"
+    }
   ]
 }

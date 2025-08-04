@@ -3,155 +3,755 @@
   "word": "哨子",
   "word_en": "Whistle",
   "questions": [
-    {"ruleId": 1, "result": false, "reason": "哨子为近现代物品未超过1000年"},
-    {"ruleId": 2, "result": false, "reason": "哨子在1950年以前已存在"},
-    {"ruleId": 3, "result": false, "reason": "大多数家庭没有哨子"},
-    {"ruleId": 4, "result": true, "reason": "哨子为大多数人没有的稀有物品"},
-    {"ruleId": 5, "result": true, "reason": "儿童（游戏/体育）比成人更多用"},
-    {"ruleId": 6, "result": true, "reason": "大部分人对其没兴趣"},
-    {"ruleId": 7, "result": false, "reason": "哨子不是每个人都需要"},
-    {"ruleId": 8, "result": true, "reason": "有助于（警察/体育）工作"},
-    {"ruleId": 9, "result": false, "reason": "非特殊场合专用"},
-    {"ruleId": 10, "result": false, "reason": "日常生活中不常见"},
-    {"ruleId": 11, "result": true, "reason": "哨子常属于个人专有物"},
-    {"ruleId": 12, "result": false, "reason": "通常为个人用品不常多人共用"},
-    {"ruleId": 13, "result": false, "reason": "哨子不需要电力"},
-    {"ruleId": 14, "result": false, "reason": "并非某国独有"},
-    {"ruleId": 15, "result": true, "reason": "世界许多国家都有哨子"},
-    {"ruleId": 16, "result": false, "reason": "可以长期重复使用"},
-    {"ruleId": 17, "result": true, "reason": "哨子可多年使用"},
-    {"ruleId": 18, "result": true, "reason": "可在室内使用"},
-    {"ruleId": 19, "result": true, "reason": "也可在室外使用"},
-    {"ruleId": 20, "result": true, "reason": "多数人亲眼见过哨子"},
-    {"ruleId": 21, "result": true, "reason": "商店可买到哨子"},
-    {"ruleId": 22, "result": false, "reason": "办公室很少见到"},
-    {"ruleId": 23, "result": true, "reason": "学校体育较常见"},
-    {"ruleId": 24, "result": true, "reason": "游戏/运动中可带来快乐"},
-    {"ruleId": 25, "result": false, "reason": "哨子通常不让人感到危险"},
-    {"ruleId": 26, "result": true, "reason": "可作娱乐或游戏工具"},
-    {"ruleId": 27, "result": true, "reason": "可在工作（如裁判）中用"},
-    {"ruleId": 28, "result": false, "reason": "无季节限制"},
-    {"ruleId": 29, "result": true, "reason": "哨子全年皆可用"},
-    {"ruleId": 30, "result": false, "reason": "学习门槛低"},
-    {"ruleId": 31, "result": true, "reason": "任何人容易使用"},
-    {"ruleId": 32, "result": false, "reason": "很少在正式场合出现"},
-    {"ruleId": 33, "result": true, "reason": "休闲环境可用哨子"},
-    {"ruleId": 34, "result": false, "reason": "基本无人专门收藏哨子"},
-    {"ruleId": 35, "result": false, "reason": "家庭可见哨子"},
-    {"ruleId": 36, "result": false, "reason": "哨子历史地位不高"},
-    {"ruleId": 37, "result": false, "reason": "古今均有应用"},
-    {"ruleId": 38, "result": false, "reason": "哨子很少做礼物"},
-    {"ruleId": 39, "result": true, "reason": "很少作为礼物赠送"},
-    {"ruleId": 40, "result": false, "reason": "并非有钱人拥有"},
-    {"ruleId": 41, "result": true, "reason": "各收入阶层均可使用"},
-    {"ruleId": 42, "result": true, "reason": "哨子可随身携带上飞机"},
-    {"ruleId": 43, "result": true, "reason": "一小时内易获得哨子"},
-    {"ruleId": 44, "result": false, "reason": "不用燃料即可使用"},
-    {"ruleId": 45, "result": false, "reason": "并非一次性用品"},
-    {"ruleId": 46, "result": false, "reason": "四季均可用"},
-    {"ruleId": 47, "result": true, "reason": "可反复多次使用"},
-    {"ruleId": 48, "result": false, "reason": "无需许可"},
-    {"ruleId": 49, "result": true, "reason": "世界各地大量存在哨子"},
-    {"ruleId": 50, "result": false, "reason": "并非独一无二"},
-    {"ruleId": 51, "result": false, "reason": "一般不易损坏"},
-    {"ruleId": 52, "result": true, "reason": "小巧易携带"},
-    {"ruleId": 53, "result": false, "reason": "不需要电力"},
-    {"ruleId": 54, "result": false, "reason": "哨子有各种尺寸"},
-    {"ruleId": 55, "result": false, "reason": "哨子为人造物"},
-    {"ruleId": 56, "result": false, "reason": "水中不能保持完全干燥"},
-    {"ruleId": 57, "result": true, "reason": "多数塑料哨子能漂浮"},
-    {"ruleId": 58, "result": false, "reason": "并不全由金属制成"},
-    {"ruleId": 59, "result": true, "reason": "使用时会响"},
-    {"ruleId": 60, "result": true, "reason": "常有鲜艳颜色"},
-    {"ruleId": 61, "result": false, "reason": "远小于人"},
-    {"ruleId": 62, "result": false, "reason": "并不透明"},
-    {"ruleId": 63, "result": false, "reason": "无法拆分组件"},
-    {"ruleId": 64, "result": false, "reason": "多为硬质材料（如塑料、金属）"},
-    {"ruleId": 65, "result": false, "reason": "不易折叠压扁"},
-    {"ruleId": 66, "result": false, "reason": "基本无需特殊保养维护"},
-    {"ruleId": 67, "result": false, "reason": "通常表面无锋利边缘"},
-    {"ruleId": 68, "result": false, "reason": "不能食用"},
-    {"ruleId": 69, "result": false, "reason": "通常无强烈气味"},
-    {"ruleId": 70, "result": false, "reason": "很轻远小于100公斤"},
-    {"ruleId": 71, "result": false, "reason": "是手持而非穿戴用品"},
-    {"ruleId": 72, "result": false, "reason": "不主动产生热量"},
-    {"ruleId": 73, "result": false, "reason": "不易着火"},
-    {"ruleId": 74, "result": false, "reason": "哨子表面一般无字"},
-    {"ruleId": 75, "result": false, "reason": "无需组装"},
-    {"ruleId": 76, "result": false, "reason": "塑料金属哨子自然界难分解"},
-    {"ruleId": 77, "result": false, "reason": "不能堆叠"},
-    {"ruleId": 78, "result": true, "reason": "金属或塑料有光泽"},
-    {"ruleId": 79, "result": true, "reason": "金属哨子可被磁铁吸引"},
-    {"ruleId": 80, "result": true, "reason": "能发声"},
-    {"ruleId": 81, "result": false, "reason": "不吸水"},
-    {"ruleId": 82, "result": false, "reason": "材质坚硬不易弯曲"},
-    {"ruleId": 83, "result": true, "reason": "多数哨子能漂浮于水"},
-    {"ruleId": 84, "result": false, "reason": "哨子不随时间本质变化"},
-    {"ruleId": 85, "result": true, "reason": "两侧多对称"},
-    {"ruleId": 86, "result": true, "reason": "损坏后有时能修复"},
-    {"ruleId": 87, "result": false, "reason": "不需燃料驱动"},
-    {"ruleId": 88, "result": false, "reason": "非活物"},
-    {"ruleId": 89, "result": true, "reason": "水下也能看到哨子"},
-    {"ruleId": 90, "result": true, "reason": "塑料哨子常见"},
-    {"ruleId": 91, "result": false, "reason": "很少包含木头"},
-    {"ruleId": 92, "result": true, "reason": "可加热消毒但需小心"},
-    {"ruleId": 93, "result": false, "reason": "不需特殊储存"},
-    {"ruleId": 94, "result": true, "reason": "有手工制哨子"},
-    {"ruleId": 95, "result": true, "reason": "清洗简单"},
-    {"ruleId": 96, "result": false, "reason": "一般单只，不成对"},
-    {"ruleId": 97, "result": true, "reason": "可用手握住"},
-    {"ruleId": 98, "result": true, "reason": "有很多颜色"},
-    {"ruleId": 99, "result": true, "reason": "摸起来坚硬"},
-    {"ruleId": 100, "result": false, "reason": "材质多样（塑料、金属等）"},
-    {"ruleId": 101, "result": true, "reason": "“哨子”是两个字"},
-    {"ruleId": 102, "result": false, "reason": "并非三个字"},
-    {"ruleId": 103, "result": false, "reason": "并非四个字"},
-    {"ruleId": 104, "result": false, "reason": "并非五个字"},
-    {"ruleId": 105, "result": false, "reason": "无“心”字或偏旁"},
-    {"ruleId": 106, "result": false, "reason": "无“草”字或偏旁"},
-    {"ruleId": 107, "result": false, "reason": "无“水”字或偏旁"},
-    {"ruleId": 108, "result": false, "reason": "无“金”字或偏旁"},
-    {"ruleId": 109, "result": false, "reason": "无“木”字或偏旁"},
-    {"ruleId": 110, "result": false, "reason": "无“火”字或偏旁"},
-    {"ruleId": 111, "result": false, "reason": "无“土”字或偏旁"},
-    {"ruleId": 112, "result": false, "reason": "无“日”字或偏旁"},
-    {"ruleId": 113, "result": false, "reason": "无“走”字或偏旁"},
-    {"ruleId": 114, "result": false, "reason": "无“山”字或偏旁"},
-    {"ruleId": 115, "result": false, "reason": "无“川”字或偏旁"},
-    {"ruleId": 116, "result": false, "reason": "无“雨”字或偏旁"},
-    {"ruleId": 117, "result": false, "reason": "无“人”字或偏旁"},
-    {"ruleId": 118, "result": false, "reason": "无“手”字或偏旁"},
-    {"ruleId": 119, "result": false, "reason": "无“王”字或偏旁"},
-    {"ruleId": 120, "result": true, "reason": "“哨”有“口”字旁"},
-    {"ruleId": 121, "result": false, "reason": "无“目”字或偏旁"},
-    {"ruleId": 122, "result": false, "reason": "无“耳”字或偏旁"},
-    {"ruleId": 123, "result": false, "reason": "无“足”字或偏旁"},
-    {"ruleId": 124, "result": false, "reason": "无“言”字或偏旁"},
-    {"ruleId": 125, "result": false, "reason": "无“食”字或偏旁"},
-    {"ruleId": 126, "result": false, "reason": "无“衣”字或偏旁"},
-    {"ruleId": 127, "result": false, "reason": "无“马”字或偏旁"},
-    {"ruleId": 128, "result": false, "reason": "无“鱼”字或偏旁"},
-    {"ruleId": 129, "result": false, "reason": "无“鸟”字或偏旁"},
-    {"ruleId": 130, "result": false, "reason": "无“车”字或偏旁"},
-    {"ruleId": 131, "result": true, "reason": "“哨”为左右结构"},
-    {"ruleId": 132, "result": false, "reason": "“子”为独体，“哨”分左右结构"},
-    {"ruleId": 133, "result": false, "reason": "两字偏旁不同"},
-    {"ruleId": 134, "result": true, "reason": "两字偏旁都不同"},
-    {"ruleId": 135, "result": true, "reason": "“子”仅3画，少于7画"},
-    {"ruleId": 136, "result": true, "reason": "两字皆少于10画"},
-    {"ruleId": 137, "result": true, "reason": "最大10画（哨）少于15画"},
-    {"ruleId": 138, "result": false, "reason": "“子”仅3画，不全多于12画"},
-    {"ruleId": 139, "result": false, "reason": "10->3，非递增"},
-    {"ruleId": 140, "result": true, "reason": "10->3，笔画递减"},
-    {"ruleId": 141, "result": false, "reason": "分别第四声与第三声，声调不同"},
-    {"ruleId": 142, "result": true, "reason": "一个三声一个四声，各不同"},
-    {"ruleId": 143, "result": true, "reason": "无第一声"},
-    {"ruleId": 144, "result": true, "reason": "无第二声"},
-    {"ruleId": 145, "result": false, "reason": "有“子”为第三声"},
-    {"ruleId": 146, "result": false, "reason": "有“哨”为第四声"},
-    {"ruleId": 147, "result": false, "reason": "无第一声"},
-    {"ruleId": 148, "result": false, "reason": "无第二声"},
-    {"ruleId": 149, "result": true, "reason": "“子”为第三声"},
-    {"ruleId": 150, "result": true, "reason": "“哨”为第四声"}
+    {
+      "ruleId": 1,
+      "result": false,
+      "reason": "哨子为近现代物品未超过1000年"
+    },
+    {
+      "ruleId": 2,
+      "result": false,
+      "reason": "哨子在1950年以前已存在"
+    },
+    {
+      "ruleId": 3,
+      "result": false,
+      "reason": "大多数家庭没有哨子"
+    },
+    {
+      "ruleId": 4,
+      "result": true,
+      "reason": "大多数人不会拥有哨子"
+    },
+    {
+      "ruleId": 5,
+      "result": true,
+      "reason": "儿童（游戏/体育）比成人更多用"
+    },
+    {
+      "ruleId": 6,
+      "result": true,
+      "reason": "大部分人对其没兴趣"
+    },
+    {
+      "ruleId": 7,
+      "result": false,
+      "reason": "哨子不是每个人都需要"
+    },
+    {
+      "ruleId": 8,
+      "result": true,
+      "reason": "有助于（警察/体育）工作"
+    },
+    {
+      "ruleId": 9,
+      "result": false,
+      "reason": "非特殊场合专用"
+    },
+    {
+      "ruleId": 10,
+      "result": false,
+      "reason": "日常生活中不常见"
+    },
+    {
+      "ruleId": 11,
+      "result": true,
+      "reason": "哨子常属于个人专有物"
+    },
+    {
+      "ruleId": 12,
+      "result": false,
+      "reason": "通常为个人用品不常多人共用"
+    },
+    {
+      "ruleId": 13,
+      "result": false,
+      "reason": "哨子不需要电力"
+    },
+    {
+      "ruleId": 14,
+      "result": false,
+      "reason": "并非某国独有"
+    },
+    {
+      "ruleId": 15,
+      "result": true,
+      "reason": "世界许多国家都有哨子"
+    },
+    {
+      "ruleId": 16,
+      "result": false,
+      "reason": "可以长期重复使用"
+    },
+    {
+      "ruleId": 17,
+      "result": true,
+      "reason": "哨子可多年使用"
+    },
+    {
+      "ruleId": 18,
+      "result": true,
+      "reason": "可在室内使用"
+    },
+    {
+      "ruleId": 19,
+      "result": true,
+      "reason": "也可在室外使用"
+    },
+    {
+      "ruleId": 20,
+      "result": true,
+      "reason": "多数人亲眼见过哨子"
+    },
+    {
+      "ruleId": 21,
+      "result": true,
+      "reason": "商店可买到哨子"
+    },
+    {
+      "ruleId": 22,
+      "result": false,
+      "reason": "办公室很少见到"
+    },
+    {
+      "ruleId": 23,
+      "result": true,
+      "reason": "学校体育较常见"
+    },
+    {
+      "ruleId": 24,
+      "result": true,
+      "reason": "游戏/运动中可带来快乐"
+    },
+    {
+      "ruleId": 25,
+      "result": false,
+      "reason": "哨子通常不让人感到危险"
+    },
+    {
+      "ruleId": 26,
+      "result": true,
+      "reason": "可作娱乐或游戏工具"
+    },
+    {
+      "ruleId": 27,
+      "result": true,
+      "reason": "可在工作（如裁判）中用"
+    },
+    {
+      "ruleId": 28,
+      "result": false,
+      "reason": "无季节限制"
+    },
+    {
+      "ruleId": 29,
+      "result": true,
+      "reason": "哨子全年皆可用"
+    },
+    {
+      "ruleId": 30,
+      "result": false,
+      "reason": "学习门槛低"
+    },
+    {
+      "ruleId": 31,
+      "result": true,
+      "reason": "任何人容易使用"
+    },
+    {
+      "ruleId": 32,
+      "result": false,
+      "reason": "很少在正式场合出现"
+    },
+    {
+      "ruleId": 33,
+      "result": true,
+      "reason": "休闲环境可用哨子"
+    },
+    {
+      "ruleId": 34,
+      "result": false,
+      "reason": "基本无人专门收藏哨子"
+    },
+    {
+      "ruleId": 35,
+      "result": false,
+      "reason": "家庭可见哨子"
+    },
+    {
+      "ruleId": 36,
+      "result": false,
+      "reason": "哨子历史地位不高"
+    },
+    {
+      "ruleId": 37,
+      "result": false,
+      "reason": "古今均有应用"
+    },
+    {
+      "ruleId": 38,
+      "result": false,
+      "reason": "哨子很少做礼物"
+    },
+    {
+      "ruleId": 39,
+      "result": true,
+      "reason": "很少作为礼物赠送"
+    },
+    {
+      "ruleId": 40,
+      "result": false,
+      "reason": "并非有钱人拥有"
+    },
+    {
+      "ruleId": 41,
+      "result": true,
+      "reason": "各收入阶层均可使用"
+    },
+    {
+      "ruleId": 42,
+      "result": true,
+      "reason": "哨子可随身携带上飞机"
+    },
+    {
+      "ruleId": 43,
+      "result": true,
+      "reason": "一小时内易获得哨子"
+    },
+    {
+      "ruleId": 44,
+      "result": false,
+      "reason": "不用燃料即可使用"
+    },
+    {
+      "ruleId": 45,
+      "result": false,
+      "reason": "并非一次性用品"
+    },
+    {
+      "ruleId": 46,
+      "result": false,
+      "reason": "四季均可用"
+    },
+    {
+      "ruleId": 47,
+      "result": true,
+      "reason": "可反复多次使用"
+    },
+    {
+      "ruleId": 48,
+      "result": false,
+      "reason": "无需许可"
+    },
+    {
+      "ruleId": 49,
+      "result": true,
+      "reason": "世界各地大量存在哨子"
+    },
+    {
+      "ruleId": 50,
+      "result": false,
+      "reason": "并非独一无二"
+    },
+    {
+      "ruleId": 51,
+      "result": false,
+      "reason": "一般不易损坏"
+    },
+    {
+      "ruleId": 52,
+      "result": true,
+      "reason": "小巧易携带"
+    },
+    {
+      "ruleId": 53,
+      "result": false,
+      "reason": "不需要电力"
+    },
+    {
+      "ruleId": 54,
+      "result": false,
+      "reason": "哨子有各种尺寸"
+    },
+    {
+      "ruleId": 55,
+      "result": false,
+      "reason": "哨子为人造物"
+    },
+    {
+      "ruleId": 56,
+      "result": false,
+      "reason": "水中不能保持完全干燥"
+    },
+    {
+      "ruleId": 57,
+      "result": true,
+      "reason": "多数塑料哨子能漂浮"
+    },
+    {
+      "ruleId": 58,
+      "result": false,
+      "reason": "并不全由金属制成"
+    },
+    {
+      "ruleId": 59,
+      "result": true,
+      "reason": "使用时会响"
+    },
+    {
+      "ruleId": 60,
+      "result": true,
+      "reason": "常有鲜艳颜色"
+    },
+    {
+      "ruleId": 61,
+      "result": false,
+      "reason": "远小于人"
+    },
+    {
+      "ruleId": 62,
+      "result": false,
+      "reason": "并不透明"
+    },
+    {
+      "ruleId": 63,
+      "result": false,
+      "reason": "无法拆分组件"
+    },
+    {
+      "ruleId": 64,
+      "result": false,
+      "reason": "多为硬质材料（如塑料、金属）"
+    },
+    {
+      "ruleId": 65,
+      "result": false,
+      "reason": "不易折叠压扁"
+    },
+    {
+      "ruleId": 66,
+      "result": false,
+      "reason": "基本无需特殊保养维护"
+    },
+    {
+      "ruleId": 67,
+      "result": false,
+      "reason": "通常表面无锋利边缘"
+    },
+    {
+      "ruleId": 68,
+      "result": false,
+      "reason": "不能食用"
+    },
+    {
+      "ruleId": 69,
+      "result": false,
+      "reason": "通常无强烈气味"
+    },
+    {
+      "ruleId": 70,
+      "result": false,
+      "reason": "很轻远小于100公斤"
+    },
+    {
+      "ruleId": 71,
+      "result": false,
+      "reason": "是手持而非穿戴用品"
+    },
+    {
+      "ruleId": 72,
+      "result": false,
+      "reason": "不主动产生热量"
+    },
+    {
+      "ruleId": 73,
+      "result": false,
+      "reason": "不易着火"
+    },
+    {
+      "ruleId": 74,
+      "result": false,
+      "reason": "哨子表面一般无字"
+    },
+    {
+      "ruleId": 75,
+      "result": false,
+      "reason": "无需组装"
+    },
+    {
+      "ruleId": 76,
+      "result": false,
+      "reason": "塑料金属哨子自然界难分解"
+    },
+    {
+      "ruleId": 77,
+      "result": false,
+      "reason": "不能堆叠"
+    },
+    {
+      "ruleId": 78,
+      "result": true,
+      "reason": "金属或塑料有光泽"
+    },
+    {
+      "ruleId": 79,
+      "result": true,
+      "reason": "金属哨子可被磁铁吸引"
+    },
+    {
+      "ruleId": 80,
+      "result": true,
+      "reason": "能发声"
+    },
+    {
+      "ruleId": 81,
+      "result": false,
+      "reason": "不吸水"
+    },
+    {
+      "ruleId": 82,
+      "result": false,
+      "reason": "材质坚硬不易弯曲"
+    },
+    {
+      "ruleId": 83,
+      "result": true,
+      "reason": "多数哨子能漂浮于水"
+    },
+    {
+      "ruleId": 84,
+      "result": false,
+      "reason": "哨子不随时间本质变化"
+    },
+    {
+      "ruleId": 85,
+      "result": true,
+      "reason": "两侧多对称"
+    },
+    {
+      "ruleId": 86,
+      "result": true,
+      "reason": "损坏后有时能修复"
+    },
+    {
+      "ruleId": 87,
+      "result": false,
+      "reason": "不需燃料驱动"
+    },
+    {
+      "ruleId": 88,
+      "result": false,
+      "reason": "非活物"
+    },
+    {
+      "ruleId": 89,
+      "result": true,
+      "reason": "水下也能看到哨子"
+    },
+    {
+      "ruleId": 90,
+      "result": true,
+      "reason": "塑料哨子常见"
+    },
+    {
+      "ruleId": 91,
+      "result": false,
+      "reason": "很少包含木头"
+    },
+    {
+      "ruleId": 92,
+      "result": true,
+      "reason": "可加热消毒但需小心"
+    },
+    {
+      "ruleId": 93,
+      "result": false,
+      "reason": "不需特殊储存"
+    },
+    {
+      "ruleId": 94,
+      "result": true,
+      "reason": "有手工制哨子"
+    },
+    {
+      "ruleId": 95,
+      "result": true,
+      "reason": "清洗简单"
+    },
+    {
+      "ruleId": 96,
+      "result": false,
+      "reason": "一般单只，不成对"
+    },
+    {
+      "ruleId": 97,
+      "result": true,
+      "reason": "可用手握住"
+    },
+    {
+      "ruleId": 98,
+      "result": true,
+      "reason": "有很多颜色"
+    },
+    {
+      "ruleId": 99,
+      "result": true,
+      "reason": "摸起来坚硬"
+    },
+    {
+      "ruleId": 100,
+      "result": false,
+      "reason": "材质多样（塑料、金属等）"
+    },
+    {
+      "ruleId": 101,
+      "result": true,
+      "reason": "“哨子”是两个字"
+    },
+    {
+      "ruleId": 102,
+      "result": false,
+      "reason": "并非三个字"
+    },
+    {
+      "ruleId": 103,
+      "result": false,
+      "reason": "并非四个字"
+    },
+    {
+      "ruleId": 104,
+      "result": false,
+      "reason": "并非五个字"
+    },
+    {
+      "ruleId": 105,
+      "result": false,
+      "reason": "无“心”字或偏旁"
+    },
+    {
+      "ruleId": 106,
+      "result": false,
+      "reason": "无“草”字或偏旁"
+    },
+    {
+      "ruleId": 107,
+      "result": false,
+      "reason": "无“水”字或偏旁"
+    },
+    {
+      "ruleId": 108,
+      "result": false,
+      "reason": "无“金”字或偏旁"
+    },
+    {
+      "ruleId": 109,
+      "result": false,
+      "reason": "无“木”字或偏旁"
+    },
+    {
+      "ruleId": 110,
+      "result": false,
+      "reason": "无“火”字或偏旁"
+    },
+    {
+      "ruleId": 111,
+      "result": false,
+      "reason": "无“土”字或偏旁"
+    },
+    {
+      "ruleId": 112,
+      "result": false,
+      "reason": "无“日”字或偏旁"
+    },
+    {
+      "ruleId": 113,
+      "result": false,
+      "reason": "无“走”字或偏旁"
+    },
+    {
+      "ruleId": 114,
+      "result": false,
+      "reason": "无“山”字或偏旁"
+    },
+    {
+      "ruleId": 115,
+      "result": false,
+      "reason": "无“川”字或偏旁"
+    },
+    {
+      "ruleId": 116,
+      "result": false,
+      "reason": "无“雨”字或偏旁"
+    },
+    {
+      "ruleId": 117,
+      "result": false,
+      "reason": "无“人”字或偏旁"
+    },
+    {
+      "ruleId": 118,
+      "result": false,
+      "reason": "无“手”字或偏旁"
+    },
+    {
+      "ruleId": 119,
+      "result": false,
+      "reason": "无“王”字或偏旁"
+    },
+    {
+      "ruleId": 120,
+      "result": true,
+      "reason": "“哨”有“口”字旁"
+    },
+    {
+      "ruleId": 121,
+      "result": false,
+      "reason": "无“目”字或偏旁"
+    },
+    {
+      "ruleId": 122,
+      "result": false,
+      "reason": "无“耳”字或偏旁"
+    },
+    {
+      "ruleId": 123,
+      "result": false,
+      "reason": "无“足”字或偏旁"
+    },
+    {
+      "ruleId": 124,
+      "result": false,
+      "reason": "无“言”字或偏旁"
+    },
+    {
+      "ruleId": 125,
+      "result": false,
+      "reason": "无“食”字或偏旁"
+    },
+    {
+      "ruleId": 126,
+      "result": false,
+      "reason": "无“衣”字或偏旁"
+    },
+    {
+      "ruleId": 127,
+      "result": false,
+      "reason": "无“马”字或偏旁"
+    },
+    {
+      "ruleId": 128,
+      "result": false,
+      "reason": "无“鱼”字或偏旁"
+    },
+    {
+      "ruleId": 129,
+      "result": false,
+      "reason": "无“鸟”字或偏旁"
+    },
+    {
+      "ruleId": 130,
+      "result": false,
+      "reason": "无“车”字或偏旁"
+    },
+    {
+      "ruleId": 131,
+      "result": true,
+      "reason": "“哨”为左右结构"
+    },
+    {
+      "ruleId": 132,
+      "result": false,
+      "reason": "“子”为独体，“哨”分左右结构"
+    },
+    {
+      "ruleId": 133,
+      "result": false,
+      "reason": "两字偏旁不同"
+    },
+    {
+      "ruleId": 134,
+      "result": true,
+      "reason": "两字偏旁都不同"
+    },
+    {
+      "ruleId": 135,
+      "result": true,
+      "reason": "“子”仅3画，少于7画"
+    },
+    {
+      "ruleId": 136,
+      "result": true,
+      "reason": "两字皆少于10画"
+    },
+    {
+      "ruleId": 137,
+      "result": true,
+      "reason": "最大10画（哨）少于15画"
+    },
+    {
+      "ruleId": 138,
+      "result": false,
+      "reason": "“子”仅3画，不全多于12画"
+    },
+    {
+      "ruleId": 139,
+      "result": false,
+      "reason": "10->3，非递增"
+    },
+    {
+      "ruleId": 140,
+      "result": true,
+      "reason": "10->3，笔画递减"
+    },
+    {
+      "ruleId": 141,
+      "result": false,
+      "reason": "分别第四声与第三声，声调不同"
+    },
+    {
+      "ruleId": 142,
+      "result": true,
+      "reason": "一个三声一个四声，各不同"
+    },
+    {
+      "ruleId": 143,
+      "result": true,
+      "reason": "无第一声"
+    },
+    {
+      "ruleId": 144,
+      "result": true,
+      "reason": "无第二声"
+    },
+    {
+      "ruleId": 145,
+      "result": false,
+      "reason": "有“子”为第三声"
+    },
+    {
+      "ruleId": 146,
+      "result": false,
+      "reason": "有“哨”为第四声"
+    },
+    {
+      "ruleId": 147,
+      "result": false,
+      "reason": "无第一声"
+    },
+    {
+      "ruleId": 148,
+      "result": false,
+      "reason": "无第二声"
+    },
+    {
+      "ruleId": 149,
+      "result": true,
+      "reason": "“子”为第三声"
+    },
+    {
+      "ruleId": 150,
+      "result": true,
+      "reason": "“哨”为第四声"
+    }
   ]
 }
