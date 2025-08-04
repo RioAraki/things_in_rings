@@ -106,7 +106,7 @@
     {"ruleId": 101, "result": false, "reason": "企鹅不是一个字"},
     {"ruleId": 102, "result": true, "reason": "企鹅是两个字"},
     {"ruleId": 103, "result": false, "reason": "企鹅不是三个字"},
-    {"ruleId": 104, "result": false, "reason": "企鹅不是四个字"},
+    {"ruleId": 104, "result": false, "reason": "不是一个字"},
     {"ruleId": 105, "result": false, "reason": "企鹅不包含'心'字或偏旁"},
     {"ruleId": 106, "result": false, "reason": "企鹅不包含'草'字或偏旁"},
     {"ruleId": 107, "result": false, "reason": "企鹅不包含'水'字或偏旁"},

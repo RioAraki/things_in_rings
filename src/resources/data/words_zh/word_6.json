@@ -106,7 +106,7 @@
     {"ruleId": 101, "result": true, "reason": "“手机”为两个字"},
     {"ruleId": 102, "result": false, "reason": "“手机”不是三个字"},
     {"ruleId": 103, "result": false, "reason": "“手机”不是四个字"},
-    {"ruleId": 104, "result": false, "reason": "“手机”不是五个字"},
+    {"ruleId": 104, "result": false, "reason": "非一个字"},
     {"ruleId": 105, "result": true, "reason": "“手”字含“手”偏旁"},
     {"ruleId": 106, "result": false, "reason": "“手机”都不含“草”字或其偏旁"},
     {"ruleId": 107, "result": false, "reason": "“手机”都不含“水”字或其偏旁"},

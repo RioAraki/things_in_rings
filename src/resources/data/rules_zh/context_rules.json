@@ -4,7 +4,6 @@
     { "id": 2, "question": "新事物（1950年后）？", "difficulty": 2 },
     { "id": 3, "question": "大多数家庭都有？", "difficulty": 1 },
     { "id": 4, "question": "大多数人没有的稀有物品？", "difficulty": 1 },
-    { "id": 5, "question": "儿童比成人更多使用？", "difficulty": 1 }, 
     { "id": 6, "question": "大部分人对其没兴趣", "difficulty": 1 },
     { "id": 7, "question": "每个人都需要的东西？", "difficulty": 2 },
     { "id": 8, "question": "有助于完成工作？", "difficulty": 2 },

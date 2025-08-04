@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>词语规则可视化表格 - 交互版</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f5f5f5;
+            margin: 0;
+        }
+        .container {
+            max-width: 100%;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .table-container {
+            position: relative;
+            max-width: 100%;
+            overflow: auto;
+            max-height: 80vh;
+            border: 1px solid #ddd;
+        }
+        table {
+            border-collapse: collapse;
+            width: auto;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+            min-width: 100px;
+        }
+        th {
+            background-color: paleturquoise;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            font-weight: bold;
+        }
+        /* First column - ID */
+        .id-cell {
+            position: sticky;
+            left: 0;
+            background-color: #f0f0f0;
+            z-index: 5;
+            font-weight: bold;
+            min-width: 60px;
+            max-width: 60px;
+        }
+        /* Second column - Word */
+        .word-cell {
+            position: sticky;
+            left: 60px; /* Width of the ID column */
+            background-color: #f0f0f0;
+            z-index: 5;
+            font-weight: bold;
+            min-width: 80px;
+        }
+        /* Special background for sticky cells when row is hovered */
+        tr:hover:not(:nth-child(1)):not(:nth-child(2)) .id-cell,
+        tr:hover:not(:nth-child(1)):not(:nth-child(2)) .word-cell {
+            background-color: #e0e0e0;
+        }
+        /* Special background for sticky cells in even rows */
+        tr:nth-child(even):not(:nth-child(2)) .id-cell,
+        tr:nth-child(even):not(:nth-child(2)) .word-cell {
+            background-color: #e6e6e6;
+        }
+        /* Fixed headers for ID and Word columns */
+        .id-header {
+            position: sticky;
+            left: 0;
+            z-index: 15;
+            background-color: #2c3e50;
+            color: white;
+            min-width: 60px;
+            max-width: 60px;
+        }
+        .word-header {
+            position: sticky;
+            left: 60px; /* Width of the ID column */
+            z-index: 15;
+            background-color: #2c3e50;
+            color: white;
+        }
+        .rule-id-row th:not(.id-header):not(.word-header) {
+            background-color: #4a6da7;
+            color: white;
+            height: 30px;
+            font-weight: bold;
+        }
+        .true {
+            background-color: lightgreen;
+        }
+        .false {
+            background-color: lightcoral;
+        }
+        /* Ensure correct background when cell has a result and is in the sticky column */
+        tr:nth-child(even):not(:nth-child(2)) .id-cell.true,
+        tr:nth-child(even):not(:nth-child(2)) .word-cell.true {
+            background-color: lightgreen;
+        }
+        tr:nth-child(even):not(:nth-child(2)) .id-cell.false,
+        tr:nth-child(even):not(:nth-child(2)) .word-cell.false {
+            background-color: lightcoral;
+        }
+        .rule-title {
+            max-width: 200px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        /* Show full text on hover */
+        .rule-title:hover {
+            overflow: visible;
+            white-space: normal;
+            background-color: #eafaea;
+            position: absolute;
+            z-index: 20;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            border-radius: 3px;
+            padding: 5px;
+        }
+        /* Reason tooltip */
+        .reason-tooltip {
+            position: absolute;
+            z-index: 30;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 8px;
+            width: 200px;
+            display: none;
+            text-align: left;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            pointer-events: none;
+            font-size: 14px;
+            line-height: 1.4;
+            color: #333;
+        }
+        .cell-with-reason:hover .reason-tooltip {
+            display: block;
+        }
+        .interactive-cell {
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .interactive-cell:hover {
+            opacity: 0.8;
+            transform: scale(1.05);
+        }
+        .interactive-cell.changed {
+            border: 3px solid #ff6b6b;
+            animation: pulse 1s infinite;
+        }
+        @keyframes pulse {
+            0% { border-color: #ff6b6b; }
+            50% { border-color: #ff8e8e; }
+            100% { border-color: #ff6b6b; }
+        }
+        button {
+            padding: 5px 10px;
+            background-color: #4a6da7;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background-color: #345286;
+        }
+        button.save-btn {
+            background-color: #27ae60;
+            font-weight: bold;
+            padding: 10px 20px;
+        }
+        button.save-btn:hover {
+            background-color: #229954;
+        }
+        button.save-btn:disabled {
+            background-color: #95a5a6;
+            cursor: not-allowed;
+        }
+        .save-status {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            display: none;
+        }
+        .save-status.success {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .save-status.error {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        .save-status.info {
+            background-color: #d1ecf1;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+        .controls {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .stats {
+            margin: 10px 0;
+            color: #666;
+            font-size: 0.9em;
+        }
+        /* Modal styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .modal-content {
+            background-color: white;
+            margin: 5% auto;
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 800px;
+            max-height: 80vh;
+            overflow-y: auto;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 15px;
+        }
+        .modal-header h2 {
+            margin: 0;
+            color: #333;
+        }
+        .close {
+            color: #aaa;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+            line-height: 1;
+        }
+        .close:hover {
+            color: #000;
+        }
+        .change-item {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+            background-color: #f9f9f9;
+        }
+        .change-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .change-info {
+            font-weight: bold;
+            color: #333;
+        }
+        .change-value {
+            padding: 3px 8px;
+            border-radius: 3px;
+            color: white;
+            font-weight: bold;
+        }
+        .change-value.true {
+            background-color: #28a745;
+        }
+        .change-value.false {
+            background-color: #dc3545;
+        }
+        .question-text {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+        .reason-input {
+            width: 100%;
+            min-height: 60px;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: inherit;
+            font-size: 14px;
+            resize: vertical;
+        }
+        .reason-input:focus {
+            outline: none;
+            border-color: #4a6da7;
+            box-shadow: 0 0 0 2px rgba(74, 109, 167, 0.2);
+        }
+        .modal-footer {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px solid #ddd;
+        }
+        .modal-btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .modal-btn.cancel {
+            background-color: #6c757d;
+            color: white;
+        }
+        .modal-btn.cancel:hover {
+            background-color: #5a6268;
+        }
+        .modal-btn.save {
+            background-color: #28a745;
+            color: white;
+        }
+        .modal-btn.save:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>词语规则可视化表格 - 交互版</h1>
+        
+        <div class="controls">
+            <div>
+                <button id="saveChanges" class="save-btn">保存更改</button>
+                <button id="exportCSV">导出为CSV</button>
+            </div>
+            <div class="stats">
+                <span>已修改: <span id="changedCount">0</span></span>
+            </div>
+        </div>
+        
+        <div id="saveStatus" class="save-status"></div>
+        
+        <div id="tableContainer" class="table-container">
+            <!-- Table content will be loaded here -->
+        </div>
+        
+        <div style="margin-top: 20px; text-align: center; color: #666;">
+            <p>点击单元格可以切换 True/False 值。修改后点击"保存更改"按钮将更改保存到对应的 JSON 文件。</p>
+        </div>
+    </div>
+
+    <!-- Modal for editing reasons -->
+    <div id="reasonModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>编辑更改原因</h2>
+                <span class="close" id="closeModal">&times;</span>
+            </div>
+            <div id="changesContainer">
+                <!-- Changes will be populated here -->
+            </div>
+            <div class="modal-footer">
+                <button class="modal-btn cancel" id="cancelChanges">取消</button>
+                <button class="modal-btn save" id="saveWithReasons">保存所有更改</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global variables
+        let wordData = {};
+        let changedCells = new Set();
+        let tableData = [];
+        let changedCellDetails = new Map(); // Store detailed info about changed cells
+
+        // Load table data
+        async function loadTableData() {
+            try {
+                // Load the original table HTML to extract data
+                const response = await fetch('word_rules_table.html');
+                const html = await response.text();
+                
+                // Parse the HTML to extract table data
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, 'text/html');
+                const table = doc.querySelector('table');
+                
+                if (!table) {
+                    throw new Error('Table not found in HTML');
+                }
+
+                // Extract headers
+                const headers = [];
+                const headerRows = table.querySelectorAll('thead tr');
+                headerRows.forEach((row, rowIndex) => {
+                    const rowHeaders = [];
+                    row.querySelectorAll('th').forEach((th, colIndex) => {
+                        if (rowIndex === 0) {
+                            // Rule IDs
+                            rowHeaders.push(th.textContent.trim());
+                        } else {
+                            // Rule questions
+                            const titleDiv = th.querySelector('.rule-title');
+                            rowHeaders.push(titleDiv ? titleDiv.textContent.trim() : th.textContent.trim());
+                        }
+                    });
+                    headers.push(rowHeaders);
+                });
+
+                // Extract table body data
+                const tbody = table.querySelector('tbody');
+                const rows = tbody.querySelectorAll('tr');
+                
+                rows.forEach((row, rowIndex) => {
+                    const cells = row.querySelectorAll('td');
+                    const wordId = cells[0].textContent.trim();
+                    const word = cells[1].textContent.trim();
+                    
+                    const wordRow = {
+                        id: wordId,
+                        word: word,
+                        data: {}
+                    };
+                    
+                    // Extract cell data (skip first two columns: ID and word)
+                    for (let i = 2; i < cells.length; i++) {
+                        const cell = cells[i];
+                        const ruleId = headers[0][i];
+                        const question = headers[1][i];
+                        const result = cell.classList.contains('true');
+                        const reason = cell.querySelector('.reason-tooltip') ? 
+                            cell.querySelector('.reason-tooltip').textContent.trim() : '';
+                        
+                        wordRow.data[ruleId] = {
+                            result: result,
+                            reason: reason,
+                            question: question
+                        };
+                    }
+                    
+                    tableData.push(wordRow);
+                });
+
+                // Sort tableData by ID numerically
+                tableData.sort((a, b) => parseInt(a.id) - parseInt(b.id));
+                
+                // Load word JSON files
+                await loadWordJsonFiles();
+                
+                // Render the interactive table
+                renderTable();
+                
+            } catch (error) {
+                console.error('Error loading table data:', error);
+                showSaveStatus('加载表格数据失败: ' + error.message, 'error');
+            }
+        }
+
+        // Load word JSON files
+        async function loadWordJsonFiles() {
+            const wordFiles = [];
+            for (let i = 1; i <= 50; i++) {
+                wordFiles.push(`src/resources/data/words_zh/word_${i}.json`);
+            }
+
+            for (const file of wordFiles) {
+                try {
+                    const response = await fetch(file);
+                    if (response.ok) {
+                        const data = await response.json();
+                        wordData[data.id] = data;
+                    }
+                } catch (error) {
+                    console.warn(`Failed to load ${file}:`, error);
+                }
+            }
+        }
+
+        // Render the interactive table
+        function renderTable() {
+            const tableContainer = document.getElementById('tableContainer');
+            
+            // Create table HTML
+            let tableHTML = '<table><thead>';
+            
+            // Add header rows
+            tableHTML += '<tr class="rule-id-row">';
+            tableHTML += '<th class="id-header">ID</th>';
+            tableHTML += '<th class="word-header">词语</th>';
+            
+            // Add rule IDs
+            const ruleIds = Object.keys(tableData[0].data);
+            ruleIds.forEach(ruleId => {
+                tableHTML += `<th>${ruleId}</th>`;
+            });
+            tableHTML += '</tr>';
+            
+            // Add question row
+            tableHTML += '<tr>';
+            tableHTML += '<th class="id-header">ID</th>';
+            tableHTML += '<th class="word-header">词语</th>';
+            
+            ruleIds.forEach(ruleId => {
+                const question = tableData[0].data[ruleId].question;
+                tableHTML += `<th><div class="rule-title">${question}</div></th>`;
+            });
+            tableHTML += '</tr></thead><tbody>';
+            
+            // Add data rows
+            tableData.forEach(row => {
+                const hasTrue = Object.values(row.data).some(d => d.result);
+                const hasFalse = Object.values(row.data).some(d => !d.result);
+                const hasDiff = hasTrue && hasFalse;
+                
+                let rowClass = 'row-has-true row-has-false';
+                if (hasDiff) rowClass += ' has-diff';
+                
+                tableHTML += `<tr class="${rowClass}">`;
+                tableHTML += `<td class="id-cell">${row.id}</td>`;
+                tableHTML += `<td class="word-cell">${row.word}</td>`;
+                
+                ruleIds.forEach(ruleId => {
+                    const cellData = row.data[ruleId];
+                    const result = cellData.result;
+                    const reason = cellData.reason;
+                    
+                    let cellClass = result ? 'true' : 'false';
+                    if (reason) cellClass += ' cell-with-reason';
+                    cellClass += ' interactive-cell';
+                    
+                    const cellId = `cell_${row.id}_${ruleId}`;
+                    
+                    tableHTML += `<td class="${cellClass}" data-word-id="${row.id}" data-rule-id="${ruleId}" id="${cellId}">`;
+                    tableHTML += result ? 'true' : 'false';
+                    if (reason) {
+                        tableHTML += `<div class="reason-tooltip">${reason}</div>`;
+                    }
+                    tableHTML += '</td>';
+                });
+                
+                tableHTML += '</tr>';
+            });
+            
+            tableHTML += '</tbody></table>';
+            tableContainer.innerHTML = tableHTML;
+            
+            // Add click event listeners
+            addCellClickListeners();
+            
+            // Initialize other functionality
+            initializeButtons();
+            updateStats();
+        }
+
+        // Add click event listeners to cells
+        function addCellClickListeners() {
+            const cells = document.querySelectorAll('.interactive-cell');
+            cells.forEach(cell => {
+                cell.addEventListener('click', function() {
+                    const wordId = this.getAttribute('data-word-id');
+                    const ruleId = this.getAttribute('data-rule-id');
+                    const currentValue = this.classList.contains('true');
+                    
+                    // Toggle the value
+                    const newValue = !currentValue;
+                    
+                    // Update the cell
+                    this.classList.remove('true', 'false');
+                    this.classList.add(newValue ? 'true' : 'false');
+                    this.textContent = newValue ? 'true' : 'false';
+                    
+                    // Mark as changed
+                    this.classList.add('changed');
+                    const cellKey = `${wordId}_${ruleId}`;
+                    changedCells.add(cellKey);
+                    
+                    // Store detailed change information
+                    const wordRow = tableData.find(row => row.id == wordId);
+                    const question = wordRow ? wordRow.data[ruleId].question : '';
+                    const word = wordRow ? wordRow.word : '';
+                    const currentReason = wordRow ? wordRow.data[ruleId].reason : '';
+                    
+                    changedCellDetails.set(cellKey, {
+                        wordId: wordId,
+                        word: word,
+                        ruleId: ruleId,
+                        question: question,
+                        oldValue: currentValue,
+                        newValue: newValue,
+                        currentReason: currentReason
+                    });
+                    
+                    // Update the data
+                    if (wordData[wordId]) {
+                        const questionIndex = wordData[wordId].questions.findIndex(q => q.ruleId == ruleId);
+                        if (questionIndex !== -1) {
+                            wordData[wordId].questions[questionIndex].result = newValue;
+                        }
+                    }
+                    
+                    updateStats();
+                });
+            });
+        }
+
+        // Initialize buttons
+        function initializeButtons() {
+            // Export to CSV
+            document.getElementById('exportCSV').addEventListener('click', function() {
+                const table = document.querySelector('table');
+                const rows = Array.from(table.querySelectorAll('tr'));
+                
+                let csvContent = "data:text/csv;charset=utf-8,";
+                
+                rows.forEach(row => {
+                    const cells = Array.from(row.querySelectorAll('th, td'));
+                    const rowData = cells.map(cell => {
+                        let content = cell.textContent.trim();
+                        content = content.replace(/"/g, '""');
+                        if (content.includes(',')) {
+                            content = `"${content}"`;
+                        }
+                        return content;
+                    });
+                    csvContent += rowData.join(',') + "\r\n";
+                });
+                
+                const encodedUri = encodeURI(csvContent);
+                const link = document.createElement("a");
+                link.setAttribute("href", encodedUri);
+                link.setAttribute("download", "word_rules_table.csv");
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            });
+            
+            // Save changes
+            document.getElementById('saveChanges').addEventListener('click', saveChanges);
+            
+            // Modal event listeners
+            document.getElementById('closeModal').addEventListener('click', hideReasonModal);
+            document.getElementById('cancelChanges').addEventListener('click', hideReasonModal);
+            document.getElementById('saveWithReasons').addEventListener('click', saveChangesWithReasons);
+            
+            // Close modal when clicking outside
+            document.getElementById('reasonModal').addEventListener('click', function(e) {
+                if (e.target === this) {
+                    hideReasonModal();
+                }
+            });
+        }
+
+        // Update statistics
+        function updateStats() {
+            document.getElementById('changedCount').textContent = changedCells.size;
+            
+            // Enable/disable save button
+            const saveBtn = document.getElementById('saveChanges');
+            saveBtn.disabled = changedCells.size === 0;
+        }
+
+        // Show modal for editing reasons before saving
+        function saveChanges() {
+            if (changedCells.size === 0) {
+                showSaveStatus('没有需要保存的更改', 'info');
+                return;
+            }
+
+            showReasonModal();
+        }
+
+        // Show the reason editing modal
+        function showReasonModal() {
+            const modal = document.getElementById('reasonModal');
+            const container = document.getElementById('changesContainer');
+            
+            // Clear previous content
+            container.innerHTML = '';
+            
+            // Populate the modal with changed cells
+            changedCellDetails.forEach((change, cellKey) => {
+                const changeItem = document.createElement('div');
+                changeItem.className = 'change-item';
+                changeItem.innerHTML = `
+                    <div class="change-header">
+                        <div class="change-info">
+                            ID: ${change.wordId} - ${change.word} | 规则: ${change.ruleId}
+                        </div>
+                        <div class="change-value ${change.newValue}">${change.newValue ? 'TRUE' : 'FALSE'}</div>
+                    </div>
+                    <div class="question-text">${change.question}</div>
+                    <textarea class="reason-input" data-cell-key="${cellKey}" placeholder="请输入新的原因...">${change.currentReason}</textarea>
+                `;
+                container.appendChild(changeItem);
+            });
+            
+            modal.style.display = 'block';
+        }
+
+        // Hide the reason modal
+        function hideReasonModal() {
+            const modal = document.getElementById('reasonModal');
+            modal.style.display = 'none';
+        }
+
+        // Save changes with updated reasons
+        async function saveChangesWithReasons() {
+            const saveBtn = document.getElementById('saveWithReasons');
+            saveBtn.disabled = true;
+            saveBtn.textContent = '保存中...';
+
+            try {
+                // Update reasons from the modal
+                const reasonInputs = document.querySelectorAll('.reason-input');
+                reasonInputs.forEach(input => {
+                    const cellKey = input.getAttribute('data-cell-key');
+                    const newReason = input.value.trim();
+                    const change = changedCellDetails.get(cellKey);
+                    
+                    if (change && wordData[change.wordId]) {
+                        const questionIndex = wordData[change.wordId].questions.findIndex(q => q.ruleId == change.ruleId);
+                        if (questionIndex !== -1) {
+                            wordData[change.wordId].questions[questionIndex].reason = newReason;
+                        }
+                    }
+                });
+
+                const changedWords = new Set();
+                changedCells.forEach(cellKey => {
+                    const [wordId] = cellKey.split('_');
+                    changedWords.add(wordId);
+                });
+
+                let successCount = 0;
+                let errorCount = 0;
+
+                for (const wordId of changedWords) {
+                    if (wordData[wordId]) {
+                        try {
+                            const response = await fetch(`/api/save-word/${wordId}`, {
+                                method: 'POST',
+                                headers: {
+                                    'Content-Type': 'application/json',
+                                },
+                                body: JSON.stringify(wordData[wordId])
+                            });
+
+                            if (response.ok) {
+                                successCount++;
+                            } else {
+                                errorCount++;
+                                console.error(`Failed to save word ${wordId}:`, response.statusText);
+                            }
+                        } catch (error) {
+                            errorCount++;
+                            console.error(`Error saving word ${wordId}:`, error);
+                        }
+                    }
+                }
+
+                if (errorCount === 0) {
+                    showSaveStatus(`成功保存 ${successCount} 个文件的更改`, 'success');
+                    changedCells.clear();
+                    changedCellDetails.clear();
+                    // Remove changed styling
+                    document.querySelectorAll('.changed').forEach(cell => {
+                        cell.classList.remove('changed');
+                    });
+                    hideReasonModal();
+                } else {
+                    showSaveStatus(`保存完成，成功: ${successCount}, 失败: ${errorCount}`, 'error');
+                }
+
+            } catch (error) {
+                console.error('Error saving changes:', error);
+                showSaveStatus('保存失败: ' + error.message, 'error');
+            } finally {
+                saveBtn.disabled = false;
+                saveBtn.textContent = '保存所有更改';
+                updateStats();
+            }
+        }
+
+        // Show save status message
+        function showSaveStatus(message, type) {
+            const statusDiv = document.getElementById('saveStatus');
+            statusDiv.textContent = message;
+            statusDiv.className = `save-status ${type}`;
+            statusDiv.style.display = 'block';
+            
+            setTimeout(() => {
+                statusDiv.style.display = 'none';
+            }, 5000);
+        }
+
+        // Initialize when DOM is loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            loadTableData();
+        });
+    </script>
+</body>
+</html> 

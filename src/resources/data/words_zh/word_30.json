@@ -103,7 +103,7 @@
     {"ruleId": 98, "result": false, "reason": "常见品种为绿色,颜色少"},
     {"ruleId": 99, "result": true, "reason": "植物表面坚硬带刺"},
     {"ruleId": 100, "result": true, "reason": "单一植物材质"},
-    {"ruleId": 101, "result": true, "reason": "共三个字,不满足两个字"},
+    {"ruleId": 101, "result": false, "reason": "共三个字,不满足两个字"},
     {"ruleId": 102, "result": true, "reason": "正好三个字"},
     {"ruleId": 103, "result": false, "reason": "不是四字"},
     {"ruleId": 104, "result": false, "reason": "不是五字"},

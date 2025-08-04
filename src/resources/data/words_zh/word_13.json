@@ -106,7 +106,7 @@
     {"ruleId": 101, "result": false, "reason": "此词四字"},
     {"ruleId": 102, "result": false, "reason": "不是三个字"},
     {"ruleId": 103, "result": true, "reason": "恰为四字"},
-    {"ruleId": 104, "result": false, "reason": "不是五个字"},
+    {"ruleId": 104, "result": false, "reason": "非一个字"},
     {"ruleId": 105, "result": false, "reason": "没有“心”或其偏旁"},
     {"ruleId": 106, "result": false, "reason": "没有“草”字头"},
     {"ruleId": 107, "result": true, "reason": "“汽”带“氵”偏旁"},

@@ -106,7 +106,7 @@
     {"ruleId": 101, "result": true, "reason": "牙膏为两个字"},
     {"ruleId": 102, "result": false, "reason": "不是三个字"},
     {"ruleId": 103, "result": false, "reason": "不是四个字"},
-    {"ruleId": 104, "result": false, "reason": "不是五个字"},
+    {"ruleId": 104, "result": false, "reason": "不是一个字"},
     {"ruleId": 105, "result": false, "reason": "无“心”或相关偏旁"},
     {"ruleId": 106, "result": false, "reason": "无“艹”(草字头)或相关偏旁"},
     {"ruleId": 107, "result": false, "reason": "无“氵”等水部"},

@@ -106,7 +106,7 @@
     {"ruleId": 101, "result": false, "reason": "“狗”为单字"},
     {"ruleId": 102, "result": false, "reason": "非三字"},
     {"ruleId": 103, "result": false, "reason": "非四字"},
-    {"ruleId": 104, "result": false, "reason": "非五字"},
+    {"ruleId": 104, "result": true, "reason": "是一个字"},
     {"ruleId": 105, "result": false, "reason": "“狗”无心偏旁"},
     {"ruleId": 106, "result": false, "reason": "“狗”无草偏旁"},
     {"ruleId": 107, "result": false, "reason": "“狗”无水偏旁"},

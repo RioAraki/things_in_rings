@@ -106,7 +106,7 @@
     {"ruleId": 101, "result": false, "reason": "该词为三个字。"},
     {"ruleId": 102, "result": true, "reason": "“博物馆”正好三个字。"},
     {"ruleId": 103, "result": false, "reason": "不是四个字。"},
-    {"ruleId": 104, "result": false, "reason": "不是五个字。"},
+    {"ruleId": 104, "result": false, "reason": "非一个字"},
     {"ruleId": 105, "result": false, "reason": "无“心”字及其偏旁。"},
     {"ruleId": 106, "result": false, "reason": "无“草”字及其偏旁。"},
     {"ruleId": 107, "result": false, "reason": "无“水”字及其偏旁。"},

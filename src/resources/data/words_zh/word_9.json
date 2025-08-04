@@ -106,7 +106,7 @@
     {"ruleId": 101, "result": true, "reason": "“眼镜”为两个字"},
     {"ruleId": 102, "result": false, "reason": "字数为两个，不是三个"},
     {"ruleId": 103, "result": false, "reason": "字数为两个，不是四个"},
-    {"ruleId": 104, "result": false, "reason": "字数为两个，不是五个"},
+    {"ruleId": 104, "result": false, "reason": "非一个字"},
     {"ruleId": 105, "result": false, "reason": "无“心”字偏旁"},
     {"ruleId": 106, "result": false, "reason": "无“草”字偏旁"},
     {"ruleId": 107, "result": false, "reason": "无“水”字偏旁"},
